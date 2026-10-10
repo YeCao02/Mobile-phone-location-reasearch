@@ -1,6 +1,6 @@
 {
   "as_of": "2026-10-10",
-  "scope": "第一轮中国供应商、逐校采购及基金论文关系证据；不是穷尽调查",
+  "scope": "两轮中国供应商、逐校采购及基金论文关系证据；不是穷尽调查",
   "classification_rules": [
     "采购、课题、论文分别建节点；只建立有直接证据的边。",
     "LBS名称或公司品牌不能单独证明SDK/GPS/WiFi且排除运营商。",
@@ -158,11 +158,149 @@
       "url": "https://geodoi.ac.cn/DOIPaper/HTML/2026139402/202602139408.htm",
       "type": "primary_paper_indexed_methods",
       "published": "2026",
-      "institution": "待完整题录核验",
+      "institution": "深圳大学夏吉喆团队",
       "supplier": "北京摸星科技有限公司",
-      "finding": "3.1明示Wi-Fi、蓝牙、GPS轨迹；北京、上海、深圳、成都、武汉、西安；2023-01-24至02-23；匿名ID、时间戳、定位方式、经纬度；分析至少有20小时有效定位者。",
+      "finding": "出版方全文的搜索索引：3.1数据来源点名北京摸星科技有限公司；WiFi/蓝牙/GPS；北京、上海、深圳、成都、武汉、西安；2023-01-24至02-23。表1基金项目列国家自然科学基金42171400。",
       "confidence": "medium",
-      "limits": "本轮读原始页面索引方法段，直达失败；论文/数据集DOI疑有元数据冲突，暂不据DOI导入。原文中文为“摸星”；Moxing Beijing与先锋体系关系为项目发起人确认，公开工商待补。"
+      "limits": "全文HTML经检索索引可读；直连与本机下载失败，未保存PDF。SDK架构未明说；定位技术明确。公司工商关系未证明。 出版方报告DOI 10.3974/geodp.2026.02.08，但另一机构新闻将其指向不同文章；DOI注册未核验，勿据此自动合并。",
+      "authors": [
+        "吴梓昊",
+        "马志锋",
+        "夏吉喆"
+      ],
+      "journal": "全球变化数据学报",
+      "volume": 10,
+      "issue": 2,
+      "pages": "180–190",
+      "doi_reported": "10.3974/geodp.2026.02.08",
+      "doi_status": "publisher_html_and_landing_agree_but_external_primary_source_conflicts; resolver_failed",
+      "verification": "primary_indexed_fulltext",
+      "methods_audit": [
+        "所谓1m内空间精度、1h内时间精度是论文声明，未独立验证，不能升级为供应商普遍性能。",
+        "GPS记录判室外、WiFi/蓝牙记录判室内属于方法假设，不能视作验证过的室内外真值。",
+        "筛选每天有效记录至少20小时可能带来样本选择偏差。"
+      ]
+    },
+    {
+      "id": "CN-S15",
+      "title": "人群轨迹数据视角下中国6个城市PM2.5暴露平等性1-km时均栅格数据集（2023年1–2月）",
+      "url": "https://www.geodoi.ac.cn/WebCn/geodoi.aspx?ID=3949&paperID=963cf123-47e6-4494-953c-8694ca02eace",
+      "type": "publisher_dataset",
+      "authors": [
+        "马志锋",
+        "吴梓昊",
+        "夏吉喆"
+      ],
+      "year": 2026,
+      "doi": "10.3974/geodb.2026.02.08.V1",
+      "finding": "原始来源搜索索引：轨迹研究产生的污染浓度、暴露和不平等指标数据；.shp/.tif/.xlsx，753文件，压缩127MB。",
+      "verification": "primary_indexed_text",
+      "limits": "作者顺序与论文不同；开放衍生数据不能等同于开放个人轨迹。落地页基金字段检索显示空，论文表1明确42171400。",
+      "confidence": "primary_indexed_evidence",
+      "published": "2026"
+    },
+    {
+      "id": "CN-S16",
+      "title": "沙漠气象研究所在新疆伊犁地区暴雪灾害风险数据集研发方面取得新进展",
+      "url": "https://www.idm.cn/News/3900",
+      "type": "official_institution_news",
+      "published": "2026-05-08",
+      "finding": "原始来源搜索索引：把10.3974/geodp.2026.02.08用于崔晶、戴晓爱、刘艳的新疆暴雪数据论文，和PM2.5出版方页面冲突。",
+      "verification": "primary_indexed_fulltext",
+      "limits": "冲突可能来自机构新闻误引；未获得成功的DOI解析/Crossref登记信息，不自行裁决。",
+      "confidence": "primary_indexed_evidence"
+    },
+    {
+      "id": "CN-S17",
+      "title": "PM2.5论文出版方书目页",
+      "url": "https://geodoi.ac.cn/%5CWebCn/paper.aspx?Id=963cf123-47e6-4494-953c-8694ca02eace",
+      "type": "publisher_metadata",
+      "finding": "原始来源搜索索引：吴梓昊、马志锋、夏吉喆；全球变化数据学报2026,10(2):180–190；同样登记10.3974/geodp.2026.02.08。",
+      "verification": "primary_indexed_text",
+      "limits": "保留出版方报告DOI，导入时暂不凭DOI自动合并。",
+      "confidence": "primary_indexed_evidence",
+      "published": ""
+    },
+    {
+      "id": "CN-S18",
+      "title": "李峰清—上海大学上海美术学院",
+      "url": "https://safa.shu.edu.cn/info/1111/7908.htm",
+      "type": "official_faculty_profile",
+      "finding": "主持NSFC52278069，流形互动视角下大都市跨界活动的空间影响及机理研究，2023–2026；2020年主持南京市LBS大数据购置、清洗及空间分析研究；另有2019PJC053职-住-流项目。",
+      "verification": "primary_page_opened",
+      "limits": "仅作者/课题种子，不证明先锋、摸星、即刻LBS供应关系，也不证明对应STC24A483或SDK。",
+      "confidence": "primary_indexed_evidence",
+      "published": ""
+    },
+    {
+      "id": "CN-S19",
+      "title": "每日互动用户运营SDK合规说明",
+      "url": "https://docs.getui.com/compliance/ido/",
+      "type": "official_vendor_technical",
+      "finding": "用户运营SDK列明可选GPS、WiFiSSID/BSSID与基站等字段。",
+      "limits": "手机SDK读取基站标识不等于运营商信令数据；需逐产品核查来源。",
+      "confidence": "primary_indexed_evidence",
+      "published": ""
+    },
+    {
+      "id": "CN-S20",
+      "title": "每日互动人口洞察",
+      "url": "https://www.getui.com/demographic-pan",
+      "type": "official_vendor_product",
+      "finding": "提供人口规模、流动与画像等空间人口分析产品。",
+      "limits": "分析产品存在不等于可采购学术原始轨迹；未核得直接高校采购。",
+      "confidence": "primary_indexed_evidence",
+      "published": ""
+    },
+    {
+      "id": "CN-S21",
+      "title": "每日互动2019城市规划信息化会议报道",
+      "url": "https://www.getui.com/news/2019111559",
+      "type": "official_vendor_news",
+      "finding": "公司介绍人口与空间动态规划服务及多空间尺度应用。",
+      "limits": "公司自述应用能力；不能替代数据来源审计。",
+      "confidence": "primary_indexed_evidence",
+      "published": ""
+    },
+    {
+      "id": "CN-S22",
+      "title": "TalkingData SDK隐私政策",
+      "url": "https://www.talkingdata.com/sdkprivacy.jsp?languagetype=zh_cn",
+      "type": "official_vendor_technical",
+      "finding": "SDK可选位置、WiFi和手机基站信息；主体北京腾云天下科技有限公司。",
+      "limits": "说明采集能力，不直接证明轨迹商品或科研供给。",
+      "confidence": "primary_indexed_evidence",
+      "published": ""
+    },
+    {
+      "id": "CN-S23",
+      "title": "TalkingData移动观象台",
+      "url": "https://mi.talkingdata.com/hawkeye.html/",
+      "type": "official_vendor_product",
+      "finding": "市场洞察产品声明SDK及外部引入数据来源。",
+      "limits": "该产品混合来源不能推广到公司每个产品；原始研究轨迹产品未确认。",
+      "confidence": "primary_indexed_evidence",
+      "published": ""
+    },
+    {
+      "id": "CN-S24",
+      "title": "极光推送SDK合规指南",
+      "url": "https://docs.jiguang.cn/en/jpush/client/jghgzy_a_i_h",
+      "type": "official_vendor_technical",
+      "finding": "定位、蓝牙、地理围栏及WiFi/基站相关说明。",
+      "limits": "SDK技术证据不等于原始移动轨迹商业许可证据。",
+      "confidence": "primary_indexed_evidence",
+      "published": ""
+    },
+    {
+      "id": "CN-S25",
+      "title": "极光月狐iMarketing产品介绍",
+      "url": "https://www.jiguang.cn/en/blog/25",
+      "type": "official_vendor_product",
+      "finding": "线下区域人群、位置及工作/居住/休闲等分析。",
+      "limits": "产品级轨迹出处、运营商混合情况和原始数据可购买性仍需确认。",
+      "confidence": "primary_indexed_evidence",
+      "published": ""
     }
   ],
   "verified_edges": [
@@ -215,6 +353,58 @@
       "sources": [
         "CN-S08"
       ]
+    },
+    {
+      "from": "北京摸星科技有限公司",
+      "relation": "provided_individual_trajectory_data_for",
+      "to": "轨迹数据视角下的分人群PM2.5暴露平等性数据集研发",
+      "status": "public_primary_verified",
+      "sources": [
+        "CN-S14"
+      ],
+      "verification": "primary_search_index; not downloaded fulltext"
+    },
+    {
+      "from": "轨迹数据视角下的分人群PM2.5暴露平等性数据集研发",
+      "relation": "associated_dataset_lists_fund",
+      "to": "NSFC42171400",
+      "status": "public_primary_verified",
+      "sources": [
+        "CN-S14"
+      ],
+      "location": "表1 基金项目",
+      "verification": "primary_search_index; not downloaded fulltext"
+    },
+    {
+      "from": "NSFC42171400",
+      "relation": "PI",
+      "to": "夏吉喆",
+      "status": "public_primary_verified",
+      "sources": [
+        "CN-S04"
+      ],
+      "verification": "primary_search_index; not downloaded fulltext"
+    },
+    {
+      "from": "北京摸星科技有限公司",
+      "relation": "within_article_bilingual_name",
+      "to": "Moxing Technology",
+      "status": "article_context_only",
+      "sources": [
+        "CN-S14",
+        "CN-S10"
+      ],
+      "verification": "primary_search_index; not downloaded fulltext"
+    },
+    {
+      "from": "北京先锋数聚信息科技有限公司",
+      "relation": "proposed_supplier",
+      "to": "深圳大学建筑与城市规划学院2024年11月手机用户特征标签采购",
+      "status": "public_primary_verified",
+      "sources": [
+        "CN-S12"
+      ],
+      "verification": "primary_search_index; not downloaded fulltext"
     }
   ],
   "unverified_edges": [
@@ -253,7 +443,8 @@
         "CN-S04",
         "CN-S05",
         "CN-S12",
-        "CN-S13"
+        "CN-S13",
+        "CN-S14"
       ],
       "next": "阅读采购附件，识别采购负责人、关联项目；独立核验Moxing法人。"
     },
@@ -271,8 +462,10 @@
       "institution": "上海大学",
       "query": "\"先锋数聚\" \"上海大学\"",
       "status": "searched_no_relevant_direct_evidence_retrieved",
-      "sources": [],
-      "next": "另检索STC24A483、城市更新数字平台建设均未命中；待查校内招标库及采购代理公告。"
+      "sources": [
+        "CN-S18"
+      ],
+      "next": "原采购项目仍待取得；李峰清官方主页列NSFC52278069及南京LBS购置清洗研究，只作研究者种子，未连接先锋或SDK。"
     },
     {
       "institution": "东南大学",
@@ -418,6 +611,85 @@
         "\"STC24A483\""
       ],
       "result": "新增2采购公告和1原始方法来源；STC编号仍无直接命中。"
+    }
+  ],
+  "domestic_supplier_candidates": [
+    {
+      "supplier": "北京摸星科技有限公司",
+      "classification": "研究轨迹供应商；WiFi/蓝牙/GPS有论文直接证据",
+      "sdk_architecture": "not_explicit_in_this_paper",
+      "operator_fusion": "not_reported_not_independently_excluded",
+      "sources": [
+        "CN-S14"
+      ]
+    },
+    {
+      "supplier": "每日互动/个推",
+      "classification": "SDK采集能力与人口空间分析商品均已证实",
+      "raw_academic_trajectory_supply": "unverified",
+      "sources": [
+        "CN-S19",
+        "CN-S20",
+        "CN-S21"
+      ]
+    },
+    {
+      "supplier": "TalkingData",
+      "classification": "SDK采集能力已证实；市场洞察商品存在且有外部来源",
+      "raw_academic_trajectory_supply": "unverified",
+      "sources": [
+        "CN-S22",
+        "CN-S23"
+      ]
+    },
+    {
+      "supplier": "极光/月狐",
+      "classification": "SDK定位能力与线下人群分析商品均存在",
+      "raw_academic_trajectory_supply": "unverified",
+      "sources": [
+        "CN-S24",
+        "CN-S25"
+      ]
+    }
+  ],
+  "round2_unresolved": [
+    {
+      "target": "上海大学STC24A483 城市更新数字平台建设",
+      "status": "user_lead_original_notice_not_retrieved",
+      "actions": "精确编号、STC24A/STC24变体、完整/缩短项目名、上海大学采购域、供应商完整名、金桥招标代理线索组合检索。",
+      "limits": "找到其他城市更新监测系统采购不等于目标项目，未替代；搜索未命中及站点打开失败不证明项目不存在。"
+    },
+    {
+      "target": "北京摸星科技有限公司—先锋数聚工商关系",
+      "status": "no_primary_registry_relationship_evidence",
+      "actions": "完整公司名+股东/采购/数据及gov/edu域检索；非官方招聘/高企名单镜像仅作入口，未采信为关系证明。"
+    },
+    {
+      "target": "即刻LBS法律实体",
+      "status": "unresolved",
+      "actions": "即刻LBS、JikeLBS、jikelbs、即刻+LBS数据+人群轨迹及排除社交即刻噪声检索。",
+      "limits": "无可信公司名或法人命中，不把名称相似者列为关联公司。"
+    },
+    {
+      "target": "用户其余院校",
+      "status": "no_new_primary_company_matches",
+      "institutions": [
+        "北京大学",
+        "清华大学",
+        "同济大学",
+        "东南大学",
+        "南京大学",
+        "天津大学",
+        "中南大学",
+        "北京交通大学",
+        "上海交通大学",
+        "福州大学",
+        "四川大学",
+        "重庆大学",
+        "中规院上海分院"
+      ],
+      "actions": "完整先锋公司名与各院校，以及摸星/论文/基金组合；本轮未得到可公开核对的新采购直连。",
+      "limits": "非穷尽；不构成否定结论。"
     }
   ],
   "user_confirmations": [
