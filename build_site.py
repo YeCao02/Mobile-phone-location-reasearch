@@ -30,7 +30,19 @@ def public_data(source):
             paper['acquisition_next_action'] = queue[paper['id']].get('next_action')
             paper['acquisition_urls'] = queue[paper['id']].get('source_urls', [])
     china = raw['china_evidence']
-    sources = [select(s, 'id title url type published institution supplier finding confidence limits doi dataset_doi') for s in china['sources']]
+    active = lambda r: not (r.get('excluded') is True or r.get('active') is False or r.get('status') == 'excluded')
+    sources = [select(s, 'id title url type published institution supplier finding confidence limits doi dataset_doi group_id verbatim_statement') for s in china['sources'] if active(s) and not (s.get('merged_into') or s.get('duplicate_of'))]
+    source_aliases = [{'id': s['id'], 'canonical_id': s.get('merged_into') or s.get('duplicate_of')} for s in china['sources'] if active(s) and (s.get('merged_into') or s.get('duplicate_of'))]
+    assert all(a['canonical_id'] in {s['id'] for s in sources} for a in source_aliases), 'Source alias references an unknown canonical source'
+    research_groups = []
+    for item in china.get('research_groups', []):
+        if not active(item):
+            continue
+        group = select(item, 'id title institution team summary source_ids supplier_names verbatim_statement statement_source statement_url')
+        group['outputs'] = [select(r, 'id type title year url catalog_id doi reported_doi provider data_statement verbatim_statement bibliographic_note source_ids') for r in item.get('outputs', [])]
+        group['relationships'] = [select(r, 'from to relation evidence statement source_ids url') if isinstance(r, dict) else r for r in item.get('relationships', [])]
+        research_groups.append(group)
+    assert len({r['id'] for r in research_groups}) == len(research_groups), 'Duplicate research group ID'
     coverage = [select(c, 'institution query status sources next') for c in china['coverage']]
     edges = [select(e, 'from to relation sources') for e in china.get('verified_edges', [])]
     usage_path = source / 'provider_usage.json'
@@ -43,7 +55,7 @@ def public_data(source):
     provider_ids = {r['id'] for r in usage['providers']}
     assert all(r['paper_id'] in paper_ids and r['provider_id'] in provider_ids for r in usage['associations']), 'Supplier association references an unknown record'
     assert len({(r['provider_id'], r['paper_id']) for r in usage['associations']}) == len(usage['associations']), 'Duplicate supplier-paper association'
-    result = {'as_of': raw['literature_evolution'].get('as_of', '2026-10-10'), 'providers': providers, 'provider_usage': usage, 'papers': papers, 'china': sources, 'coverage': coverage, 'edges': edges}
+    result = {'as_of': raw['literature_evolution'].get('as_of', '2026-10-10'), 'providers': providers, 'provider_usage': usage, 'papers': papers, 'china': sources, 'china_groups': research_groups, 'china_source_aliases': source_aliases, 'coverage': coverage, 'edges': edges}
     encoded = json.dumps(result, ensure_ascii=False)
     # Public export must never embed machine-specific paths, access credentials, or emails.
     encoded = re.sub(r'[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}', '[公开联系邮箱省略]', encoded)

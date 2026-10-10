@@ -473,6 +473,114 @@
       "next_action": "当前关键段审读完成，按需补充附件细读"
     },
     {
+      "id": "L27",
+      "title": "Capturing socio-spatial inequality in planetary urbanisation: A multi-dimensional methodological framework",
+      "doi": "10.1016/j.cities.2022.104076",
+      "journal": "Cities",
+      "catalog_status": "reviewed",
+      "status": [
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://www.researchgate.net/publication/365358436_Capturing_socio-spatial_inequality_in_planetary_urbanisation_A_multi-dimensional_methodological_framework",
+        "https://doi.org/10.1016/j.cities.2022.104076"
+      ],
+      "next_action": "经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "L28",
+      "title": "城市规划中的“通勤”概念辨析及“通勤阈值”界定探讨",
+      "doi": "",
+      "journal": "城市规划",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://safa.shu.edu.cn/info/1111/7908.htm"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "L29",
+      "title": "Rapid community response and resilience to typhoon Doksuri in coastal Fujian: insights from large-scale human mobility data",
+      "doi": "10.1016/j.jag.2025.104910",
+      "journal": "International Journal of Applied Earth Observation and Geoinformation",
+      "catalog_status": "reviewed",
+      "status": [
+        "current_review_complete"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://recovery.preventionweb.net/media/115864/download?startDownload=20261010",
+        "https://doi.org/10.1016/j.jag.2025.104910"
+      ],
+      "next_action": "当前关键段审读完成，按需补充附件细读"
+    },
+    {
+      "id": "L30",
+      "title": "Spatial eco-socio-economic trade-offs inform differentiated management strategies in mega-urban agglomerations",
+      "doi": "10.1038/s42949-025-00231-x",
+      "journal": "npj Urban Sustainability",
+      "catalog_status": "reviewed",
+      "status": [
+        "current_review_complete"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://doi.org/10.1038/s42949-025-00231-x"
+      ],
+      "next_action": "当前关键段审读完成，按需补充附件细读"
+    },
+    {
+      "id": "L31",
+      "title": "From trajectory to behavior: Capturing individual travel details using an applet-based GPS tracking system",
+      "doi": "10.1016/j.tbs.2025.101078",
+      "journal": "Travel Behaviour and Society",
+      "catalog_status": "reviewed",
+      "status": [
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://hub.hku.hk/bitstream/10722/357639/1/content.pdf?accept=1",
+        "https://doi.org/10.1016/j.tbs.2025.101078"
+      ],
+      "next_action": "经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "L32",
+      "title": "The new geography of work and mobility: Behavioural, spatial and sectoral dynamics of telework during and after COVID-19",
+      "doi": "10.1016/j.tbs.2026.101253",
+      "journal": "Travel Behaviour and Society",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S2214367X26000220",
+        "https://doi.org/10.1016/j.tbs.2026.101253"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
       "id": "P240AD96D",
       "title": "Insights into population behavior during the COVID-19 pandemic from cell phone mobility data and manifold learning",
       "doi": "10.1038/s43588-021-00125-9",
@@ -1756,6 +1864,6 @@
       "next_action": "核对书目信息和数据来源，审读方法段"
     }
   ],
-  "count": 98,
+  "count": 104,
   "definitions": "pdf_acquisition=true仅表示尚未核实本地PDF；不意味着文章不可访问。"
 }

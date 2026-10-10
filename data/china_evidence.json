@@ -1,11 +1,15 @@
 {
   "as_of": "2026-10-10",
-  "scope": "中国供应商、采购及基金论文关系证据；含本轮摸星/Jike全文追踪，非穷尽调查",
+  "scope": "中国供应商、采购、作者单位及基金论文关系证据；含2026-10-10第五轮URA、HKU、杜苏芮与及刻官网核验，非穷尽调查",
   "classification_rules": [
     "采购、课题、论文分别建节点；只建立有直接证据的边。",
     "LBS名称或公司品牌不能单独证明SDK/GPS/WiFi且排除运营商。",
     "用户线索保留为待核实，不冒充公开确认。",
-    "未命中仅代表当前检索没有取得证据，不代表关系不存在。"
+    "未命中仅代表当前检索没有取得证据，不代表关系不存在。",
+    "作者单位与采购单位分别记录；合著不等于本校购买。",
+    "及刻/isjike.com只在L29有文内域名桥接，不将同名域名倒推到L26。",
+    "SDK明示但含基站/网络定位的L29归混合来源，不计纯GPS/WiFi核心。",
+    "用户确认的关联组与采购事实独立保存；公开合同/法律佐证待核不改写为用户尚未确认。"
   ],
   "sources": [
     {
@@ -118,7 +122,9 @@
       "finding": "英文全文Moxing Technology与同篇中文北京摸星科技有限公司对应；已取得中文PDF。与CN-S14是同篇研究的两个语言入口，不重复计入论文数量。",
       "confidence": "high",
       "limits": "名称对应来自同篇双语原文；不代表与先锋数聚法律实体关系已经核验。",
-      "catalog_id": "L25"
+      "catalog_id": "L25",
+      "group_id": "SZU-XIA-PM25",
+      "institution": "深圳大学 · 夏吉喆团队"
     },
     {
       "id": "CN-S11",
@@ -159,11 +165,11 @@
       "url": "https://www.geodoi.ac.cn/DOIPaper/HTML/2026139402/202602139408.html",
       "type": "publisher_pdf_methods_verified",
       "published": "2026-04-25",
-      "institution": "深圳大学夏吉喆团队",
+      "institution": "深圳大学 · 夏吉喆团队",
       "supplier": "北京摸星科技有限公司",
       "finding": "原文PDF第2页确认北京摸星科技有限公司提供六城轨迹，定位包含WiFi、蓝牙、GPS；首页基金广西科学技术项目GXYD2504850001，表1数据集基金NSFC42171400。",
       "confidence": "high",
-      "limits": "出版方HTML/PDF一致报告DOI，但doi.org与Crossref当前均404，故doi留空、reported_doi保留；机构新闻中该DOI与另一题名存在冲突，未据此覆盖出版方题名。首页基金GXYD2504850001与表1数据集基金42171400分别记录。配套数据集为衍生产品，不能当第二篇实证论文或公开原始轨迹。定位<1m为作者声明，未独立验证。摸星/摩星/先锋法律关联不得由此推定。",
+      "limits": "出版方原文报告DOI 10.3974/geodp.2026.02.08，登记解析暂未成功；CN-S16已排除，不再作为本成果身份冲突。论文与配套数据集分别保留。",
       "authors": [
         "吴梓昊",
         "马志锋",
@@ -194,7 +200,8 @@
           "name": "国家自然科学基金",
           "source_location": "PDF第3页表1数据集元数据"
         }
-      ]
+      ],
+      "group_id": "SZU-XIA-PM25"
     },
     {
       "id": "CN-S15",
@@ -212,7 +219,9 @@
       "verification": "primary_indexed_text",
       "limits": "作者顺序与论文不同；开放衍生数据不能等同于开放个人轨迹。落地页基金字段检索显示空，论文表1明确42171400。",
       "confidence": "primary_indexed_evidence",
-      "published": "2026"
+      "published": "2026",
+      "group_id": "SZU-XIA-PM25",
+      "institution": "深圳大学 · 夏吉喆团队"
     },
     {
       "id": "CN-S16",
@@ -223,7 +232,11 @@
       "finding": "原始来源搜索索引：把10.3974/geodp.2026.02.08用于崔晶、戴晓爱、刘艳的新疆暴雪数据论文，和PM2.5出版方页面冲突。",
       "verification": "primary_indexed_fulltext",
       "limits": "冲突可能来自机构新闻误引；未获得成功的DOI解析/Crossref登记信息，不自行裁决。",
-      "confidence": "primary_indexed_evidence"
+      "confidence": "primary_indexed_evidence",
+      "excluded": true,
+      "status": "excluded",
+      "exclusion_reason": "用户确认与目标研究无关，移出活动线索；仅保留历史编号审计。",
+      "exclusion_date": "2026-10-10"
     },
     {
       "id": "CN-S17",
@@ -232,9 +245,11 @@
       "type": "publisher_metadata",
       "finding": "原始来源搜索索引：吴梓昊、马志锋、夏吉喆；全球变化数据学报2026,10(2):180–190；同样登记10.3974/geodp.2026.02.08。",
       "verification": "primary_indexed_text",
-      "limits": "保留出版方报告DOI，导入时暂不凭DOI自动合并。",
+      "limits": "出版方原文报告DOI 10.3974/geodp.2026.02.08，登记解析暂未成功；CN-S16已排除，不再作为本成果身份冲突。论文与配套数据集分别保留。",
       "confidence": "primary_indexed_evidence",
-      "published": ""
+      "published": "",
+      "group_id": "SZU-XIA-PM25",
+      "institution": "深圳大学 · 夏吉喆团队"
     },
     {
       "id": "CN-S18",
@@ -323,12 +338,13 @@
       "url": "https://isocui.org/icui2023/programme/GSCS%26ICUI2023-Conference-Proceedings.pdf",
       "type": "official_conference_abstract",
       "published": "2023-08-20",
-      "institution": "深圳大学夏吉喆相关作者线索",
-      "supplier": "Jike（原文名称）",
+      "institution": "深圳大学 · 夏吉喆团队",
+      "supplier": "即刻 / Jike（原文名称Jike；名称对应由用户确认）",
       "finding": "官方会议摘要PDF第94页Methods明确取得Jike提供的approximately 6 million de-sensitized user trajectory data；约600万的计量单位不明确，不能当作600万独立用户。未给中文法律主体、SDK或传感器机制。",
       "confidence": "high_for_original_name_and_use",
-      "limits": "文献形态为会议摘要；供方是Methods的实际使用声明，不是引用提及。结果段使用anticipate/expect、GWR写plan，故不作为已完成结果。Jike是否即刻LBS/先锋关联实体尚未公开核实。与L25共享Ma/Xia、部分城市和暴露主题，可作潜在演进线索；供应商标签、方法、作者、城市数不同，未证明同一数据或期刊扩展版。",
-      "catalog_id": "L26"
+      "limits": "2023会议摘要归入深大夏吉喆PM2.5研究线索；保留其三城研究范围及会议摘要形态。600万原文单位不明确，不推成独立用户数。与2026六城论文及数据集关联展示，不将不同出版成果压成一条题录。",
+      "catalog_id": "L26",
+      "group_id": "SZU-XIA-PM25"
     },
     {
       "id": "CN-S27",
@@ -340,7 +356,245 @@
       "finding": "L25配套污染与暴露数据集，作者顺序马志锋、吴梓昊、夏吉喆；单独登记数据产品，不重复计作论文。",
       "dataset_doi": "10.3974/geodb.2026.02.08.V1",
       "confidence": "primary_article_citation_and_indexed_metadata",
-      "limits": "配套数据集DOI本轮未单独验证解析；不能称公开了原始个人轨迹。"
+      "limits": "配套数据集DOI本轮未单独验证解析；不能称公开了原始个人轨迹。",
+      "group_id": "SZU-XIA-PM25",
+      "institution": "深圳大学 · 夏吉喆团队",
+      "merged_into": "CN-S15",
+      "duplicate_of": "CN-S15"
+    },
+    {
+      "id": "CN-S28",
+      "title": "Capturing socio-spatial inequality in planetary urbanisation: A multi-dimensional methodological framework",
+      "url": "https://www.researchgate.net/publication/365358436_Capturing_socio-spatial_inequality_in_planetary_urbanisation_A_multi-dimensional_methodological_framework",
+      "type": "作者公开上传全文",
+      "finding": "作者公开全文§4.2.1把LBS定位描述为GPS、公共Wi-Fi和MAC地址，使用台州2017/2020年10月1–30日数据；未披露供应商或SDK采集流程。定位描述不等于已排除运营商信息融合。 CRediT明确李峰清、费丽媛处理LBS；Funding列URA01LE1804A-D、51878459、52208075、19PJC053、2021PJC113及DAAD Promos。 用户置信判断：论文GPS/WiFi、匿名位置、居住/工作识别等数据形式与其自用数据“99%相同”；依据供应商提供的院校客户名单与论文数据形式交叉吻合。“99%”为用户经验置信表述，非统计估计。列同类数据及关联供应商追查高优先级，原文未披露供方，不能升级为原文确认先锋/Moxing/Jike。",
+      "limits": "作者公开上传全文网页已核，PDF未存；SDK和是否排除运营商融合未证实。用户关联判断与论文未披露供方状态并列保存。",
+      "confidence": "primary_evidence",
+      "review_date": "2026-10-10",
+      "catalog_id": "L27",
+      "doi": "10.1016/j.cities.2022.104076",
+      "institution": "上海大学；柏林工业大学；同济大学",
+      "supplier": "未披露",
+      "group_id": "URA-LI-LYNAM",
+      "published": "2023-01",
+      "verification": "author_fulltext_web_methods_funding_read",
+      "metadata_url": "https://api.crossref.org/works/10.1016/j.cities.2022.104076",
+      "user_assessment": {
+        "basis": "供应商提供院校客户名单 + 论文数据形式交叉吻合",
+        "confidence_expression": "99%相同",
+        "confidence_type": "user_experiential_judgment_not_statistical_estimate",
+        "statement": "用户置信判断：论文GPS/WiFi、匿名位置、居住/工作识别等数据形式与其自用数据“99%相同”；依据供应商提供的院校客户名单与论文数据形式交叉吻合。“99%”为用户经验置信表述，非统计估计。列同类数据及关联供应商追查高优先级，原文未披露供方，不能升级为原文确认先锋/Moxing/Jike。",
+        "status": "high_priority_user_assessed_supplier_group_lead",
+        "source_ids": [
+          "CN-S38"
+        ]
+      },
+      "supplier_group_lead": "USER-CONFIRMED-PIONEER-MOXING-JIKE",
+      "type_code": "author_uploaded_fulltext"
+    },
+    {
+      "id": "CN-S29",
+      "title": "城市规划中的“通勤”概念辨析及“通勤阈值”界定探讨",
+      "url": "https://safa.shu.edu.cn/info/1111/7908.htm",
+      "type": "高校官方作者题录",
+      "finding": "李峰清、张欣、赵民；城市规划2023，47(6)，13–19；作者页与地理科学进展引文交叉核验。",
+      "limits": "无原文，未确认手机数据、供应商或基金，不计SDK确认论文。",
+      "confidence": "primary_evidence",
+      "review_date": "2026-10-10",
+      "catalog_id": "L28",
+      "institution": "上海大学",
+      "supplier": "未核验",
+      "group_id": "URA-LI-LYNAM",
+      "published": "2023-06",
+      "reference_url": "https://www.progressingeography.com/CN/abstract/article/1007-6301/69515",
+      "verification": "bibliography_only",
+      "type_code": "official_faculty_bibliography"
+    },
+    {
+      "id": "CN-S30",
+      "title": "Urban-Rural Assembly官方项目产出与WP6",
+      "url": "https://urbanruralassembly.com/en/resources",
+      "type": "官方项目成果与工作包",
+      "finding": "官方产出页直接列L27；WP6为Urban-Rural Mobility & Migration，混合统计、新数据、访谈和参与观察。上海大学作者页列李峰清课题六中方技术负责人。",
+      "limits": "只确认项目与研究角色，不证明采购/具体供应商；L28不据同团队自动认定URA产出。",
+      "confidence": "primary_evidence",
+      "review_date": "2026-10-10",
+      "institution": "上海大学；柏林工业大学；同济大学",
+      "group_id": "URA-LI-LYNAM",
+      "research_url": "https://urbanruralassembly.com/en/research",
+      "faculty_source_id": "CN-S18",
+      "type_code": "official_project_outputs"
+    },
+    {
+      "id": "CN-S31",
+      "title": "申享 | 2023年规划信息化技术系列发布系列 ①",
+      "url": "https://mp.weixin.qq.com/s/WcTVUMEl7u0YYNlfJl1EqQ",
+      "type": "用户题名与独立目录元数据",
+      "finding": "题名由用户提供；独立规划云目录列2023-02-13、申客思享会。",
+      "limits": "微信原文未取得：验证页及主线站点安全阻断；目录不是技术原文，不能确认SDK、供方或采购。",
+      "confidence": "user_title_directory_metadata_only",
+      "review_date": "2026-10-10",
+      "institution": "中规院上海分院（用户线索）",
+      "published": "2023-02-13",
+      "directory_url": "https://www.guihuayun.com/baike/%E6%8A%80%E6%9C%AF?page=12",
+      "verification": "article_body_pending",
+      "type_code": "user_title_and_independent_directory_metadata"
+    },
+    {
+      "id": "CN-S32",
+      "title": "Spatial eco-socio-economic trade-offs inform differentiated management strategies in mega-urban agglomerations",
+      "url": "https://doi.org/10.1038/s42949-025-00231-x",
+      "type": "出版社论文全文",
+      "finding": "Methods以匿名LBS识别居住与工作人口及收入、支出属性，明确使用私人/公共Wi-Fi连接辅助分类；Data availability列百度慧眼。尚未明确SDK架构、GPS或是否融合运营商数据。",
+      "limits": "供方百度已核；不是先锋/摸星/即刻的使用证据。手机LBS及Wi-Fi明确，SDK及非运营商独立来源未充分说明。作者包含港大、东南大学及北京大学，但不能由合著认定各校采购。",
+      "confidence": "primary_methods_verified",
+      "review_date": "2026-10-10",
+      "catalog_id": "L30",
+      "doi": "10.1038/s42949-025-00231-x",
+      "institution": "The University of Hong Kong；HKU-Shenzhen Institute of Research and Innovation；Southeast University；University of Cambridge；Peking University",
+      "supplier": "百度慧眼 / Baidu",
+      "group_id": "HKU-YANG-MOBILITY",
+      "published": "2025",
+      "verification": "primary_methods_read",
+      "type_code": "publisher_or_institutional_paper"
+    },
+    {
+      "id": "CN-S33",
+      "title": "From trajectory to behavior: Capturing individual travel details using an applet-based GPS tracking system",
+      "url": "https://hub.hku.hk/bitstream/10722/357639/1/content.pdf?accept=1",
+      "type": "高校机构库论文全文",
+      "finding": "第3.1–3.2节说明基于WeChat API自建小程序，用户扫码授权后连续开启小程序及GPS，自动上传轨迹、推断与人工确认出行；上海嘉定三阶段调查。不能解释为向即刻、先锋或微信购买商业位置面板。",
+      "limits": "已通过公开机构库的PDF文本核读方法，但本机直连下载403/SSL失败，不能记为本地PDF已存。属于自采手机GPS方法比较文献。",
+      "confidence": "primary_methods_verified",
+      "review_date": "2026-10-10",
+      "catalog_id": "L31",
+      "doi": "10.1016/j.tbs.2025.101078",
+      "institution": "The University of Hong Kong；Tongji University；Guangzhou Transport Planning Research Institute；HKU-Shenzhen Institute of Research and Innovation",
+      "supplier": "研究团队自建采集；WeChat API作为应用平台",
+      "group_id": "HKU-YANG-MOBILITY",
+      "published": "2025",
+      "verification": "primary_methods_read",
+      "type_code": "publisher_or_institutional_paper"
+    },
+    {
+      "id": "CN-S34",
+      "title": "The new geography of work and mobility: Behavioural, spatial and sectoral dynamics of telework during and after COVID-19",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2214367X26000220",
+      "type": "出版社摘要与官方作者题录",
+      "finding": "出版社摘要确认深圳2019–2022 LBS与就业统计融合研究；本轮原始出版页403，未取得官方完整方法段。非官方转载有百度来源线索，仅用于下一轮定向检索，不确认为供方。",
+      "limits": "不得归给即刻/先锋。不得凭同团队或同资助号推断其数据供方。",
+      "confidence": "metadata_only_source_pending",
+      "review_date": "2026-10-10",
+      "catalog_id": "L32",
+      "doi": "10.1016/j.tbs.2026.101253",
+      "institution": "The University of Hong Kong",
+      "supplier": "待核；二次转载称百度，未以原始全文确认",
+      "group_id": "HKU-YANG-MOBILITY",
+      "published": "2026",
+      "verification": "fulltext_pending",
+      "type_code": "publisher_abstract_and_official_bibliography"
+    },
+    {
+      "id": "CN-S35",
+      "title": "Tianren Yang / 杨天人：港大官方学者与项目主页",
+      "url": "https://www.arch.hku.hk/staff/upad/yang-tianren/?dept=upad",
+      "type": "高校官方学者与项目主页",
+      "finding": "确认香港大学规划系身份；列2024–2027远程办公、2025–2027职住异质性青年基金、2022–2025建成环境评估项目。",
+      "limits": "用户确认香港大学已采购及刻数据，依据供应商提供的客户信息；公开合同佐证与对应研究成果待追踪，尚不确定是否已有发表成果。不能将该采购直接分配给L30/L31/L32。",
+      "confidence": "primary_evidence",
+      "review_date": "2026-10-10",
+      "institution": "香港大学",
+      "group_id": "HKU-YANG-MOBILITY",
+      "grants": [
+        {
+          "name": "Investigating the spatial implications of home-based telework in megacities: Observations and predictions",
+          "funder": "HK RGC Early Career Scheme",
+          "period": "2024–2027",
+          "role": "PI",
+          "supplier_link": "not_established"
+        },
+        {
+          "name": "Spatial (mis)match of jobs-housing in megacities considering demand-supply heterogeneity",
+          "funder": "NSFC Young Scientists Fund",
+          "period": "2025–2027",
+          "role": "PI",
+          "supplier_link": "not_established"
+        },
+        {
+          "name": "Sustainability-oriented assessment and optimisation techniques of urban built environment",
+          "funder": "National Key Research and Development Program of China",
+          "period": "2022–2025",
+          "role": "Co-I",
+          "supplier_link": "not_established"
+        }
+      ],
+      "identity_url": "https://hub.hku.hk/cris/rp/rp02825",
+      "procurement_status": "user_confirmed_jike_procurement_public_document_pending",
+      "user_confirmation_source_ids": [
+        "CN-S38"
+      ],
+      "type_code": "official_faculty_profile"
+    },
+    {
+      "id": "CN-S36",
+      "title": "Rapid community response and resilience to typhoon Doksuri in coastal Fujian: insights from large-scale human mobility data",
+      "url": "https://recovery.preventionweb.net/media/115864/download?startDownload=20261010",
+      "type": "开放获取出版论文",
+      "finding": "正文2.2明确Jike Platform、用户同意的SDK采集，以及smartphone network positioning与cell tower signals，宣称约50米定位精度；不能归为纯GPS/WiFi核心样本。 第13页直接给isjike.com；福州大学Zhiyuan Zhao、清华大学Jiale Qian为作者单位。",
+      "limits": "SDK与网络/基站混合来源，不计纯GPS/WiFi核心。作者单位不是采购；SafeGraph只为方法参考，高德是POI供方。",
+      "confidence": "primary_evidence",
+      "review_date": "2026-10-10",
+      "catalog_id": "L29",
+      "doi": "10.1016/j.jag.2025.104910",
+      "institution": "中科院地理资源所；中国科学院大学；福州大学；清华大学",
+      "supplier": "及刻 / Jike（isjike.com）",
+      "group_id": "DOKSURI-DU-MOBILITY",
+      "published": "2025-10-18",
+      "verification": "downloaded_pdf_identity_methods_and_affiliations_verified",
+      "funding": [
+        {
+          "funder": "National Natural Science Foundation of China",
+          "grant_number": "42176205",
+          "page": 14
+        },
+        {
+          "funder": "Strategic Priority Research Program of the Chinese Academy of Sciences",
+          "grant_number": "XDB0740100",
+          "page": 14
+        },
+        {
+          "funder": "National Natural Science Foundation of China",
+          "grant_number": "42201500",
+          "page": 14
+        }
+      ],
+      "type_code": "published_open_access_pdf"
+    },
+    {
+      "id": "CN-S37",
+      "title": "及刻 ｜ 基于位置的 AI 智能引擎",
+      "url": "https://www.isjike.com/",
+      "type": "供应商官方网站",
+      "finding": "官网标题/产品品牌为及刻；页脚列©2026广州市梦享网络技术有限公司；城市规划定制化数据集面向城市规划院、高校。",
+      "limits": "官网版权主体声明不是完整工商股权登记。用户已确认及刻正确名称并关联先锋/Moxing组；法律关系独立核验。L29有原文域名桥接，L26未提供域名，不能将用户关联升级为其原文域名声明。",
+      "confidence": "high_for_brand_and_footer_not_shareholders",
+      "review_date": "2026-10-10",
+      "supplier": "及刻 / Jike",
+      "copyright_entity": "广州市梦享网络技术有限公司",
+      "verification": "official_homepage_read",
+      "user_confirmed_supplier_group": "USER-CONFIRMED-PIONEER-MOXING-JIKE",
+      "type_code": "official_supplier_website"
+    },
+    {
+      "id": "CN-S38",
+      "title": "用户确认：关联供应商组、港大已采购及刻及Cities数据相似性",
+      "url": "",
+      "type": "用户提供与人工核验",
+      "finding": "用户确认香港大学已采购及刻数据，依据供应商提供的客户信息；公开合同佐证与对应研究成果待追踪，尚不确定是否已有发表成果。不能将该采购直接分配给L30/L31/L32。 用户置信判断：论文GPS/WiFi、匿名位置、居住/工作识别等数据形式与其自用数据“99%相同”；依据供应商提供的院校客户名单与论文数据形式交叉吻合。“99%”为用户经验置信表述，非统计估计。列同类数据及关联供应商追查高优先级，原文未披露供方，不能升级为原文确认先锋/Moxing/Jike。 用户人工核验“及刻”为正确名称，确认先锋数聚、Moxing/摸星、即刻/及刻/Jike归入关联供应商组。",
+      "confidence": "user_confirmed_not_public_document_verification",
+      "verification": "conversation_user_confirmation",
+      "limits": "用户确认与原文声明、公开合同、工商股权分别保留；关联组不意味着同一法人，也不自动为未披露供方的论文生成供方声明。",
+      "review_date": "2026-10-10"
     }
   ],
   "verified_edges": [
@@ -477,20 +731,193 @@
       "sources": [
         "CN-S14"
       ]
+    },
+    {
+      "to": "L27",
+      "relation": "论文CRediT明确处理与分析LBS",
+      "sources": [
+        "CN-S28"
+      ],
+      "from": "李峰清；费丽媛"
+    },
+    {
+      "to": "L27",
+      "relation": "论文Funding与官方项目产出共同确认",
+      "sources": [
+        "CN-S28",
+        "CN-S30"
+      ],
+      "from": "URA 01LE1804A-D"
+    },
+    {
+      "to": "URA WP6",
+      "relation": "中方技术负责人，作者官方页",
+      "sources": [
+        "CN-S18",
+        "CN-S30"
+      ],
+      "from": "李峰清"
+    },
+    {
+      "to": "L27",
+      "relation": "论文列明资助，不证明供方",
+      "sources": [
+        "CN-S28"
+      ],
+      "from": "51878459"
+    },
+    {
+      "to": "L27",
+      "relation": "论文列明资助，不证明供方",
+      "sources": [
+        "CN-S28"
+      ],
+      "from": "52208075"
+    },
+    {
+      "to": "L27",
+      "relation": "论文列明资助，不证明供方",
+      "sources": [
+        "CN-S28"
+      ],
+      "from": "19PJC053"
+    },
+    {
+      "to": "L27",
+      "relation": "论文列明资助，不证明供方",
+      "sources": [
+        "CN-S28"
+      ],
+      "from": "2021PJC113"
+    },
+    {
+      "to": "L30",
+      "relation": "Data availability确认供方；Wi-Fi LBS，采集管线部分未知",
+      "sources": [
+        "CN-S32"
+      ],
+      "from": "百度慧眼 / Baidu"
+    },
+    {
+      "to": "L31",
+      "relation": "自主设计出行调查；非购买商业位置面板",
+      "sources": [
+        "CN-S33"
+      ],
+      "from": "研究团队自采微信小程序GPS"
+    },
+    {
+      "to": "L29",
+      "relation": "论文明确SDK与网络/基站混合定位数据使用",
+      "sources": [
+        "CN-S36",
+        "CN-S37"
+      ],
+      "from": "及刻 / Jike（isjike.com）"
+    },
+    {
+      "to": "广州市梦享网络技术有限公司",
+      "relation": "官网版权主体声明；非工商股权登记",
+      "sources": [
+        "CN-S37"
+      ],
+      "from": "及刻品牌官网"
+    },
+    {
+      "to": "L29",
+      "relation": "论文作者单位；不等同独立采购",
+      "sources": [
+        "CN-S36"
+      ],
+      "from": "福州大学",
+      "procurement_confirmed": false
+    },
+    {
+      "to": "L29",
+      "relation": "论文作者单位；不等同独立采购",
+      "sources": [
+        "CN-S36"
+      ],
+      "from": "清华大学",
+      "procurement_confirmed": false
+    },
+    {
+      "to": "L30",
+      "relation": "论文作者单位；不等同独立采购",
+      "sources": [
+        "CN-S32"
+      ],
+      "from": "北京大学",
+      "procurement_confirmed": false
+    },
+    {
+      "to": "L30",
+      "relation": "论文作者单位；不等同独立采购",
+      "sources": [
+        "CN-S32"
+      ],
+      "from": "东南大学",
+      "procurement_confirmed": false
+    },
+    {
+      "to": "L31",
+      "relation": "论文作者单位；不等同独立采购",
+      "sources": [
+        "CN-S33"
+      ],
+      "from": "同济大学",
+      "procurement_confirmed": false
+    },
+    {
+      "to": "L30",
+      "relation": "论文作者单位；不等同独立采购",
+      "sources": [
+        "CN-S32"
+      ],
+      "from": "香港大学",
+      "procurement_confirmed": false
+    },
+    {
+      "to": "L31",
+      "relation": "论文作者单位；不等同独立采购",
+      "sources": [
+        "CN-S33"
+      ],
+      "from": "香港大学",
+      "procurement_confirmed": false
+    },
+    {
+      "from": "及刻 / Jike",
+      "to": "香港大学 · 杨天人团队",
+      "relation": "用户确认香港大学已采购，公开佐证待追踪",
+      "status": "user_confirmed_jike_procurement_public_document_pending",
+      "sources": [
+        "CN-S38"
+      ],
+      "sources_note": "用户确认依据为供应商提供的客户信息；公开合同未取得",
+      "propagate_to_papers": false
     }
   ],
   "unverified_edges": [
     {
       "from": "先锋数聚",
       "to": "即刻LBS",
-      "relation": "用户提出同股东/同数据线索",
-      "status": "legal_entity_and_shareholders_unverified"
+      "relation": "用户已确认关联供应商组；工商股权和法人关系独立待核",
+      "status": "user_group_confirmed_legal_relationship_public_document_pending",
+      "supplier_relationship_group_id": "USER-CONFIRMED-PIONEER-MOXING-JIKE",
+      "sources": [
+        "CN-S38"
+      ]
     },
     {
       "from": "先锋数聚",
       "to": "Moxing Beijing",
-      "relation": "潜在供应链/法人关系",
-      "status": "unverified"
+      "relation": "用户已确认关联供应商组；工商股权和法人关系独立待核",
+      "status": "user_group_confirmed_legal_relationship_public_document_pending",
+      "supplier_relationship_group_id": "USER-CONFIRMED-PIONEER-MOXING-JIKE",
+      "sources": [
+        "CN-S38"
+      ]
     },
     {
       "from": "先锋数聚",
@@ -503,12 +930,24 @@
       "to": "上海大学 STC24A483",
       "relation": "用户采购线索",
       "status": "public_notice_not_retrieved_this_pass"
+    },
+    {
+      "from": "L26原文Jike",
+      "to": "及刻 / isjike.com / 广州市梦享网络技术有限公司",
+      "relation": "用户已确认Jike/及刻关联组，论文自身域名与法人声明独立保留",
+      "status": "user_group_confirmed_original_domain_not_disclosed",
+      "sources": [
+        "CN-S26",
+        "CN-S37",
+        "CN-S38"
+      ],
+      "propagate_to_papers": false
     }
   ],
   "coverage": [
     {
       "institution": "深圳大学建筑与城市规划学院",
-      "query": "\"先锋数聚\" \"深圳大学\"; \"高时空分辨率传染病动力学建模\"",
+      "query": "深圳大学建筑与城市规划学院 × 摸星 / Moxing / 先锋数聚 / Pioneer Data / 即刻 / Jike / 及刻",
       "status": "procurement_confirmed_and_grant_paper_link_confirmed",
       "sources": [
         "CN-S01",
@@ -518,133 +957,410 @@
         "CN-S13",
         "CN-S14"
       ],
-      "next": "阅读采购附件，识别采购负责人、关联项目；独立核验Moxing法人。"
+      "next": "围绕已确认团队研究脉络补充全文方法、后续论文及不同成果关联；采购仍与具体数据批次分开。",
+      "required_aliases": [
+        "摸星",
+        "Moxing",
+        "先锋数聚",
+        "Pioneer Data",
+        "即刻",
+        "Jike",
+        "及刻"
+      ],
+      "previous_query": "\"先锋数聚\" \"深圳大学\"; \"高时空分辨率传染病动力学建模\"",
+      "query_status": "七别名作为持续检索覆盖模板；已执行查询见本轮日志，不声称所有学校七词逐一穷尽",
+      "evidence_boundary": "作者单位、采购公告、基金和供方声明分别认定；未命中不表示不存在。",
+      "procurement_evidence": "官方拟成交公告；具体论文/数据批次不自动关联"
     },
     {
       "institution": "深圳大学微众银行金融科技学院",
-      "query": "\"深圳大学\" \"手机高精度匿名LBS数据\" \"微众\"; \"先锋数聚\" \"深圳大学\" \"微众\"",
+      "query": "深圳大学微众银行金融科技学院 × 摸星 / Moxing / 先锋数聚 / Pioneer Data / 即刻 / Jike / 及刻",
       "status": "two_procurement_notices_confirmed",
       "sources": [
         "CN-S02",
         "CN-S03"
       ],
-      "next": "由采购附件与学院项目页扩展到负责人和论文；不能自动归因给夏吉喆。"
+      "next": "围绕已确认团队研究脉络补充全文方法、后续论文及不同成果关联；采购仍与具体数据批次分开。",
+      "required_aliases": [
+        "摸星",
+        "Moxing",
+        "先锋数聚",
+        "Pioneer Data",
+        "即刻",
+        "Jike",
+        "及刻"
+      ],
+      "previous_query": "\"深圳大学\" \"手机高精度匿名LBS数据\" \"微众\"; \"先锋数聚\" \"深圳大学\" \"微众\"",
+      "query_status": "七别名作为持续检索覆盖模板；已执行查询见本轮日志，不声称所有学校七词逐一穷尽",
+      "evidence_boundary": "作者单位、采购公告、基金和供方声明分别认定；未命中不表示不存在。",
+      "procurement_evidence": "官方拟成交公告；具体论文/数据批次不自动关联"
     },
     {
       "institution": "上海大学",
-      "query": "\"先锋数聚\" \"上海大学\"",
-      "status": "searched_no_relevant_direct_evidence_retrieved",
+      "query": "上海大学 × 摸星 / Moxing / 先锋数聚 / Pioneer Data / 即刻 / Jike / 及刻",
+      "status": "paper_and_URA_link_confirmed_supplier_unknown",
       "sources": [
-        "CN-S18"
+        "CN-S18",
+        "CN-S28",
+        "CN-S29",
+        "CN-S30",
+        "CN-S38"
       ],
-      "next": "原采购项目仍待取得；李峰清官方主页列NSFC52278069及南京LBS购置清洗研究，只作研究者种子，未连接先锋或SDK。"
+      "next": "L27与自用数据“99%相同”为用户置信判断（供应商客户名单与数据形式交叉吻合，非统计估计）；优先追查公开供方佐证，补L28原文及STC24A483公告。",
+      "required_aliases": [
+        "摸星",
+        "Moxing",
+        "先锋数聚",
+        "Pioneer Data",
+        "即刻",
+        "Jike",
+        "及刻"
+      ],
+      "previous_query": "李峰清 / Fengqing Li / URA / 01LE1804A-D / Migration and Mobility × 摸星/Moxing/先锋数聚/Pioneer Data/即刻/Jike",
+      "query_status": "七别名作为持续检索覆盖模板；已执行查询见本轮日志，不声称所有学校七词逐一穷尽",
+      "evidence_boundary": "作者单位、采购公告、基金和供方声明分别认定；未命中不表示不存在。",
+      "procurement_evidence": "本轮未新增本校独立采购确认；保留既有用户线索或合作证据"
     },
     {
       "institution": "东南大学",
-      "query": "\"先锋数聚\" \"东南大学\"",
-      "status": "searched_no_relevant_direct_evidence_retrieved",
-      "sources": [],
-      "next": "另检索东南大学+轨迹+防灾+手机数据，未确认供应商或目标课题；查建筑/交通/灾害团队。"
+      "query": "东南大学 × 摸星 / Moxing / 先锋数聚 / Pioneer Data / 即刻 / Jike / 及刻",
+      "status": "paper_author_affiliation_confirmed_procurement_unverified",
+      "sources": [
+        "CN-S32"
+      ],
+      "next": "L30百度LBS合著；用户所指社区防灾课题与供方另核。",
+      "required_aliases": [
+        "摸星",
+        "Moxing",
+        "先锋数聚",
+        "Pioneer Data",
+        "即刻",
+        "Jike",
+        "及刻"
+      ],
+      "previous_query": "\"先锋数聚\" \"东南大学\"",
+      "query_status": "七别名作为持续检索覆盖模板；已执行查询见本轮日志，不声称所有学校七词逐一穷尽",
+      "evidence_boundary": "作者单位、采购公告、基金和供方声明分别认定；未命中不表示不存在。",
+      "procurement_evidence": "本轮未新增本校独立采购确认；保留既有用户线索或合作证据"
     },
     {
       "institution": "中规院上海分院",
-      "query": "\"先锋数聚\" \"中规院上海分院\"",
-      "status": "searched_no_relevant_direct_evidence_retrieved",
-      "sources": [],
-      "next": "追加本校采购站内检索、供应商完整法人名及论文方法/致谢检索。"
+      "query": "中规院上海分院 × 摸星 / Moxing / 先锋数聚 / Pioneer Data / 即刻 / Jike / 及刻",
+      "status": "user_title_directory_metadata_only_body_pending",
+      "sources": [
+        "CN-S31"
+      ],
+      "next": "等待用户提供微信正文或独立官方公开版本；不绕过安全阻断。",
+      "required_aliases": [
+        "摸星",
+        "Moxing",
+        "先锋数聚",
+        "Pioneer Data",
+        "即刻",
+        "Jike",
+        "及刻"
+      ],
+      "previous_query": "\"先锋数聚\" \"中规院上海分院\"",
+      "query_status": "七别名作为持续检索覆盖模板；已执行查询见本轮日志，不声称所有学校七词逐一穷尽",
+      "evidence_boundary": "作者单位、采购公告、基金和供方声明分别认定；未命中不表示不存在。",
+      "procurement_evidence": "本轮未新增本校独立采购确认；保留既有用户线索或合作证据"
     },
     {
       "institution": "北京大学",
-      "query": "\"先锋数聚\" \"北京大学\"",
-      "status": "searched_no_relevant_direct_evidence_retrieved",
-      "sources": [],
-      "next": "追加本校采购站内检索、供应商完整法人名及论文方法/致谢检索。"
+      "query": "北京大学 × 摸星 / Moxing / 先锋数聚 / Pioneer Data / 即刻 / Jike / 及刻",
+      "status": "paper_author_affiliation_confirmed_procurement_unverified",
+      "sources": [
+        "CN-S32"
+      ],
+      "next": "L30百度LBS合著，独立采购和SDK来源仍未证实。",
+      "required_aliases": [
+        "摸星",
+        "Moxing",
+        "先锋数聚",
+        "Pioneer Data",
+        "即刻",
+        "Jike",
+        "及刻"
+      ],
+      "previous_query": "\"先锋数聚\" \"北京大学\"",
+      "query_status": "七别名作为持续检索覆盖模板；已执行查询见本轮日志，不声称所有学校七词逐一穷尽",
+      "evidence_boundary": "作者单位、采购公告、基金和供方声明分别认定；未命中不表示不存在。",
+      "procurement_evidence": "本轮未新增本校独立采购确认；保留既有用户线索或合作证据"
     },
     {
       "institution": "北京大学深圳研究生院",
-      "query": "\"先锋数聚\" \"北京大学深圳研究生院\"",
+      "query": "北京大学深圳研究生院 × 摸星 / Moxing / 先锋数聚 / Pioneer Data / 即刻 / Jike / 及刻",
       "status": "searched_no_relevant_direct_evidence_retrieved",
       "sources": [],
-      "next": "追加本校采购站内检索、供应商完整法人名及论文方法/致谢检索。"
+      "next": "追加本校采购站内检索、供应商完整法人名及论文方法/致谢检索。",
+      "required_aliases": [
+        "摸星",
+        "Moxing",
+        "先锋数聚",
+        "Pioneer Data",
+        "即刻",
+        "Jike",
+        "及刻"
+      ],
+      "previous_query": "\"先锋数聚\" \"北京大学深圳研究生院\"",
+      "query_status": "七别名作为持续检索覆盖模板；已执行查询见本轮日志，不声称所有学校七词逐一穷尽",
+      "evidence_boundary": "作者单位、采购公告、基金和供方声明分别认定；未命中不表示不存在。",
+      "procurement_evidence": "本轮未新增本校独立采购确认；保留既有用户线索或合作证据"
     },
     {
       "institution": "清华大学",
-      "query": "\"先锋数聚\" \"清华大学\"",
-      "status": "searched_no_relevant_direct_evidence_retrieved",
-      "sources": [],
-      "next": "追加本校采购站内检索、供应商完整法人名及论文方法/致谢检索。"
+      "query": "清华大学 × 摸星 / Moxing / 先锋数聚 / Pioneer Data / 即刻 / Jike / 及刻",
+      "status": "paper_author_affiliation_confirmed_procurement_unverified",
+      "sources": [
+        "CN-S36"
+      ],
+      "next": "L29作者单位已确认，数据采购方待核。",
+      "required_aliases": [
+        "摸星",
+        "Moxing",
+        "先锋数聚",
+        "Pioneer Data",
+        "即刻",
+        "Jike",
+        "及刻"
+      ],
+      "previous_query": "\"先锋数聚\" \"清华大学\"",
+      "query_status": "七别名作为持续检索覆盖模板；已执行查询见本轮日志，不声称所有学校七词逐一穷尽",
+      "evidence_boundary": "作者单位、采购公告、基金和供方声明分别认定；未命中不表示不存在。",
+      "procurement_evidence": "本轮未新增本校独立采购确认；保留既有用户线索或合作证据"
     },
     {
       "institution": "同济大学",
-      "query": "\"先锋数聚\" \"同济大学\"",
-      "status": "searched_no_relevant_direct_evidence_retrieved",
-      "sources": [],
-      "next": "追加本校采购站内检索、供应商完整法人名及论文方法/致谢检索。"
+      "query": "同济大学 × 摸星 / Moxing / 先锋数聚 / Pioneer Data / 即刻 / Jike / 及刻",
+      "status": "paper_author_affiliations_confirmed_procurement_unverified",
+      "sources": [
+        "CN-S28",
+        "CN-S33"
+      ],
+      "next": "L27供方未知，L31团队自采；不据合著推采购。",
+      "required_aliases": [
+        "摸星",
+        "Moxing",
+        "先锋数聚",
+        "Pioneer Data",
+        "即刻",
+        "Jike",
+        "及刻"
+      ],
+      "previous_query": "\"先锋数聚\" \"同济大学\"",
+      "query_status": "七别名作为持续检索覆盖模板；已执行查询见本轮日志，不声称所有学校七词逐一穷尽",
+      "evidence_boundary": "作者单位、采购公告、基金和供方声明分别认定；未命中不表示不存在。",
+      "procurement_evidence": "本轮未新增本校独立采购确认；保留既有用户线索或合作证据"
     },
     {
       "institution": "南京大学",
-      "query": "\"先锋数聚\" \"南京大学\"",
+      "query": "南京大学 × 摸星 / Moxing / 先锋数聚 / Pioneer Data / 即刻 / Jike / 及刻",
       "status": "searched_no_relevant_direct_evidence_retrieved",
       "sources": [],
-      "next": "追加本校采购站内检索、供应商完整法人名及论文方法/致谢检索。"
+      "next": "追加本校采购站内检索、供应商完整法人名及论文方法/致谢检索。",
+      "required_aliases": [
+        "摸星",
+        "Moxing",
+        "先锋数聚",
+        "Pioneer Data",
+        "即刻",
+        "Jike",
+        "及刻"
+      ],
+      "previous_query": "\"先锋数聚\" \"南京大学\"",
+      "query_status": "七别名作为持续检索覆盖模板；已执行查询见本轮日志，不声称所有学校七词逐一穷尽",
+      "evidence_boundary": "作者单位、采购公告、基金和供方声明分别认定；未命中不表示不存在。",
+      "procurement_evidence": "本轮未新增本校独立采购确认；保留既有用户线索或合作证据"
     },
     {
       "institution": "天津大学",
-      "query": "\"先锋数聚\" \"天津大学\"",
+      "query": "天津大学 × 摸星 / Moxing / 先锋数聚 / Pioneer Data / 即刻 / Jike / 及刻",
       "status": "searched_no_relevant_direct_evidence_retrieved",
       "sources": [],
-      "next": "追加本校采购站内检索、供应商完整法人名及论文方法/致谢检索。"
+      "next": "追加本校采购站内检索、供应商完整法人名及论文方法/致谢检索。",
+      "required_aliases": [
+        "摸星",
+        "Moxing",
+        "先锋数聚",
+        "Pioneer Data",
+        "即刻",
+        "Jike",
+        "及刻"
+      ],
+      "previous_query": "\"先锋数聚\" \"天津大学\"",
+      "query_status": "七别名作为持续检索覆盖模板；已执行查询见本轮日志，不声称所有学校七词逐一穷尽",
+      "evidence_boundary": "作者单位、采购公告、基金和供方声明分别认定；未命中不表示不存在。",
+      "procurement_evidence": "本轮未新增本校独立采购确认；保留既有用户线索或合作证据"
     },
     {
       "institution": "中南大学",
-      "query": "\"先锋数聚\" \"中南大学\"",
+      "query": "中南大学 × 摸星 / Moxing / 先锋数聚 / Pioneer Data / 即刻 / Jike / 及刻",
       "status": "searched_no_relevant_direct_evidence_retrieved",
       "sources": [],
-      "next": "追加本校采购站内检索、供应商完整法人名及论文方法/致谢检索。"
+      "next": "追加本校采购站内检索、供应商完整法人名及论文方法/致谢检索。",
+      "required_aliases": [
+        "摸星",
+        "Moxing",
+        "先锋数聚",
+        "Pioneer Data",
+        "即刻",
+        "Jike",
+        "及刻"
+      ],
+      "previous_query": "\"先锋数聚\" \"中南大学\"",
+      "query_status": "七别名作为持续检索覆盖模板；已执行查询见本轮日志，不声称所有学校七词逐一穷尽",
+      "evidence_boundary": "作者单位、采购公告、基金和供方声明分别认定；未命中不表示不存在。",
+      "procurement_evidence": "本轮未新增本校独立采购确认；保留既有用户线索或合作证据"
     },
     {
       "institution": "北京交通大学",
-      "query": "\"先锋数聚\" \"北京交通大学\"",
+      "query": "北京交通大学 × 摸星 / Moxing / 先锋数聚 / Pioneer Data / 即刻 / Jike / 及刻",
       "status": "searched_no_relevant_direct_evidence_retrieved",
       "sources": [],
-      "next": "追加本校采购站内检索、供应商完整法人名及论文方法/致谢检索。"
+      "next": "追加本校采购站内检索、供应商完整法人名及论文方法/致谢检索。",
+      "required_aliases": [
+        "摸星",
+        "Moxing",
+        "先锋数聚",
+        "Pioneer Data",
+        "即刻",
+        "Jike",
+        "及刻"
+      ],
+      "previous_query": "\"先锋数聚\" \"北京交通大学\"",
+      "query_status": "七别名作为持续检索覆盖模板；已执行查询见本轮日志，不声称所有学校七词逐一穷尽",
+      "evidence_boundary": "作者单位、采购公告、基金和供方声明分别认定；未命中不表示不存在。",
+      "procurement_evidence": "本轮未新增本校独立采购确认；保留既有用户线索或合作证据"
     },
     {
       "institution": "上海交通大学",
-      "query": "\"先锋数聚\" \"上海交通大学\"",
+      "query": "上海交通大学 × 摸星 / Moxing / 先锋数聚 / Pioneer Data / 即刻 / Jike / 及刻",
       "status": "searched_no_relevant_direct_evidence_retrieved",
       "sources": [],
-      "next": "追加本校采购站内检索、供应商完整法人名及论文方法/致谢检索。"
+      "next": "追加本校采购站内检索、供应商完整法人名及论文方法/致谢检索。",
+      "required_aliases": [
+        "摸星",
+        "Moxing",
+        "先锋数聚",
+        "Pioneer Data",
+        "即刻",
+        "Jike",
+        "及刻"
+      ],
+      "previous_query": "\"先锋数聚\" \"上海交通大学\"",
+      "query_status": "七别名作为持续检索覆盖模板；已执行查询见本轮日志，不声称所有学校七词逐一穷尽",
+      "evidence_boundary": "作者单位、采购公告、基金和供方声明分别认定；未命中不表示不存在。",
+      "procurement_evidence": "本轮未新增本校独立采购确认；保留既有用户线索或合作证据"
     },
     {
       "institution": "福州大学",
-      "query": "\"先锋数聚\" \"福州大学\"",
-      "status": "searched_no_relevant_direct_evidence_retrieved",
-      "sources": [],
-      "next": "追加本校采购站内检索、供应商完整法人名及论文方法/致谢检索。"
+      "query": "福州大学 × 摸星 / Moxing / 先锋数聚 / Pioneer Data / 即刻 / Jike / 及刻",
+      "status": "paper_author_affiliation_confirmed_procurement_unverified",
+      "sources": [
+        "CN-S36"
+      ],
+      "next": "L29混合Jike数据，追查合作分工；作者单位不作为本校采购。",
+      "required_aliases": [
+        "摸星",
+        "Moxing",
+        "先锋数聚",
+        "Pioneer Data",
+        "即刻",
+        "Jike",
+        "及刻"
+      ],
+      "previous_query": "\"先锋数聚\" \"福州大学\"",
+      "query_status": "七别名作为持续检索覆盖模板；已执行查询见本轮日志，不声称所有学校七词逐一穷尽",
+      "evidence_boundary": "作者单位、采购公告、基金和供方声明分别认定；未命中不表示不存在。",
+      "procurement_evidence": "本轮未新增本校独立采购确认；保留既有用户线索或合作证据"
     },
     {
       "institution": "四川大学",
-      "query": "\"先锋数聚\" \"四川大学\"",
+      "query": "四川大学 × 摸星 / Moxing / 先锋数聚 / Pioneer Data / 即刻 / Jike / 及刻",
       "status": "searched_no_relevant_direct_evidence_retrieved",
       "sources": [],
-      "next": "追加本校采购站内检索、供应商完整法人名及论文方法/致谢检索。"
+      "next": "追加本校采购站内检索、供应商完整法人名及论文方法/致谢检索。",
+      "required_aliases": [
+        "摸星",
+        "Moxing",
+        "先锋数聚",
+        "Pioneer Data",
+        "即刻",
+        "Jike",
+        "及刻"
+      ],
+      "previous_query": "\"先锋数聚\" \"四川大学\"",
+      "query_status": "七别名作为持续检索覆盖模板；已执行查询见本轮日志，不声称所有学校七词逐一穷尽",
+      "evidence_boundary": "作者单位、采购公告、基金和供方声明分别认定；未命中不表示不存在。",
+      "procurement_evidence": "本轮未新增本校独立采购确认；保留既有用户线索或合作证据"
     },
     {
       "institution": "重庆大学",
-      "query": "\"先锋数聚\" \"重庆大学\"",
+      "query": "重庆大学 × 摸星 / Moxing / 先锋数聚 / Pioneer Data / 即刻 / Jike / 及刻",
       "status": "searched_no_relevant_direct_evidence_retrieved",
       "sources": [],
-      "next": "追加本校采购站内检索、供应商完整法人名及论文方法/致谢检索。"
+      "next": "追加本校采购站内检索、供应商完整法人名及论文方法/致谢检索。",
+      "required_aliases": [
+        "摸星",
+        "Moxing",
+        "先锋数聚",
+        "Pioneer Data",
+        "即刻",
+        "Jike",
+        "及刻"
+      ],
+      "previous_query": "\"先锋数聚\" \"重庆大学\"",
+      "query_status": "七别名作为持续检索覆盖模板；已执行查询见本轮日志，不声称所有学校七词逐一穷尽",
+      "evidence_boundary": "作者单位、采购公告、基金和供方声明分别认定；未命中不表示不存在。",
+      "procurement_evidence": "本轮未新增本校独立采购确认；保留既有用户线索或合作证据"
     },
     {
       "institution": "中国地质大学（北京）",
-      "query": "\"北京先锋数聚信息科技有限公司\" 大学",
+      "query": "中国地质大学（北京） × 摸星 / Moxing / 先锋数聚 / Pioneer Data / 即刻 / Jike / 及刻",
       "status": "new_partnership_only",
       "sources": [
         "CN-S08"
       ],
-      "next": "区分学生实习基地与科研采购。"
+      "next": "区分学生实习基地与科研采购。",
+      "required_aliases": [
+        "摸星",
+        "Moxing",
+        "先锋数聚",
+        "Pioneer Data",
+        "即刻",
+        "Jike",
+        "及刻"
+      ],
+      "previous_query": "\"北京先锋数聚信息科技有限公司\" 大学",
+      "query_status": "七别名作为持续检索覆盖模板；已执行查询见本轮日志，不声称所有学校七词逐一穷尽",
+      "evidence_boundary": "作者单位、采购公告、基金和供方声明分别认定；未命中不表示不存在。",
+      "procurement_evidence": "本轮未新增本校独立采购确认；保留既有用户线索或合作证据"
+    },
+    {
+      "institution": "香港大学 · 杨天人 Tianren Yang团队",
+      "query": "香港大学 · 杨天人 Tianren Yang团队 × 摸星 / Moxing / 先锋数聚 / Pioneer Data / 即刻 / Jike / 及刻",
+      "status": "user_confirmed_jike_procurement_public_document_pending",
+      "sources": [
+        "CN-S32",
+        "CN-S33",
+        "CN-S34",
+        "CN-S35",
+        "CN-S38"
+      ],
+      "next": "追踪已采购及刻数据的公开合同佐证、使用课题与成果；可能尚未发表，不向现有三篇论文分配该采购。",
+      "required_aliases": [
+        "摸星",
+        "Moxing",
+        "先锋数聚",
+        "Pioneer Data",
+        "即刻",
+        "Jike",
+        "及刻"
+      ],
+      "previous_query": "HKU / University of Hong Kong / Tianren Yang × 摸星/Moxing/先锋数聚/Pioneer Data/即刻/Jike",
+      "query_status": "七别名作为持续检索覆盖模板；已执行查询见本轮日志，不声称所有学校七词逐一穷尽",
+      "evidence_boundary": "作者单位、采购公告、基金和供方声明分别认定；未命中不表示不存在。",
+      "procurement_evidence": "用户确认香港大学已采购及刻数据，依据供应商提供的客户信息；公开合同佐证与对应研究成果待追踪，尚不确定是否已有发表成果。不能将该采购直接分配给L30/L31/L32。"
     }
   ],
   "corporate_search_log": [
@@ -665,14 +1381,24 @@
         "\"北京先锋数聚\" 企查查"
       ],
       "result": "仅取得公司出现在官方企业名单等资料；未取得有效股东登记材料。"
+    },
+    {
+      "queries": [
+        "及刻 isjike.com",
+        "广州市梦享网络技术有限公司 香港大学"
+      ],
+      "result": "官网品牌及页脚主体已核（CN-S37），L29域名直接对应。HKU/杨天人和先锋/摸星股权关系未核。"
     }
   ],
   "priority_next_steps": [
     "采购附件抽取负责人/项目编号/字段说明，然后反查团队论文；首选深大5份公告。",
     "上海大学STC24A483应从校采购站和采购代理公司档案查原文。",
-    "即刻LBS需用户已有官网、合同抬头或统一社会信用代码作为法人消歧种子；不先写任何马甲公司结论。",
     "核验Moxing Beijing中文法人名及是否为数据源、经销商或品牌，不从拼音猜公司。",
-    "由已确认42171400和夏吉喆团队逐篇核查方法/补充材料供应商，而非全团队作品归属。"
+    "由已确认42171400和夏吉喆团队逐篇核查方法/补充材料供应商，而非全团队作品归属。",
+    "追踪香港大学已采购及刻数据的公开合同佐证、课题与成果（用户已确认采购；可能尚未发表）。",
+    "L27与自用数据“99%相同”为用户置信判断，依据供应商客户名单与形式交叉吻合；优先追查公开供方佐证，不将该表述写成统计估计或原文供方披露。",
+    "关联供应商组已按用户确认合并展示；继续核法律主体、股权及原文域名声明，保留每篇原始名称。",
+    "继续取得L28/L32原文、上海STC24A483公告及用户微信技术正文。"
   ],
   "local_context": {
     "file": "section_updates_20260914/sdk_literature/section1_sdk_literature_source_registry.json",
@@ -687,6 +1413,469 @@
         "\"STC24A483\""
       ],
       "result": "新增2采购公告和1原始方法来源；STC编号仍无直接命中。"
+    },
+    {
+      "date": "2026-10-10",
+      "round": 5,
+      "queries": [
+        {
+          "query": "北京大学 (\"摸星\" OR \"先锋数聚\" OR \"即刻\" OR \"Moxing\" OR \"Pioneer Data\" OR \"Jike\") 手机 数据",
+          "result": "该组合查询未返回可用结果；不是确认不存在合作或论文"
+        },
+        {
+          "query": "清华大学 (\"摸星\" OR \"先锋数聚\" OR \"即刻\" OR \"Moxing\" OR \"Pioneer Data\" OR \"Jike\") 手机 数据",
+          "result": "该组合查询未返回可用结果；不是确认不存在合作或论文"
+        },
+        {
+          "query": "同济大学 (\"摸星\" OR \"先锋数聚\" OR \"即刻\" OR \"Moxing\" OR \"Pioneer Data\" OR \"Jike\") 手机 数据",
+          "result": "该组合查询未返回可用结果；不是确认不存在合作或论文"
+        },
+        {
+          "query": "东南大学 (\"摸星\" OR \"先锋数聚\" OR \"即刻\" OR \"Moxing\" OR \"Pioneer Data\" OR \"Jike\") 手机 数据",
+          "result": "该组合查询未返回可用结果；不是确认不存在合作或论文"
+        },
+        {
+          "query": "南京大学 (\"摸星\" OR \"先锋数聚\" OR \"即刻\" OR \"Moxing\" OR \"Pioneer Data\" OR \"Jike\") 手机 数据",
+          "result": "该组合查询未返回可用结果；不是确认不存在合作或论文"
+        },
+        {
+          "query": "天津大学 (\"摸星\" OR \"先锋数聚\" OR \"即刻\" OR \"Moxing\" OR \"Pioneer Data\" OR \"Jike\") 手机 数据",
+          "result": "该组合查询未返回可用结果；不是确认不存在合作或论文"
+        },
+        {
+          "query": "中南大学 (\"摸星\" OR \"先锋数聚\" OR \"即刻\" OR \"Moxing\" OR \"Pioneer Data\" OR \"Jike\") 手机 数据",
+          "result": "该组合查询未返回可用结果；不是确认不存在合作或论文"
+        },
+        {
+          "query": "北京交通大学 (\"摸星\" OR \"先锋数聚\" OR \"即刻\" OR \"Moxing\" OR \"Pioneer Data\" OR \"Jike\") 手机 数据",
+          "result": "该组合查询未返回可用结果；不是确认不存在合作或论文"
+        },
+        {
+          "query": "上海交通大学 (\"摸星\" OR \"先锋数聚\" OR \"即刻\" OR \"Moxing\" OR \"Pioneer Data\" OR \"Jike\") 手机 数据",
+          "result": "该组合查询未返回可用结果；不是确认不存在合作或论文"
+        },
+        {
+          "query": "福州大学 (\"摸星\" OR \"先锋数聚\" OR \"即刻\" OR \"Moxing\" OR \"Pioneer Data\" OR \"Jike\") 手机 数据",
+          "result": "该组合查询未返回可用结果；不是确认不存在合作或论文"
+        },
+        {
+          "query": "四川大学 (\"摸星\" OR \"先锋数聚\" OR \"即刻\" OR \"Moxing\" OR \"Pioneer Data\" OR \"Jike\") 手机 数据",
+          "result": "该组合查询未返回可用结果；不是确认不存在合作或论文"
+        },
+        {
+          "query": "重庆大学 (\"摸星\" OR \"先锋数聚\" OR \"即刻\" OR \"Moxing\" OR \"Pioneer Data\" OR \"Jike\") 手机 数据",
+          "result": "该组合查询未返回可用结果；不是确认不存在合作或论文"
+        }
+      ],
+      "shanghai_queries": [
+        {
+          "query": "\"Capturing socio-spatial inequality\" pdf",
+          "result": "见sources；未命中不表示不存在"
+        },
+        {
+          "query": "\"城市规划中的\" \"通勤\" 李峰清 原文",
+          "result": "见sources；未命中不表示不存在"
+        },
+        {
+          "query": "\"城市规划\" \"通勤阈值\" 2023 47 6",
+          "result": "见sources；未命中不表示不存在"
+        },
+        {
+          "query": "城市规划 期刊 官网",
+          "result": "见sources；未命中不表示不存在"
+        },
+        {
+          "query": "\"Capturing socio-spatial\" \"data\" \"company\"",
+          "result": "见sources；未命中不表示不存在"
+        },
+        {
+          "query": "\"Capturing socio-spatial\" \"Tencent\"",
+          "result": "见sources；未命中不表示不存在"
+        },
+        {
+          "query": "\"李峰清\" \"先锋\"",
+          "result": "见sources；未命中不表示不存在"
+        },
+        {
+          "query": "\"通勤阈值\" site:planning.org.cn",
+          "result": "见sources；未命中不表示不存在"
+        },
+        {
+          "query": "\"城市规划\" 杂志 cityplanningreview",
+          "result": "见sources；未命中不表示不存在"
+        },
+        {
+          "query": "\"李峰清\" \"摸星\" OR \"即刻\" OR \"Pioneer\" OR \"Moxing\"",
+          "result": "见sources；未命中不表示不存在"
+        },
+        {
+          "query": "\"Capturing socio-spatial inequality\" \"provider\"",
+          "result": "见sources；未命中不表示不存在"
+        },
+        {
+          "query": "\"通勤阈值\" site:cnki.net",
+          "result": "见sources；未命中不表示不存在"
+        },
+        {
+          "query": "\"通勤阈值\" site:planning.com.cn",
+          "result": "见sources；未命中不表示不存在"
+        },
+        {
+          "query": "\"城市规划中的“通勤”概念辨析\"",
+          "result": "见sources；未命中不表示不存在"
+        },
+        {
+          "query": "\"通勤阈值\" \"李峰清\" 城市规划 13",
+          "result": "见sources；未命中不表示不存在"
+        },
+        {
+          "query": "\"Capturing socio-spatial inequality\" site:depositonce.tu-berlin.de",
+          "result": "见sources；未命中不表示不存在"
+        },
+        {
+          "query": "\"Capturing socio-spatial inequality\" site:habitat-unit.de",
+          "result": "见sources；未命中不表示不存在"
+        },
+        {
+          "query": "\"探索\" \"李峰清\" \"通勤\" 2023",
+          "result": "见sources；未命中不表示不存在"
+        },
+        {
+          "query": "\"EXPLORATION ON THE CONCEPT\" \"COMMUTING\"",
+          "result": "见sources；未命中不表示不存在"
+        },
+        {
+          "query": "\"通勤阈值\" 李峰清 DOI",
+          "result": "见sources；未命中不表示不存在"
+        },
+        {
+          "query": "\"申享\" \"2023年规划信息化技术\"",
+          "result": "命中规划云目录；未找到独立官方技术正文"
+        },
+        {
+          "query": "\"2023年规划信息化技术系列发布\"",
+          "result": "命中规划云目录；未找到独立官方技术正文"
+        },
+        {
+          "query": "\"申享\" \"LBS\" \"2023\"",
+          "result": "命中规划云目录；未找到独立官方技术正文"
+        },
+        {
+          "query": "\"规划信息化\" \"2023\" site:caupd.com",
+          "result": "命中规划云目录；未找到独立官方技术正文"
+        },
+        {
+          "query": "\"2023年\" \"信息化技术\" \"中规院上海分院\"",
+          "result": "命中规划云目录；未找到独立官方技术正文"
+        },
+        {
+          "query": "\"申客思享会\" \"先锋\" OR \"即刻\" OR \"LBS\"",
+          "result": "命中规划云目录；未找到独立官方技术正文"
+        }
+      ],
+      "hku_queries": [
+        {
+          "query": "Tianren Yang HKU publications mobile phone data",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"杨天人\" \"数据\"",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"Moxing\" \"Hong Kong\" mobility",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"Jike\" \"Hong Kong\" data",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"site:hku.hk\" \"Jike\"",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"Tianren Yang\" \"location-based\"",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"杨天人\" \"先锋\"",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"杨天人\" \"即刻LBS\"",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"Tianren Yang\" \"GPS\" \"data\"",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"Tianren Yang\" \"Jike\" location",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"Hong Kong\" \"pioneerdata.com.cn\"",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"香港大学\" \"先锋数聚\"",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"北京大学\" (\"先锋数聚\" OR \"摸星\" OR \"即刻LBS\")",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"清华大学\" (\"先锋数聚\" OR \"摸星\" OR \"即刻LBS\")",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"同济大学\" (\"先锋数聚\" OR \"摸星\" OR \"即刻LBS\")",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"东南大学\" (\"先锋数聚\" OR \"摸星\" OR \"即刻LBS\")",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"南京大学\" \"先锋数聚\"",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"天津大学\" \"先锋数聚\"",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"中南大学\" \"先锋数聚\"",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"北京交通大学\" \"先锋数聚\"",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"上海交通大学\" \"先锋数聚\"",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"福州大学\" \"先锋数聚\"",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"四川大学\" \"先锋数聚\"",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"重庆大学\" \"先锋数聚\"",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"Tianren Yang\" \"mobility\" \"2024\" data",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"Tianren Yang\" \"Moxing Beijing\"",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"hku.hk\" \"先锋数聚\"",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"即刻LBS\" 大学",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"The new geography of work and mobility\"",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"Tianren Yang\" \"Moxing\" data -protein",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"Tianren Yang\" \"Jike\" -protein -ICLR",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"北京摸星科技有限公司\" 大学",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"s42949-025-00231-x\" \"Jike\"",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"s42949-025-00231-x\" \"data\" \"provided\"",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"101253\" \"data\" \"Tencent\"",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"101253\" \"data\" \"Jike\"",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"The new geography of work\" \"Baidu\"",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"The new geography of work\" \"data collection\"",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"Tianren Yang\" \"即刻\"",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"Tianren Yang\" \"Moxing Technology\"",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"Tianren Yang\" \"Jike\"",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"Tianren Yang\" \"Moxing\"",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"Tianren Yang\" \"Pioneer\" data",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"香港大学\" \"即刻\" 数据",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"101253\" \"Jike\"",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"101253\" \"telework\" data provider",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"Spatial eco-socio-economic trade-offs\" data",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "site:nature.com/articles/s42949-025-00231-x \"Data availability\"",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "site:nature.com/articles/s42949-025-00231-x \"Jike\" \"data\"",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"The new geography of work and mobility\" \"provided\"",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"The new geography of work and mobility\" \"hub.hku\"",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"101253\" \"site:hub.hku.hk\"",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"101253\" \"site:repository.hku.hk\"",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"The new geography of work and mobility\" \"Baidu\" \"data\"",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"Balancing urban environmental and societal performance\" \"data\"",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"Tianren Yang\" \"Jike data\"",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"Yang\" \"Jike\" \"location-based\" university",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"香港大学\" \"即刻\" \"轨迹\"",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"楊天人\" \"即刻\"",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"Hong Kong\" \"Jike\" \"procurement\"",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"Tianren Yang\" \"Pioneer Data\" urban",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"香港大学\" \"摸星\"",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"杨天人\" \"摩星\"",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"S2214367X26000220\" \"Baidu\" domain:sciencedirect.com",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"telework\" \"101253\" \"3.2\" domain:sciencedirect.com",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"Tianren Yang\" \"Jike\" \"data\" domain:hku.hk",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"Tianren Yang\" \"采购\" domain:hku.hk",
+          "outcome": "见本轮分层结论；无匹配不能视为无合作"
+        },
+        {
+          "query": "\"香港大学\" \"及刻\"",
+          "outcome": "新增及刻/isjike别名，未取得HKU/Yang直接供方或采购证据"
+        },
+        {
+          "query": "\"Tianren Yang\" \"isjike\"",
+          "outcome": "新增及刻/isjike别名，未取得HKU/Yang直接供方或采购证据"
+        },
+        {
+          "query": "\"杨天人\" \"及刻\"",
+          "outcome": "新增及刻/isjike别名，未取得HKU/Yang直接供方或采购证据"
+        },
+        {
+          "query": "\"Hong Kong\" \"Jike\" \"isjike.com\"",
+          "outcome": "新增及刻/isjike别名，未取得HKU/Yang直接供方或采购证据"
+        },
+        {
+          "query": "\"isjike.com\" \"hku\"",
+          "outcome": "新增及刻/isjike别名，未取得HKU/Yang直接供方或采购证据"
+        },
+        {
+          "query": "\"及刻\" \"杨天人\" 数据",
+          "outcome": "新增及刻/isjike别名，未取得HKU/Yang直接供方或采购证据"
+        },
+        {
+          "query": "\"及刻\" \"港大\"",
+          "outcome": "新增及刻/isjike别名，未取得HKU/Yang直接供方或采购证据"
+        },
+        {
+          "query": "\"广州市梦享网络技术有限公司\" \"香港大学\"",
+          "outcome": "新增及刻/isjike别名，未取得HKU/Yang直接供方或采购证据"
+        }
+      ],
+      "result": "L27方法/项目、L29混合供方、L30百度、L31自采明确；L28/L32原文待核。19机构表为持续覆盖矩阵，七别名全检不作已完成声明。"
     }
   ],
   "domestic_supplier_candidates": [
@@ -697,7 +1886,8 @@
       "operator_fusion": "not_reported_not_independently_excluded",
       "sources": [
         "CN-S14"
-      ]
+      ],
+      "supplier_relationship_group_id": "USER-CONFIRMED-PIONEER-MOXING-JIKE"
     },
     {
       "supplier": "每日互动/个推",
@@ -726,6 +1916,19 @@
         "CN-S24",
         "CN-S25"
       ]
+    },
+    {
+      "supplier": "及刻 / Jike（isjike.com）",
+      "classification": "官方品牌及城市规划定制数据服务；L29真实使用为SDK+网络/基站混合来源",
+      "copyright_entity": "广州市梦享网络技术有限公司",
+      "sdk_architecture": "L29_explicit_SDK",
+      "operator_fusion": "L29_network_and_cell_tower_positioning; no_claim_of_direct_CDR_purchase",
+      "sources": [
+        "CN-S36",
+        "CN-S37"
+      ],
+      "limits": "用户确认与先锋/Moxing同属关联供应商组；官网版权主体与工商股权分别核验。L29原文给域名，L26未给域名，原文声明不跨文传递。",
+      "supplier_relationship_group_id": "USER-CONFIRMED-PIONEER-MOXING-JIKE"
     }
   ],
   "round2_unresolved": [
@@ -805,5 +2008,361 @@
       "count_as_confirmed_supplier_use": false,
       "limits": "相邻排版不等于同组研究；作者为Pengfei Chen/Yi Jian，并非Ma/Xia。摘要未给数据供应商。"
     }
-  ]
+  ],
+  "research_groups": [
+    {
+      "id": "SZU-XIA-PM25",
+      "title": "深圳大学夏吉喆团队：轨迹数据与PM2.5暴露公平",
+      "institution": "深圳大学",
+      "team": "夏吉喆 · 马志锋 · 吴梓昊 · Zhong Leiyang（各成果作者名单分别保留）",
+      "summary": "将2023年Jike三城会议摘要、2026年Moxing六城市数据论文及配套栅格数据集合并为一条团队研究脉络。中英文书目页和重复数据集入口归入来源档案；三个成果保持各自题录、范围和出版类型。",
+      "source_ids": [
+        "CN-S10",
+        "CN-S14",
+        "CN-S15",
+        "CN-S17",
+        "CN-S26",
+        "CN-S27"
+      ],
+      "supplier_names": [
+        "北京摸星科技有限公司",
+        "Moxing Technology",
+        "Moxing Beijing",
+        "即刻",
+        "Jike",
+        "先锋数聚（用户确认关联供应商体系）"
+      ],
+      "verbatim_statement": "The large-scale individual trajectory data used in this study were provided by Moxing Technology. These data capture and record user behavioral dynamics at regular high frequencies using various positioning technologies, such as Wi-Fi, Bluetooth, and GPS. The data cover the entire spatial extent of 6 cities: Beijing, Shanghai, Shenzhen, Chengdu, Wuhan, and Xi’an. The dataset includes anonymized user IDs, timestamps, positioning methods, and precise latitude and longitude information. To minimize the impact of fluctuations in residents’ daily mobility patterns on experimental error, this study selected trajectory data spanning one month, from January 24 to February 23, 2023.",
+      "statement_source": "用户提供的英文原文；对应L25 Data sources及同篇中文PDF第2–3页",
+      "statement_url": "https://www.geodoi.ac.cn/WebEn/paper.aspx?Id=963cf123-47e6-4494-953c-8694ca02eace",
+      "outputs": [
+        {
+          "type": "会议摘要",
+          "title": "PM25 Exposure Disparities Among Different Populations in High Mobility Urban Areas: A Case Study of Beijing, Shanghai, and Shenzhen",
+          "year": 2023,
+          "url": "https://isocui.org/icui2023/programme/GSCS%26ICUI2023-Conference-Proceedings.pdf",
+          "catalog_id": "L26",
+          "provider": "即刻 / Jike",
+          "verbatim_statement": "Methods: We initially obtained approximately 6 million de-sensitized user trajectory data from \"Jike,\" a Chinese positioning technology company.",
+          "data_statement": "Ma Zhifeng、Zhong Leiyang、Xia Jizhe；印刷90–91页。三城轨迹与PM2.5暴露，会议摘要中的部分分析为计划。"
+        },
+        {
+          "type": "期刊论文",
+          "title": "Equity Dataset Development of PM2.5 Exposure for Different Population Groups in Six Cities of China from the Trajectory Data Perspective",
+          "year": 2026,
+          "url": "https://www.geodoi.ac.cn/DOIPaper/HTML/2026139402/202602139408.html",
+          "catalog_id": "L25",
+          "doi": "10.3974/geodp.2026.02.08",
+          "provider": "摸星科技 / Moxing Technology",
+          "data_statement": "Wu, Z. H.; Ma, Z. F.; Xia, J. Z. Journal of Global Change Data & Discovery, 10(2):180–190。DOI为出版方报告值；另保留解析待核状态。"
+        },
+        {
+          "type": "配套数据集",
+          "title": "人群轨迹数据视角下中国6个城市PM2.5暴露平等性1-km时均栅格数据集（2023年1–2月）",
+          "year": 2026,
+          "url": "https://www.geodoi.ac.cn/WebCn/geodoi.aspx?ID=3949&paperID=963cf123-47e6-4494-953c-8694ca02eace",
+          "doi": "10.3974/geodb.2026.02.08.V1",
+          "provider": "原始轨迹：摸星科技；公开成果：污染暴露衍生数据",
+          "data_statement": "马志锋、吴梓昊、夏吉喆；与L25配套，原始个人轨迹不作为开放数据发布，不再重复计成学术论文。"
+        }
+      ],
+      "relationships": [
+        {
+          "from": "2023会议摘要",
+          "to": "2026期刊论文与数据集",
+          "relation": "同一深大夏吉喆团队的PM2.5轨迹研究脉络，按用户确认关联展示",
+          "evidence": "共享作者、研究主题与用户确认；保留三城/六城和不同方法的区别，不推定数据队列完全相同",
+          "source_ids": [
+            "CN-S26",
+            "CN-S14",
+            "CN-S15"
+          ]
+        },
+        {
+          "from": "2026期刊论文",
+          "to": "配套数据集",
+          "relation": "原文直接引用的数据论文—数据集关系",
+          "evidence": "L25表1及参考文献8；重复数据集来源CN-S27并入CN-S15",
+          "source_ids": [
+            "CN-S14",
+            "CN-S15",
+            "CN-S27"
+          ]
+        }
+      ],
+      "supplier_relationship_group_id": "USER-CONFIRMED-PIONEER-MOXING-JIKE"
+    },
+    {
+      "id": "URA-LI-LYNAM",
+      "title": "上海大学李峰清与URA：城乡流动和社会空间不平等",
+      "institution": "上海大学；柏林工业大学；同济大学",
+      "team": "李峰清 · Ava Lynam · 黄璜 · 费丽媛等",
+      "summary": "L27确认URA产出及LBS方法，L28保留同作者通勤概念候选；不自动认定L28为URA成果。上海大学STC24A483公开采购公告待追踪。 用户置信判断：论文GPS/WiFi、匿名位置、居住/工作识别等数据形式与其自用数据“99%相同”；依据供应商提供的院校客户名单与论文数据形式交叉吻合。“99%”为用户经验置信表述，非统计估计。列同类数据及关联供应商追查高优先级，原文未披露供方，不能升级为原文确认先锋/Moxing/Jike。",
+      "source_ids": [
+        "CN-S18",
+        "CN-S28",
+        "CN-S29",
+        "CN-S30"
+      ],
+      "supplier_names": [
+        "L27供方未披露",
+        "L28待核"
+      ],
+      "verbatim_statement": "",
+      "statement_source": "方法结论按每个output的数据声明与来源分别核验",
+      "statement_url": "https://www.researchgate.net/publication/365358436_Capturing_socio-spatial_inequality_in_planetary_urbanisation_A_multi-dimensional_methodological_framework",
+      "outputs": [
+        {
+          "type": "期刊论文",
+          "title": "Capturing socio-spatial inequality in planetary urbanisation: A multi-dimensional methodological framework",
+          "year": 2023,
+          "url": "https://www.researchgate.net/publication/365358436_Capturing_socio-spatial_inequality_in_planetary_urbanisation_A_multi-dimensional_methodological_framework",
+          "catalog_id": "L27",
+          "doi": "10.1016/j.cities.2022.104076",
+          "provider": "原文未披露；用户判断与自用关联供应商数据高度吻合",
+          "data_statement": "作者公开全文§4.2.1把LBS定位描述为GPS、公共Wi-Fi和MAC地址，使用台州2017/2020年10月1–30日数据；未披露供应商或SDK采集流程。定位描述不等于已排除运营商信息融合。 用户置信判断：论文GPS/WiFi、匿名位置、居住/工作识别等数据形式与其自用数据“99%相同”；依据供应商提供的院校客户名单与论文数据形式交叉吻合。“99%”为用户经验置信表述，非统计估计。列同类数据及关联供应商追查高优先级，原文未披露供方，不能升级为原文确认先锋/Moxing/Jike。"
+        },
+        {
+          "type": "候选题录（原文待核）",
+          "title": "城市规划中的“通勤”概念辨析及“通勤阈值”界定探讨",
+          "year": 2023,
+          "url": "https://safa.shu.edu.cn/info/1111/7908.htm",
+          "catalog_id": "L28",
+          "doi": "",
+          "provider": "未核验",
+          "data_statement": "目前仅核验上海大学官方作者页题录，并由《地理科学进展》参考文献交叉核对卷期页；未读到原文，不判定是否使用手机定位数据。"
+        }
+      ],
+      "relationships": [
+        {
+          "from": "URA01LE1804A-D",
+          "to": "L27",
+          "relation": "基金致谢与官方项目产出",
+          "evidence": "L27Funding及URA项目产出页",
+          "source_ids": [
+            "CN-S28",
+            "CN-S30"
+          ]
+        }
+      ],
+      "supplier_group_lead": "USER-CONFIRMED-PIONEER-MOXING-JIKE"
+    },
+    {
+      "id": "HKU-YANG-MOBILITY",
+      "title": "香港大学杨天人团队：城市LBS、出行调查与远程办公",
+      "institution": "香港大学",
+      "team": "Tianren Yang / 杨天人与各文合作者",
+      "summary": "L30百度LBS、L31团队自采小程序GPS、L32供方待核分别保留。 用户确认香港大学已采购及刻数据，依据供应商提供的客户信息；公开合同佐证与对应研究成果待追踪，尚不确定是否已有发表成果。不能将该采购直接分配给L30/L31/L32。",
+      "source_ids": [
+        "CN-S32",
+        "CN-S33",
+        "CN-S34",
+        "CN-S35"
+      ],
+      "supplier_names": [
+        "百度慧眼（L30）",
+        "研究团队自采（L31）",
+        "L32待核",
+        "及刻（用户确认港大已采购，具体成果待追踪）"
+      ],
+      "verbatim_statement": "",
+      "statement_source": "方法结论按每个output的数据声明与来源分别核验",
+      "statement_url": "https://doi.org/10.1038/s42949-025-00231-x",
+      "outputs": [
+        {
+          "type": "期刊论文",
+          "title": "Spatial eco-socio-economic trade-offs inform differentiated management strategies in mega-urban agglomerations",
+          "year": 2025,
+          "url": "https://doi.org/10.1038/s42949-025-00231-x",
+          "catalog_id": "L30",
+          "doi": "10.1038/s42949-025-00231-x",
+          "provider": "百度慧眼 / Baidu",
+          "data_statement": "Methods以匿名LBS识别居住与工作人口及收入、支出属性，明确使用私人/公共Wi-Fi连接辅助分类；Data availability列百度慧眼。尚未明确SDK架构、GPS或是否融合运营商数据。"
+        },
+        {
+          "type": "期刊论文",
+          "title": "From trajectory to behavior: Capturing individual travel details using an applet-based GPS tracking system",
+          "year": 2025,
+          "url": "https://hub.hku.hk/bitstream/10722/357639/1/content.pdf?accept=1",
+          "catalog_id": "L31",
+          "doi": "10.1016/j.tbs.2025.101078",
+          "provider": "研究团队自建采集；WeChat API作为应用平台",
+          "data_statement": "第3.1–3.2节说明基于WeChat API自建小程序，用户扫码授权后连续开启小程序及GPS，自动上传轨迹、推断与人工确认出行；上海嘉定三阶段调查。不能解释为向即刻、先锋或微信购买商业位置面板。"
+        },
+        {
+          "type": "候选题录（原文待核）",
+          "title": "The new geography of work and mobility: Behavioural, spatial and sectoral dynamics of telework during and after COVID-19",
+          "year": 2026,
+          "url": "https://www.sciencedirect.com/science/article/pii/S2214367X26000220",
+          "catalog_id": "L32",
+          "doi": "10.1016/j.tbs.2026.101253",
+          "provider": "待核；二次转载称百度，未以原始全文确认",
+          "data_statement": "出版社摘要确认深圳2019–2022 LBS与就业统计融合研究；本轮原始出版页403，未取得官方完整方法段。非官方转载有百度来源线索，仅用于下一轮定向检索，不确认为供方。"
+        }
+      ],
+      "relationships": [
+        {
+          "from": "杨天人团队",
+          "to": "L30/L31/L32",
+          "relation": "作者研究脉络，供方分别核验",
+          "evidence": "每篇作者信息与官方学者目录",
+          "source_ids": [
+            "CN-S32",
+            "CN-S33",
+            "CN-S34",
+            "CN-S35"
+          ]
+        },
+        {
+          "from": "及刻 / Jike",
+          "to": "香港大学",
+          "relation": "用户确认已采购，公开佐证与成果待追踪",
+          "evidence": "供应商客户信息经用户确认；尚不确定对应已发表成果",
+          "source_ids": [
+            "CN-S38"
+          ],
+          "status": "user_confirmed_jike_procurement_public_document_pending"
+        }
+      ],
+      "procurement_status": "user_confirmed_jike_procurement_public_document_pending"
+    },
+    {
+      "id": "DOKSURI-DU-MOBILITY",
+      "title": "杜云艳等：福建杜苏芮台风社区响应与韧性",
+      "institution": "中科院地理资源所；中国科学院大学；福州大学；清华大学",
+      "team": "Yunyan Du · Sheng Huang等",
+      "summary": "L29直接披露及刻域名和SDK，但混合网络/基站定位；纳入灾害应用边界，作者单位不转写成采购。",
+      "source_ids": [
+        "CN-S36",
+        "CN-S37"
+      ],
+      "supplier_names": [
+        "及刻 / Jike（isjike.com；混合来源）"
+      ],
+      "verbatim_statement": "",
+      "statement_source": "方法结论按每个output的数据声明与来源分别核验",
+      "statement_url": "https://recovery.preventionweb.net/media/115864/download?startDownload=20261010",
+      "outputs": [
+        {
+          "type": "期刊论文",
+          "title": "Rapid community response and resilience to typhoon Doksuri in coastal Fujian: insights from large-scale human mobility data",
+          "year": 2025,
+          "url": "https://recovery.preventionweb.net/media/115864/download?startDownload=20261010",
+          "catalog_id": "L29",
+          "doi": "10.1016/j.jag.2025.104910",
+          "provider": "及刻 / Jike（isjike.com；SDK + 网络/基站混合定位）",
+          "data_statement": "正文2.2明确Jike Platform、用户同意的SDK采集，以及smartphone network positioning与cell tower signals，宣称约50米定位精度；不能归为纯GPS/WiFi核心样本。"
+        }
+      ],
+      "relationships": [
+        {
+          "from": "及刻 / isjike.com",
+          "to": "L29",
+          "relation": "原文数据供给，SDK与网络/基站混合定位",
+          "evidence": "PDF2.2及第13页域名；官网品牌",
+          "source_ids": [
+            "CN-S36",
+            "CN-S37"
+          ]
+        }
+      ],
+      "supplier_relationship_group_id": "USER-CONFIRMED-PIONEER-MOXING-JIKE"
+    }
+  ],
+  "source_aliases": {
+    "CN-S27": "CN-S15"
+  },
+  "statement_archive": {
+    "as_of": "2026-10-10",
+    "source_type": "user_supplied_verbatim_primary_source_excerpt",
+    "statements": [
+      {
+        "catalog_id": "L25",
+        "provider_as_written": "Moxing Technology",
+        "text": "The large-scale individual trajectory data used in this study were provided by Moxing Technology. These data capture and record user behavioral dynamics at regular high frequencies using various positioning technologies, such as Wi-Fi, Bluetooth, and GPS. The data cover the entire spatial extent of 6 cities: Beijing, Shanghai, Shenzhen, Chengdu, Wuhan, and Xi’an. The dataset includes anonymized user IDs, timestamps, positioning methods, and precise latitude and longitude information. To minimize the impact of fluctuations in residents’ daily mobility patterns on experimental error, this study selected trajectory data spanning one month, from January 24 to February 23, 2023.",
+        "source_url": "https://www.geodoi.ac.cn/WebEn/paper.aspx?Id=963cf123-47e6-4494-953c-8694ca02eace"
+      },
+      {
+        "catalog_id": "L26",
+        "provider_as_written": "Jike",
+        "text": "Methods: We initially obtained approximately 6 million de-sensitized user trajectory data from \"Jike,\" a Chinese positioning technology company.",
+        "source_url": "https://isocui.org/icui2023/programme/GSCS%26ICUI2023-Conference-Proceedings.pdf"
+      }
+    ]
+  },
+  "round5_findings": {
+    "sources_added": [
+      "CN-S28",
+      "CN-S29",
+      "CN-S30",
+      "CN-S31",
+      "CN-S32",
+      "CN-S33",
+      "CN-S34",
+      "CN-S35",
+      "CN-S36",
+      "CN-S37"
+    ],
+    "literature_ids": [
+      "L27",
+      "L28",
+      "L29",
+      "L30",
+      "L31",
+      "L32"
+    ],
+    "official_brand": "及刻 / isjike.com",
+    "target_supplier_new_confirmed_use": [
+      "L29_mixed_source"
+    ],
+    "procurement_new_confirmed": 0,
+    "wechat_article_text_obtained": false,
+    "source_files": [
+      "agents/china_round5_shanghai.json",
+      "agents/china_round5_hku.json",
+      "agents/china_round5_doksuri.json",
+      "agents/china_round5_school_search.json"
+    ],
+    "coverage_count": 19,
+    "hku_procurement_status": "user_confirmed_jike_procurement_public_document_pending",
+    "procurement_user_confirmed": 1,
+    "procurement_new_confirmed_note": "原值0指新增公开文件确认数量；另有用户明确确认港大已采购及刻，公开合同和成果待追踪。",
+    "user_confirmation_source_id": "CN-S38"
+  },
+  "supplier_relationship_groups": [
+    {
+      "id": "USER-CONFIRMED-PIONEER-MOXING-JIKE",
+      "title": "先锋数聚—摸星/Moxing—及刻/Jike（用户确认关联组）",
+      "status": "user_confirmed_associated_supplier_group",
+      "members": [
+        "先锋数聚",
+        "Pioneer Data",
+        "摸星科技",
+        "Moxing Beijing",
+        "Moxing Technology",
+        "即刻",
+        "及刻",
+        "Jike"
+      ],
+      "preferred_jike_chinese_name": "及刻",
+      "alias_note": "即刻保留为用户历史表述与检索词；用户人工核验正确品牌名称为及刻。",
+      "basis": "用户依据供应商信息和人工核验确认关联，知识库按关联组整合展示。",
+      "source_ids": [
+        "CN-S38"
+      ],
+      "official_brand_source_ids": [
+        "CN-S37"
+      ],
+      "preserve_original_paper_names": true,
+      "legal_entity_relationship_status": "independent_public_registry_verification_pending",
+      "limits": "关联组不等于同一法人、已核股东关系或每篇论文原文明示同一供应商；具体文章保留原名、角色、技术边界和证据等级。"
+    }
+  ],
+  "current_user_clarification": {
+    "source_ids": [
+      "CN-S38"
+    ],
+    "supersedes_historical_status": "此前日志中的HKU采购未核或别名待核是当时公开检索结果；当前用户已确认已采购及刻和供应商关联组，待追踪的是公开佐证与具体成果。",
+    "L27_confidence": "用户称99%相同，非统计估计。"
+  }
 }

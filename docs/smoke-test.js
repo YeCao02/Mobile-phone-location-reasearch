@@ -104,4 +104,36 @@ assert.equal((node('#supplier-ranking').innerHTML.match(/data-provider-row-id=/g
 node('#clear').listeners.click();
 for(const r of data.papers.filter(r=>r.publication_type==='conference_abstract'))assert(vm.runInContext(`paper(D.papers.find(r=>r.id===${JSON.stringify(r.id)}))`,ctx).includes('会议摘要'));
 for(const r of data.papers.filter(r=>r.bibliographic_note))assert(vm.runInContext(`paper(D.papers.find(r=>r.id===${JSON.stringify(r.id)}))`,ctx).includes('bibliographic-note'));
-console.log(`PASS: ${total} records visible; all/year/journal/field counts; chart clicks; scope/status/work filters; independent reading/PDF/Zotero flags; supplier exact-ID counts/roles/stack/reset; search and clear.`);
+
+node('#clear').listeners.click();
+const groups=data.china_groups||[];
+const groupedSourceIds=new Set(groups.flatMap(g=>data.china.filter(r=>(g.source_ids||[]).includes(r.id)||r.group_id===g.id).map(r=>r.id)));
+assert.equal(vm.runInContext('filteredChina().sourceCount',ctx),data.china.length);
+assert.equal(vm.runInContext('filteredChina().standalone.length',ctx),data.china.length-groupedSourceIds.size);
+assert.equal(vm.runInContext('filteredChina().groups.length',ctx),groups.length);
+for(const r of data.china)assert.equal(node('#china-list').innerHTML.split(`id="china-${r.id}"`).length-1,1,`Source ${r.id} should render once`);
+for(const g of groups){
+ assert.equal(node('#china-list').innerHTML.split(`id="china-group-${g.id}"`).length-1,1);
+ for(const output of g.outputs||[])if(output.catalog_id)assert(ids.has(output.catalog_id),`Output references unknown paper ${output.catalog_id}`);
+ const probe=g.outputs?.find(o=>o.title)?.title||g.title;
+ node('#search').value=probe;node('#search').listeners.input();
+ assert(node('#china-list').innerHTML.includes(`id="china-group-${g.id}"`),'Group should be searchable through output title');
+ node('#clear').listeners.click();
+}
+const rawChinaPath=path.join(__dirname,'../data/china_evidence.json');
+if(fs.existsSync(rawChinaPath)){
+ const rawChina=JSON.parse(fs.readFileSync(rawChinaPath,'utf8').replace(/^\uFEFF/,''));
+ for(const r of rawChina.sources.filter(r=>r.excluded===true||r.active===false||r.status==='excluded'))assert(!data.china.some(x=>x.id===r.id));
+}
+
+for(const alias of data.china_source_aliases||[]){
+ assert(!data.china.some(r=>r.id===alias.id));assert(data.china.some(r=>r.id===alias.canonical_id));
+ assert(!node('#china-list').innerHTML.includes(`id="china-${alias.id}"`));
+ const inner=node('#china-'+alias.canonical_id);inner.tagName='DETAILS';
+ const outer={tagName:'DETAILS',open:false};inner.parentElement=outer;
+ ctx.location.hash='#china-'+alias.id;vm.runInContext('openHash()',ctx);
+ assert.equal(inner.open,true);assert.equal(outer.open,true);ctx.location.hash='';
+}
+console.log(`PASS: ${total} records visible; all/year/journal/field counts; chart clicks; scope/status/work filters; independent reading/PDF/Zotero flags; supplier exact-ID counts/roles/stack/reset; grouped China evidence/source uniqueness/search; search and clear.`);
+
+assert(!vm.runInContext("coverage({institution:'清华大学',status:'paper_author_affiliation_confirmed_procurement_unverified',sources:[],next:'',query:''})",ctx).includes('采购证据与基金'));

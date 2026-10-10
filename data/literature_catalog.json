@@ -1392,7 +1392,11 @@
         }
       ],
       "associated_dataset_doi": "10.3974/geodb.2026.02.08.V1",
-      "notes": "出版方HTML/PDF一致报告DOI，但doi.org与Crossref当前均404，故doi留空、reported_doi保留；机构新闻中该DOI与另一题名存在冲突，未据此覆盖出版方题名。首页基金GXYD2504850001与表1数据集基金42171400分别记录。配套数据集为衍生产品，不能当第二篇实证论文或公开原始轨迹。定位<1m为作者声明，未独立验证。摸星/摩星/先锋法律关联不得由此推定。",
+      "notes": "归属深大夏吉喆团队；与2023会议摘要及2026配套数据集合并展示研究脉络。出版方报告DOI 10.3974/geodp.2026.02.08，登记解析暂待核；CN-S16无关已排除。首页广西基金GXYD2504850001，表1数据集基金42171400。定位精度为作者报告值。",
+      "institution": "深圳大学",
+      "research_team": "夏吉喆团队",
+      "research_group_id": "SZU-XIA-PM25",
+      "verbatim_data_statement": "The large-scale individual trajectory data used in this study were provided by Moxing Technology. These data capture and record user behavioral dynamics at regular high frequencies using various positioning technologies, such as Wi-Fi, Bluetooth, and GPS. The data cover the entire spatial extent of 6 cities: Beijing, Shanghai, Shenzhen, Chengdu, Wuhan, and Xi’an. The dataset includes anonymized user IDs, timestamps, positioning methods, and precise latitude and longitude information. To minimize the impact of fluctuations in residents’ daily mobility patterns on experimental error, this study selected trajectory data spanning one month, from January 24 to February 23, 2023.",
       "catalog_status": "reviewed",
       "origins": [
         "2026-10-10审读台账"
@@ -1431,7 +1435,7 @@
       "doi": "",
       "publisher_metadata_verified": true,
       "publication_type": "conference_abstract",
-      "provider": "Jike（摘要原名；中文法律主体待核）",
+      "provider": "即刻 / Jike（原文Jike，名称对应由用户确认）",
       "product": "约600万用户轨迹数据（原文计量单位不明确，不能当作600万独立用户）",
       "application": "环境暴露/PM2.5/环境公平",
       "data_declaration": "官方会议摘要PDF第94页Methods明确取得Jike提供的approximately 6 million de-sensitized user trajectory data；约600万的计量单位不明确，不能当作600万独立用户。未给中文法律主体、SDK或传感器机制。",
@@ -1452,8 +1456,12 @@
       "pdf_filename": "GSCS_ICUI2023_Conference_Proceedings.pdf",
       "pdf_sha256": "bb45745f61044b8d6fffe85e48c46902a55bbfc83ebb2deee90e621dbb4c65d1",
       "pdf_page_count": 122,
-      "notes": "文献形态为会议摘要；供方是Methods的实际使用声明，不是引用提及。结果段使用anticipate/expect、GWR写plan，故不作为已完成结果。Jike是否即刻LBS/先锋关联实体尚未公开核实。与L25共享Ma/Xia、部分城市和暴露主题，可作潜在演进线索；供应商标签、方法、作者、城市数不同，未证明同一数据或期刊扩展版。",
+      "notes": "归属深大夏吉喆团队PM2.5研究脉络，与2026六城论文及数据集关联展示；此处保留三城会议摘要题录。Jike按用户确认对应即刻品牌。摘要部分分析为计划；600万原文单位不明确。",
       "funds": [],
+      "institution": "深圳大学",
+      "research_team": "夏吉喆团队",
+      "research_group_id": "SZU-XIA-PM25",
+      "verbatim_data_statement": "Methods: We initially obtained approximately 6 million de-sensitized user trajectory data from \"Jike,\" a Chinese positioning technology company.",
       "catalog_status": "reviewed",
       "origins": [
         "2026-10-10审读台账"
@@ -1475,6 +1483,459 @@
       "scope_tag": "reviewed_application_candidate",
       "download_queue_status": [
         "current_review_complete"
+      ]
+    },
+    {
+      "id": "L27",
+      "title": "Capturing socio-spatial inequality in planetary urbanisation: A multi-dimensional methodological framework",
+      "authors": [
+        "Ava Lynam",
+        "Fengqing Li",
+        "Gaoli Xiao",
+        "Liyuan Fei",
+        "Huang Huang",
+        "Lukas Utzig"
+      ],
+      "year": 2023,
+      "published": "2023-01",
+      "published_online": "2022-11-13",
+      "journal": "Cities",
+      "volume": "132",
+      "pages": "104076",
+      "doi": "10.1016/j.cities.2022.104076",
+      "publication_type": "journal_article",
+      "publisher_metadata_verified": true,
+      "provider": "原文未披露（同类数据置信度99%，用户判断）",
+      "product": "台州2017与2020年10月LBS匿名职住及收入标签",
+      "application": "城乡转型/通勤/社会空间不平等",
+      "data_declaration": "作者公开全文§4.2.1把LBS定位描述为GPS、公共Wi-Fi和MAC地址，使用台州2017/2020年10月1–30日数据；未披露供应商或SDK采集流程。定位描述不等于已排除运营商信息融合。",
+      "data_form": "匿名职住位置与收入分组标签",
+      "use_method": "将LBS通勤分析与空间句法、行动者网络和民族志类型形态分析结合。",
+      "evidence_url": "https://www.researchgate.net/publication/365358436_Capturing_socio-spatial_inequality_in_planetary_urbanisation_A_multi-dimensional_methodological_framework",
+      "evidence_section": "作者公开上传全文，§4.2.1（版式第6–7页）；CRediT、Funding、Data availability（第16页）",
+      "fulltext_read": true,
+      "fulltext_scope": "已审读作者于2022-12-08上传的公开全文网页中的方法、CRediT、基金与数据声明；PDF尚未成功下载，非本地PDF审读。",
+      "source_confirmed": false,
+      "access_status": "author_uploaded_fulltext_web_read_pdf_download_blocked",
+      "app_collection_confirmed": false,
+      "sdk_explicit": false,
+      "sensor_mix": "论文LBS定义写GPS、公共Wi-Fi、MAC地址；实际技术管线及蜂窝融合情况未写明。",
+      "review_date": "2026-10-10",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
+      "notes": "Crossref核验2023年1月Cities132；作者全文首页标Available online 13 November 2022。URA官网列为项目产出。供方未知，不计先锋/摸星/即刻使用量；不得由上海大学其他采购归因。；用户指出数据形式与自用数据高度吻合，列同类数据高优先级供方追查；相似性不等于同一供应商或同一产品。；用户评估同类数据置信度99%：院校信息来自供应商，并与论文数据形式交叉吻合。99%为用户判断，不是统计模型估计；原文仍未披露具体供方。",
+      "institution": "上海大学；柏林工业大学；同济大学",
+      "research_team": "李峰清—Ava Lynam—黄璜/URA",
+      "research_group_id": "SHU-LI-URA",
+      "funds": [
+        {
+          "id": "01LE1804A-D",
+          "name": "BMBF Urban Rural Assembly / FONA NUR"
+        },
+        {
+          "id": "51878459",
+          "name": "国家自然科学基金"
+        },
+        {
+          "id": "52208075",
+          "name": "国家自然科学基金"
+        },
+        {
+          "id": "19PJC053",
+          "name": "上海浦江计划"
+        },
+        {
+          "id": "2021PJC113",
+          "name": "上海浦江计划"
+        },
+        {
+          "id": "",
+          "name": "DAAD Promos Stipendium"
+        }
+      ],
+      "data_availability": "作者声明无权分享数据。",
+      "author_roles": "Fengqing Li与Liyuan Fei处理和分析LBS数据。",
+      "recommended_inclusion": "related_GPS_WiFi_LBS_supplier_and_collection_chain_unknown",
+      "catalog_status": "reviewed",
+      "user_assessed_data_match_confidence": 0.99,
+      "confidence_basis": "用户判断：供应商提供院校客户信息与论文数据形式交叉吻合",
+      "origins": [
+        "2026-10-10审读台账"
+      ],
+      "metadata_source": "出版方原文与PDF核验；DOI状态单独标示",
+      "versions": [],
+      "legacy_provider_claims": [],
+      "bibliographic_status": "publisher_metadata_verified",
+      "publication_title_as_recorded": "Cities",
+      "provider_evidence_status": "unconfirmed",
+      "journal_family": "",
+      "field": "城市社会地理",
+      "field_tags": [
+        "城市社会地理"
+      ],
+      "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
+      "scope_tag": "reviewed_application_candidate",
+      "download_queue_status": [
+        "pdf_acquisition"
+      ]
+    },
+    {
+      "id": "L28",
+      "title": "城市规划中的“通勤”概念辨析及“通勤阈值”界定探讨",
+      "title_en": "Exploration on the concept of \"commuting\" in urban planning and definition of \"commuting threshold\"",
+      "authors": [
+        "李峰清",
+        "张欣",
+        "赵民"
+      ],
+      "year": 2023,
+      "published": "2023-06",
+      "journal": "城市规划",
+      "volume": "47",
+      "issue": "6",
+      "pages": "13–19",
+      "doi": "",
+      "publication_type": "journal_article",
+      "publisher_metadata_verified": false,
+      "provider": "供应商未核实",
+      "product": "未核验",
+      "application": "城市规划与服务可达性；具体问题待全文核实",
+      "data_declaration": "目前仅核验上海大学官方作者页题录，并由《地理科学进展》参考文献交叉核对卷期页；未读到原文，不判定是否使用手机定位数据。",
+      "data_form": "待原文核验",
+      "use_method": "待原文核验",
+      "evidence_url": "https://safa.shu.edu.cn/info/1111/7908.htm",
+      "secondary_evidence_url": "https://www.progressingeography.com/CN/abstract/article/1007-6301/69515",
+      "evidence_section": "官方作者页代表性论文；引文第3条",
+      "fulltext_read": false,
+      "fulltext_scope": "仅题录与引文，无原文方法。",
+      "source_confirmed": false,
+      "access_status": "institutional_bibliography_verified_fulltext_pending",
+      "app_collection_confirmed": false,
+      "sdk_explicit": false,
+      "sensor_mix": "未知",
+      "review_date": "2026-10-10",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
+      "notes": "候选题录，不算已确认SDK论文、不得推断供应商或URA基金致谢。DOI未核验，保留空字符串。",
+      "institution": "上海大学（第一作者官方页）",
+      "research_team": "李峰清团队",
+      "research_group_id": "SHU-LI-COMMUTE",
+      "funds": [],
+      "recommended_inclusion": "candidate_metadata_only",
+      "catalog_status": "pending",
+      "origins": [
+        "2026-10-10审读台账"
+      ],
+      "metadata_source": "2026-10-10审读台账（元数据待核）",
+      "versions": [],
+      "legacy_provider_claims": [],
+      "bibliographic_status": "inherited_metadata_pending",
+      "publication_title_as_recorded": "城市规划",
+      "provider_evidence_status": "unknown",
+      "journal_family": "",
+      "field": "城市规划与服务可达性",
+      "field_tags": [
+        "城市规划与服务可达性"
+      ],
+      "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
+      "scope_tag": "pending_source_screening",
+      "download_queue_status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ]
+    },
+    {
+      "id": "L29",
+      "title": "Rapid community response and resilience to typhoon Doksuri in coastal Fujian: insights from large-scale human mobility data",
+      "authors": [
+        "Sheng Huang",
+        "Yunyan Du",
+        "Jiawei Yi",
+        "Zhiyuan Zhao",
+        "Minglei Lu",
+        "Dingchen Hu",
+        "Nan Wang",
+        "Jiale Qian",
+        "Wenna Tu"
+      ],
+      "year": 2025,
+      "published_online": "2025-10-18",
+      "doi": "10.1016/j.jag.2025.104910",
+      "journal": "International Journal of Applied Earth Observation and Geoinformation",
+      "volume": "144",
+      "article_number": "104910",
+      "publication_type": "journal_article",
+      "provider": "及刻 / Jike（isjike.com；SDK + 网络/基站混合定位）",
+      "product": "Jike Platform anonymized mobile device location dataset",
+      "application": "台风灾害响应、社区恢复与动态韧性",
+      "field": "灾害与韧性",
+      "field_tags": [
+        "灾害与韧性",
+        "计算方法与数据基础设施"
+      ],
+      "data_declaration": "正文2.2明确Jike Platform、用户同意的SDK采集，以及smartphone network positioning与cell tower signals，宣称约50米定位精度；不能归为纯GPS/WiFi核心样本。",
+      "data_form": "带匿名设备ID、经纬度、位置起止时间的设备级位置记录；识别居住地与个体逐日移动指标，再按社区聚合。原始超过1500万设备、每日超过4亿条记录；筛选后的3.7百万量级在摘要写users、正文写observations，保留口径差异。",
+      "use_method": "2023-07-03至08-13，福建沿海六市；灾前三周建基线。个体TTD/RG/TSH、社区中位数、去除星期周期；RF+SHAP解释响应变化，DRR框架把风雨扰动与移动响应/恢复结合；聚合至社区比较。",
+      "evidence_url": "https://recovery.preventionweb.net/media/115864/download?startDownload=20261010",
+      "evidence_section": "PDF p1题名/作者单位/DOI/许可；p3 §2.2 Jike/SDK/网络与基站定位；p4样本及辅助数据；p5方法借鉴SafeGraph；p13获取渠道/局限；p14资助与数据可用性",
+      "fulltext_read": true,
+      "fulltext_scope": "已审读正文数据、方法关键段、局限、获取与资助；未下载或审读Supplementary Material，未逐句审读全部结果。",
+      "source_confirmed": true,
+      "app_collection_confirmed": true,
+      "sdk_explicit": true,
+      "sensor_mix": "mixed_source：SDK采集明示，但数据来源写网络定位和基站信号；p5又讨论GPS精度。无WiFi/GPS比例，未明确购买原始运营商CDR或信令。",
+      "scope_tag": "mixed_source_or_comparison",
+      "data_source_class": "mixed_source",
+      "core_gps_wifi_eligible": false,
+      "catalog_status": "reviewed",
+      "review_date": "2026-10-10",
+      "bibliographic_status": "inherited_metadata_pending",
+      "metadata_source": "2026-10-10审读台账（元数据待核）",
+      "provider_evidence_status": "source_confirmed",
+      "access_status": "open_access_downloaded；15页正文PDF已校验；SI未下载；Zotero附件未核验。",
+      "pdf_downloaded": true,
+      "pdf_source_url": "https://recovery.preventionweb.net/media/115864/download?startDownload=20261010",
+      "pdf_sha256": "ac5bc0459191a1e596e56766e6610e3159d72f967165a5b3ded881a69aebd3bd",
+      "pdf_evidence_pages": [
+        1,
+        3,
+        4,
+        5,
+        13,
+        14
+      ],
+      "zotero_attachment_verified": false,
+      "notes": "SDK不等于纯GPS/WiFi。本研究明示网络与基站信号，应保留在混合来源边界库。福州大学与清华仅以论文作者单位确认参与，不能等同于独立采购。SafeGraph在p5仅为方法参考；Gaode在p4为POI供方。Fig2抽样率13%与局限段约15%存在表述差异；城市街道层面人口相关性不等于消除了脆弱人群偏差。",
+      "origins": [
+        "2026-10-10审读台账"
+      ],
+      "versions": [],
+      "legacy_provider_claims": [],
+      "publication_title_as_recorded": "International Journal of Applied Earth Observation and Geoinformation",
+      "journal_family": "",
+      "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
+      "download_queue_status": [
+        "current_review_complete"
+      ]
+    },
+    {
+      "id": "L30",
+      "title": "Spatial eco-socio-economic trade-offs inform differentiated management strategies in mega-urban agglomerations",
+      "doi": "10.1038/s42949-025-00231-x",
+      "year": 2025,
+      "journal": "npj Urban Sustainability",
+      "publication_type": "journal_article",
+      "catalog_status": "reviewed",
+      "source_confirmed": true,
+      "fulltext_read": true,
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false,
+      "sdk_explicit": false,
+      "app_source_explicit": false,
+      "metadata_source": "出版方原文与PDF核验；DOI状态单独标示",
+      "scope_tag": "boundary_platform_lbs_sensor_provenance_partial",
+      "field": "环境与生态",
+      "field_classification_basis": "curatorial",
+      "evidence_level": "E1",
+      "url": "https://doi.org/10.1038/s42949-025-00231-x",
+      "evidence_url": "https://doi.org/10.1038/s42949-025-00231-x",
+      "authors": [
+        "Yuhan Xu",
+        "Chen Chen",
+        "Weipeng Deng",
+        "Linlin Dai",
+        "Tianren Yang"
+      ],
+      "volume": "5",
+      "pages": "43",
+      "published": "2025-07-01",
+      "provider": "百度慧眼 / Baidu",
+      "product": "匿名LBS人口及社会经济属性聚合",
+      "application": "生态系统服务需求／生态—社会—经济权衡",
+      "data_declaration": "Methods以匿名LBS识别居住与工作人口及收入、支出属性，明确使用私人/公共Wi-Fi连接辅助分类；Data availability列百度慧眼。尚未明确SDK架构、GPS或是否融合运营商数据。",
+      "evidence_section": "Methods/Datasets，PDF第7页；Data availability，第8页；Acknowledgements，第11页",
+      "notes": "供方百度已核；不是先锋/摸星/即刻的使用证据。手机LBS及Wi-Fi明确，SDK及非运营商独立来源未充分说明。作者包含港大、东南大学及北京大学，但不能由合著认定各校采购。",
+      "funding": [
+        "NSFC 52408095",
+        "Hong Kong RGC 27601324",
+        "Guangdong Basic and Applied Basic Research Foundation 2025A1515010902",
+        "Young Elite Scientists Sponsorship Program 2022ONRC001"
+      ],
+      "institutions": [
+        "The University of Hong Kong",
+        "HKU-Shenzhen Institute of Research and Innovation",
+        "Southeast University",
+        "University of Cambridge",
+        "Peking University"
+      ],
+      "pdf_sha256": "94bc64018e7bec2ec9c8992eee6bd8feb7d86be908729b381cf4f084b17c7229",
+      "pdf_source_url": "https://www.nature.com/articles/s42949-025-00231-x.pdf",
+      "data_form": "匿名LBS人口及社会经济属性聚合",
+      "use_method": "Methods以匿名LBS识别居住与工作人口及收入、支出属性，明确使用私人/公共Wi-Fi连接辅助分类；Data availability列百度慧眼。尚未明确SDK架构、GPS或是否融合运营商数据。",
+      "fulltext_scope": "已核数据/方法关键段，未逐句审读全部结果",
+      "app_collection_confirmed": false,
+      "sensor_mix": "Methods以匿名LBS识别居住与工作人口及收入、支出属性，明确使用私人/公共Wi-Fi连接辅助分类；Data availability列百度慧眼。尚未明确SDK架构、GPS或是否融合运营商数据。",
+      "access_status": "local_pdf_verified",
+      "review_date": "2026-10-10",
+      "publisher_metadata_verified": true,
+      "origins": [
+        "2026-10-10审读台账"
+      ],
+      "versions": [],
+      "legacy_provider_claims": [],
+      "bibliographic_status": "publisher_metadata_verified",
+      "publication_title_as_recorded": "npj Urban Sustainability",
+      "provider_evidence_status": "source_confirmed",
+      "journal_family": "Nature Portfolio",
+      "field_tags": [
+        "环境与生态",
+        "经济与商业地理"
+      ],
+      "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
+      "download_queue_status": [
+        "current_review_complete"
+      ]
+    },
+    {
+      "id": "L31",
+      "title": "From trajectory to behavior: Capturing individual travel details using an applet-based GPS tracking system",
+      "doi": "10.1016/j.tbs.2025.101078",
+      "year": 2025,
+      "journal": "Travel Behaviour and Society",
+      "publication_type": "journal_article",
+      "catalog_status": "reviewed",
+      "source_confirmed": true,
+      "fulltext_read": true,
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
+      "sdk_explicit": false,
+      "app_source_explicit": true,
+      "metadata_source": "出版方原文与PDF核验；DOI状态单独标示",
+      "scope_tag": "boundary_self_collected_applet_gps_not_commercial_panel",
+      "field": "交通与出行行为",
+      "field_classification_basis": "curatorial",
+      "evidence_level": "E1",
+      "url": "https://doi.org/10.1016/j.tbs.2025.101078",
+      "evidence_url": "https://hub.hku.hk/bitstream/10722/357639/1/content.pdf?accept=1",
+      "authors": [
+        "Yang Zhou",
+        "Chao Yang",
+        "Quan Yuan",
+        "Xiaoyi Ma",
+        "Fangyi Ding",
+        "Tianren Yang"
+      ],
+      "volume": "41",
+      "pages": "101078",
+      "published": "2025-06-03",
+      "provider": "研究团队自建采集；WeChat API作为应用平台",
+      "product": "微信小程序GPS出行调查系统",
+      "application": "出行链、交通方式与目的识别／调查质量及参与偏差",
+      "data_declaration": "第3.1–3.2节说明基于WeChat API自建小程序，用户扫码授权后连续开启小程序及GPS，自动上传轨迹、推断与人工确认出行；上海嘉定三阶段调查。不能解释为向即刻、先锋或微信购买商业位置面板。",
+      "evidence_section": "正文PDF第4–5页，第3.1–3.2节；第12页致谢",
+      "gps_explicit": true,
+      "notes": "已通过公开机构库的PDF文本核读方法，但本机直连下载403/SSL失败，不能记为本地PDF已存。属于自采手机GPS方法比较文献。",
+      "funding": [
+        "NSFC 52408095",
+        "Hong Kong RGC 27601324",
+        "Guangdong Basic and Applied Basic Research Foundation 2025A1515010902",
+        "Young Elite Scientists Sponsorship Program 2022ONRC001",
+        "Guangzhou Lingnan Talent Project Reserve Talent Training Program"
+      ],
+      "institutions": [
+        "The University of Hong Kong",
+        "Tongji University",
+        "Guangzhou Transport Planning Research Institute",
+        "HKU-Shenzhen Institute of Research and Innovation"
+      ],
+      "data_form": "微信小程序GPS出行调查系统",
+      "use_method": "第3.1–3.2节说明基于WeChat API自建小程序，用户扫码授权后连续开启小程序及GPS，自动上传轨迹、推断与人工确认出行；上海嘉定三阶段调查。不能解释为向即刻、先锋或微信购买商业位置面板。",
+      "fulltext_scope": "已核数据/方法关键段，未逐句审读全部结果",
+      "app_collection_confirmed": true,
+      "sensor_mix": "第3.1–3.2节说明基于WeChat API自建小程序，用户扫码授权后连续开启小程序及GPS，自动上传轨迹、推断与人工确认出行；上海嘉定三阶段调查。不能解释为向即刻、先锋或微信购买商业位置面板。",
+      "access_status": "web_fulltext_key_sections_read",
+      "review_date": "2026-10-10",
+      "publisher_metadata_verified": true,
+      "origins": [
+        "2026-10-10审读台账"
+      ],
+      "versions": [],
+      "legacy_provider_claims": [],
+      "bibliographic_status": "publisher_metadata_verified",
+      "publication_title_as_recorded": "Travel Behaviour and Society",
+      "provider_evidence_status": "source_confirmed",
+      "journal_family": "",
+      "field_tags": [
+        "交通与出行行为",
+        "测量方法与数据质量"
+      ],
+      "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
+      "download_queue_status": [
+        "pdf_acquisition"
+      ]
+    },
+    {
+      "id": "L32",
+      "title": "The new geography of work and mobility: Behavioural, spatial and sectoral dynamics of telework during and after COVID-19",
+      "doi": "10.1016/j.tbs.2026.101253",
+      "year": 2026,
+      "journal": "Travel Behaviour and Society",
+      "publication_type": "journal_article",
+      "catalog_status": "pending",
+      "source_confirmed": false,
+      "fulltext_read": false,
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
+      "sdk_explicit": false,
+      "app_source_explicit": false,
+      "metadata_source": "出版方原文与PDF核验；DOI状态单独标示",
+      "scope_tag": "pending_platform_lbs_source_audit",
+      "field": "交通与出行行为",
+      "field_classification_basis": "curatorial",
+      "evidence_level": "E3",
+      "url": "https://doi.org/10.1016/j.tbs.2026.101253",
+      "evidence_url": "https://www.sciencedirect.com/science/article/pii/S2214367X26000220",
+      "authors": [
+        "Lina Zhou",
+        "Jifeng Dai",
+        "Wenyong Sun",
+        "Tianren Yang"
+      ],
+      "volume": "44",
+      "pages": "101253",
+      "provider": "Baidu（非官方转载方法段线索，待原文核实）（旧记录标签，待原文核实）",
+      "legacy_provider_claims": [
+        "Baidu（非官方转载方法段线索，待原文核实）"
+      ],
+      "application": "交通与出行行为；具体问题待全文核实",
+      "data_declaration": "出版社摘要确认深圳2019–2022 LBS与就业统计融合研究；本轮原始出版页403，未取得官方完整方法段。非官方转载有百度来源线索，仅用于下一轮定向检索，不确认为供方。",
+      "evidence_section": "出版社摘要及HKU官方作者目录；方法/数据声明待核",
+      "notes": "不得归给即刻/先锋。不得凭同团队或同资助号推断其数据供方。",
+      "data_form": "待全文核实",
+      "use_method": "出版社摘要确认深圳2019–2022 LBS与就业统计融合研究；本轮原始出版页403，未取得官方完整方法段。非官方转载有百度来源线索，仅用于下一轮定向检索，不确认为供方。",
+      "product": "未披露具体产品",
+      "fulltext_scope": "方法与数据声明待核",
+      "app_collection_confirmed": false,
+      "sensor_mix": "出版社摘要确认深圳2019–2022 LBS与就业统计融合研究；本轮原始出版页403，未取得官方完整方法段。非官方转载有百度来源线索，仅用于下一轮定向检索，不确认为供方。",
+      "access_status": "pending_fulltext",
+      "review_date": "2026-10-10",
+      "publisher_metadata_verified": true,
+      "origins": [
+        "2026-10-10审读台账"
+      ],
+      "versions": [],
+      "bibliographic_status": "publisher_metadata_verified",
+      "publication_title_as_recorded": "Travel Behaviour and Society",
+      "provider_evidence_status": "legacy_claim_unverified",
+      "journal_family": "",
+      "field_tags": [
+        "交通与出行行为",
+        "城市社会地理"
+      ],
+      "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
+      "download_queue_status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
       ]
     },
     {
@@ -5216,10 +5677,10 @@
     "source_counts": [
       {
         "source": "2026-10-10审读台账",
-        "input_rows": 26,
-        "mapped_rows": 26,
-        "unique_catalog_records": 26,
-        "new_records_at_merge_step": 26,
+        "input_rows": 32,
+        "mapped_rows": 32,
+        "unique_catalog_records": 32,
+        "new_records_at_merge_step": 32,
         "merged_rows": 0
       },
       {
@@ -5289,7 +5750,7 @@
     ],
     "source_overlap_matrix": {
       "2026-10-10审读台账": {
-        "2026-10-10审读台账": 26,
+        "2026-10-10审读台账": 32,
         "旧39篇候选清单": 16,
         "literature_commercial_mobile_location_data_2015_2026.csv": 10,
         "literature_commercial_mobile_location_data_addendum_2026.csv": 6,
@@ -5569,6 +6030,48 @@
         "row": 26,
         "source_row": null,
         "catalog_id": "L26",
+        "dedup_reason": "new_record"
+      },
+      {
+        "source": "2026-10-10审读台账",
+        "row": 27,
+        "source_row": null,
+        "catalog_id": "L27",
+        "dedup_reason": "new_record"
+      },
+      {
+        "source": "2026-10-10审读台账",
+        "row": 28,
+        "source_row": null,
+        "catalog_id": "L28",
+        "dedup_reason": "new_record"
+      },
+      {
+        "source": "2026-10-10审读台账",
+        "row": 29,
+        "source_row": null,
+        "catalog_id": "L29",
+        "dedup_reason": "new_record"
+      },
+      {
+        "source": "2026-10-10审读台账",
+        "row": 30,
+        "source_row": null,
+        "catalog_id": "L30",
+        "dedup_reason": "new_record"
+      },
+      {
+        "source": "2026-10-10审读台账",
+        "row": 31,
+        "source_row": null,
+        "catalog_id": "L31",
+        "dedup_reason": "new_record"
+      },
+      {
+        "source": "2026-10-10审读台账",
+        "row": 32,
+        "source_row": null,
+        "catalog_id": "L32",
         "dedup_reason": "new_record"
       },
       {
@@ -7670,12 +8173,12 @@
     "classification": "field/application为编辑归类；pending旧供应商标签均未视为原文确认。"
   },
   "counts": {
-    "total": 98,
-    "reviewed": 26,
-    "pending": 72,
-    "fulltext_read": 20,
-    "with_doi": 81,
-    "pdf_verified": 22,
+    "total": 104,
+    "reviewed": 30,
+    "pending": 74,
+    "fulltext_read": 24,
+    "with_doi": 86,
+    "pdf_verified": 24,
     "supporting_resources": 7,
     "linked_versions": 1,
     "metadata_conflicts_need_review": 1

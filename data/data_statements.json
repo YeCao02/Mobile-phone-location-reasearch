@@ -1,0 +1,18 @@
+{
+  "as_of": "2026-10-10",
+  "source_type": "user_supplied_verbatim_primary_source_excerpt",
+  "statements": [
+    {
+      "catalog_id": "L25",
+      "provider_as_written": "Moxing Technology",
+      "text": "The large-scale individual trajectory data used in this study were provided by Moxing Technology. These data capture and record user behavioral dynamics at regular high frequencies using various positioning technologies, such as Wi-Fi, Bluetooth, and GPS. The data cover the entire spatial extent of 6 cities: Beijing, Shanghai, Shenzhen, Chengdu, Wuhan, and Xi’an. The dataset includes anonymized user IDs, timestamps, positioning methods, and precise latitude and longitude information. To minimize the impact of fluctuations in residents’ daily mobility patterns on experimental error, this study selected trajectory data spanning one month, from January 24 to February 23, 2023.",
+      "source_url": "https://www.geodoi.ac.cn/WebEn/paper.aspx?Id=963cf123-47e6-4494-953c-8694ca02eace"
+    },
+    {
+      "catalog_id": "L26",
+      "provider_as_written": "Jike",
+      "text": "Methods: We initially obtained approximately 6 million de-sensitized user trajectory data from \"Jike,\" a Chinese positioning technology company.",
+      "source_url": "https://isocui.org/icui2023/programme/GSCS%26ICUI2023-Conference-Proceedings.pdf"
+    }
+  ]
+}

@@ -1,0 +1,573 @@
+{
+  "as_of": "2026-10-10",
+  "purpose": "实际查询记录；未命中不表示采购不存在",
+  "shanghai_queries": [
+    {
+      "query": "\"Capturing socio-spatial inequality\" pdf",
+      "result": "见sources；未命中不表示不存在"
+    },
+    {
+      "query": "\"城市规划中的\" \"通勤\" 李峰清 原文",
+      "result": "见sources；未命中不表示不存在"
+    },
+    {
+      "query": "\"城市规划\" \"通勤阈值\" 2023 47 6",
+      "result": "见sources；未命中不表示不存在"
+    },
+    {
+      "query": "城市规划 期刊 官网",
+      "result": "见sources；未命中不表示不存在"
+    },
+    {
+      "query": "\"Capturing socio-spatial\" \"data\" \"company\"",
+      "result": "见sources；未命中不表示不存在"
+    },
+    {
+      "query": "\"Capturing socio-spatial\" \"Tencent\"",
+      "result": "见sources；未命中不表示不存在"
+    },
+    {
+      "query": "\"李峰清\" \"先锋\"",
+      "result": "见sources；未命中不表示不存在"
+    },
+    {
+      "query": "\"通勤阈值\" site:planning.org.cn",
+      "result": "见sources；未命中不表示不存在"
+    },
+    {
+      "query": "\"城市规划\" 杂志 cityplanningreview",
+      "result": "见sources；未命中不表示不存在"
+    },
+    {
+      "query": "\"李峰清\" \"摸星\" OR \"即刻\" OR \"Pioneer\" OR \"Moxing\"",
+      "result": "见sources；未命中不表示不存在"
+    },
+    {
+      "query": "\"Capturing socio-spatial inequality\" \"provider\"",
+      "result": "见sources；未命中不表示不存在"
+    },
+    {
+      "query": "\"通勤阈值\" site:cnki.net",
+      "result": "见sources；未命中不表示不存在"
+    },
+    {
+      "query": "\"通勤阈值\" site:planning.com.cn",
+      "result": "见sources；未命中不表示不存在"
+    },
+    {
+      "query": "\"城市规划中的“通勤”概念辨析\"",
+      "result": "见sources；未命中不表示不存在"
+    },
+    {
+      "query": "\"通勤阈值\" \"李峰清\" 城市规划 13",
+      "result": "见sources；未命中不表示不存在"
+    },
+    {
+      "query": "\"Capturing socio-spatial inequality\" site:depositonce.tu-berlin.de",
+      "result": "见sources；未命中不表示不存在"
+    },
+    {
+      "query": "\"Capturing socio-spatial inequality\" site:habitat-unit.de",
+      "result": "见sources；未命中不表示不存在"
+    },
+    {
+      "query": "\"探索\" \"李峰清\" \"通勤\" 2023",
+      "result": "见sources；未命中不表示不存在"
+    },
+    {
+      "query": "\"EXPLORATION ON THE CONCEPT\" \"COMMUTING\"",
+      "result": "见sources；未命中不表示不存在"
+    },
+    {
+      "query": "\"通勤阈值\" 李峰清 DOI",
+      "result": "见sources；未命中不表示不存在"
+    },
+    {
+      "query": "\"申享\" \"2023年规划信息化技术\"",
+      "result": "命中规划云目录；未找到独立官方技术正文"
+    },
+    {
+      "query": "\"2023年规划信息化技术系列发布\"",
+      "result": "命中规划云目录；未找到独立官方技术正文"
+    },
+    {
+      "query": "\"申享\" \"LBS\" \"2023\"",
+      "result": "命中规划云目录；未找到独立官方技术正文"
+    },
+    {
+      "query": "\"规划信息化\" \"2023\" site:caupd.com",
+      "result": "命中规划云目录；未找到独立官方技术正文"
+    },
+    {
+      "query": "\"2023年\" \"信息化技术\" \"中规院上海分院\"",
+      "result": "命中规划云目录；未找到独立官方技术正文"
+    },
+    {
+      "query": "\"申客思享会\" \"先锋\" OR \"即刻\" OR \"LBS\"",
+      "result": "命中规划云目录；未找到独立官方技术正文"
+    }
+  ],
+  "hku_queries": [
+    {
+      "query": "Tianren Yang HKU publications mobile phone data",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"杨天人\" \"数据\"",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"Moxing\" \"Hong Kong\" mobility",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"Jike\" \"Hong Kong\" data",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"site:hku.hk\" \"Jike\"",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"Tianren Yang\" \"location-based\"",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"杨天人\" \"先锋\"",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"杨天人\" \"即刻LBS\"",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"Tianren Yang\" \"GPS\" \"data\"",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"Tianren Yang\" \"Jike\" location",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"Hong Kong\" \"pioneerdata.com.cn\"",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"香港大学\" \"先锋数聚\"",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"北京大学\" (\"先锋数聚\" OR \"摸星\" OR \"即刻LBS\")",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"清华大学\" (\"先锋数聚\" OR \"摸星\" OR \"即刻LBS\")",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"同济大学\" (\"先锋数聚\" OR \"摸星\" OR \"即刻LBS\")",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"东南大学\" (\"先锋数聚\" OR \"摸星\" OR \"即刻LBS\")",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"南京大学\" \"先锋数聚\"",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"天津大学\" \"先锋数聚\"",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"中南大学\" \"先锋数聚\"",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"北京交通大学\" \"先锋数聚\"",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"上海交通大学\" \"先锋数聚\"",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"福州大学\" \"先锋数聚\"",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"四川大学\" \"先锋数聚\"",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"重庆大学\" \"先锋数聚\"",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"Tianren Yang\" \"mobility\" \"2024\" data",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"Tianren Yang\" \"Moxing Beijing\"",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"hku.hk\" \"先锋数聚\"",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"即刻LBS\" 大学",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"The new geography of work and mobility\"",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"Tianren Yang\" \"Moxing\" data -protein",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"Tianren Yang\" \"Jike\" -protein -ICLR",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"北京摸星科技有限公司\" 大学",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"s42949-025-00231-x\" \"Jike\"",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"s42949-025-00231-x\" \"data\" \"provided\"",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"101253\" \"data\" \"Tencent\"",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"101253\" \"data\" \"Jike\"",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"The new geography of work\" \"Baidu\"",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"The new geography of work\" \"data collection\"",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"Tianren Yang\" \"即刻\"",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"Tianren Yang\" \"Moxing Technology\"",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"Tianren Yang\" \"Jike\"",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"Tianren Yang\" \"Moxing\"",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"Tianren Yang\" \"Pioneer\" data",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"香港大学\" \"即刻\" 数据",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"101253\" \"Jike\"",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"101253\" \"telework\" data provider",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"Spatial eco-socio-economic trade-offs\" data",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "site:nature.com/articles/s42949-025-00231-x \"Data availability\"",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "site:nature.com/articles/s42949-025-00231-x \"Jike\" \"data\"",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"The new geography of work and mobility\" \"provided\"",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"The new geography of work and mobility\" \"hub.hku\"",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"101253\" \"site:hub.hku.hk\"",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"101253\" \"site:repository.hku.hk\"",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"The new geography of work and mobility\" \"Baidu\" \"data\"",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"Balancing urban environmental and societal performance\" \"data\"",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"Tianren Yang\" \"Jike data\"",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"Yang\" \"Jike\" \"location-based\" university",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"香港大学\" \"即刻\" \"轨迹\"",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"楊天人\" \"即刻\"",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"Hong Kong\" \"Jike\" \"procurement\"",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"Tianren Yang\" \"Pioneer Data\" urban",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"香港大学\" \"摸星\"",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"杨天人\" \"摩星\"",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"S2214367X26000220\" \"Baidu\" domain:sciencedirect.com",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"telework\" \"101253\" \"3.2\" domain:sciencedirect.com",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"Tianren Yang\" \"Jike\" \"data\" domain:hku.hk",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"Tianren Yang\" \"采购\" domain:hku.hk",
+      "outcome": "见本轮分层结论；无匹配不能视为无合作"
+    },
+    {
+      "query": "\"香港大学\" \"及刻\"",
+      "outcome": "新增及刻/isjike别名，未取得HKU/Yang直接供方或采购证据"
+    },
+    {
+      "query": "\"Tianren Yang\" \"isjike\"",
+      "outcome": "新增及刻/isjike别名，未取得HKU/Yang直接供方或采购证据"
+    },
+    {
+      "query": "\"杨天人\" \"及刻\"",
+      "outcome": "新增及刻/isjike别名，未取得HKU/Yang直接供方或采购证据"
+    },
+    {
+      "query": "\"Hong Kong\" \"Jike\" \"isjike.com\"",
+      "outcome": "新增及刻/isjike别名，未取得HKU/Yang直接供方或采购证据"
+    },
+    {
+      "query": "\"isjike.com\" \"hku\"",
+      "outcome": "新增及刻/isjike别名，未取得HKU/Yang直接供方或采购证据"
+    },
+    {
+      "query": "\"及刻\" \"杨天人\" 数据",
+      "outcome": "新增及刻/isjike别名，未取得HKU/Yang直接供方或采购证据"
+    },
+    {
+      "query": "\"及刻\" \"港大\"",
+      "outcome": "新增及刻/isjike别名，未取得HKU/Yang直接供方或采购证据"
+    },
+    {
+      "query": "\"广州市梦享网络技术有限公司\" \"香港大学\"",
+      "outcome": "新增及刻/isjike别名，未取得HKU/Yang直接供方或采购证据"
+    }
+  ],
+  "school_queries": {
+    "date": "2026-10-10",
+    "method": "每所院校×六个中英文名称的联合检索；另用简单品牌检索补充以降低复杂检索式漏检",
+    "queries": [
+      {
+        "query": "北京大学 (\"摸星\" OR \"先锋数聚\" OR \"即刻\" OR \"Moxing\" OR \"Pioneer Data\" OR \"Jike\") 手机 数据",
+        "result": "该组合查询未返回可用结果；不是确认不存在合作或论文"
+      },
+      {
+        "query": "清华大学 (\"摸星\" OR \"先锋数聚\" OR \"即刻\" OR \"Moxing\" OR \"Pioneer Data\" OR \"Jike\") 手机 数据",
+        "result": "该组合查询未返回可用结果；不是确认不存在合作或论文"
+      },
+      {
+        "query": "同济大学 (\"摸星\" OR \"先锋数聚\" OR \"即刻\" OR \"Moxing\" OR \"Pioneer Data\" OR \"Jike\") 手机 数据",
+        "result": "该组合查询未返回可用结果；不是确认不存在合作或论文"
+      },
+      {
+        "query": "东南大学 (\"摸星\" OR \"先锋数聚\" OR \"即刻\" OR \"Moxing\" OR \"Pioneer Data\" OR \"Jike\") 手机 数据",
+        "result": "该组合查询未返回可用结果；不是确认不存在合作或论文"
+      },
+      {
+        "query": "南京大学 (\"摸星\" OR \"先锋数聚\" OR \"即刻\" OR \"Moxing\" OR \"Pioneer Data\" OR \"Jike\") 手机 数据",
+        "result": "该组合查询未返回可用结果；不是确认不存在合作或论文"
+      },
+      {
+        "query": "天津大学 (\"摸星\" OR \"先锋数聚\" OR \"即刻\" OR \"Moxing\" OR \"Pioneer Data\" OR \"Jike\") 手机 数据",
+        "result": "该组合查询未返回可用结果；不是确认不存在合作或论文"
+      },
+      {
+        "query": "中南大学 (\"摸星\" OR \"先锋数聚\" OR \"即刻\" OR \"Moxing\" OR \"Pioneer Data\" OR \"Jike\") 手机 数据",
+        "result": "该组合查询未返回可用结果；不是确认不存在合作或论文"
+      },
+      {
+        "query": "北京交通大学 (\"摸星\" OR \"先锋数聚\" OR \"即刻\" OR \"Moxing\" OR \"Pioneer Data\" OR \"Jike\") 手机 数据",
+        "result": "该组合查询未返回可用结果；不是确认不存在合作或论文"
+      },
+      {
+        "query": "上海交通大学 (\"摸星\" OR \"先锋数聚\" OR \"即刻\" OR \"Moxing\" OR \"Pioneer Data\" OR \"Jike\") 手机 数据",
+        "result": "该组合查询未返回可用结果；不是确认不存在合作或论文"
+      },
+      {
+        "query": "福州大学 (\"摸星\" OR \"先锋数聚\" OR \"即刻\" OR \"Moxing\" OR \"Pioneer Data\" OR \"Jike\") 手机 数据",
+        "result": "该组合查询未返回可用结果；不是确认不存在合作或论文"
+      },
+      {
+        "query": "四川大学 (\"摸星\" OR \"先锋数聚\" OR \"即刻\" OR \"Moxing\" OR \"Pioneer Data\" OR \"Jike\") 手机 数据",
+        "result": "该组合查询未返回可用结果；不是确认不存在合作或论文"
+      },
+      {
+        "query": "重庆大学 (\"摸星\" OR \"先锋数聚\" OR \"即刻\" OR \"Moxing\" OR \"Pioneer Data\" OR \"Jike\") 手机 数据",
+        "result": "该组合查询未返回可用结果；不是确认不存在合作或论文"
+      }
+    ],
+    "supplementary_queries": [
+      "\"Moxing\" university trajectory data China -huawei",
+      "\"先锋数聚\" \"大学\"",
+      "\"即刻\" \"LBS\" 大学",
+      "\"Jike\" \"mobility data\""
+    ],
+    "new_lead": {
+      "title": "Rapid community response and resilience to typhoon Doksuri in coastal Fujian: insights from large-scale human mobility data",
+      "doi": "10.1016/j.jag.2025.104910",
+      "url": "https://recovery.preventionweb.net/publication/documents-and-publications/rapid-community-response-and-resilience-typhoon-doksuri",
+      "status": "原文定位机制含SDK及基站信息，须按混合定位边界核验"
+    },
+    "limitations": "定向公开搜索，不是所有数据库和全部作者论文的穷尽检索；未找到某校采购不推定未采购。"
+  },
+  "user_confirmation": {
+    "hku": "用户确认采购Jike，未必已发表；公开佐证待追踪",
+    "shanghai": "用户同类数据置信判断99%，非统计估计",
+    "supplier_group": "用户人工确认先锋/Moxing/即刻及刻Jike关联并请求合并展示"
+  },
+  "hku_followup_queries": [
+    {
+      "query": "\"Tianren Yang\" \"Jike\" project",
+      "target": "项目/采购/学位论文/会议资料",
+      "outcome": "未取得目标团队与供应商直接关联的公开可核文本；搜索返回多为同名或无关泛匹配",
+      "accepted_direct_evidence_count": 0
+    },
+    {
+      "query": "\"Tianren Yang\" \"isjike\" thesis",
+      "target": "项目/采购/学位论文/会议资料",
+      "outcome": "未取得目标团队与供应商直接关联的公开可核文本；搜索返回多为同名或无关泛匹配",
+      "accepted_direct_evidence_count": 0
+    },
+    {
+      "query": "\"杨天人\" \"及刻\" 采购",
+      "target": "项目/采购/学位论文/会议资料",
+      "outcome": "未取得目标团队与供应商直接关联的公开可核文本；搜索返回多为同名或无关泛匹配",
+      "accepted_direct_evidence_count": 0
+    },
+    {
+      "query": "\"香港大学\" \"及刻\" 项目",
+      "target": "项目/采购/学位论文/会议资料",
+      "outcome": "未取得目标团队与供应商直接关联的公开可核文本；搜索返回多为同名或无关泛匹配",
+      "accepted_direct_evidence_count": 0
+    },
+    {
+      "query": "\"Jike\" \"thesis\" \"Hong Kong\"",
+      "target": "项目/采购/学位论文/会议资料",
+      "outcome": "未取得目标团队与供应商直接关联的公开可核文本；搜索返回多为同名或无关泛匹配",
+      "accepted_direct_evidence_count": 0
+    },
+    {
+      "query": "\"及刻\" \"学位论文\" 香港",
+      "target": "项目/采购/学位论文/会议资料",
+      "outcome": "未取得目标团队与供应商直接关联的公开可核文本；搜索返回多为同名或无关泛匹配",
+      "accepted_direct_evidence_count": 0
+    },
+    {
+      "query": "\"Tianren Yang\" \"Moxing\" project",
+      "target": "项目/采购/学位论文/会议资料",
+      "outcome": "未取得目标团队与供应商直接关联的公开可核文本；搜索返回多为同名或无关泛匹配",
+      "accepted_direct_evidence_count": 0
+    },
+    {
+      "query": "\"Tianren Yang\" \"Pioneer Data\" thesis",
+      "target": "项目/采购/学位论文/会议资料",
+      "outcome": "未取得目标团队与供应商直接关联的公开可核文本；搜索返回多为同名或无关泛匹配",
+      "accepted_direct_evidence_count": 0
+    },
+    {
+      "query": "\"Tianren Yang\" \"Jike\" conference",
+      "target": "项目/采购/学位论文/会议资料",
+      "outcome": "未取得目标团队与供应商直接关联的公开可核文本；搜索返回多为同名或无关泛匹配",
+      "accepted_direct_evidence_count": 0
+    },
+    {
+      "query": "\"HKU\" \"isjike.com\" research",
+      "target": "项目/采购/学位论文/会议资料",
+      "outcome": "未取得目标团队与供应商直接关联的公开可核文本；搜索返回多为同名或无关泛匹配",
+      "accepted_direct_evidence_count": 0
+    },
+    {
+      "query": "\"香港大学\" \"即刻\" 数据采购",
+      "target": "项目/采购/学位论文/会议资料",
+      "outcome": "未取得目标团队与供应商直接关联的公开可核文本；搜索返回多为同名或无关泛匹配",
+      "accepted_direct_evidence_count": 0
+    },
+    {
+      "query": "\"杨天人\" \"先锋数聚\" 项目",
+      "target": "项目/采购/学位论文/会议资料",
+      "outcome": "未取得目标团队与供应商直接关联的公开可核文本；搜索返回多为同名或无关泛匹配",
+      "accepted_direct_evidence_count": 0
+    }
+  ],
+  "hku_user_confirmed_fact": {
+    "institution": "The University of Hong Kong",
+    "team": "Tianren Yang / 杨天人团队",
+    "supplier_as_reported": "Jike",
+    "relationship": "已购买数据",
+    "status": "user_confirmed",
+    "source_type": "user_statement",
+    "source_note": "用户本轮明确确认，纠正上一轮可能采购措辞；本记录不声称公开合同已核验",
+    "purchase_date": null,
+    "contract_number": null,
+    "dataset_product": null,
+    "publication_status": "unknown; 用户认为可能尚未发表",
+    "public_corroboration_status": "not_found_in_this_bounded_search",
+    "counting_rule": "可作为用户确认的团队采购关系；不计为已确认论文使用，不自动映射至具体项目或其他供方法律实体"
+  }
+}
