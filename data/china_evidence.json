@@ -1,0 +1,432 @@
+{
+  "as_of": "2026-10-10",
+  "scope": "第一轮中国供应商、逐校采购及基金论文关系证据；不是穷尽调查",
+  "classification_rules": [
+    "采购、课题、论文分别建节点；只建立有直接证据的边。",
+    "LBS名称或公司品牌不能单独证明SDK/GPS/WiFi且排除运营商。",
+    "用户线索保留为待核实，不冒充公开确认。",
+    "未命中仅代表当前检索没有取得证据，不代表关系不存在。"
+  ],
+  "sources": [
+    {
+      "id": "CN-S01",
+      "title": "手机高精度匿名LBS数据采购项目采购信息公开（服务类）",
+      "url": "https://bidding.szu.edu.cn/info/1023/35590.htm",
+      "type": "official_procurement",
+      "published": "2024-12-06",
+      "institution": "深圳大学建筑与城市规划学院",
+      "supplier": "北京先锋数聚信息科技有限公司",
+      "finding": "预算及拟成交价99,000元；提供2024-02-07至02-20、06-07至06-20对应城市数据，含timing、link、stable、poi及叠加数据。",
+      "confidence": "high",
+      "limits": "公告为拟成交；未列项目负责人或基金号；未证明与某篇论文使用同一批数据；LBS名称本身未证实排除运营商数据。"
+    },
+    {
+      "id": "CN-S02",
+      "title": "手机高精度匿名LBS数据项目采购信息公开（服务类）",
+      "url": "https://bidding.szu.edu.cn/info/1023/38632.htm",
+      "type": "official_procurement",
+      "published": "2025-06-25",
+      "institution": "深圳大学微众银行金融科技学院",
+      "supplier": "北京先锋数聚信息科技有限公司",
+      "finding": "粤港澳大湾区广东9市LBS人群轨迹数据；服务期2025-06-20至11-19；预算及拟成交价99,000元。",
+      "confidence": "high",
+      "limits": "采购线索，未见负责人、基金、论文直接关联；SDK具体采集机制待采购附件核验。"
+    },
+    {
+      "id": "CN-S03",
+      "title": "指定13城人群到访行为特征数据项目采购信息公开（服务类）",
+      "url": "https://bidding.szu.edu.cn/info/1023/347239.htm",
+      "type": "official_procurement",
+      "published": "2026-03-12",
+      "institution": "深圳大学微众银行金融科技学院",
+      "supplier": "北京先锋数聚信息科技有限公司",
+      "finding": "指定13城人群到访行为特征数据；服务期2026-01-30至09-29；预算及拟成交价84,400元。",
+      "confidence": "high",
+      "limits": "城市名称、原始或聚合产品、SDK机制及论文产出尚待核实。"
+    },
+    {
+      "id": "CN-S04",
+      "title": "高时空分辨率传染病动力学建模与其高性能空间计算方法研究",
+      "url": "https://geospatial.szu.edu.cn/info/1017/6382.htm",
+      "type": "official_grant_profile",
+      "institution": "深圳大学",
+      "finding": "负责人夏吉喆；国家自然科学基金；研究期2022–2025；合同号42171400。",
+      "confidence": "high",
+      "limits": "该基金主页不披露供应商。"
+    },
+    {
+      "id": "CN-S05",
+      "title": "Mobile phone data show spatial and socioeconomic inequalities in hospital utilization",
+      "url": "https://www.nature.com/articles/s44360-026-00100-6",
+      "type": "publisher_full_text",
+      "doi": "10.1038/s44360-026-00100-6",
+      "institution": "深圳大学等",
+      "supplier": "Moxing Beijing",
+      "finding": "Methods/Data和Ethics明确供应商为Moxing Beijing；经授权智能手机App GPS数据，11城，2023-04-01至05-31；致谢明确列42171400。",
+      "confidence": "high",
+      "limits": "Pioneer归属与已读全文不一致；尚无Moxing与先锋法人/分销关联证据。GPS/App来源已确认；未明确WiFi占比或完全排除操作系统混合定位。"
+    },
+    {
+      "id": "CN-S06",
+      "title": "Xia et al. Nature Health author institutional PDF",
+      "url": "https://senseable.mit.edu/papers/pdf/20260426_Xia-etal_MobilePhone_NatureHealth.pdf",
+      "type": "author_institution_pdf",
+      "doi": "10.1038/s44360-026-00100-6",
+      "finding": "MIT Senseable City Lab公开提供论文PDF；检索文本亦明确Moxing Beijing。",
+      "confidence": "high",
+      "limits": "与CN-S05为同一论文，不能计为独立研究或额外一篇Pioneer论文。"
+    },
+    {
+      "id": "CN-S07",
+      "title": "2024–2025商业地产数字化白皮书",
+      "url": "https://www.mallcoo.cn/Public/pc/pdf/2024-2025CommercialRealEstateWhitePaper.pdf",
+      "mirror_url": "https://pdf.dfcfw.com/pdf/H3_AP202506221695407817_1.pdf",
+      "type": "supplier_coauthored_report",
+      "supplier": "先锋数聚 / 猫酷科技",
+      "finding": "报告数据来源说明包含先锋数聚自有及整合运营商、合作方数据；客群画像亦涉及App及线下位置数据。",
+      "confidence": "high_for_report_not_all_products",
+      "limits": "搜索索引可读、官网PDF直接打开报错。只能说明该报告数据为混合来源，不能据此否定或确认先锋某一学术产品是纯SDK。"
+    },
+    {
+      "id": "CN-S08",
+      "title": "2025年北京市高等教育教学成果奖（本科）基地信息",
+      "url": "https://bm.cugb.edu.cn/2025jxcgsb/c/2025-11-07/839004.shtml",
+      "type": "official_university_partnership",
+      "institution": "中国地质大学（北京）",
+      "supplier": "北京先锋数聚信息科技有限公司",
+      "finding": "官网列学生实践实习基地，签约时间2024年5月。",
+      "confidence": "high_for_partnership_only",
+      "limits": "仅证明实习基地合作，不证明采购位置数据或使用SDK发表论文。"
+    },
+    {
+      "id": "CN-S09",
+      "title": "北京市科技型中小企业名单",
+      "url": "https://kw.beijing.gov.cn/zwgk/tzgg/202508/P020250818588933007395.pdf",
+      "type": "official_company_list",
+      "supplier": "北京先锋数聚信息科技有限公司",
+      "finding": "公司名称出现在北京市官方名单，地区为通州区。",
+      "confidence": "high_for_name_location_only",
+      "limits": "不是完整工商档案；不含已核验股东、最终受益人或即刻LBS关系。"
+    },
+    {
+      "id": "CN-S10",
+      "title": "Global Change Research Data Publishing & Repository: Moxing Technology trajectory data",
+      "url": "https://www.geodoi.ac.cn/WebEn/paper.aspx?Id=963cf123-47e6-4494-953c-8694ca02eace",
+      "dataset_doi": "10.3974/geodb.2026.02.08",
+      "type": "primary_paper_search_index",
+      "supplier": "Moxing Technology",
+      "finding": "检索索引披露六城轨迹用于PM2.5暴露研究，2023-01-24至02-23，定位技术包括WiFi、Bluetooth、GPS。",
+      "confidence": "medium_pending_full_page",
+      "limits": "网页直接打开失败，题名作者待补；1米精度是文中陈述待质量审计；不能从名称相近直接并入Moxing Beijing或先锋。"
+    },
+    {
+      "id": "CN-S11",
+      "title": "先锋数聚官网",
+      "url": "https://www.pioneerdata.com.cn/",
+      "type": "supplier_website",
+      "finding": "官网可定位但本轮文本解析为0行。",
+      "confidence": "limited",
+      "limits": "未据此确认股东、客户名单或SDK具体机制。"
+    },
+    {
+      "id": "CN-S12",
+      "title": "手机用户特征标签数据项目采购信息公开（服务类）",
+      "url": "https://bidding.szu.edu.cn/info/1023/35082.htm",
+      "type": "official_procurement",
+      "published": "2024-11-29",
+      "institution": "深圳大学建筑与城市规划学院",
+      "supplier": "北京先锋数聚信息科技有限公司",
+      "finding": "匿名人群画像轨迹数据，预算及拟成交价格50,000元。",
+      "confidence": "high",
+      "limits": "原站搜索索引可读，直接打开失败；拟成交公告不等于已验收；未确认具体课题或论文。"
+    },
+    {
+      "id": "CN-S13",
+      "title": "手机用户特征标签数据采购项目采购信息公开（服务类）",
+      "url": "https://bidding.szu.edu.cn/info/1023/35589.htm",
+      "type": "official_procurement",
+      "published": "2024-12-06",
+      "institution": "深圳大学建筑与城市规划学院",
+      "supplier": "北京先锋数聚信息科技有限公司",
+      "finding": "预算及拟成交98,000元；提供2024年春节及6月指定时段城市轨迹及叠加数据，字段包括timing、link、stable、poi。",
+      "confidence": "high",
+      "limits": "与同日99,000元LBS公告为不同URL及项目名；合同关系、是否同一项目拆分不作推断。"
+    },
+    {
+      "id": "CN-S14",
+      "title": "轨迹数据视角下的分人群PM2.5暴露平等性数据集研发",
+      "url": "https://geodoi.ac.cn/DOIPaper/HTML/2026139402/202602139408.htm",
+      "type": "primary_paper_indexed_methods",
+      "published": "2026",
+      "institution": "待完整题录核验",
+      "supplier": "北京摸星科技有限公司",
+      "finding": "3.1明示Wi-Fi、蓝牙、GPS轨迹；北京、上海、深圳、成都、武汉、西安；2023-01-24至02-23；匿名ID、时间戳、定位方式、经纬度；分析至少有20小时有效定位者。",
+      "confidence": "medium",
+      "limits": "本轮读原始页面索引方法段，直达失败；论文/数据集DOI疑有元数据冲突，暂不据DOI导入。原文中文为“摸星”；Moxing Beijing与先锋体系关系为项目发起人确认，公开工商待补。"
+    }
+  ],
+  "verified_edges": [
+    {
+      "from": "北京先锋数聚信息科技有限公司",
+      "to": "深圳大学建筑与城市规划学院",
+      "relation": "拟成交供应商",
+      "sources": [
+        "CN-S01"
+      ]
+    },
+    {
+      "from": "北京先锋数聚信息科技有限公司",
+      "to": "深圳大学微众银行金融科技学院",
+      "relation": "拟成交供应商",
+      "sources": [
+        "CN-S02",
+        "CN-S03"
+      ]
+    },
+    {
+      "from": "夏吉喆",
+      "to": "NSFC 42171400",
+      "relation": "负责人",
+      "sources": [
+        "CN-S04"
+      ]
+    },
+    {
+      "from": "NSFC 42171400",
+      "to": "10.1038/s44360-026-00100-6",
+      "relation": "论文致谢资助",
+      "sources": [
+        "CN-S05"
+      ]
+    },
+    {
+      "from": "Moxing Beijing",
+      "to": "10.1038/s44360-026-00100-6",
+      "relation": "论文披露数据供应商",
+      "sources": [
+        "CN-S05",
+        "CN-S06"
+      ]
+    },
+    {
+      "from": "北京先锋数聚信息科技有限公司",
+      "to": "中国地质大学（北京）",
+      "relation": "实习基地合作",
+      "sources": [
+        "CN-S08"
+      ]
+    }
+  ],
+  "unverified_edges": [
+    {
+      "from": "先锋数聚",
+      "to": "即刻LBS",
+      "relation": "用户提出同股东/同数据线索",
+      "status": "legal_entity_and_shareholders_unverified"
+    },
+    {
+      "from": "先锋数聚",
+      "to": "Moxing Beijing",
+      "relation": "潜在供应链/法人关系",
+      "status": "unverified"
+    },
+    {
+      "from": "先锋数聚",
+      "to": "10.1038/s44360-026-00100-6",
+      "relation": "用户及旧Zotero备注归属",
+      "status": "not_supported_by_read_publisher_fulltext"
+    },
+    {
+      "from": "先锋数聚",
+      "to": "上海大学 STC24A483",
+      "relation": "用户采购线索",
+      "status": "public_notice_not_retrieved_this_pass"
+    }
+  ],
+  "coverage": [
+    {
+      "institution": "深圳大学建筑与城市规划学院",
+      "query": "\"先锋数聚\" \"深圳大学\"; \"高时空分辨率传染病动力学建模\"",
+      "status": "procurement_confirmed_and_grant_paper_link_confirmed",
+      "sources": [
+        "CN-S01",
+        "CN-S04",
+        "CN-S05",
+        "CN-S12",
+        "CN-S13"
+      ],
+      "next": "阅读采购附件，识别采购负责人、关联项目；独立核验Moxing法人。"
+    },
+    {
+      "institution": "深圳大学微众银行金融科技学院",
+      "query": "\"深圳大学\" \"手机高精度匿名LBS数据\" \"微众\"; \"先锋数聚\" \"深圳大学\" \"微众\"",
+      "status": "two_procurement_notices_confirmed",
+      "sources": [
+        "CN-S02",
+        "CN-S03"
+      ],
+      "next": "由采购附件与学院项目页扩展到负责人和论文；不能自动归因给夏吉喆。"
+    },
+    {
+      "institution": "上海大学",
+      "query": "\"先锋数聚\" \"上海大学\"",
+      "status": "searched_no_relevant_direct_evidence_retrieved",
+      "sources": [],
+      "next": "另检索STC24A483、城市更新数字平台建设均未命中；待查校内招标库及采购代理公告。"
+    },
+    {
+      "institution": "东南大学",
+      "query": "\"先锋数聚\" \"东南大学\"",
+      "status": "searched_no_relevant_direct_evidence_retrieved",
+      "sources": [],
+      "next": "另检索东南大学+轨迹+防灾+手机数据，未确认供应商或目标课题；查建筑/交通/灾害团队。"
+    },
+    {
+      "institution": "中规院上海分院",
+      "query": "\"先锋数聚\" \"中规院上海分院\"",
+      "status": "searched_no_relevant_direct_evidence_retrieved",
+      "sources": [],
+      "next": "追加本校采购站内检索、供应商完整法人名及论文方法/致谢检索。"
+    },
+    {
+      "institution": "北京大学",
+      "query": "\"先锋数聚\" \"北京大学\"",
+      "status": "searched_no_relevant_direct_evidence_retrieved",
+      "sources": [],
+      "next": "追加本校采购站内检索、供应商完整法人名及论文方法/致谢检索。"
+    },
+    {
+      "institution": "北京大学深圳研究生院",
+      "query": "\"先锋数聚\" \"北京大学深圳研究生院\"",
+      "status": "searched_no_relevant_direct_evidence_retrieved",
+      "sources": [],
+      "next": "追加本校采购站内检索、供应商完整法人名及论文方法/致谢检索。"
+    },
+    {
+      "institution": "清华大学",
+      "query": "\"先锋数聚\" \"清华大学\"",
+      "status": "searched_no_relevant_direct_evidence_retrieved",
+      "sources": [],
+      "next": "追加本校采购站内检索、供应商完整法人名及论文方法/致谢检索。"
+    },
+    {
+      "institution": "同济大学",
+      "query": "\"先锋数聚\" \"同济大学\"",
+      "status": "searched_no_relevant_direct_evidence_retrieved",
+      "sources": [],
+      "next": "追加本校采购站内检索、供应商完整法人名及论文方法/致谢检索。"
+    },
+    {
+      "institution": "南京大学",
+      "query": "\"先锋数聚\" \"南京大学\"",
+      "status": "searched_no_relevant_direct_evidence_retrieved",
+      "sources": [],
+      "next": "追加本校采购站内检索、供应商完整法人名及论文方法/致谢检索。"
+    },
+    {
+      "institution": "天津大学",
+      "query": "\"先锋数聚\" \"天津大学\"",
+      "status": "searched_no_relevant_direct_evidence_retrieved",
+      "sources": [],
+      "next": "追加本校采购站内检索、供应商完整法人名及论文方法/致谢检索。"
+    },
+    {
+      "institution": "中南大学",
+      "query": "\"先锋数聚\" \"中南大学\"",
+      "status": "searched_no_relevant_direct_evidence_retrieved",
+      "sources": [],
+      "next": "追加本校采购站内检索、供应商完整法人名及论文方法/致谢检索。"
+    },
+    {
+      "institution": "北京交通大学",
+      "query": "\"先锋数聚\" \"北京交通大学\"",
+      "status": "searched_no_relevant_direct_evidence_retrieved",
+      "sources": [],
+      "next": "追加本校采购站内检索、供应商完整法人名及论文方法/致谢检索。"
+    },
+    {
+      "institution": "上海交通大学",
+      "query": "\"先锋数聚\" \"上海交通大学\"",
+      "status": "searched_no_relevant_direct_evidence_retrieved",
+      "sources": [],
+      "next": "追加本校采购站内检索、供应商完整法人名及论文方法/致谢检索。"
+    },
+    {
+      "institution": "福州大学",
+      "query": "\"先锋数聚\" \"福州大学\"",
+      "status": "searched_no_relevant_direct_evidence_retrieved",
+      "sources": [],
+      "next": "追加本校采购站内检索、供应商完整法人名及论文方法/致谢检索。"
+    },
+    {
+      "institution": "四川大学",
+      "query": "\"先锋数聚\" \"四川大学\"",
+      "status": "searched_no_relevant_direct_evidence_retrieved",
+      "sources": [],
+      "next": "追加本校采购站内检索、供应商完整法人名及论文方法/致谢检索。"
+    },
+    {
+      "institution": "重庆大学",
+      "query": "\"先锋数聚\" \"重庆大学\"",
+      "status": "searched_no_relevant_direct_evidence_retrieved",
+      "sources": [],
+      "next": "追加本校采购站内检索、供应商完整法人名及论文方法/致谢检索。"
+    },
+    {
+      "institution": "中国地质大学（北京）",
+      "query": "\"北京先锋数聚信息科技有限公司\" 大学",
+      "status": "new_partnership_only",
+      "sources": [
+        "CN-S08"
+      ],
+      "next": "区分学生实习基地与科研采购。"
+    }
+  ],
+  "corporate_search_log": [
+    {
+      "queries": [
+        "\"即刻LBS\"",
+        "\"即刻LBS\" 公司 数据 采购",
+        "\"即刻\" \"数据\" \"先锋数聚\"",
+        "\"JikeLBS\"",
+        "\"jike lbs\" data"
+      ],
+      "result": "没有取得可确认品牌对应法人的官方页面；返回大量同名社交App和无关LBS页面，均未作为该供应商证据。"
+    },
+    {
+      "queries": [
+        "\"先锋数聚\" \"股东\"",
+        "\"先锋数聚\" 法人",
+        "\"北京先锋数聚\" 企查查"
+      ],
+      "result": "仅取得公司出现在官方企业名单等资料；未取得有效股东登记材料。"
+    }
+  ],
+  "priority_next_steps": [
+    "采购附件抽取负责人/项目编号/字段说明，然后反查团队论文；首选深大5份公告。",
+    "上海大学STC24A483应从校采购站和采购代理公司档案查原文。",
+    "即刻LBS需用户已有官网、合同抬头或统一社会信用代码作为法人消歧种子；不先写任何马甲公司结论。",
+    "核验Moxing Beijing中文法人名及是否为数据源、经销商或品牌，不从拼音猜公司。",
+    "由已确认42171400和夏吉喆团队逐篇核查方法/补充材料供应商，而非全团队作品归属。"
+  ],
+  "supplementary_search_log": [
+    {
+      "date": "2026-10-10",
+      "queries": [
+        "site:bidding.szu.edu.cn/info/1023/35082 \"先锋\"",
+        "\"北京摸星科技有限公司\" 手机",
+        "\"STC24A483\""
+      ],
+      "result": "新增2采购公告和1原始方法来源；STC编号仍无直接命中。"
+    }
+  ],
+  "user_confirmations": [
+    {
+      "date": "2026-10-10",
+      "subject": "Moxing Beijing 与先锋数聚",
+      "claim": "项目发起人确认 Moxing Beijing 属于先锋数聚关联体系。",
+      "evidence_type": "user_confirmed",
+      "public_registry_status": "工商主体、股权及合同关系仍待公开来源补证；论文可支持服务联系，不能替代工商证明。"
+    }
+  ]
+}

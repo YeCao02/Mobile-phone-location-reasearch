@@ -1,0 +1,243 @@
+{
+  "date": "2026-10-10",
+  "agent": "literature_evolution",
+  "method": "先读取旧候选元数据，再出版社/PMC/作者机构页面定向检索。所有以下query在本轮实际执行；重复/失败打开另记。",
+  "local_inputs": [
+    "literature_commercial_mobile_location_data_2015_2026.csv",
+    "literature_commercial_mobile_location_data_addendum_2026.csv",
+    "literature_3axis_extraction.csv"
+  ],
+  "query_groups": [
+    [
+      "The 15-minute city quantified SafeGraph",
+      "smartphone GPS parks SafeGraph nature",
+      "The effect of partisanship SafeGraph",
+      "Nursing home staff networks Veraset"
+    ],
+    [
+      "Human mobility networks reveal increased segregation Methods SafeGraph GPS",
+      "The 15-minute city quantified using human mobility data nature 2024",
+      "Nursing home staff networks and COVID-19 PMC",
+      "Multiscale dynamic human mobility flow dataset apps"
+    ],
+    [
+      "site.nature.com/articles/s41586-020-2923-3 SafeGraph Methods",
+      "site.nature.com/articles/s41597-020-00734-5 SafeGraph Methods",
+      "site.nature.com/articles/s42005-024-01909-x Cuebiq",
+      "site.nature.com/articles/s41562-023-01770-y SafeGraph Methods"
+    ],
+    [
+      "Understanding vehicular routing behavior with location-based service data Cuebiq",
+      "On selection bias in comparison measures Cuebiq",
+      "Face-to-face interactions and the returns to acquisitions SafeGraph pdf",
+      "Mixing individual and collective behaviors Cuebiq"
+    ],
+    [
+      "site.pmc.ncbi.nlm.nih.gov/articles/PMC9202634 GPS Cuebiq",
+      "site.pmc.ncbi.nlm.nih.gov/articles/PMC7817179 Smartphone Location Data",
+      "Chen Rohla Science 2018 aar910",
+      "The effect of partisanship and political advertising on close family ties apps"
+    ],
+    [
+      "The effect of partisanship and political advertising on close family ties doi",
+      "site.pmc.ncbi.nlm.nih.gov/articles/PMC7817179 Veraset pings",
+      "site.pmc.ncbi.nlm.nih.gov/articles/PMC9202634 Data apps",
+      "site.nature.com/articles/s41598-023-46745-1 Data and methods"
+    ],
+    [
+      "smartphone SafeGraph air pollution exposure nature",
+      "On selection bias in comparison measures Cuebiq Methods",
+      "Exploring biases in travel behavior patterns in big passively generated mobile data from 11 U.S. cities Cuebiq"
+    ],
+    [
+      "Distorted insights from human mobility data Published 2025",
+      "Distorted insights from human mobility data 2024 Gallotti",
+      "Spatial and Temporal Characterization of Activity in Public Space, 2019–2020 authors",
+      "On selection bias in comparison measures 2022 Garber"
+    ]
+  ],
+  "direct_verification": [
+    {
+      "id": "L01",
+      "url": "https://www.anderson.ucla.edu/faculty_pages/keith.chen/papers/Final_Science18.pdf",
+      "section": "正文检索片段；作者ReadMe",
+      "status": "author_pdf_indexed_open_failed"
+    },
+    {
+      "id": "L02",
+      "url": "https://www.nature.com/articles/s41597-020-00734-5",
+      "section": "Abstract；出版社索引",
+      "status": "publisher_indexed_open_idp_error"
+    },
+    {
+      "id": "L03",
+      "url": "https://www.nature.com/articles/s41586-020-2923-3",
+      "section": "Methods/Overview of network estimation",
+      "status": "publisher_indexed_methods_open_idp_error"
+    },
+    {
+      "id": "L04",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7817179/",
+      "section": "Materials and Methods/Smartphone Location Data",
+      "status": "pmc_methods_indexed_direct_recaptcha"
+    },
+    {
+      "id": "L05",
+      "url": "https://link.springer.com/article/10.1140/epjds/s13688-021-00267-w",
+      "section": "Introduction；2 Data description；3 Methodology",
+      "status": "publisher_fulltext_html"
+    },
+    {
+      "id": "L06",
+      "url": "https://www.nature.com/articles/s41467-021-24899-8",
+      "section": "Methods/Mobility data；Home and visits extraction",
+      "status": "publisher_fulltext_html"
+    },
+    {
+      "id": "L07",
+      "url": "https://doi.org/10.1002/smj.3435",
+      "section": "3.1.2 Smartphone data；3.2–3.3",
+      "status": "publisher_fulltext_html"
+    },
+    {
+      "id": "L08",
+      "url": "https://www.nature.com/articles/s41597-022-01480-6",
+      "section": "Methods/Device-level information；Data Records；Technical Validation",
+      "status": "publisher_fulltext_html"
+    },
+    {
+      "id": "L09",
+      "url": "https://link.springer.com/article/10.1186/s12942-022-00321-4",
+      "section": "Data；mobile phone-derived measurements；Data availability",
+      "status": "publisher_fulltext_html"
+    },
+    {
+      "id": "L10",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35288279/",
+      "section": "Abstract",
+      "status": "abstract_only"
+    },
+    {
+      "id": "L11",
+      "url": "https://www.nature.com/articles/s41586-023-06757-3",
+      "section": "Methods/Datasets/SafeGraph；Constructing exposure network",
+      "status": "publisher_indexed_methods_open_idp_error"
+    },
+    {
+      "id": "L12",
+      "url": "https://www.nature.com/articles/s41598-023-46745-1",
+      "section": "Data and methods",
+      "status": "publisher_indexed_methods_open_error"
+    },
+    {
+      "id": "L13",
+      "url": "https://www.nature.com/articles/s41562-023-01770-y",
+      "section": "Abstract；Data statement（索引）",
+      "status": "publisher_indexed_author_pdf_timeout"
+    },
+    {
+      "id": "L14",
+      "url": "https://www.nature.com/articles/s41597-024-03490-y",
+      "section": "Methods；Code availability",
+      "status": "publisher_fulltext_html"
+    },
+    {
+      "id": "L15",
+      "url": "https://www.nature.com/articles/s41598-024-64087-4",
+      "section": "Methods/Date and preprocessing",
+      "status": "publisher_fulltext_html"
+    },
+    {
+      "id": "L16",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0294430",
+      "section": "2.1 Study area and data；3.2",
+      "status": "publisher_fulltext_html"
+    },
+    {
+      "id": "L17",
+      "url": "https://www.nature.com/articles/s42005-024-01909-x",
+      "section": "Data availability；Acknowledgements；spreading processes",
+      "status": "publisher_indexed_sections_open_error"
+    },
+    {
+      "id": "L18",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12054799/",
+      "section": "Materials and Methods/Stop Location Detection；Data availability",
+      "status": "pmc_indexed_methods_direct_recaptcha"
+    },
+    {
+      "id": "L19",
+      "url": "https://link.springer.com/article/10.1140/epjds/s13688-025-00559-5",
+      "section": "3.2 LBS data in dallas, Texas；Background",
+      "status": "publisher_fulltext_html"
+    },
+    {
+      "id": "L20",
+      "url": "https://www.nature.com/articles/s41598-025-03577-5",
+      "section": "Methods/data；Data availability",
+      "status": "publisher_fulltext_html"
+    },
+    {
+      "id": "L21",
+      "url": "https://www.nature.com/articles/s44360-026-00100-6",
+      "section": "Methods/Data；Ethics；Data availability；Acknowledgements",
+      "status": "publisher_open_access_fulltext_html"
+    },
+    {
+      "id": "L22",
+      "url": "https://www.sciencedirect.com/science/article/pii/S096669232400317X",
+      "section": "Mobility and demographic datasets（可见片段）",
+      "status": "publisher_partial_sections"
+    }
+  ],
+  "failed_access": [
+    "Nature s41586-020-2923-3, s41586-023-06757-3, s41597-020-00734-5: IDP/cookie redirect errors despite indexed methods",
+    "PMC7817179, PMC12054799: direct recaptcha; indexed original text used with explicit partial status",
+    "MIT 15-minute city author PDF: timeout",
+    "UCLA Final_Science18.pdf: direct access error; indexed paper and author ReadMe used"
+  ],
+  "additional_checks": [
+    "Xia2026 find(Pioneer) case-sensitive search failed; Data availability independently revealed lowercase pioneerdata.com.cn email; Methods and Ethics identify Moxing Beijing.",
+    "Search snippets for 11-city travel bias did not identify vendor; no vendor inference retained.",
+    "Distorted insights year retained2024 from institutional repository metadata; DOI year string alone not used."
+  ],
+  "not_done": [
+    "No full systematic database search / citation-count ranking",
+    "No paywall bypass or VPN modification",
+    "No Zotero/GitHub edits",
+    "No external email sent",
+    "Existing local PDFs verified; no claim that online-only L23/L24 PDFs were downloaded or attached to Zotero."
+  ],
+  "followup_20261010": {
+    "local_methods_verified": [
+      "L02",
+      "L03",
+      "L16",
+      "L17",
+      "L21"
+    ],
+    "new_records": [
+      "L23",
+      "L24"
+    ],
+    "new_query": "site.mit.edu mobility air pollution exposure Cuebiq paper",
+    "direct_open": [
+      "https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000430",
+      "https://senseable.mit.edu/papers/pdf/20240627_Wang-etal_BigMobility_NatureCities.pdf"
+    ],
+    "excluded_related_source": {
+      "title": "Exposure Track",
+      "doi": "10.1021/acs.est.6b02385",
+      "reason": "MIT repository abstract explicitly describes counts of cellular-network connections; outside app/SDK core scope."
+    },
+    "counts": {
+      "fulltext_read": 16,
+      "source_confirmed": 23,
+      "app_collection_confirmed": 16,
+      "sdk_explicit": 1,
+      "pdf_downloaded": 5,
+      "zotero_attachment_verified": 2
+    },
+    "audit": "pdf_audit.json"
+  }
+}
