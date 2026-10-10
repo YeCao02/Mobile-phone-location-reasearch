@@ -1,6 +1,6 @@
 {
   "as_of": "2026-10-10",
-  "scope": "两轮中国供应商、逐校采购及基金论文关系证据；不是穷尽调查",
+  "scope": "中国供应商、采购及基金论文关系证据；含本轮摸星/Jike全文追踪，非穷尽调查",
   "classification_rules": [
     "采购、课题、论文分别建节点；只建立有直接证据的边。",
     "LBS名称或公司品牌不能单独证明SDK/GPS/WiFi且排除运营商。",
@@ -110,14 +110,15 @@
     },
     {
       "id": "CN-S10",
-      "title": "Global Change Research Data Publishing & Repository: Moxing Technology trajectory data",
+      "title": "六城PM2.5暴露论文：英文出版方全文（对应L25/CN-S14）",
       "url": "https://www.geodoi.ac.cn/WebEn/paper.aspx?Id=963cf123-47e6-4494-953c-8694ca02eace",
-      "dataset_doi": "10.3974/geodb.2026.02.08",
-      "type": "primary_paper_search_index",
+      "dataset_doi": "10.3974/geodb.2026.02.08.V1",
+      "type": "publisher_english_fulltext",
       "supplier": "Moxing Technology",
-      "finding": "检索索引披露六城轨迹用于PM2.5暴露研究，2023-01-24至02-23，定位技术包括WiFi、Bluetooth、GPS。",
-      "confidence": "medium_pending_full_page",
-      "limits": "网页直接打开失败，题名作者待补；1米精度是文中陈述待质量审计；不能从名称相近直接并入Moxing Beijing或先锋。"
+      "finding": "英文全文Moxing Technology与同篇中文北京摸星科技有限公司对应；已取得中文PDF。与CN-S14是同篇研究的两个语言入口，不重复计入论文数量。",
+      "confidence": "high",
+      "limits": "名称对应来自同篇双语原文；不代表与先锋数聚法律实体关系已经核验。",
+      "catalog_id": "L25"
     },
     {
       "id": "CN-S11",
@@ -155,14 +156,14 @@
     {
       "id": "CN-S14",
       "title": "轨迹数据视角下的分人群PM2.5暴露平等性数据集研发",
-      "url": "https://geodoi.ac.cn/DOIPaper/HTML/2026139402/202602139408.htm",
-      "type": "primary_paper_indexed_methods",
-      "published": "2026",
+      "url": "https://www.geodoi.ac.cn/DOIPaper/HTML/2026139402/202602139408.html",
+      "type": "publisher_pdf_methods_verified",
+      "published": "2026-04-25",
       "institution": "深圳大学夏吉喆团队",
       "supplier": "北京摸星科技有限公司",
-      "finding": "出版方全文的搜索索引：3.1数据来源点名北京摸星科技有限公司；WiFi/蓝牙/GPS；北京、上海、深圳、成都、武汉、西安；2023-01-24至02-23。表1基金项目列国家自然科学基金42171400。",
-      "confidence": "medium",
-      "limits": "全文HTML经检索索引可读；直连与本机下载失败，未保存PDF。SDK架构未明说；定位技术明确。公司工商关系未证明。 出版方报告DOI 10.3974/geodp.2026.02.08，但另一机构新闻将其指向不同文章；DOI注册未核验，勿据此自动合并。",
+      "finding": "原文PDF第2页确认北京摸星科技有限公司提供六城轨迹，定位包含WiFi、蓝牙、GPS；首页基金广西科学技术项目GXYD2504850001，表1数据集基金NSFC42171400。",
+      "confidence": "high",
+      "limits": "出版方HTML/PDF一致报告DOI，但doi.org与Crossref当前均404，故doi留空、reported_doi保留；机构新闻中该DOI与另一题名存在冲突，未据此覆盖出版方题名。首页基金GXYD2504850001与表1数据集基金42171400分别记录。配套数据集为衍生产品，不能当第二篇实证论文或公开原始轨迹。定位<1m为作者声明，未独立验证。摸星/摩星/先锋法律关联不得由此推定。",
       "authors": [
         "吴梓昊",
         "马志锋",
@@ -173,12 +174,26 @@
       "issue": 2,
       "pages": "180–190",
       "doi_reported": "10.3974/geodp.2026.02.08",
-      "doi_status": "publisher_html_and_landing_agree_but_external_primary_source_conflicts; resolver_failed",
-      "verification": "primary_indexed_fulltext",
+      "doi_status": "not_resolving_2026-10-10; doi_org404_crossref404_handle_responseCode100",
+      "verification": "downloaded_pdf_identity_and_methods_verified",
       "methods_audit": [
         "所谓1m内空间精度、1h内时间精度是论文声明，未独立验证，不能升级为供应商普遍性能。",
         "GPS记录判室外、WiFi/蓝牙记录判室内属于方法假设，不能视作验证过的室内外真值。",
         "筛选每天有效记录至少20小时可能带来样本选择偏差。"
+      ],
+      "catalog_id": "L25",
+      "pdf_url": "https://www.geodoi.ac.cn/DOIPaper/PDF/2026139402/202602139408.pdf",
+      "funds": [
+        {
+          "id": "GXYD2504850001",
+          "name": "广西科学技术项目",
+          "source_location": "PDF第1页论文首页基金项目"
+        },
+        {
+          "id": "42171400",
+          "name": "国家自然科学基金",
+          "source_location": "PDF第3页表1数据集元数据"
+        }
       ]
     },
     {
@@ -301,6 +316,31 @@
       "limits": "产品级轨迹出处、运营商混合情况和原始数据可购买性仍需确认。",
       "confidence": "primary_indexed_evidence",
       "published": ""
+    },
+    {
+      "id": "CN-S26",
+      "title": "PM2.5 Exposure Disparities Among Different Populations in High Mobility Urban Areas: A Case Study of Beijing, Shanghai, and Shenzhen",
+      "url": "https://isocui.org/icui2023/programme/GSCS%26ICUI2023-Conference-Proceedings.pdf",
+      "type": "official_conference_abstract",
+      "published": "2023-08-20",
+      "institution": "深圳大学夏吉喆相关作者线索",
+      "supplier": "Jike（原文名称）",
+      "finding": "官方会议摘要PDF第94页Methods明确取得Jike提供的approximately 6 million de-sensitized user trajectory data；约600万的计量单位不明确，不能当作600万独立用户。未给中文法律主体、SDK或传感器机制。",
+      "confidence": "high_for_original_name_and_use",
+      "limits": "文献形态为会议摘要；供方是Methods的实际使用声明，不是引用提及。结果段使用anticipate/expect、GWR写plan，故不作为已完成结果。Jike是否即刻LBS/先锋关联实体尚未公开核实。与L25共享Ma/Xia、部分城市和暴露主题，可作潜在演进线索；供应商标签、方法、作者、城市数不同，未证明同一数据或期刊扩展版。",
+      "catalog_id": "L26"
+    },
+    {
+      "id": "CN-S27",
+      "title": "人群轨迹数据视角下中国6个城市PM2.5暴露平等性1-km时均栅格数据集（2023年1–2月）",
+      "url": "https://www.geodoi.ac.cn/WebCn/geodoi.aspx?ID=3949&paperID=963cf123-47e6-4494-953c-8694ca02eace",
+      "type": "associated_dataset_metadata",
+      "published": "2026",
+      "supplier": "派生数据；原始轨迹供方见L25",
+      "finding": "L25配套污染与暴露数据集，作者顺序马志锋、吴梓昊、夏吉喆；单独登记数据产品，不重复计作论文。",
+      "dataset_doi": "10.3974/geodb.2026.02.08.V1",
+      "confidence": "primary_article_citation_and_indexed_metadata",
+      "limits": "配套数据集DOI本轮未单独验证解析；不能称公开了原始个人轨迹。"
     }
   ],
   "verified_edges": [
@@ -405,6 +445,38 @@
         "CN-S12"
       ],
       "verification": "primary_search_index; not downloaded fulltext"
+    },
+    {
+      "from": "北京摸星科技有限公司",
+      "to": "L25 六城PM2.5暴露研究",
+      "relation": "原文方法明确数据供给；WiFi/蓝牙/GPS",
+      "sources": [
+        "CN-S14"
+      ]
+    },
+    {
+      "from": "Jike（原文名称）",
+      "to": "L26 GSCS & ICUI 2023摘要",
+      "relation": "Methods明确取得其轨迹数据；中文实体映射待核",
+      "sources": [
+        "CN-S26"
+      ]
+    },
+    {
+      "from": "NSFC 42171400",
+      "to": "L25 配套数据集",
+      "relation": "原文表1数据集基金",
+      "sources": [
+        "CN-S14"
+      ]
+    },
+    {
+      "from": "广西科学技术项目 GXYD2504850001",
+      "to": "L25 六城PM2.5暴露研究",
+      "relation": "论文首页基金项目",
+      "sources": [
+        "CN-S14"
+      ]
     }
   ],
   "unverified_edges": [
@@ -602,6 +674,10 @@
     "核验Moxing Beijing中文法人名及是否为数据源、经销商或品牌，不从拼音猜公司。",
     "由已确认42171400和夏吉喆团队逐篇核查方法/补充材料供应商，而非全团队作品归属。"
   ],
+  "local_context": {
+    "file": "section_updates_20260914/sdk_literature/section1_sdk_literature_source_registry.json",
+    "finding": "旧记录已经标记Xia的Pioneer归属只见本地Zotero备注，不能用作独立供应商认证。"
+  },
   "supplementary_search_log": [
     {
       "date": "2026-10-10",
@@ -692,13 +768,42 @@
       "limits": "非穷尽；不构成否定结论。"
     }
   ],
-  "user_confirmations": [
+  "round4_findings": {
+    "catalog_ids": [
+      "L25",
+      "L26"
+    ],
+    "source_ids": [
+      "CN-S10",
+      "CN-S14",
+      "CN-S26",
+      "CN-S27"
+    ],
+    "new_literature_titles": 1,
+    "existing_literature_source_upgraded": 1,
+    "new_pdf_files": 2,
+    "legal_alias_proofs": 0
+  },
+  "round4_next_seeds": [
     {
-      "date": "2026-10-10",
-      "subject": "Moxing Beijing 与先锋数聚",
-      "claim": "项目发起人确认 Moxing Beijing 属于先锋数聚关联体系。",
-      "evidence_type": "user_confirmed",
-      "public_registry_status": "工商主体、股权及合同关系仍待公开来源补证；论文可支持服务联系，不能替代工商证明。"
+      "title": "A generalised flow-based 2SFCA method for evaluating hospital accessibility: a case study in Wuhan",
+      "authors": [
+        "Pengfei Chen",
+        "Yi Jian"
+      ],
+      "year": 2023,
+      "publication_type": "conference_abstract",
+      "source_url": "https://isocui.org/icui2023/programme/GSCS%26ICUI2023-Conference-Proceedings.pdf",
+      "pdf_pages": [
+        93,
+        94
+      ],
+      "printed_pages": "89–90",
+      "finding": "以Wuhan实际医疗服务流量构造GF2SFCA，强调动态吸引范围、距离衰减、全球流行度和地方偏好。",
+      "supplier_confirmed": false,
+      "sdk_confirmed": false,
+      "count_as_confirmed_supplier_use": false,
+      "limits": "相邻排版不等于同组研究；作者为Pengfei Chen/Yi Jian，并非Ma/Xia。摘要未给数据供应商。"
     }
   ]
 }

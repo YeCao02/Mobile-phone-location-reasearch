@@ -1,0 +1,357 @@
+{
+  "as_of": "2026-10-10",
+  "scope": "GeoDOI PM2.5论文、作者与会议来源定向检索；不是全网供应商穷尽统计。",
+  "counts": {
+    "search_queries": 28,
+    "recommended_literature_records": 2,
+    "journal_articles": 1,
+    "conference_abstracts": 1,
+    "previously_known_records_upgraded_to_direct_pdf": 1,
+    "new_literature_titles_discovered": 1,
+    "associated_datasets_separately_recorded": 1,
+    "additional_matching_geodoi_articles_beyond_target": 0,
+    "new_private_pdf_files": 2,
+    "new_pdf_bytes": 21359829,
+    "direct_http_routes_checked": 8,
+    "http_200": 4,
+    "http_404": 4,
+    "independently_proved_corporate_alias_relationships": 0
+  },
+  "sources": [
+    {
+      "id": "CN4-S01",
+      "url": "https://geodoi.ac.cn/DOIPaper/HTML/2026139402/202602139408.htm",
+      "type": "old_publisher_url",
+      "access": "direct_http404; search_index_still_contains_fulltext",
+      "finding": "旧.htm已不可直接取得；以前的索引证据不是下载证据。"
+    },
+    {
+      "id": "CN4-S02",
+      "url": "https://www.geodoi.ac.cn/WebCn/paper.aspx?Id=963cf123-47e6-4494-953c-8694ca02eace",
+      "type": "publisher_record",
+      "access": "direct_http200_redirect",
+      "final_url": "https://www.geodoi.ac.cn/DOIPaper/HTML/2026139402/202602139408.html",
+      "finding": "自动重定向新.html全文，现已私有保存真实原始HTML；无需继续依赖旧索引。"
+    },
+    {
+      "id": "CN4-S03",
+      "url": "https://www.geodoi.ac.cn/WebEn/paper.aspx?Id=963cf123-47e6-4494-953c-8694ca02eace",
+      "type": "publisher_english_fulltext",
+      "access": "direct_http200",
+      "finding": "同篇英文全文使用Moxing Technology；作者WU Zihao, MA Zhifeng, XIA Jizhe。"
+    },
+    {
+      "id": "CN4-S04",
+      "url": "https://www.geodoi.ac.cn/DOIPaper/PDF/2026139402/202602139408.pdf",
+      "type": "publisher_pdf",
+      "access": "direct_http200_downloaded_identity_verified",
+      "filename": "china_pm25_geodp_2026_02_08.pdf",
+      "pages": 11,
+      "bytes": 2371504,
+      "sha256": "aaf1902b5838f39246352b439b55af1b14d81a5ff95315ed5e18a69c58c8809e",
+      "finding": "论文首页验证题名作者卷期页和2026-04-25日期；PDF2页摸星/WiFi蓝牙GPS；PDF1页广西GXYD2504850001；PDF3页表1NSFC42171400。"
+    },
+    {
+      "id": "CN4-S05",
+      "url": "https://doi.org/10.3974/geodp.2026.02.08",
+      "type": "doi_resolver",
+      "access": "direct_http404",
+      "finding": "DOI Not Found；不代表论文不存在，出版方独立网页/PDF均存在。"
+    },
+    {
+      "id": "CN4-S06",
+      "url": "https://api.crossref.org/works/10.3974/geodp.2026.02.08",
+      "type": "crossref_registry",
+      "access": "direct_http404",
+      "finding": "Resource not found；截至本次查询未获得Crossref登记。"
+    },
+    {
+      "id": "CN4-S07",
+      "url": "https://doi.org/api/handles/10.3974/geodp.2026.02.08",
+      "type": "doi_handle_registry",
+      "access": "direct_http404",
+      "finding": "responseCode100，未找到handle。"
+    },
+    {
+      "id": "CN4-S08",
+      "url": "https://isocui.org/icui2023/programme/GSCS%26ICUI2023-Conference-Proceedings.pdf",
+      "type": "official_conference_proceedings",
+      "access": "direct_http200_downloaded_identity_verified",
+      "filename": "GSCS_ICUI2023_Conference_Proceedings.pdf",
+      "pages": 122,
+      "bytes": 18988325,
+      "sha256": "bb45745f61044b8d6fffe85e48c46902a55bbfc83ebb2deee90e621dbb4c65d1",
+      "finding": "首页会议2023-08-20至23香港；PDF94–95页(印刷90–91)为Ma/Zhong/Xia PM2.5摘要。Methods实际使用Jike约600万去敏用户轨迹数据（原文计量单位不明确，不能当600万独立用户）；未明示SDK或GPS/WiFi。结论预期性表述。"
+    },
+    {
+      "id": "CN4-S09",
+      "url": "https://www.geodoi.ac.cn/WebCn/geodoi.aspx?ID=3949&paperID=963cf123-47e6-4494-953c-8694ca02eace",
+      "type": "associated_dataset",
+      "access": "indexed_metadata_plus_cited_in_downloaded_article",
+      "finding": "数据集作者马志锋/吴梓昊/夏吉喆；reported DOI10.3974/geodb.2026.02.08.V1；不计为另一篇论文、不宣称其DOI本轮已解析。"
+    },
+    {
+      "id": "CN4-S10",
+      "url": "https://www.idm.cn/News/3900",
+      "type": "institutional_secondary_citation",
+      "access": "indexed_article",
+      "finding": "机构新闻把相同报告DOI和近似页码用于暴雪论文；出版方自己的PM2.5 PDF确认该DOI为其报告字段，故不采纳新闻给PM2.5改名。注册状态仍失败。"
+    },
+    {
+      "id": "CN4-S11",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/20964471.2026.2692260",
+      "type": "related_fund_paper_outside_confirmed_supplier_corpus",
+      "access": "publisher_indexed_abstract_and_funding",
+      "title": "High-resolution (1 km) gridded dataset of premature deaths attributed to PM2.5 exposure in China (2000–2019)",
+      "finding": "Huang/Xia/Xia，2026，基金GXYD2504850001；公开摘要描述人口栅格和死亡风险模型，未找到摸星/Jike/先锋或轨迹来源证据。不纳入供应商使用量。"
+    },
+    {
+      "id": "CN4-S12",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1364815226002240",
+      "type": "related_fund_paper_unconfirmed_supplier",
+      "access": "publisher_indexed_abstract_and_funding",
+      "title": "Global structure-aware R-Tree: a spatial indexing mechanism using deep reinforcement learning and self-play",
+      "doi": "10.1016/j.envsoft.2026.107077",
+      "finding": "Hou/Feng/Pan/Xia，2026，同广西基金；数据来源未核，不因共享基金列为供应商论文。"
+    }
+  ],
+  "recommended_catalog_file": "china_round4_catalog.json",
+  "records": [
+    {
+      "id": "L25",
+      "title": "轨迹数据视角下的分人群PM2.5暴露平等性数据集研发",
+      "title_en": "Equity Dataset Development of PM2.5 Exposure for Different Population Groups in Six Cities of China from the Trajectory Data Perspective",
+      "authors": [
+        "吴梓昊",
+        "马志锋",
+        "夏吉喆"
+      ],
+      "year": 2026,
+      "published": "2026-04-25",
+      "journal": "全球变化数据学报 / Journal of Global Change Data & Discovery",
+      "volume": "10",
+      "issue": "2",
+      "pages": "180–190",
+      "doi": "",
+      "reported_doi": "10.3974/geodp.2026.02.08",
+      "doi_status": "not_resolving_2026-10-10; doi_org404_crossref404_handle_responseCode100",
+      "publisher_metadata_verified": true,
+      "publication_type": "journal_article",
+      "provider": "北京摸星科技有限公司（中文）/Moxing Technology（同篇英文）",
+      "product": "个体匿名定位轨迹；六城2023年1–2月",
+      "application": "环境暴露/PM2.5/环境公平",
+      "data_declaration": "原文PDF第2页明确北京摸星科技有限公司供给个体轨迹，采用WiFi、蓝牙、GPS；2023-01-24至02-23覆盖北京、上海、深圳、成都、武汉、西安。仅传感器明确，SDK架构未写明。",
+      "data_form": "匿名用户ID、时间戳、定位方式、经纬度→个人时间加权暴露和分群不平等指标",
+      "use_method": "轨迹叠加逐小时1km PM2.5预测；按年龄、性别、收入、通勤距离比较暴露，计算Gini和集中指数；GPS判室外、WiFi/蓝牙判室内是模型假设。",
+      "evidence_url": "https://www.geodoi.ac.cn/DOIPaper/PDF/2026139402/202602139408.pdf",
+      "html_url": "https://www.geodoi.ac.cn/DOIPaper/HTML/2026139402/202602139408.html",
+      "evidence_section": "PDF第2–4页：3.1数据来源、表1、3.2算法；PDF第1页出版与基金信息",
+      "fulltext_read": true,
+      "fulltext_scope": "已下载身份匹配PDF并审读数据来源、基金表与方法关键段；不表示逐句通读。",
+      "source_confirmed": true,
+      "access_status": "publisher_pdf_downloaded_identity_and_methods_verified",
+      "app_collection_confirmed": false,
+      "sdk_explicit": false,
+      "sensor_mix": "论文明确WiFi、蓝牙、GPS，未逐点独立核验或证明完全排除蜂窝辅助定位；SDK未明示。",
+      "review_date": "2026-10-10",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false,
+      "pdf_filename": "china_pm25_geodp_2026_02_08.pdf",
+      "pdf_sha256": "aaf1902b5838f39246352b439b55af1b14d81a5ff95315ed5e18a69c58c8809e",
+      "pdf_page_count": 11,
+      "funds": [
+        {
+          "id": "GXYD2504850001",
+          "name": "广西科学技术项目",
+          "source_location": "PDF第1页论文首页基金项目"
+        },
+        {
+          "id": "42171400",
+          "name": "国家自然科学基金",
+          "source_location": "PDF第3页表1数据集元数据"
+        }
+      ],
+      "associated_dataset_doi": "10.3974/geodb.2026.02.08.V1",
+      "notes": "出版方HTML/PDF一致报告DOI，但doi.org与Crossref当前均404，故doi留空、reported_doi保留；机构新闻中该DOI与另一题名存在冲突，未据此覆盖出版方题名。首页基金GXYD2504850001与表1数据集基金42171400分别记录。配套数据集为衍生产品，不能当第二篇实证论文或公开原始轨迹。定位<1m为作者声明，未独立验证。摸星/摩星/先锋法律关联不得由此推定。"
+    },
+    {
+      "id": "L26",
+      "title": "PM2.5 Exposure Disparities Among Different Populations in High Mobility Urban Areas: A Case Study of Beijing, Shanghai, and Shenzhen",
+      "authors": [
+        "Ma Zhifeng",
+        "Zhong Leiyang",
+        "Xia Jizhe"
+      ],
+      "year": 2023,
+      "published": "2023-08-20",
+      "journal": "Global Smart Cities Summit cum The 3rd International Conference on Urban Informatics (GSCS & ICUI 2023), Conference Proceedings",
+      "pages": "90–91",
+      "doi": "",
+      "publisher_metadata_verified": true,
+      "publication_type": "conference_abstract",
+      "provider": "Jike（摘要原名；中文法律主体待核）",
+      "product": "约600万用户轨迹数据（原文计量单位不明确，不能当作600万独立用户）",
+      "application": "环境暴露/PM2.5/环境公平",
+      "data_declaration": "官方会议摘要PDF第94页Methods明确取得Jike提供的approximately 6 million de-sensitized user trajectory data；约600万的计量单位不明确，不能当作600万独立用户。未给中文法律主体、SDK或传感器机制。",
+      "data_form": "用户轨迹叠加多时间尺度PM2.5浓度",
+      "use_method": "随机森林结合MODIS、气象及地理数据预测北京/上海/深圳PM2.5，叠加用户轨迹估算暴露；计划用GWR研究社会经济和空间结构差异。",
+      "evidence_url": "https://isocui.org/icui2023/programme/GSCS%26ICUI2023-Conference-Proceedings.pdf",
+      "evidence_section": "PDF第94–95页（印刷90–91页），Urban Spatial Data Analytics–4，Methods与Findings and Conclusions",
+      "fulltext_read": true,
+      "fulltext_scope": "完整会议摘要两页已读；并非期刊全文，也未取得独立完整会议论文。",
+      "source_confirmed": true,
+      "access_status": "official_conference_proceedings_pdf_downloaded_abstract_verified",
+      "app_collection_confirmed": false,
+      "sdk_explicit": false,
+      "sensor_mix": "摘要只写轨迹与定位技术公司，未写GPS/WiFi/SDK，技术路径待核；不能由厂商别名推定。",
+      "review_date": "2026-10-10",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false,
+      "pdf_filename": "GSCS_ICUI2023_Conference_Proceedings.pdf",
+      "pdf_sha256": "bb45745f61044b8d6fffe85e48c46902a55bbfc83ebb2deee90e621dbb4c65d1",
+      "pdf_page_count": 122,
+      "notes": "文献形态为会议摘要；供方是Methods的实际使用声明，不是引用提及。结果段使用anticipate/expect、GWR写plan，故不作为已完成结果。Jike是否即刻LBS/先锋关联实体尚未公开核实。与L25共享Ma/Xia、部分城市和暴露主题，可作潜在演进线索；供应商标签、方法、作者、城市数不同，未证明同一数据或期刊扩展版。",
+      "funds": []
+    }
+  ],
+  "datasets": [
+    {
+      "id": "CN4-D01",
+      "title": "人群轨迹数据视角下中国6个城市PM2.5暴露平等性1-km时均栅格数据集（2023年1–2月）",
+      "authors": [
+        "马志锋",
+        "吴梓昊",
+        "夏吉喆"
+      ],
+      "year": 2026,
+      "reported_doi": "10.3974/geodb.2026.02.08.V1",
+      "doi_registry_checked_this_round": false,
+      "related_paper_id": "L25",
+      "raw_trajectory_public": false,
+      "description": "开放的是污染栅格、暴露及不平等衍生产品，不是原始个人手机轨迹。",
+      "count_as_independent_paper": false
+    }
+  ],
+  "fund_edges": [
+    {
+      "paper_id": "L25",
+      "fund": "GXYD2504850001",
+      "context": "article_frontmatter",
+      "source": "CN4-S04",
+      "pdf_page": 1
+    },
+    {
+      "paper_id": "L25",
+      "associated_dataset": "CN4-D01",
+      "fund": "42171400",
+      "context": "dataset_metadata_table_1",
+      "source": "CN4-S04",
+      "pdf_page": 3
+    }
+  ],
+  "evolution_edge": {
+    "from": "L26",
+    "to": "L25",
+    "status": "thematic_author_overlap_inference_only",
+    "support": "共同作者Ma Zhifeng与Xia Jizhe，PM2.5轨迹暴露主题，三城被六城覆盖。",
+    "limits": "作者列表、供应商署名、城市数、方法不同；没有明确论文自引或数据继承声明，不能认定同一队列或正式扩展版。"
+  },
+  "search_batches": [
+    {
+      "queries": [
+        "site:geodoi.ac.cn \"摸星\"",
+        "site:geodoi.ac.cn \"先锋数聚\"",
+        "site:geodoi.ac.cn \"Moxing\"",
+        "site:geodoi.ac.cn \"即刻\" \"数据\""
+      ],
+      "outcome": "匹配既知PM2.5论文中英文；未新增其他匹配GeoDOI论文。"
+    },
+    {
+      "queries": [
+        "\"吴梓昊\" \"轨迹\"",
+        "\"马志锋\" \"夏吉喆\" 数据",
+        "\"Wu Zihao\" \"Moxing\"",
+        "\"Ma Zhifeng\" \"Pioneer\""
+      ],
+      "outcome": "PM2.5及既知NatureHealth作者线索；排除学科无关同名。"
+    },
+    {
+      "queries": [
+        "site:geodoi.ac.cn \"吴梓昊\"",
+        "site:geodoi.ac.cn \"马志锋\"",
+        "\"Zihao Wu\" \"Jizhe Xia\" mobility",
+        "\"Zhifeng Ma\" \"Jizhe Xia\" mobility"
+      ],
+      "outcome": "新命中ICUI2023官方摘要，进一步PDF核验为L26；第三方作者列表仅用于发现，未采信其同名归并。"
+    },
+    {
+      "queries": [
+        "\"PM2.5 Exposure Disparities\" \"Jike\"",
+        "\"Xia Jizhe\" \"Jike\"",
+        "\"Ma Zhifeng\" \"mobility\" \"2023\"",
+        "site:geodoi.ac.cn \"Pioneer Data\""
+      ],
+      "outcome": "确认同一会议摘要；没有新独立题名。"
+    },
+    {
+      "queries": [
+        "\"Xia\" \"Jike\" \"mobility\"",
+        "\"Xia\" \"Moxing Technology\"",
+        "site:geodoi.ac.cn \"夏吉喆\"",
+        "site:isocui.org/icui2023 \"Guo Xin\""
+      ],
+      "outcome": "无新增供应商论文；学会委员名单及作者同名噪声排除。"
+    },
+    {
+      "queries": [
+        "site:isocui.org \"Jike\"",
+        "site:isocui.org \"Pioneer\"",
+        "site:geodoi.ac.cn \"Jike\"",
+        "\"GXYD2504850001\""
+      ],
+      "outcome": "唯一Jike实质命中是L26；Pioneer泛指开创者、历史人物Mao Jike等排除。新增两个同基金论文种子，不计供应商使用。"
+    },
+    {
+      "queries": [
+        "\"新疆伊犁地区暴雪灾害风险预测\" \"10.3974\"",
+        "\"PM2.5 Exposure Disparities Among Different Populations\" -site:isocui.org",
+        "\"Guo Xin\" \"Lai KinTung\" \"Xia Jizhe\"",
+        "\"马志锋\" \"即刻\""
+      ],
+      "outcome": "无新增独立供应商文章；DOI争议以出版方原PDF和注册接口如实分层保留。"
+    }
+  ],
+  "exclusions": [
+    "未因用户关联声明把Jike、摸星、先锋互相传递使用次数。",
+    "会议结论属于预计结果，不能把600万轨迹的取得声明扩展为全部分析已完成。",
+    "GeoDOI的Mao Jike历史人物与会议集pioneer泛称是词面噪声。",
+    "眸星/Mostar/eyestar-tech光电器件及南京材料公司不属于本轮识别的北京摸星实体。"
+  ],
+  "limits": [
+    "28个定向查询不构成全网穷尽；零新增不等于不存在。",
+    "新PDF共2个，但论文研究证据分为1期刊文章与1会议摘要，不能合报2篇同行评议期刊论文。",
+    "本轮未修改既有目录、china台账或网页；供主任务集成。"
+  ],
+  "next_seeds": [
+    {
+      "title": "A generalised flow-based 2SFCA method for evaluating hospital accessibility: a case study in Wuhan",
+      "authors": [
+        "Pengfei Chen",
+        "Yi Jian"
+      ],
+      "year": 2023,
+      "publication_type": "conference_abstract",
+      "source_url": "https://isocui.org/icui2023/programme/GSCS%26ICUI2023-Conference-Proceedings.pdf",
+      "pdf_pages": [
+        93,
+        94
+      ],
+      "printed_pages": "89–90",
+      "finding": "以Wuhan实际医疗服务流量构造GF2SFCA，强调动态吸引范围、距离衰减、全球流行度和地方偏好。",
+      "supplier_confirmed": false,
+      "sdk_confirmed": false,
+      "count_as_confirmed_supplier_use": false,
+      "limits": "相邻排版不等于同组研究；作者为Pengfei Chen/Yi Jian，并非Ma/Xia。摘要未给数据供应商。"
+    }
+  ]
+}

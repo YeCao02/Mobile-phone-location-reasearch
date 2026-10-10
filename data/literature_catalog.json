@@ -1338,6 +1338,146 @@
       ]
     },
     {
+      "id": "L25",
+      "title": "轨迹数据视角下的分人群PM2.5暴露平等性数据集研发",
+      "title_en": "Equity Dataset Development of PM2.5 Exposure for Different Population Groups in Six Cities of China from the Trajectory Data Perspective",
+      "authors": [
+        "吴梓昊",
+        "马志锋",
+        "夏吉喆"
+      ],
+      "year": 2026,
+      "published": "2026-04-25",
+      "journal": "全球变化数据学报 / Journal of Global Change Data & Discovery",
+      "volume": "10",
+      "issue": "2",
+      "pages": "180–190",
+      "doi": "",
+      "reported_doi": "10.3974/geodp.2026.02.08",
+      "doi_status": "not_resolving_2026-10-10; doi_org404_crossref404_handle_responseCode100",
+      "publisher_metadata_verified": true,
+      "publication_type": "journal_article",
+      "provider": "北京摸星科技有限公司（中文）/Moxing Technology（同篇英文）",
+      "product": "个体匿名定位轨迹；六城2023年1–2月",
+      "application": "环境暴露/PM2.5/环境公平",
+      "data_declaration": "原文PDF第2页明确北京摸星科技有限公司供给个体轨迹，采用WiFi、蓝牙、GPS；2023-01-24至02-23覆盖北京、上海、深圳、成都、武汉、西安。仅传感器明确，SDK架构未写明。",
+      "data_form": "匿名用户ID、时间戳、定位方式、经纬度→个人时间加权暴露和分群不平等指标",
+      "use_method": "轨迹叠加逐小时1km PM2.5预测；按年龄、性别、收入、通勤距离比较暴露，计算Gini和集中指数；GPS判室外、WiFi/蓝牙判室内是模型假设。",
+      "evidence_url": "https://www.geodoi.ac.cn/DOIPaper/PDF/2026139402/202602139408.pdf",
+      "html_url": "https://www.geodoi.ac.cn/DOIPaper/HTML/2026139402/202602139408.html",
+      "evidence_section": "PDF第2–4页：3.1数据来源、表1、3.2算法；PDF第1页出版与基金信息",
+      "fulltext_read": true,
+      "fulltext_scope": "已下载身份匹配PDF并审读数据来源、基金表与方法关键段；不表示逐句通读。",
+      "source_confirmed": true,
+      "access_status": "publisher_pdf_downloaded_identity_and_methods_verified",
+      "app_collection_confirmed": false,
+      "sdk_explicit": false,
+      "sensor_mix": "论文明确WiFi、蓝牙、GPS，未逐点独立核验或证明完全排除蜂窝辅助定位；SDK未明示。",
+      "review_date": "2026-10-10",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false,
+      "pdf_filename": "china_pm25_geodp_2026_02_08.pdf",
+      "pdf_sha256": "aaf1902b5838f39246352b439b55af1b14d81a5ff95315ed5e18a69c58c8809e",
+      "pdf_page_count": 11,
+      "funds": [
+        {
+          "id": "GXYD2504850001",
+          "name": "广西科学技术项目",
+          "source_location": "PDF第1页论文首页基金项目"
+        },
+        {
+          "id": "42171400",
+          "name": "国家自然科学基金",
+          "source_location": "PDF第3页表1数据集元数据"
+        }
+      ],
+      "associated_dataset_doi": "10.3974/geodb.2026.02.08.V1",
+      "notes": "出版方HTML/PDF一致报告DOI，但doi.org与Crossref当前均404，故doi留空、reported_doi保留；机构新闻中该DOI与另一题名存在冲突，未据此覆盖出版方题名。首页基金GXYD2504850001与表1数据集基金42171400分别记录。配套数据集为衍生产品，不能当第二篇实证论文或公开原始轨迹。定位<1m为作者声明，未独立验证。摸星/摩星/先锋法律关联不得由此推定。",
+      "catalog_status": "reviewed",
+      "origins": [
+        "2026-10-10审读台账"
+      ],
+      "metadata_source": "出版方原文与PDF核验；DOI状态单独标示",
+      "versions": [],
+      "legacy_provider_claims": [],
+      "bibliographic_status": "publisher_verified_doi_unresolved",
+      "publication_title_as_recorded": "全球变化数据学报 / Journal of Global Change Data & Discovery",
+      "provider_evidence_status": "source_confirmed",
+      "journal_family": "",
+      "field": "环境与生态",
+      "field_tags": [
+        "环境与生态",
+        "暴露不平等",
+        "时空行为"
+      ],
+      "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
+      "scope_tag": "reviewed_application_candidate",
+      "download_queue_status": [
+        "current_review_complete"
+      ]
+    },
+    {
+      "id": "L26",
+      "title": "PM2.5 Exposure Disparities Among Different Populations in High Mobility Urban Areas: A Case Study of Beijing, Shanghai, and Shenzhen",
+      "authors": [
+        "Ma Zhifeng",
+        "Zhong Leiyang",
+        "Xia Jizhe"
+      ],
+      "year": 2023,
+      "published": "2023-08-20",
+      "journal": "Global Smart Cities Summit cum The 3rd International Conference on Urban Informatics (GSCS & ICUI 2023), Conference Proceedings",
+      "pages": "90–91",
+      "doi": "",
+      "publisher_metadata_verified": true,
+      "publication_type": "conference_abstract",
+      "provider": "Jike（摘要原名；中文法律主体待核）",
+      "product": "约600万用户轨迹数据（原文计量单位不明确，不能当作600万独立用户）",
+      "application": "环境暴露/PM2.5/环境公平",
+      "data_declaration": "官方会议摘要PDF第94页Methods明确取得Jike提供的approximately 6 million de-sensitized user trajectory data；约600万的计量单位不明确，不能当作600万独立用户。未给中文法律主体、SDK或传感器机制。",
+      "data_form": "用户轨迹叠加多时间尺度PM2.5浓度",
+      "use_method": "随机森林结合MODIS、气象及地理数据预测北京/上海/深圳PM2.5，叠加用户轨迹估算暴露；计划用GWR研究社会经济和空间结构差异。",
+      "evidence_url": "https://isocui.org/icui2023/programme/GSCS%26ICUI2023-Conference-Proceedings.pdf",
+      "evidence_section": "PDF第94–95页（印刷90–91页），Urban Spatial Data Analytics–4，Methods与Findings and Conclusions",
+      "fulltext_read": true,
+      "fulltext_scope": "完整会议摘要两页已读；并非期刊全文，也未取得独立完整会议论文。",
+      "source_confirmed": true,
+      "access_status": "official_conference_proceedings_pdf_downloaded_abstract_verified",
+      "app_collection_confirmed": false,
+      "sdk_explicit": false,
+      "sensor_mix": "摘要只写轨迹与定位技术公司，未写GPS/WiFi/SDK，技术路径待核；不能由厂商别名推定。",
+      "review_date": "2026-10-10",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false,
+      "pdf_filename": "GSCS_ICUI2023_Conference_Proceedings.pdf",
+      "pdf_sha256": "bb45745f61044b8d6fffe85e48c46902a55bbfc83ebb2deee90e621dbb4c65d1",
+      "pdf_page_count": 122,
+      "notes": "文献形态为会议摘要；供方是Methods的实际使用声明，不是引用提及。结果段使用anticipate/expect、GWR写plan，故不作为已完成结果。Jike是否即刻LBS/先锋关联实体尚未公开核实。与L25共享Ma/Xia、部分城市和暴露主题，可作潜在演进线索；供应商标签、方法、作者、城市数不同，未证明同一数据或期刊扩展版。",
+      "funds": [],
+      "catalog_status": "reviewed",
+      "origins": [
+        "2026-10-10审读台账"
+      ],
+      "metadata_source": "出版方原文与PDF核验；DOI状态单独标示",
+      "versions": [],
+      "legacy_provider_claims": [],
+      "bibliographic_status": "publisher_metadata_verified",
+      "publication_title_as_recorded": "Global Smart Cities Summit cum The 3rd International Conference on Urban Informatics (GSCS & ICUI 2023), Conference Proceedings",
+      "provider_evidence_status": "source_confirmed",
+      "journal_family": "",
+      "field": "环境与生态",
+      "field_tags": [
+        "环境与生态",
+        "暴露不平等",
+        "时空行为"
+      ],
+      "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
+      "scope_tag": "reviewed_application_candidate",
+      "download_queue_status": [
+        "current_review_complete"
+      ]
+    },
+    {
       "id": "P240AD96D",
       "title": "Insights into population behavior during the COVID-19 pandemic from cell phone mobility data and manifold learning",
       "doi": "10.1038/s43588-021-00125-9",
@@ -5076,10 +5216,10 @@
     "source_counts": [
       {
         "source": "2026-10-10审读台账",
-        "input_rows": 24,
-        "mapped_rows": 24,
-        "unique_catalog_records": 24,
-        "new_records_at_merge_step": 24,
+        "input_rows": 26,
+        "mapped_rows": 26,
+        "unique_catalog_records": 26,
+        "new_records_at_merge_step": 26,
         "merged_rows": 0
       },
       {
@@ -5149,7 +5289,7 @@
     ],
     "source_overlap_matrix": {
       "2026-10-10审读台账": {
-        "2026-10-10审读台账": 24,
+        "2026-10-10审读台账": 26,
         "旧39篇候选清单": 16,
         "literature_commercial_mobile_location_data_2015_2026.csv": 10,
         "literature_commercial_mobile_location_data_addendum_2026.csv": 6,
@@ -5415,6 +5555,20 @@
         "row": 24,
         "source_row": null,
         "catalog_id": "L24",
+        "dedup_reason": "new_record"
+      },
+      {
+        "source": "2026-10-10审读台账",
+        "row": 25,
+        "source_row": null,
+        "catalog_id": "L25",
+        "dedup_reason": "new_record"
+      },
+      {
+        "source": "2026-10-10审读台账",
+        "row": 26,
+        "source_row": null,
+        "catalog_id": "L26",
         "dedup_reason": "new_record"
       },
       {
@@ -7516,12 +7670,12 @@
     "classification": "field/application为编辑归类；pending旧供应商标签均未视为原文确认。"
   },
   "counts": {
-    "total": 96,
-    "reviewed": 24,
+    "total": 98,
+    "reviewed": 26,
     "pending": 72,
-    "fulltext_read": 18,
+    "fulltext_read": 20,
     "with_doi": 81,
-    "pdf_verified": 20,
+    "pdf_verified": 22,
     "supporting_resources": 7,
     "linked_versions": 1,
     "metadata_conflicts_need_review": 1

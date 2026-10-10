@@ -21,7 +21,7 @@ def public_data(source):
         providers.append(obj)
     catalog_path = source / 'literature_catalog.json'
     catalog = json.loads(catalog_path.read_text(encoding='utf-8-sig')) if catalog_path.exists() else raw['literature_evolution']
-    papers = [select(r, 'id title year doi journal field catalog_status origins metadata_source bibliographic_status provider_evidence_status classification_basis provider product application data_declaration data_form use_method evidence_url evidence_section fulltext_read fulltext_scope source_confirmed access_status app_collection_confirmed sdk_explicit sensor_mix review_date pdf_downloaded zotero_attachment_verified') for r in catalog['records']]
+    papers = [select(r, 'id title year doi reported_doi journal field catalog_status origins metadata_source publication_type bibliographic_note notes bibliographic_status provider_evidence_status classification_basis provider product application data_declaration data_form use_method evidence_url evidence_section fulltext_read fulltext_scope source_confirmed access_status app_collection_confirmed sdk_explicit sensor_mix review_date pdf_downloaded zotero_attachment_verified') for r in catalog['records']]
     queue_path = source / 'acquisition_queue.json'
     queue = {r['id']: r for r in json.loads(queue_path.read_text(encoding='utf-8-sig'))['records']} if queue_path.exists() else {}
     for paper in papers:
@@ -33,7 +33,17 @@ def public_data(source):
     sources = [select(s, 'id title url type published institution supplier finding confidence limits doi dataset_doi') for s in china['sources']]
     coverage = [select(c, 'institution query status sources next') for c in china['coverage']]
     edges = [select(e, 'from to relation sources') for e in china.get('verified_edges', [])]
-    result = {'as_of': raw['literature_evolution'].get('as_of', '2026-10-10'), 'providers': providers, 'papers': papers, 'china': sources, 'coverage': coverage, 'edges': edges}
+    usage_path = source / 'provider_usage.json'
+    usage_raw = json.loads(usage_path.read_text(encoding='utf-8-sig')) if usage_path.exists() else {}
+    usage = {
+        'providers': [select(r, 'id name region profile_group') for r in usage_raw.get('providers', [])],
+        'associations': [select(r, 'paper_id provider_id provider_name status classification role roles declared_brands evidence_url evidence_section basis catalog_status') for r in usage_raw.get('associations', [])],
+    }
+    paper_ids = {r['id'] for r in papers}
+    provider_ids = {r['id'] for r in usage['providers']}
+    assert all(r['paper_id'] in paper_ids and r['provider_id'] in provider_ids for r in usage['associations']), 'Supplier association references an unknown record'
+    assert len({(r['provider_id'], r['paper_id']) for r in usage['associations']}) == len(usage['associations']), 'Duplicate supplier-paper association'
+    result = {'as_of': raw['literature_evolution'].get('as_of', '2026-10-10'), 'providers': providers, 'provider_usage': usage, 'papers': papers, 'china': sources, 'coverage': coverage, 'edges': edges}
     encoded = json.dumps(result, ensure_ascii=False)
     # Public export must never embed machine-specific paths, access credentials, or emails.
     encoded = re.sub(r'[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}', '[公开联系邮箱省略]', encoded)

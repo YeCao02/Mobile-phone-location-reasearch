@@ -15,7 +15,7 @@ const countLabel=n=>`${n} / ${total} 篇`;
 const count=predicate=>data.papers.filter(predicate).length;
 const unknown=v=>v!==true&&v!==false;
 assert.equal(node('#paper-count').textContent,countLabel(total));
-assert.equal(node('#stat-read').textContent,`${count(r=>r.fulltext_read===true)} 篇全文关键段已读`);
+assert.equal(node('#stat-read').textContent,`${count(r=>r.fulltext_read===true)} 篇正文关键段 / 摘要已读`);
 assert.equal(Number(node('#stat-reviewed').textContent),count(r=>r.catalog_status==='reviewed'));
 function change(id,value){node(id).value=value;node(id).listeners.change()}
 for(const [value,predicate] of [
@@ -63,4 +63,45 @@ assert.equal((node('#paper-list').innerHTML.match(/id="paper-/g)||[]).length,tot
 const numericYears=data.papers.map(r=>String(r.year)).filter(y=>/^\d{4}$/.test(y)).map(Number);
 if(numericYears.length){for(let y=Math.min(...numericYears);y<=Math.max(...numericYears);y++)assert(node('#year-chart').innerHTML.includes(`data-value="${y}"`));}
 assert(!html.includes('EVIDENCE FIRST'));assert(!html.includes('id="scope"'));
-console.log(`PASS: ${total} records visible; all/year/journal/field counts; chart clicks; scope/status/work filters; independent reading/PDF/Zotero flags; search and clear.`);
+
+const usage=data.provider_usage||{providers:[],associations:[]};
+assert.equal(new Set(usage.associations.map(a=>a.provider_id+'|'+a.paper_id)).size,usage.associations.length);
+const ids=new Set(data.papers.map(r=>r.id));
+assert(usage.associations.every(a=>ids.has(a.paper_id)));
+for(const provider of usage.providers){
+ const pairs=usage.associations.filter(a=>a.provider_id===provider.id);
+ let sum=0;
+ for(const status of ['confirmed_use','mention_only','unresolved_candidate']){
+  const expected=new Set(pairs.filter(a=>a.status===status).map(a=>a.paper_id)).size;
+  const actual=vm.runInContext(`supplierPaperIds(${JSON.stringify(provider.id)},${JSON.stringify(status)}).size`,ctx);
+  assert.equal(actual,expected);sum+=actual;
+ }
+ assert.equal(sum,pairs.length);
+}
+if(usage.associations.length){
+ const a=usage.associations[0], args=[a.provider_id,a.status,'all'];
+ const call='associationClick('+args.map(JSON.stringify).join(',')+')';
+ const selected=new Set(usage.associations.filter(x=>x.provider_id===a.provider_id&&x.status===a.status).map(x=>x.paper_id));
+ vm.runInContext(call,ctx);assert.equal(node('#paper-count').textContent,countLabel(selected.size));
+ const paper=data.papers.find(r=>r.id===a.paper_id),journal=paper.journal||'期刊待核验';
+ change('#journal-filter',journal);
+ assert.equal(node('#paper-count').textContent,countLabel(count(r=>selected.has(r.id)&&(r.journal||'期刊待核验')===journal)));
+ vm.runInContext(call,ctx);
+ assert.equal(node('#paper-count').textContent,countLabel(count(r=>(r.journal||'期刊待核验')===journal)));
+ node('#clear').listeners.click();vm.runInContext(call,ctx);node('#clear').listeners.click();
+ assert.equal(node('#paper-count').textContent,countLabel(total));
+ assert.equal(vm.runInContext('associationSelection',ctx),null);
+ for(const role of ['mobility','poi','platform_aggregate','vehicle_gps','distribution','access_contact','comparison_reference','unknown']){
+  const expected=new Set(usage.associations.filter(x=>x.provider_id===a.provider_id&&(x.roles?.length?x.roles:[x.role||'unknown']).includes(role)).map(x=>x.paper_id)).size;
+  assert.equal(vm.runInContext(`supplierPaperIds(${JSON.stringify(a.provider_id)},'all',${JSON.stringify(role)}).size`,ctx),expected);
+ }
+}
+
+const relatedCount=usage.providers.filter(p=>usage.associations.some(a=>a.provider_id===p.id)).length;
+assert.equal((node('#supplier-ranking').innerHTML.match(/data-provider-row-id=/g)||[]).length,relatedCount);
+node('#toggle-zero-suppliers').listeners.click();
+assert.equal((node('#supplier-ranking').innerHTML.match(/data-provider-row-id=/g)||[]).length,usage.providers.length);
+node('#clear').listeners.click();
+for(const r of data.papers.filter(r=>r.publication_type==='conference_abstract'))assert(vm.runInContext(`paper(D.papers.find(r=>r.id===${JSON.stringify(r.id)}))`,ctx).includes('会议摘要'));
+for(const r of data.papers.filter(r=>r.bibliographic_note))assert(vm.runInContext(`paper(D.papers.find(r=>r.id===${JSON.stringify(r.id)}))`,ctx).includes('bibliographic-note'));
+console.log(`PASS: ${total} records visible; all/year/journal/field counts; chart clicks; scope/status/work filters; independent reading/PDF/Zotero flags; supplier exact-ID counts/roles/stack/reset; search and clear.`);
