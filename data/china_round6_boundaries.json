@@ -1,0 +1,302 @@
+{
+  "as_of": "2026-10-10",
+  "count": 8,
+  "records": [
+    {
+      "id": "E6-B01",
+      "title": "Reconstructing human activities via coupling mobile phone data with location-based social networks",
+      "authors": [
+        "Le Huang",
+        "Fan Xia",
+        "Hui Chen",
+        "Bowen Hu",
+        "Xiao Zhou",
+        "Chunxiao Li",
+        "Yaohui Jin",
+        "Yanyan Xu"
+      ],
+      "year": 2023,
+      "journal": "Travel Behaviour and Society",
+      "doi": "10.1016/j.tbs.2023.100606",
+      "publication_type": "journal_article",
+      "institutions": [
+        "Shanghai Jiao Tong University",
+        "Shandong University",
+        "China Unicom Digital Technology Co., Ltd.",
+        "Renmin University of China"
+      ],
+      "provider": "XDR网络来源；中国联通数字科技作者单位不自动等同明确供数声明",
+      "provider_attribution_status": "undisclosed",
+      "supplier_relationship_group": "",
+      "source_confirmed": false,
+      "data_declaration": "原文§3明确为上海2014年1月两周100万匿名用户XDR，记录连接基站坐标，融合东京Foursquare签到和上海POI；属于电信网络定位与签到融合，不是手机SDK轨迹主体。",
+      "evidence_url": "[私人路径已移除]",
+      "evidence_section": "原始期刊版PDF第1页作者单位/DOI；第4页§3数据描述",
+      "access_status": "web_pdf_methods_reviewed",
+      "fulltext_read": true,
+      "app_collection_confirmed": false,
+      "notes": "保留边界，不计商业SDK核心文献；arXiv DOI是预印本标识，正式文章DOI以PDF首页为准。",
+      "volume": "33",
+      "pages": "100606",
+      "application": "活动链推断/人群分群",
+      "product": "电信XDR+Foursquare签到+POI",
+      "candidate_reason": "宽口径LBS检索容易误纳；原文确认后作边界证据",
+      "scope_fit": "excluded_core_telecom_xdr_and_checkin",
+      "existing_catalog_matches": [],
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "R6S_BOUNDARY_SZU",
+      "doi": "10.2196/39588",
+      "title": "Impact of Human Mobility on COVID-19 Transmission According to Mobility Distance, Location, and Demographic Factors in the Greater Bay Area of China: Population-Based Study",
+      "journal": "JMIR Public Health and Surveillance",
+      "year": 2023,
+      "authors": [
+        "Jizhe Xia",
+        "Kun Yin",
+        "Yang Yue",
+        "Qingquan Li",
+        "Xiling Wang",
+        "Dongsheng Hu",
+        "Xiong Wang",
+        "Zhanwei Du",
+        "Ben J Cowling",
+        "Erzhen Chen",
+        "Ying Zhou"
+      ],
+      "metadata_source": "Crossref DOI registration API",
+      "metadata_url": "[私人路径已移除]",
+      "url": "[私人路径已移除]",
+      "catalog_status": "reviewed",
+      "source_confirmed": true,
+      "fulltext_read": true,
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
+      "provider": "中国三大手机服务商之一（未具名）",
+      "provider_claim_status": "carrier_category_confirmed",
+      "evidence": [
+        {
+          "url": "[私人路径已移除]",
+          "section": "Methods > Data Source > Mobility Data From the Greater Bay Area, China",
+          "basis": "数据来自三大主要手机服务商之一；非已证商业 SDK 数据。",
+          "type": "primary_source"
+        }
+      ],
+      "institution_author_map": [],
+      "scope_tag": "carrier_boundary",
+      "institutions": [
+        "深圳大学"
+      ],
+      "team": "Jizhe Xia / 夏吉喆合作团队",
+      "data_form": "2020-01-01 至 02-24 大湾区九市匿名聚合定位 OD；另用百度迁徙指数验证趋势",
+      "application": "疫情流动限制与传播 / 年龄性别及目的地异质性",
+      "field": "健康地理",
+      "notes": "PDF 链接返回非 PDF，因此 downloaded=false。基金与逐人机构未在本轮逐条录入。百度迁徙只是附加验证，不能替代主数据来源。"
+    },
+    {
+      "id": "R6S_BOUNDARY_SCU",
+      "doi": "10.3389/fdata.2022.705698",
+      "title": "Research on Spatial-temporal Spread and Risk Profile of the COVID-19 Epidemic Based on Mobile Phone Trajectory Data",
+      "journal": "Frontiers in Big Data",
+      "year": 2022,
+      "authors": [
+        "Qi Zuo",
+        "Jiaman Du",
+        "Baofeng Di",
+        "Junrong Zhou",
+        "Lixia Zhang",
+        "Hongxia Liu",
+        "Xiaoyu Hou"
+      ],
+      "metadata_source": "Crossref DOI registration API",
+      "metadata_url": "[私人路径已移除]",
+      "url": "[私人路径已移除]",
+      "catalog_status": "reviewed",
+      "source_confirmed": true,
+      "fulltext_read": true,
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
+      "provider": "未具名运营商框架；不得认定真实购买具体供方数据",
+      "provider_claim_status": "technology_boundary_confirmed",
+      "evidence": [
+        {
+          "url": "[私人路径已移除]",
+          "section": "Methods > The Research Data / Method to Generate the Population Activities / Model Structure",
+          "basis": "明确基站覆盖参数、通信信令和模拟人口轨迹；不能写成实际拿到1600万人商业轨迹。",
+          "type": "primary_source"
+        }
+      ],
+      "institution_author_map": [
+        {
+          "institution": "Institute for Disaster Management and Reconstruction, Sichuan University",
+          "authors": [
+            "Qi Zuo",
+            "Baofeng Di"
+          ],
+          "evidence_section": "Publisher PDF first page"
+        },
+        {
+          "institution": "School of International Studies, Sichuan University",
+          "authors": [
+            "Jiaman Du"
+          ],
+          "evidence_section": "Publisher PDF first page"
+        },
+        {
+          "institution": "West China Hospital, Sichuan University",
+          "authors": [
+            "Hongxia Liu"
+          ],
+          "evidence_section": "Publisher PDF first page"
+        }
+      ],
+      "scope_tag": "carrier_signaling_simulation_boundary",
+      "institutions": [
+        "四川大学",
+        "四川大学华西医院"
+      ],
+      "team": "Qi Zuo / Baofeng Di 合作团队",
+      "data_form": "基站工程参数与通信信令的轨迹模拟；实际研究数据包括疫情社区公开资料及10名病例问卷",
+      "application": "疫情风险时空碰撞与模拟",
+      "field": "灾害管理与健康地理"
+    },
+    {
+      "id": "R6S_BOUNDARY_YANG2020",
+      "doi": "10.1177/2399808320924433",
+      "title": "Understanding commuting patterns and changes: Counterfactual analysis in a planning support framework",
+      "journal": "Environment and Planning B: Urban Analytics and City Science",
+      "year": 2020,
+      "authors": [
+        "Tianren Yang"
+      ],
+      "metadata_source": "Crossref DOI registration API",
+      "metadata_url": "[私人路径已移除]",
+      "url": "[私人路径已移除]",
+      "catalog_status": "reviewed",
+      "source_confirmed": true,
+      "fulltext_read": true,
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
+      "provider": "未具名基站数据来源",
+      "provider_claim_status": "technology_boundary_confirmed",
+      "evidence": [
+        {
+          "url": "[私人路径已移除]",
+          "section": "Case study data; PDF p.7",
+          "basis": "昼夜累计停留最多的 cell towers 被用作住地/工作地；技术明确基站，非 SDK 核心。",
+          "type": "primary_source"
+        }
+      ],
+      "institution_author_map": [
+        {
+          "institution": "University of Cambridge; Tongji University",
+          "authors": [
+            "Tianren Yang"
+          ],
+          "evidence_section": "PDF p.1"
+        }
+      ],
+      "scope_tag": "cell_tower_location_boundary",
+      "institutions": [
+        "University of Cambridge",
+        "同济大学"
+      ],
+      "team": "Tianren Yang / 杨天人",
+      "data_form": "上海2011与2014两期手机基站定位，通过昼夜访问小时识别住地/工作地",
+      "application": "通勤变化 / 土地利用交通规划反事实模拟",
+      "field": "交通地理与城市规划",
+      "notes": "HKU 机构库存储不等于论文发表时归属 HKU。此篇发表机构为剑桥/同济，不据此判断后来团队的 Jike 数据。机构库 PDF 经网页全文读取但未下载本地。"
+    },
+    {
+      "id": "R6N-BOUNDARY-01",
+      "title": "Profiling Residents’ Mobility with Grid-Aggregated Mobile Phone Trace Data Using Chengdu as the Case",
+      "year": 2021,
+      "journal": "Sustainability",
+      "doi": "10.3390/su132413713",
+      "authors": [
+        "Xuesong Gao",
+        "Hui Wang",
+        "Lun Liu"
+      ],
+      "institutions": [
+        "四川农业大学",
+        "清华大学建筑学院",
+        "北京大学政府管理学院"
+      ],
+      "provider": "中国联通",
+      "scope_tag": "excluded_carrier_signaling_aggregate",
+      "evidence_url": "[私人路径已移除]",
+      "evidence": "§3.1及引言明确中国联通2017年4月12–18日网格聚合手机轨迹；不纳SDK核心。",
+      "funding": [
+        "52008005",
+        "Tsinghua-Toyota Joint Research Institute Cross-discipline Program"
+      ]
+    },
+    {
+      "id": "R6N-BOUNDARY-02",
+      "title": "Validating Activity-Based Travel Demand Models Using Mobile Phone Data",
+      "year": 2018,
+      "journal": "Mobile Computing – Technology and Applications（书章）",
+      "doi": "10.5772/intechopen.75810",
+      "authors": [
+        "Feng Liu",
+        "Ziyou Gao",
+        "Bin Jia",
+        "Xuedong Yan",
+        "Davy Janssens",
+        "Geert Wets"
+      ],
+      "institutions": [
+        "北京交通大学",
+        "Hasselt University"
+      ],
+      "scope_tag": "excluded_cdr_cell_id",
+      "evidence_url": "[私人路径已移除]",
+      "evidence": "§2明确科特迪瓦语音/短信通话事件、cell ID位置；不是SDK。"
+    },
+    {
+      "id": "R6N-BOUNDARY-03",
+      "title": "大数据城市通勤交通模型的构建与模拟应用",
+      "year": 2021,
+      "journal": "地球信息科学学报",
+      "doi": "",
+      "authors": [
+        "刘云舒",
+        "赵鹏军",
+        "吕迪"
+      ],
+      "institutions": [
+        "北京大学深圳研究生院",
+        "北京大学城市与环境学院"
+      ],
+      "scope_tag": "excluded_explicit_mobile_signaling_unnamed_operator",
+      "evidence_url": "[私人路径已移除]",
+      "evidence": "原刊摘要明确某运营商2017年9月手机信令。运营商未点名，但信令类型已明确，因此作边界。",
+      "funding": [
+        "41925003"
+      ]
+    },
+    {
+      "id": "R6N-BOUNDARY-04",
+      "title": "Understanding individual and collective human mobility patterns in twelve crowding events occurred in Shenzhen",
+      "year": 2022,
+      "journal": "Sustainable Cities and Society",
+      "doi": "",
+      "authors": [
+        "Bao Guo",
+        "Hu Yang",
+        "Hui Zhou",
+        "Zhiren Huang",
+        "Fan Zhang",
+        "Longwen Xiao",
+        "Pu Wang"
+      ],
+      "institution": "中南大学交通运输工程学院 / Aalto / 深圳先进院",
+      "scope_tag": "excluded_smartcard_not_phone",
+      "evidence_url": "[私人路径已移除]",
+      "evidence": "作者机构库摘要明确使用600万地铁乘客智能卡记录，不能以human mobility推定手机。",
+      "bibliographic_note": "期刊和文章号103856见作者机构稿；本轮未取得独立DOI元数据核验，DOI留空。"
+    }
+  ],
+  "scope": "电信信令/CDR/XDR、基站、智能卡或模拟等边界证据，不计新增SDK核心论文"
+}

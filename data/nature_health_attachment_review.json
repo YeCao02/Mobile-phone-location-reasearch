@@ -1,0 +1,32 @@
+{
+  "as_of": "2026-10-10",
+  "paper_id": "L21",
+  "title": "Mobile phone data show spatial and socioeconomic inequalities in hospital utilization",
+  "doi": "10.1038/s44360-026-00100-6",
+  "journal": "Nature Health",
+  "main_pages": 13,
+  "supplement_pages": 25,
+  "main_evidence": [
+    {
+      "page": 6,
+      "section": "Methods / Data",
+      "finding": "Moxing Beijing及App GPS来源"
+    },
+    {
+      "page": 9,
+      "section": "Ethics / Data availability",
+      "finding": "Moxing Beijing；pioneerdata.com.cn联系域名；服务商执行代码返回聚合结果"
+    }
+  ],
+  "supplement_evidence": [
+    {
+      "pages": [
+        3,
+        4
+      ],
+      "section": "Supplementary Fig. 1–2",
+      "finding": "GPS就医行为识别流程及深圳外部验证；该25页附件索引文本未出现Moxing/Pioneer名称"
+    }
+  ],
+  "scope": "Zotero本地已索引正文与补充材料关键段复核，不发布全文、附件键或本地路径"
+}

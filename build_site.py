@@ -38,8 +38,20 @@ def public_data(source):
     for item in china.get('research_groups', []):
         if not active(item):
             continue
-        group = select(item, 'id title institution team summary source_ids supplier_names verbatim_statement statement_source statement_url')
-        group['outputs'] = [select(r, 'id type title year url catalog_id doi reported_doi provider data_statement verbatim_statement bibliographic_note source_ids') for r in item.get('outputs', [])]
+        group = select(item, 'id title institution institution_id team collaborators summary source_ids supplier_names verbatim_statement statement_source statement_url')
+        output_keys = 'id type title year journal url catalog_id doi reported_doi provider data_statement verbatim_statement bibliographic_note source_ids'
+        group['outputs'] = [select(r, output_keys) for r in item.get('outputs', [])]
+        group['studies'] = []
+        for study in item.get('studies', []):
+            row = select(study, 'id title summary source_ids verbatim_statement statement_url')
+            row['outputs'] = [select(r, output_keys) for r in study.get('outputs', [])]
+            group['studies'].append(row)
+        for kind in ['procurements', 'grants']:
+            group[kind] = []
+            for activity in item.get(kind, []):
+                row = select(activity, 'id title summary status grant_number source_ids')
+                row['items'] = [select(r, 'title date summary source_ids') for r in activity.get('items', [])]
+                group[kind].append(row)
         group['relationships'] = [select(r, 'from to relation evidence statement source_ids url') if isinstance(r, dict) else r for r in item.get('relationships', [])]
         research_groups.append(group)
     assert len({r['id'] for r in research_groups}) == len(research_groups), 'Duplicate research group ID'

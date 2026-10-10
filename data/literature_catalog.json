@@ -1131,7 +1131,7 @@
       "sdk_explicit": false,
       "sensor_mix": "论文未提供逐点定位源审计；不能证明绝无蜂窝辅助定位",
       "review_date": "2026-10-10",
-      "notes": "2026-04-24发表，Nature Health 1:760–769。Moxing与先锋的法律实体关系待工商核证；NSFC 42171400、42471496。正文访问联系 [公开联系方式略]。",
+      "notes": "2026-04-24发表，Nature Health 1:760–769。Moxing与先锋的法律实体关系待工商核证；NSFC 42171400、42471496。正文访问联系 [公开联系方式略]。；2026-10-10本轮核对Zotero正文13页及补充材料25页：供方Moxing与Pioneer联系域名位于正文第6/9页，补充图1–2支持GPS识别流程和验证。供应商组按用户确认合并。",
       "pdf_downloaded": true,
       "zotero_attachment_verified": true,
       "pdf_evidence_pages": [
@@ -1143,6 +1143,8 @@
       "supplement_review_scope": "已核对补充PDF首页标题与DOI、目录；未逐页审读全部图表。",
       "journal": "Nature Health",
       "field": "健康与公共卫生",
+      "supplement_fulltext_read": true,
+      "supplement_evidence": "Zotero Supplementary Information 25页，Supplementary Fig.1–2（第3–4页）GPS就医识别与验证关键段已核",
       "catalog_status": "reviewed",
       "origins": [
         "2026-10-10审读台账",
@@ -1931,6 +1933,1087 @@
       "field_tags": [
         "交通与出行行为",
         "城市社会地理"
+      ],
+      "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
+      "download_queue_status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ]
+    },
+    {
+      "id": "L33",
+      "title": "大城市“空间结构-交通模式”的耦合关系研究——对厦门市的多情景模拟分析和讨论",
+      "authors": [
+        "黄建中",
+        "胡刚钰",
+        "赵民",
+        "李峰清",
+        "沈畅",
+        "许晔丹"
+      ],
+      "year": 2017,
+      "journal": "城市规划学刊",
+      "doi": "10.16361/j.upf.201706005",
+      "publication_type": "journal_article",
+      "institutions": [
+        "同济大学建筑与城市规划学院",
+        "上海同济城市规划设计研究院"
+      ],
+      "provider": "未具名；供应商待追查",
+      "provider_attribution_status": "undisclosed",
+      "supplier_relationship_group": "",
+      "source_confirmed": false,
+      "data_declaration": "§3.2使用厦门2016年6月13–26日GPS嵌入式LBS的全天全目的与职住OD；末页注释②明确App调用位置后向后台SDK周期报送GPS，另有登录、搜索、消息和推送事件触发。经过脱敏ID、时间戳、坐标及跨月历史识别职住。",
+      "evidence_url": "[私人路径已移除]",
+      "evidence_section": "§3.2；PDF第10页注释②；首页题录/作者单位/基金",
+      "access_status": "local_pdf_methods_verified",
+      "fulltext_read": true,
+      "app_collection_confirmed": true,
+      "notes": "供应商名称未披露。SDK/GPS可确认，未把作者的软件公司单位当数据供方。2017年李峰清原文单位为同济大学；其后上海大学任职仅用于团队演进。",
+      "volume": "",
+      "issue": "6",
+      "pages": "33–42",
+      "application": "城市空间结构/交通模式/职住平衡/多情景模拟",
+      "product": "厦门App/SDK GPS轨迹及OD、职住画像",
+      "use_method": "结合居民出行调查校核交通特征，比较空间结构与交通方式情景",
+      "candidate_reason": "原始论文明确SDK和GPS链路；同济李峰清早期研究，可追踪至其后上海大学/URA工作，但本文早于URA不能归为URA产出",
+      "funds": [
+        {
+          "id": "51578382",
+          "title": "应对“大城市病”的空间绩效理论建构及规划方法研究"
+        },
+        {
+          "id": "KY-2016-YB-07",
+          "title": "基于交通情景模拟的大城市“空间结构-交通模式”耦合与优化研究"
+        }
+      ],
+      "scope_fit": "core_sdk_gps_supplier_unknown",
+      "publisher_metadata_verified": true,
+      "existing_catalog_matches": [],
+      "verified_on": "2026-10-10",
+      "round6_source_id": "E6-01",
+      "curated_evidence": true,
+      "catalog_status": "reviewed",
+      "data_form": "厦门App/SDK GPS轨迹及OD、职住画像",
+      "fulltext_scope": "数据/方法关键段已审读，非逐句全文或全部附件通读",
+      "sdk_explicit": true,
+      "sensor_mix": "传感器组成未逐点核实，不能排除蜂窝辅助或信令融合",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false,
+      "scope_tag": "core_sdk_gps_supplier_unknown",
+      "provider_evidence_status": "undisclosed",
+      "legacy_provider_claims": [],
+      "review_date": "2026-10-10",
+      "pdf_source_url": "[私人路径已移除]",
+      "pdf_sha256": "138eadf6ca29b0211f978a44b2cce90a3a9563a339775c7931b11ff3f6e632ba",
+      "pdf_pages": 10,
+      "human_gps_explicit": true,
+      "origins": [
+        "2026-10-10审读台账"
+      ],
+      "metadata_source": "出版方原文与PDF核验；DOI状态单独标示",
+      "versions": [],
+      "bibliographic_status": "publisher_metadata_verified",
+      "publication_title_as_recorded": "城市规划学刊",
+      "journal_family": "",
+      "field": "交通与出行行为",
+      "field_tags": [
+        "交通与出行行为"
+      ],
+      "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
+      "download_queue_status": [
+        "current_review_complete"
+      ]
+    },
+    {
+      "id": "L34",
+      "title": "空间需求订制的“产城融合”规划——以上海临港新城为例",
+      "authors": [
+        "周凌",
+        "李峰清",
+        "黄璜"
+      ],
+      "year": 2024,
+      "journal": "城市规划学刊",
+      "doi": "10.16361/j.upf.202403014",
+      "publication_type": "journal_article",
+      "institutions": [
+        "上海大学上海城市更新与可持续发展研究院",
+        "同济大学建筑与城市规划学院",
+        "临港集团规划设计部"
+      ],
+      "provider": "未具名；供应商待追查",
+      "provider_attribution_status": "undisclosed",
+      "supplier_relationship_group": "",
+      "source_confirmed": false,
+      "data_declaration": "§4.1.2基于2020年手机LBS获得6.83万去重通勤样本，分析内部及外部联系；表1收入分组与后续通勤图使用LBS画像，人口年龄/教育/住房来自普查。原文未找到供方或GPS/WiFi/SDK采集声明。",
+      "evidence_url": "[私人路径已移除]",
+      "evidence_section": "PDF第5页§4.1.2与表1、后续通勤OD图；首页作者单位/基金",
+      "access_status": "local_pdf_methods_verified",
+      "fulltext_read": true,
+      "app_collection_confirmed": false,
+      "notes": "题名、作者黄璜、2024年第3期及DOI以原始PDF为准。基金仅证明项目署名，不证明基金采购了特定供应商数据。",
+      "issue": "3",
+      "volume": "",
+      "pages": "109–118",
+      "application": "产城融合/职住通勤/社会经济画像/精细规划",
+      "product": "2020年临港手机LBS通勤OD与收入画像",
+      "use_method": "普查、LBS画像与访谈结合，按空间板块识别差异化需求",
+      "candidate_reason": "同一李峰清团队，职住和收入画像与L27数据形式同类，优先追供方；不能因同团队或客户名单推定本文供方",
+      "funds": [
+        {
+          "id": "52278069",
+          "title": "流形互动视角下大都市跨界活动的空间影响及机理研究"
+        },
+        {
+          "id": "52208075",
+          "title": "基于多层网络的城乡交接地区乡村聚落空间组织特征及机制研究"
+        },
+        {
+          "id": "23SG36",
+          "title": "人民城市理念下开放式大学设计机制研究"
+        },
+        {
+          "id": "21PJC113",
+          "title": "长江三角洲地区“城乡融合”发展的空间机理研究"
+        }
+      ],
+      "scope_fit": "lbs_same_form_supplier_and_collection_pending",
+      "publisher_metadata_verified": true,
+      "existing_catalog_matches": [],
+      "verified_on": "2026-10-10",
+      "round6_source_id": "E6-02",
+      "curated_evidence": true,
+      "catalog_status": "reviewed",
+      "data_form": "2020年临港手机LBS通勤OD与收入画像",
+      "fulltext_scope": "数据/方法关键段已审读，非逐句全文或全部附件通读",
+      "sdk_explicit": false,
+      "sensor_mix": "传感器组成未逐点核实，不能排除蜂窝辅助或信令融合",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false,
+      "scope_tag": "lbs_same_form_supplier_and_collection_pending",
+      "provider_evidence_status": "undisclosed",
+      "legacy_provider_claims": [],
+      "review_date": "2026-10-10",
+      "pdf_source_url": "[私人路径已移除]",
+      "pdf_sha256": "1099836a09f67ea3139a2fe6e0e7512c69197d31f19371518e7b88b2bf5b7f02",
+      "pdf_pages": 10,
+      "origins": [
+        "2026-10-10审读台账"
+      ],
+      "metadata_source": "出版方原文与PDF核验；DOI状态单独标示",
+      "versions": [],
+      "bibliographic_status": "publisher_metadata_verified",
+      "publication_title_as_recorded": "城市规划学刊",
+      "journal_family": "",
+      "field": "经济与商业地理",
+      "field_tags": [
+        "经济与商业地理",
+        "城市规划与服务可达性"
+      ],
+      "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
+      "download_queue_status": [
+        "current_review_complete"
+      ]
+    },
+    {
+      "id": "L35",
+      "title": "The Spillover Effect of Driving Restrictions on Intercity Travel",
+      "authors": [
+        "Wenbo Li"
+      ],
+      "year": 2026,
+      "journal": "Journal of Regional Science",
+      "doi": "10.1111/jors.70043",
+      "publication_type": "journal_article",
+      "institutions": [
+        "Tianjin University, Ma Yinchu School of Economics"
+      ],
+      "provider": "未具名；供应商待追查",
+      "provider_attribution_status": "undisclosed",
+      "supplier_relationship_group": "",
+      "source_confirmed": false,
+      "data_declaration": "出版商摘要明确使用未具名smartphone LBS provider提供的高频城际出行数据，研究2020–2023年六个相邻省级区域42城限行。摘要未披露企业名、GPS/WiFi/SDK或是否融合信令。",
+      "evidence_url": "[私人路径已移除]",
+      "evidence_section": "出版商摘要、作者单位、Data Availability Statement；非正文方法审读",
+      "access_status": "publisher_abstract_and_data_statement_read",
+      "fulltext_read": false,
+      "app_collection_confirmed": false,
+      "notes": "出版商页面可读摘要和数据声明，但点击全文仍未提供方法正文；保持供应商与采集流程待核。",
+      "volume": "66",
+      "issue": "3",
+      "pages": "813–829",
+      "published_online": "2025-12-22",
+      "application": "环境政策/限行/城际出行/空间外溢",
+      "product": "未具名智能手机LBS供方高频城际流量",
+      "use_method": "引力模型中的双向固定效应，识别限行外溢",
+      "candidate_reason": "明确商业LBS供方但未具名，值得优先下载正文追源，不能将provider自动判定为SDK",
+      "data_links": [
+        {
+          "doi": "10.17632/34r56jktx7.4",
+          "url": "[私人路径已移除]",
+          "description": "作者公开Stata分析样本、构建样本和图表代码；CC BY 4.0；不等于公开原始逐人GPS轨迹"
+        }
+      ],
+      "related_work": [
+        {
+          "title": "The Effect of Driving Restrictions on Intercity Travels: Evidence from China",
+          "year": 2022,
+          "url": "[私人路径已移除]",
+          "note": "天津大学会议报告：2020–2021四省49城；疑为前身，不另计独立论文或同一数据版本"
+        }
+      ],
+      "scope_fit": "smartphone_lbs_provider_unknown_collection_pending",
+      "publisher_metadata_verified": true,
+      "existing_catalog_matches": [],
+      "verified_on": "2026-10-10",
+      "round6_source_id": "E6-03",
+      "curated_evidence": true,
+      "catalog_status": "pending",
+      "data_form": "未具名智能手机LBS供方高频城际流量",
+      "fulltext_scope": "本轮仅核原始题录/摘要/索引片段，尚未审读方法全文",
+      "sdk_explicit": false,
+      "sensor_mix": "传感器组成未逐点核实，不能排除蜂窝辅助或信令融合",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
+      "scope_tag": "smartphone_lbs_provider_unknown_collection_pending",
+      "provider_evidence_status": "undisclosed",
+      "legacy_provider_claims": [],
+      "review_date": "2026-10-10",
+      "origins": [
+        "2026-10-10审读台账"
+      ],
+      "metadata_source": "出版方原文与PDF核验；DOI状态单独标示",
+      "versions": [],
+      "bibliographic_status": "publisher_metadata_verified",
+      "publication_title_as_recorded": "Journal of Regional Science",
+      "journal_family": "",
+      "field": "交通与出行行为",
+      "field_tags": [
+        "交通与出行行为"
+      ],
+      "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
+      "download_queue_status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ]
+    },
+    {
+      "id": "L36",
+      "doi": "10.3390/ijgi14080302",
+      "title": "Predicting the Next Location of Urban Individuals via a Representation-Enhanced Multi-View Learning Network",
+      "journal": "ISPRS International Journal of Geo-Information",
+      "year": 2025,
+      "authors": [
+        "Maoqi Lun",
+        "Peixiao Wang",
+        "Sheng Wu",
+        "Hengcai Zhang",
+        "Shifen Cheng",
+        "Feng Lu"
+      ],
+      "metadata_source": "2026-10-10审读台账（元数据待核）",
+      "metadata_url": "[私人路径已移除]",
+      "url": "[私人路径已移除]",
+      "catalog_status": "reviewed",
+      "source_confirmed": false,
+      "fulltext_read": true,
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false,
+      "provider": "未具名位置服务公司",
+      "provider_claim_status": "company_type_confirmed_name_undisclosed",
+      "evidence": [
+        {
+          "url": "[私人路径已移除]",
+          "section": "5.1 Study Area and Data; PDF pp.13–14",
+          "basis": "公司提供手机 GNSS 定位记录，筛选并构建个体轨迹。",
+          "type": "primary_source"
+        },
+        {
+          "url": "[私人路径已移除]",
+          "section": "Funding and Data Availability Statement; PDF p.25",
+          "basis": "基金 2023YFB3906804；公开代码和数据仓库 DOI 10.6084/m9.figshare.28806515（仓库内容本轮未打开验证）。",
+          "type": "primary_source"
+        }
+      ],
+      "institution_author_map": [
+        {
+          "institution": "The Academy of Digital China (Fujian), Fuzhou University",
+          "authors": [
+            "Maoqi Lun",
+            "Sheng Wu"
+          ],
+          "evidence_section": "PDF p.1 affiliation 1; Sheng Wu corresponding author"
+        },
+        {
+          "institution": "Institute of Geographic Sciences and Natural Resources Research, CAS; University of Chinese Academy of Sciences",
+          "authors": [
+            "Peixiao Wang",
+            "Hengcai Zhang",
+            "Shifen Cheng",
+            "Feng Lu"
+          ],
+          "evidence_section": "PDF p.1 affiliations 2 and 3"
+        }
+      ],
+      "scope_tag": "commercial_phone_gnss_sdk_undisclosed",
+      "data_form": "匿名手机 GNSS 个体轨迹；福州 2023-03；用户ID、时间戳、经纬度",
+      "data_technology": "GNSS 明确；SDK 与 WiFi 未在该数据段明确",
+      "application": "下一位置预测 / 轨迹语义表征",
+      "field": "计算方法与数据基础设施",
+      "team": "福州大学吴升团队；中科院地理资源所陆锋等合作",
+      "institutions": [
+        "福州大学",
+        "中国科学院地理科学与资源研究所",
+        "中国科学院大学"
+      ],
+      "funding": [
+        "National Key Research and Development Program of China 2023YFB3906804"
+      ],
+      "data_repository": "[私人路径已移除]",
+      "notes": "原文只写一家位置服务公司，不能归入先锋/及刻。1500 人抽样后形成 1208 人有效轨迹；SDK 来源仍须补核。 已确认商业公司手机GNSS数据这一来源类别，但source_confirmed不表示已确认具名供应商。",
+      "pdf_validation": {
+        "url": "[私人路径已移除]",
+        "pages": 28,
+        "bytes": 4745266,
+        "sha256": "2cd37ce2277d61c86b1c7e4fdc5628b67c0370055d42ef6f4d3b3995449df9e7"
+      },
+      "round6_source_id": "R6S_FZU_GNSS",
+      "curated_evidence": true,
+      "evidence_url": "[私人路径已移除]",
+      "evidence_section": "5.1 Study Area and Data; PDF pp.13–14",
+      "data_declaration": "公司提供手机 GNSS 定位记录，筛选并构建个体轨迹。；基金 2023YFB3906804；公开代码和数据仓库 DOI 10.6084/m9.figshare.28806515（仓库内容本轮未打开验证）。",
+      "product": "匿名手机 GNSS 个体轨迹；福州 2023-03；用户ID、时间戳、经纬度",
+      "use_method": "下一位置预测 / 轨迹语义表征；方法关键段已核",
+      "fulltext_scope": "数据/方法关键段已审读，非逐句全文或全部附件通读",
+      "app_collection_confirmed": false,
+      "sdk_explicit": false,
+      "sensor_mix": "GNSS 明确；SDK 与 WiFi 未在该数据段明确",
+      "access_status": "local_pdf_methods_verified",
+      "provider_evidence_status": "company_type_confirmed_name_undisclosed",
+      "legacy_provider_claims": [],
+      "publication_type": "journal_article",
+      "review_date": "2026-10-10",
+      "human_gps_explicit": true,
+      "pdf_source_url": "[私人路径已移除]",
+      "pdf_sha256": "2cd37ce2277d61c86b1c7e4fdc5628b67c0370055d42ef6f4d3b3995449df9e7",
+      "pdf_pages": 28,
+      "origins": [
+        "2026-10-10审读台账"
+      ],
+      "versions": [],
+      "bibliographic_status": "inherited_metadata_pending",
+      "publication_title_as_recorded": "ISPRS International Journal of Geo-Information",
+      "journal_family": "",
+      "field_tags": [
+        "计算方法与数据基础设施"
+      ],
+      "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
+      "download_queue_status": [
+        "current_review_complete"
+      ]
+    },
+    {
+      "id": "L37",
+      "doi": "10.5194/nhess-19-2169-2019",
+      "title": "Anomalies of dwellers’ collective geotagged behaviors in response to rainstorms: a case study of eight cities in China using smartphone location data",
+      "journal": "Natural Hazards and Earth System Sciences",
+      "year": 2019,
+      "authors": [
+        "Jiawei Yi",
+        "Yunyan Du",
+        "Fuyuan Liang",
+        "Tao Pei",
+        "Ting Ma",
+        "Chenghu Zhou"
+      ],
+      "metadata_source": "2026-10-10审读台账（元数据待核）",
+      "url": "[私人路径已移除]",
+      "catalog_status": "reviewed",
+      "source_confirmed": true,
+      "fulltext_read": true,
+      "zotero_attachment_verified": false,
+      "provider": "Tencent / 腾讯",
+      "provider_claim_status": "confirmed_use",
+      "scope_tag": "app_api_location_request_aggregate",
+      "data_form": "腾讯地图 API 位置请求次数；0.01° 网格，每 4–5 分钟；2017-08 八城市",
+      "data_technology": "App LBS API 明确；本文数据段未说明每次请求 GPS/WiFi/基站配比",
+      "application": "暴雨与洪涝响应 / 集体活动异常检测",
+      "field": "计算方法与数据基础设施",
+      "team": "中科院地理资源所杜云艳团队",
+      "institutions": [
+        "中国科学院地理科学与资源研究所",
+        "中国科学院大学",
+        "Western Illinois University"
+      ],
+      "institution_author_map": [
+        {
+          "institution": "Institute of Geographic Sciences and Natural Resources Research, CAS; University of Chinese Academy of Sciences",
+          "authors": [
+            "Jiawei Yi",
+            "Yunyan Du",
+            "Tao Pei",
+            "Ting Ma",
+            "Chenghu Zhou"
+          ],
+          "evidence_section": "PDF p.1 affiliations 1 and 2; Yunyan Du corresponding author"
+        },
+        {
+          "institution": "Western Illinois University",
+          "authors": [
+            "Fuyuan Liang"
+          ],
+          "evidence_section": "PDF p.1 affiliation 3"
+        }
+      ],
+      "funding": [
+        "National Key R&D 2017YFB0503605",
+        "National Key R&D 2017YFC1503003",
+        "NSFC 41901395",
+        "CAS Strategic Priority Research Program XDA19040501"
+      ],
+      "evidence": [
+        {
+          "url": "[私人路径已移除]",
+          "section": "2.2 Data collection; PDF pp.2–3",
+          "basis": "数据来自 heat.qq.com，由腾讯地图 API 的 App LBS 请求形成，发布网格请求次数；研究并未获得可追踪用户的个体轨迹。",
+          "type": "primary_source"
+        },
+        {
+          "url": "[私人路径已移除]",
+          "section": "Financial support; PDF pp.12–13",
+          "basis": "四项基金编号由正文核验。",
+          "type": "primary_source"
+        }
+      ],
+      "notes": "2019 讨论稿 DOI 10.5194/nhess-2019-136 为同一研究版本，不另计篇数；位置请求不等于独立用户人数。",
+      "pdf_downloaded": true,
+      "pdf_validation": {
+        "url": "[私人路径已移除]",
+        "pages": 14,
+        "bytes": 11140342,
+        "sha256": "5b1c6552002fd27833ffa7af1699561b2f4b9d3c6511ddb37c4232fdb2347c69"
+      },
+      "round6_source_id": "R6S_CAS_TENCENT",
+      "curated_evidence": true,
+      "evidence_url": "[私人路径已移除]",
+      "evidence_section": "2.2 Data collection; PDF pp.2–3",
+      "data_declaration": "数据来自 heat.qq.com，由腾讯地图 API 的 App LBS 请求形成，发布网格请求次数；研究并未获得可追踪用户的个体轨迹。；四项基金编号由正文核验。",
+      "product": "腾讯地图 API 位置请求次数；0.01° 网格，每 4–5 分钟；2017-08 八城市",
+      "use_method": "暴雨与洪涝响应 / 集体活动异常检测；方法关键段已核",
+      "fulltext_scope": "数据/方法关键段已审读，非逐句全文或全部附件通读",
+      "app_collection_confirmed": true,
+      "sdk_explicit": false,
+      "sensor_mix": "App LBS API 明确；本文数据段未说明每次请求 GPS/WiFi/基站配比",
+      "access_status": "local_pdf_methods_verified",
+      "provider_evidence_status": "confirmed_use",
+      "legacy_provider_claims": [],
+      "publication_type": "journal_article",
+      "review_date": "2026-10-10",
+      "pdf_source_url": "[私人路径已移除]",
+      "pdf_sha256": "5b1c6552002fd27833ffa7af1699561b2f4b9d3c6511ddb37c4232fdb2347c69",
+      "pdf_pages": 14,
+      "origins": [
+        "2026-10-10审读台账"
+      ],
+      "versions": [],
+      "bibliographic_status": "inherited_metadata_pending",
+      "publication_title_as_recorded": "Natural Hazards and Earth System Sciences",
+      "journal_family": "",
+      "field_tags": [
+        "计算方法与数据基础设施"
+      ],
+      "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
+      "download_queue_status": [
+        "current_review_complete"
+      ]
+    },
+    {
+      "id": "L38",
+      "doi": "10.1016/j.jretconser.2026.104766",
+      "title": "Digital visibility, physical obscurity: Uncovering the location strategies of ghost kitchens in platform urbanism",
+      "journal": "Journal of Retailing and Consumer Services",
+      "year": 2026,
+      "authors": [
+        "Weipeng Deng",
+        "Yihong Tang",
+        "Yaxin Liu",
+        "Tianren Yang"
+      ],
+      "metadata_source": "2026-10-10审读台账（元数据待核）",
+      "metadata_url": "[私人路径已移除]",
+      "url": "[私人路径已移除]",
+      "catalog_status": "pending",
+      "source_confirmed": false,
+      "fulltext_read": false,
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
+      "provider": "Baidu Huiyan / 百度慧眼（待全文复核）",
+      "provider_claim_status": "publisher_indexed_method_candidate",
+      "evidence": [
+        {
+          "url": "[私人路径已移除]",
+          "section": "Publisher-indexed method snippet; direct fulltext 403",
+          "basis": "搜索索引的出版社页面明确 Baidu Huiyan 与 100 m resident/working population，但本轮全文访问失败，保守保留待核。",
+          "type": "primary_source"
+        }
+      ],
+      "institution_author_map": [],
+      "scope_tag": "lbs_population_aggregate_candidate",
+      "institutions": [
+        "The University of Hong Kong（团队归属；本篇作者逐人机构待核）"
+      ],
+      "team": "Tianren Yang / 杨天人合作团队",
+      "data_form": "出版社检索索引方法片段：100 m 居住/工作人口网格指标；高德为其他城市功能 POI",
+      "application": "幽灵厨房选址 / 平台城市商业地理",
+      "field": "地理与时空行为（待细分）",
+      "data_technology": "LBS 聚合人口；未证明 SDK 个体轨迹",
+      "notes": "作者与精确题名 DOI 期刊经 Crossref 确认。不据此否定或证明杨天人团队的 Jike 采购。",
+      "round6_source_id": "R6S_HKU_GHOST",
+      "curated_evidence": true,
+      "evidence_url": "[私人路径已移除]",
+      "evidence_section": "Publisher-indexed method snippet; direct fulltext 403",
+      "data_declaration": "搜索索引的出版社页面明确 Baidu Huiyan 与 100 m resident/working population，但本轮全文访问失败，保守保留待核。",
+      "product": "出版社检索索引方法片段：100 m 居住/工作人口网格指标；高德为其他城市功能 POI",
+      "use_method": "幽灵厨房选址 / 平台城市商业地理；具体方法待原文核对",
+      "fulltext_scope": "本轮仅核原始题录/摘要/索引片段，尚未审读方法全文",
+      "app_collection_confirmed": false,
+      "sdk_explicit": false,
+      "sensor_mix": "LBS 聚合人口；未证明 SDK 个体轨迹",
+      "access_status": "metadata_or_abstract_read_fulltext_pending",
+      "provider_evidence_status": "publisher_indexed_method_candidate",
+      "legacy_provider_claims": [],
+      "publication_type": "journal_article",
+      "review_date": "2026-10-10",
+      "origins": [
+        "2026-10-10审读台账"
+      ],
+      "versions": [],
+      "bibliographic_status": "inherited_metadata_pending",
+      "publication_title_as_recorded": "Journal of Retailing and Consumer Services",
+      "journal_family": "",
+      "field_tags": [
+        "地理与时空行为（待细分）"
+      ],
+      "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
+      "download_queue_status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ]
+    },
+    {
+      "id": "L39",
+      "doi": "10.1016/j.apgeog.2023.103090",
+      "title": "Comparison of the tourist mobility patterns among demographic subgroups with mobile phone data: A case study of Chongqing, China",
+      "journal": "Applied Geography",
+      "year": 2023,
+      "authors": [
+        "Zongshun Tian",
+        "Qin Wang",
+        "Yong Liu",
+        "Ziyue Wang"
+      ],
+      "metadata_source": "2026-10-10审读台账（元数据待核）",
+      "metadata_url": "[私人路径已移除]",
+      "url": "[私人路径已移除]",
+      "catalog_status": "pending",
+      "source_confirmed": false,
+      "fulltext_read": false,
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
+      "provider": "待核实",
+      "provider_claim_status": "unresolved",
+      "evidence": [
+        {
+          "url": "[私人路径已移除]",
+          "section": "Bibliographic metadata",
+          "basis": "题名、四名作者、2023 年 Applied Geography 已核；出版社正文 403。",
+          "type": "primary_source"
+        }
+      ],
+      "institution_author_map": [],
+      "scope_tag": "mobile_phone_source_unresolved",
+      "institutions": [
+        "重庆大学（检索作者档案线索；本篇机构页待核）"
+      ],
+      "team": "Zongshun Tian / Yong Liu 合作线索",
+      "data_form": "手机数据旅游者人口子组流动；定位来源未核",
+      "application": "旅游流动与人口分组差异",
+      "field": "计算方法与数据基础设施",
+      "notes": "不能据手机数据、人口属性或检索关键词推断运营商/SDK；数据形式和机构逐人对应待正文。",
+      "round6_source_id": "R6S_CQU_TOURISM",
+      "curated_evidence": true,
+      "evidence_url": "[私人路径已移除]",
+      "evidence_section": "Bibliographic metadata",
+      "data_declaration": "题名、四名作者、2023 年 Applied Geography 已核；出版社正文 403。",
+      "product": "手机数据旅游者人口子组流动；定位来源未核",
+      "use_method": "旅游流动与人口分组差异；具体方法待原文核对",
+      "fulltext_scope": "本轮仅核原始题录/摘要/索引片段，尚未审读方法全文",
+      "app_collection_confirmed": false,
+      "sdk_explicit": false,
+      "sensor_mix": "传感器组成未逐点核实，不能排除蜂窝辅助或信令融合",
+      "access_status": "metadata_or_abstract_read_fulltext_pending",
+      "provider_evidence_status": "unresolved",
+      "legacy_provider_claims": [],
+      "publication_type": "journal_article",
+      "review_date": "2026-10-10",
+      "origins": [
+        "2026-10-10审读台账"
+      ],
+      "versions": [],
+      "bibliographic_status": "inherited_metadata_pending",
+      "publication_title_as_recorded": "Applied Geography",
+      "journal_family": "",
+      "field_tags": [
+        "计算方法与数据基础设施"
+      ],
+      "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
+      "download_queue_status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ]
+    },
+    {
+      "id": "L40",
+      "doi": "10.1016/j.cities.2025.106185",
+      "title": "Deciphering spatiotemporal patterns and mobility network of outdoor jogging utilizing large-scale GPS trajectory data",
+      "journal": "Cities",
+      "year": 2025,
+      "authors": [
+        "Wei Yang",
+        "Chengsi Wu",
+        "Yongchuan Zhang",
+        "Yiming Pan",
+        "Xuefeng Xie",
+        "Zongshun Tian"
+      ],
+      "metadata_source": "2026-10-10审读台账（元数据待核）",
+      "metadata_url": "[私人路径已移除]",
+      "url": "[私人路径已移除]",
+      "catalog_status": "pending",
+      "source_confirmed": false,
+      "fulltext_read": false,
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
+      "provider": "待核实",
+      "provider_claim_status": "unresolved",
+      "evidence": [
+        {
+          "url": "[私人路径已移除]",
+          "section": "Bibliographic metadata",
+          "basis": "六名作者、精确标题、Cities 2025 已核；原始摘要和方法段须后续复核。",
+          "type": "primary_source"
+        }
+      ],
+      "institution_author_map": [],
+      "scope_tag": "sports_app_gps_adjacent_candidate",
+      "institutions": [
+        "重庆大学（Zongshun Tian 作者检索线索；本篇机构待核）"
+      ],
+      "team": "Wei Yang / Zongshun Tian 合作线索",
+      "data_form": "GPS 慢跑轨迹；App 运动数据邻近类别，具体 App 和获取方式待方法段",
+      "application": "户外慢跑行为模式 / 移动网络",
+      "field": "计算方法与数据基础设施",
+      "notes": "出版社全文本轮 403；不能据引用运动 App 名称认定本研究供方，也不直接算商业 SDK 购买证据。",
+      "round6_source_id": "R6S_CQU_JOGGING",
+      "curated_evidence": true,
+      "evidence_url": "[私人路径已移除]",
+      "evidence_section": "Bibliographic metadata",
+      "data_declaration": "六名作者、精确标题、Cities 2025 已核；原始摘要和方法段须后续复核。",
+      "product": "GPS 慢跑轨迹；App 运动数据邻近类别，具体 App 和获取方式待方法段",
+      "use_method": "户外慢跑行为模式 / 移动网络；具体方法待原文核对",
+      "fulltext_scope": "本轮仅核原始题录/摘要/索引片段，尚未审读方法全文",
+      "app_collection_confirmed": false,
+      "sdk_explicit": false,
+      "sensor_mix": "传感器组成未逐点核实，不能排除蜂窝辅助或信令融合",
+      "access_status": "metadata_or_abstract_read_fulltext_pending",
+      "provider_evidence_status": "unresolved",
+      "legacy_provider_claims": [],
+      "publication_type": "journal_article",
+      "review_date": "2026-10-10",
+      "origins": [
+        "2026-10-10审读台账"
+      ],
+      "versions": [],
+      "bibliographic_status": "inherited_metadata_pending",
+      "publication_title_as_recorded": "Cities",
+      "journal_family": "",
+      "field_tags": [
+        "计算方法与数据基础设施"
+      ],
+      "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
+      "download_queue_status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ]
+    },
+    {
+      "id": "L41",
+      "title": "基于客群精准识别的长三角高铁枢纽地区发展评估：门槛、分异和核心空间",
+      "year": 2024,
+      "journal": "城市规划学刊",
+      "volume": "",
+      "issue": "4",
+      "pages": "58–66",
+      "doi": "10.16361/j.upf.202404008",
+      "authors": [
+        "孙娟",
+        "葛春晖",
+        "郭祖源",
+        "尹泺枫",
+        "王行健",
+        "孙晓敏"
+      ],
+      "institutions": [
+        "中国城市规划设计研究院上海分院",
+        "清华大学建筑学院",
+        "同济大学建筑与城市规划学院",
+        "香港置地上海公司"
+      ],
+      "team": "孙娟 / 葛春晖；中规院上海分院规划一所",
+      "institution_mapping": "孙娟：清华建筑学院工程博士、中规院上海分院院长；葛春晖：同济工程博士、中规院上海分院副总规划师；郭祖源、尹泺枫、王行健：上海分院规划一所。",
+      "provider": "未披露的LBS全出行链供方",
+      "scope_tag": "high_resolution_lbs_supplier_and_sensor_unresolved",
+      "application": "高铁枢纽客群画像、活动链、枢纽发展类型与核心空间",
+      "data_declaration": "方法采用长三角LBS全过程出行链；平台含约7200万人次客群信息与性别、年龄、收入、教育、场景标签；作者称可作米级、分钟间隔跟踪。精度和标签相似性不构成SDK或目标供方证明。",
+      "evidence_section": "PDF第1页作者/DOI/基金；第2页§1.3；第3页§1.4.2",
+      "evidence_url": "[私人路径已移除]",
+      "funding": [
+        "2022YFC3800204"
+      ],
+      "fulltext_read": true,
+      "pdf_downloaded": true,
+      "supplier_attribution_status": "undisclosed",
+      "next_action": "优先请用户据供应商项目清单人工对应，并核验原始采购/作者数据声明；保留供方待识别。",
+      "publication_type": "journal_article",
+      "zotero_attachment_verified": false,
+      "catalog_status": "reviewed",
+      "target_supplier_group_confirmed": false,
+      "evidence_date": "2026-10-10",
+      "existing_catalog_matches": [],
+      "round6_source_id": "R6N01",
+      "curated_evidence": true,
+      "data_form": "按原始数据声明待补细化",
+      "product": "按原始数据声明待补细化",
+      "use_method": "高铁枢纽客群画像、活动链、枢纽发展类型与核心空间；方法关键段已核",
+      "fulltext_scope": "数据/方法关键段已审读，非逐句全文或全部附件通读",
+      "app_collection_confirmed": false,
+      "sdk_explicit": false,
+      "source_confirmed": false,
+      "sensor_mix": "传感器组成未逐点核实，不能排除蜂窝辅助或信令融合",
+      "access_status": "local_pdf_methods_verified",
+      "provider_evidence_status": "undisclosed",
+      "legacy_provider_claims": [],
+      "review_date": "2026-10-10",
+      "origins": [
+        "2026-10-10审读台账"
+      ],
+      "metadata_source": "2026-10-10审读台账（元数据待核）",
+      "versions": [],
+      "bibliographic_status": "inherited_metadata_pending",
+      "publication_title_as_recorded": "城市规划学刊",
+      "journal_family": "",
+      "field": "地理与时空行为（待细分）",
+      "field_tags": [
+        "地理与时空行为（待细分）"
+      ],
+      "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
+      "download_queue_status": [
+        "current_review_complete"
+      ]
+    },
+    {
+      "id": "L42",
+      "title": "SPATIO-TEMPORAL ANALYSIS OF URBAN ECONOMIC RESILIENCE DURING COVID-19 WITH MULTILAYER COMPLEX NETWORKS",
+      "year": 2023,
+      "journal": "The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences",
+      "doi": "10.5194/isprs-archives-XLVIII-1-W2-2023-361-2023",
+      "authors": [
+        "Z. Liu",
+        "J. Wu",
+        "H. Li",
+        "M. Werner"
+      ],
+      "institutions": [
+        "北京大学深圳研究生院城市规划与设计学院",
+        "Technical University of Munich",
+        "兰州大学新闻与传播学院"
+      ],
+      "team": "Zhihang Liu / Hao Li / Martin Werner",
+      "institution_mapping": "Z. Liu同时列北大深研院及TUM；H. Li与M. Werner列TUM；J. Wu列兰大。",
+      "provider": "未指名 mobile location data service providers；高德仅为餐饮POI",
+      "scope_tag": "wifi_assisted_trajectory_supplier_and_sdk_unresolved",
+      "application": "疫情冲击下餐饮关闭、城市经济韧性、多层网络渗流",
+      "data_declaration": "§2.1说明从位置数据服务商取得2019年9月1日至12月31日深圳数据，以报点时序构建出行链并结合WIFI识别驻留点；随后构建OD网络。无公司名、SDK架构或排除基站的说明。",
+      "evidence_section": "作者机构PDF第1页；第2–3页§2.1 Data Source",
+      "evidence_url": "[私人路径已移除]",
+      "funding": [],
+      "fulltext_read": true,
+      "pdf_downloaded": true,
+      "supplier_attribution_status": "undisclosed",
+      "publication_type": "conference_proceedings",
+      "bibliographic_note": "主线补核正式出版方页面：2023年12月13日，正式DOI、卷页已确认；前序作者机构稿的方法审读仍有效，供方未具名。",
+      "next_action": "追查未具名位置数据服务商与SDK采集流程；正式题录已核。",
+      "zotero_attachment_verified": false,
+      "catalog_status": "reviewed",
+      "target_supplier_group_confirmed": false,
+      "evidence_date": "2026-10-10",
+      "existing_catalog_matches": [],
+      "round6_source_id": "R6N02",
+      "curated_evidence": true,
+      "data_form": "按原始数据声明待补细化",
+      "product": "按原始数据声明待补细化",
+      "use_method": "疫情冲击下餐饮关闭、城市经济韧性、多层网络渗流；方法关键段已核",
+      "fulltext_scope": "数据/方法关键段已审读，非逐句全文或全部附件通读",
+      "app_collection_confirmed": false,
+      "sdk_explicit": false,
+      "source_confirmed": false,
+      "sensor_mix": "传感器组成未逐点核实，不能排除蜂窝辅助或信令融合",
+      "access_status": "local_pdf_methods_verified",
+      "provider_evidence_status": "undisclosed",
+      "legacy_provider_claims": [],
+      "review_date": "2026-10-10",
+      "published": "2023-12-13",
+      "volume": "XLVIII-1/W2-2023",
+      "pages": "361–368",
+      "publisher_metadata_verified": true,
+      "metadata_source": "出版方原文与PDF核验；DOI状态单独标示",
+      "metadata_url": "https://isprs-archives.copernicus.org/articles/XLVIII-1-W2-2023/361/2023/",
+      "origins": [
+        "2026-10-10审读台账"
+      ],
+      "versions": [],
+      "bibliographic_status": "publisher_metadata_verified",
+      "publication_title_as_recorded": "The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences",
+      "journal_family": "",
+      "field": "经济与商业地理",
+      "field_tags": [
+        "经济与商业地理",
+        "健康与公共卫生",
+        "计算方法与数据基础设施"
+      ],
+      "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
+      "download_queue_status": [
+        "current_review_complete"
+      ]
+    },
+    {
+      "id": "L43",
+      "title": "基于位置服务大数据的粤港澳大湾区通勤标度特征分析",
+      "year": 2022,
+      "journal": "清华大学学报(自然科学版)",
+      "volume": "62",
+      "issue": "7",
+      "pages": "1195–1202",
+      "doi": "10.16511/j.cnki.qhdxxb.2022.26.019",
+      "authors": [
+        "陈若宇",
+        "周江评"
+      ],
+      "institutions": [
+        "北京大学深圳研究生院城市规划与设计学院",
+        "香港大学深圳研究院",
+        "香港大学建筑学院",
+        "粤港澳智慧城市联合实验室"
+      ],
+      "team": "陈若宇 / 周江评",
+      "institution_mapping": "陈若宇同时列北大深研院、香港大学深圳研究院、联合实验室；周江评列香港大学建筑学院等。刊名清华不代表作者属清华。",
+      "provider": "每日互动 / 个推（getui.com）",
+      "scope_tag": "multi_app_lbs_confirmed_sensor_composition_pending",
+      "application": "城市群通勤距离标度、跨市通勤、交通与土地利用",
+      "data_declaration": "研究案例章节直接点名每日互动；多App高精度位置报点识别职住，使用2019年10–12月连续三个月记录。与单一运营商信令作对比，但正文该段未拆分GPS/WiFi/基站比例。",
+      "evidence_section": "HTML作者机构、基金；§1研究案例表1后数据段；HTML元数据DOI",
+      "evidence_url": "[私人路径已移除]",
+      "funding": [
+        "2019YFB1600703",
+        "2020B1212030009"
+      ],
+      "fulltext_read": true,
+      "pdf_downloaded": false,
+      "supplier_attribution_status": "primary_confirmed_getui",
+      "next_action": "可登记个推实际使用；补供应商技术文档与传感器组成后再判纯SDK核心。",
+      "publication_type": "journal_article",
+      "zotero_attachment_verified": false,
+      "catalog_status": "reviewed",
+      "target_supplier_group_confirmed": false,
+      "evidence_date": "2026-10-10",
+      "existing_catalog_matches": [],
+      "round6_source_id": "R6N03",
+      "curated_evidence": true,
+      "data_form": "按原始数据声明待补细化",
+      "product": "按原始数据声明待补细化",
+      "use_method": "城市群通勤距离标度、跨市通勤、交通与土地利用；方法关键段已核",
+      "fulltext_scope": "数据/方法关键段已审读，非逐句全文或全部附件通读",
+      "app_collection_confirmed": true,
+      "sdk_explicit": false,
+      "source_confirmed": true,
+      "sensor_mix": "传感器组成未逐点核实，不能排除蜂窝辅助或信令融合",
+      "access_status": "methods_html_or_web_pdf_read",
+      "provider_evidence_status": "primary_confirmed_getui",
+      "legacy_provider_claims": [],
+      "review_date": "2026-10-10",
+      "origins": [
+        "2026-10-10审读台账"
+      ],
+      "metadata_source": "2026-10-10审读台账（元数据待核）",
+      "versions": [],
+      "bibliographic_status": "inherited_metadata_pending",
+      "publication_title_as_recorded": "清华大学学报(自然科学版)",
+      "journal_family": "",
+      "field": "交通与出行行为",
+      "field_tags": [
+        "交通与出行行为",
+        "计算方法与数据基础设施"
+      ],
+      "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
+      "download_queue_status": [
+        "pdf_acquisition"
+      ]
+    },
+    {
+      "id": "L44",
+      "title": "基于手机定位数据的乡村居民进城就医行为及可达性研究",
+      "year": 2026,
+      "journal": "地理与地理信息科学",
+      "doi": "",
+      "authors": [
+        "庞腾达",
+        "李胜楠",
+        "柯日宏",
+        "廖雨笛",
+        "刘奇",
+        "刘令",
+        "王璞"
+      ],
+      "institutions": [
+        "中南大学交通运输工程学院",
+        "轨道交通大数据湖南省重点实验室",
+        "长沙市勘测设计研究院",
+        "城市交通大数据与仿真技术应用湖南省工程研究中心"
+      ],
+      "team": "王璞 / 庞腾达 / 李胜楠 / 柯日宏",
+      "institution_mapping": "原刊列四个机构，页面未呈现逐作者上标，不能逐人强配；通讯信息指向王璞中南大学。",
+      "provider": "手机定位数据供方未披露（当前仅核摘要）",
+      "scope_tag": "mobile_location_unspecified_pending_fulltext",
+      "application": "长沙乡村就医出行链、医院选择、改进两步移动搜索可达性",
+      "data_declaration": "摘要说明从长沙手机定位数据识别居住地、医院AOI及就医出行链；没有SDK、GPS、WiFi或供应商名称。",
+      "evidence_section": "原刊2026-05-25在线页面：摘要、作者机构、基金",
+      "evidence_url": "[私人路径已移除]",
+      "funding": [
+        "24A0016",
+        "71871224"
+      ],
+      "fulltext_read": false,
+      "abstract_read": true,
+      "pdf_downloaded": false,
+      "supplier_attribution_status": "pending_fulltext",
+      "bibliographic_note": "原刊DOI栏为空且卷期未给，不臆造；日期为在线页面标示。",
+      "next_action": "优先校VPN/CNKI获取正文方法段；追踪同团队2025长沙旅游流论文。",
+      "publication_type": "journal_article",
+      "zotero_attachment_verified": false,
+      "catalog_status": "pending",
+      "target_supplier_group_confirmed": false,
+      "evidence_date": "2026-10-10",
+      "existing_catalog_matches": [],
+      "round6_source_id": "R6N04",
+      "curated_evidence": true,
+      "data_form": "按原始数据声明待补细化",
+      "product": "按原始数据声明待补细化",
+      "use_method": "长沙乡村就医出行链、医院选择、改进两步移动搜索可达性；具体方法待原文核对",
+      "fulltext_scope": "本轮仅核原始题录/摘要/索引片段，尚未审读方法全文",
+      "app_collection_confirmed": false,
+      "sdk_explicit": false,
+      "source_confirmed": false,
+      "sensor_mix": "传感器组成未逐点核实，不能排除蜂窝辅助或信令融合",
+      "access_status": "metadata_or_abstract_read_fulltext_pending",
+      "provider_evidence_status": "pending_fulltext",
+      "legacy_provider_claims": [],
+      "review_date": "2026-10-10",
+      "origins": [
+        "2026-10-10审读台账"
+      ],
+      "metadata_source": "2026-10-10审读台账（元数据待核）",
+      "versions": [],
+      "bibliographic_status": "inherited_metadata_pending",
+      "publication_title_as_recorded": "地理与地理信息科学",
+      "journal_family": "",
+      "field": "城市规划与服务可达性",
+      "field_tags": [
+        "城市规划与服务可达性",
+        "计算方法与数据基础设施"
+      ],
+      "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
+      "download_queue_status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ]
+    },
+    {
+      "id": "L45",
+      "title": "Understanding Intercity Mobility Patterns in Rapidly Urbanizing China, 2015–2019: Evidence from Longitudinal Poisson Gravity Modeling",
+      "year": 2023,
+      "online_year": 2022,
+      "journal": "Annals of the American Association of Geographers",
+      "volume": "113",
+      "issue": "1",
+      "doi": "10.1080/24694452.2022.2097050",
+      "authors": [
+        "Hengyu Gu",
+        "Jianfa Shen",
+        "Jun Chu"
+      ],
+      "institutions": [
+        "The Chinese University of Hong Kong",
+        "北京大学深圳研究生院城市规划与设计学院"
+      ],
+      "team": "顾恒宇 / 沈建法 / Jun Chu",
+      "institution_mapping": "Jun Chu列北大深研院城市规划与设计学院；前两位列香港中文大学地理与资源管理。",
+      "provider": "Tencent / 腾讯",
+      "scope_tag": "platform_intercity_lbs_aggregate_sensor_provenance_partial",
+      "application": "2015–2019全国城际移动、多年泊松引力模型、城市化",
+      "data_declaration": "出版商摘要直接说明腾讯多年份每日城际LBS；当前没有个体SDK或传感器组成的直接证据。",
+      "evidence_section": "出版商原刊索引摘要、作者信息及资助；正文入口本轮抓取失败",
+      "evidence_url": "[私人路径已移除]",
+      "funding": [
+        "SRFS2021-4H02",
+        "4200681"
+      ],
+      "fulltext_read": false,
+      "abstract_read": true,
+      "pdf_downloaded": false,
+      "supplier_attribution_status": "primary_indexed_abstract_confirmed_tencent",
+      "next_action": "补读方法；归腾讯平台聚合，不能归目标供应商或纯SDK。",
+      "publication_type": "journal_article",
+      "zotero_attachment_verified": false,
+      "catalog_status": "pending",
+      "target_supplier_group_confirmed": false,
+      "evidence_date": "2026-10-10",
+      "existing_catalog_matches": [],
+      "round6_source_id": "R6N05",
+      "curated_evidence": true,
+      "data_form": "按原始数据声明待补细化",
+      "product": "按原始数据声明待补细化",
+      "use_method": "2015–2019全国城际移动、多年泊松引力模型、城市化；具体方法待原文核对",
+      "fulltext_scope": "本轮仅核原始题录/摘要/索引片段，尚未审读方法全文",
+      "app_collection_confirmed": false,
+      "sdk_explicit": false,
+      "source_confirmed": true,
+      "sensor_mix": "传感器组成未逐点核实，不能排除蜂窝辅助或信令融合",
+      "access_status": "metadata_or_abstract_read_fulltext_pending",
+      "provider_evidence_status": "primary_abstract_confirmed",
+      "legacy_provider_claims": [],
+      "review_date": "2026-10-10",
+      "origins": [
+        "2026-10-10审读台账"
+      ],
+      "metadata_source": "2026-10-10审读台账（元数据待核）",
+      "versions": [],
+      "bibliographic_status": "inherited_metadata_pending",
+      "publication_title_as_recorded": "Annals of the American Association of Geographers",
+      "journal_family": "",
+      "field": "计算方法与数据基础设施",
+      "field_tags": [
+        "计算方法与数据基础设施"
       ],
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
       "download_queue_status": [
@@ -5677,10 +6760,10 @@
     "source_counts": [
       {
         "source": "2026-10-10审读台账",
-        "input_rows": 32,
-        "mapped_rows": 32,
-        "unique_catalog_records": 32,
-        "new_records_at_merge_step": 32,
+        "input_rows": 45,
+        "mapped_rows": 45,
+        "unique_catalog_records": 45,
+        "new_records_at_merge_step": 45,
         "merged_rows": 0
       },
       {
@@ -5750,7 +6833,7 @@
     ],
     "source_overlap_matrix": {
       "2026-10-10审读台账": {
-        "2026-10-10审读台账": 32,
+        "2026-10-10审读台账": 45,
         "旧39篇候选清单": 16,
         "literature_commercial_mobile_location_data_2015_2026.csv": 10,
         "literature_commercial_mobile_location_data_addendum_2026.csv": 6,
@@ -6072,6 +7155,97 @@
         "row": 32,
         "source_row": null,
         "catalog_id": "L32",
+        "dedup_reason": "new_record"
+      },
+      {
+        "source": "2026-10-10审读台账",
+        "row": 33,
+        "source_row": null,
+        "catalog_id": "L33",
+        "dedup_reason": "new_record"
+      },
+      {
+        "source": "2026-10-10审读台账",
+        "row": 34,
+        "source_row": null,
+        "catalog_id": "L34",
+        "dedup_reason": "new_record"
+      },
+      {
+        "source": "2026-10-10审读台账",
+        "row": 35,
+        "source_row": null,
+        "catalog_id": "L35",
+        "dedup_reason": "new_record"
+      },
+      {
+        "source": "2026-10-10审读台账",
+        "row": 36,
+        "source_row": null,
+        "catalog_id": "L36",
+        "dedup_reason": "new_record"
+      },
+      {
+        "source": "2026-10-10审读台账",
+        "row": 37,
+        "source_row": null,
+        "catalog_id": "L37",
+        "dedup_reason": "new_record"
+      },
+      {
+        "source": "2026-10-10审读台账",
+        "row": 38,
+        "source_row": null,
+        "catalog_id": "L38",
+        "dedup_reason": "new_record"
+      },
+      {
+        "source": "2026-10-10审读台账",
+        "row": 39,
+        "source_row": null,
+        "catalog_id": "L39",
+        "dedup_reason": "new_record"
+      },
+      {
+        "source": "2026-10-10审读台账",
+        "row": 40,
+        "source_row": null,
+        "catalog_id": "L40",
+        "dedup_reason": "new_record"
+      },
+      {
+        "source": "2026-10-10审读台账",
+        "row": 41,
+        "source_row": null,
+        "catalog_id": "L41",
+        "dedup_reason": "new_record"
+      },
+      {
+        "source": "2026-10-10审读台账",
+        "row": 42,
+        "source_row": null,
+        "catalog_id": "L42",
+        "dedup_reason": "new_record"
+      },
+      {
+        "source": "2026-10-10审读台账",
+        "row": 43,
+        "source_row": null,
+        "catalog_id": "L43",
+        "dedup_reason": "new_record"
+      },
+      {
+        "source": "2026-10-10审读台账",
+        "row": 44,
+        "source_row": null,
+        "catalog_id": "L44",
+        "dedup_reason": "new_record"
+      },
+      {
+        "source": "2026-10-10审读台账",
+        "row": 45,
+        "source_row": null,
+        "catalog_id": "L45",
         "dedup_reason": "new_record"
       },
       {
@@ -8173,12 +9347,12 @@
     "classification": "field/application为编辑归类；pending旧供应商标签均未视为原文确认。"
   },
   "counts": {
-    "total": 104,
-    "reviewed": 30,
-    "pending": 74,
-    "fulltext_read": 24,
-    "with_doi": 86,
-    "pdf_verified": 24,
+    "total": 117,
+    "reviewed": 37,
+    "pending": 80,
+    "fulltext_read": 31,
+    "with_doi": 98,
+    "pdf_verified": 30,
     "supporting_resources": 7,
     "linked_versions": 1,
     "metadata_conflicts_need_review": 1

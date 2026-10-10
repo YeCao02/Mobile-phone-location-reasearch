@@ -1,0 +1,1277 @@
+{
+  "as_of": "2026-10-10",
+  "query_count": 74,
+  "query_log": [
+    {
+      "id": "E6-Q01",
+      "workstream": "east",
+      "date": "2026-10-10",
+      "institution": "上海大学",
+      "query": "\"李峰清\" \"LBS\" 数据",
+      "outcome": "李峰清官方成果页及临港研究"
+    },
+    {
+      "id": "E6-Q02",
+      "workstream": "east",
+      "date": "2026-10-10",
+      "institution": "上海大学",
+      "query": "\"厦漳泉\" \"人群活动\" \"数据\"",
+      "outcome": "追Cities参考文献，未取得指定2019原文"
+    },
+    {
+      "id": "E6-Q03",
+      "workstream": "east",
+      "date": "2026-10-10",
+      "institution": "同济大学",
+      "query": "\"同济大学\" \"LBS\" \"数据来源\"",
+      "outcome": "厦门2017原始PDF"
+    },
+    {
+      "id": "E6-Q04",
+      "workstream": "east",
+      "date": "2026-10-10",
+      "institution": "东南大学",
+      "query": "\"东南大学\" \"匿名\" \"轨迹\" 数据 论文",
+      "outcome": "多类轨迹候选，未直接确认供应商"
+    },
+    {
+      "id": "E6-Q05",
+      "workstream": "east",
+      "date": "2026-10-10",
+      "institution": "东南大学",
+      "query": "\"Southeast University\" \"location-based\" \"mobility\" data",
+      "outcome": "全国城际流动论文及SSRN候选"
+    },
+    {
+      "id": "E6-Q06",
+      "workstream": "east",
+      "date": "2026-10-10",
+      "institution": "南京大学",
+      "query": "\"Nanjing University\" \"GPS\" \"location-based\" commuting",
+      "outcome": "无可核验新增目标文献"
+    },
+    {
+      "id": "E6-Q07",
+      "workstream": "east",
+      "date": "2026-10-10",
+      "institution": "上海交通大学",
+      "query": "\"上海交通大学\" \"LBS\" 城市",
+      "outcome": "活动重建及社交签到类候选"
+    },
+    {
+      "id": "E6-Q08",
+      "workstream": "east",
+      "date": "2026-10-10",
+      "institution": "天津大学",
+      "query": "\"天津大学\" \"LBS\" \"数据\"",
+      "outcome": "李文博限行城际旅行研究"
+    },
+    {
+      "id": "E6-Q09",
+      "workstream": "east",
+      "date": "2026-10-10",
+      "institution": "南京大学",
+      "query": "\"Nanjing University\" \"mobile phone data\" \"company\"",
+      "outcome": "无可核验新增目标文献"
+    },
+    {
+      "id": "E6-Q10",
+      "workstream": "east",
+      "date": "2026-10-10",
+      "institution": "上海交通大学",
+      "query": "\"Shanghai Jiao Tong\" \"location-based\" \"data\" urban",
+      "outcome": "活动重建原文，后确认XDR基站边界"
+    },
+    {
+      "id": "E6-Q11",
+      "workstream": "east",
+      "date": "2026-10-10",
+      "institution": "天津大学",
+      "query": "\"Tianjin University\" \"mobile phone data\" \"GPS\"",
+      "outcome": "自采IMU/GNSS数据属于方法边界"
+    },
+    {
+      "id": "E6-Q12",
+      "workstream": "east",
+      "date": "2026-10-10",
+      "institution": "同济大学",
+      "query": "\"Tongji\" \"mobile phone data\" \"Wi-Fi\"",
+      "outcome": "数据形式宽口径追踪"
+    },
+    {
+      "id": "E6-Q13",
+      "workstream": "east",
+      "date": "2026-10-10",
+      "institution": "南京大学",
+      "query": "南京大学 LBS 手机 定位 通勤 数据来源",
+      "outcome": "无可核验新增目标文献"
+    },
+    {
+      "id": "E6-Q14",
+      "workstream": "east",
+      "date": "2026-10-10",
+      "institution": "天津大学",
+      "query": "天津大学 手机 轨迹 数据 通勤 GPS 论文",
+      "outcome": "未具名LBS与自采定位分流"
+    },
+    {
+      "id": "E6-Q15",
+      "workstream": "east",
+      "date": "2026-10-10",
+      "institution": "上海大学",
+      "query": "\"厦漳泉大都市区\" \"LBS\"",
+      "outcome": "指定2019文献原文未取得"
+    },
+    {
+      "id": "E6-Q16",
+      "workstream": "east",
+      "date": "2026-10-10",
+      "institution": "同济大学",
+      "query": "\"论大城市\" \"LBS画像数据\"",
+      "outcome": "2017多中心论文参考文献链"
+    },
+    {
+      "id": "E6-Q17",
+      "workstream": "east",
+      "date": "2026-10-10",
+      "institution": "南京大学",
+      "query": "\"南京大学\" \"甄峰\" \"LBS\" 数据",
+      "outcome": "微博签到边界文献线索，非商业SDK确证"
+    },
+    {
+      "id": "E6-Q18",
+      "workstream": "east",
+      "date": "2026-10-10",
+      "institution": "同济大学",
+      "query": "\"厦漳泉\" \"胡广\" \"黄建中\"",
+      "outcome": "作者名变体查询未取得目标原文；后2017PDF核验胡刚钰"
+    },
+    {
+      "id": "E6-Q19",
+      "workstream": "east",
+      "date": "2026-10-10",
+      "institution": "同济大学",
+      "query": "\"论大城市\" \"空间绩效\" \"画像\"",
+      "outcome": "2017与2021相关论文线索"
+    },
+    {
+      "id": "E6-Q20",
+      "workstream": "east",
+      "date": "2026-10-10",
+      "institution": "天津大学",
+      "query": "\"天津大学\" \"location-based services\" urban",
+      "outcome": "李文博JRS2026主候选"
+    },
+    {
+      "id": "E6-Q21",
+      "workstream": "east",
+      "date": "2026-10-10",
+      "institution": "天津大学",
+      "query": "\"Wenbo Li\" \"driving restrictions\" 2026",
+      "outcome": "DOI和期刊题录，后直接读Wiley页面"
+    },
+    {
+      "id": "E6-Q22",
+      "workstream": "east",
+      "date": "2026-10-10",
+      "institution": "同济大学",
+      "query": "\"论大城市\" \"多中心\" \"2017\" \"pdf\"",
+      "outcome": "原文引用链与厦门耦合论文"
+    },
+    {
+      "id": "E6-Q23",
+      "workstream": "east",
+      "date": "2026-10-10",
+      "institution": "上海大学",
+      "query": "\"厦漳泉\" \"空间网络\" LBS",
+      "outcome": "Cities引用2019论文，仍仅待追原文"
+    },
+    {
+      "id": "E6-Q24",
+      "workstream": "east",
+      "date": "2026-10-10",
+      "institution": "东南大学",
+      "query": "\"Towards Intercity Mobility System\" \"Tencent\" OR \"Baidu\"",
+      "outcome": "找到PROMET DOI，但原文网络获取失败，供应商未知"
+    },
+    {
+      "id": "S01",
+      "workstream": "south",
+      "date": "2026-10-10",
+      "institution": "hku",
+      "query": "\"Tianren Yang\" \"location-based services\" mobility data",
+      "outcome": "命中 ghost kitchens 百度慧眼网格人口来源线索"
+    },
+    {
+      "id": "S02",
+      "workstream": "south",
+      "date": "2026-10-10",
+      "institution": "hku",
+      "query": "\"杨天人\" \"轨迹\" 数据 项目",
+      "outcome": "未新增公开 Jike 采购证明"
+    },
+    {
+      "id": "S03",
+      "workstream": "south",
+      "date": "2026-10-10",
+      "institution": "szu",
+      "query": "\"Jizhe Xia\" \"mobile phone\" data -hospital",
+      "outcome": "命中 JMIR 2023 疫情人口流动论文"
+    },
+    {
+      "id": "S04",
+      "workstream": "south",
+      "date": "2026-10-10",
+      "institution": "szu",
+      "query": "\"夏吉喆\" \"轨迹\" 数据",
+      "outcome": "命中 2020 测绘学报论文及教学资料，尚未核定具体供方"
+    },
+    {
+      "id": "S05",
+      "workstream": "south",
+      "date": "2026-10-10",
+      "institution": "fzu",
+      "query": "\"Fuzhou University\" \"mobile phone\" \"data\" mobility",
+      "outcome": "命中商业 GNSS 位置预测研究"
+    },
+    {
+      "id": "S06",
+      "workstream": "south",
+      "date": "2026-10-10",
+      "institution": "fzu",
+      "query": "\"福州大学\" \"轨迹\" \"手机\" 数据",
+      "outcome": "命中会议手机位置乒乓效应报告；不能由信令词直接判定供方"
+    },
+    {
+      "id": "S07",
+      "workstream": "south",
+      "date": "2026-10-10",
+      "institution": "cas_du",
+      "query": "\"Yunyan Du\" \"mobile phone\" data",
+      "outcome": "官方研究者页面给出暴雨、台风、人口动态研究线索"
+    },
+    {
+      "id": "S08",
+      "workstream": "south",
+      "date": "2026-10-10",
+      "institution": "cas_du",
+      "query": "\"杜云艳\" \"LBS\" 数据",
+      "outcome": "未取得额外直接供应商证明"
+    },
+    {
+      "id": "S09",
+      "workstream": "south",
+      "date": "2026-10-10",
+      "institution": "scu",
+      "query": "\"Sichuan University\" \"mobile phone\" \"location\" data urban",
+      "outcome": "命中 Frontiers 2022 基站信令与模拟轨迹研究"
+    },
+    {
+      "id": "S10",
+      "workstream": "south",
+      "date": "2026-10-10",
+      "institution": "scu",
+      "query": "\"四川大学\" \"LBS\" 数据 论文",
+      "outcome": "多数同名缩写或计算机隐私方法，未核实商业 SDK 采购"
+    },
+    {
+      "id": "S11",
+      "workstream": "south",
+      "date": "2026-10-10",
+      "institution": "cqu",
+      "query": "\"Chongqing University\" \"mobile phone\" \"GPS\" data",
+      "outcome": "命中旅游轨迹与慢跑数据研究线索；排除重庆邮电大学混同"
+    },
+    {
+      "id": "S12",
+      "workstream": "south",
+      "date": "2026-10-10",
+      "institution": "cqu",
+      "query": "\"重庆大学\" \"LBS\" 数据 轨迹",
+      "outcome": "命中轨迹学位论文线索，未取得供应商证据"
+    },
+    {
+      "id": "S13",
+      "workstream": "south",
+      "date": "2026-10-10",
+      "institution": "cas_du",
+      "query": "\"Yunyan Du\" \"smart phone location\" rainstorms data Tencent",
+      "outcome": "腾讯位置请求 API 网格聚合来源得到正文确认"
+    },
+    {
+      "id": "S14",
+      "workstream": "south",
+      "date": "2026-10-10",
+      "institution": "fzu",
+      "query": "\"Fuzhou\" \"Representation-Enhanced\" \"location service\"",
+      "outcome": "原文 5.1 明确未具名商业位置公司手机 GNSS 数据"
+    },
+    {
+      "id": "S15",
+      "workstream": "south",
+      "date": "2026-10-10",
+      "institution": "cqu",
+      "query": "\"Chongqing University\" \"tourist mobility patterns\" mobile data",
+      "outcome": "锁定 DOI 10.1016/j.apgeog.2023.103090；供应商待查"
+    },
+    {
+      "id": "S16",
+      "workstream": "south",
+      "date": "2026-10-10",
+      "institution": "scu",
+      "query": "\"Sichuan University\" \"location-based\" \"Baidu\" urban",
+      "outcome": "未取得四川大学商业数据使用直接证据"
+    },
+    {
+      "id": "S17",
+      "workstream": "south",
+      "date": "2026-10-10",
+      "institution": "cqu",
+      "query": "\"Chongqing University\" \"mobile phone\" \"China Mobile\" parks",
+      "outcome": "未取得旅游候选论文方法段；不可凭该查询推断运营商"
+    },
+    {
+      "id": "S18",
+      "workstream": "south",
+      "date": "2026-10-10",
+      "institution": "scu",
+      "query": "\"Sichuan University\" mobility \"location-based service\" data",
+      "outcome": "未取得新增适用供方证据"
+    },
+    {
+      "id": "S19",
+      "workstream": "south",
+      "date": "2026-10-10",
+      "institution": "hku",
+      "query": "\"Tianren Yang\" thesis project \"mobile phone data\"",
+      "outcome": "找到 2020 通勤论文机构库正文；实际为基站位置"
+    },
+    {
+      "id": "S20",
+      "workstream": "south",
+      "date": "2026-10-10",
+      "institution": "szu",
+      "query": "\"夏吉喆\" \"数据\" \"WiFi\" -医院 -hospital",
+      "outcome": "复现已入库 PM2.5 摸星数据研究，无新篇计数"
+    },
+    {
+      "id": "S21",
+      "workstream": "south",
+      "date": "2026-10-10",
+      "institution": "cqu",
+      "query": "\"Deciphering spatiotemporal patterns\" jogging GPS data Cities 2025",
+      "outcome": "锁定 DOI 10.1016/j.cities.2025.106185；GPS 运动 App 邻近类别"
+    },
+    {
+      "id": "S22",
+      "workstream": "south",
+      "date": "2026-10-10",
+      "institution": "cqu",
+      "query": "\"Comparison of the tourist mobility patterns\" \"data\" provider",
+      "outcome": "精确题名和 DOI 可核，供方仍待正文"
+    },
+    {
+      "id": "S23",
+      "workstream": "south",
+      "date": "2026-10-10",
+      "institution": "scu",
+      "query": "\"四川大学\" \"百度慧眼\" 论文",
+      "outcome": "未取得可接受直接对应论文"
+    },
+    {
+      "id": "S24",
+      "workstream": "south",
+      "date": "2026-10-10",
+      "institution": "cqu",
+      "query": "\"重庆大学\" \"及刻\" \"数据\"",
+      "outcome": "未取得公开供应商对应证据"
+    },
+    {
+      "id": "NQ01",
+      "workstream": "north",
+      "date": "2026-10-10",
+      "institution": "北京大学",
+      "query": "\"Peking University\" \"mobile phone\" \"location\" \"data company\"",
+      "outcome": "检出论文与院系线索，未直接锁定目标供方"
+    },
+    {
+      "id": "NQ02",
+      "workstream": "north",
+      "date": "2026-10-10",
+      "institution": "北京大学",
+      "query": "\"Peking University\" \"GPS\" \"mobility\" \"LBS\"",
+      "outcome": "噪声较多；不能以学校地点或普通LBS术语判断归属"
+    },
+    {
+      "id": "NQ03",
+      "workstream": "north",
+      "date": "2026-10-10",
+      "institution": "清华大学",
+      "query": "\"Tsinghua University\" \"anonymous\" \"trajectories\" \"mobile phone\"",
+      "outcome": "检出轨迹生成与通信网络数据，须区分DPI/基站"
+    },
+    {
+      "id": "NQ04",
+      "workstream": "north",
+      "date": "2026-10-10",
+      "institution": "清华大学",
+      "query": "\"Tsinghua University\" \"WiFi\" \"mobile phone data\"",
+      "outcome": "检出成都网格聚合研究；后核为中国联通"
+    },
+    {
+      "id": "NQ05",
+      "workstream": "north",
+      "date": "2026-10-10",
+      "institution": "北京大学深研院",
+      "query": "\"Peking University Shenzhen\" \"location-based\" mobility data",
+      "outcome": "R6N02/R6N03/R6N05；另有联通/信令边界"
+    },
+    {
+      "id": "NQ06",
+      "workstream": "north",
+      "date": "2026-10-10",
+      "institution": "北京大学",
+      "query": "\"北京大学\" \"手机\" \"GPS\" \"轨迹\" 数据",
+      "outcome": "大量校园活动及综述噪声，未把地点当作者机构"
+    },
+    {
+      "id": "NQ07",
+      "workstream": "north",
+      "date": "2026-10-10",
+      "institution": "中南大学",
+      "query": "\"Central South University\" \"mobile phone data\" LBS",
+      "outcome": "直接强命中不足，后续扩大human mobility"
+    },
+    {
+      "id": "NQ08",
+      "workstream": "north",
+      "date": "2026-10-10",
+      "institution": "中南大学",
+      "query": "\"中南大学\" \"手机\" \"轨迹\" \"数据公司\"",
+      "outcome": "未取得明确目标公司论文"
+    },
+    {
+      "id": "NQ09",
+      "workstream": "north",
+      "date": "2026-10-10",
+      "institution": "中南大学",
+      "query": "\"Central South University\" \"location-based service\" \"mobility\"",
+      "outcome": "定位隐私/RTK边界为主"
+    },
+    {
+      "id": "NQ10",
+      "workstream": "north",
+      "date": "2026-10-10",
+      "institution": "中南大学",
+      "query": "\"中南大学\" \"LBS\" 数据 城市",
+      "outcome": "应用与会议条目为主；未据LBS直接定SDK"
+    },
+    {
+      "id": "NQ11",
+      "workstream": "north",
+      "date": "2026-10-10",
+      "institution": "北京交通大学",
+      "query": "\"Beijing Jiaotong University\" \"mobile phone\" \"location-based\"",
+      "outcome": "腾讯App OD交通需求论文、CDR验证章节"
+    },
+    {
+      "id": "NQ12",
+      "workstream": "north",
+      "date": "2026-10-10",
+      "institution": "北京交通大学",
+      "query": "\"北京交通大学\" \"手机定位\" 数据 论文",
+      "outcome": "教师官方目录手机GPS换乘识别；自采传感器边界"
+    },
+    {
+      "id": "NQ13",
+      "workstream": "north",
+      "date": "2026-10-10",
+      "institution": "中规院上海分院",
+      "query": "\"中规院上海分院\" \"手机\" 数据",
+      "outcome": "官方长三角规划平台手机信令；技术论文"
+    },
+    {
+      "id": "NQ14",
+      "workstream": "north",
+      "date": "2026-10-10",
+      "institution": "中规院上海分院",
+      "query": "\"中国城市规划设计研究院上海分院\" \"LBS\"",
+      "outcome": "R6N01高铁枢纽LBS全出行链"
+    },
+    {
+      "id": "NQ15",
+      "workstream": "north",
+      "date": "2026-10-10",
+      "institution": "清华大学",
+      "query": "\"Tsinghua\" \"Moxing\" mobility",
+      "outcome": "L21旧记录重复；排除无关同名Moxing"
+    },
+    {
+      "id": "NQ16",
+      "workstream": "north",
+      "date": "2026-10-10",
+      "institution": "清华大学",
+      "query": "\"清华大学\" \"手机\" \"位置服务\" 数据 研究",
+      "outcome": "清华赵慧敏/龙瀛住房空置博士论文"
+    },
+    {
+      "id": "NQ17",
+      "workstream": "north",
+      "date": "2026-10-10",
+      "institution": "中南大学",
+      "query": "\"Central South University\" \"human mobility\" \"data\"",
+      "outcome": "深圳拥挤事件实为地铁智能卡，排除SDK"
+    },
+    {
+      "id": "NQ18",
+      "workstream": "north",
+      "date": "2026-10-10",
+      "institution": "中南大学",
+      "query": "\"中南大学\" \"手机信令\" 城市 论文",
+      "outcome": "R6N04乡村就医；标题未披露供方"
+    },
+    {
+      "id": "NQ19",
+      "workstream": "north",
+      "date": "2026-10-10",
+      "institution": "中规院上海分院",
+      "query": "\"中规院上海分院\" \"LBS\" 高铁",
+      "outcome": "R6N01优先原文核验"
+    },
+    {
+      "id": "NQ20",
+      "workstream": "north",
+      "date": "2026-10-10",
+      "institution": "清华大学",
+      "query": "\"清华大学\" \"LBS数据\" 龙瀛",
+      "outcome": "校园/城市数据与WiFi探针边界，继续定位学位论文"
+    },
+    {
+      "id": "NQ21",
+      "workstream": "north",
+      "date": "2026-10-10",
+      "institution": "中南大学",
+      "query": "\"基于手机定位数据的乡村居民进城就医行为\" 数据",
+      "outcome": "原刊摘要、作者、基金已核；全文需CNKI"
+    },
+    {
+      "id": "NQ22",
+      "workstream": "north",
+      "date": "2026-10-10",
+      "institution": "北京交通大学",
+      "query": "\"Regional Traffic Demand Forecasting\" \"Mobile Phone\" Ge Meng-xue",
+      "outcome": "SciEngine原刊PDF索引明确腾讯OD，下载429"
+    },
+    {
+      "id": "NQ23",
+      "workstream": "north",
+      "date": "2026-10-10",
+      "institution": "清华大学",
+      "query": "\"Prof iling Residents\" \"Chengdu\" mobile",
+      "outcome": "拼写带空格查询无强结果；Q25修正"
+    },
+    {
+      "id": "NQ24",
+      "workstream": "north",
+      "date": "2026-10-10",
+      "institution": "中南大学",
+      "query": "\"中央\" \"中南大学\" \"手机定位数据\" 王璞",
+      "outcome": "含多余中央限定，无额外强结果，保留真实查询日志"
+    },
+    {
+      "id": "NQ25",
+      "workstream": "north",
+      "date": "2026-10-10",
+      "institution": "清华大学/北京大学",
+      "query": "\"Profiling Residents’ Mobility with Grid-Aggregated Mobile Phone Trace Data\"",
+      "outcome": "原刊及北大机构库核实中国联通，作为边界"
+    },
+    {
+      "id": "ROOT-Q01",
+      "workstream": "root_metadata_verification",
+      "date": "2026-10-10",
+      "institution": "北京大学 / Technical University of Munich",
+      "query": "\"SPATIO-TEMPORAL ANALYSIS OF URBAN ECONOMIC RESILIENCE DURING COVID-19 WITH MULTILAYER COMPLEX NETWORKS\"",
+      "outcome": "主线精确标题检索定位ISPRS正式原刊；L42补2023年、DOI10.5194/isprs-archives-XLVIII-1-W2-2023-361-2023、卷页361–368。",
+      "evidence_url": "https://isprs-archives.copernicus.org/articles/XLVIII-1-W2-2023/361/2023/",
+      "source": "主代理核验回传"
+    }
+  ],
+  "records": [
+    {
+      "id": "E6-Q01",
+      "workstream": "east",
+      "date": "2026-10-10",
+      "institution": "上海大学",
+      "query": "\"李峰清\" \"LBS\" 数据",
+      "outcome": "李峰清官方成果页及临港研究"
+    },
+    {
+      "id": "E6-Q02",
+      "workstream": "east",
+      "date": "2026-10-10",
+      "institution": "上海大学",
+      "query": "\"厦漳泉\" \"人群活动\" \"数据\"",
+      "outcome": "追Cities参考文献，未取得指定2019原文"
+    },
+    {
+      "id": "E6-Q03",
+      "workstream": "east",
+      "date": "2026-10-10",
+      "institution": "同济大学",
+      "query": "\"同济大学\" \"LBS\" \"数据来源\"",
+      "outcome": "厦门2017原始PDF"
+    },
+    {
+      "id": "E6-Q04",
+      "workstream": "east",
+      "date": "2026-10-10",
+      "institution": "东南大学",
+      "query": "\"东南大学\" \"匿名\" \"轨迹\" 数据 论文",
+      "outcome": "多类轨迹候选，未直接确认供应商"
+    },
+    {
+      "id": "E6-Q05",
+      "workstream": "east",
+      "date": "2026-10-10",
+      "institution": "东南大学",
+      "query": "\"Southeast University\" \"location-based\" \"mobility\" data",
+      "outcome": "全国城际流动论文及SSRN候选"
+    },
+    {
+      "id": "E6-Q06",
+      "workstream": "east",
+      "date": "2026-10-10",
+      "institution": "南京大学",
+      "query": "\"Nanjing University\" \"GPS\" \"location-based\" commuting",
+      "outcome": "无可核验新增目标文献"
+    },
+    {
+      "id": "E6-Q07",
+      "workstream": "east",
+      "date": "2026-10-10",
+      "institution": "上海交通大学",
+      "query": "\"上海交通大学\" \"LBS\" 城市",
+      "outcome": "活动重建及社交签到类候选"
+    },
+    {
+      "id": "E6-Q08",
+      "workstream": "east",
+      "date": "2026-10-10",
+      "institution": "天津大学",
+      "query": "\"天津大学\" \"LBS\" \"数据\"",
+      "outcome": "李文博限行城际旅行研究"
+    },
+    {
+      "id": "E6-Q09",
+      "workstream": "east",
+      "date": "2026-10-10",
+      "institution": "南京大学",
+      "query": "\"Nanjing University\" \"mobile phone data\" \"company\"",
+      "outcome": "无可核验新增目标文献"
+    },
+    {
+      "id": "E6-Q10",
+      "workstream": "east",
+      "date": "2026-10-10",
+      "institution": "上海交通大学",
+      "query": "\"Shanghai Jiao Tong\" \"location-based\" \"data\" urban",
+      "outcome": "活动重建原文，后确认XDR基站边界"
+    },
+    {
+      "id": "E6-Q11",
+      "workstream": "east",
+      "date": "2026-10-10",
+      "institution": "天津大学",
+      "query": "\"Tianjin University\" \"mobile phone data\" \"GPS\"",
+      "outcome": "自采IMU/GNSS数据属于方法边界"
+    },
+    {
+      "id": "E6-Q12",
+      "workstream": "east",
+      "date": "2026-10-10",
+      "institution": "同济大学",
+      "query": "\"Tongji\" \"mobile phone data\" \"Wi-Fi\"",
+      "outcome": "数据形式宽口径追踪"
+    },
+    {
+      "id": "E6-Q13",
+      "workstream": "east",
+      "date": "2026-10-10",
+      "institution": "南京大学",
+      "query": "南京大学 LBS 手机 定位 通勤 数据来源",
+      "outcome": "无可核验新增目标文献"
+    },
+    {
+      "id": "E6-Q14",
+      "workstream": "east",
+      "date": "2026-10-10",
+      "institution": "天津大学",
+      "query": "天津大学 手机 轨迹 数据 通勤 GPS 论文",
+      "outcome": "未具名LBS与自采定位分流"
+    },
+    {
+      "id": "E6-Q15",
+      "workstream": "east",
+      "date": "2026-10-10",
+      "institution": "上海大学",
+      "query": "\"厦漳泉大都市区\" \"LBS\"",
+      "outcome": "指定2019文献原文未取得"
+    },
+    {
+      "id": "E6-Q16",
+      "workstream": "east",
+      "date": "2026-10-10",
+      "institution": "同济大学",
+      "query": "\"论大城市\" \"LBS画像数据\"",
+      "outcome": "2017多中心论文参考文献链"
+    },
+    {
+      "id": "E6-Q17",
+      "workstream": "east",
+      "date": "2026-10-10",
+      "institution": "南京大学",
+      "query": "\"南京大学\" \"甄峰\" \"LBS\" 数据",
+      "outcome": "微博签到边界文献线索，非商业SDK确证"
+    },
+    {
+      "id": "E6-Q18",
+      "workstream": "east",
+      "date": "2026-10-10",
+      "institution": "同济大学",
+      "query": "\"厦漳泉\" \"胡广\" \"黄建中\"",
+      "outcome": "作者名变体查询未取得目标原文；后2017PDF核验胡刚钰"
+    },
+    {
+      "id": "E6-Q19",
+      "workstream": "east",
+      "date": "2026-10-10",
+      "institution": "同济大学",
+      "query": "\"论大城市\" \"空间绩效\" \"画像\"",
+      "outcome": "2017与2021相关论文线索"
+    },
+    {
+      "id": "E6-Q20",
+      "workstream": "east",
+      "date": "2026-10-10",
+      "institution": "天津大学",
+      "query": "\"天津大学\" \"location-based services\" urban",
+      "outcome": "李文博JRS2026主候选"
+    },
+    {
+      "id": "E6-Q21",
+      "workstream": "east",
+      "date": "2026-10-10",
+      "institution": "天津大学",
+      "query": "\"Wenbo Li\" \"driving restrictions\" 2026",
+      "outcome": "DOI和期刊题录，后直接读Wiley页面"
+    },
+    {
+      "id": "E6-Q22",
+      "workstream": "east",
+      "date": "2026-10-10",
+      "institution": "同济大学",
+      "query": "\"论大城市\" \"多中心\" \"2017\" \"pdf\"",
+      "outcome": "原文引用链与厦门耦合论文"
+    },
+    {
+      "id": "E6-Q23",
+      "workstream": "east",
+      "date": "2026-10-10",
+      "institution": "上海大学",
+      "query": "\"厦漳泉\" \"空间网络\" LBS",
+      "outcome": "Cities引用2019论文，仍仅待追原文"
+    },
+    {
+      "id": "E6-Q24",
+      "workstream": "east",
+      "date": "2026-10-10",
+      "institution": "东南大学",
+      "query": "\"Towards Intercity Mobility System\" \"Tencent\" OR \"Baidu\"",
+      "outcome": "找到PROMET DOI，但原文网络获取失败，供应商未知"
+    },
+    {
+      "id": "S01",
+      "workstream": "south",
+      "date": "2026-10-10",
+      "institution": "hku",
+      "query": "\"Tianren Yang\" \"location-based services\" mobility data",
+      "outcome": "命中 ghost kitchens 百度慧眼网格人口来源线索"
+    },
+    {
+      "id": "S02",
+      "workstream": "south",
+      "date": "2026-10-10",
+      "institution": "hku",
+      "query": "\"杨天人\" \"轨迹\" 数据 项目",
+      "outcome": "未新增公开 Jike 采购证明"
+    },
+    {
+      "id": "S03",
+      "workstream": "south",
+      "date": "2026-10-10",
+      "institution": "szu",
+      "query": "\"Jizhe Xia\" \"mobile phone\" data -hospital",
+      "outcome": "命中 JMIR 2023 疫情人口流动论文"
+    },
+    {
+      "id": "S04",
+      "workstream": "south",
+      "date": "2026-10-10",
+      "institution": "szu",
+      "query": "\"夏吉喆\" \"轨迹\" 数据",
+      "outcome": "命中 2020 测绘学报论文及教学资料，尚未核定具体供方"
+    },
+    {
+      "id": "S05",
+      "workstream": "south",
+      "date": "2026-10-10",
+      "institution": "fzu",
+      "query": "\"Fuzhou University\" \"mobile phone\" \"data\" mobility",
+      "outcome": "命中商业 GNSS 位置预测研究"
+    },
+    {
+      "id": "S06",
+      "workstream": "south",
+      "date": "2026-10-10",
+      "institution": "fzu",
+      "query": "\"福州大学\" \"轨迹\" \"手机\" 数据",
+      "outcome": "命中会议手机位置乒乓效应报告；不能由信令词直接判定供方"
+    },
+    {
+      "id": "S07",
+      "workstream": "south",
+      "date": "2026-10-10",
+      "institution": "cas_du",
+      "query": "\"Yunyan Du\" \"mobile phone\" data",
+      "outcome": "官方研究者页面给出暴雨、台风、人口动态研究线索"
+    },
+    {
+      "id": "S08",
+      "workstream": "south",
+      "date": "2026-10-10",
+      "institution": "cas_du",
+      "query": "\"杜云艳\" \"LBS\" 数据",
+      "outcome": "未取得额外直接供应商证明"
+    },
+    {
+      "id": "S09",
+      "workstream": "south",
+      "date": "2026-10-10",
+      "institution": "scu",
+      "query": "\"Sichuan University\" \"mobile phone\" \"location\" data urban",
+      "outcome": "命中 Frontiers 2022 基站信令与模拟轨迹研究"
+    },
+    {
+      "id": "S10",
+      "workstream": "south",
+      "date": "2026-10-10",
+      "institution": "scu",
+      "query": "\"四川大学\" \"LBS\" 数据 论文",
+      "outcome": "多数同名缩写或计算机隐私方法，未核实商业 SDK 采购"
+    },
+    {
+      "id": "S11",
+      "workstream": "south",
+      "date": "2026-10-10",
+      "institution": "cqu",
+      "query": "\"Chongqing University\" \"mobile phone\" \"GPS\" data",
+      "outcome": "命中旅游轨迹与慢跑数据研究线索；排除重庆邮电大学混同"
+    },
+    {
+      "id": "S12",
+      "workstream": "south",
+      "date": "2026-10-10",
+      "institution": "cqu",
+      "query": "\"重庆大学\" \"LBS\" 数据 轨迹",
+      "outcome": "命中轨迹学位论文线索，未取得供应商证据"
+    },
+    {
+      "id": "S13",
+      "workstream": "south",
+      "date": "2026-10-10",
+      "institution": "cas_du",
+      "query": "\"Yunyan Du\" \"smart phone location\" rainstorms data Tencent",
+      "outcome": "腾讯位置请求 API 网格聚合来源得到正文确认"
+    },
+    {
+      "id": "S14",
+      "workstream": "south",
+      "date": "2026-10-10",
+      "institution": "fzu",
+      "query": "\"Fuzhou\" \"Representation-Enhanced\" \"location service\"",
+      "outcome": "原文 5.1 明确未具名商业位置公司手机 GNSS 数据"
+    },
+    {
+      "id": "S15",
+      "workstream": "south",
+      "date": "2026-10-10",
+      "institution": "cqu",
+      "query": "\"Chongqing University\" \"tourist mobility patterns\" mobile data",
+      "outcome": "锁定 DOI 10.1016/j.apgeog.2023.103090；供应商待查"
+    },
+    {
+      "id": "S16",
+      "workstream": "south",
+      "date": "2026-10-10",
+      "institution": "scu",
+      "query": "\"Sichuan University\" \"location-based\" \"Baidu\" urban",
+      "outcome": "未取得四川大学商业数据使用直接证据"
+    },
+    {
+      "id": "S17",
+      "workstream": "south",
+      "date": "2026-10-10",
+      "institution": "cqu",
+      "query": "\"Chongqing University\" \"mobile phone\" \"China Mobile\" parks",
+      "outcome": "未取得旅游候选论文方法段；不可凭该查询推断运营商"
+    },
+    {
+      "id": "S18",
+      "workstream": "south",
+      "date": "2026-10-10",
+      "institution": "scu",
+      "query": "\"Sichuan University\" mobility \"location-based service\" data",
+      "outcome": "未取得新增适用供方证据"
+    },
+    {
+      "id": "S19",
+      "workstream": "south",
+      "date": "2026-10-10",
+      "institution": "hku",
+      "query": "\"Tianren Yang\" thesis project \"mobile phone data\"",
+      "outcome": "找到 2020 通勤论文机构库正文；实际为基站位置"
+    },
+    {
+      "id": "S20",
+      "workstream": "south",
+      "date": "2026-10-10",
+      "institution": "szu",
+      "query": "\"夏吉喆\" \"数据\" \"WiFi\" -医院 -hospital",
+      "outcome": "复现已入库 PM2.5 摸星数据研究，无新篇计数"
+    },
+    {
+      "id": "S21",
+      "workstream": "south",
+      "date": "2026-10-10",
+      "institution": "cqu",
+      "query": "\"Deciphering spatiotemporal patterns\" jogging GPS data Cities 2025",
+      "outcome": "锁定 DOI 10.1016/j.cities.2025.106185；GPS 运动 App 邻近类别"
+    },
+    {
+      "id": "S22",
+      "workstream": "south",
+      "date": "2026-10-10",
+      "institution": "cqu",
+      "query": "\"Comparison of the tourist mobility patterns\" \"data\" provider",
+      "outcome": "精确题名和 DOI 可核，供方仍待正文"
+    },
+    {
+      "id": "S23",
+      "workstream": "south",
+      "date": "2026-10-10",
+      "institution": "scu",
+      "query": "\"四川大学\" \"百度慧眼\" 论文",
+      "outcome": "未取得可接受直接对应论文"
+    },
+    {
+      "id": "S24",
+      "workstream": "south",
+      "date": "2026-10-10",
+      "institution": "cqu",
+      "query": "\"重庆大学\" \"及刻\" \"数据\"",
+      "outcome": "未取得公开供应商对应证据"
+    },
+    {
+      "id": "NQ01",
+      "workstream": "north",
+      "date": "2026-10-10",
+      "institution": "北京大学",
+      "query": "\"Peking University\" \"mobile phone\" \"location\" \"data company\"",
+      "outcome": "检出论文与院系线索，未直接锁定目标供方"
+    },
+    {
+      "id": "NQ02",
+      "workstream": "north",
+      "date": "2026-10-10",
+      "institution": "北京大学",
+      "query": "\"Peking University\" \"GPS\" \"mobility\" \"LBS\"",
+      "outcome": "噪声较多；不能以学校地点或普通LBS术语判断归属"
+    },
+    {
+      "id": "NQ03",
+      "workstream": "north",
+      "date": "2026-10-10",
+      "institution": "清华大学",
+      "query": "\"Tsinghua University\" \"anonymous\" \"trajectories\" \"mobile phone\"",
+      "outcome": "检出轨迹生成与通信网络数据，须区分DPI/基站"
+    },
+    {
+      "id": "NQ04",
+      "workstream": "north",
+      "date": "2026-10-10",
+      "institution": "清华大学",
+      "query": "\"Tsinghua University\" \"WiFi\" \"mobile phone data\"",
+      "outcome": "检出成都网格聚合研究；后核为中国联通"
+    },
+    {
+      "id": "NQ05",
+      "workstream": "north",
+      "date": "2026-10-10",
+      "institution": "北京大学深研院",
+      "query": "\"Peking University Shenzhen\" \"location-based\" mobility data",
+      "outcome": "R6N02/R6N03/R6N05；另有联通/信令边界"
+    },
+    {
+      "id": "NQ06",
+      "workstream": "north",
+      "date": "2026-10-10",
+      "institution": "北京大学",
+      "query": "\"北京大学\" \"手机\" \"GPS\" \"轨迹\" 数据",
+      "outcome": "大量校园活动及综述噪声，未把地点当作者机构"
+    },
+    {
+      "id": "NQ07",
+      "workstream": "north",
+      "date": "2026-10-10",
+      "institution": "中南大学",
+      "query": "\"Central South University\" \"mobile phone data\" LBS",
+      "outcome": "直接强命中不足，后续扩大human mobility"
+    },
+    {
+      "id": "NQ08",
+      "workstream": "north",
+      "date": "2026-10-10",
+      "institution": "中南大学",
+      "query": "\"中南大学\" \"手机\" \"轨迹\" \"数据公司\"",
+      "outcome": "未取得明确目标公司论文"
+    },
+    {
+      "id": "NQ09",
+      "workstream": "north",
+      "date": "2026-10-10",
+      "institution": "中南大学",
+      "query": "\"Central South University\" \"location-based service\" \"mobility\"",
+      "outcome": "定位隐私/RTK边界为主"
+    },
+    {
+      "id": "NQ10",
+      "workstream": "north",
+      "date": "2026-10-10",
+      "institution": "中南大学",
+      "query": "\"中南大学\" \"LBS\" 数据 城市",
+      "outcome": "应用与会议条目为主；未据LBS直接定SDK"
+    },
+    {
+      "id": "NQ11",
+      "workstream": "north",
+      "date": "2026-10-10",
+      "institution": "北京交通大学",
+      "query": "\"Beijing Jiaotong University\" \"mobile phone\" \"location-based\"",
+      "outcome": "腾讯App OD交通需求论文、CDR验证章节"
+    },
+    {
+      "id": "NQ12",
+      "workstream": "north",
+      "date": "2026-10-10",
+      "institution": "北京交通大学",
+      "query": "\"北京交通大学\" \"手机定位\" 数据 论文",
+      "outcome": "教师官方目录手机GPS换乘识别；自采传感器边界"
+    },
+    {
+      "id": "NQ13",
+      "workstream": "north",
+      "date": "2026-10-10",
+      "institution": "中规院上海分院",
+      "query": "\"中规院上海分院\" \"手机\" 数据",
+      "outcome": "官方长三角规划平台手机信令；技术论文"
+    },
+    {
+      "id": "NQ14",
+      "workstream": "north",
+      "date": "2026-10-10",
+      "institution": "中规院上海分院",
+      "query": "\"中国城市规划设计研究院上海分院\" \"LBS\"",
+      "outcome": "R6N01高铁枢纽LBS全出行链"
+    },
+    {
+      "id": "NQ15",
+      "workstream": "north",
+      "date": "2026-10-10",
+      "institution": "清华大学",
+      "query": "\"Tsinghua\" \"Moxing\" mobility",
+      "outcome": "L21旧记录重复；排除无关同名Moxing"
+    },
+    {
+      "id": "NQ16",
+      "workstream": "north",
+      "date": "2026-10-10",
+      "institution": "清华大学",
+      "query": "\"清华大学\" \"手机\" \"位置服务\" 数据 研究",
+      "outcome": "清华赵慧敏/龙瀛住房空置博士论文"
+    },
+    {
+      "id": "NQ17",
+      "workstream": "north",
+      "date": "2026-10-10",
+      "institution": "中南大学",
+      "query": "\"Central South University\" \"human mobility\" \"data\"",
+      "outcome": "深圳拥挤事件实为地铁智能卡，排除SDK"
+    },
+    {
+      "id": "NQ18",
+      "workstream": "north",
+      "date": "2026-10-10",
+      "institution": "中南大学",
+      "query": "\"中南大学\" \"手机信令\" 城市 论文",
+      "outcome": "R6N04乡村就医；标题未披露供方"
+    },
+    {
+      "id": "NQ19",
+      "workstream": "north",
+      "date": "2026-10-10",
+      "institution": "中规院上海分院",
+      "query": "\"中规院上海分院\" \"LBS\" 高铁",
+      "outcome": "R6N01优先原文核验"
+    },
+    {
+      "id": "NQ20",
+      "workstream": "north",
+      "date": "2026-10-10",
+      "institution": "清华大学",
+      "query": "\"清华大学\" \"LBS数据\" 龙瀛",
+      "outcome": "校园/城市数据与WiFi探针边界，继续定位学位论文"
+    },
+    {
+      "id": "NQ21",
+      "workstream": "north",
+      "date": "2026-10-10",
+      "institution": "中南大学",
+      "query": "\"基于手机定位数据的乡村居民进城就医行为\" 数据",
+      "outcome": "原刊摘要、作者、基金已核；全文需CNKI"
+    },
+    {
+      "id": "NQ22",
+      "workstream": "north",
+      "date": "2026-10-10",
+      "institution": "北京交通大学",
+      "query": "\"Regional Traffic Demand Forecasting\" \"Mobile Phone\" Ge Meng-xue",
+      "outcome": "SciEngine原刊PDF索引明确腾讯OD，下载429"
+    },
+    {
+      "id": "NQ23",
+      "workstream": "north",
+      "date": "2026-10-10",
+      "institution": "清华大学",
+      "query": "\"Prof iling Residents\" \"Chengdu\" mobile",
+      "outcome": "拼写带空格查询无强结果；Q25修正"
+    },
+    {
+      "id": "NQ24",
+      "workstream": "north",
+      "date": "2026-10-10",
+      "institution": "中南大学",
+      "query": "\"中央\" \"中南大学\" \"手机定位数据\" 王璞",
+      "outcome": "含多余中央限定，无额外强结果，保留真实查询日志"
+    },
+    {
+      "id": "NQ25",
+      "workstream": "north",
+      "date": "2026-10-10",
+      "institution": "清华大学/北京大学",
+      "query": "\"Profiling Residents’ Mobility with Grid-Aggregated Mobile Phone Trace Data\"",
+      "outcome": "原刊及北大机构库核实中国联通，作为边界"
+    },
+    {
+      "id": "ROOT-Q01",
+      "workstream": "root_metadata_verification",
+      "date": "2026-10-10",
+      "institution": "北京大学 / Technical University of Munich",
+      "query": "\"SPATIO-TEMPORAL ANALYSIS OF URBAN ECONOMIC RESILIENCE DURING COVID-19 WITH MULTILAYER COMPLEX NETWORKS\"",
+      "outcome": "主线精确标题检索定位ISPRS正式原刊；L42补2023年、DOI10.5194/isprs-archives-XLVIII-1-W2-2023-361-2023、卷页361–368。",
+      "evidence_url": "https://isprs-archives.copernicus.org/articles/XLVIII-1-W2-2023/361/2023/",
+      "source": "主代理核验回传"
+    }
+  ],
+  "scope": "三条专线73条定向查询与主线1条正式题录核验查询；不宣称穷尽。",
+  "id_mapping": [
+    {
+      "source_id": "E6-01",
+      "catalog_id": "L33",
+      "title": "大城市“空间结构-交通模式”的耦合关系研究——对厦门市的多情景模拟分析和讨论",
+      "doi": "10.16361/j.upf.201706005"
+    },
+    {
+      "source_id": "E6-02",
+      "catalog_id": "L34",
+      "title": "空间需求订制的“产城融合”规划——以上海临港新城为例",
+      "doi": "10.16361/j.upf.202403014"
+    },
+    {
+      "source_id": "E6-03",
+      "catalog_id": "L35",
+      "title": "The Spillover Effect of Driving Restrictions on Intercity Travel",
+      "doi": "10.1111/jors.70043"
+    },
+    {
+      "source_id": "R6S_FZU_GNSS",
+      "catalog_id": "L36",
+      "title": "Predicting the Next Location of Urban Individuals via a Representation-Enhanced Multi-View Learning Network",
+      "doi": "10.3390/ijgi14080302"
+    },
+    {
+      "source_id": "R6S_CAS_TENCENT",
+      "catalog_id": "L37",
+      "title": "Anomalies of dwellers’ collective geotagged behaviors in response to rainstorms: a case study of eight cities in China using smartphone location data",
+      "doi": "10.5194/nhess-19-2169-2019"
+    },
+    {
+      "source_id": "R6S_HKU_GHOST",
+      "catalog_id": "L38",
+      "title": "Digital visibility, physical obscurity: Uncovering the location strategies of ghost kitchens in platform urbanism",
+      "doi": "10.1016/j.jretconser.2026.104766"
+    },
+    {
+      "source_id": "R6S_CQU_TOURISM",
+      "catalog_id": "L39",
+      "title": "Comparison of the tourist mobility patterns among demographic subgroups with mobile phone data: A case study of Chongqing, China",
+      "doi": "10.1016/j.apgeog.2023.103090"
+    },
+    {
+      "source_id": "R6S_CQU_JOGGING",
+      "catalog_id": "L40",
+      "title": "Deciphering spatiotemporal patterns and mobility network of outdoor jogging utilizing large-scale GPS trajectory data",
+      "doi": "10.1016/j.cities.2025.106185"
+    },
+    {
+      "source_id": "R6N01",
+      "catalog_id": "L41",
+      "title": "基于客群精准识别的长三角高铁枢纽地区发展评估：门槛、分异和核心空间",
+      "doi": "10.16361/j.upf.202404008"
+    },
+    {
+      "source_id": "R6N02",
+      "catalog_id": "L42",
+      "title": "SPATIO-TEMPORAL ANALYSIS OF URBAN ECONOMIC RESILIENCE DURING COVID-19 WITH MULTILAYER COMPLEX NETWORKS",
+      "doi": "10.5194/isprs-archives-XLVIII-1-W2-2023-361-2023"
+    },
+    {
+      "source_id": "R6N03",
+      "catalog_id": "L43",
+      "title": "基于位置服务大数据的粤港澳大湾区通勤标度特征分析",
+      "doi": "10.16511/j.cnki.qhdxxb.2022.26.019"
+    },
+    {
+      "source_id": "R6N04",
+      "catalog_id": "L44",
+      "title": "基于手机定位数据的乡村居民进城就医行为及可达性研究",
+      "doi": ""
+    },
+    {
+      "source_id": "R6N05",
+      "catalog_id": "L45",
+      "title": "Understanding Intercity Mobility Patterns in Rapidly Urbanizing China, 2015–2019: Evidence from Longitudinal Poisson Gravity Modeling",
+      "doi": "10.1080/24694452.2022.2097050"
+    }
+  ]
+}

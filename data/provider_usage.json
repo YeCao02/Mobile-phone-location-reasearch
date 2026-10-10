@@ -3854,7 +3854,7 @@
       "counts": {
         "confirmed_use": 1,
         "mention_only": 0,
-        "unresolved_candidate": 1
+        "unresolved_candidate": 2
       },
       "paper_ids": {
         "confirmed_use": [
@@ -3862,7 +3862,8 @@
         ],
         "mention_only": [],
         "unresolved_candidate": [
-          "L32"
+          "L32",
+          "L38"
         ]
       },
       "role_counts": {
@@ -3909,7 +3910,7 @@
         "unknown": {
           "confirmed_use": 0,
           "mention_only": 0,
-          "unresolved_candidate": 1
+          "unresolved_candidate": 2
         }
       },
       "role_paper_ids": {
@@ -3959,7 +3960,8 @@
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": [
-            "L32"
+            "L32",
+            "L38"
           ]
         }
       },
@@ -3968,6 +3970,7 @@
       "zero_count_meaning": "0仅表示当前文献目录中没有符合该证据门槛的记录；不是全领域无人使用，也不是搜索穷尽。",
       "association_ids": [
         "L30",
+        "L38",
         "L32"
       ],
       "entity_interpretation": "按现有品牌/实体标签分别计数",
@@ -4015,7 +4018,7 @@
         "unknown": {
           "confirmed_use": 0,
           "mention_only": 0,
-          "unresolved_candidate": 1
+          "unresolved_candidate": 2
         }
       }
     },
@@ -4026,13 +4029,14 @@
       "profile_group": "poi_context",
       "supply_chain_role": "原文明确的POI数据供方；不由POI使用推断其手机轨迹供给",
       "counts": {
-        "confirmed_use": 1,
+        "confirmed_use": 2,
         "mention_only": 0,
         "unresolved_candidate": 0
       },
       "paper_ids": {
         "confirmed_use": [
-          "L29"
+          "L29",
+          "L42"
         ],
         "mention_only": [],
         "unresolved_candidate": []
@@ -4049,7 +4053,7 @@
           "unresolved_candidate": 0
         },
         "poi": {
-          "confirmed_use": 1,
+          "confirmed_use": 2,
           "mention_only": 0,
           "unresolved_candidate": 0
         },
@@ -4097,7 +4101,8 @@
         },
         "poi": {
           "confirmed_use": [
-            "L29"
+            "L29",
+            "L42"
           ],
           "mention_only": [],
           "unresolved_candidate": []
@@ -4137,7 +4142,8 @@
       "confirmed_mixed_mobility_use": 0,
       "zero_count_meaning": "0仅表示当前文献目录中没有符合该证据门槛的记录；不是全领域无人使用，也不是搜索穷尽。",
       "association_ids": [
-        "L29"
+        "L29",
+        "L42"
       ],
       "entity_interpretation": "按现有品牌/实体标签分别计数",
       "evidence_role_counts": {
@@ -4152,7 +4158,348 @@
           "unresolved_candidate": 0
         },
         "poi": {
+          "confirmed_use": 2,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "distribution": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "access_contact": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "platform_aggregate": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "vehicle_gps": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "comparison_reference": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "unknown": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        }
+      }
+    },
+    {
+      "id": "tencent",
+      "name": "腾讯 / Tencent",
+      "region": "china",
+      "profile_group": "platform_lbs_boundary",
+      "supply_chain_role": "App位置请求或平台城际LBS聚合；不等同可追踪个体的商业SDK轨迹",
+      "counts": {
+        "confirmed_use": 2,
+        "mention_only": 0,
+        "unresolved_candidate": 0
+      },
+      "paper_ids": {
+        "confirmed_use": [
+          "L37",
+          "L45"
+        ],
+        "mention_only": [],
+        "unresolved_candidate": []
+      },
+      "role_counts": {
+        "mobility": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "mixed_mobility": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "poi": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "distribution": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "access_contact": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "platform_aggregate": {
+          "confirmed_use": 2,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "vehicle_gps": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "comparison_reference": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "unknown": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        }
+      },
+      "role_paper_ids": {
+        "mobility": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "mixed_mobility": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "poi": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "distribution": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "access_contact": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "platform_aggregate": {
+          "confirmed_use": [
+            "L37",
+            "L45"
+          ],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "vehicle_gps": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "comparison_reference": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "unknown": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        }
+      },
+      "confirmed_mobility_use": 0,
+      "confirmed_mixed_mobility_use": 0,
+      "zero_count_meaning": "0仅表示当前文献目录中没有符合该证据门槛的记录；不是全领域无人使用，也不是搜索穷尽。",
+      "association_ids": [
+        "L37",
+        "L45"
+      ],
+      "entity_interpretation": "按现有品牌/实体标签分别计数",
+      "evidence_role_counts": {
+        "mobility": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "mixed_mobility": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "poi": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "distribution": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "access_contact": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "platform_aggregate": {
+          "confirmed_use": 2,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "vehicle_gps": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "comparison_reference": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "unknown": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        }
+      }
+    },
+    {
+      "id": "getui",
+      "name": "每日互动 / 个推 (Getui)",
+      "region": "china",
+      "profile_group": "china_app_lbs",
+      "supply_chain_role": "原文点名多App高精度位置报点与职住识别；传感器组成另核",
+      "counts": {
+        "confirmed_use": 1,
+        "mention_only": 0,
+        "unresolved_candidate": 0
+      },
+      "paper_ids": {
+        "confirmed_use": [
+          "L43"
+        ],
+        "mention_only": [],
+        "unresolved_candidate": []
+      },
+      "role_counts": {
+        "mobility": {
           "confirmed_use": 1,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "mixed_mobility": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "poi": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "distribution": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "access_contact": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "platform_aggregate": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "vehicle_gps": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "comparison_reference": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "unknown": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        }
+      },
+      "role_paper_ids": {
+        "mobility": {
+          "confirmed_use": [
+            "L43"
+          ],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "mixed_mobility": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "poi": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "distribution": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "access_contact": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "platform_aggregate": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "vehicle_gps": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "comparison_reference": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "unknown": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        }
+      },
+      "confirmed_mobility_use": 1,
+      "confirmed_mixed_mobility_use": 0,
+      "zero_count_meaning": "0仅表示当前文献目录中没有符合该证据门槛的记录；不是全领域无人使用，也不是搜索穷尽。",
+      "association_ids": [
+        "L43"
+      ],
+      "entity_interpretation": "按现有品牌/实体标签分别计数",
+      "evidence_role_counts": {
+        "mobility": {
+          "confirmed_use": 1,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "mixed_mobility": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "poi": {
+          "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
         },
@@ -6221,6 +6568,131 @@
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
       "primary_source_audit": "11页出版商PDF；sha256 94bc64018e7bec2ec9c8992eee6bd8feb7d86be908729b381cf4f084b17c7229；china_round5_hku原始核验。"
+    },
+    {
+      "paper_id": "L37",
+      "paper_title": "Anomalies of dwellers’ collective geotagged behaviors in response to rainstorms: a case study of eight cities in China using smartphone location data",
+      "doi": "10.5194/nhess-19-2169-2019",
+      "provider_id": "tencent",
+      "provider_name": "腾讯 / Tencent",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "platform_aggregate",
+      "roles": [
+        "platform_aggregate"
+      ],
+      "declared_brands": [
+        "腾讯 / Tencent"
+      ],
+      "evidence_url": "https://nhess.copernicus.org/articles/19/2169/2019/",
+      "evidence_section": "§2.2 Data collection；PDF页2–3",
+      "basis": "腾讯地图 API 的 App 位置请求按网格汇总；原文明确来源 heat.qq.com，位置请求数不是独立用户数，也不是作者持有个体轨迹。",
+      "catalog_status": "reviewed",
+      "scope": "app_api_location_request_aggregate",
+      "data_access_relationship": "aggregated_product",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "primary_source_audit": "第六轮原刊或作者机构资料核验；证据范围见逐项section。"
+    },
+    {
+      "paper_id": "L43",
+      "paper_title": "基于位置服务大数据的粤港澳大湾区通勤标度特征分析",
+      "doi": "10.16511/j.cnki.qhdxxb.2022.26.019",
+      "provider_id": "getui",
+      "provider_name": "每日互动 / 个推 (Getui)",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "每日互动 / 个推 (Getui)"
+      ],
+      "evidence_url": "https://jst.tsinghuajournals.com/article/2022/4316/1655364501775-162540954.htm",
+      "evidence_section": "§1研究案例，表1后数据段",
+      "basis": "原刊直接点名每日互动/个推；多App位置报点识别职住，使用2019年10–12月数据。GPS/WiFi/基站比例尚未拆分，不作为纯GPS/WiFi证明。",
+      "catalog_status": "reviewed",
+      "scope": "multi_app_lbs_sensor_composition_pending",
+      "data_access_relationship": "source_dataset",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "primary_source_audit": "第六轮原刊或作者机构资料核验；证据范围见逐项section。"
+    },
+    {
+      "paper_id": "L45",
+      "paper_title": "Understanding Intercity Mobility Patterns in Rapidly Urbanizing China, 2015–2019: Evidence from Longitudinal Poisson Gravity Modeling",
+      "doi": "10.1080/24694452.2022.2097050",
+      "provider_id": "tencent",
+      "provider_name": "腾讯 / Tencent",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "platform_aggregate",
+      "roles": [
+        "platform_aggregate"
+      ],
+      "declared_brands": [
+        "腾讯 / Tencent"
+      ],
+      "evidence_url": "https://www.tandfonline.com/doi/abs/10.1080/24694452.2022.2097050",
+      "evidence_section": "出版商摘要",
+      "basis": "出版商摘要明确使用腾讯2015–2019年每日城际LBS；仅核摘要，正文方法及传感器组成待核。",
+      "catalog_status": "pending",
+      "scope": "platform_intercity_lbs_aggregate",
+      "data_access_relationship": "aggregated_product",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "primary_source_audit": "第六轮原刊或作者机构资料核验；证据范围见逐项section。"
+    },
+    {
+      "paper_id": "L42",
+      "paper_title": "SPATIO-TEMPORAL ANALYSIS OF URBAN ECONOMIC RESILIENCE DURING COVID-19 WITH MULTILAYER COMPLEX NETWORKS",
+      "doi": "10.5194/isprs-archives-XLVIII-1-W2-2023-361-2023",
+      "provider_id": "gaode",
+      "provider_name": "高德 / Gaode (Amap)",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "poi",
+      "roles": [
+        "poi"
+      ],
+      "declared_brands": [
+        "高德 / Gaode (Amap)"
+      ],
+      "evidence_url": "https://www.bgd.ed.tum.de/pdf/2023_multilayer_Zhihang.pdf",
+      "evidence_section": "§2.1 Data Source；PDF页3",
+      "basis": "作者机构稿§2.1明确餐饮POI来自高德；手机位置数据服务商未具名，不能将高德写成轨迹供方。",
+      "catalog_status": "reviewed",
+      "scope": "poi_context_not_phone_trace",
+      "data_access_relationship": "poi_database",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "primary_source_audit": "第六轮原刊或作者机构资料核验；证据范围见逐项section。"
+    },
+    {
+      "paper_id": "L38",
+      "paper_title": "Digital visibility, physical obscurity: Uncovering the location strategies of ghost kitchens in platform urbanism",
+      "doi": "10.1016/j.jretconser.2026.104766",
+      "provider_id": "baidu",
+      "provider_name": "百度慧眼 / Baidu",
+      "status": "unresolved_candidate",
+      "classification": "unresolved_candidate",
+      "role": "unknown",
+      "roles": [
+        "unknown"
+      ],
+      "declared_brands": [
+        "百度慧眼 / Baidu"
+      ],
+      "evidence_url": "https://doi.org/10.1016/j.jretconser.2026.104766",
+      "evidence_section": "出版商索引方法片段；待正文复核",
+      "basis": "出版商索引方法片段出现百度慧眼100米居住/工作人口网格；正文尚未取得，保留候选而非确认使用。",
+      "catalog_status": "pending",
+      "scope": "lbs_population_aggregate_candidate",
+      "data_access_relationship": "unverified",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "primary_source_audit": "第六轮原刊或作者机构资料核验；证据范围见逐项section。"
     },
     {
       "paper_id": "L32",
@@ -8865,20 +9337,20 @@
     "name_collision_rule": "同音或近似拼写不构成供方关联，以上名称均未映射为北京摸星。"
   },
   "counts": {
-    "catalog_studies": 104,
-    "provider_nodes": 30,
-    "associations": 112,
-    "unique_studies_with_association": 88,
-    "unassigned_studies": 16,
+    "catalog_studies": 117,
+    "provider_nodes": 32,
+    "associations": 117,
+    "unique_studies_with_association": 93,
+    "unassigned_studies": 24,
     "association_counts_by_status": {
-      "confirmed_use": 35,
+      "confirmed_use": 39,
       "mention_only": 2,
-      "unresolved_candidate": 75
+      "unresolved_candidate": 76
     },
     "unique_studies_by_status": {
-      "confirmed_use": 27,
+      "confirmed_use": 31,
       "mention_only": 2,
-      "unresolved_candidate": 61
+      "unresolved_candidate": 62
     }
   },
   "linked_ecosystems": [
@@ -8914,6 +9386,54 @@
       "paper_id": "L31",
       "title": "From trajectory to behavior: Capturing individual travel details using an applet-based GPS tracking system",
       "doi": "10.1016/j.tbs.2025.101078",
+      "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
+    },
+    {
+      "paper_id": "L33",
+      "title": "大城市“空间结构-交通模式”的耦合关系研究——对厦门市的多情景模拟分析和讨论",
+      "doi": "10.16361/j.upf.201706005",
+      "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
+    },
+    {
+      "paper_id": "L34",
+      "title": "空间需求订制的“产城融合”规划——以上海临港新城为例",
+      "doi": "10.16361/j.upf.202403014",
+      "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
+    },
+    {
+      "paper_id": "L35",
+      "title": "The Spillover Effect of Driving Restrictions on Intercity Travel",
+      "doi": "10.1111/jors.70043",
+      "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
+    },
+    {
+      "paper_id": "L36",
+      "title": "Predicting the Next Location of Urban Individuals via a Representation-Enhanced Multi-View Learning Network",
+      "doi": "10.3390/ijgi14080302",
+      "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
+    },
+    {
+      "paper_id": "L39",
+      "title": "Comparison of the tourist mobility patterns among demographic subgroups with mobile phone data: A case study of Chongqing, China",
+      "doi": "10.1016/j.apgeog.2023.103090",
+      "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
+    },
+    {
+      "paper_id": "L40",
+      "title": "Deciphering spatiotemporal patterns and mobility network of outdoor jogging utilizing large-scale GPS trajectory data",
+      "doi": "10.1016/j.cities.2025.106185",
+      "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
+    },
+    {
+      "paper_id": "L41",
+      "title": "基于客群精准识别的长三角高铁枢纽地区发展评估：门槛、分异和核心空间",
+      "doi": "10.16361/j.upf.202404008",
+      "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
+    },
+    {
+      "paper_id": "L44",
+      "title": "基于手机定位数据的乡村居民进城就医行为及可达性研究",
+      "doi": "",
       "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
     },
     {

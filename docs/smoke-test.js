@@ -120,6 +120,32 @@ for(const g of groups){
  assert(node('#china-list').innerHTML.includes(`id="china-group-${g.id}"`),'Group should be searchable through output title');
  node('#clear').listeners.click();
 }
+// The school/team view exposes compact closed study, procurement and grant rows.
+assert(!/\.record(?:\[open\])?\s+summary/.test(html),'Record disclosure styles must target direct summaries');
+for(const g of groups){
+ for(const [i,study] of (g.studies||[]).entries()){
+  const output=vm.runInContext(`teamStudy(${JSON.stringify(study)},${i})`,ctx);
+  assert(output.startsWith('<details class="team-study"'),'Studies should be native disclosures');
+  assert(!/^<details[^>]*\bopen(?:\s|=|>)/.test(output),'Studies are collapsed by default');
+  const summary=output.match(/<summary>([\s\S]*?)<\/summary>/)[1];
+  assert(summary.includes(`研究 ${i+1}`));
+  for(const journal of [study.journal,...(study.outputs||[]).map(o=>o.journal)].filter(Boolean))
+   assert(summary.includes(vm.runInContext(`esc(${JSON.stringify(journal)})`,ctx)),'Journal belongs in the closed study summary');
+ }
+ for(const [key,label] of [['procurements','采购'],['grants','基金']]){
+  for(const [i,activity] of (g[key]||[]).entries()){
+   const output=vm.runInContext(`teamActivity(${JSON.stringify(activity)},${i},${JSON.stringify(label)})`,ctx);
+   assert(output.startsWith('<details class="team-activity"'));
+   assert(!/^<details[^>]*\bopen(?:\s|=|>)/.test(output),'Activities are collapsed by default');
+   assert(output.match(/<summary>([\s\S]*?)<\/summary>/)[1].includes(`${label} ${i+1}`));
+  }
+ }
+}
+for(const journal of ['Nature Health','Cities','International Journal of Applied Earth Observation and Geoinformation']){
+ const preview=vm.runInContext(`studyPreview({title:'A long research title',outputs:[{journal:${JSON.stringify(journal)}}]})`,ctx);
+ assert.equal(preview,journal.startsWith('International Journal')?'IJAEOG':journal);
+}
+
 const rawChinaPath=path.join(__dirname,'../data/china_evidence.json');
 if(fs.existsSync(rawChinaPath)){
  const rawChina=JSON.parse(fs.readFileSync(rawChinaPath,'utf8').replace(/^\uFEFF/,''));
@@ -137,3 +163,5 @@ for(const alias of data.china_source_aliases||[]){
 console.log(`PASS: ${total} records visible; all/year/journal/field counts; chart clicks; scope/status/work filters; independent reading/PDF/Zotero flags; supplier exact-ID counts/roles/stack/reset; grouped China evidence/source uniqueness/search; search and clear.`);
 
 assert(!vm.runInContext("coverage({institution:'清华大学',status:'paper_author_affiliation_confirmed_procurement_unverified',sources:[],next:'',query:''})",ctx).includes('采购证据与基金'));
+
+for(const target of ["docs/china-research-round6.md","data/china_round6_search.json","data/china_round6_followups.json","data/china_round6_boundaries.json","data/nature_health_attachment_review.json"])assert(html.includes(`href="${target}"`),`Missing research download ${target}`);

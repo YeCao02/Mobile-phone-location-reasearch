@@ -1,0 +1,178 @@
+{
+  "as_of": "2026-10-10",
+  "count": 10,
+  "records": [
+    {
+      "id": "E6-C01",
+      "title": "论大城市“多中心”空间结构的“空间绩效”机理——基于厦门LBS画像数据和常规普查数据的研究",
+      "authors": [
+        "李峰清",
+        "赵民",
+        "吴梦笛",
+        "黄建中"
+      ],
+      "year": 2017,
+      "journal": "城市规划学刊",
+      "issue": "5",
+      "pages": "21–32",
+      "doi": "",
+      "institutions": [
+        "同济大学（待核原文单位）"
+      ],
+      "evidence_url": "[私人路径已移除]",
+      "evidence_status": "官方教师成果表/后续论文参考文献；未取得原文",
+      "reason": "与E6-01紧密相关的厦门LBS画像论文；不能直接继承其SDK方法或供方",
+      "existing_catalog_matches": [],
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "E6-C02",
+      "title": "Towards Intercity Mobility System – Insights into the Spatial Interaction Gravity Model and Determination Approach",
+      "authors": [
+        "Qinyu Wang",
+        "Weijie Yu",
+        "Wei Wang",
+        "Xuedong Hua"
+      ],
+      "year": 2024,
+      "journal": "PROMET – Traffic & Transportation",
+      "volume": "36",
+      "issue": "2",
+      "doi": "10.7307/ptt.v36i2.414",
+      "institutions": [
+        "Southeast University（检索元数据关联，原文待核）"
+      ],
+      "evidence_url": "[私人路径已移除]",
+      "evidence_status": "期刊PDF被检索索引；网页/本地请求失败，未审读全文",
+      "reason": "LBS城际引力模型，未知供方，不凭题录判SDK",
+      "existing_catalog_matches": [],
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "E6-C03",
+      "title": "On the Calibration and Improvement of Human Mobility Models in Intercity Transportation System",
+      "authors": [
+        "Weijie Yu",
+        "Haosong Wen",
+        "Wei Wang",
+        "De Zhao",
+        "Xuedong Hua"
+      ],
+      "year": 2024,
+      "journal": "SSRN preprint",
+      "doi": "",
+      "institutions": [
+        "Southeast University（检索元数据关联）"
+      ],
+      "evidence_url": "[私人路径已移除]",
+      "evidence_status": "作者预印本检索索引；直接打开403，未审读全文",
+      "reason": "全国LBS城际流动；与E6-C02同组可能有版本关系，未核前不作独立正式论文计数",
+      "existing_catalog_matches": [],
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "E6-C04",
+      "title": "Human Mobility and Urban Village Renewal: A Multi-Agent Simulation Approach",
+      "authors": [
+        "Wenjia Zhao",
+        "Yupeng Liu",
+        "Qi Qin"
+      ],
+      "year": 2025,
+      "journal": "ACSP Annual Conference Book of Abstracts",
+      "doi": "",
+      "publication_type": "conference_abstract",
+      "institutions": [
+        "Southeast University"
+      ],
+      "evidence_url": "[私人路径已移除]",
+      "evidence_status": "会议官方摘要册检索索引，未本地审读",
+      "reason": "南京城中村LBS+POI+建筑形态多智能体模拟；摘要ID1844.0.0.346.2025；供方及采集方式待核",
+      "existing_catalog_matches": [],
+      "verified_on": "2026-10-10"
+    },
+    {
+      "id": "E6-C05",
+      "title": "Spatial network structure analysis of Xia-Zhang-Quan metropolitan area: LBS big data analysis based on crowds’ activities characteristics",
+      "authors": [
+        "Hu G.",
+        "Huang J.",
+        "Li F."
+      ],
+      "year": 2019,
+      "journal": "Modern Urban Research",
+      "issue": "11",
+      "pages": "13–19",
+      "doi": "",
+      "institutions": [
+        "同济/李峰清团队线索，原文待核"
+      ],
+      "evidence_url": "[私人路径已移除]",
+      "evidence_status": "既有L27参考文献链；本轮检索未取得原文",
+      "reason": "用户指定Cities相同数据形式参考文献追踪；作者中文全名未据缩写猜定",
+      "existing_catalog_matches": [],
+      "verified_on": "2026-10-10"
+    },
+    {
+      "title": "Quantitative Association between Nighttime Lights and Geo-Tagged Human Activity Dynamics during Typhoon Mangkhut",
+      "doi": "10.3390/rs11182091",
+      "journal": "Remote Sensing",
+      "year": 2019,
+      "institution": "CAS / Yunyan Du team",
+      "source_url": "[私人路径已移除]",
+      "status": "official_author_bibliography_verified_methods_unread"
+    },
+    {
+      "title": "城市时空大数据驱动的新型冠状病毒传播风险评估——以粤港澳大湾区为例",
+      "journal": "测绘学报",
+      "year": 2020,
+      "team": "夏吉喆合作团队",
+      "status": "DOI和实际来源未核，不并入核心记录"
+    },
+    {
+      "title": "手机位置数据中乒乓效应的检测-基于中国西宁案例",
+      "team": "福州大学张雯婷会议报告线索",
+      "source_url": "[私人路径已移除]",
+      "status": "conference_agenda_only; 不能据此认定商业 SDK"
+    },
+    {
+      "id": "R6N-BJTU-01",
+      "title": "基于手机应用软件测算OD数据的区域交通需求预测",
+      "year": 2019,
+      "journal": "公路交通科技",
+      "volume": "36",
+      "issue": "5",
+      "pages": "152–158",
+      "doi": "",
+      "authors": [
+        "葛梦雪",
+        "宋国华",
+        "王芃森",
+        "侯杰",
+        "闫小勇"
+      ],
+      "institution": "北京交通大学；腾讯科技（北京）有限公司",
+      "evidence_url": "[私人路径已移除]",
+      "provider": "腾讯",
+      "scope_tag": "platform_app_od_aggregate",
+      "evidence": "原刊PDF搜索索引摘要明确腾讯提供手机App测算OD，京津冀路网需求预测；原文下载429，DOI未核。",
+      "next_action": "取得原刊PDF补元数据与采集机制后入库"
+    },
+    {
+      "id": "R6N-THU-THESIS",
+      "title": "中国城市住房空置的多尺度测度研究",
+      "year": 2025,
+      "publication_type": "doctoral_thesis",
+      "authors": [
+        "赵慧敏"
+      ],
+      "team": "导师龙瀛；清华大学建筑学院",
+      "doi": "",
+      "evidence_url": "[私人路径已移除]",
+      "scope_tag": "multi_source_comparison_baidu_lbs_signaling_wifi_probe",
+      "evidence": "校图书馆摘要：北京5737居住区，用百度LBS、手机信令、遥感分别估计住房空置，WiFi探针验证；不是证明第三方SDK采集。",
+      "next_action": "查学位论文数据章与相应期刊论文；区分各来源的输入/验证角色"
+    }
+  ],
+  "scope": "尚需题录、全文、版本关系或数据来源核验的跟进线索，不纳13条新增目录计数"
+}

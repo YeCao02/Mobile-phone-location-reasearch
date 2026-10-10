@@ -581,6 +581,231 @@
       "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
     },
     {
+      "id": "L33",
+      "title": "大城市“空间结构-交通模式”的耦合关系研究——对厦门市的多情景模拟分析和讨论",
+      "doi": "10.16361/j.upf.201706005",
+      "journal": "城市规划学刊",
+      "catalog_status": "reviewed",
+      "status": [
+        "current_review_complete"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://doi.org/10.16361/j.upf.201706005"
+      ],
+      "next_action": "当前关键段审读完成，按需补充附件细读"
+    },
+    {
+      "id": "L34",
+      "title": "空间需求订制的“产城融合”规划——以上海临港新城为例",
+      "doi": "10.16361/j.upf.202403014",
+      "journal": "城市规划学刊",
+      "catalog_status": "reviewed",
+      "status": [
+        "current_review_complete"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://doi.org/10.16361/j.upf.202403014"
+      ],
+      "next_action": "当前关键段审读完成，按需补充附件细读"
+    },
+    {
+      "id": "L35",
+      "title": "The Spillover Effect of Driving Restrictions on Intercity Travel",
+      "doi": "10.1111/jors.70043",
+      "journal": "Journal of Regional Science",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://doi.org/10.1111/jors.70043"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "L36",
+      "title": "Predicting the Next Location of Urban Individuals via a Representation-Enhanced Multi-View Learning Network",
+      "doi": "10.3390/ijgi14080302",
+      "journal": "ISPRS International Journal of Geo-Information",
+      "catalog_status": "reviewed",
+      "status": [
+        "current_review_complete"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://doi.org/10.3390/ijgi14080302"
+      ],
+      "next_action": "当前关键段审读完成，按需补充附件细读"
+    },
+    {
+      "id": "L37",
+      "title": "Anomalies of dwellers’ collective geotagged behaviors in response to rainstorms: a case study of eight cities in China using smartphone location data",
+      "doi": "10.5194/nhess-19-2169-2019",
+      "journal": "Natural Hazards and Earth System Sciences",
+      "catalog_status": "reviewed",
+      "status": [
+        "current_review_complete"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://doi.org/10.5194/nhess-19-2169-2019"
+      ],
+      "next_action": "当前关键段审读完成，按需补充附件细读"
+    },
+    {
+      "id": "L38",
+      "title": "Digital visibility, physical obscurity: Uncovering the location strategies of ghost kitchens in platform urbanism",
+      "doi": "10.1016/j.jretconser.2026.104766",
+      "journal": "Journal of Retailing and Consumer Services",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://doi.org/10.1016/j.jretconser.2026.104766"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "L39",
+      "title": "Comparison of the tourist mobility patterns among demographic subgroups with mobile phone data: A case study of Chongqing, China",
+      "doi": "10.1016/j.apgeog.2023.103090",
+      "journal": "Applied Geography",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://doi.org/10.1016/j.apgeog.2023.103090"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "L40",
+      "title": "Deciphering spatiotemporal patterns and mobility network of outdoor jogging utilizing large-scale GPS trajectory data",
+      "doi": "10.1016/j.cities.2025.106185",
+      "journal": "Cities",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://doi.org/10.1016/j.cities.2025.106185"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "L41",
+      "title": "基于客群精准识别的长三角高铁枢纽地区发展评估：门槛、分异和核心空间",
+      "doi": "10.16361/j.upf.202404008",
+      "journal": "城市规划学刊",
+      "catalog_status": "reviewed",
+      "status": [
+        "current_review_complete"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://doi.org/10.16361/j.upf.202404008"
+      ],
+      "next_action": "当前关键段审读完成，按需补充附件细读"
+    },
+    {
+      "id": "L42",
+      "title": "SPATIO-TEMPORAL ANALYSIS OF URBAN ECONOMIC RESILIENCE DURING COVID-19 WITH MULTILAYER COMPLEX NETWORKS",
+      "doi": "10.5194/isprs-archives-XLVIII-1-W2-2023-361-2023",
+      "journal": "The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences",
+      "catalog_status": "reviewed",
+      "status": [
+        "current_review_complete"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://doi.org/10.5194/isprs-archives-XLVIII-1-W2-2023-361-2023"
+      ],
+      "next_action": "当前关键段审读完成，按需补充附件细读"
+    },
+    {
+      "id": "L43",
+      "title": "基于位置服务大数据的粤港澳大湾区通勤标度特征分析",
+      "doi": "10.16511/j.cnki.qhdxxb.2022.26.019",
+      "journal": "清华大学学报(自然科学版)",
+      "catalog_status": "reviewed",
+      "status": [
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://doi.org/10.16511/j.cnki.qhdxxb.2022.26.019"
+      ],
+      "next_action": "经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "L44",
+      "title": "基于手机定位数据的乡村居民进城就医行为及可达性研究",
+      "doi": "",
+      "journal": "地理与地理信息科学",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "L45",
+      "title": "Understanding Intercity Mobility Patterns in Rapidly Urbanizing China, 2015–2019: Evidence from Longitudinal Poisson Gravity Modeling",
+      "doi": "10.1080/24694452.2022.2097050",
+      "journal": "Annals of the American Association of Geographers",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://doi.org/10.1080/24694452.2022.2097050"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
       "id": "P240AD96D",
       "title": "Insights into population behavior during the COVID-19 pandemic from cell phone mobility data and manifold learning",
       "doi": "10.1038/s43588-021-00125-9",
@@ -1864,6 +2089,6 @@
       "next_action": "核对书目信息和数据来源，审读方法段"
     }
   ],
-  "count": 104,
+  "count": 117,
   "definitions": "pdf_acquisition=true仅表示尚未核实本地PDF；不意味着文章不可访问。"
 }
