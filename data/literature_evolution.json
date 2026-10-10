@@ -23,18 +23,26 @@
       "data_form": "设备位置ping与停留/家庭访问推断",
       "use_method": "利用节日停留时长及居住地选举信息分析政治分歧与家庭相聚。",
       "evidence_url": "https://www.anderson.ucla.edu/faculty_pages/keith.chen/papers/Final_Science18.pdf",
-      "evidence_section": "正文检索片段；作者ReadMe",
-      "fulltext_read": false,
-      "fulltext_scope": "仅可见证据片段，未标记全文已读",
+      "evidence_section": "Main text location-data paragraph; acknowledgments and data availability；PDF页1,4",
+      "fulltext_read": true,
+      "fulltext_scope": "Downloaded PDF identity verified; data/methods/provider passages reviewed, not every page or supplement.",
       "source_confirmed": true,
-      "access_status": "author_pdf_indexed_open_failed",
+      "access_status": "downloaded_pdf_identity_and_methods_verified",
       "app_collection_confirmed": true,
       "sdk_explicit": false,
       "sensor_mix": "论文未提供逐点定位源审计；不能证明绝无蜂窝辅助定位",
       "review_date": "2026-10-10",
-      "notes": "作者ReadMe: https://www.anderson.ucla.edu/faculty_pages/keith.chen/papers/Science_2018_ReadMe.pdf；当前不能将索引片段升级为完整PDF审读。",
-      "pdf_downloaded": false,
-      "zotero_attachment_verified": false
+      "notes": "作者机构PDF已下载，标题及PDF页4的DOI核实，数据/方法关键段已读；作者ReadMe可作为进一步复现材料。",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false,
+      "journal": "Science",
+      "field": "政治与社会地理",
+      "pdf_evidence_pages": [
+        1,
+        4
+      ],
+      "pdf_source_url": "https://www.anderson.ucla.edu/faculty_pages/keith.chen/papers/Final_Science18.pdf",
+      "pdf_sha256": "22882d49efd7866e6035e77de573cd61c48130f6c885abea8beb73c8a23b9694"
     },
     {
       "id": "L02",
@@ -66,7 +74,9 @@
       "pdf_evidence_pages": [
         2,
         3
-      ]
+      ],
+      "journal": "Scientific Data",
+      "field": "健康与公共卫生"
     },
     {
       "id": "L03",
@@ -99,7 +109,9 @@
         2,
         7,
         8
-      ]
+      ],
+      "journal": "Nature",
+      "field": "城市社会地理"
     },
     {
       "id": "L04",
@@ -124,7 +136,9 @@
       "review_date": "2026-10-10",
       "notes": "读取到原始方法索引段；PMC直接打开验证码。不能把推断职工当作已验证雇佣记录。",
       "pdf_downloaded": false,
-      "zotero_attachment_verified": false
+      "zotero_attachment_verified": false,
+      "journal": "Proceedings of the National Academy of Sciences (PNAS)",
+      "field": "健康与公共卫生"
     },
     {
       "id": "L05",
@@ -149,7 +163,9 @@
       "review_date": "2026-10-10",
       "notes": "DFW 2016-11至2017-04；最贴合用户GPS/WiFi关注的机制声明，但仍未给出逐点定位源比例。",
       "pdf_downloaded": false,
-      "zotero_attachment_verified": false
+      "zotero_attachment_verified": false,
+      "journal": "EPJ Data Science",
+      "field": "交通与出行行为"
     },
     {
       "id": "L06",
@@ -174,7 +190,9 @@
       "review_date": "2026-10-10",
       "notes": "2016-10至2017-03、11个美国都会区；地区收入作为个体SES代理，非已知个人收入。",
       "pdf_downloaded": false,
-      "zotero_attachment_verified": false
+      "zotero_attachment_verified": false,
+      "journal": "Nature Communications",
+      "field": "城市社会地理"
     },
     {
       "id": "L07",
@@ -199,7 +217,9 @@
       "review_date": "2026-10-10",
       "notes": "数据2015-11至2017-11；不能将员工推断或面对面互动写成真实身份确认。",
       "pdf_downloaded": false,
-      "zotero_attachment_verified": false
+      "zotero_attachment_verified": false,
+      "journal": "Strategic Management Journal",
+      "field": "经济与商业地理"
     },
     {
       "id": "L08",
@@ -224,7 +244,9 @@
       "review_date": "2026-10-10",
       "notes": "原文SDM命名与Weekly Patterns文档链接并存，保留原文，不强行规范成唯一商品。",
       "pdf_downloaded": false,
-      "zotero_attachment_verified": false
+      "zotero_attachment_verified": false,
+      "journal": "Scientific Data",
+      "field": "计算方法与数据基础设施"
     },
     {
       "id": "L09",
@@ -249,7 +271,9 @@
       "review_date": "2026-10-10",
       "notes": "数据形态已确认；本輪可见方法未独立确认应用/SDK采集路径，不由品牌自动推定。",
       "pdf_downloaded": false,
-      "zotero_attachment_verified": false
+      "zotero_attachment_verified": false,
+      "journal": "International Journal of Health Geographics",
+      "field": "健康与公共卫生"
     },
     {
       "id": "L10",
@@ -274,7 +298,9 @@
       "review_date": "2026-10-10",
       "notes": "PMC链接https://pmc.ncbi.nlm.nih.gov/articles/PMC9202634/；不能从摘要补写详细数据采集机制。",
       "pdf_downloaded": false,
-      "zotero_attachment_verified": false
+      "zotero_attachment_verified": false,
+      "journal": "Annals of Epidemiology",
+      "field": "测量方法与数据质量"
     },
     {
       "id": "L11",
@@ -299,7 +325,9 @@
       "review_date": "2026-10-10",
       "notes": "输入时间2017三个月。空间共现代表接触机会，不能等同真实社交。",
       "pdf_downloaded": false,
-      "zotero_attachment_verified": false
+      "zotero_attachment_verified": false,
+      "journal": "Nature",
+      "field": "城市社会地理"
     },
     {
       "id": "L12",
@@ -313,18 +341,25 @@
       "data_form": "POI访问+公园边界",
       "use_method": "以纽约公园空间数据匹配POI，比较2019与2020到访。",
       "evidence_url": "https://www.nature.com/articles/s41598-023-46745-1",
-      "evidence_section": "Data and methods",
-      "fulltext_read": false,
-      "fulltext_scope": "仅可见证据片段，未标记全文已读",
+      "evidence_section": "Data and methods；PDF页9",
+      "fulltext_read": true,
+      "fulltext_scope": "Downloaded PDF identity verified; data/methods/provider passages reviewed, not every page or supplement.",
       "source_confirmed": true,
-      "access_status": "publisher_indexed_methods_open_error",
+      "access_status": "downloaded_pdf_identity_and_methods_verified",
       "app_collection_confirmed": true,
       "sdk_explicit": false,
       "sensor_mix": "论文未提供逐点定位源审计；不能证明绝无蜂窝辅助定位",
       "review_date": "2026-10-10",
-      "notes": "仅原始方法索引段已读；全篇与附件待复核。",
-      "pdf_downloaded": false,
-      "zotero_attachment_verified": false
+      "notes": "本轮已下载出版社PDF并复核Data and methods；完整附件及其他细节仍可进一步审读。",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false,
+      "journal": "Scientific Reports",
+      "field": "环境与生态",
+      "pdf_evidence_pages": [
+        9
+      ],
+      "pdf_source_url": "https://www.nature.com/articles/s41598-023-46745-1.pdf",
+      "pdf_sha256": "30d9102dbc42c0b12ecc27a6180ce4df71bdcfbe270df2f4072cf1f81fb7a476"
     },
     {
       "id": "L13",
@@ -349,7 +384,9 @@
       "review_date": "2026-10-10",
       "notes": "需补查完整Methods与2024勘误10.1038/s41562-024-01874-z；GPS并不自动证明SDK。",
       "pdf_downloaded": false,
-      "zotero_attachment_verified": false
+      "zotero_attachment_verified": false,
+      "journal": "Nature Human Behaviour",
+      "field": "城市规划与服务可达性"
     },
     {
       "id": "L14",
@@ -374,7 +411,9 @@
       "review_date": "2026-10-10",
       "notes": "并未获取个人真实种族；NERD是概率推断聚合产品。",
       "pdf_downloaded": false,
-      "zotero_attachment_verified": false
+      "zotero_attachment_verified": false,
+      "journal": "Scientific Data",
+      "field": "城市社会地理"
     },
     {
       "id": "L15",
@@ -399,7 +438,9 @@
       "review_date": "2026-10-10",
       "notes": "原文标题为Date and preprocessing；敏感POI删除及住宅CBG模糊处理会改变可分析范围。",
       "pdf_downloaded": false,
-      "zotero_attachment_verified": false
+      "zotero_attachment_verified": false,
+      "journal": "Scientific Reports",
+      "field": "灾害与韧性"
     },
     {
       "id": "L16",
@@ -431,7 +472,9 @@
       "pdf_evidence_pages": [
         4,
         20
-      ]
+      ],
+      "journal": "PLOS ONE",
+      "field": "测量方法与数据质量"
     },
     {
       "id": "L17",
@@ -464,7 +507,9 @@
         5,
         6,
         7
-      ]
+      ],
+      "journal": "Communications Physics",
+      "field": "测量方法与数据质量"
     },
     {
       "id": "L18",
@@ -489,7 +534,9 @@
       "review_date": "2026-10-10",
       "notes": "原文称nine months但括号January to August 2020；不要替作者静默修正或据此填固定月数。",
       "pdf_downloaded": false,
-      "zotero_attachment_verified": false
+      "zotero_attachment_verified": false,
+      "journal": "Proceedings of the National Academy of Sciences (PNAS)",
+      "field": "地理与时空行为（待细分）"
     },
     {
       "id": "L19",
@@ -503,18 +550,25 @@
       "data_form": "设备/出行ID、时空点和几何→道路需求",
       "use_method": "HMM匹配道路，结合GTFS识别供给不足路段并提出路线。",
       "evidence_url": "https://link.springer.com/article/10.1140/epjds/s13688-025-00559-5",
-      "evidence_section": "3.2 LBS data in dallas, Texas；Background",
+      "evidence_section": "3.2 LBS data in Dallas, Texas；PDF页8",
       "fulltext_read": true,
-      "fulltext_scope": "原始全文页面中的数据/方法关键段已读；不表示逐句通读或补充材料全部审读",
+      "fulltext_scope": "Downloaded PDF identity verified; data/methods/provider passages reviewed, not every page or supplement.",
       "source_confirmed": true,
-      "access_status": "publisher_fulltext_html",
+      "access_status": "downloaded_pdf_identity_and_methods_verified",
       "app_collection_confirmed": true,
       "sdk_explicit": false,
       "sensor_mix": "论文未提供逐点定位源审计；不能证明绝无蜂窝辅助定位",
       "review_date": "2026-10-10",
       "notes": "与L05数据重用，不能计成独立新样本；收益为模型估计，非实施效果。",
-      "pdf_downloaded": false,
-      "zotero_attachment_verified": false
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false,
+      "journal": "EPJ Data Science",
+      "field": "交通与出行行为",
+      "pdf_evidence_pages": [
+        8
+      ],
+      "pdf_source_url": "https://link.springer.com/content/pdf/10.1140/epjds/s13688-025-00559-5.pdf",
+      "pdf_sha256": "425298b6102d1bbd1441b43c877c12586ba165b62eb67de4486789cfb75f5e2a"
     },
     {
       "id": "L20",
@@ -528,18 +582,25 @@
       "data_form": "人类POI月访问与小时流行度+鹿GPS项圈",
       "use_method": "构造空间单元中的人鹿活动统计并作贝叶斯模型分析。",
       "evidence_url": "https://www.nature.com/articles/s41598-025-03577-5",
-      "evidence_section": "Methods/data；Data availability",
+      "evidence_section": "Methods—human foot traffic data；PDF页8",
       "fulltext_read": true,
-      "fulltext_scope": "原始全文页面中的数据/方法关键段已读；不表示逐句通读或补充材料全部审读",
+      "fulltext_scope": "Downloaded PDF identity verified; data/methods/provider passages reviewed, not every page or supplement.",
       "source_confirmed": true,
-      "access_status": "publisher_fulltext_html",
+      "access_status": "downloaded_pdf_identity_and_methods_verified",
       "app_collection_confirmed": false,
       "sdk_explicit": false,
       "sensor_mix": "论文未提供逐点定位源审计；不能证明绝无蜂窝辅助定位",
       "review_date": "2026-10-10",
       "notes": "不能把文内Veraset参考文献归为本文供应商；手机轨迹与动物项圈GPS严格区分。",
-      "pdf_downloaded": false,
-      "zotero_attachment_verified": false
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false,
+      "journal": "Scientific Reports",
+      "field": "环境与生态",
+      "pdf_evidence_pages": [
+        8
+      ],
+      "pdf_source_url": "https://www.nature.com/articles/s41598-025-03577-5.pdf",
+      "pdf_sha256": "72c44ac0bc0b4f0d025da470c05d76b6e6b05b768f57cfb70ea458f409e6be33"
     },
     {
       "id": "L21",
@@ -562,7 +623,7 @@
       "sdk_explicit": false,
       "sensor_mix": "论文未提供逐点定位源审计；不能证明绝无蜂窝辅助定位",
       "review_date": "2026-10-10",
-      "notes": "2026-04-24发表，Nature Health 1:760–769。Moxing与先锋的法律实体关系待工商核证；NSFC 42171400、42471496。正文访问联系 chaitianyi@pioneerdata.com.cn。",
+      "notes": "2026-04-24发表，Nature Health 1:760–769。Moxing与先锋的法律实体关系待工商核证；NSFC 42171400、42471496。正文访问联系 [公开联系方式略]。",
       "pdf_downloaded": true,
       "zotero_attachment_verified": true,
       "pdf_audit_ids": [
@@ -577,7 +638,9 @@
       "supplement_audit_ids": [
         "PDF09"
       ],
-      "supplement_review_scope": "已核对补充PDF首页标题与DOI、目录；未逐页审读全部图表。"
+      "supplement_review_scope": "已核对补充PDF首页标题与DOI、目录；未逐页审读全部图表。",
+      "journal": "Nature Health",
+      "field": "健康与公共卫生"
     },
     {
       "id": "L22",
@@ -602,14 +665,16 @@
       "review_date": "2026-10-10",
       "notes": "必须删除旧表Spectus/Cuebiq-type推测；供应商确认前留在候选池。",
       "pdf_downloaded": false,
-      "zotero_attachment_verified": false
+      "zotero_attachment_verified": false,
+      "journal": "Journal of Transport Geography",
+      "field": "测量方法与数据质量"
     },
     {
       "fulltext_read": true,
-      "fulltext_scope": "原始全文数据/方法关键段已读；不表示逐句通读或补充材料全部审读",
+      "fulltext_scope": "Downloaded PDF identity verified; data/methods/provider passages reviewed, not every page or supplement.",
       "source_confirmed": true,
       "review_date": "2026-10-10",
-      "pdf_downloaded": false,
+      "pdf_downloaded": true,
       "zotero_attachment_verified": false,
       "sensor_mix": "未提供逐点定位源审计，不能从供应商或SDK声明推定所有点均为GPS/WiFi。",
       "id": "L23",
@@ -623,18 +688,27 @@
       "data_form": "隐私增强设备位置→通勤、跨都会区移动和时空共现指标",
       "use_method": "从昼夜常访个人区域推断家与工作地；构造五种行为指标，并比较远程办公、失业与疫情变化。",
       "evidence_url": "https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000430",
-      "evidence_section": "Materials and methods/Mobility data；Estimating commute volume；Estimating social mixing；Data Availability",
-      "access_status": "publisher_fulltext_html",
+      "evidence_section": "Materials and methods—Mobility data, commute and social mixing；PDF页3,4,5",
+      "access_status": "downloaded_pdf_identity_and_methods_verified",
       "app_collection_confirmed": true,
       "sdk_explicit": true,
-      "notes": "2020年1–9月；5.5百万设备面板。SDK明确但物理定位传感器组合未明示；38米×20米/15分钟共现不是确证面对面接触。"
+      "notes": "2020年1–9月；5.5百万设备面板。SDK明确但物理定位传感器组合未明示；38米×20米/15分钟共现不是确证面对面接触。",
+      "journal": "PLOS Digital Health",
+      "field": "健康与公共卫生",
+      "pdf_evidence_pages": [
+        3,
+        4,
+        5
+      ],
+      "pdf_source_url": "https://journals.plos.org/digitalhealth/article/file?id=10.1371/journal.pdig.0000430&type=printable",
+      "pdf_sha256": "75cdcd135874cc592b03b880d22d19c34ae1eea468d98cd24bb222753035f295"
     },
     {
       "fulltext_read": true,
-      "fulltext_scope": "原始全文数据/方法关键段已读；不表示逐句通读或补充材料全部审读",
+      "fulltext_scope": "Downloaded PDF identity verified; data/methods/provider passages reviewed, not every page or supplement.",
       "source_confirmed": true,
       "review_date": "2026-10-10",
-      "pdf_downloaded": false,
+      "pdf_downloaded": true,
       "zotero_attachment_verified": false,
       "sensor_mix": "未提供逐点定位源审计，不能从供应商或SDK声明推定所有点均为GPS/WiFi。",
       "id": "L24",
@@ -648,11 +722,20 @@
       "data_form": "细粒度手机位置与街段PM2.5预测→个体/群体暴露",
       "use_method": "筛选每天至少200条记录的用户，将街段停留时长、污染浓度及吸入率相乘，再比较居住地收入及族群代理组差异。",
       "evidence_url": "https://senseable.mit.edu/papers/pdf/20240627_Wang-etal_BigMobility_NatureCities.pdf",
-      "evidence_section": "PDF页7–9：Methods/Big mobility data sourcing and processing；Exposure calculation；Data availability；页13 Reporting summary",
-      "access_status": "author_institution_pdf_online_read",
+      "evidence_section": "Methods—Big mobility data sourcing and processing; Data availability; Reporting summary；PDF页7,9,13",
+      "access_status": "downloaded_pdf_identity_and_methods_verified",
       "app_collection_confirmed": false,
       "sdk_explicit": false,
-      "notes": "核心分析期2021年9–11月；Reporting summary写9–12月，保留差异。已读段只确认自愿手机位置，未逐篇明示SDK或GPS/WiFi。不是2016年使用蜂窝网络计数的Exposure Track。"
+      "notes": "核心分析期2021年9–11月；Reporting summary写9–12月，保留差异。已读段只确认自愿手机位置，未逐篇明示SDK或GPS/WiFi。不是2016年使用蜂窝网络计数的Exposure Track。",
+      "journal": "Nature Cities",
+      "field": "环境与生态",
+      "pdf_evidence_pages": [
+        7,
+        9,
+        13
+      ],
+      "pdf_source_url": "https://senseable.mit.edu/papers/pdf/20240627_Wang-etal_BigMobility_NatureCities.pdf",
+      "pdf_sha256": "cbc873dff71c53624dec6e976b58c5730c040e97e371c950d259805f7c745fdd"
     }
   ]
 }

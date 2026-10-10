@@ -4,7 +4,7 @@
 
 ## 核验结果与纳入边界
 
-本轮建立 **24 篇**代表记录：**16 篇**已读取原始全文HTML或身份核验PDF的数据/方法关键段；其他文献保留索引、部分正文或摘要状态。**23 篇**有供应商实际使用证据，**16 篇**有应用采集声明或明确来源链。两组指标不等价：供应商被确认不代表逐篇证明SDK，也不代表底层定位只使用GPS/WiFi。
+本轮建立 **24 篇**代表记录：**18 篇**已读取原始全文HTML或身份核验PDF的数据/方法关键段；其他文献保留索引、部分正文或摘要状态。**23 篇**有供应商实际使用证据，**16 篇**有应用采集声明或明确来源链。两组指标不等价：供应商被确认不代表逐篇证明SDK，也不代表底层定位只使用GPS/WiFi。
 
 本轮新增L23，正文明确Cuebiq自有定位SDK嵌入合作应用，故有 **1 篇SDK明示**。该声明仍不足以确认逐点物理定位传感器。手机应用可以调用操作系统定位服务；论文只说GPS或应用采集时，仍不能证明每个点没有蜂窝辅助。建议知识库用“应用采集GPS/LBS商业数据”作为已证据支持的主轴，另设SDK明示和传感器来源字段。传统运营商CDR/基站信令研究不进入纯应用数据核心样本；多源对比论文L17放在边界与验证层。
 
@@ -51,7 +51,7 @@
 
 |ID|年份/论文|供应商与产品|证据状态|
 |---|---|---|---|
-|L01|2018 · [The effect of partisanship and political advertising on close family ties](https://www.anderson.ucla.edu/faculty_pages/keith.chen/papers/Final_Science18.pdf)|SafeGraph · 历史设备级位置记录|author_pdf_indexed_open_failed|
+|L01|2018 · [The effect of partisanship and political advertising on close family ties](https://www.anderson.ucla.edu/faculty_pages/keith.chen/papers/Final_Science18.pdf)|SafeGraph · 历史设备级位置记录|本地PDF关键段已读|
 |L02|2020 · [Multiscale dynamic human mobility flow dataset in the U.S. during the COVID-19 epidemic](https://www.nature.com/articles/s41597-020-00734-5)|SafeGraph · 到访记录及多尺度派生OD|本地PDF关键段已读|
 |L03|2021 · [Mobility network models of COVID-19 explain inequities and inform reopening](https://www.nature.com/articles/s41586-020-2923-3)|SafeGraph · Places/Weekly Patterns与Social Distancing聚合指标|本地PDF关键段已读|
 |L04|2021 · [Nursing home staff networks and COVID-19](https://pmc.ncbi.nlm.nih.gov/articles/PMC7817179/)|Veraset · 匿名设备位置数据（未见正式商品名）|pmc_methods_indexed_direct_recaptcha|
@@ -62,20 +62,20 @@
 |L09|2022 · [Deriving neighborhood-level diet and physical activity measurements from anonymized mobile phone location data for enhancing obesity estimation](https://link.springer.com/article/10.1186/s12942-022-00321-4)|SafeGraph · POI访问聚合|全文关键段已读|
 |L10|2022 · [On selection bias in comparison measures of smartphone-generated population mobility: an illustration of no-bias conditions with a commercial data source](https://pubmed.ncbi.nlm.nih.gov/35288279/)|Cuebiq · 商业移动性指标（本轮未复核具体商品）|abstract_only|
 |L11|2023 · [Human mobility networks reveal increased segregation in large cities](https://www.nature.com/articles/s41586-023-06757-3)|SafeGraph · 历史设备级GPS ping|publisher_indexed_methods_open_idp_error|
-|L12|2023 · [Change of urban park usage as a response to the COVID-19 global pandemic](https://www.nature.com/articles/s41598-023-46745-1)|SafeGraph · Places及到访模式|publisher_indexed_methods_open_error|
+|L12|2023 · [Change of urban park usage as a response to the COVID-19 global pandemic](https://www.nature.com/articles/s41598-023-46745-1)|SafeGraph · Places及到访模式|本地PDF关键段已读|
 |L13|2024 · [The 15-minute city quantified using human mobility data](https://www.nature.com/articles/s41562-023-01770-y)|SafeGraph · 手机移动/消费到访记录|publisher_indexed_author_pdf_timeout|
 |L14|2024 · [An experienced racial-ethnic diversity dataset in the United States using human mobility data](https://www.nature.com/articles/s41597-024-03490-y)|Cuebiq/Spectus · Spectus Clean Room Stay Location Dataset / Data for Good|全文关键段已读|
 |L15|2024 · [Returners and explorers dichotomy in the face of natural hazards](https://www.nature.com/articles/s41598-024-64087-4)|Cuebiq · 隐私增强GPS/活动停留表|全文关键段已读|
 |L16|2024 · [Understanding the bias of mobile location data across spatial scales and over time: A comprehensive analysis of SafeGraph data in the United States](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0294430)|SafeGraph · Monthly Patterns Panel Overview|全文关键段已读|
 |L17|2024 · [Distorted insights from human mobility data](https://www.nature.com/articles/s42005-024-01909-x)|多源：Cuebiq、SafeGraph、Facebook、普查、CDR、Octotelematics等 · 不同来源流网络|本地PDF关键段已读|
 |L18|2025 · [Mixing individual and collective behaviors to predict out-of-routine mobility](https://pmc.ncbi.nlm.nih.gov/articles/PMC12054799/)|Cuebiq · Data for Good COVID-19 Collaborative|pmc_indexed_methods_direct_recaptcha|
-|L19|2025 · [Designing transit routes based on vehicle routing behavior determined through location-based services data](https://link.springer.com/article/10.1140/epjds/s13688-025-00559-5)|Cuebiq · Xu2021后处理LBS|全文关键段已读|
-|L20|2025 · [Integrating human mobility and animal movement data reveals complex space-use between humans and white-tailed deer in urban environments](https://www.nature.com/articles/s41598-025-03577-5)|Advan（访问）/SafeGraph（POI）/Dewey（分发） · Advan Monthly Patterns + SafeGraph Places|全文关键段已读|
+|L19|2025 · [Designing transit routes based on vehicle routing behavior determined through location-based services data](https://link.springer.com/article/10.1140/epjds/s13688-025-00559-5)|Cuebiq · Xu2021后处理LBS|本地PDF关键段已读|
+|L20|2025 · [Integrating human mobility and animal movement data reveals complex space-use between humans and white-tailed deer in urban environments](https://www.nature.com/articles/s41598-025-03577-5)|Advan（访问）/SafeGraph（POI）/Dewey（分发） · Advan Monthly Patterns + SafeGraph Places|本地PDF关键段已读|
 |L21|2026 · [Mobile phone data show spatial and socioeconomic inequalities in hospital utilization](https://www.nature.com/articles/s44360-026-00100-6)|Moxing Beijing（Methods）；pioneerdata.com.cn域名联系（Data availability） · 未披露正式产品；服务商运行代码并返回聚合结果|全文关键段已读|
 |L22|2025 · [Exploring biases in travel behavior patterns in big passively generated mobile data from 11 U.S. cities](https://www.sciencedirect.com/science/article/pii/S096669232400317X)|未披露（待全文复核） · LBS mobility records|publisher_partial_sections|
 
-|L23|2024 · [Characterizing collective physical distancing in the U.S. during the first nine months of the COVID-19 pandemic](https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000430)|Cuebiq · Data for Good；Spectus Social Impact申请渠道|全文关键段已读；SDK明示|
-|L24|2024 · [Big mobility data reveals hyperlocal air pollution exposure disparities in the Bronx, New York](https://senseable.mit.edu/papers/pdf/20240627_Wang-etal_BigMobility_NatureCities.pdf)|Cuebiq（Methods）；Spectus（Reporting summary） · Data for Good / Social Impact|全文关键段已读|
+|L23|2024 · [Characterizing collective physical distancing in the U.S. during the first nine months of the COVID-19 pandemic](https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000430)|Cuebiq · Data for Good；Spectus Social Impact申请渠道|本地PDF关键段已读|
+|L24|2024 · [Big mobility data reveals hyperlocal air pollution exposure disparities in the Bronx, New York](https://senseable.mit.edu/papers/pdf/20240627_Wang-etal_BigMobility_NatureCities.pdf)|Cuebiq（Methods）；Spectus（Reporting summary） · Data for Good / Social Impact|本地PDF关键段已读|
 
 字段级证据、数据形式、处理方法和限制见相邻JSON。并非所有商品的今天名称都能回填到历史研究。
 
@@ -97,3 +97,8 @@
 已核实本地PDF并读方法段：L02（PDF页2–3）、L03（2、7–8）、L16（4、20）、L17（5–7）、L21（6–7、9）。其中L16、L21同时核实Zotero正文附件；Xia补充附件标题、DOI与目录已核，未声称全部补充图表已读。共尝试22份本地附件、21份解析成功、1份路径失效，包含重复文件及预印本，不能折算为21篇已审读论文。公开数据只保存核验状态与页码，不保存私人存储路径。
 
 L23把通勤、远程办公和时空共现接入疫情行为研究，并提供明确SDK采集声明。[原文](https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000430) L24将手机轨迹与街段污染联系，扩展到动态环境暴露与公平；其方法称Cuebiq，报告摘要称Spectus，分别保留出处。[作者机构PDF](https://senseable.mit.edu/papers/pdf/20240627_Wang-etal_BigMobility_NatureCities.pdf)
+
+
+## 全量目录与本轮下载更新
+
+旧报告、CSV、来源登记及Zotero相关分类合并后，共96条去重记录（24条审查记录、72条待完善候选）。完整来源与去重映射见 `../data/literature_catalog.json`。本轮新增L01、L12、L19、L20、L23、L24共6篇PDF，全部完成标题、DOI和数据方法段核对；L01与L12的正文关键段状态已更新为已读。累计20篇本地PDF已核验身份，其中9篇待完善文献有PDF但未标记已读。

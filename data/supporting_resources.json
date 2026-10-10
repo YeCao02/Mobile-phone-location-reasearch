@@ -1,0 +1,55 @@
+{
+  "records": [
+    {
+      "title": "Site Selection Data & Analytics Platform | Unacast",
+      "url": "https://www.unacast.com/solutions/business-site-selection",
+      "resource_type": "webpage",
+      "origin": "Zotero相关分类",
+      "status": "supporting_resource_not_counted_as_paper"
+    },
+    {
+      "title": "New global mobility data now available for Harvard research",
+      "url": "https://salatainstitute.harvard.edu/new-global-mobility-data-now-available-for-harvard-research/",
+      "resource_type": "blogPost",
+      "origin": "Zotero相关分类",
+      "status": "supporting_resource_not_counted_as_paper"
+    },
+    {
+      "title": "SafeGraph’s Disingenuous Claims About Location Data Mask a Dangerous Industry",
+      "url": "https://www.eff.org/deeplinks/2022/05/safegraphs-disingenuous-claims-about-location-data-mask-dangerous-industry",
+      "resource_type": "webpage",
+      "origin": "Zotero相关分类",
+      "status": "supporting_resource_not_counted_as_paper"
+    },
+    {
+      "title": "Dewey | Academic Research Data",
+      "url": "https://www.deweydata.io",
+      "resource_type": "webpage",
+      "origin": "Zotero相关分类",
+      "status": "supporting_resource_not_counted_as_paper"
+    },
+    {
+      "title": "Movement - Documentation | Veraset",
+      "url": "https://veraset.com/resource/doc/datasets-schema/docs",
+      "resource_type": "webpage",
+      "origin": "Zotero相关分类",
+      "status": "supporting_resource_not_counted_as_paper"
+    },
+    {
+      "title": "Veraset Mobility Data for Academic Research | Dewey",
+      "url": "https://www.deweydata.io/data-partners/veraset",
+      "resource_type": "webpage",
+      "origin": "Zotero相关分类",
+      "status": "supporting_resource_not_counted_as_paper"
+    },
+    {
+      "title": "Blogs | Unacast",
+      "url": "https://www.unacast.com/blogs",
+      "resource_type": "webpage",
+      "origin": "Zotero相关分类",
+      "status": "supporting_resource_not_counted_as_paper"
+    }
+  ],
+  "count": 7,
+  "scope": "网站/博客等支持资源，不计论文篇数"
+}

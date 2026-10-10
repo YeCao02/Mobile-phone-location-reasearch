@@ -19,7 +19,16 @@ def public_data(source):
         obj = select(item, 'id name supply_chain_role scope_decision evidence_summary limitations accessed_at')
         obj['sources'] = [select(s, 'grade title url published_or_updated accessed_at') for s in item.get('sources', [])]
         providers.append(obj)
-    papers = [select(r, 'id title year doi provider product application data_declaration data_form use_method evidence_url evidence_section fulltext_read fulltext_scope source_confirmed access_status app_collection_confirmed sdk_explicit sensor_mix review_date pdf_downloaded zotero_attachment_verified') for r in raw['literature_evolution']['records']]
+    catalog_path = source / 'literature_catalog.json'
+    catalog = json.loads(catalog_path.read_text(encoding='utf-8-sig')) if catalog_path.exists() else raw['literature_evolution']
+    papers = [select(r, 'id title year doi journal field catalog_status origins metadata_source bibliographic_status provider_evidence_status classification_basis provider product application data_declaration data_form use_method evidence_url evidence_section fulltext_read fulltext_scope source_confirmed access_status app_collection_confirmed sdk_explicit sensor_mix review_date pdf_downloaded zotero_attachment_verified') for r in catalog['records']]
+    queue_path = source / 'acquisition_queue.json'
+    queue = {r['id']: r for r in json.loads(queue_path.read_text(encoding='utf-8-sig'))['records']} if queue_path.exists() else {}
+    for paper in papers:
+        paper.setdefault('catalog_status', 'reviewed')
+        if paper['id'] in queue:
+            paper['acquisition_next_action'] = queue[paper['id']].get('next_action')
+            paper['acquisition_urls'] = queue[paper['id']].get('source_urls', [])
     china = raw['china_evidence']
     sources = [select(s, 'id title url type published institution supplier finding confidence limits doi dataset_doi') for s in china['sources']]
     coverage = [select(c, 'institution query status sources next') for c in china['coverage']]
@@ -46,7 +55,8 @@ def main():
     (ROOT / 'index.html').write_text(html, encoding='utf-8')
     assert all(len(data[k]) for k in ('providers', 'papers', 'china', 'coverage'))
     assert len({r['id'] for r in data['papers']}) == len(data['papers'])
-    assert len({r['doi'].lower() for r in data['papers'] if r.get('doi')}) == len(data['papers'])
+    dois = [r['doi'].lower().strip() for r in data['papers'] if r.get('doi')]
+    assert len(set(dois)) == len(dois), 'Duplicate DOI in literature catalog'
     print(json.dumps({'output': 'index.html', 'counts': {k: len(data[k]) for k in ('providers', 'papers', 'china', 'coverage')}, 'bytes': len(html.encode('utf-8'))}, ensure_ascii=False))
 
 

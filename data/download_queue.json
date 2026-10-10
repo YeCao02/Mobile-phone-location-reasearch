@@ -1,0 +1,1727 @@
+{
+  "as_of": "2026-10-10",
+  "records": [
+    {
+      "id": "L01",
+      "title": "The effect of partisanship and political advertising on close family ties",
+      "doi": "10.1126/science.aaq1433",
+      "journal": "Science",
+      "catalog_status": "reviewed",
+      "status": [
+        "current_review_complete"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://www.anderson.ucla.edu/faculty_pages/keith.chen/papers/Final_Science18.pdf",
+        "https://doi.org/10.1126/science.aaq1433"
+      ],
+      "next_action": "当前关键段审读完成，按需补充附件细读"
+    },
+    {
+      "id": "L02",
+      "title": "Multiscale dynamic human mobility flow dataset in the U.S. during the COVID-19 epidemic",
+      "doi": "10.1038/s41597-020-00734-5",
+      "journal": "Scientific Data",
+      "catalog_status": "reviewed",
+      "status": [
+        "current_review_complete"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://www.nature.com/articles/s41597-020-00734-5",
+        "https://doi.org/10.1038/s41597-020-00734-5"
+      ],
+      "next_action": "当前关键段审读完成，按需补充附件细读"
+    },
+    {
+      "id": "L03",
+      "title": "Mobility network models of COVID-19 explain inequities and inform reopening",
+      "doi": "10.1038/s41586-020-2923-3",
+      "journal": "Nature",
+      "catalog_status": "reviewed",
+      "status": [
+        "current_review_complete"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://www.nature.com/articles/s41586-020-2923-3",
+        "https://doi.org/10.1038/s41586-020-2923-3"
+      ],
+      "next_action": "当前关键段审读完成，按需补充附件细读"
+    },
+    {
+      "id": "L04",
+      "title": "Nursing home staff networks and COVID-19",
+      "doi": "10.1073/pnas.2015455118",
+      "journal": "Proceedings of the National Academy of Sciences (PNAS)",
+      "catalog_status": "reviewed",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7817179/",
+        "https://doi.org/10.1073/pnas.2015455118"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "L05",
+      "title": "Understanding vehicular routing behavior with location-based service data",
+      "doi": "10.1140/epjds/s13688-021-00267-w",
+      "journal": "EPJ Data Science",
+      "catalog_status": "reviewed",
+      "status": [
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://link.springer.com/article/10.1140/epjds/s13688-021-00267-w",
+        "https://doi.org/10.1140/epjds/s13688-021-00267-w"
+      ],
+      "next_action": "经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "L06",
+      "title": "Mobility patterns are associated with experienced income segregation in large US cities",
+      "doi": "10.1038/s41467-021-24899-8",
+      "journal": "Nature Communications",
+      "catalog_status": "reviewed",
+      "status": [
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://www.nature.com/articles/s41467-021-24899-8",
+        "https://doi.org/10.1038/s41467-021-24899-8"
+      ],
+      "next_action": "经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "L07",
+      "title": "Face-to-face interactions and the returns to acquisitions: Evidence from smartphone geolocational data",
+      "doi": "10.1002/smj.3435",
+      "journal": "Strategic Management Journal",
+      "catalog_status": "reviewed",
+      "status": [
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://doi.org/10.1002/smj.3435"
+      ],
+      "next_action": "经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "L08",
+      "title": "Spatial and Temporal Characterization of Activity in Public Space, 2019–2020",
+      "doi": "10.1038/s41597-022-01480-6",
+      "journal": "Scientific Data",
+      "catalog_status": "reviewed",
+      "status": [
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://www.nature.com/articles/s41597-022-01480-6",
+        "https://doi.org/10.1038/s41597-022-01480-6"
+      ],
+      "next_action": "经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "L09",
+      "title": "Deriving neighborhood-level diet and physical activity measurements from anonymized mobile phone location data for enhancing obesity estimation",
+      "doi": "10.1186/s12942-022-00321-4",
+      "journal": "International Journal of Health Geographics",
+      "catalog_status": "reviewed",
+      "status": [
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://link.springer.com/article/10.1186/s12942-022-00321-4",
+        "https://doi.org/10.1186/s12942-022-00321-4"
+      ],
+      "next_action": "经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "L10",
+      "title": "On selection bias in comparison measures of smartphone-generated population mobility: an illustration of no-bias conditions with a commercial data source",
+      "doi": "10.1016/j.annepidem.2022.03.003",
+      "journal": "Annals of Epidemiology",
+      "catalog_status": "reviewed",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/35288279/",
+        "https://doi.org/10.1016/j.annepidem.2022.03.003"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "L11",
+      "title": "Human mobility networks reveal increased segregation in large cities",
+      "doi": "10.1038/s41586-023-06757-3",
+      "journal": "Nature",
+      "catalog_status": "reviewed",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://www.nature.com/articles/s41586-023-06757-3",
+        "https://doi.org/10.1038/s41586-023-06757-3"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "L12",
+      "title": "Change of urban park usage as a response to the COVID-19 global pandemic",
+      "doi": "10.1038/s41598-023-46745-1",
+      "journal": "Scientific Reports",
+      "catalog_status": "reviewed",
+      "status": [
+        "current_review_complete"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://www.nature.com/articles/s41598-023-46745-1",
+        "https://doi.org/10.1038/s41598-023-46745-1"
+      ],
+      "next_action": "当前关键段审读完成，按需补充附件细读"
+    },
+    {
+      "id": "L13",
+      "title": "The 15-minute city quantified using human mobility data",
+      "doi": "10.1038/s41562-023-01770-y",
+      "journal": "Nature Human Behaviour",
+      "catalog_status": "reviewed",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://www.nature.com/articles/s41562-023-01770-y",
+        "https://doi.org/10.1038/s41562-023-01770-y"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "L14",
+      "title": "An experienced racial-ethnic diversity dataset in the United States using human mobility data",
+      "doi": "10.1038/s41597-024-03490-y",
+      "journal": "Scientific Data",
+      "catalog_status": "reviewed",
+      "status": [
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://www.nature.com/articles/s41597-024-03490-y",
+        "https://doi.org/10.1038/s41597-024-03490-y"
+      ],
+      "next_action": "经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "L15",
+      "title": "Returners and explorers dichotomy in the face of natural hazards",
+      "doi": "10.1038/s41598-024-64087-4",
+      "journal": "Scientific Reports",
+      "catalog_status": "reviewed",
+      "status": [
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://www.nature.com/articles/s41598-024-64087-4",
+        "https://doi.org/10.1038/s41598-024-64087-4"
+      ],
+      "next_action": "经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "L16",
+      "title": "Understanding the bias of mobile location data across spatial scales and over time: A comprehensive analysis of SafeGraph data in the United States",
+      "doi": "10.1371/journal.pone.0294430",
+      "journal": "PLOS ONE",
+      "catalog_status": "reviewed",
+      "status": [
+        "current_review_complete"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0294430",
+        "https://doi.org/10.1371/journal.pone.0294430"
+      ],
+      "next_action": "当前关键段审读完成，按需补充附件细读"
+    },
+    {
+      "id": "L17",
+      "title": "Distorted insights from human mobility data",
+      "doi": "10.1038/s42005-024-01909-x",
+      "journal": "Communications Physics",
+      "catalog_status": "reviewed",
+      "status": [
+        "current_review_complete"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://www.nature.com/articles/s42005-024-01909-x",
+        "https://doi.org/10.1038/s42005-024-01909-x"
+      ],
+      "next_action": "当前关键段审读完成，按需补充附件细读"
+    },
+    {
+      "id": "L18",
+      "title": "Mixing individual and collective behaviors to predict out-of-routine mobility",
+      "doi": "10.1073/pnas.2414848122",
+      "journal": "Proceedings of the National Academy of Sciences (PNAS)",
+      "catalog_status": "reviewed",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12054799/",
+        "https://doi.org/10.1073/pnas.2414848122"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "L19",
+      "title": "Designing transit routes based on vehicle routing behavior determined through location-based services data",
+      "doi": "10.1140/epjds/s13688-025-00559-5",
+      "journal": "EPJ Data Science",
+      "catalog_status": "reviewed",
+      "status": [
+        "current_review_complete"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://link.springer.com/article/10.1140/epjds/s13688-025-00559-5",
+        "https://doi.org/10.1140/epjds/s13688-025-00559-5"
+      ],
+      "next_action": "当前关键段审读完成，按需补充附件细读"
+    },
+    {
+      "id": "L20",
+      "title": "Integrating human mobility and animal movement data reveals complex space-use between humans and white-tailed deer in urban environments",
+      "doi": "10.1038/s41598-025-03577-5",
+      "journal": "Scientific Reports",
+      "catalog_status": "reviewed",
+      "status": [
+        "current_review_complete"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://www.nature.com/articles/s41598-025-03577-5",
+        "https://doi.org/10.1038/s41598-025-03577-5"
+      ],
+      "next_action": "当前关键段审读完成，按需补充附件细读"
+    },
+    {
+      "id": "L21",
+      "title": "Mobile phone data show spatial and socioeconomic inequalities in hospital utilization",
+      "doi": "10.1038/s44360-026-00100-6",
+      "journal": "Nature Health",
+      "catalog_status": "reviewed",
+      "status": [
+        "current_review_complete"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://www.nature.com/articles/s44360-026-00100-6",
+        "https://doi.org/10.1038/s44360-026-00100-6"
+      ],
+      "next_action": "当前关键段审读完成，按需补充附件细读"
+    },
+    {
+      "id": "L22",
+      "title": "Exploring biases in travel behavior patterns in big passively generated mobile data from 11 U.S. cities",
+      "doi": "10.1016/j.jtrangeo.2024.104108",
+      "journal": "Journal of Transport Geography",
+      "catalog_status": "reviewed",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S096669232400317X",
+        "https://doi.org/10.1016/j.jtrangeo.2024.104108"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "L23",
+      "title": "Characterizing collective physical distancing in the U.S. during the first nine months of the COVID-19 pandemic",
+      "doi": "10.1371/journal.pdig.0000430",
+      "journal": "PLOS Digital Health",
+      "catalog_status": "reviewed",
+      "status": [
+        "current_review_complete"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000430",
+        "https://doi.org/10.1371/journal.pdig.0000430"
+      ],
+      "next_action": "当前关键段审读完成，按需补充附件细读"
+    },
+    {
+      "id": "L24",
+      "title": "Big mobility data reveals hyperlocal air pollution exposure disparities in the Bronx, New York",
+      "doi": "10.1038/s44284-024-00093-x",
+      "journal": "Nature Cities",
+      "catalog_status": "reviewed",
+      "status": [
+        "current_review_complete"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://senseable.mit.edu/papers/pdf/20240627_Wang-etal_BigMobility_NatureCities.pdf",
+        "https://doi.org/10.1038/s44284-024-00093-x"
+      ],
+      "next_action": "当前关键段审读完成，按需补充附件细读"
+    },
+    {
+      "id": "P240AD96D",
+      "title": "Insights into population behavior during the COVID-19 pandemic from cell phone mobility data and manifold learning",
+      "doi": "10.1038/s43588-021-00125-9",
+      "journal": "Nature Computational Science",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://www.nature.com/articles/s43588-021-00125-9",
+        "https://doi.org/10.1038/s43588-021-00125-9"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "P25D34630",
+      "title": "Analysis of mobility data to build contact networks for COVID-19",
+      "doi": "10.1371/journal.pone.0249726",
+      "journal": "PLOS ONE",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0249726",
+        "https://doi.org/10.1371/journal.pone.0249726"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "P3239D548",
+      "title": "ODT FLOW: Extracting, analyzing, and sharing multi-source multi-scale human mobility",
+      "doi": "10.1371/journal.pone.0255259",
+      "journal": "PLOS ONE",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0255259",
+        "https://doi.org/10.1371/journal.pone.0255259"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "PD4F8B912",
+      "title": "Change of human mobility during COVID-19: A United States case study",
+      "doi": "10.1371/journal.pone.0259031",
+      "journal": "PLOS ONE",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0259031",
+        "https://doi.org/10.1371/journal.pone.0259031"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "P557B9764",
+      "title": "Percolation of temporal hierarchical mobility networks during COVID-19",
+      "doi": "10.1098/rsta.2021.0116",
+      "journal": "Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8607142/",
+        "https://doi.org/10.1098/rsta.2021.0116"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "P837C3A60",
+      "title": "Assessing COVID-induced changes in spatiotemporal structure of mobility in the United States in 2020: a multi-source analytical framework",
+      "doi": "10.1080/13658816.2021.2005796",
+      "journal": "International Journal of Geographical Information Science",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://www.tandfonline.com/doi/full/10.1080/13658816.2021.2005796",
+        "https://doi.org/10.1080/13658816.2021.2005796"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "PAF9C787A",
+      "title": "Strategies and inequities in balancing recreation and COVID exposure when visiting green spaces",
+      "doi": "10.1177/23998083221114645",
+      "journal": "Environment and Planning B: Urban Analytics and City Science",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://journals.sagepub.com/doi/10.1177/23998083221114645",
+        "https://doi.org/10.1177/23998083221114645"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "P8A06ED95",
+      "title": "Use of SafeGraph visitation patterns for the identification of essential services during COVID-19",
+      "doi": "10.5194/agile-giss-4-36-2023",
+      "journal": "AGILE: GIScience Series",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://agile-giss.copernicus.org/articles/4/36/2023/",
+        "https://doi.org/10.5194/agile-giss-4-36-2023"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "P441C38CE",
+      "title": "Comparative analysis of human mobility patterns: utilizing taxi and mobile (SafeGraph) data to investigate neighbourhood-scale mobility in New York City",
+      "doi": "10.1080/19475683.2025.2487984",
+      "journal": "Annals of GIS",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://doi.org/10.1080/19475683.2025.2487984"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段"
+    },
+    {
+      "id": "P1A918461",
+      "title": "Impact of federated data with local differential privacy for human mobility modeling",
+      "doi": "10.1140/epjds/s13688-025-00611-4",
+      "journal": "EPJ Data Science",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://link.springer.com/article/10.1140/epjds/s13688-025-00611-4",
+        "https://doi.org/10.1140/epjds/s13688-025-00611-4"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "P71C3218F",
+      "title": "Inequality in Risk-Taking: Evidence From Location Tracking in Mexican Cities During COVID-19",
+      "doi": "10.3389/fpos.2021.631826",
+      "journal": "Frontiers in Political Science",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://www.frontiersin.org/journals/political-science/articles/10.3389/fpos.2021.631826/full",
+        "https://doi.org/10.3389/fpos.2021.631826"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "PEEE72CD1",
+      "title": "Network percolation reveals adaptive bridges of the mobility network response to COVID-19",
+      "doi": "10.1371/journal.pone.0258868",
+      "journal": "PLOS ONE",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0258868",
+        "https://doi.org/10.1371/journal.pone.0258868"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "P76B9708A",
+      "title": "Characterizing urban lifestyle signatures using motif properties in network of places",
+      "doi": "10.1177/23998083231206171",
+      "journal": "Environment and Planning B: Urban Analytics and City Science",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://journals.sagepub.com/doi/10.1177/23998083231206171",
+        "https://doi.org/10.1177/23998083231206171"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "PE7B72F15",
+      "title": "Using mobile phone data to evaluate access to essential services following natural hazards",
+      "doi": "10.1111/risa.14201",
+      "journal": "Risk Analysis",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://onlinelibrary.wiley.com/doi/full/10.1111/risa.14201",
+        "https://doi.org/10.1111/risa.14201"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "P5FE9D417",
+      "title": "Socioeconomic disparities in mobility behavior during the COVID-19 pandemic in developing countries",
+      "doi": "10.1140/epjds/s13688-025-00532-2",
+      "journal": "EPJ Data Science",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://link.springer.com/article/10.1140/epjds/s13688-025-00532-2",
+        "https://doi.org/10.1140/epjds/s13688-025-00532-2"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "P1F72D228",
+      "title": "Disaster vulnerability in road networks: a data-driven approach through analyzing network topology and movement activity",
+      "doi": "10.1080/13658816.2024.2411001",
+      "journal": "International Journal of Geographical Information Science",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://www.tandfonline.com/doi/full/10.1080/13658816.2024.2411001",
+        "https://doi.org/10.1080/13658816.2024.2411001"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "PA98D85BB",
+      "title": "Generating equitable urban human flows with a fairness-aware deep learning model",
+      "doi": "10.1016/j.cities.2025.106296",
+      "journal": "Cities",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://doi.org/10.1016/j.cities.2025.106296"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "P2D2C630F",
+      "title": "Using Smartphone Location Data for Strategy Research",
+      "doi": "10.1287/stsc.2024.0317",
+      "journal": "Strategy Science",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://pubsonline.informs.org/doi/10.1287/stsc.2024.0317",
+        "https://doi.org/10.1287/stsc.2024.0317"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "PEF9587A5",
+      "title": "Harnessing Human Mobility Data for Applied Economic Research: Current Knowledge, Challenges, and Emerging Opportunities",
+      "doi": "10.1111/joes.70047",
+      "journal": "Journal of Economic Surveys",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://onlinelibrary.wiley.com/doi/full/10.1111/joes.70047",
+        "https://doi.org/10.1111/joes.70047"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "P8C0DBF46",
+      "title": "Partisan differences in physical distancing are linked to health outcomes during the COVID-19 pandemic",
+      "doi": "10.1038/s41562-020-00977-7",
+      "journal": "Nature Human Behaviour",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://www.nature.com/articles/s41562-020-00977-7.pdf",
+        "https://doi.org/10.1038/s41562-020-00977-7"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "P9729F216",
+      "title": "The geography of connectivity: a review of mobile positioning data for economic geography",
+      "doi": "10.1007/s10109-022-00388-4",
+      "journal": "Journal of Geographical Systems",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://journals.lub.lu.se/piis/article/download/27210/23785/71929",
+        "https://doi.org/10.1007/s10109-022-00388-4"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "P55058E29",
+      "title": "On the privacy-conscientious use of mobile phone data",
+      "doi": "10.1038/sdata.2018.286",
+      "journal": "Scientific Data",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://www.nature.com/articles/sdata2018286",
+        "https://doi.org/10.1038/sdata.2018.286"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "PC3073275",
+      "title": "Mobile phone location data reveal the effect and geographic variation of social distancing on the spread of the COVID-19 epidemic",
+      "doi": "10.48550/arxiv.2004.11430",
+      "journal": "arXiv（预印本）",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://arxiv.org/abs/2004.11430",
+        "https://doi.org/10.48550/arxiv.2004.11430"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "PA225066F",
+      "title": "Disentangling the rhythms of human activity in the built environment for airborne transmission risk: An analysis of large-scale mobility data",
+      "doi": "10.7554/elife.80466",
+      "journal": "eLife",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://elifesciences.org/articles/80466",
+        "https://doi.org/10.7554/elife.80466"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "PBC87DC0B",
+      "title": "Graph attention networks unveil determinants of intra- and inter-city health disparity",
+      "doi": "10.1007/s44212-024-00049-5",
+      "journal": "Urban Informatics",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://doi.org/10.1007/s44212-024-00049-5"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "PAADD397C",
+      "title": "Do human mobility network analyses produced from different location-based data sources yield similar results across scales?",
+      "doi": "10.1016/j.compenvurbsys.2023.102052",
+      "journal": "Computers, Environment and Urban Systems",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://arxiv.org/abs/2204.09915",
+        "https://doi.org/10.1016/j.compenvurbsys.2023.102052"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段"
+    },
+    {
+      "id": "P2D4FD926",
+      "title": "Policy and weather influences on mobility during the early US COVID-19 pandemic",
+      "doi": "10.1073/pnas.2018185118",
+      "journal": "Proceedings of the National Academy of Sciences (PNAS)",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://doi.org/10.1073/PNAS.2018185118",
+        "https://doi.org/10.1073/pnas.2018185118"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "P1DFAD697",
+      "title": "Comparing connected vehicle and mobile phone data for urban mobility analysis: Examining mobility diversity and spatial interaction across income groups",
+      "doi": "10.1177/23998083261441740",
+      "journal": "Environment and Planning B: Urban Analytics and City Science",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://doi.org/10.1177/23998083261441740"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段"
+    },
+    {
+      "id": "P93995647",
+      "title": "Utilizing large-scale human mobility data to identify determinants of physical activity",
+      "doi": "10.1038/s41598-025-87017-4",
+      "journal": "Scientific Reports",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://doi.org/10.1038/s41598-025-87017-4"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段"
+    },
+    {
+      "id": "P61DCC998",
+      "title": "Behaviour-based dependency networks between places shape urban economic resilience",
+      "doi": "10.1038/s41562-024-02072-7",
+      "journal": "Nature Human Behaviour",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://doi.org/10.1038/s41562-024-02072-7"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段"
+    },
+    {
+      "id": "P63686407",
+      "title": "Mobility networks in Greater Mexico City",
+      "doi": "10.1038/s41597-023-02880-y",
+      "journal": "Scientific Data",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://doi.org/10.1038/s41597-023-02880-y"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段"
+    },
+    {
+      "id": "P06009F26",
+      "title": "Estimating experienced racial segregation in US cities using large-scale GPS data",
+      "doi": "10.1073/pnas.2026160118",
+      "journal": "Proceedings of the National Academy of Sciences (PNAS)",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://doi.org/10.1073/pnas.2026160118"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "P99197F39",
+      "title": "Fine-grained data reveal segregated mobility networks and opportunities for local containment of COVID-19",
+      "doi": "10.1038/s41598-021-95894-8",
+      "journal": "Scientific Reports",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://doi.org/10.1038/s41598-021-95894-8"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "P002C367F",
+      "title": "Activity-adjusted crime rates show that public safety worsened overall in major cities after COVID-19 lockdowns",
+      "doi": "",
+      "journal": "Proceedings of the National Academy of Sciences (PNAS)",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "P377CD02F",
+      "title": "Real-time pandemic surveillance using hospital admissions and mobility data",
+      "doi": "",
+      "journal": "Proceedings of the National Academy of Sciences (PNAS)",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "P1BFB6B6F",
+      "title": "Human mobility networks manifest dissimilar resilience characteristics at macroscopic, substructure, and microscopic scales",
+      "doi": "10.1038/s41598-023-44444-5",
+      "journal": "Scientific Reports",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://doi.org/10.1038/s41598-023-44444-5"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "P8B0F32E0",
+      "title": "Unravelling the spatial directionality of urban mobility",
+      "doi": "10.1038/s41467-024-48909-7",
+      "journal": "Nature Communications",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://doi.org/10.1038/s41467-024-48909-7"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "P214FEF72",
+      "title": "Human-centric characterization of life activity flood exposure shifts focus from places to people",
+      "doi": "10.1038/s44284-024-00043-7",
+      "journal": "Nature Cities",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://doi.org/10.1038/s44284-024-00043-7"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "P01D7334F",
+      "title": "Visitation patterns reveal service access disparities for ageing populations in the USA",
+      "doi": "10.1038/s41562-025-02285-4",
+      "journal": "Nature Human Behaviour",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://doi.org/10.1038/s41562-025-02285-4"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "P3881BAD2",
+      "title": "Human mobility data and machine learning reveal geographic differences in alcohol sales and alcohol outlet visits across U.S. states during COVID-19",
+      "doi": "10.1371/journal.pone.0255757",
+      "journal": "PLOS ONE",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://doi.org/10.1371/journal.pone.0255757"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "PFDDDACD2",
+      "title": "Exploring the relationship between mobility and COVID−19 infection rates for the second peak in the United States using phase-wise association",
+      "doi": "",
+      "journal": "BMC Public Health",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "P0663A19C",
+      "title": "Use of smartphone mobility data to analyze city park visits during the COVID-19 pandemic",
+      "doi": "",
+      "journal": "Landscape and Urban Planning",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "P38C79679",
+      "title": "The role of alcohol outlet visits derived from mobile phone location data in enhancing domestic violence prediction at the neighborhood level",
+      "doi": "10.1016/j.healthplace.2021.102736",
+      "journal": "Health & Place",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://doi.org/10.1016/j.healthplace.2021.102736"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "PB6FFBAD1",
+      "title": "A tale of two Americas: Socio-economic mobility gaps within and across American cities before and during the pandemic",
+      "doi": "10.1016/j.cities.2022.104006",
+      "journal": "Cities",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://doi.org/10.1016/j.cities.2022.104006"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "P2290471E",
+      "title": "Using Big Data to Assess Park System Performance during the COVID-19 Pandemic",
+      "doi": "10.3390/su152216056",
+      "journal": "Sustainability",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://doi.org/10.3390/su152216056"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "P5416DFC8",
+      "title": "The impact of the built environment on human mobility patterns during Covid-19: A study of New York City's Open Streets Program",
+      "doi": "10.1016/j.apgeog.2024.103429",
+      "journal": "Applied Geography",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://doi.org/10.1016/j.apgeog.2024.103429"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "P5DE047C3",
+      "title": "Informing inclusive park planning: Neighborhood park visitation modeling based on smartphone big data in Austin, Texas",
+      "doi": "10.1016/j.landusepol.2024.107234",
+      "journal": "Land Use Policy",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://doi.org/10.1016/j.landusepol.2024.107234"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "P9123C07B",
+      "title": "The great equalizer? Mixed effects of social infrastructure on diverse encounters in cities",
+      "doi": "10.1016/j.compenvurbsys.2024.102173",
+      "journal": "Computers, Environment and Urban Systems",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://doi.org/10.1016/j.compenvurbsys.2024.102173"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "PC2196B2E",
+      "title": "Impact of apparent temperatures on park visitation behavior: A causal machine learning approach",
+      "doi": "",
+      "journal": "Science of the Total Environment",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "P913EE387",
+      "title": "Equity, travel, and park visitation in 10 US metro areas: A smartphone big data approach",
+      "doi": "",
+      "journal": "Urban Forestry & Urban Greening",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "PA597BCE5",
+      "title": "Seasonal variations in urban park characteristics and visitation patterns in Atlanta: A big data study using smartphone user mobility",
+      "doi": "",
+      "journal": "Urban Forestry & Urban Greening",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "P3B9C78DF",
+      "title": "Do urban form characteristics perpetuate disparities of pandemic mobilities?",
+      "doi": "",
+      "journal": "Cities & Health",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "P7A4F6797",
+      "title": "Using human mobility data to detect evacuation patterns in hurricane Ian",
+      "doi": "10.1080/19475683.2024.2341703",
+      "journal": "Annals of GIS",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://doi.org/10.1080/19475683.2024.2341703"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "P2F95F02D",
+      "title": "Mapping large-scale brand networks: A consumers’ foot traffic-based approach",
+      "doi": "10.1016/j.apgeog.2025.103546",
+      "journal": "Applied Geography",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://doi.org/10.1016/j.apgeog.2025.103546"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "P9B76EC36",
+      "title": "Realized spatial accessibility vs. potential spatial accessibility in grocery deserts",
+      "doi": "",
+      "journal": "Computers, Environment and Urban Systems",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "P7E59C8D1",
+      "title": "The racial inequity of park visitation behavior in the post-pandemic era",
+      "doi": "",
+      "journal": "Cities",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "P06F06671",
+      "title": "Analyzing and mapping the vulnerability and resilience of the hospitality industry to COVID-19 across the United States",
+      "doi": "",
+      "journal": "待核实（旧记录未给出准确出版物）",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "P104EBB42",
+      "title": "Using mobile phone data for quantifying large-scale household-level disaster recovery",
+      "doi": "",
+      "journal": "Computers, Environment and Urban Systems",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "PD5396003",
+      "title": "Pandemic, People, and Street Crime: Exploring the Geography of Theft on Streets Using Nationwide Human Mobility Data in Japan",
+      "doi": "10.1080/24694452.2026.2648324",
+      "journal": "Annals of the American Association of Geographers",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://doi.org/10.1080/24694452.2026.2648324"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "P2BDAEE88",
+      "title": "Quantifying the recreational value of urban parks using smartphone mobility data",
+      "doi": "10.1007/s43762-026-00257-6",
+      "journal": "Computational Urban Science",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://doi.org/10.1007/s43762-026-00257-6"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "P5B2E6933",
+      "title": "Data Driven Mobility Models for COVID-19 Simulation",
+      "doi": "10.1145/3423455.3430305",
+      "journal": "Proceedings of the 3rd ACM SIGSPATIAL International Workshop on Advances in Resilient and Intelligent Cities",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://doi.org/10.1145/3423455.3430305"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "PF912AF74",
+      "title": "Supporting COVID-19 policy response with large-scale mobility-based modeling",
+      "doi": "10.1145/3447548.3467182",
+      "journal": "Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery & Data Mining",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://doi.org/10.1145/3447548.3467182"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "P7C63CA4F",
+      "title": "Data-Driven Real-Time Strategic Placement of Mobile Vaccine Clinics",
+      "doi": "10.1609/aaai.v36i12.21529",
+      "journal": "待核实（旧记录未给出准确出版物）",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://doi.org/10.1609/aaai.v36i12.21529"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "P48A032E2",
+      "title": "The Impact of COVID-19 on Human Mobility: A Case Study on New York",
+      "doi": "",
+      "journal": "待核实（旧记录未给出准确出版物）",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "P3EEC79FA",
+      "title": "Leveraging Human Mobility Data for Efficient Parameter Estimation in Epidemic Models of COVID-19",
+      "doi": "",
+      "journal": "待核实（旧记录未给出准确出版物）",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "P6AAE6DFC",
+      "title": "STORM-GAN: Spatio-Temporal Meta-GAN for Cross-City Estimation of Human Mobility Responses to COVID-19",
+      "doi": "",
+      "journal": "待核实（旧记录未给出准确出版物）",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "PE6FBF191",
+      "title": "Getting Back on Track: Understanding COVID-19 Impact on Urban Mobility and Segregation with Location Service Data",
+      "doi": "10.1609/icwsm.v17i1.22132",
+      "journal": "Proceedings of the International AAAI Conference on Web and Social Media",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://doi.org/10.1609/icwsm.v17i1.22132"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "P8A8A7B36",
+      "title": "Large-scale Urban Facility Location Selection with Knowledge-informed Reinforcement Learning",
+      "doi": "10.1145/3678717.3691254",
+      "journal": "Proceedings of the 32nd ACM International Conference on Advances in Geographic Information Systems",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://doi.org/10.1145/3678717.3691254"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "P681BDA6E",
+      "title": "POIFormer: A Transformer-Based Framework for Accurate and Scalable Point-of-Interest Attribution",
+      "doi": "10.1145/3748636.3762775",
+      "journal": "Proceedings of the 33rd ACM International Conference on Advances in Geographic Information Systems",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://doi.org/10.1145/3748636.3762775"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "PFC132E92",
+      "title": "Unfolding community homophily in U.S. metropolitans via human mobility",
+      "doi": "10.1016/j.cities.2022.103929",
+      "journal": "Cities",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S0264275122003687",
+        "https://doi.org/10.1016/j.cities.2022.103929"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段"
+    },
+    {
+      "id": "P5C05191D",
+      "title": "Mobility and transit segregation in urban spaces",
+      "doi": "10.1177/23998083231219294",
+      "journal": "Environment and Planning B: Urban Analytics and City Science",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://doi.org/10.1177/23998083231219294"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段"
+    },
+    {
+      "id": "P919700C8",
+      "title": "Shifting temporal dynamics of human mobility in the United States",
+      "doi": "10.1016/j.jtrangeo.2022.103295",
+      "journal": "Journal of Transport Geography",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S0966692322000187",
+        "https://doi.org/10.1016/j.jtrangeo.2022.103295"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段"
+    }
+  ],
+  "count": 96,
+  "definitions": "pdf_acquisition=true仅表示尚未核实本地PDF；不意味着文章不可访问。"
+}
