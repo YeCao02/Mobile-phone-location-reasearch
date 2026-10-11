@@ -1,0 +1,69 @@
+{
+  "as_of": "2026-10-11",
+  "records": [
+    {
+      "id": "L31",
+      "title": "From trajectory to behavior: Capturing individual travel details using an applet-based GPS tracking system",
+      "journal": "Travel Behaviour and Society",
+      "year": 2025,
+      "doi": "10.1016/j.tbs.2025.101078",
+      "evidence_url": "https://hub.hku.hk/bitstream/10722/357639/1/content.pdf?accept=1",
+      "research_scope": "excluded",
+      "excluded_from_active": true,
+      "scope_reason": "微信小程序自采GPS出行调查；用户确认完全排除。",
+      "scope_decision_basis": "user_instruction_2026-10-11"
+    },
+    {
+      "id": "L33",
+      "title": "大城市“空间结构-交通模式”的耦合关系研究——对厦门市的多情景模拟分析和讨论",
+      "journal": "城市规划学刊",
+      "year": 2017,
+      "doi": "10.16361/j.upf.201706005",
+      "evidence_url": "[私人路径已移除]",
+      "research_scope": "excluded",
+      "excluded_from_active": true,
+      "scope_reason": "同济2017合作研究；用户指定排除，不再作为泛先锋候选。",
+      "scope_decision_basis": "user_instruction_2026-10-11"
+    },
+    {
+      "id": "L39",
+      "title": "Comparison of the tourist mobility patterns among demographic subgroups with mobile phone data: A case study of Chongqing, China",
+      "journal": "Applied Geography",
+      "year": 2023,
+      "doi": "10.1016/j.apgeog.2023.103090",
+      "evidence_url": "[私人路径已移除]",
+      "research_scope": "excluded",
+      "excluded_from_active": true,
+      "scope_reason": "用户核验为中国联通手机数据；排除运营商来源。",
+      "scope_decision_basis": "user_instruction_2026-10-11",
+      "provider": "中国联通 / China Unicom（用户核验）",
+      "source_confirmed": true
+    },
+    {
+      "id": "L40",
+      "title": "Deciphering spatiotemporal patterns and mobility network of outdoor jogging utilizing large-scale GPS trajectory data",
+      "journal": "Cities",
+      "year": 2025,
+      "doi": "10.1016/j.cities.2025.106185",
+      "evidence_url": "[私人路径已移除]",
+      "research_scope": "excluded",
+      "excluded_from_active": true,
+      "scope_reason": "用户核验为Edooon运动应用数据；排除运动App专项轨迹。",
+      "scope_decision_basis": "user_instruction_2026-10-11",
+      "provider": "Edooon运动应用（用户核验）",
+      "source_confirmed": true
+    },
+    {
+      "id": "L42",
+      "title": "SPATIO-TEMPORAL ANALYSIS OF URBAN ECONOMIC RESILIENCE DURING COVID-19 WITH MULTILAYER COMPLEX NETWORKS",
+      "journal": "The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences",
+      "year": 2023,
+      "doi": "10.5194/isprs-archives-XLVIII-1-W2-2023-361-2023",
+      "evidence_url": "[私人路径已移除]",
+      "research_scope": "excluded",
+      "excluded_from_active": true,
+      "scope_reason": "用户指定排除；未形成清晰的数据供应商归属证据。保留书目，不将有效DOI误记成失效。",
+      "scope_decision_basis": "user_instruction_2026-10-11"
+    }
+  ]
+}

@@ -21,7 +21,8 @@ def public_data(source):
         providers.append(obj)
     catalog_path = source / 'literature_catalog.json'
     catalog = json.loads(catalog_path.read_text(encoding='utf-8-sig')) if catalog_path.exists() else raw['literature_evolution']
-    papers = [select(r, 'id title year doi reported_doi journal field catalog_status origins metadata_source publication_type bibliographic_note notes bibliographic_status provider_evidence_status classification_basis provider product application data_declaration data_form use_method evidence_url evidence_section fulltext_read fulltext_scope source_confirmed access_status app_collection_confirmed sdk_explicit sensor_mix review_date pdf_downloaded zotero_attachment_verified') for r in catalog['records']]
+    papers = [select(r, 'id title year doi reported_doi journal field catalog_status origins metadata_source publication_type bibliographic_note notes bibliographic_status provider_evidence_status classification_basis provider product application data_declaration data_form use_method evidence_url evidence_section fulltext_read fulltext_scope source_confirmed access_status app_collection_confirmed sdk_explicit sensor_mix review_date pdf_downloaded zotero_attachment_verified research_scope scope_reason provider_confirmation_basis') for r in catalog['records'] if not r.get('excluded_from_active')]
+    excluded_papers = [select(r, 'id title journal year doi evidence_url provider scope_reason scope_decision_basis') for r in catalog['records'] if r.get('excluded_from_active')]
     queue_path = source / 'acquisition_queue.json'
     queue = {r['id']: r for r in json.loads(queue_path.read_text(encoding='utf-8-sig'))['records']} if queue_path.exists() else {}
     for paper in papers:
@@ -31,14 +32,14 @@ def public_data(source):
             paper['acquisition_urls'] = queue[paper['id']].get('source_urls', [])
     china = raw['china_evidence']
     active = lambda r: not (r.get('excluded') is True or r.get('active') is False or r.get('status') == 'excluded')
-    sources = [select(s, 'id title url type published institution supplier finding confidence limits doi dataset_doi group_id verbatim_statement') for s in china['sources'] if active(s) and not (s.get('merged_into') or s.get('duplicate_of'))]
+    sources = [select(s, 'id title url type published institution supplier finding confidence limits doi dataset_doi group_id verbatim_statement research_scope') for s in china['sources'] if active(s) and not (s.get('merged_into') or s.get('duplicate_of'))]
     source_aliases = [{'id': s['id'], 'canonical_id': s.get('merged_into') or s.get('duplicate_of')} for s in china['sources'] if active(s) and (s.get('merged_into') or s.get('duplicate_of'))]
     assert all(a['canonical_id'] in {s['id'] for s in sources} for a in source_aliases), 'Source alias references an unknown canonical source'
     research_groups = []
-    for item in china.get('research_groups', []):
+    for item in china.get('research_groups', []) + china.get('secondary_research_groups', []):
         if not active(item):
             continue
-        group = select(item, 'id title institution institution_id team collaborators summary source_ids supplier_names verbatim_statement statement_source statement_url')
+        group = select(item, 'id title institution institution_id team collaborators summary source_ids supplier_names verbatim_statement statement_source statement_url research_scope')
         output_keys = 'id type title year journal url catalog_id doi reported_doi provider data_statement verbatim_statement bibliographic_note source_ids'
         group['outputs'] = [select(r, output_keys) for r in item.get('outputs', [])]
         group['studies'] = []
@@ -56,6 +57,9 @@ def public_data(source):
         research_groups.append(group)
     assert len({r['id'] for r in research_groups}) == len(research_groups), 'Duplicate research group ID'
     coverage = [select(c, 'institution query status sources next') for c in china['coverage']]
+    linkable_sources = {s['id'] for s in sources} | {s['id'] for s in source_aliases}
+    for row in coverage:
+        row['sources'] = [sid for sid in row.get('sources', []) if sid in linkable_sources]
     edges = [select(e, 'from to relation sources') for e in china.get('verified_edges', [])]
     usage_path = source / 'provider_usage.json'
     usage_raw = json.loads(usage_path.read_text(encoding='utf-8-sig')) if usage_path.exists() else {}
@@ -67,7 +71,8 @@ def public_data(source):
     provider_ids = {r['id'] for r in usage['providers']}
     assert all(r['paper_id'] in paper_ids and r['provider_id'] in provider_ids for r in usage['associations']), 'Supplier association references an unknown record'
     assert len({(r['provider_id'], r['paper_id']) for r in usage['associations']}) == len(usage['associations']), 'Duplicate supplier-paper association'
-    result = {'as_of': raw['literature_evolution'].get('as_of', '2026-10-10'), 'providers': providers, 'provider_usage': usage, 'papers': papers, 'china': sources, 'china_groups': research_groups, 'china_source_aliases': source_aliases, 'coverage': coverage, 'edges': edges}
+    secondary_scopes = {'map_platform', 'other_commercial'}
+    result = {'as_of': china.get('as_of', '2026-10-11'), 'providers': providers, 'provider_usage': usage, 'papers': papers, 'china': [r for r in sources if r.get('research_scope') not in secondary_scopes], 'china_groups': [g for g in research_groups if g.get('research_scope') not in secondary_scopes], 'china_source_aliases': source_aliases, 'coverage': coverage, 'edges': edges, 'secondary_sources': [r for r in sources if r.get('research_scope') in secondary_scopes], 'secondary_groups': [g for g in research_groups if g.get('research_scope') in secondary_scopes], 'excluded_papers': excluded_papers, 'scope_policy': china.get('scope_policy', {}).get('rules', [])}
     encoded = json.dumps(result, ensure_ascii=False)
     # Public export must never embed machine-specific paths, access credentials, or emails.
     encoded = re.sub(r'[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}', '[公开联系邮箱省略]', encoded)

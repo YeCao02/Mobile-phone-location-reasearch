@@ -1,0 +1,466 @@
+{
+  "as_of": "2026-10-11",
+  "skill_used": "zotero:Zotero",
+  "access_mode": "read_only_local_api_and_read_only_attachment_files",
+  "target_collection_name": "先锋/摸星/jike数据",
+  "counts": {
+    "catalog_studies_compared": 117,
+    "target_parent_items": 7,
+    "target_subcollections": 0,
+    "target_matching_studies": 6,
+    "supporting_dataset_items": 1,
+    "parent_and_target_distinct_items": 77,
+    "target_pdf_attachments": 7,
+    "target_html_attachments": 1,
+    "existing_attachment_files": 8,
+    "fully_indexed_pdf_attachments": 7,
+    "new_distinct_paper_candidates": 0
+  },
+  "reviewed_items": [
+    {
+      "catalog_id": "L27",
+      "title": "Capturing socio-spatial inequality in planetary urbanisation: A multi-dimensional methodological framework",
+      "doi": "10.1016/j.cities.2022.104076",
+      "date": "01/2023",
+      "journal": "Cities",
+      "authors": [
+        "Ava Lynam",
+        "Fengqing Li",
+        "Gaoli Xiao",
+        "Liyuan Fei",
+        "Huang Huang",
+        "Lukas Utzig"
+      ],
+      "user_collection_membership": true,
+      "user_curation_signal": "用户加入指定文件夹；独立于论文原文供应商证据",
+      "pdf_attachment_count": 1,
+      "attachments": [
+        {
+          "type": "application/pdf",
+          "file_exists": true,
+          "sha256": "e8e16b5eed8a396ade0e09a3f321058530b88e50e018dea79c54ca23e0b1532e",
+          "pages": 18,
+          "indexed_pages": 18,
+          "indexed_total_pages": 18,
+          "index_available": true
+        }
+      ],
+      "zotero_attachment_verified_this_review": true,
+      "fulltext_key_sections_read_this_review": true,
+      "source_url": "https://linkinghub.elsevier.com/retrieve/pii/S0264275122005157",
+      "uuid_note": "Zotero父条目key及附件key已在私有快照对应；公共报告不公开本机标识或存储路径。",
+      "finding": {
+        "status": "supplier_not_named_user_curated",
+        "provider": "原文供方未指名；用户策展关联保留",
+        "scope": "lbs_gps_public_wifi_mac_general_description",
+        "section": "PDF第6页§4.2.1",
+        "summary": "该段对LBS作GPS/Public Wi-Fi/MAC概括性定义并说明匿名轨迹与社会属性；不能据此证明本研究逐项传感器组成，更不能把用户入库改写成原文Pioneer供方确认。",
+        "wifi_statement_check": "全文索引及PDF文本检索仅在上述定义出现Public Wi-Fi；未发现stable WiFi/connect WiFi条件句。这是本次文本核对结果，不是对其他版本或所有文献的否定。"
+      },
+      "recorded_zotero_doi": "10.1016/j.cities.2022.104076"
+    },
+    {
+      "catalog_id": "L29",
+      "title": "Rapid community response and resilience to typhoon Doksuri in coastal Fujian: insights from large-scale human mobility data",
+      "doi": "10.1016/j.jag.2025.104910",
+      "date": "11/2025",
+      "journal": "International Journal of Applied Earth Observation and Geoinformation",
+      "authors": [
+        "Sheng Huang",
+        "Yunyan Du",
+        "Jiawei Yi",
+        "Zhiyuan Zhao",
+        "Minglei Lu",
+        "Dingchen Hu",
+        "Nan Wang",
+        "Jiale Qian",
+        "Wenna Tu"
+      ],
+      "user_collection_membership": true,
+      "user_curation_signal": "用户加入指定文件夹；独立于论文原文供应商证据",
+      "pdf_attachment_count": 1,
+      "attachments": [
+        {
+          "type": "application/pdf",
+          "file_exists": true,
+          "sha256": "8a1b94d7489a025d66d4d59517758979d0f92ffb8401bb7e83ef511e20dae813",
+          "pages": 15,
+          "indexed_pages": 15,
+          "indexed_total_pages": 15,
+          "index_available": true
+        }
+      ],
+      "zotero_attachment_verified_this_review": true,
+      "fulltext_key_sections_read_this_review": true,
+      "source_url": "https://linkinghub.elsevier.com/retrieve/pii/S1569843225005576",
+      "uuid_note": "Zotero父条目key及附件key已在私有快照对应；公共报告不公开本机标识或存储路径。",
+      "finding": {
+        "status": "primary_supplier_confirmed_mixed_source",
+        "provider": "Jike Platform / isjike.com（及刻）",
+        "scope": "mixed_mobility_sdk_network_and_cell_tower",
+        "section": "PDF第3页§2.2；第13页Data and code availability",
+        "summary": "原文明确Jike、SDK与网络定位/基站信号，约50米；应保留mixed_mobility，不能因用户归档改作纯GPS/WiFi核心。"
+      },
+      "recorded_zotero_doi": "10.1016/j.jag.2025.104910"
+    },
+    {
+      "catalog_id": "L21",
+      "title": "Mobile phone data show spatial and socioeconomic inequalities in hospital utilization",
+      "doi": "10.1038/s44360-026-00100-6",
+      "date": "2026-04-24",
+      "journal": "Nature Health",
+      "authors": [
+        "Jizhe Xia",
+        "Pei Ye",
+        "Longyan Pan",
+        "Di Zhang",
+        "Zihao Wu",
+        "Qiye Deng",
+        "Xiana Chen",
+        "Qingquan Li",
+        "Carlo Ratti",
+        "Michael Batty",
+        "Ziqian Ye",
+        "Chen Zhong",
+        "Yang Yue",
+        "Wei Tu"
+      ],
+      "user_collection_membership": true,
+      "user_curation_signal": "用户加入指定文件夹；独立于论文原文供应商证据",
+      "pdf_attachment_count": 2,
+      "attachments": [
+        {
+          "type": "application/pdf",
+          "file_exists": true,
+          "sha256": "278917a757860f05a39e0244dd01ae28e0b2047600f550ed936a911dfbe2bc99",
+          "pages": 13,
+          "indexed_pages": 13,
+          "indexed_total_pages": 13,
+          "index_available": true
+        },
+        {
+          "type": "application/pdf",
+          "file_exists": true,
+          "sha256": "a42d1c287396bb4b8894dfc30756f7970f1390201f2270801e8533c26f493b58",
+          "pages": 25,
+          "indexed_pages": 25,
+          "indexed_total_pages": 25,
+          "index_available": true
+        },
+        {
+          "type": "text/html",
+          "file_exists": true,
+          "sha256": "4197c5236bb82dbd74de06d15798737543eb152d113fb5d2845eabb535a9f185",
+          "pages": null,
+          "indexed_pages": null,
+          "indexed_total_pages": null,
+          "index_available": true
+        }
+      ],
+      "zotero_attachment_verified_this_review": true,
+      "fulltext_key_sections_read_this_review": true,
+      "source_url": "https://www.nature.com/articles/s44360-026-00100-6",
+      "uuid_note": "Zotero父条目key及附件key已在私有快照对应；公共报告不公开本机标识或存储路径。",
+      "finding": {
+        "status": "primary_supplier_confirmed",
+        "provider": "Moxing Beijing；pioneerdata.com.cn为原文数据申请联系域名",
+        "scope": "gps_primary_phone_location",
+        "section": "主文PDF第6页Methods/Data；第9页Ethics与Data availability；25页补充材料PDF第3页Supplementary Fig. 1、第4页Supplementary Fig. 2（第1页为封面、第2页为目录）",
+        "summary": "主文明确Moxing提供2023年4–5月11城市手机GPS；作者交付代码、供应商返回聚合结果。补充材料支持就医识别与验证，不是第二套供方证据。",
+        "supplement_page_audit": {
+          "pdf_total_pages": 25,
+          "pdf_page_1": "Nature Health补充材料封面",
+          "pdf_page_2": "标题及Figures 1–16、Tables 1–10清单",
+          "pdf_page_3": "Supplementary Fig. 1 就医识别流程",
+          "pdf_page_4": "Supplementary Fig. 2 深圳门诊量验证",
+          "correction": "此前报告写第1–2页错误；是补图编号1–2，并非PDF页码，不作为印刷页编号。"
+        }
+      },
+      "recorded_zotero_doi": "10.1038/s44360-026-00100-6"
+    },
+    {
+      "catalog_id": "L34",
+      "title": "空间需求订制的“产城融合”规划——以上海临港新城为例",
+      "doi": "10.16361/j.upf.202403014",
+      "date": "2024-05-20",
+      "journal": "城市规划学刊",
+      "authors": [
+        "周凌",
+        "李峰清",
+        "黄璜"
+      ],
+      "user_collection_membership": true,
+      "user_curation_signal": "用户加入指定文件夹；独立于论文原文供应商证据",
+      "pdf_attachment_count": 1,
+      "attachments": [
+        {
+          "type": "application/pdf",
+          "file_exists": true,
+          "sha256": "72d9594c61c6716322740462cb528d6ece8a32bfc6a0a7ab9ba33df3747c1f71",
+          "pages": 10,
+          "indexed_pages": 10,
+          "indexed_total_pages": 10,
+          "index_available": true
+        }
+      ],
+      "zotero_attachment_verified_this_review": true,
+      "fulltext_key_sections_read_this_review": true,
+      "source_url": "https://www.ncpssd.cn/Literature/articleinfo?id=CSGHXK2024003014&type=journalArticle",
+      "uuid_note": "Zotero父条目key及附件key已在私有快照对应；公共报告不公开本机标识或存储路径。",
+      "finding": {
+        "status": "supplier_not_named_user_curated",
+        "provider": "原文供方未指名；用户策展关联保留",
+        "scope": "lbs_population_profile_sensor_provenance_unresolved",
+        "section": "PDF第5页§4.1.1–4.1.2；第6–8页图4–7数据注",
+        "summary": "原文使用2020临港LBS及收入画像、6.83万去重通勤样本，并提及属性AI标签；未取得原文供方名或SDK/GPS/WiFi组成证据。"
+      },
+      "recorded_zotero_doi": "",
+      "doi_source": "既有原文书目核验DOI；Zotero题录DOI栏原为空，不据此清空主库DOI"
+    },
+    {
+      "catalog_id": "L28",
+      "title": "城市规划中的“通勤”概念辨析及“通勤阈值”界定探讨",
+      "doi": "10.11819/cpr20230603a",
+      "date": "2023-06-09",
+      "journal": "城市规划",
+      "authors": [
+        "李峰清",
+        "张欣",
+        "赵民"
+      ],
+      "user_collection_membership": true,
+      "user_curation_signal": "用户加入指定文件夹；独立于论文原文供应商证据",
+      "pdf_attachment_count": 1,
+      "attachments": [
+        {
+          "type": "application/pdf",
+          "file_exists": true,
+          "sha256": "c69c8753628d74ae330421fdc0f703d99ded769e9b72578f551096322df74b22",
+          "pages": 7,
+          "indexed_pages": 7,
+          "indexed_total_pages": 7,
+          "index_available": true
+        }
+      ],
+      "zotero_attachment_verified_this_review": true,
+      "fulltext_key_sections_read_this_review": true,
+      "source_url": "https://www.ncpssd.cn/Literature/articleinfo?id=CSGH2023006003&type=journalArticle",
+      "uuid_note": "Zotero父条目key及附件key已在私有快照对应；公共报告不公开本机标识或存储路径。",
+      "finding": {
+        "status": "supplier_not_named_user_curated",
+        "provider": "原文供方未指名；用户策展关联保留",
+        "scope": "gps_accuracy_lbs_sdk_sensor_composition_unresolved",
+        "section": "PDF第1页题录；第4页§4",
+        "summary": "实证段采用2020上海GPS精度手机LBS、791万常住用户，讨论400米通勤阈值。GPS精度表述不能独立证明SDK架构或排除融合基站。",
+        "bibliographic_correction": {
+          "doi": "10.11819/cpr20230603a",
+          "journal": "城市规划",
+          "year": 2023,
+          "volume": "47",
+          "issue": "6",
+          "pages": "13–19",
+          "basis": "用户Zotero原刊PDF首页直接印出；主库现DOI为空"
+        }
+      },
+      "recorded_zotero_doi": "",
+      "doi_source": "用户原刊PDF首页已核；Zotero题录DOI栏原为空，来源台账现已补入"
+    },
+    {
+      "catalog_id": "L25",
+      "title": "轨迹数据视角下的分人群PM2.5暴露平等性数据集研发",
+      "doi": "",
+      "date": "2026",
+      "journal": "全球变化数据学报（中英文）",
+      "authors": [
+        "吴梓昊",
+        "马志锋",
+        "夏吉喆"
+      ],
+      "user_collection_membership": true,
+      "user_curation_signal": "用户加入指定文件夹；独立于论文原文供应商证据",
+      "pdf_attachment_count": 1,
+      "attachments": [
+        {
+          "type": "application/pdf",
+          "file_exists": true,
+          "sha256": "aaf1902b5838f39246352b439b55af1b14d81a5ff95315ed5e18a69c58c8809e",
+          "pages": 11,
+          "indexed_pages": 11,
+          "indexed_total_pages": 11,
+          "index_available": true
+        }
+      ],
+      "zotero_attachment_verified_this_review": true,
+      "fulltext_key_sections_read_this_review": true,
+      "source_url": "https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=&filename=",
+      "uuid_note": "Zotero父条目key及附件key已在私有快照对应；公共报告不公开本机标识或存储路径。",
+      "finding": {
+        "status": "primary_supplier_confirmed",
+        "provider": "北京摸星科技有限公司",
+        "scope": "wifi_bluetooth_gps_phone_trajectory",
+        "section": "PDF第2页数据来源；第4页室内外暴露调整",
+        "summary": "原文明示北京摸星及Wi-Fi、蓝牙、GPS。按定位方式区分室内外暴露。对应配套数据集是衍生科研成果，不作为新手机采样供应商或新论文计数。"
+      },
+      "recorded_zotero_doi": ""
+    },
+    {
+      "catalog_id": null,
+      "title": "1-km Hourly Raster Dataset of PM 2.5 Exposure Equality in Six Cities of China from the Trajectory Data Perspective (Jan.-Feb. 2023)",
+      "doi": "10.3974/geodb.2026.02.08.V1",
+      "date": "",
+      "journal": "",
+      "authors": [
+        "Zihao Wu",
+        "Zihao Wu",
+        "Zhifeng Ma",
+        "Zhifeng Ma",
+        "Jizhe* Xia",
+        "Jizhe* Xia"
+      ],
+      "user_collection_membership": true,
+      "user_curation_signal": "用户加入指定文件夹；独立于论文原文供应商证据",
+      "pdf_attachment_count": 0,
+      "attachments": [],
+      "zotero_attachment_verified_this_review": false,
+      "fulltext_key_sections_read_this_review": false,
+      "source_url": "https://www.geodoi.ac.cn/DOIPaper/HTML/2026139402/202602139408.html",
+      "uuid_note": "Zotero父条目key及附件key已在私有快照对应；公共报告不公开本机标识或存储路径。",
+      "record_type": "supporting_dataset",
+      "related_catalog_ids": [
+        "L25",
+        "L26"
+      ],
+      "new_paper_candidate": false,
+      "relationship_basis": "数据集DOI及题名与PM2.5研究成果相符；不另算独立论文",
+      "finding": {
+        "status": "user_curated_dataset_no_attachment",
+        "summary": "文件夹中新增配套数据集条目，无附件；既有PM2.5专题的数据成果，不自动新增研究论文。"
+      },
+      "recorded_zotero_doi": "10.3974/geodb.2026.02.08.V1"
+    }
+  ],
+  "priority_checks": [
+    {
+      "catalog_id": "L34",
+      "title": "空间需求订制的“产城融合”规划——以上海临港新城为例",
+      "in_target_collection": true,
+      "matching_zotero_item_found": true,
+      "zotero_attachment_verified_this_review": true,
+      "status": "verified_in_target",
+      "interpretation": "本轮核验"
+    },
+    {
+      "catalog_id": "L35",
+      "title": "The Spillover Effect of Driving Restrictions on Intercity Travel",
+      "in_target_collection": false,
+      "matching_zotero_item_found": false,
+      "zotero_attachment_verified_this_review": null,
+      "status": "not_found_by_exact_title_fragment_and_doi",
+      "interpretation": "本地个人库与所查分类未检出；不能推断用户未验证该文，也不得清除此前独立核验结果。"
+    },
+    {
+      "catalog_id": "L36",
+      "title": "Predicting the Next Location of Urban Individuals via a Representation-Enhanced Multi-View Learning Network",
+      "in_target_collection": false,
+      "matching_zotero_item_found": false,
+      "zotero_attachment_verified_this_review": null,
+      "status": "not_found_by_exact_title_fragment_and_doi",
+      "interpretation": "本地个人库与所查分类未检出；不能推断用户未验证该文，也不得清除此前独立核验结果。"
+    },
+    {
+      "catalog_id": "L41",
+      "title": "基于客群精准识别的长三角高铁枢纽地区发展评估：门槛、分异和核心空间",
+      "in_target_collection": false,
+      "matching_zotero_item_found": false,
+      "zotero_attachment_verified_this_review": null,
+      "status": "not_found_by_exact_title_fragment_and_doi",
+      "interpretation": "本地个人库与所查分类未检出；不能推断用户未验证该文，也不得清除此前独立核验结果。"
+    },
+    {
+      "catalog_id": "L43",
+      "title": "基于位置服务大数据的粤港澳大湾区通勤标度特征分析",
+      "in_target_collection": false,
+      "matching_zotero_item_found": false,
+      "zotero_attachment_verified_this_review": null,
+      "status": "not_found_by_exact_title_fragment_and_doi",
+      "interpretation": "本地个人库与所查分类未检出；不能推断用户未验证该文，也不得清除此前独立核验结果。"
+    },
+    {
+      "catalog_id": "L44",
+      "title": "基于手机定位数据的乡村居民进城就医行为及可达性研究",
+      "in_target_collection": false,
+      "matching_zotero_item_found": false,
+      "zotero_attachment_verified_this_review": null,
+      "status": "not_found_by_exact_title_fragment_and_doi",
+      "interpretation": "本地个人库与所查分类未检出；不能推断用户未验证该文，也不得清除此前独立核验结果。"
+    },
+    {
+      "catalog_id": "L27",
+      "title": "Capturing socio-spatial inequality in planetary urbanisation: A multi-dimensional methodological framework",
+      "in_target_collection": true,
+      "matching_zotero_item_found": true,
+      "zotero_attachment_verified_this_review": true,
+      "status": "verified_in_target",
+      "interpretation": "本轮核验"
+    },
+    {
+      "catalog_id": "L28",
+      "title": "城市规划中的“通勤”概念辨析及“通勤阈值”界定探讨",
+      "in_target_collection": true,
+      "matching_zotero_item_found": true,
+      "zotero_attachment_verified_this_review": true,
+      "status": "verified_in_target",
+      "interpretation": "本轮核验"
+    }
+  ],
+  "existing_version_matches": [
+    {
+      "title": "The 15-Minute City Quantified Using Mobility Data",
+      "doi": "10.3386/w30752",
+      "catalog_id": "L13",
+      "relationship": "existing_working_paper_version_not_new_study"
+    }
+  ],
+  "new_candidates": [],
+  "unmatched_item_resolution": {
+    "supporting_web_resources": 7,
+    "existing_working_paper_version": 1,
+    "related_dataset": 1,
+    "note": "上层与目标分类联合77条的9个初始未匹配，分别是7网站资源、L13既有NBER早期版本、PM2.5数据集；未发现新的独立论文。"
+  },
+  "recommended_catalog_updates": [
+    {
+      "catalog_id": "L28",
+      "field": "doi",
+      "value": "10.11819/cpr20230603a",
+      "evidence": "原刊PDF首页",
+      "change_type": "bibliographic_correction"
+    },
+    {
+      "catalog_ids": [
+        "L21",
+        "L25",
+        "L27",
+        "L28",
+        "L29",
+        "L34"
+      ],
+      "field": "zotero_attachment_verified",
+      "value": true,
+      "evidence": "本轮父条目与实际PDF文件身份、页数及全文索引核验",
+      "change_type": "independent_attachment_status"
+    }
+  ],
+  "attribution_guardrail": "目标分类是用户策展信号，不能代替原文供应商声明；L27/L28/L34保持原文未指名，L29保持混合来源。",
+  "wifi_stable_connection_audit": {
+    "documents_checked": 7,
+    "matching_condition_sentences_found": 0,
+    "note": "对7份已验证PDF检查WiFi邻近stable/connect用语及中文数据段；未找到稳定WiFi连接条件句。L27 Public Wi-Fi为一般定义。未检出不是对库外文献或其他版本的结论。"
+  },
+  "privacy": "不公开Zotero item/attachment/collection keys、私有备注、文件路径、完整全文或联系邮箱。",
+  "no_mutations": "未写入Zotero、未修改主catalog；仅按授权更新round5来源台账L27/L28，公开报告复制到site/data。",
+  "source_ledger_updates_applied": [
+    "L27附件和关键段状态更新，保留0.99用户评估及原供方未披露",
+    "L28原刊DOI、书目、GPS精度LBS/791万样本关键段与附件状态更新；未确认SDK或供方"
+  ]
+}

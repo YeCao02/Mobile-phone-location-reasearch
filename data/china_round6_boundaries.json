@@ -30,7 +30,7 @@
       "supplier_relationship_group": "",
       "source_confirmed": false,
       "data_declaration": "原文§3明确为上海2014年1月两周100万匿名用户XDR，记录连接基站坐标，融合东京Foursquare签到和上海POI；属于电信网络定位与签到融合，不是手机SDK轨迹主体。",
-      "evidence_url": "[私人路径已移除]",
+      "evidence_url": "https://arxiv.org/pdf/2306.03441",
       "evidence_section": "原始期刊版PDF第1页作者单位/DOI；第4页§3数据描述",
       "access_status": "web_pdf_methods_reviewed",
       "fulltext_read": true,
@@ -65,8 +65,8 @@
         "Ying Zhou"
       ],
       "metadata_source": "Crossref DOI registration API",
-      "metadata_url": "[私人路径已移除]",
-      "url": "[私人路径已移除]",
+      "metadata_url": "https://api.crossref.org/works/10.2196/39588",
+      "url": "https://doi.org/10.2196/39588",
       "catalog_status": "reviewed",
       "source_confirmed": true,
       "fulltext_read": true,
@@ -76,7 +76,7 @@
       "provider_claim_status": "carrier_category_confirmed",
       "evidence": [
         {
-          "url": "[私人路径已移除]",
+          "url": "https://publichealth.jmir.org/2023/1/e39588/",
           "section": "Methods > Data Source > Mobility Data From the Greater Bay Area, China",
           "basis": "数据来自三大主要手机服务商之一；非已证商业 SDK 数据。",
           "type": "primary_source"
@@ -109,8 +109,8 @@
         "Xiaoyu Hou"
       ],
       "metadata_source": "Crossref DOI registration API",
-      "metadata_url": "[私人路径已移除]",
-      "url": "[私人路径已移除]",
+      "metadata_url": "https://api.crossref.org/works/10.3389/fdata.2022.705698",
+      "url": "https://doi.org/10.3389/fdata.2022.705698",
       "catalog_status": "reviewed",
       "source_confirmed": true,
       "fulltext_read": true,
@@ -120,7 +120,7 @@
       "provider_claim_status": "technology_boundary_confirmed",
       "evidence": [
         {
-          "url": "[私人路径已移除]",
+          "url": "https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2022.705698/full",
           "section": "Methods > The Research Data / Method to Generate the Population Activities / Model Structure",
           "basis": "明确基站覆盖参数、通信信令和模拟人口轨迹；不能写成实际拿到1600万人商业轨迹。",
           "type": "primary_source"
@@ -170,8 +170,8 @@
         "Tianren Yang"
       ],
       "metadata_source": "Crossref DOI registration API",
-      "metadata_url": "[私人路径已移除]",
-      "url": "[私人路径已移除]",
+      "metadata_url": "https://api.crossref.org/works/10.1177/2399808320924433",
+      "url": "https://doi.org/10.1177/2399808320924433",
       "catalog_status": "reviewed",
       "source_confirmed": true,
       "fulltext_read": true,
@@ -181,7 +181,7 @@
       "provider_claim_status": "technology_boundary_confirmed",
       "evidence": [
         {
-          "url": "[私人路径已移除]",
+          "url": "https://hub.hku.hk/bitstream/10722/301786/1/content.pdf?accept=1",
           "section": "Case study data; PDF p.7",
           "basis": "昼夜累计停留最多的 cell towers 被用作住地/工作地；技术明确基站，非 SDK 核心。",
           "type": "primary_source"
@@ -225,7 +225,7 @@
       ],
       "provider": "中国联通",
       "scope_tag": "excluded_carrier_signaling_aggregate",
-      "evidence_url": "[私人路径已移除]",
+      "evidence_url": "https://www.mdpi.com/2071-1050/13/24/13713",
       "evidence": "§3.1及引言明确中国联通2017年4月12–18日网格聚合手机轨迹；不纳SDK核心。",
       "funding": [
         "52008005",
@@ -251,7 +251,7 @@
         "Hasselt University"
       ],
       "scope_tag": "excluded_cdr_cell_id",
-      "evidence_url": "[私人路径已移除]",
+      "evidence_url": "https://www.intechopen.com/chapters/60391",
       "evidence": "§2明确科特迪瓦语音/短信通话事件、cell ID位置；不是SDK。"
     },
     {
@@ -270,7 +270,7 @@
         "北京大学城市与环境学院"
       ],
       "scope_tag": "excluded_explicit_mobile_signaling_unnamed_operator",
-      "evidence_url": "[私人路径已移除]",
+      "evidence_url": "https://www.dqxxkx.cn/CN/abstract/article/1560-8999/48127",
       "evidence": "原刊摘要明确某运营商2017年9月手机信令。运营商未点名，但信令类型已明确，因此作边界。",
       "funding": [
         "41925003"
@@ -293,7 +293,7 @@
       ],
       "institution": "中南大学交通运输工程学院 / Aalto / 深圳先进院",
       "scope_tag": "excluded_smartcard_not_phone",
-      "evidence_url": "[私人路径已移除]",
+      "evidence_url": "https://research.aalto.fi/en/publications/understanding-individual-and-collective-human-mobility-patterns-i/",
       "evidence": "作者机构库摘要明确使用600万地铁乘客智能卡记录，不能以human mobility推定手机。",
       "bibliographic_note": "期刊和文章号103856见作者机构稿；本轮未取得独立DOI元数据核验，DOI留空。"
     }

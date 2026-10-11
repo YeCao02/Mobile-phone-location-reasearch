@@ -19,7 +19,7 @@
       "institutions": [
         "同济大学（待核原文单位）"
       ],
-      "evidence_url": "[私人路径已移除]",
+      "evidence_url": "https://safa.shu.edu.cn/info/1111/7908.htm",
       "evidence_status": "官方教师成果表/后续论文参考文献；未取得原文",
       "reason": "与E6-01紧密相关的厦门LBS画像论文；不能直接继承其SDK方法或供方",
       "existing_catalog_matches": [],
@@ -42,7 +42,7 @@
       "institutions": [
         "Southeast University（检索元数据关联，原文待核）"
       ],
-      "evidence_url": "[私人路径已移除]",
+      "evidence_url": "https://traffic2.fpz.hr/index.php/PROMTT/article/download/414/137/3957",
       "evidence_status": "期刊PDF被检索索引；网页/本地请求失败，未审读全文",
       "reason": "LBS城际引力模型，未知供方，不凭题录判SDK",
       "existing_catalog_matches": [],
@@ -64,7 +64,7 @@
       "institutions": [
         "Southeast University（检索元数据关联）"
       ],
-      "evidence_url": "[私人路径已移除]",
+      "evidence_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4756255",
       "evidence_status": "作者预印本检索索引；直接打开403，未审读全文",
       "reason": "全国LBS城际流动；与E6-C02同组可能有版本关系，未核前不作独立正式论文计数",
       "existing_catalog_matches": [],
@@ -85,7 +85,7 @@
       "institutions": [
         "Southeast University"
       ],
-      "evidence_url": "[私人路径已移除]",
+      "evidence_url": "https://cdn.ymaws.com/www.acsp.org/resource/resmgr/2025_conference/docs/acsp2025_bk_of_abstracts_v3.pdf",
       "evidence_status": "会议官方摘要册检索索引，未本地审读",
       "reason": "南京城中村LBS+POI+建筑形态多智能体模拟；摘要ID1844.0.0.346.2025；供方及采集方式待核",
       "existing_catalog_matches": [],
@@ -107,7 +107,7 @@
       "institutions": [
         "同济/李峰清团队线索，原文待核"
       ],
-      "evidence_url": "[私人路径已移除]",
+      "evidence_url": "https://www.researchgate.net/publication/365358436_Capturing_socio-spatial_inequality_in_planetary_urbanisation_A_multi-dimensional_methodological_framework",
       "evidence_status": "既有L27参考文献链；本轮检索未取得原文",
       "reason": "用户指定Cities相同数据形式参考文献追踪；作者中文全名未据缩写猜定",
       "existing_catalog_matches": [],
@@ -119,7 +119,7 @@
       "journal": "Remote Sensing",
       "year": 2019,
       "institution": "CAS / Yunyan Du team",
-      "source_url": "[私人路径已移除]",
+      "source_url": "https://english.igsnrr.cas.cn/sourcedb/yw_30508/scientists/En_sklreis/202012/t20201211_456389.html",
       "status": "official_author_bibliography_verified_methods_unread"
     },
     {
@@ -132,7 +132,7 @@
     {
       "title": "手机位置数据中乒乓效应的检测-基于中国西宁案例",
       "team": "福州大学张雯婷会议报告线索",
-      "source_url": "[私人路径已移除]",
+      "source_url": "https://gis2022.scievent.com/image/b44063da64644a4d974d74be25a54f30.pdf",
       "status": "conference_agenda_only; 不能据此认定商业 SDK"
     },
     {
@@ -152,7 +152,7 @@
         "闫小勇"
       ],
       "institution": "北京交通大学；腾讯科技（北京）有限公司",
-      "evidence_url": "[私人路径已移除]",
+      "evidence_url": "https://www.sciengine.com/doi/pdf/82E4208681C14EF2A5BE2A7689B08236",
       "provider": "腾讯",
       "scope_tag": "platform_app_od_aggregate",
       "evidence": "原刊PDF搜索索引摘要明确腾讯提供手机App测算OD，京津冀路网需求预测；原文下载429，DOI未核。",
@@ -168,7 +168,7 @@
       ],
       "team": "导师龙瀛；清华大学建筑学院",
       "doi": "",
-      "evidence_url": "[私人路径已移除]",
+      "evidence_url": "https://newetds.lib.tsinghua.edu.cn/qh/paper/summary?dbCode=ETDQH&sysId=304312",
       "scope_tag": "multi_source_comparison_baidu_lbs_signaling_wifi_probe",
       "evidence": "校图书馆摘要：北京5737居住区，用百度LBS、手机信令、遥感分别估计住房空置，WiFi探针验证；不是证明第三方SDK采集。",
       "next_action": "查学位论文数据章与相应期刊论文；区分各来源的输入/验证角色"

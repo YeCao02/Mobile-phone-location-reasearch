@@ -1,0 +1,133 @@
+{
+  "as_of": "2026-10-11",
+  "label": "泛先锋／先锋类数据",
+  "rules": [
+    "先锋数聚/Pioneer Data、摸星/Moxing、即刻或及刻/Jike为具名优先检索词。",
+    "LBS、mobile phone、GPS/WiFi、GPS+WiFi、WiFi connect/stable及未具名公司/operator作为候选检索线索，不单独确认供应商。",
+    "明确三大运营商、CDR/XDR/基站/通信信令单列边界；约三分之一市场份额是运营商类别强线索，仍记录原文上下文。",
+    "百度、高德、腾讯地图商API或平台数据单列，不计入泛先锋；其他具名商业供应商另列，未具名供方保留候选。",
+    "院校采购记录不自动映射到该团队所有论文。",
+    "用户人工核验与原文公开声明分开标明；从活跃清单排除的条目保留理由和原始书目。"
+  ],
+  "paper_overrides": {
+    "L31": {
+      "research_scope": "excluded",
+      "excluded_from_active": true,
+      "scope_reason": "微信小程序自采GPS出行调查；用户确认完全排除。",
+      "scope_decision_basis": "user_instruction_2026-10-11"
+    },
+    "L33": {
+      "research_scope": "excluded",
+      "excluded_from_active": true,
+      "scope_reason": "同济2017合作研究；用户指定排除，不再作为泛先锋候选。",
+      "scope_decision_basis": "user_instruction_2026-10-11"
+    },
+    "L39": {
+      "research_scope": "excluded",
+      "excluded_from_active": true,
+      "scope_reason": "用户核验为中国联通手机数据；排除运营商来源。",
+      "scope_decision_basis": "user_instruction_2026-10-11",
+      "provider": "中国联通 / China Unicom（用户核验）",
+      "source_confirmed": true
+    },
+    "L40": {
+      "research_scope": "excluded",
+      "excluded_from_active": true,
+      "scope_reason": "用户核验为Edooon运动应用数据；排除运动App专项轨迹。",
+      "scope_decision_basis": "user_instruction_2026-10-11",
+      "provider": "Edooon运动应用（用户核验）",
+      "source_confirmed": true
+    },
+    "L42": {
+      "research_scope": "excluded",
+      "excluded_from_active": true,
+      "scope_reason": "用户指定排除；未形成清晰的数据供应商归属证据。保留书目，不将有效DOI误记成失效。",
+      "scope_decision_basis": "user_instruction_2026-10-11"
+    },
+    "L30": {
+      "research_scope": "map_platform",
+      "scope_reason": "地图商平台/API数据，单列，不归泛先锋。",
+      "provider": "百度慧眼 / Baidu",
+      "source_confirmed": true,
+      "provider_evidence_status": "user_verified_provider",
+      "provider_confirmation_basis": "用户2026-10-11人工核验确认；L30另有此前正文直接证据。",
+      "curated_evidence": true
+    },
+    "L32": {
+      "research_scope": "map_platform",
+      "scope_reason": "地图商平台/API数据，单列，不归泛先锋。",
+      "provider": "百度慧眼 / Baidu",
+      "source_confirmed": true,
+      "provider_evidence_status": "user_verified_provider",
+      "provider_confirmation_basis": "用户2026-10-11人工核验确认；L30另有此前正文直接证据。",
+      "curated_evidence": true,
+      "data_declaration": "用户2026-10-11人工核验确认数据来自百度慧眼；详细方法与参数待本轮独立核读。"
+    },
+    "L38": {
+      "research_scope": "map_platform",
+      "scope_reason": "地图商平台/API数据，单列，不归泛先锋。",
+      "provider": "百度慧眼 / Baidu",
+      "source_confirmed": true,
+      "provider_evidence_status": "user_verified_provider",
+      "provider_confirmation_basis": "用户2026-10-11人工核验确认；L30另有此前正文直接证据。",
+      "curated_evidence": true,
+      "data_declaration": "用户2026-10-11人工核验确认数据来自百度慧眼；详细方法与参数待本轮独立核读。"
+    },
+    "L37": {
+      "research_scope": "map_platform",
+      "scope_reason": "地图商平台/API数据，单列，不归泛先锋。"
+    },
+    "L45": {
+      "research_scope": "map_platform",
+      "scope_reason": "地图商平台/API数据，单列，不归泛先锋。"
+    },
+    "L43": {
+      "research_scope": "other_commercial",
+      "scope_reason": "原文明确每日互动／个推；单列其他商业数据，不强配先锋。"
+    },
+    "L21": {
+      "research_scope": "pioneer_named",
+      "scope_reason": "原文列Moxing/Jike等名称，按用户确认关联展示；各篇采集技术证据单独保存。"
+    },
+    "L25": {
+      "research_scope": "pioneer_named",
+      "scope_reason": "原文列Moxing/Jike等名称，按用户确认关联展示；各篇采集技术证据单独保存。"
+    },
+    "L26": {
+      "research_scope": "pioneer_named",
+      "scope_reason": "原文列Moxing/Jike等名称，按用户确认关联展示；各篇采集技术证据单独保存。"
+    },
+    "L29": {
+      "research_scope": "pioneer_named",
+      "scope_reason": "原文列Moxing/Jike等名称，按用户确认关联展示；各篇采集技术证据单独保存。"
+    },
+    "L27": {
+      "research_scope": "pioneer_candidate",
+      "scope_reason": "保留检索候选；供方身份需独立核验。"
+    },
+    "L28": {
+      "research_scope": "pioneer_candidate",
+      "scope_reason": "保留检索候选；供方身份需独立核验。"
+    },
+    "L34": {
+      "research_scope": "pioneer_candidate",
+      "scope_reason": "保留检索候选；供方身份需独立核验。"
+    },
+    "L35": {
+      "research_scope": "pioneer_candidate",
+      "scope_reason": "保留检索候选；供方身份需独立核验。"
+    },
+    "L36": {
+      "research_scope": "pioneer_candidate",
+      "scope_reason": "保留检索候选；供方身份需独立核验。"
+    },
+    "L41": {
+      "research_scope": "pioneer_candidate",
+      "scope_reason": "保留检索候选；供方身份需独立核验。"
+    },
+    "L44": {
+      "research_scope": "pioneer_candidate",
+      "scope_reason": "保留检索候选；供方身份需独立核验。"
+    }
+  }
+}

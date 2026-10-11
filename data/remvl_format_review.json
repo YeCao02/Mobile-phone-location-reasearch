@@ -1,0 +1,228 @@
+{
+  "as_of": "2026-10-11",
+  "paper": {
+    "catalog_id": "L36",
+    "doi": "10.3390/ijgi14080302",
+    "title": "Predicting the Next Location of Urban Individuals via a Representation-Enhanced Multi-View Learning Network",
+    "source_url": "https://www.mdpi.com/2220-9964/14/8/302",
+    "evidence_section": "PDF p.14 Table 1; pp.13–14 section 5.1; p.25 Data Availability",
+    "table": {
+      "visible_example_records": 3,
+      "ellipsis_rows": 1,
+      "columns": [
+        "User ID",
+        "Longitude",
+        "Latitude"
+      ],
+      "visible_id_format": "8 lowercase hexadecimal characters, three asterisks, then 6 lowercase hexadecimal characters",
+      "displayed_character_count": 17,
+      "full_id_length": "unknown because middle segment is masked",
+      "unmasked_prefix_suffix_only": true,
+      "timestamp_note": "正文说每条记录含时间戳，但表1展示栏未列时间戳。",
+      "correction": "原表有3条实际可见记录和1条省略号行；不能称4个用户或4条完整记录。"
+    },
+    "provider_statement": "未具名位置服务公司；手机GNSS；论文称用户标识匿名化。",
+    "format_limit": "表内没有连字符的可见部分不能证明原始完整ID没有连字符；星号可能遮盖未知长度的中段。"
+  },
+  "archive": {
+    "filename": "ReMVL.zip",
+    "bytes": 7855847,
+    "sha256": "9f1495f347dc746ee30c1383d877baaebf028c5370cbb113f210505c40b28560",
+    "file_count": 7,
+    "directory_count": 3,
+    "uncompressed_total_bytes": 97054656,
+    "files": [
+      {
+        "name": "ReMVL/code/embedding.py",
+        "uncompressed_bytes": 10368,
+        "compressed_bytes": 2139
+      },
+      {
+        "name": "ReMVL/code/fc.py",
+        "uncompressed_bytes": 2879,
+        "compressed_bytes": 691
+      },
+      {
+        "name": "ReMVL/code/model.py",
+        "uncompressed_bytes": 3120,
+        "compressed_bytes": 974
+      },
+      {
+        "name": "ReMVL/code/__init__.py",
+        "uncompressed_bytes": 0,
+        "compressed_bytes": 2
+      },
+      {
+        "name": "ReMVL/data/test.pkl",
+        "uncompressed_bytes": 6550903,
+        "compressed_bytes": 639510
+      },
+      {
+        "name": "ReMVL/data/train.pkl",
+        "uncompressed_bytes": 83774980,
+        "compressed_bytes": 6552618
+      },
+      {
+        "name": "ReMVL/data/validation.pkl",
+        "uncompressed_bytes": 6712406,
+        "compressed_bytes": 658035
+      }
+    ],
+    "readme_present": false,
+    "code_files": 4,
+    "data_files": 3,
+    "classification": "processed_model_training_validation_test_data_not_raw_timing_delivery",
+    "basis": [
+      "仅有模型代码及train/test/validation pickle三分数据。",
+      "静态结构为列表内样本字典；user_X为整数数组，X/时间/停留/社区/活动和预测标签均为数值。",
+      "未发现原始Timing表、经纬度字段、原始UUID字符串字段或ID映射表。",
+      "代码引用图嵌入等配置，但压缩包未提供README/完整训练入口或全部依赖数据。"
+    ],
+    "provenance_limit": "已通过Figshare v1公开API核对文件名、字节数及MD5；本地下载包与归档一致。",
+    "inspection_method": "zip目录与代码文本只读；pickletools逐操作码静态扫描及首样本惰性结构描述，未调用pickle.load/loads、未执行zip代码或GLOBAL/REDUCE构造器。",
+    "split_structure": [
+      {
+        "file": "ReMVL/data/test.pkl",
+        "sample_dictionary_count": 9885,
+        "numeric_array_buffer_count": 88965,
+        "hex32_plain_string_count": 0
+      },
+      {
+        "file": "ReMVL/data/train.pkl",
+        "sample_dictionary_count": 124962,
+        "numeric_array_buffer_count": 1124658,
+        "hex32_plain_string_count": 0
+      },
+      {
+        "file": "ReMVL/data/validation.pkl",
+        "sample_dictionary_count": 10351,
+        "numeric_array_buffer_count": 93159,
+        "hex32_plain_string_count": 0
+      }
+    ],
+    "sample_dictionary_total": 145198,
+    "first_test_sample_schema": {
+      "X": {
+        "kind": "numeric_array",
+        "dtype": "i8",
+        "shape": [
+          6
+        ],
+        "buffer_bytes": 48
+      },
+      "user_X": {
+        "kind": "numeric_array",
+        "dtype": "i8",
+        "shape": [
+          6
+        ],
+        "buffer_bytes": 48
+      },
+      "weekday_X": {
+        "kind": "numeric_array",
+        "dtype": "i4",
+        "shape": [
+          6
+        ],
+        "buffer_bytes": 24
+      },
+      "start_min_X": {
+        "kind": "numeric_array",
+        "dtype": "i4",
+        "shape": [
+          6
+        ],
+        "buffer_bytes": 24
+      },
+      "start_hour_X": {
+        "kind": "numeric_array",
+        "dtype": "i8",
+        "shape": [
+          6
+        ],
+        "buffer_bytes": 48
+      },
+      "dur_X": {
+        "kind": "numeric_array",
+        "dtype": "f8",
+        "shape": [
+          6
+        ],
+        "buffer_bytes": 48
+      },
+      "diff": {
+        "kind": "numeric_array",
+        "dtype": "i8",
+        "shape": [
+          6
+        ],
+        "buffer_bytes": 48
+      },
+      "community": {
+        "kind": "numeric_array",
+        "dtype": "i8",
+        "shape": [
+          6
+        ],
+        "buffer_bytes": 48
+      },
+      "act": {
+        "kind": "numeric_array",
+        "dtype": "i8",
+        "shape": [
+          6
+        ],
+        "buffer_bytes": 48
+      },
+      "Y": {
+        "kind": "int"
+      },
+      "Y_time": {
+        "kind": "int"
+      },
+      "Y_community": {
+        "kind": "int"
+      },
+      "Y_cat": {
+        "kind": "int"
+      }
+    },
+    "first_sample_note": "首个test样本各输入数组长度为6；不能推为所有样本长度均为6。",
+    "figshare_verification": {
+      "date": "2026-10-11",
+      "doi": "10.6084/m9.figshare.28806515.v1",
+      "api_url": "https://api.figshare.com/v2/articles/28806515",
+      "computed_md5": "cdc98faf0b582112798437a8aba24984",
+      "local_md5_matches": true,
+      "size_matches": true
+    }
+  },
+  "local_comparison": {
+    "sample_rule": "原始画像、原始定位及派生画像各取单个文件首1000行；非随机，仅对格式作局部核验。",
+    "observed_id_shapes": [
+      "32位小写十六进制",
+      "36位带连字符十六进制"
+    ],
+    "observed_point_source_labels": [
+      "Timing",
+      "WifiStable",
+      "Connect",
+      "SceneReco"
+    ],
+    "notes": [
+      "原始两类交付抽样均同时存在36位8-4-4-4-12十六进制连字符形态和32位小写十六进制形态；没有星号。",
+      "字段叫uuid不等于已验证遵循某版RFC UUID；32位十六进制不等于已证明MD5、哈希或某加密算法。",
+      "原始定位样本含Timing/WifiStable/Connect/SceneReco，与论文Timing术语存在兼容线索，但不能仅凭名称认定同产品或同供方。",
+      "原始定位分区前1000行较多前导0，可能受排序/分区策略影响，不能认作供应商指纹。",
+      "画像有cell_days或operator标签不等于已经证明轨迹定位融合运营商信令；需采集与字段文档独立核验。"
+    ],
+    "privacy": "不公开本地实际标识、坐标、轨迹或样本值。"
+  },
+  "conclusion": {
+    "raw_data_in_zip": false,
+    "raw_data_assessment": "可确认包内公开的是处理后的模型输入和标签，不是论文表1式原始Timing逐点交付；压缩包仍包含派生轨迹序列，不能说完全没有研究数据。",
+    "uuid_compatibility": "论文遮罩ID的可见十六进制片段与本地32位/连字符十六进制标识存在形态兼容性，但无法确认完整长度、连字符、生成算法或相同字段规范。",
+    "supplier_inference": "只可作为值得追查的低特异性线索；不能证明同供应商、同SDK、同数据批次，也不能取代供方声明/合同/作者答复。",
+    "privacy": "没有跨库用户匹配、没有重识别；公开报告不含任何本地真实ID、经纬度值或轨迹样本。"
+  }
+}
