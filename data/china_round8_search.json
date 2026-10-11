@@ -1,0 +1,383 @@
+{
+  "as_of": "2026-10-11",
+  "query_count": 60,
+  "query_log": [
+    {
+      "id": "R8WA-Q01",
+      "query": "\"BAMTR\" \"7396621\" pdf data",
+      "method": "web_search",
+      "date": "2026-10-11",
+      "result": "SSRN题录与摘要；无新全文"
+    },
+    {
+      "id": "R8WA-Q02",
+      "query": "\"人口空间分布典型数据的时空差异\" pdf",
+      "method": "web_search",
+      "date": "2026-10-11",
+      "result": "原刊落地页及PDF"
+    },
+    {
+      "id": "R8WA-Q03",
+      "query": "\"顾及相似用户特征的个人位置预测算法\" 数据 来源",
+      "method": "web_search",
+      "date": "2026-10-11",
+      "result": "原刊摘要，未得方法"
+    },
+    {
+      "id": "R8WA-Q04",
+      "query": "\"j.cnki.rddl.20250648\" \"数据\" \"手机\"",
+      "method": "web_search",
+      "date": "2026-10-11",
+      "result": "原刊可索引正文，后下载PDF核验"
+    },
+    {
+      "id": "R8WA-Q05",
+      "query": "\"whugis20200609\" \"运营商\"",
+      "method": "web_search",
+      "date": "2026-10-11",
+      "result": "无目标数据来源直接证据"
+    },
+    {
+      "id": "R8WA-Q06",
+      "query": "\"7396621\" \"dataset\"",
+      "method": "web_search",
+      "date": "2026-10-11",
+      "result": "编号噪声，未得实验信息"
+    },
+    {
+      "id": "R8WA-Q07",
+      "query": "\"BAMTR\" \"Xining\" OR \"Fuzhou\" \"data\"",
+      "method": "web_search",
+      "date": "2026-10-11",
+      "result": "仅SSRN摘要，未核城市"
+    },
+    {
+      "id": "R8WA-Q08",
+      "query": "\"BAMTR\" \"trajectory\" filetype:pdf -site:papers.ssrn.com",
+      "method": "web_search",
+      "date": "2026-10-11",
+      "result": "未得独立机构全文"
+    },
+    {
+      "id": "R8WA-Q09",
+      "query": "\"顾及相似用户特征\" \"数据来源\"",
+      "method": "web_search",
+      "date": "2026-10-11",
+      "result": "未得数据来源段"
+    },
+    {
+      "id": "R8WA-Q10",
+      "query": "\"顾及相似用户特征\" \"基站\"",
+      "method": "web_search",
+      "date": "2026-10-11",
+      "result": "作者主页题录，不证明基站来源"
+    },
+    {
+      "id": "R8WA-Q11",
+      "query": "\"BAMTR\" \"Tu\" \"Wu\" pdf",
+      "method": "web_search",
+      "date": "2026-10-11",
+      "result": "仍为SSRN题录/摘要，无独立全文"
+    },
+    {
+      "id": "R8WA-Q12",
+      "query": "\"顾及相似用户特征的个人位置预测算法\" \"深圳\"",
+      "method": "web_search",
+      "date": "2026-10-11",
+      "result": "无有效目标方法证据"
+    },
+    {
+      "id": "R8WA-Q13",
+      "query": "\"顾及相似用户特征的个人位置预测算法\" \"采集\"",
+      "method": "web_search",
+      "date": "2026-10-11",
+      "result": "无有效目标方法证据"
+    },
+    {
+      "id": "R8WA-Q14",
+      "query": "\"10.13284/j.cnki.rddl.20250648\" \"补充\"",
+      "method": "web_search",
+      "date": "2026-10-11",
+      "result": "仅原刊卷期页，无SI直接命中"
+    },
+    {
+      "id": "R8WA-Q15",
+      "query": "\"whugis20200609\" 数据 运营商 手机",
+      "method": "web_search",
+      "date": "2026-10-11",
+      "result": "作者机构主页列题录，无目标来源段"
+    },
+    {
+      "id": "R8WA-Q16",
+      "query": "\"顾及相似用户特征\" \"数据\" \"西宁\"",
+      "method": "web_search",
+      "date": "2026-10-11",
+      "result": "作者机构主页多篇西宁论文，不能移植城市/来源判断"
+    },
+    {
+      "id": "R8B-Q01",
+      "query": "\"基于手机定位数据的西宁市老年人公园绿地可达性预测\" 数据",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q02",
+      "query": "\"利用轨迹数据计算典型人类活动空间特征的时间聚合效应\"",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q03",
+      "query": "\"10.1080/13658816.2019.1584805\" data PDF",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q04",
+      "query": "\"10.12118/j.issn.1000-6060.2022.672\" pdf",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q05",
+      "query": "\"利用轨迹数据计算\" \"时间聚合\" 手机",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q06",
+      "query": "\"西宁市老年人\" \"手机\" \"数据\" 运营商",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q07",
+      "query": "\"10.12118\" \"2022.672\" 数据来源",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q08",
+      "query": "\"西宁市老年人公园绿地\" \"运营商\"",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q09",
+      "query": "\"时间聚合效应\" \"赵志远\" 数据",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q10",
+      "query": "\"The effect of temporal sampling intervals\" \"Shenzhen\" operator",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q11",
+      "query": "site:hpcc.siat.ac.cn \"1584805\" \"data\" \"operator\"",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q12",
+      "query": "site:hpcc.siat.ac.cn \"1584805\" \"2014\"",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q13",
+      "query": "\"西宁市老年人公园绿地可达性预测\" \"数据来源\"",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q14",
+      "query": "\"利用轨迹数据计算典型人类活动空间特征\" -site:chndoi.org -site:doi.org",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q15",
+      "query": "\"基于手机定位数据的西宁市老年人\" pdf ghqdl",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q16",
+      "query": "\"赵志远\" \"时间聚合效应\" 地理科学 2026",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q17",
+      "query": "\"1584805\" \"Supplemental\"",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q18",
+      "query": "\"temporal sampling intervals\" \"cell towers\" Zhao",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q19",
+      "query": "\"基于手机定位数据的西宁市老年人公园绿地可达性预测\" 数据来源 运营商",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q20",
+      "query": "\"利用轨迹数据计算典型人类活动空间特征的时间聚合效应\" 地理科学",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q21",
+      "query": "\"1584805\" \"Funding\"",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q22",
+      "query": "\"The effect of temporal sampling intervals\" \"supplementary\"",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q23",
+      "query": "\"西宁市老年人公园绿地\" alg.xjegi.com",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q24",
+      "query": "\"典型人类活动空间特征\" site:geoscien.neigae.ac.cn",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q25",
+      "query": "\"1584805\" \"National\" \"Foundation\"",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q26",
+      "query": "\"1584805\" \"servicing cell tower\"",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q27",
+      "query": "\"The effect of temporal sampling intervals\" \"Funding\" \"China\"",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q28",
+      "query": "\"基于手机定位数据的西宁市老年人公园绿地可达性预测\" \"基金\"",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q29",
+      "query": "\"时间聚合效应\" \"祝章伟\" 数据",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q30",
+      "query": "\"手机定位数据\" \"西宁市\" \"1744\" PDF",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q31",
+      "query": "\"时间聚合效应\" \"20241458\"",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q32",
+      "query": "\"temporal sampling intervals\" \"Shenzhen\" \"servicing\"",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q33",
+      "query": "\"1584805\" \"tgis\" supplemental",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8WC-Q01",
+      "query": "\"10.3390/ijgi8110517\" data supplementary",
+      "tool": "web.search_query",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8WC-Q02",
+      "query": "\"10.1038/s41598-023-29000-5\" data",
+      "tool": "web.search_query",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8WC-Q03",
+      "query": "\"10.12082/dqxxkx.2025.240484\" 数据",
+      "tool": "web.search_query",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8WC-Q04",
+      "query": "\"10.3390/ijgi8110517\" \"supplementary\"",
+      "tool": "web.search_query",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8WC-Q05",
+      "query": "\"10.12082/dqxxkx.2025.240484\" \"补充\"",
+      "tool": "web.search_query",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8WC-Q06",
+      "query": "\"Indoor Location Prediction\" \"Palmap\" WiFi",
+      "tool": "web.search_query",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8WC-Q07",
+      "query": "\"ijgi-08-00517\" \"supplementary\"",
+      "tool": "web.search_query",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8WC-Q08",
+      "query": "\"ijgi8110517\" \"Supplementary File 1\"",
+      "tool": "web.search_query",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8WC-Q09",
+      "query": "\"Indoor Location Prediction Method for Shopping Malls\" \"zip\"",
+      "tool": "web.search_query",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8WC-Q10",
+      "query": "\"ijgi-08-00517\" \"s001\"",
+      "tool": "web.search_query",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8WC-Q11",
+      "query": "\"giserwang\" \"Indoor-WhereNext\"",
+      "tool": "web.search_query",
+      "date": "2026-10-11"
+    }
+  ],
+  "scope": "三个子任务60次可复现查询；主代理其他论文查询另记，未混加未留日志项。"
+}

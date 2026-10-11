@@ -119,6 +119,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 2,
@@ -176,6 +181,11 @@
           "unresolved_candidate": []
         },
         "vehicle_gps": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "indoor_positioning": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -341,6 +351,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 2,
@@ -415,6 +430,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -460,6 +480,11 @@
           "unresolved_candidate": []
         },
         "vehicle_gps": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "indoor_positioning": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -521,6 +546,11 @@
           "unresolved_candidate": 0
         },
         "vehicle_gps": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "indoor_positioning": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -604,6 +634,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -649,6 +684,11 @@
           "unresolved_candidate": []
         },
         "vehicle_gps": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "indoor_positioning": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -718,6 +758,11 @@
           "unresolved_candidate": 0
         },
         "vehicle_gps": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "indoor_positioning": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -817,6 +862,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -871,6 +921,11 @@
           "unresolved_candidate": []
         },
         "vehicle_gps": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "indoor_positioning": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -963,6 +1018,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -1031,6 +1091,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -1074,6 +1139,11 @@
           "unresolved_candidate": []
         },
         "vehicle_gps": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "indoor_positioning": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -1126,6 +1196,11 @@
           "unresolved_candidate": 0
         },
         "vehicle_gps": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "indoor_positioning": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -1204,6 +1279,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -1249,6 +1329,11 @@
           "unresolved_candidate": []
         },
         "vehicle_gps": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "indoor_positioning": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -1308,6 +1393,11 @@
           "unresolved_candidate": 0
         },
         "vehicle_gps": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "indoor_positioning": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -1380,6 +1470,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -1423,6 +1518,11 @@
           "unresolved_candidate": []
         },
         "vehicle_gps": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "indoor_positioning": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -1475,6 +1575,11 @@
           "unresolved_candidate": 0
         },
         "vehicle_gps": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "indoor_positioning": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -1548,6 +1653,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -1591,6 +1701,11 @@
           "unresolved_candidate": []
         },
         "vehicle_gps": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "indoor_positioning": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -1643,6 +1758,11 @@
           "unresolved_candidate": 0
         },
         "vehicle_gps": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "indoor_positioning": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -1715,6 +1835,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -1758,6 +1883,11 @@
           "unresolved_candidate": []
         },
         "vehicle_gps": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "indoor_positioning": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -1810,6 +1940,11 @@
           "unresolved_candidate": 0
         },
         "vehicle_gps": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "indoor_positioning": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -1882,6 +2017,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -1925,6 +2065,11 @@
           "unresolved_candidate": []
         },
         "vehicle_gps": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "indoor_positioning": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -1977,6 +2122,11 @@
           "unresolved_candidate": 0
         },
         "vehicle_gps": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "indoor_positioning": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -2050,6 +2200,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -2093,6 +2248,11 @@
           "unresolved_candidate": []
         },
         "vehicle_gps": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "indoor_positioning": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -2145,6 +2305,11 @@
           "unresolved_candidate": 0
         },
         "vehicle_gps": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "indoor_positioning": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -2217,6 +2382,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -2260,6 +2430,11 @@
           "unresolved_candidate": []
         },
         "vehicle_gps": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "indoor_positioning": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -2312,6 +2487,11 @@
           "unresolved_candidate": 0
         },
         "vehicle_gps": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "indoor_positioning": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -2385,6 +2565,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -2428,6 +2613,11 @@
           "unresolved_candidate": []
         },
         "vehicle_gps": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "indoor_positioning": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -2480,6 +2670,11 @@
           "unresolved_candidate": 0
         },
         "vehicle_gps": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "indoor_positioning": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -2553,6 +2748,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -2596,6 +2796,11 @@
           "unresolved_candidate": []
         },
         "vehicle_gps": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "indoor_positioning": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -2648,6 +2853,11 @@
           "unresolved_candidate": 0
         },
         "vehicle_gps": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "indoor_positioning": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -2722,6 +2932,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -2765,6 +2980,11 @@
           "unresolved_candidate": []
         },
         "vehicle_gps": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "indoor_positioning": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -2821,6 +3041,11 @@
           "unresolved_candidate": 0
         },
         "vehicle_gps": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "indoor_positioning": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -2894,6 +3119,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -2937,6 +3167,11 @@
           "unresolved_candidate": []
         },
         "vehicle_gps": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "indoor_positioning": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -2989,6 +3224,11 @@
           "unresolved_candidate": 0
         },
         "vehicle_gps": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "indoor_positioning": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -3064,6 +3304,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -3107,6 +3352,11 @@
           "unresolved_candidate": []
         },
         "vehicle_gps": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "indoor_positioning": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -3163,6 +3413,11 @@
           "unresolved_candidate": 0
         },
         "vehicle_gps": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "indoor_positioning": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -3235,6 +3490,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -3278,6 +3538,11 @@
           "unresolved_candidate": []
         },
         "vehicle_gps": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "indoor_positioning": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -3330,6 +3595,11 @@
           "unresolved_candidate": 0
         },
         "vehicle_gps": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "indoor_positioning": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -3401,6 +3671,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -3444,6 +3719,11 @@
           "unresolved_candidate": []
         },
         "vehicle_gps": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "indoor_positioning": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -3496,6 +3776,11 @@
           "unresolved_candidate": 0
         },
         "vehicle_gps": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "indoor_positioning": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -3568,6 +3853,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -3611,6 +3901,11 @@
           "unresolved_candidate": []
         },
         "vehicle_gps": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "indoor_positioning": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -3663,6 +3958,11 @@
           "unresolved_candidate": 0
         },
         "vehicle_gps": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "indoor_positioning": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -3734,6 +4034,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -3777,6 +4082,11 @@
           "unresolved_candidate": []
         },
         "vehicle_gps": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "indoor_positioning": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -3833,6 +4143,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -3846,21 +4161,24 @@
       }
     },
     {
-      "id": "baidu",
-      "name": "百度慧眼 / Baidu",
+      "id": "palmap",
+      "name": "Shanghai Palmap Science & Technology Company Limited",
       "region": "china",
-      "profile_group": "platform_lbs_boundary",
-      "supply_chain_role": "平台LBS及人口属性聚合；WiFi辅助分类不能自动证明纯GPS/WiFi或独立SDK采集",
+      "profile_group": "indoor_positioning_boundary",
+      "supply_chain_role": "论文具名商场室内WiFi定位供方；不是已证多App SDK轨迹供应商",
+      "profile_source_urls": [
+        "https://giserwang.github.io/papers/IJGI-2019-11.pdf",
+        "https://giserwang.github.io/papers/Access-2019-12.pdf"
+      ],
       "counts": {
-        "confirmed_use": 3,
+        "confirmed_use": 2,
         "mention_only": 0,
         "unresolved_candidate": 0
       },
       "paper_ids": {
         "confirmed_use": [
-          "L30",
-          "L32",
-          "L38"
+          "L53",
+          "L56"
         ],
         "mention_only": [],
         "unresolved_candidate": []
@@ -3892,12 +4210,17 @@
           "unresolved_candidate": 0
         },
         "platform_aggregate": {
-          "confirmed_use": 3,
+          "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
         },
         "vehicle_gps": {
           "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "indoor_positioning": {
+          "confirmed_use": 2,
           "mention_only": 0,
           "unresolved_candidate": 0
         },
@@ -3939,16 +4262,20 @@
           "unresolved_candidate": []
         },
         "platform_aggregate": {
-          "confirmed_use": [
-            "L30",
-            "L32",
-            "L38"
-          ],
+          "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
         },
         "vehicle_gps": {
           "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "indoor_positioning": {
+          "confirmed_use": [
+            "L53",
+            "L56"
+          ],
           "mention_only": [],
           "unresolved_candidate": []
         },
@@ -3967,9 +4294,8 @@
       "confirmed_mixed_mobility_use": 0,
       "zero_count_meaning": "0仅表示当前文献目录中没有符合该证据门槛的记录；不是全领域无人使用，也不是搜索穷尽。",
       "association_ids": [
-        "L30",
-        "L32",
-        "L38"
+        "L53",
+        "L56"
       ],
       "entity_interpretation": "按现有品牌/实体标签分别计数",
       "evidence_role_counts": {
@@ -3999,11 +4325,216 @@
           "unresolved_candidate": 0
         },
         "platform_aggregate": {
-          "confirmed_use": 3,
+          "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
         },
         "vehicle_gps": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "indoor_positioning": {
+          "confirmed_use": 2,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "comparison_reference": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "unknown": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        }
+      }
+    },
+    {
+      "id": "baidu",
+      "name": "百度慧眼 / Baidu",
+      "region": "china",
+      "profile_group": "platform_lbs_boundary",
+      "supply_chain_role": "平台LBS及人口属性聚合；WiFi辅助分类不能自动证明纯GPS/WiFi或独立SDK采集",
+      "counts": {
+        "confirmed_use": 6,
+        "mention_only": 0,
+        "unresolved_candidate": 0
+      },
+      "paper_ids": {
+        "confirmed_use": [
+          "L30",
+          "L32",
+          "L35",
+          "L38",
+          "L48",
+          "L57"
+        ],
+        "mention_only": [],
+        "unresolved_candidate": []
+      },
+      "role_counts": {
+        "mobility": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "mixed_mobility": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "poi": {
+          "confirmed_use": 1,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "distribution": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "access_contact": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "platform_aggregate": {
+          "confirmed_use": 5,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "vehicle_gps": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "comparison_reference": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "unknown": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        }
+      },
+      "role_paper_ids": {
+        "mobility": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "mixed_mobility": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "poi": {
+          "confirmed_use": [
+            "L57"
+          ],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "distribution": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "access_contact": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "platform_aggregate": {
+          "confirmed_use": [
+            "L30",
+            "L32",
+            "L35",
+            "L38",
+            "L48"
+          ],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "vehicle_gps": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "indoor_positioning": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "comparison_reference": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "unknown": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        }
+      },
+      "confirmed_mobility_use": 0,
+      "confirmed_mixed_mobility_use": 0,
+      "zero_count_meaning": "0仅表示当前文献目录中没有符合该证据门槛的记录；不是全领域无人使用，也不是搜索穷尽。",
+      "association_ids": [
+        "L30",
+        "L32",
+        "L38",
+        "L48",
+        "L57",
+        "L35"
+      ],
+      "entity_interpretation": "按现有品牌/实体标签分别计数",
+      "evidence_role_counts": {
+        "mobility": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "mixed_mobility": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "poi": {
+          "confirmed_use": 1,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "distribution": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "access_contact": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "platform_aggregate": {
+          "confirmed_use": 5,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "vehicle_gps": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "indoor_positioning": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -4027,13 +4558,15 @@
       "profile_group": "poi_context",
       "supply_chain_role": "原文明确的POI数据供方；不由POI使用推断其手机轨迹供给",
       "counts": {
-        "confirmed_use": 1,
+        "confirmed_use": 3,
         "mention_only": 0,
         "unresolved_candidate": 0
       },
       "paper_ids": {
         "confirmed_use": [
-          "L29"
+          "L29",
+          "L54",
+          "L55"
         ],
         "mention_only": [],
         "unresolved_candidate": []
@@ -4050,7 +4583,7 @@
           "unresolved_candidate": 0
         },
         "poi": {
-          "confirmed_use": 1,
+          "confirmed_use": 3,
           "mention_only": 0,
           "unresolved_candidate": 0
         },
@@ -4070,6 +4603,11 @@
           "unresolved_candidate": 0
         },
         "vehicle_gps": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "indoor_positioning": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -4098,7 +4636,9 @@
         },
         "poi": {
           "confirmed_use": [
-            "L29"
+            "L29",
+            "L54",
+            "L55"
           ],
           "mention_only": [],
           "unresolved_candidate": []
@@ -4123,6 +4663,11 @@
           "mention_only": [],
           "unresolved_candidate": []
         },
+        "indoor_positioning": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
         "comparison_reference": {
           "confirmed_use": [],
           "mention_only": [],
@@ -4138,7 +4683,9 @@
       "confirmed_mixed_mobility_use": 0,
       "zero_count_meaning": "0仅表示当前文献目录中没有符合该证据门槛的记录；不是全领域无人使用，也不是搜索穷尽。",
       "association_ids": [
-        "L29"
+        "L29",
+        "L54",
+        "L55"
       ],
       "entity_interpretation": "按现有品牌/实体标签分别计数",
       "evidence_role_counts": {
@@ -4153,7 +4700,7 @@
           "unresolved_candidate": 0
         },
         "poi": {
-          "confirmed_use": 1,
+          "confirmed_use": 3,
           "mention_only": 0,
           "unresolved_candidate": 0
         },
@@ -4173,6 +4720,11 @@
           "unresolved_candidate": 0
         },
         "vehicle_gps": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "indoor_positioning": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -4244,6 +4796,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -4290,6 +4847,11 @@
           "unresolved_candidate": []
         },
         "vehicle_gps": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "indoor_positioning": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -4345,6 +4907,11 @@
           "unresolved_candidate": 0
         },
         "vehicle_gps": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "indoor_positioning": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -4415,6 +4982,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -4460,6 +5032,11 @@
           "unresolved_candidate": []
         },
         "vehicle_gps": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "indoor_positioning": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -4514,6 +5091,11 @@
           "unresolved_candidate": 0
         },
         "vehicle_gps": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "indoor_positioning": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -4584,6 +5166,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -4629,6 +5216,11 @@
           "unresolved_candidate": []
         },
         "vehicle_gps": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "indoor_positioning": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -4683,6 +5275,11 @@
           "unresolved_candidate": 0
         },
         "vehicle_gps": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "indoor_positioning": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -4753,6 +5350,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -4798,6 +5400,11 @@
           "unresolved_candidate": []
         },
         "vehicle_gps": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "indoor_positioning": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -4852,6 +5459,11 @@
           "unresolved_candidate": 0
         },
         "vehicle_gps": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "indoor_positioning": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -4922,6 +5534,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -4967,6 +5584,11 @@
           "unresolved_candidate": []
         },
         "vehicle_gps": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "indoor_positioning": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -5021,6 +5643,11 @@
           "unresolved_candidate": 0
         },
         "vehicle_gps": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "indoor_positioning": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -5091,6 +5718,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -5137,6 +5769,11 @@
           "confirmed_use": [
             "L17"
           ],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "indoor_positioning": {
+          "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
         },
@@ -5191,6 +5828,11 @@
         },
         "vehicle_gps": {
           "confirmed_use": 1,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "indoor_positioning": {
+          "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
         },
@@ -5260,6 +5902,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -5303,6 +5950,11 @@
           "unresolved_candidate": []
         },
         "vehicle_gps": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "indoor_positioning": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -5359,6 +6011,11 @@
           "unresolved_candidate": 0
         },
         "vehicle_gps": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "indoor_positioning": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -5429,6 +6086,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -5472,6 +6134,11 @@
           "unresolved_candidate": []
         },
         "vehicle_gps": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "indoor_positioning": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -5532,6 +6199,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -5575,7 +6247,7 @@
           "name": "及刻 / Jike（即刻为用户检索别名）",
           "region": "china",
           "profile_group": "paper_domain_and_user_alias_display_group",
-          "supply_chain_role": "L29原文isjike.com直接对应及刻官网，页脚版权主体为广州市梦享网络技术有限公司；L26仅有原文Jike，中文名称对应依用户确认，不能反向视为独立域名核实。与先锋的法律关系未核。",
+          "supply_chain_role": "L29、L48原文isjike.com直接对应及刻官网，页脚版权主体为广州市梦享网络技术有限公司；L26仅有原文Jike，中文名称对应依用户确认，不能反向视为独立域名核实。与先锋的法律关系未核。",
           "profile_source_urls": [
             "https://www.isjike.com/"
           ]
@@ -5586,7 +6258,7 @@
         "https://www.isjike.com/"
       ],
       "counts": {
-        "confirmed_use": 4,
+        "confirmed_use": 5,
         "mention_only": 0,
         "unresolved_candidate": 1
       },
@@ -5595,7 +6267,8 @@
           "L21",
           "L25",
           "L26",
-          "L29"
+          "L29",
+          "L48"
         ],
         "mention_only": [],
         "unresolved_candidate": [
@@ -5604,7 +6277,7 @@
       },
       "role_counts": {
         "mobility": {
-          "confirmed_use": 3,
+          "confirmed_use": 4,
           "mention_only": 0,
           "unresolved_candidate": 0
         },
@@ -5638,6 +6311,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -5654,7 +6332,8 @@
           "confirmed_use": [
             "L21",
             "L25",
-            "L26"
+            "L26",
+            "L48"
           ],
           "mention_only": [],
           "unresolved_candidate": []
@@ -5691,6 +6370,11 @@
           "mention_only": [],
           "unresolved_candidate": []
         },
+        "indoor_positioning": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
         "comparison_reference": {
           "confirmed_use": [],
           "mention_only": [],
@@ -5704,7 +6388,7 @@
           ]
         }
       },
-      "confirmed_mobility_use": 3,
+      "confirmed_mobility_use": 4,
       "confirmed_mixed_mobility_use": 1,
       "zero_count_meaning": "0仅表示当前文献目录中没有符合该证据门槛的记录；不是全领域无人使用，也不是搜索穷尽。",
       "association_ids": [
@@ -5712,12 +6396,13 @@
         "L25",
         "L26",
         "L27",
-        "L29"
+        "L29",
+        "L48"
       ],
       "entity_interpretation": "展示组，不构成法律实体或独立采样面板合并认定",
       "evidence_role_counts": {
         "mobility": {
-          "confirmed_use": 3,
+          "confirmed_use": 4,
           "mention_only": 0,
           "unresolved_candidate": 0
         },
@@ -5747,6 +6432,11 @@
           "unresolved_candidate": 0
         },
         "vehicle_gps": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "indoor_positioning": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -6688,6 +7378,183 @@
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
       "primary_source_audit": "user_verified_provider"
+    },
+    {
+      "paper_id": "L48",
+      "paper_title": "人口空间分布典型数据的时空差异",
+      "doi": "10.13284/j.cnki.rddl.20250648",
+      "provider_id": "baidu",
+      "provider_name": "百度慧眼 / Baidu",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "platform_aggregate",
+      "roles": [
+        "platform_aggregate"
+      ],
+      "declared_brands": [
+        "百度慧眼"
+      ],
+      "evidence_url": "https://www.rddl.com.cn/CN/10.13284/j.cnki.rddl.20250648",
+      "evidence_section": "PDF第3页/印刷1100页，§1.2第3项；PDF第3页/印刷1100页，脚注③；PDF第3页/印刷1100页，§1.2第3项",
+      "basis": "§1.2独立使用百度慧眼人口热力作为对比数据；不归为本文另一路匿名轨迹的供方。",
+      "catalog_status": "reviewed",
+      "scope": "map_platform",
+      "data_access_relationship": "platform_data",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "primary_source_audit": "round8_primary_source_methods_verified"
+    },
+    {
+      "paper_id": "L53",
+      "paper_title": "Indoor Location Prediction Method for Shopping Malls Based on Location Sequence Similarity",
+      "doi": "10.3390/ijgi8110517",
+      "provider_id": "palmap",
+      "provider_name": "Shanghai Palmap Science & Technology Company Limited",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "indoor_positioning",
+      "roles": [
+        "indoor_positioning"
+      ],
+      "declared_brands": [
+        "Shanghai Palmap Science & Technology Company Limited"
+      ],
+      "evidence_url": "https://giserwang.github.io/papers/IJGI-2019-11.pdf",
+      "evidence_section": "PDF第9页§4.1.1；第10页§4.1.2；第15页Funding/Acknowledgments",
+      "basis": "正文WiFi室内轨迹与致谢明确Shanghai Palmap供数；SDK、探针部署与连接机制未明。",
+      "catalog_status": "reviewed",
+      "scope": "indoor_wifi_boundary",
+      "data_access_relationship": "source_dataset",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "primary_source_audit": "round8_primary_source_methods_verified"
+    },
+    {
+      "paper_id": "L56",
+      "paper_title": "A Hybrid Markov and LSTM Model for Indoor Location Prediction",
+      "doi": "10.1109/access.2019.2961559",
+      "provider_id": "palmap",
+      "provider_name": "Shanghai Palmap Science & Technology Company Limited",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "indoor_positioning",
+      "roles": [
+        "indoor_positioning"
+      ],
+      "declared_brands": [
+        "Shanghai Palmap Science & Technology Company Limited"
+      ],
+      "evidence_url": "https://giserwang.github.io/papers/Access-2019-12.pdf",
+      "evidence_section": "PDF第6页＝印刷185933页，§V.A.1；第12页致谢；第1页机构/基金",
+      "basis": "数据段明确商场WiFi指纹定位，致谢明确Palmap供数；单列室内位置方法边界。",
+      "catalog_status": "reviewed",
+      "scope": "indoor_wifi_boundary",
+      "data_access_relationship": "source_dataset",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "primary_source_audit": "round8_primary_source_methods_verified"
+    },
+    {
+      "paper_id": "L54",
+      "paper_title": "An urban crowd flow model integrating geographic characteristics",
+      "doi": "10.1038/s41598-023-29000-5",
+      "provider_id": "gaode",
+      "provider_name": "高德 / Gaode (Amap)",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "poi",
+      "roles": [
+        "poi"
+      ],
+      "declared_brands": [
+        "高德",
+        "Gaode"
+      ],
+      "evidence_url": "https://www.nature.com/articles/s41598-023-29000-5.pdf",
+      "evidence_section": "正文PDF第5页 Data and data preprocessing；第6页路网；第16页作者贡献/基金；DOCX补充Fig.S5–S6",
+      "basis": "高德API仅提供辅助POI；主轨迹是未具名电信基站/事件来源，不能把高德归为轨迹供方。",
+      "catalog_status": "reviewed",
+      "scope": "poi_context_not_phone_trace",
+      "data_access_relationship": "poi_database",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "primary_source_audit": "round8_primary_source_methods_verified"
+    },
+    {
+      "paper_id": "L55",
+      "paper_title": "融合区域嵌入表示的城市功能区识别方法",
+      "doi": "10.12082/dqxxkx.2025.240484",
+      "provider_id": "gaode",
+      "provider_name": "高德 / Gaode (Amap)",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "poi",
+      "roles": [
+        "poi"
+      ],
+      "declared_brands": [
+        "高德"
+      ],
+      "evidence_url": "https://www.dqxxkx.cn/EN/PDF/10.12082/dqxxkx.2025.240484",
+      "evidence_section": "PDF第7页＝印刷430页，§3.2数据来源及表2；PDF第1页基金/机构",
+      "basis": "原刊§3.2高德提供2022年POI；手机轨迹购自另一未具名第三方。",
+      "catalog_status": "reviewed",
+      "scope": "poi_context_not_phone_trace",
+      "data_access_relationship": "poi_database",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "primary_source_audit": "round8_primary_source_methods_verified"
+    },
+    {
+      "paper_id": "L57",
+      "paper_title": "多尺度视角下的城市旅游流网络结构特征分析——以长沙市为例",
+      "doi": "10.12082/dqxxkx.2025.240586",
+      "provider_id": "baidu",
+      "provider_name": "百度慧眼 / Baidu",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "poi",
+      "roles": [
+        "poi"
+      ],
+      "declared_brands": [
+        "百度地图开放平台"
+      ],
+      "evidence_url": "https://www.dqxxkx.cn/CN/10.12082/dqxxkx.2025.240586",
+      "evidence_section": "3.2 数据来源与预处理；PDF第5页，印刷971页",
+      "basis": "原刊§3.2百度地图开放平台只供景区POI/AOI；手机SDK轨迹供方未具名。",
+      "catalog_status": "reviewed",
+      "scope": "poi_aoi_context_not_phone_trace",
+      "data_access_relationship": "poi_database",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "primary_source_audit": "round8_primary_source_methods_verified"
+    },
+    {
+      "paper_id": "L35",
+      "paper_title": "The Spillover Effect of Driving Restrictions on Intercity Travel",
+      "doi": "10.1111/jors.70043",
+      "provider_id": "baidu",
+      "provider_name": "百度慧眼 / Baidu",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "platform_aggregate",
+      "roles": [
+        "platform_aggregate"
+      ],
+      "declared_brands": [
+        "Baidu Migration",
+        "Baidu Maps"
+      ],
+      "evidence_url": "https://onlinelibrary.wiley.com/doi/10.1111/jors.70043",
+      "evidence_section": "正文PDF第4页§4.1 Baidu Migration；学校机构HTML全文同段；SI PDF第2页Appendix Fig.1原注",
+      "basis": "学校机构访问原刊全文§4.1明确Baidu Migration；App经百度API/SDK上传GPS/WiFi/cell sites组合位置，形成城市日流。 SI PDF第2页Appendix Fig.1原注亦明确Baidu Migration。",
+      "catalog_status": "reviewed",
+      "scope": "map_platform",
+      "data_access_relationship": "platform_data",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "primary_source_audit": "round8_primary_source_methods_verified"
     },
     {
       "paper_id": "P240AD96D",
@@ -9108,6 +9975,74 @@
       "evidence_urls": [
         "https://recovery.preventionweb.net/media/115864/download?startDownload=20261010"
       ]
+    },
+    {
+      "paper_id": "L48",
+      "paper_title": "人口空间分布典型数据的时空差异",
+      "doi": "10.13284/j.cnki.rddl.20250648",
+      "provider_id": "pioneer_moxing_jike",
+      "provider_name": "先锋数聚 / 摸星 / 即刻·及刻（Pioneer / Moxing / Jike）",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "isjike.com",
+        "及刻"
+      ],
+      "evidence_url": "https://www.rddl.com.cn/CN/10.13284/j.cnki.rddl.20250648",
+      "evidence_section": "PDF第3页/印刷1100页，§1.2第3项；PDF第3页/印刷1100页，脚注③；PDF第3页/印刷1100页，§1.2第3项",
+      "basis": "按用户人工核验合并供应商展示组，同篇去重；不作工商关系认定。 [及刻 / Jike（即刻为用户检索别名）；confirmed_use；mobility] PDF第3页§1.2及脚注③明确智能手机SDK定位服务商isjike.com，WiFi及手机内置模糊定位；实际匿名轨迹使用。 来源：https://www.rddl.com.cn/CN/10.13284/j.cnki.rddl.20250648",
+      "catalog_status": "reviewed",
+      "scope": "phone_sdk_wifi_location",
+      "data_access_relationship": "source_dataset",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "primary_source_audit": "round8_primary_source_methods_verified",
+      "evidence_basis": "user_confirmed_supplier_group",
+      "grouping_basis": "user_confirmed_supplier_group",
+      "member_provider_ids": [
+        "jike"
+      ],
+      "role_statuses": {
+        "mobility": "confirmed_use"
+      },
+      "evidence_roles": [
+        "mobility"
+      ],
+      "evidence": [
+        {
+          "paper_id": "L48",
+          "paper_title": "人口空间分布典型数据的时空差异",
+          "doi": "10.13284/j.cnki.rddl.20250648",
+          "provider_id": "jike",
+          "provider_name": "及刻 / Jike（即刻为用户检索别名）",
+          "status": "confirmed_use",
+          "classification": "confirmed_use",
+          "role": "mobility",
+          "roles": [
+            "mobility"
+          ],
+          "declared_brands": [
+            "isjike.com",
+            "及刻"
+          ],
+          "evidence_url": "https://www.rddl.com.cn/CN/10.13284/j.cnki.rddl.20250648",
+          "evidence_section": "PDF第3页/印刷1100页，§1.2第3项；PDF第3页/印刷1100页，脚注③；PDF第3页/印刷1100页，§1.2第3项",
+          "basis": "PDF第3页§1.2及脚注③明确智能手机SDK定位服务商isjike.com，WiFi及手机内置模糊定位；实际匿名轨迹使用。",
+          "catalog_status": "reviewed",
+          "scope": "phone_sdk_wifi_location",
+          "data_access_relationship": "source_dataset",
+          "data_reuse_note": "",
+          "count_unit": "unique_study_not_independent_dataset",
+          "primary_source_audit": "round8_primary_source_methods_verified"
+        }
+      ],
+      "evidence_urls": [
+        "https://www.rddl.com.cn/CN/10.13284/j.cnki.rddl.20250648"
+      ]
     }
   ],
   "member_associations": [
@@ -9237,6 +10172,32 @@
       "primary_source_audit": "15页开放PDF下载及身份核验；sha256 ac5bc0459191a1e596e56766e6610e3159d72f967165a5b3ded881a69aebd3bd。"
     },
     {
+      "paper_id": "L48",
+      "paper_title": "人口空间分布典型数据的时空差异",
+      "doi": "10.13284/j.cnki.rddl.20250648",
+      "provider_id": "jike",
+      "provider_name": "及刻 / Jike（即刻为用户检索别名）",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "isjike.com",
+        "及刻"
+      ],
+      "evidence_url": "https://www.rddl.com.cn/CN/10.13284/j.cnki.rddl.20250648",
+      "evidence_section": "PDF第3页/印刷1100页，§1.2第3项；PDF第3页/印刷1100页，脚注③；PDF第3页/印刷1100页，§1.2第3项",
+      "basis": "PDF第3页§1.2及脚注③明确智能手机SDK定位服务商isjike.com，WiFi及手机内置模糊定位；实际匿名轨迹使用。",
+      "catalog_status": "reviewed",
+      "scope": "phone_sdk_wifi_location",
+      "data_access_relationship": "source_dataset",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "primary_source_audit": "round8_primary_source_methods_verified"
+    },
+    {
       "paper_id": "L27",
       "paper_title": "Capturing socio-spatial inequality in planetary urbanisation: A multi-dimensional methodological framework",
       "doi": "10.1016/j.cities.2022.104076",
@@ -9277,6 +10238,7 @@
       "distribution": "数据分发或获取渠道，不等于采集商",
       "access_contact": "原文访问联系，不等于直接供方归属",
       "platform_aggregate": "平台定位衍生汇总统计",
+      "indoor_positioning": "商场室内WiFi/指纹定位，非已确认商业手机SDK轨迹",
       "vehicle_gps": "车辆GPS或其衍生统计",
       "comparison_reference": "正文类比或讨论，不是实际供方",
       "unknown": "待核角色"
@@ -9304,18 +10266,18 @@
     "name_collision_rule": "同音或近似拼写不构成供方关联，以上名称均未映射为北京摸星。"
   },
   "counts": {
-    "catalog_studies": 113,
-    "provider_nodes": 32,
-    "associations": 116,
-    "unique_studies_with_association": 92,
-    "unassigned_studies": 21,
+    "catalog_studies": 124,
+    "provider_nodes": 33,
+    "associations": 124,
+    "unique_studies_with_association": 99,
+    "unassigned_studies": 25,
     "association_counts_by_status": {
-      "confirmed_use": 40,
+      "confirmed_use": 48,
       "mention_only": 2,
       "unresolved_candidate": 74
     },
     "unique_studies_by_status": {
-      "confirmed_use": 32,
+      "confirmed_use": 39,
       "mention_only": 2,
       "unresolved_candidate": 60
     }
@@ -9356,12 +10318,6 @@
       "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
     },
     {
-      "paper_id": "L35",
-      "title": "The Spillover Effect of Driving Restrictions on Intercity Travel",
-      "doi": "10.1111/jors.70043",
-      "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
-    },
-    {
       "paper_id": "L36",
       "title": "Predicting the Next Location of Urban Individuals via a Representation-Enhanced Multi-View Learning Network",
       "doi": "10.3390/ijgi14080302",
@@ -9383,6 +10339,36 @@
       "paper_id": "L46",
       "title": "先验与数据双引导的城市居民活动强度预测模型",
       "doi": "10.12082/dqxxkx.2025.250198",
+      "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
+    },
+    {
+      "paper_id": "L47",
+      "title": "BAMTR: Behavior-Aware Mobile Phone Trajectory Recovery via Adaptive Historical Prior Reasoning",
+      "doi": "10.2139/ssrn.7396621",
+      "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
+    },
+    {
+      "paper_id": "L49",
+      "title": "顾及相似用户特征的个人位置预测算法",
+      "doi": "10.13203/j.whugis20200609",
+      "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
+    },
+    {
+      "paper_id": "L50",
+      "title": "基于手机定位数据的西宁市老年人公园绿地可达性预测",
+      "doi": "10.12118/j.issn.1000-6060.2022.672",
+      "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
+    },
+    {
+      "paper_id": "L51",
+      "title": "利用轨迹数据计算典型人类活动空间特征的时间聚合效应",
+      "doi": "10.13249/j.cnki.sgs.20241458",
+      "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
+    },
+    {
+      "paper_id": "L52",
+      "title": "The effect of temporal sampling intervals on typical human mobility indicators obtained from mobile phone location data",
+      "doi": "10.1080/13658816.2019.1584805",
       "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
     },
     {

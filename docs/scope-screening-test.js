@@ -5,7 +5,7 @@ const html=fs.readFileSync(path.join(root,'index.html'),'utf8');
 const data=JSON.parse([...html.matchAll(/<script(?:\s[^>]*)?>([\s\S]*?)<\/script>/g)][0][1]);
 const targetIds=new Set(data.china_groups.flatMap(g=>g.studies.flatMap(s=>s.outputs.map(o=>o.catalog_id))));
 const secondaryIds=new Set(data.secondary_groups.flatMap(g=>g.studies.flatMap(s=>s.outputs.map(o=>o.catalog_id))));
-for(const id of ['L30','L32','L38','L37','L45','L43']){
+for(const id of ['L30','L32','L38','L37','L45','L43','L35','L52','L53','L54','L56']){
  assert(!targetIds.has(id),`${id} must not belong to Pioneer-related research`);
  assert(secondaryIds.has(id),`${id} must be retained in separate source groups`);
 }
@@ -16,7 +16,7 @@ for(const id of ['L31','L33','L39','L40','L42']){
 }
 const hku=data.china_groups.find(g=>g.id==='HKU-YANG-MOBILITY');
 assert(hku && hku.studies.length===0 && hku.procurements.length===1);
-assert.equal(data.china_groups.find(g=>g.id==='FZU-WU-SHENG').studies.length,2);
+for(const id of ['L36','L46','L47','L48','L49','L50','L51','L55','L57'])assert(targetIds.has(id),id+' must remain in target studies');
 assert(data.china_groups.find(g=>g.id==='FZU-WU-SHENG').outputs.some(r=>r.catalog_id==='L46'));
 const sourceIds=[...data.china,...data.secondary_sources].map(r=>r.id);
 assert.equal(new Set(sourceIds).size,sourceIds.length);

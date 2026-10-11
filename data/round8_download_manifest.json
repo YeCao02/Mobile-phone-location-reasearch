@@ -1,0 +1,70 @@
+{
+  "as_of": "2026-10-11",
+  "main_pdfs": 7,
+  "supplements": 2,
+  "files": [
+    {
+      "filename": "csu_tourism.pdf",
+      "bytes": 5280817,
+      "sha256": "fd76449ef08321b78782f187fd7e4b51ecfe0160d9021cf85f42f74292d4a9b8",
+      "type": "pdf",
+      "pages": 12
+    },
+    {
+      "filename": "L35_jors70043_appendix.pdf",
+      "bytes": 172507,
+      "sha256": "36b319c54f11b548cc2baa2c489ce9b1aba0f154082c0d8dfa74a701ac279e0e",
+      "type": "pdf",
+      "pages": 6
+    },
+    {
+      "filename": "L35_jors70043_main.pdf",
+      "bytes": 4501325,
+      "sha256": "dfc4e4144457e5680b0f79d5dab94939435f0bc542bcfe36ee1ea169c588dbe0",
+      "type": "pdf",
+      "pages": 17
+    },
+    {
+      "filename": "population2026.pdf",
+      "bytes": 11227973,
+      "sha256": "6916ff376b1cdb62250a1f5f9f0817ef8d62e74f8a5ca367a3bdd974103dcc25",
+      "type": "pdf",
+      "pages": 15
+    },
+    {
+      "filename": "C07_main.pdf",
+      "bytes": 3696983,
+      "sha256": "655c64d96c4fdd2e044eaf545842e717aa77712f1813913033413b577383b3bf",
+      "type": "pdf",
+      "pages": 18
+    },
+    {
+      "filename": "C07_related_Access2019.pdf",
+      "bytes": 5114594,
+      "sha256": "fcdc6ad7f175f8d142172b8c488f481acf767609b772f5d44302026d71b856e0",
+      "type": "pdf",
+      "pages": 13
+    },
+    {
+      "filename": "C08_main.pdf",
+      "bytes": 3038530,
+      "sha256": "52a7d3025d8008b188af8645060480b2d039e8af12312c95c6bc06411d2d978d",
+      "type": "pdf",
+      "pages": 17
+    },
+    {
+      "filename": "C08_supplement.docx",
+      "bytes": 777992,
+      "sha256": "c829a2298566333777e41217731347cfc133677ac0a793edfde7b69fe34c4086",
+      "type": "docx"
+    },
+    {
+      "filename": "C09_main.pdf",
+      "bytes": 4504062,
+      "sha256": "81fa65f54ea73dcf77c17415d55e8a3ce979755e05108739983592444e2f6c5e",
+      "type": "pdf",
+      "pages": 17
+    }
+  ],
+  "scope": "本轮实际本地文件核验；不发布全文。"
+}

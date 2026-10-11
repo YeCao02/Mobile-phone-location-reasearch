@@ -1,0 +1,446 @@
+{
+  "as_of": "2026-10-11",
+  "scope": "第八轮吴升团队C07–C09正文和补充材料核查",
+  "counts": {
+    "assigned_records": 3,
+    "assigned_main_pdfs": 3,
+    "supplements_downloaded": 1,
+    "additional_related_pdfs": 1,
+    "new_target_supplier_confirmations": 0,
+    "explicit_sdk_confirmations": 0
+  },
+  "records": [
+    {
+      "id": "R7F-C07",
+      "title": "Indoor Location Prediction Method for Shopping Malls Based on Location Sequence Similarity",
+      "doi": "10.3390/ijgi8110517",
+      "year": 2019,
+      "journal": "ISPRS International Journal of Geo-Information",
+      "authors": [
+        "Peixiao Wang",
+        "Sheng Wu",
+        "Hengcai Zhang",
+        "Feng Lu"
+      ],
+      "evidence_url": "https://www.mdpi.com/2220-9964/8/11/517",
+      "evidence_status": "local_pdf_identity_and_data_methods_verified",
+      "fulltext_read": true,
+      "source_confirmed": true,
+      "sdk_explicit": false,
+      "provider": "Shanghai Palmap Science & Technology Company Limited",
+      "publication_type": "journal_article",
+      "existing_catalog_matches": [],
+      "verified_on": "2026-10-11",
+      "fulltext_scope": "正文身份、作者机构、基金、数据来源与预处理关键段；非逐句全文通读",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false,
+      "catalog_status": "reviewed",
+      "pdf_validation": {
+        "filename": "C07_main.pdf",
+        "pages": 18,
+        "bytes": 3696983,
+        "sha256": "655c64d96c4fdd2e044eaf545842e717aa77712f1813913033413b577383b3bf",
+        "title_verified": true,
+        "doi_verified": true,
+        "parser": "pypdf"
+      },
+      "target_supplier_confirmed": false,
+      "volume": "8",
+      "issue": "11",
+      "pages": "517",
+      "institutions": [
+        "福州大学数字中国研究院",
+        "中国科学院地理科学与资源研究所",
+        "福建省政务大数据应用协同创新中心"
+      ],
+      "team": "王培晓—吴升—张恒才—陆锋",
+      "named_supplier_confirmed": true,
+      "scope_tag": "indoor_wifi_positioning_boundary_sdk_unconfirmed",
+      "recommended_disposition": "边界资料：商业供方室内WiFi定位；不计商业手机SDK核心",
+      "application": "商场室内下一位置预测、停留点、用户相似群组",
+      "data_declaration": "济南单商场8层、2017-12-23至2018-01-06室内WiFi定位，约3m精度，129070836轨迹点；清洗后345824条用户轨迹。Palmap提供数据，SDK、探针部署和主动连接机制未被正文明确。",
+      "evidence_section": "PDF第9页§4.1.1；第10页§4.1.2；第15页Funding/Acknowledgments",
+      "evidence_quotes": [
+        {
+          "quote": "Shanghai Palmap Science & Technology Company Limited",
+          "location": "PDF第15页 Acknowledgments"
+        },
+        {
+          "quote": "The indoor users’ original trajectory data were collected via Wi-Fi positioning.",
+          "location": "PDF第10页§4.1.2"
+        }
+      ],
+      "sensor_evidence": {
+        "wifi": true,
+        "gps": false,
+        "bluetooth": false,
+        "sdk": false,
+        "cell_tower": false,
+        "wifi_probe_explicit": false,
+        "wifi_connection_requirement": "未说明"
+      },
+      "funding": [
+        "41771436",
+        "41701521",
+        "2016YFB0502104",
+        "2017YFB0503500",
+        "2016-23"
+      ],
+      "fulltext_url": "https://giserwang.github.io/papers/IJGI-2019-11.pdf",
+      "supplementary": {
+        "exists": true,
+        "status": "publisher_zip_link_located_browser_client_blocked",
+        "downloaded": false,
+        "reviewed": false,
+        "url": "https://mdpi-res.com/d_attachment/ijgi/ijgi-08-00517/article_deploy/ijgi-08-00517-s001.zip?version=1574845820",
+        "evidence_url": "https://www.mdpi.com/2220-9964/8/11/517",
+        "description": "主代理通过出版商正文Download→Supplementary Material直接定位ZIP（页面显示664KB）；点击/s1?version=1574845820重定向到此正式URL，但浏览器ERR_BLOCKED_BY_CLIENT，未保存文件。文件格式与大小现为本文下载菜单直接证据，不再沿用邻文疑虑。",
+        "access_error": "ERR_BLOCKED_BY_CLIENT",
+        "size_as_displayed": "664KB",
+        "identity_validation": "not_downloaded"
+      },
+      "notes": "同组关联IEEE Access论文明确WiFi指纹定位，但不能把另一篇的数据采集细节直接继承给本篇；未发现目标先锋/摸星/及刻品牌关联。"
+    },
+    {
+      "id": "R7F-C08",
+      "title": "An urban crowd flow model integrating geographic characteristics",
+      "doi": "10.1038/s41598-023-29000-5",
+      "year": 2023,
+      "journal": "Scientific Reports",
+      "authors": [
+        "Yu Zhang",
+        "Sheng Wu",
+        "Zhiyuan Zhao",
+        "Xiping Yang",
+        "Zhixiang Fang"
+      ],
+      "evidence_url": "https://www.nature.com/articles/s41598-023-29000-5",
+      "evidence_status": "local_pdf_identity_and_data_methods_verified",
+      "fulltext_read": true,
+      "source_confirmed": false,
+      "sdk_explicit": false,
+      "provider": "未具名通信数据来源；高德为POI辅助源",
+      "publication_type": "journal_article",
+      "existing_catalog_matches": [],
+      "verified_on": "2026-10-11",
+      "fulltext_scope": "正文身份、作者机构、基金、数据来源与预处理关键段；非逐句全文通读",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false,
+      "catalog_status": "reviewed",
+      "pdf_validation": {
+        "filename": "C08_main.pdf",
+        "pages": 17,
+        "bytes": 3038530,
+        "sha256": "52a7d3025d8008b188af8645060480b2d039e8af12312c95c6bc06411d2d978d",
+        "title_verified": true,
+        "doi_verified": true,
+        "parser": "pypdf"
+      },
+      "target_supplier_confirmed": false,
+      "volume": "13",
+      "issue": "1",
+      "pages": "1695",
+      "institutions": [
+        "福州大学数字中国研究院",
+        "武汉大学测绘遥感信息工程国家重点实验室",
+        "陕西师范大学地理科学与旅游学院",
+        "自然资源部城市国土资源监测与仿真重点实验室"
+      ],
+      "team": "张宇—吴升—赵志远（通讯）—杨喜平—方志祥",
+      "named_supplier_confirmed": false,
+      "scope_tag": "telecom_event_and_base_station_boundary",
+      "recommended_disposition": "运营商通信事件/基站边界；排除商业GPS/WiFi SDK核心",
+      "application": "融合地理特征的城市人流预测，残差多图卷积与LSTM",
+      "data_declaration": "西宁2018年8月连续4工作日，约30万用户、超过1.7亿条记录，通话/短信/上网触发；提取2559个基站，约96%覆盖半径小于500m。高德API仅提供POI，OSM仅提供路网。",
+      "evidence_section": "正文PDF第5页 Data and data preprocessing；第6页路网；第16页作者贡献/基金；DOCX补充Fig.S5–S6",
+      "evidence_quotes": [
+        {
+          "quote": "calls, SMS, internet access",
+          "location": "PDF第5页数据段"
+        },
+        {
+          "quote": "We extract 2559 base stations from the dataset",
+          "location": "PDF第5页数据段"
+        }
+      ],
+      "sensor_evidence": {
+        "cell_tower": true,
+        "communication_events": [
+          "calls",
+          "SMS",
+          "internet access"
+        ],
+        "gps": false,
+        "wifi": false,
+        "sdk": false
+      },
+      "funding": [
+        "42201500",
+        "42271468",
+        "41771473",
+        "2021H6004",
+        "2022LSDMIS03",
+        "KF-2022-07-005"
+      ],
+      "fulltext_url": "https://www.nature.com/articles/s41598-023-29000-5.pdf",
+      "supplementary": {
+        "exists": true,
+        "downloaded": true,
+        "reviewed": true,
+        "status": "downloaded_and_text_reviewed",
+        "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41598-023-29000-5/MediaObjects/41598_2023_29000_MOESM1_ESM.docx",
+        "validation": {
+          "filename": "C08_supplement.docx",
+          "bytes": 777992,
+          "sha256": "c829a2298566333777e41217731347cfc133677ac0a793edfde7b69fe34c4086",
+          "format": "docx",
+          "pages_in_docprops": 6,
+          "page_count_status": "metadata_only_not_render_verified"
+        },
+        "review_scope": "DOCX正文/图题/表1已核；Fig.S5为基站核密度图，Fig.S6为基站覆盖半径与记录间隔分布；没有新增具名运营商。原目录写S1–S9，实际提取到S1–S8图题，不据此删减或臆测S9。",
+        "page_reference": "DOCX分页随排版变化，故按Fig.S5、Fig.S6定位；文件元数据6页不是渲染实测。"
+      },
+      "data_availability": "向通讯作者请求",
+      "notes": "正文技术证据足以判定电信事件/基站边界，但不能据此指定中国移动/联通/电信中的任何一家。数据整理作者Xiping Yang，不可据同作者推断其他论文同源。"
+    },
+    {
+      "id": "R7F-C09",
+      "title": "融合区域嵌入表示的城市功能区识别方法",
+      "doi": "10.12082/dqxxkx.2025.240484",
+      "year": 2025,
+      "journal": "地球信息科学学报",
+      "authors": [
+        "韦烨娜",
+        "吴升"
+      ],
+      "evidence_url": "https://www.dqxxkx.cn/CN/10.12082/dqxxkx.2025.240484",
+      "evidence_status": "local_pdf_identity_and_data_methods_verified",
+      "fulltext_read": true,
+      "source_confirmed": false,
+      "sdk_explicit": false,
+      "provider": "未具名第三方数据服务商；高德提供POI",
+      "publication_type": "journal_article",
+      "existing_catalog_matches": [],
+      "verified_on": "2026-10-11",
+      "fulltext_scope": "正文身份、作者机构、基金、数据来源与预处理关键段；非逐句全文通读",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false,
+      "catalog_status": "reviewed",
+      "pdf_validation": {
+        "filename": "C09_main.pdf",
+        "pages": 17,
+        "bytes": 4504062,
+        "sha256": "81fa65f54ea73dcf77c17415d55e8a3ce979755e05108739983592444e2f6c5e",
+        "title_verified": true,
+        "doi_verified": true,
+        "parser": "pypdf"
+      },
+      "target_supplier_confirmed": false,
+      "title_en": "A Method for Identifying Urban Functional Regions by Integrating Regional Embedding Representations",
+      "volume": "27",
+      "issue": "2",
+      "pages": "424–440",
+      "institutions": [
+        "福州大学数字中国研究院（福建）"
+      ],
+      "team": "韦烨娜—吴升（通讯）",
+      "named_supplier_confirmed": false,
+      "scope_tag": "commercial_gps_wifi_bluetooth_supplier_and_sdk_unresolved",
+      "recommended_disposition": "纳商业多传感器LBS技术相关候选；供应商和SDK嵌入机制待识别",
+      "application": "城市功能区识别，区域嵌入表示、OD空间交互与POI语义、多头注意力",
+      "data_declaration": "手机定位购自第三方数据服务商，GPS/WIFI/蓝牙融合，误差5–50m；福州2023-03-06至12约140万用户，清洗后120万、平均每用户每天35条记录。POI来自高德（2022年119752条），路网来自OSM。",
+      "evidence_section": "PDF第7页＝印刷430页，§3.2数据来源及表2；PDF第1页基金/机构",
+      "evidence_quotes": [
+        {
+          "quote": "手机定位数据购自第三方数据服务商",
+          "location": "PDF第7页§3.2"
+        },
+        {
+          "quote": "融合了GPS、WIFI和蓝牙等多种技术进行定位",
+          "location": "PDF第7页§3.2"
+        }
+      ],
+      "sensor_evidence": {
+        "gps": true,
+        "wifi": true,
+        "bluetooth": true,
+        "sdk": false,
+        "cell_tower": "未声明",
+        "wifi_connection_requirement": "未说明"
+      },
+      "funding": [
+        "2023YFB3906804"
+      ],
+      "fulltext_url": "https://www.dqxxkx.cn/EN/PDF/10.12082/dqxxkx.2025.240484",
+      "supplementary": {
+        "exists": null,
+        "downloaded": false,
+        "reviewed": false,
+        "status": "not_listed_in_reviewed_publisher_html_or_pdf",
+        "evidence_url": "https://www.dqxxkx.cn/EN/abstract/article/1560-8999/70375",
+        "description": "已核原刊完整HTML及17页PDF，无独立补充/附件/附录入口；不以此绝对断言未发布SI。图件ZIP及生成PPT属于正文插图导出，不当作研究补充。"
+      },
+      "notes": "乒乓点清洗不等于运营商来源；明确GPS/WIFI/蓝牙胜于术语联想。原文未提供商户品牌/SDK声明，不能归给先锋/摸星/及刻。"
+    }
+  ],
+  "related_records": [
+    {
+      "id": "R8WC-R01",
+      "title": "A Hybrid Markov and LSTM Model for Indoor Location Prediction",
+      "doi": "10.1109/ACCESS.2019.2961559",
+      "year": 2019,
+      "journal": "IEEE Access",
+      "volume": "7",
+      "pages": "185928–185940",
+      "authors": [
+        "Peixiao Wang",
+        "Hongen Wang",
+        "Hengcai Zhang",
+        "Feng Lu",
+        "Sheng Wu"
+      ],
+      "institutions": [
+        "福州大学",
+        "中国科学院地理科学与资源研究所",
+        "山东科技大学"
+      ],
+      "team": "Peixiao Wang—Hongen Wang—Hengcai Zhang—Feng Lu—Sheng Wu",
+      "provider": "Shanghai Palmap Science & Technology Company Limited",
+      "named_supplier_confirmed": true,
+      "target_supplier_confirmed": false,
+      "sdk_explicit": false,
+      "fulltext_read": true,
+      "pdf_downloaded": true,
+      "scope_tag": "indoor_wifi_fingerprint_boundary",
+      "recommended_disposition": "关联方法与供方边界资料，不作为商业SDK核心",
+      "data_declaration": "济南商场8层50位用户，2017-12-20至2018-02-01；Palmap提供室内WiFi指纹定位、约3m、11677438点。",
+      "evidence_section": "PDF第6页＝印刷185933页，§V.A.1；第12页致谢；第1页机构/基金",
+      "evidence_quotes": [
+        {
+          "quote": "collected using fingerprint positioning technology",
+          "location": "PDF第6页§V.A.1"
+        }
+      ],
+      "fulltext_url": "https://giserwang.github.io/papers/Access-2019-12.pdf",
+      "pdf_validation": {
+        "filename": "C07_related_Access2019.pdf",
+        "pages": 13,
+        "bytes": 5114594,
+        "sha256": "fcdc6ad7f175f8d142172b8c488f481acf767609b772f5d44302026d71b856e0",
+        "title_verified": true,
+        "doi_verified": true,
+        "parser": "pypdf"
+      },
+      "relationship": "同Palmap、同核心作者，文献[38]直接引C07；不同论文和数据时间段，不合并出版物",
+      "funding": [
+        "41771436",
+        "41701521",
+        "2016YFB0502104",
+        "2017YFB0503500",
+        "2016-23"
+      ],
+      "existing_catalog_matches": [],
+      "supplementary": {
+        "status": "not_target_of_this_three_paper_si_audit",
+        "downloaded": false
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": "R8WC-Q01",
+      "query": "\"10.3390/ijgi8110517\" data supplementary",
+      "tool": "web.search_query",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8WC-Q02",
+      "query": "\"10.1038/s41598-023-29000-5\" data",
+      "tool": "web.search_query",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8WC-Q03",
+      "query": "\"10.12082/dqxxkx.2025.240484\" 数据",
+      "tool": "web.search_query",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8WC-Q04",
+      "query": "\"10.3390/ijgi8110517\" \"supplementary\"",
+      "tool": "web.search_query",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8WC-Q05",
+      "query": "\"10.12082/dqxxkx.2025.240484\" \"补充\"",
+      "tool": "web.search_query",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8WC-Q06",
+      "query": "\"Indoor Location Prediction\" \"Palmap\" WiFi",
+      "tool": "web.search_query",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8WC-Q07",
+      "query": "\"ijgi-08-00517\" \"supplementary\"",
+      "tool": "web.search_query",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8WC-Q08",
+      "query": "\"ijgi8110517\" \"Supplementary File 1\"",
+      "tool": "web.search_query",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8WC-Q09",
+      "query": "\"Indoor Location Prediction Method for Shopping Malls\" \"zip\"",
+      "tool": "web.search_query",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8WC-Q10",
+      "query": "\"ijgi-08-00517\" \"s001\"",
+      "tool": "web.search_query",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8WC-Q11",
+      "query": "\"giserwang\" \"Indoor-WhereNext\"",
+      "tool": "web.search_query",
+      "date": "2026-10-11"
+    }
+  ],
+  "dedup": {
+    "catalog_size_checked": 118,
+    "strategy": "exact case-normalized DOI; all four absent",
+    "checked_on": "2026-10-11"
+  },
+  "access_log": [
+    {
+      "source": "MDPI article/DOI",
+      "status": "403 in direct request; 429 web reader",
+      "impact": "C07 SI exists per publisher index but exact link not retrieved; no verification bypass"
+    },
+    {
+      "source": "Nature",
+      "status": "200 main PDF, HTML and DOCX supplementary"
+    },
+    {
+      "source": "地球信息科学学报",
+      "status": "200 HTML; observed download_en.js routine POST showArticleFile returns authorized PDF link; PDF200"
+    },
+    {
+      "source": "author GitHub Pages",
+      "status": "C07 and related IEEE Access PDFs200; URLs observed in search and identities verified"
+    },
+    {
+      "source": "automatic approval review",
+      "status": "initial related-PDF request rejected as supposedly guessed URL; exact web.open title/DOI/CC BY and parent related-research authorization supplied; retry approved and succeeded"
+    }
+  ],
+  "public_safety": "仅短引文、题录、哈希和文件名；不包含账户键、下载令牌、个人邮箱、完整论文文本。"
+}

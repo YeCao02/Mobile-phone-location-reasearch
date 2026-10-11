@@ -114,8 +114,12 @@
       "scope_reason": "保留检索候选；供方身份需独立核验。"
     },
     "L35": {
-      "research_scope": "pioneer_candidate",
-      "scope_reason": "保留检索候选；供方身份需独立核验。"
+      "research_scope": "map_platform",
+      "scope_reason": "原刊全文§4.1直接给出Baidu Migration；百度地图API/SDK与GPS/WiFi/cell sites组合形成城市日流，单列地图平台。",
+      "provider": "百度迁徙 / Baidu Migration",
+      "source_confirmed": true,
+      "provider_evidence_status": "source_confirmed",
+      "curated_evidence": true
     },
     "L36": {
       "research_scope": "pioneer_candidate",
@@ -128,6 +132,50 @@
     "L44": {
       "research_scope": "pioneer_candidate",
       "scope_reason": "保留检索候选；供方身份需独立核验。"
+    },
+    "L47": {
+      "research_scope": "pioneer_candidate",
+      "scope_reason": "保留同团队数据来源追查候选；供方与技术逐篇独立核实。"
+    },
+    "L48": {
+      "research_scope": "pioneer_named",
+      "scope_reason": "本文数据来源脚注明确isjike.com，SDK与WiFi有正文直接证据。"
+    },
+    "L49": {
+      "research_scope": "pioneer_candidate",
+      "scope_reason": "保留同团队数据来源追查候选；供方与技术逐篇独立核实。"
+    },
+    "L50": {
+      "research_scope": "pioneer_candidate",
+      "scope_reason": "保留同团队数据来源追查候选；供方与技术逐篇独立核实。"
+    },
+    "L51": {
+      "research_scope": "pioneer_candidate",
+      "scope_reason": "保留同团队数据来源追查候选；供方与技术逐篇独立核实。"
+    },
+    "L52": {
+      "research_scope": "carrier_boundary",
+      "scope_reason": "原始方法证据为电信事件/服务基站定位，单列边界，不归商业SDK核心。"
+    },
+    "L53": {
+      "research_scope": "indoor_wifi_boundary",
+      "scope_reason": "商场室内WiFi定位或指纹定位，单列技术边界；Palmap为具名供方，未证商业多App SDK轨迹。"
+    },
+    "L54": {
+      "research_scope": "carrier_boundary",
+      "scope_reason": "原始方法证据为电信事件/服务基站定位，单列边界，不归商业SDK核心。"
+    },
+    "L55": {
+      "research_scope": "pioneer_candidate",
+      "scope_reason": "商业第三方GPS/WiFi/蓝牙定位明确；供应商名称及SDK嵌入机制未披露，保留强候选。"
+    },
+    "L56": {
+      "research_scope": "indoor_wifi_boundary",
+      "scope_reason": "商场室内WiFi定位或指纹定位，单列技术边界；Palmap为具名供方，未证商业多App SDK轨迹。"
+    },
+    "L57": {
+      "research_scope": "pioneer_candidate",
+      "scope_reason": "SDK采集与匿名高精度坐标明确，服务商未具名；不能把运营商措辞自动当三大通信运营商来源。"
     }
   }
 }

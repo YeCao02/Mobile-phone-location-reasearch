@@ -104,7 +104,17 @@
       "publication_type": "preprint",
       "reason": "2026-09-02发布，31页；福州与中科院合作手机轨迹恢复。摘要未说明源技术；公开PDF入口403，不据轨迹稀疏性判电信或SDK。",
       "existing_catalog_matches": [],
-      "verified_on": "2026-10-11"
+      "verified_on": "2026-10-11",
+      "round8_resolution": {
+        "catalog_id": "L47",
+        "research_scope": "pioneer_candidate",
+        "catalog_status": "pending",
+        "fulltext_read": false,
+        "pdf_downloaded": false,
+        "provider": "待原文核实",
+        "summary": "仅可读出版方摘要：真实手机轨迹存在稀疏和不规则采样；未公开读到实验数据来源段，不能据此认定SDK或运营商数据。",
+        "date": "2026-10-11"
+      }
     },
     {
       "id": "R7F-C02",
@@ -128,7 +138,17 @@
       "publication_type": "journal_article",
       "reason": "原刊题录46(6):1098–1112；WorldPop、百度热力、手机位置数据对比。百度为平台对照，手机主源未核，不把对照平台名归给手机源。",
       "existing_catalog_matches": [],
-      "verified_on": "2026-10-11"
+      "verified_on": "2026-10-11",
+      "round8_resolution": {
+        "catalog_id": "L48",
+        "research_scope": "pioneer_named",
+        "catalog_status": "reviewed",
+        "fulltext_read": true,
+        "pdf_downloaded": true,
+        "provider": "及刻 / Jike（原文脚注为https://www.isjike.com）",
+        "summary": "§1.2手机位置数据来自SDK定位服务商，脚注指向isjike.com；为匿名位置和时间记录，以WiFi及手机内置模糊定位为主。重采样和缺失值补全后生成等间隔轨迹，以1小时窗统计不重复用户ID并映射1公里格网。百度慧眼热力与WorldPop是独立比较数据源，不把百度归为该手机轨迹的供应商。",
+        "date": "2026-10-11"
+      }
     },
     {
       "id": "R7F-C03",
@@ -152,7 +172,17 @@
       "publication_type": "journal_article",
       "reason": "原刊48(4):656–664，8万余用户连续4工作日，GCN/LSTM；PDF连接失败，未核定位来源。",
       "existing_catalog_matches": [],
-      "verified_on": "2026-10-11"
+      "verified_on": "2026-10-11",
+      "round8_resolution": {
+        "catalog_id": "L49",
+        "research_scope": "pioneer_candidate",
+        "catalog_status": "pending",
+        "fulltext_read": false,
+        "pdf_downloaded": false,
+        "provider": "待原文核实",
+        "summary": "原刊网页摘要称某市8万多个用户连续4个工作日数据，用GCN和LSTM集成相似用户及个人历史轨迹。摘要没有披露服务商、城市或定位技术，HTML全文区无正文，PDF连接失败。",
+        "date": "2026-10-11"
+      }
     },
     {
       "id": "R7F-C04",
@@ -175,7 +205,17 @@
       "publication_type": "journal_article",
       "reason": "原刊46(10):1744–1756；源类型未核，不以西宁同组研究继承其信令属性。",
       "existing_catalog_matches": [],
-      "verified_on": "2026-10-11"
+      "verified_on": "2026-10-11",
+      "round8_resolution": {
+        "catalog_id": "L50",
+        "research_scope": "pioneer_candidate",
+        "catalog_status": "pending",
+        "fulltext_read": false,
+        "pdf_downloaded": false,
+        "provider": "未核明",
+        "summary": "保留待核候选。已取得原刊摘要及机构、基金，但未取得正文；不能归入SDK或运营商边界。",
+        "date": "2026-10-11"
+      }
     },
     {
       "id": "R7F-C05",
@@ -199,7 +239,17 @@
       "publication_type": "journal_article",
       "reason": "DOI注册页核题名作者，注册时间2026-02-04不作为正式出版年；数据源未核。",
       "existing_catalog_matches": [],
-      "verified_on": "2026-10-11"
+      "verified_on": "2026-10-11",
+      "round8_resolution": {
+        "catalog_id": "L51",
+        "research_scope": "pioneer_candidate",
+        "catalog_status": "pending",
+        "fulltext_read": false,
+        "pdf_downloaded": false,
+        "provider": "未核明",
+        "summary": "DOI题名作者可核，尚无正文及数据声明。出版年仍待核，2026-02-04只是DOI注册时间。",
+        "date": "2026-10-11"
+      }
     },
     {
       "id": "R7F-C06",
@@ -225,7 +275,17 @@
       "publication_type": "journal_article",
       "reason": "机构PDF题录索引33(7):1471–1495；下载403，本轮未将其推断为SDK，也未仅凭phone词排除。",
       "existing_catalog_matches": [],
-      "verified_on": "2026-10-11"
+      "verified_on": "2026-10-11",
+      "round8_resolution": {
+        "catalog_id": "L52",
+        "research_scope": "carrier_boundary",
+        "catalog_status": "reviewed",
+        "fulltext_read": false,
+        "pdf_downloaded": false,
+        "provider": "未具名移动通信公司",
+        "summary": "运营商服务基站定位；包含上网、电话和短信事件，并非GPS/WiFi SDK定位；方法§3.1明确记录服务基站位置，列入运营商定位边界。应用后台联网在此产生的是运营商网络事件，不能将出现WeChat/Apps误读为SDK数据。",
+        "date": "2026-10-11"
+      }
     },
     {
       "id": "R7F-C07",
@@ -248,7 +308,17 @@
       "publication_type": "journal_article",
       "reason": "商场室内定位邻近方法类别；当前仅出版商索引题录，直接访问429，不能认定商用多App轨迹。",
       "existing_catalog_matches": [],
-      "verified_on": "2026-10-11"
+      "verified_on": "2026-10-11",
+      "round8_resolution": {
+        "catalog_id": "L53",
+        "research_scope": "indoor_wifi_boundary",
+        "catalog_status": "reviewed",
+        "fulltext_read": true,
+        "pdf_downloaded": true,
+        "provider": "Shanghai Palmap Science & Technology Company Limited",
+        "summary": "济南单商场8层、2017-12-23至2018-01-06室内WiFi定位，约3m精度，129070836轨迹点；清洗后345824条用户轨迹。Palmap提供数据，SDK、探针部署和主动连接机制未被正文明确。",
+        "date": "2026-10-11"
+      }
     },
     {
       "id": "R7F-C08",
@@ -271,7 +341,17 @@
       "publication_type": "journal_article",
       "reason": "R7F01参考文献25给出13:1695；原刊跳转失败，作者全名与数据源尚待核。",
       "existing_catalog_matches": [],
-      "verified_on": "2026-10-11"
+      "verified_on": "2026-10-11",
+      "round8_resolution": {
+        "catalog_id": "L54",
+        "research_scope": "carrier_boundary",
+        "catalog_status": "reviewed",
+        "fulltext_read": true,
+        "pdf_downloaded": true,
+        "provider": "未具名通信数据来源；高德为POI辅助源",
+        "summary": "西宁2018年8月连续4工作日，约30万用户、超过1.7亿条记录，通话/短信/上网触发；提取2559个基站，约96%覆盖半径小于500m。高德API仅提供POI，OSM仅提供路网。",
+        "date": "2026-10-11"
+      }
     },
     {
       "id": "R7F-C09",
@@ -292,7 +372,17 @@
       "publication_type": "journal_article",
       "reason": "R7F01参考文献20，27(2):424–440；当前仅引用链，可能POI方法，未证使用手机轨迹。",
       "existing_catalog_matches": [],
-      "verified_on": "2026-10-11"
+      "verified_on": "2026-10-11",
+      "round8_resolution": {
+        "catalog_id": "L55",
+        "research_scope": "pioneer_candidate",
+        "catalog_status": "reviewed",
+        "fulltext_read": true,
+        "pdf_downloaded": true,
+        "provider": "未具名第三方数据服务商；高德提供POI",
+        "summary": "手机定位购自第三方数据服务商，GPS/WIFI/蓝牙融合，误差5–50m；福州2023-03-06至12约140万用户，清洗后120万、平均每用户每天35条记录。POI来自高德（2022年119752条），路网来自OSM。",
+        "date": "2026-10-11"
+      }
     }
   ],
   "boundary_records": [

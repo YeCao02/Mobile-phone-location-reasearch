@@ -700,7 +700,9 @@
       "evidence_section": "出版商摘要、作者单位、Data Availability Statement；非正文方法审读",
       "authors": [
         "Wenbo Li"
-      ]
+      ],
+      "superseded_classification_note": "第8轮机构全文CN-S64确认Baidu Migration；当前分类map_platform，保留原摘要核验历史。",
+      "research_scope": "map_platform"
     },
     {
       "id": "CN-S42",
@@ -1010,6 +1012,431 @@
         "陆锋"
       ],
       "research_scope": "pioneer_candidate"
+    },
+    {
+      "id": "CN-S53",
+      "title": "BAMTR: Behavior-Aware Mobile Phone Trajectory Recovery via Adaptive Historical Prior Reasoning",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7396621",
+      "type": "题录与摘要，正文待核",
+      "type_code": "round8_paper_source_audit",
+      "finding": "仅可读出版方摘要：真实手机轨迹存在稀疏和不规则采样；未公开读到实验数据来源段，不能据此认定SDK或运营商数据。",
+      "limits": "保留同团队数据来源追查候选；供方与技术逐篇独立核实。 31页是SSRN题录页数，尚无本地PDF验证。2026-09-02为预印本发布日。未将共同作者或基金线索继承为供方确认。",
+      "confidence": "metadata_abstract_only",
+      "review_date": "2026-10-11",
+      "catalog_id": "L47",
+      "doi": "10.2139/ssrn.7396621",
+      "institution": "福州大学；中国科学院资源与环境信息系统国家重点实验室",
+      "supplier": "待原文核实",
+      "group_id": "FZU-WU-SHENG",
+      "published": "2026",
+      "verification": "publisher_metadata_abstract_read_fulltext_access_failed",
+      "evidence_section": "SSRN摘要（网页，无PDF页码）",
+      "authors": [
+        "Youjun Tu",
+        "Zhiyuan Zhao",
+        "Sheng Wu",
+        "Baohua Deng",
+        "Peixiao Wang",
+        "Dawen Yu",
+        "Qunyong Wu",
+        "Shiyu Yang"
+      ],
+      "research_scope": "pioneer_candidate",
+      "pdf_downloaded": false,
+      "supplementary": {
+        "status": "unverified_fulltext_unavailable",
+        "downloaded": false,
+        "urls": []
+      }
+    },
+    {
+      "id": "CN-S54",
+      "title": "人口空间分布典型数据的时空差异",
+      "url": "https://www.rddl.com.cn/CN/10.13284/j.cnki.rddl.20250648",
+      "type": "全文方法核验",
+      "type_code": "round8_paper_source_audit",
+      "finding": "§1.2手机位置数据来自SDK定位服务商，脚注指向isjike.com；为匿名位置和时间记录，以WiFi及手机内置模糊定位为主。重采样和缺失值补全后生成等间隔轨迹，以1小时窗统计不重复用户ID并映射1公里格网。百度慧眼热力与WorldPop是独立比较数据源，不把百度归为该手机轨迹的供应商。",
+      "limits": "本文数据来源脚注明确isjike.com，SDK与WiFi有正文直接证据。 原文通过域名而非中文公司名标识服务商；及刻品牌映射依赖知识库既有官网核验，不由此推断法律主体或与先锋、摸星的法律关系。同基金可连到L36和L46，但这篇明确供方不能反向赋给前两篇。百度热力同样源于SDK定位请求，但作为平台聚合对照单列。",
+      "confidence": "primary_method_supplier_confirmed",
+      "review_date": "2026-10-11",
+      "catalog_id": "L48",
+      "doi": "10.13284/j.cnki.rddl.20250648",
+      "institution": "福州大学数字中国研究院（福建）；空间数据挖掘与信息共享教育部重点实验室",
+      "supplier": "及刻 / Jike（原文脚注为https://www.isjike.com）",
+      "group_id": "FZU-WU-SHENG",
+      "published": "2026",
+      "verification": "publisher_pdf_methods_verified",
+      "evidence_section": "PDF第3页/印刷1100页，§1.2第3项；PDF第3页/印刷1100页，脚注③；PDF第3页/印刷1100页，§1.2第3项",
+      "authors": [
+        "赵志远",
+        "林沁怡",
+        "邓保华",
+        "吴升",
+        "林湘如"
+      ],
+      "research_scope": "pioneer_named",
+      "pdf_downloaded": true,
+      "supplementary": {
+        "status": "publisher_article_endpoint_lists_none",
+        "downloaded": false,
+        "urls": [],
+        "checked_url": "https://www.rddl.com.cn/CN/article/showArticleSuppls.do?articleId=78728",
+        "http_status": 200,
+        "evidence": "出版商落地页脚本直接指定补充材料接口；articleId=78728响应为空，仅含模板注释，无附件链接。PDF正文未检出独立补充材料声明。此结论限于本次出版商页面所列内容。"
+      }
+    },
+    {
+      "id": "CN-S55",
+      "title": "顾及相似用户特征的个人位置预测算法",
+      "url": "https://ch.whu.edu.cn/article/doi/10.13203/j.whugis20200609?viewType=HTML",
+      "type": "题录与摘要，正文待核",
+      "type_code": "round8_paper_source_audit",
+      "finding": "原刊网页摘要称某市8万多个用户连续4个工作日数据，用GCN和LSTM集成相似用户及个人历史轨迹。摘要没有披露服务商、城市或定位技术，HTML全文区无正文，PDF连接失败。",
+      "limits": "保留同团队数据来源追查候选；供方与技术逐篇独立核实。 原刊HTML正文区为空。不能从8万样本量、15分钟预测步长或同作者其他研究推断该数据是SDK或运营商信令。2023年卷期由原刊题录/作者机构主页相互印证。",
+      "confidence": "metadata_abstract_only",
+      "review_date": "2026-10-11",
+      "catalog_id": "L49",
+      "doi": "10.13203/j.whugis20200609",
+      "institution": "福州大学；陕西师范大学；武汉大学",
+      "supplier": "待原文核实",
+      "group_id": "FZU-WU-SHENG",
+      "published": "2023",
+      "verification": "publisher_abstract_read_methods_unread",
+      "evidence_section": "原刊网页中文摘要；PDF未取得，页码未核",
+      "authors": [
+        "张宇",
+        "吴升",
+        "赵志远",
+        "杨喜平",
+        "方志祥"
+      ],
+      "research_scope": "pioneer_candidate",
+      "pdf_downloaded": false,
+      "supplementary": {
+        "status": "publisher_page_lists_zero_attachments",
+        "downloaded": false,
+        "urls": [],
+        "checked_url": "https://ch.whu.edu.cn/article/doi/10.13203/j.whugis20200609?viewType=HTML",
+        "evidence": "原刊网页两处显示资源附件(0)，本次未发现可下载SI。"
+      }
+    },
+    {
+      "id": "CN-S56",
+      "title": "基于手机定位数据的西宁市老年人公园绿地可达性预测",
+      "url": "https://www.geores.com.cn/ghqdl/CN/10.12118/j.issn.1000-6060.2022.672",
+      "type": "题录与摘要，正文待核",
+      "type_code": "round8_paper_source_audit",
+      "finding": "保留待核候选。已取得原刊摘要及机构、基金，但未取得正文；不能归入SDK或运营商边界。",
+      "limits": "保留同团队数据来源追查候选；供方与技术逐篇独立核实。 保留待核候选。已取得原刊摘要及机构、基金，但未取得正文；不能归入SDK或运营商边界。",
+      "confidence": "metadata_abstract_only",
+      "review_date": "2026-10-11",
+      "catalog_id": "L50",
+      "doi": "10.12118/j.issn.1000-6060.2022.672",
+      "institution": "福州大学数字中国研究院（福建）；空间数据挖掘与信息共享教育部重点实验室；海西政务大数据应用协同创新中心；自然资源部城市国土资源监测与仿真重点实验室；陕西师范大学地理科学与旅游学院",
+      "supplier": "未核明",
+      "group_id": "FZU-WU-SHENG",
+      "published": "2023",
+      "verification": "primary_abstract_and_affiliations_funding_read_methods_unavailable",
+      "evidence_section": "摘要、作者单位、基金",
+      "authors": [
+        "赵志远",
+        "丁逸尘",
+        "杨喜平",
+        "吴升"
+      ],
+      "research_scope": "pioneer_candidate",
+      "pdf_downloaded": false,
+      "supplementary": {
+        "status": "not_established",
+        "downloaded": false,
+        "note": "当前摘要页未识别独立SI，不据此断言无SI。"
+      }
+    },
+    {
+      "id": "CN-S57",
+      "title": "利用轨迹数据计算典型人类活动空间特征的时间聚合效应",
+      "url": "https://doi.org/10.13249/j.cnki.sgs.20241458",
+      "type": "题录与摘要，正文待核",
+      "type_code": "round8_paper_source_audit",
+      "finding": "DOI题名作者可核，尚无正文及数据声明。出版年仍待核，2026-02-04只是DOI注册时间。",
+      "limits": "保留同团队数据来源追查候选；供方与技术逐篇独立核实。 DOI题名作者可核，尚无正文及数据声明。出版年仍待核，2026-02-04只是DOI注册时间。",
+      "confidence": "metadata_abstract_only",
+      "review_date": "2026-10-11",
+      "catalog_id": "L51",
+      "doi": "10.13249/j.cnki.sgs.20241458",
+      "institution": "作者包含赵志远、吴升；本文逐人单位待核",
+      "supplier": "未核明",
+      "group_id": "FZU-WU-SHENG",
+      "published": null,
+      "verification": "doi_registration_metadata_only",
+      "evidence_section": "DOI注册题录",
+      "authors": [
+        "赵志远",
+        "祝章伟",
+        "吴升",
+        "汪艳霞",
+        "胡慧芳"
+      ],
+      "research_scope": "pioneer_candidate",
+      "pdf_downloaded": false,
+      "supplementary": {
+        "status": "not_established",
+        "downloaded": false,
+        "note": "未到达原刊正文，无法判定是否附SI。"
+      }
+    },
+    {
+      "id": "CN-S58",
+      "title": "The effect of temporal sampling intervals on typical human mobility indicators obtained from mobile phone location data",
+      "url": "https://hpcc.siat.ac.cn/group/pub/s3/10%202019%20The%20effect%20of%20temporal%20sampling%20intervals%20on%20typical%20human%20mobility%20indicators%20obtained%20from%20mobile%20phone%20location%20data.pdf",
+      "type": "机构PDF方法段搜索索引",
+      "type_code": "round8_paper_source_audit",
+      "finding": "运营商服务基站定位；包含上网、电话和短信事件，并非GPS/WiFi SDK定位；方法§3.1明确记录服务基站位置，列入运营商定位边界。应用后台联网在此产生的是运营商网络事件，不能将出现WeChat/Apps误读为SDK数据。",
+      "limits": "原始方法证据为电信事件/服务基站定位，单列边界，不归商业SDK核心。 方法§3.1明确记录服务基站位置，列入运营商定位边界。应用后台联网在此产生的是运营商网络事件，不能将出现WeChat/Apps误读为SDK数据。",
+      "confidence": "methods_read_supplier_unresolved",
+      "review_date": "2026-10-11",
+      "catalog_id": "L52",
+      "doi": "10.1080/13658816.2019.1584805",
+      "institution": "武汉大学；福州大学；田纳西大学；中国科学院深圳先进技术研究院；陕西师范大学",
+      "supplier": "未具名移动通信公司",
+      "group_id": "FZU-WU-SHENG-carrier_boundary",
+      "published": "2019",
+      "verification": "primary_pdf_method_section_read_via_search_index",
+      "evidence_section": "3. Dataset / 3.1. Data source；Abstract / Authors / Funding / Supplementary material",
+      "authors": [
+        "Zhiyuan Zhao",
+        "Shih-Lung Shaw",
+        "Ling Yin",
+        "Zhixiang Fang",
+        "Xiping Yang",
+        "Fan Zhang",
+        "Sheng Wu"
+      ],
+      "research_scope": "carrier_boundary",
+      "pdf_downloaded": false,
+      "supplementary": {
+        "status": "existence_confirmed_access_blocked",
+        "downloaded": false,
+        "url": "https://www.tandfonline.com/doi/suppl/10.1080/13658816.2019.1584805",
+        "http_status": 403,
+        "note": "原刊明确列Supplementary material；附件内容、文件名和页数未取得。"
+      }
+    },
+    {
+      "id": "CN-S59",
+      "title": "Indoor Location Prediction Method for Shopping Malls Based on Location Sequence Similarity",
+      "url": "https://www.mdpi.com/2220-9964/8/11/517",
+      "type": "全文方法核验",
+      "type_code": "round8_paper_source_audit",
+      "finding": "济南单商场8层、2017-12-23至2018-01-06室内WiFi定位，约3m精度，129070836轨迹点；清洗后345824条用户轨迹。Palmap提供数据，SDK、探针部署和主动连接机制未被正文明确。",
+      "limits": "商场室内WiFi定位或指纹定位，单列技术边界；Palmap为具名供方，未证商业多App SDK轨迹。 同组关联IEEE Access论文明确WiFi指纹定位，但不能把另一篇的数据采集细节直接继承给本篇；未发现目标先锋/摸星/及刻品牌关联。",
+      "confidence": "primary_method_supplier_confirmed",
+      "review_date": "2026-10-11",
+      "catalog_id": "L53",
+      "doi": "10.3390/ijgi8110517",
+      "institution": "福州大学数字中国研究院；中国科学院地理科学与资源研究所；福建省政务大数据应用协同创新中心",
+      "supplier": "Shanghai Palmap Science & Technology Company Limited",
+      "group_id": "FZU-WU-SHENG-indoor_wifi_boundary",
+      "published": "2019",
+      "verification": "local_pdf_identity_and_data_methods_verified",
+      "evidence_section": "PDF第9页§4.1.1；第10页§4.1.2；第15页Funding/Acknowledgments",
+      "authors": [
+        "Peixiao Wang",
+        "Sheng Wu",
+        "Hengcai Zhang",
+        "Feng Lu"
+      ],
+      "research_scope": "indoor_wifi_boundary",
+      "pdf_downloaded": true,
+      "supplementary": {
+        "exists": true,
+        "status": "publisher_zip_link_located_browser_client_blocked",
+        "downloaded": false,
+        "reviewed": false,
+        "url": "https://mdpi-res.com/d_attachment/ijgi/ijgi-08-00517/article_deploy/ijgi-08-00517-s001.zip?version=1574845820",
+        "evidence_url": "https://www.mdpi.com/2220-9964/8/11/517",
+        "description": "主代理通过出版商正文Download→Supplementary Material直接定位ZIP（页面显示664KB）；点击/s1?version=1574845820重定向到此正式URL，但浏览器ERR_BLOCKED_BY_CLIENT，未保存文件。文件格式与大小现为本文下载菜单直接证据，不再沿用邻文疑虑。",
+        "access_error": "ERR_BLOCKED_BY_CLIENT",
+        "size_as_displayed": "664KB",
+        "identity_validation": "not_downloaded"
+      }
+    },
+    {
+      "id": "CN-S60",
+      "title": "An urban crowd flow model integrating geographic characteristics",
+      "url": "https://www.nature.com/articles/s41598-023-29000-5",
+      "type": "全文方法核验",
+      "type_code": "round8_paper_source_audit",
+      "finding": "西宁2018年8月连续4工作日，约30万用户、超过1.7亿条记录，通话/短信/上网触发；提取2559个基站，约96%覆盖半径小于500m。高德API仅提供POI，OSM仅提供路网。",
+      "limits": "原始方法证据为电信事件/服务基站定位，单列边界，不归商业SDK核心。 正文技术证据足以判定电信事件/基站边界，但不能据此指定中国移动/联通/电信中的任何一家。数据整理作者Xiping Yang，不可据同作者推断其他论文同源。",
+      "confidence": "methods_read_supplier_unresolved",
+      "review_date": "2026-10-11",
+      "catalog_id": "L54",
+      "doi": "10.1038/s41598-023-29000-5",
+      "institution": "福州大学数字中国研究院；武汉大学测绘遥感信息工程国家重点实验室；陕西师范大学地理科学与旅游学院；自然资源部城市国土资源监测与仿真重点实验室",
+      "supplier": "未具名通信数据来源；高德为POI辅助源",
+      "group_id": "FZU-WU-SHENG-carrier_boundary",
+      "published": "2023",
+      "verification": "local_pdf_identity_and_data_methods_verified",
+      "evidence_section": "正文PDF第5页 Data and data preprocessing；第6页路网；第16页作者贡献/基金；DOCX补充Fig.S5–S6",
+      "authors": [
+        "Yu Zhang",
+        "Sheng Wu",
+        "Zhiyuan Zhao",
+        "Xiping Yang",
+        "Zhixiang Fang"
+      ],
+      "research_scope": "carrier_boundary",
+      "pdf_downloaded": true,
+      "supplementary": {
+        "exists": true,
+        "downloaded": true,
+        "reviewed": true,
+        "status": "downloaded_and_text_reviewed",
+        "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41598-023-29000-5/MediaObjects/41598_2023_29000_MOESM1_ESM.docx",
+        "validation": {
+          "filename": "C08_supplement.docx",
+          "bytes": 777992,
+          "sha256": "c829a2298566333777e41217731347cfc133677ac0a793edfde7b69fe34c4086",
+          "format": "docx",
+          "pages_in_docprops": 6,
+          "page_count_status": "metadata_only_not_render_verified"
+        },
+        "review_scope": "DOCX正文/图题/表1已核；Fig.S5为基站核密度图，Fig.S6为基站覆盖半径与记录间隔分布；没有新增具名运营商。原目录写S1–S9，实际提取到S1–S8图题，不据此删减或臆测S9。",
+        "page_reference": "DOCX分页随排版变化，故按Fig.S5、Fig.S6定位；文件元数据6页不是渲染实测。"
+      }
+    },
+    {
+      "id": "CN-S61",
+      "title": "融合区域嵌入表示的城市功能区识别方法",
+      "url": "https://www.dqxxkx.cn/CN/10.12082/dqxxkx.2025.240484",
+      "type": "全文方法核验",
+      "type_code": "round8_paper_source_audit",
+      "finding": "手机定位购自第三方数据服务商，GPS/WIFI/蓝牙融合，误差5–50m；福州2023-03-06至12约140万用户，清洗后120万、平均每用户每天35条记录。POI来自高德（2022年119752条），路网来自OSM。",
+      "limits": "商业第三方GPS/WiFi/蓝牙定位明确；供应商名称及SDK嵌入机制未披露，保留强候选。 乒乓点清洗不等于运营商来源；明确GPS/WIFI/蓝牙胜于术语联想。原文未提供商户品牌/SDK声明，不能归给先锋/摸星/及刻。",
+      "confidence": "methods_read_supplier_unresolved",
+      "review_date": "2026-10-11",
+      "catalog_id": "L55",
+      "doi": "10.12082/dqxxkx.2025.240484",
+      "institution": "福州大学数字中国研究院（福建）",
+      "supplier": "未具名第三方数据服务商；高德提供POI",
+      "group_id": "FZU-WU-SHENG",
+      "published": "2025",
+      "verification": "local_pdf_identity_and_data_methods_verified",
+      "evidence_section": "PDF第7页＝印刷430页，§3.2数据来源及表2；PDF第1页基金/机构",
+      "authors": [
+        "韦烨娜",
+        "吴升"
+      ],
+      "research_scope": "pioneer_candidate",
+      "pdf_downloaded": true,
+      "supplementary": {
+        "exists": null,
+        "downloaded": false,
+        "reviewed": false,
+        "status": "not_listed_in_reviewed_publisher_html_or_pdf",
+        "evidence_url": "https://www.dqxxkx.cn/EN/abstract/article/1560-8999/70375",
+        "description": "已核原刊完整HTML及17页PDF，无独立补充/附件/附录入口；不以此绝对断言未发布SI。图件ZIP及生成PPT属于正文插图导出，不当作研究补充。"
+      }
+    },
+    {
+      "id": "CN-S62",
+      "title": "A Hybrid Markov and LSTM Model for Indoor Location Prediction",
+      "url": "https://giserwang.github.io/papers/Access-2019-12.pdf",
+      "type": "全文方法核验",
+      "type_code": "round8_paper_source_audit",
+      "finding": "济南商场8层50位用户，2017-12-20至2018-02-01；Palmap提供室内WiFi指纹定位、约3m、11677438点。",
+      "limits": "商场室内WiFi定位或指纹定位，单列技术边界；Palmap为具名供方，未证商业多App SDK轨迹。 ",
+      "confidence": "primary_method_supplier_confirmed",
+      "review_date": "2026-10-11",
+      "catalog_id": "L56",
+      "doi": "10.1109/access.2019.2961559",
+      "institution": "福州大学；中国科学院地理科学与资源研究所；山东科技大学",
+      "supplier": "Shanghai Palmap Science & Technology Company Limited",
+      "group_id": "FZU-WU-SHENG-indoor_wifi_boundary",
+      "published": "2019",
+      "verification": "author_public_pdf_methods_verified",
+      "evidence_section": "PDF第6页＝印刷185933页，§V.A.1；第12页致谢；第1页机构/基金",
+      "authors": [
+        "Peixiao Wang",
+        "Hongen Wang",
+        "Hengcai Zhang",
+        "Feng Lu",
+        "Sheng Wu"
+      ],
+      "research_scope": "indoor_wifi_boundary",
+      "pdf_downloaded": true,
+      "supplementary": {
+        "status": "not_target_of_this_three_paper_si_audit",
+        "downloaded": false
+      }
+    },
+    {
+      "id": "CN-S63",
+      "title": "多尺度视角下的城市旅游流网络结构特征分析——以长沙市为例",
+      "url": "https://www.dqxxkx.cn/CN/10.12082/dqxxkx.2025.240586",
+      "type": "全文方法核验",
+      "type_code": "round8_paper_source_audit",
+      "finding": "§3.2明确未具名手机通讯服务运营商通过SDK采集长沙2023年5月手机位置记录；707万用户约78亿条，平均43分钟、10–50米误差，字段脱敏ID/时间戳/经纬度。筛选1263277人、2656089858条，识别232206名外地游客。百度地图开放平台仅供景区POI与AOI。",
+      "limits": "与L44共享中南大学王璞团队和基金71871224；共同基金不构成相同供方证明。百度仅景区地理底图，不归为手机轨迹供方。",
+      "confidence": "methods_read_supplier_unresolved",
+      "review_date": "2026-10-11",
+      "catalog_id": "L57",
+      "doi": "10.12082/dqxxkx.2025.240586",
+      "institution": "中南大学交通运输工程学院；轨道交通大数据湖南省重点实验室",
+      "supplier": "未具名手机通讯服务运营商（正文明确SDK采集）；百度提供POI/AOI",
+      "group_id": "CSU-WANG-PU",
+      "published": "2025",
+      "verification": "publisher_pdf_identity_and_methods_verified",
+      "evidence_section": "3.2 数据来源与预处理；PDF第5页，印刷971页",
+      "authors": [
+        "王贶",
+        "柯日宏",
+        "李胜楠",
+        "王璞"
+      ],
+      "research_scope": "pioneer_candidate",
+      "pdf_downloaded": true,
+      "supplementary": {
+        "status": "no_separate_si_link_identified",
+        "downloaded": false,
+        "basis": "核查原刊HTML链接与12页PDF关键词；未见补充材料/附录/Supplementary指向，不等价于断言无SI。"
+      }
+    },
+    {
+      "id": "CN-S64",
+      "title": "The Spillover Effect of Driving Restrictions on Intercity Travel：机构全文数据来源核验",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/jors.70043",
+      "type": "学校机构权限取得的原刊HTML与正文PDF",
+      "type_code": "institution_authorized_publisher_fulltext",
+      "finding": "原刊HTML §4.1明确Baidu Migration：百度地图API/SDK接收多App位置请求，设备GPS、WiFi和cell sites组合定位；按城市/日聚合，以外流指数乘目的地份额构造城际流。属于地图平台衍生流，不是具名泛先锋轨迹。",
+      "limits": "学校机构访问取得HTML及17页正文PDF；第4页核Baidu Migration和API/SDK定位机制。原摘要42城/六省级与英文引言52城/四省存在差异，本轮不裁决。6页SI身份已核，主代理审读第2页Appendix Fig.1原注亦明确Baidu Migration。",
+      "confidence": "primary_fulltext_provider_confirmed",
+      "review_date": "2026-10-11",
+      "catalog_id": "L35",
+      "doi": "10.1111/jors.70043",
+      "institution": "天津大学马寅初经济学院",
+      "supplier": "百度迁徙 / Baidu Migration",
+      "group_id": "TJU-LI-WENBO-map_platform",
+      "evidence_section": "正文PDF第4页§4.1 Baidu Migration；学校机构HTML全文同段；SI PDF第2页Appendix Fig.1原注",
+      "research_scope": "map_platform",
+      "pdf_downloaded": true,
+      "verification": "institution_authorized_publisher_pdf_identity_and_methods_verified",
+      "supplementary": {
+        "downloaded": true,
+        "status": "downloaded_identity_and_source_evidence_verified",
+        "filename": "jors70043-sup-0001-appendix.pdf",
+        "validation": {
+          "pages": 6,
+          "bytes": 172507,
+          "sha256": "36b319c54f11b548cc2baa2c489ce9b1aba0f154082c0d8dfa74a701ac279e0e",
+          "title_verified": true,
+          "parser": "pypdf"
+        },
+        "note": "认证浏览器出版商下载；封面题名匹配，附件第2页Fig.1另确认Baidu Migration。",
+        "reviewed": true,
+        "review_scope": "主代理已读附件PDF第2页Appendix Fig.1原注，明确Baidu Migration。"
+      }
     }
   ],
   "verified_edges": [
@@ -1311,6 +1738,25 @@
       ],
       "sources_note": "用户确认依据为供应商提供的客户信息；公开合同未取得",
       "propagate_to_papers": false
+    },
+    {
+      "from": "及刻 / Jike（原文isjike.com）",
+      "to": "福州大学吴升/赵志远团队：L48",
+      "relation": "论文实际采用SDK位置数据（非采购公告）",
+      "sources": [
+        "CN-S54"
+      ],
+      "research_scope": "pioneer_named"
+    },
+    {
+      "from": "Shanghai Palmap Science & Technology Company Limited",
+      "to": "福州大学王培晓/吴升等合作研究L53、L56",
+      "relation": "论文具名室内WiFi定位数据供方（技术边界）",
+      "sources": [
+        "CN-S59",
+        "CN-S62"
+      ],
+      "research_scope": "indoor_wifi_boundary"
     }
   ],
   "unverified_edges": [
@@ -2023,9 +2469,11 @@
     {
       "institution": "天津大学",
       "query": "天津大学 × 摸星 / Moxing / 先锋数聚 / Pioneer Data / 即刻 / Jike / 及刻",
-      "status": "智能手机LBS供应商候选，待原文",
-      "sources": [],
-      "next": "继续核L35限行与城际旅行的数据公司和采集方式。",
+      "status": "L35原刊全文确认百度迁徙，地图平台次级",
+      "sources": [
+        "CN-S64"
+      ],
+      "next": "L35正文PDF第4页已核百度迁徙，6页SI已验证身份；不再作为泛先锋未名候选。",
       "required_aliases": [
         "摸星",
         "Moxing",
@@ -2104,9 +2552,11 @@
     {
       "institution": "中南大学",
       "query": "中南大学 × 摸星 / Moxing / 先锋数聚 / Pioneer Data / 即刻 / Jike / 及刻",
-      "status": "就医手机定位候选，待原文",
-      "sources": [],
-      "next": "继续核L44王璞团队就医研究的供方与数据字段。",
+      "status": "2项研究：L57明确SDK未名供方，L44摘要候选",
+      "sources": [
+        "CN-S63"
+      ],
+      "next": "追L57未具名SDK供方，并取L44正文；不能由同团队同基金替代供方声明。",
       "required_aliases": [
         "摸星",
         "Moxing",
@@ -2305,11 +2755,21 @@
     {
       "institution": "福州大学",
       "query": "福州大学 × 摸星 / Moxing / 先锋数聚 / Pioneer Data / 即刻 / Jike / 及刻",
-      "status": "吴升团队2项研究候选，供方未披露",
+      "status": "1篇及刻具名SDK、其他候选与4篇技术边界分列",
       "sources": [
-        "CN-S36"
+        "CN-S36",
+        "CN-S53",
+        "CN-S54",
+        "CN-S55",
+        "CN-S56",
+        "CN-S57",
+        "CN-S58",
+        "CN-S59",
+        "CN-S60",
+        "CN-S61",
+        "CN-S62"
       ],
-      "next": "L36已核原文、ReMVL包及ID格式；新增L46活动强度预测；追BAMTR等9项线索。",
+      "next": "已逐篇处理9条线索及关联IEEE Access；优先追L55未名供方，取得L47/L49/L50/L51正文及已确认存在但未下载的SI。",
       "required_aliases": [
         "摸星",
         "Moxing",
@@ -2359,6 +2819,14 @@
           ],
           "scope": "扩展手机定位/LBS/轨迹/作者/项目等词，不限供方别名",
           "status": "queries_executed; outcomes retained individually"
+        },
+        {
+          "round": 8,
+          "date": "2026-10-11",
+          "query_count": 60,
+          "scope": "9条既有候选逐篇正文、数据来源和SI核验；新增关联IEEE Access",
+          "public_query_log": "data/china_round8_search.json",
+          "status": "1具名目标SDK、4待全文、4技术边界、1商业多传感器强候选"
         }
       ]
     },
@@ -3932,90 +4400,27 @@
       "organization": "institution_team_content"
     },
     {
-      "id": "TJU-LI-WENBO",
-      "title": "李文博 Wenbo Li团队",
-      "institution": "天津大学",
-      "institution_id": "tju",
-      "team": "李文博 Wenbo Li团队",
-      "summary": "商业智能手机LBS用于限行政策的城际外溢研究；具体供应商与采集技术待全文。",
-      "collaborators": "马寅初经济学院",
-      "source_ids": [
-        "CN-S41"
-      ],
-      "supplier_names": [
-        "未具名；供应商待追查"
-      ],
-      "outputs": [
-        {
-          "type": "候选题录（原文或正式出版待核）",
-          "title": "The Spillover Effect of Driving Restrictions on Intercity Travel",
-          "year": 2026,
-          "journal": "Journal of Regional Science",
-          "catalog_id": "L35",
-          "doi": "10.1111/jors.70043",
-          "url": "https://onlinelibrary.wiley.com/doi/10.1111/jors.70043",
-          "provider": "未具名；供应商待追查",
-          "data_statement": "出版商摘要明确使用未具名smartphone LBS provider提供的高频城际出行数据，研究2020–2023年六个相邻省级区域42城限行。摘要未披露企业名、GPS/WiFi/SDK或是否融合信令。",
-          "bibliographic_note": "出版商页面可读摘要和数据声明，但点击全文仍未提供方法正文；保持供应商与采集流程待核。",
-          "authors": [
-            "Wenbo Li"
-          ],
-          "source_ids": [
-            "CN-S41"
-          ]
-        }
-      ],
-      "studies": [
-        {
-          "id": "TJU-LI-R1",
-          "title": "限行对城际出行的空间外溢",
-          "summary": "出版商摘要明确使用未具名smartphone LBS provider提供的高频城际出行数据，研究2020–2023年六个相邻省级区域42城限行。摘要未披露企业名、GPS/WiFi/SDK或是否融合信令。",
-          "outputs": [
-            {
-              "type": "候选题录（原文或正式出版待核）",
-              "title": "The Spillover Effect of Driving Restrictions on Intercity Travel",
-              "year": 2026,
-              "journal": "Journal of Regional Science",
-              "catalog_id": "L35",
-              "doi": "10.1111/jors.70043",
-              "url": "https://onlinelibrary.wiley.com/doi/10.1111/jors.70043",
-              "provider": "未具名；供应商待追查",
-              "data_statement": "出版商摘要明确使用未具名smartphone LBS provider提供的高频城际出行数据，研究2020–2023年六个相邻省级区域42城限行。摘要未披露企业名、GPS/WiFi/SDK或是否融合信令。",
-              "bibliographic_note": "出版商页面可读摘要和数据声明，但点击全文仍未提供方法正文；保持供应商与采集流程待核。",
-              "authors": [
-                "Wenbo Li"
-              ],
-              "source_ids": [
-                "CN-S41"
-              ]
-            }
-          ],
-          "source_ids": [
-            "CN-S41"
-          ],
-          "evidence_section": "出版商摘要、作者单位、Data Availability Statement；非正文方法审读",
-          "provider_attribution_status": "undisclosed",
-          "research_scope": "pioneer_candidate"
-        }
-      ],
-      "procurements": [],
-      "grants": [],
-      "organization": "institution_team_content"
-    },
-    {
       "id": "FZU-WU-SHENG",
       "title": "吴升 Sheng Wu团队",
       "institution": "福州大学",
       "institution_id": "fzu",
       "team": "吴升 Sheng Wu团队",
-      "summary": "团队使用手机位置数据研究下一位置预测与居民活动强度：L36原文明确商业公司GNSS数据；L46使用匿名位置记录但采集技术和供方未披露。共同基金仅作为合作脉络，不能据此认定同一数据公司。",
+      "summary": "吴升、赵志远等合作团队8项核心或候选研究：L48明确及刻SDK/WiFi，L55为未具名第三方GPS/WiFi/蓝牙，L36与L46等保持逐篇待核供方。另4篇电信/室内WiFi研究列次级边界，不能从同作者或同基金继承来源。",
       "collaborators": "中科院地理资源所 Peixiao Wang、Hengcai Zhang、Shifen Cheng、Feng Lu 合作",
       "source_ids": [
         "CN-S42",
-        "CN-S52"
+        "CN-S52",
+        "CN-S53",
+        "CN-S54",
+        "CN-S55",
+        "CN-S56",
+        "CN-S57",
+        "CN-S61"
       ],
       "supplier_names": [
-        "未具名位置服务公司"
+        "未具名位置服务公司",
+        "及刻 / Jike（L48脚注isjike.com）",
+        "未具名第三方GPS/WiFi/蓝牙服务商（L55）"
       ],
       "outputs": [
         {
@@ -4064,6 +4469,155 @@
             "CN-S52"
           ],
           "research_scope": "pioneer_candidate"
+        },
+        {
+          "type": "预印本（正文待核）",
+          "title": "BAMTR: Behavior-Aware Mobile Phone Trajectory Recovery via Adaptive Historical Prior Reasoning",
+          "year": 2026,
+          "journal": "SSRN",
+          "catalog_id": "L47",
+          "doi": "10.2139/ssrn.7396621",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7396621",
+          "provider": "待原文核实",
+          "data_statement": "仅可读出版方摘要：真实手机轨迹存在稀疏和不规则采样；未公开读到实验数据来源段，不能据此认定SDK或运营商数据。",
+          "bibliographic_note": "31页是SSRN题录页数，尚无本地PDF验证。2026-09-02为预印本发布日。未将共同作者或基金线索继承为供方确认。",
+          "authors": [
+            "Youjun Tu",
+            "Zhiyuan Zhao",
+            "Sheng Wu",
+            "Baohua Deng",
+            "Peixiao Wang",
+            "Dawen Yu",
+            "Qunyong Wu",
+            "Shiyu Yang"
+          ],
+          "source_ids": [
+            "CN-S53"
+          ],
+          "research_scope": "pioneer_candidate",
+          "fulltext_read": false,
+          "pdf_downloaded": false
+        },
+        {
+          "type": "期刊论文",
+          "title": "人口空间分布典型数据的时空差异",
+          "year": 2026,
+          "journal": "热带地理",
+          "catalog_id": "L48",
+          "doi": "10.13284/j.cnki.rddl.20250648",
+          "url": "https://www.rddl.com.cn/CN/10.13284/j.cnki.rddl.20250648",
+          "provider": "及刻 / Jike（原文脚注为https://www.isjike.com）",
+          "data_statement": "§1.2手机位置数据来自SDK定位服务商，脚注指向isjike.com；为匿名位置和时间记录，以WiFi及手机内置模糊定位为主。重采样和缺失值补全后生成等间隔轨迹，以1小时窗统计不重复用户ID并映射1公里格网。百度慧眼热力与WorldPop是独立比较数据源，不把百度归为该手机轨迹的供应商。",
+          "bibliographic_note": "原文通过域名而非中文公司名标识服务商；及刻品牌映射依赖知识库既有官网核验，不由此推断法律主体或与先锋、摸星的法律关系。同基金可连到L36和L46，但这篇明确供方不能反向赋给前两篇。百度热力同样源于SDK定位请求，但作为平台聚合对照单列。",
+          "authors": [
+            "赵志远",
+            "林沁怡",
+            "邓保华",
+            "吴升",
+            "林湘如"
+          ],
+          "source_ids": [
+            "CN-S54"
+          ],
+          "research_scope": "pioneer_named",
+          "fulltext_read": true,
+          "pdf_downloaded": true
+        },
+        {
+          "type": "候选题录（正文数据来源待核）",
+          "title": "顾及相似用户特征的个人位置预测算法",
+          "year": 2023,
+          "journal": "武汉大学学报（信息科学版）",
+          "catalog_id": "L49",
+          "doi": "10.13203/j.whugis20200609",
+          "url": "https://ch.whu.edu.cn/article/doi/10.13203/j.whugis20200609?viewType=HTML",
+          "provider": "待原文核实",
+          "data_statement": "原刊网页摘要称某市8万多个用户连续4个工作日数据，用GCN和LSTM集成相似用户及个人历史轨迹。摘要没有披露服务商、城市或定位技术，HTML全文区无正文，PDF连接失败。",
+          "bibliographic_note": "原刊HTML正文区为空。不能从8万样本量、15分钟预测步长或同作者其他研究推断该数据是SDK或运营商信令。2023年卷期由原刊题录/作者机构主页相互印证。",
+          "authors": [
+            "张宇",
+            "吴升",
+            "赵志远",
+            "杨喜平",
+            "方志祥"
+          ],
+          "source_ids": [
+            "CN-S55"
+          ],
+          "research_scope": "pioneer_candidate",
+          "fulltext_read": false,
+          "pdf_downloaded": false
+        },
+        {
+          "type": "候选题录（正文数据来源待核）",
+          "title": "基于手机定位数据的西宁市老年人公园绿地可达性预测",
+          "year": 2023,
+          "journal": "干旱区地理",
+          "catalog_id": "L50",
+          "doi": "10.12118/j.issn.1000-6060.2022.672",
+          "url": "https://www.geores.com.cn/ghqdl/CN/10.12118/j.issn.1000-6060.2022.672",
+          "provider": "未核明",
+          "data_statement": "保留待核候选。已取得原刊摘要及机构、基金，但未取得正文；不能归入SDK或运营商边界。",
+          "bibliographic_note": "保留待核候选。已取得原刊摘要及机构、基金，但未取得正文；不能归入SDK或运营商边界。",
+          "authors": [
+            "赵志远",
+            "丁逸尘",
+            "杨喜平",
+            "吴升"
+          ],
+          "source_ids": [
+            "CN-S56"
+          ],
+          "research_scope": "pioneer_candidate",
+          "fulltext_read": false,
+          "pdf_downloaded": false
+        },
+        {
+          "type": "候选题录（正文数据来源待核）",
+          "title": "利用轨迹数据计算典型人类活动空间特征的时间聚合效应",
+          "year": null,
+          "journal": "地理科学（检索题录，卷期待核）",
+          "catalog_id": "L51",
+          "doi": "10.13249/j.cnki.sgs.20241458",
+          "url": "https://doi.org/10.13249/j.cnki.sgs.20241458",
+          "provider": "未核明",
+          "data_statement": "DOI题名作者可核，尚无正文及数据声明。出版年仍待核，2026-02-04只是DOI注册时间。",
+          "bibliographic_note": "DOI题名作者可核，尚无正文及数据声明。出版年仍待核，2026-02-04只是DOI注册时间。",
+          "authors": [
+            "赵志远",
+            "祝章伟",
+            "吴升",
+            "汪艳霞",
+            "胡慧芳"
+          ],
+          "source_ids": [
+            "CN-S57"
+          ],
+          "research_scope": "pioneer_candidate",
+          "fulltext_read": false,
+          "pdf_downloaded": false
+        },
+        {
+          "type": "期刊论文",
+          "title": "融合区域嵌入表示的城市功能区识别方法",
+          "year": 2025,
+          "journal": "地球信息科学学报",
+          "catalog_id": "L55",
+          "doi": "10.12082/dqxxkx.2025.240484",
+          "url": "https://www.dqxxkx.cn/CN/10.12082/dqxxkx.2025.240484",
+          "provider": "未具名第三方数据服务商；高德提供POI",
+          "data_statement": "手机定位购自第三方数据服务商，GPS/WIFI/蓝牙融合，误差5–50m；福州2023-03-06至12约140万用户，清洗后120万、平均每用户每天35条记录。POI来自高德（2022年119752条），路网来自OSM。",
+          "bibliographic_note": "乒乓点清洗不等于运营商来源；明确GPS/WIFI/蓝牙胜于术语联想。原文未提供商户品牌/SDK声明，不能归给先锋/摸星/及刻。",
+          "authors": [
+            "韦烨娜",
+            "吴升"
+          ],
+          "source_ids": [
+            "CN-S61"
+          ],
+          "research_scope": "pioneer_candidate",
+          "fulltext_read": true,
+          "pdf_downloaded": true
         }
       ],
       "studies": [
@@ -4179,27 +4733,312 @@
               "evidence_section": "PDF第1页机构2、3"
             }
           ]
+        },
+        {
+          "id": "FZU-WU-R3",
+          "title": "稀疏手机轨迹恢复与历史行为先验",
+          "summary": "仅可读出版方摘要：真实手机轨迹存在稀疏和不规则采样；未公开读到实验数据来源段，不能据此认定SDK或运营商数据。",
+          "outputs": [
+            {
+              "type": "预印本（正文待核）",
+              "title": "BAMTR: Behavior-Aware Mobile Phone Trajectory Recovery via Adaptive Historical Prior Reasoning",
+              "year": 2026,
+              "journal": "SSRN",
+              "catalog_id": "L47",
+              "doi": "10.2139/ssrn.7396621",
+              "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7396621",
+              "provider": "待原文核实",
+              "data_statement": "仅可读出版方摘要：真实手机轨迹存在稀疏和不规则采样；未公开读到实验数据来源段，不能据此认定SDK或运营商数据。",
+              "bibliographic_note": "31页是SSRN题录页数，尚无本地PDF验证。2026-09-02为预印本发布日。未将共同作者或基金线索继承为供方确认。",
+              "authors": [
+                "Youjun Tu",
+                "Zhiyuan Zhao",
+                "Sheng Wu",
+                "Baohua Deng",
+                "Peixiao Wang",
+                "Dawen Yu",
+                "Qunyong Wu",
+                "Shiyu Yang"
+              ],
+              "source_ids": [
+                "CN-S53"
+              ],
+              "research_scope": "pioneer_candidate",
+              "fulltext_read": false,
+              "pdf_downloaded": false
+            }
+          ],
+          "source_ids": [
+            "CN-S53"
+          ],
+          "evidence_section": "SSRN摘要（网页，无PDF页码）",
+          "provider_attribution_status": "pending_fulltext",
+          "research_scope": "pioneer_candidate",
+          "scope_reason": "保留同团队数据来源追查候选；供方与技术逐篇独立核实。",
+          "fulltext_read": false,
+          "pdf_downloaded": false
+        },
+        {
+          "id": "FZU-WU-R4",
+          "title": "人口空间分布估计；多源位置数据偏差与尺度效应；土地利用与人口分布差异",
+          "summary": "§1.2手机位置数据来自SDK定位服务商，脚注指向isjike.com；为匿名位置和时间记录，以WiFi及手机内置模糊定位为主。重采样和缺失值补全后生成等间隔轨迹，以1小时窗统计不重复用户ID并映射1公里格网。百度慧眼热力与WorldPop是独立比较数据源，不把百度归为该手机轨迹的供应商。",
+          "outputs": [
+            {
+              "type": "期刊论文",
+              "title": "人口空间分布典型数据的时空差异",
+              "year": 2026,
+              "journal": "热带地理",
+              "catalog_id": "L48",
+              "doi": "10.13284/j.cnki.rddl.20250648",
+              "url": "https://www.rddl.com.cn/CN/10.13284/j.cnki.rddl.20250648",
+              "provider": "及刻 / Jike（原文脚注为https://www.isjike.com）",
+              "data_statement": "§1.2手机位置数据来自SDK定位服务商，脚注指向isjike.com；为匿名位置和时间记录，以WiFi及手机内置模糊定位为主。重采样和缺失值补全后生成等间隔轨迹，以1小时窗统计不重复用户ID并映射1公里格网。百度慧眼热力与WorldPop是独立比较数据源，不把百度归为该手机轨迹的供应商。",
+              "bibliographic_note": "原文通过域名而非中文公司名标识服务商；及刻品牌映射依赖知识库既有官网核验，不由此推断法律主体或与先锋、摸星的法律关系。同基金可连到L36和L46，但这篇明确供方不能反向赋给前两篇。百度热力同样源于SDK定位请求，但作为平台聚合对照单列。",
+              "authors": [
+                "赵志远",
+                "林沁怡",
+                "邓保华",
+                "吴升",
+                "林湘如"
+              ],
+              "source_ids": [
+                "CN-S54"
+              ],
+              "research_scope": "pioneer_named",
+              "fulltext_read": true,
+              "pdf_downloaded": true
+            }
+          ],
+          "source_ids": [
+            "CN-S54"
+          ],
+          "evidence_section": "PDF第3页/印刷1100页，§1.2第3项；PDF第3页/印刷1100页，脚注③；PDF第3页/印刷1100页，§1.2第3项",
+          "provider_attribution_status": "source_confirmed",
+          "research_scope": "pioneer_named",
+          "scope_reason": "本文数据来源脚注明确isjike.com，SDK与WiFi有正文直接证据。",
+          "fulltext_read": true,
+          "pdf_downloaded": true
+        },
+        {
+          "id": "FZU-WU-R5",
+          "title": "相似用户与个人历史联合位置预测",
+          "summary": "原刊网页摘要称某市8万多个用户连续4个工作日数据，用GCN和LSTM集成相似用户及个人历史轨迹。摘要没有披露服务商、城市或定位技术，HTML全文区无正文，PDF连接失败。",
+          "outputs": [
+            {
+              "type": "候选题录（正文数据来源待核）",
+              "title": "顾及相似用户特征的个人位置预测算法",
+              "year": 2023,
+              "journal": "武汉大学学报（信息科学版）",
+              "catalog_id": "L49",
+              "doi": "10.13203/j.whugis20200609",
+              "url": "https://ch.whu.edu.cn/article/doi/10.13203/j.whugis20200609?viewType=HTML",
+              "provider": "待原文核实",
+              "data_statement": "原刊网页摘要称某市8万多个用户连续4个工作日数据，用GCN和LSTM集成相似用户及个人历史轨迹。摘要没有披露服务商、城市或定位技术，HTML全文区无正文，PDF连接失败。",
+              "bibliographic_note": "原刊HTML正文区为空。不能从8万样本量、15分钟预测步长或同作者其他研究推断该数据是SDK或运营商信令。2023年卷期由原刊题录/作者机构主页相互印证。",
+              "authors": [
+                "张宇",
+                "吴升",
+                "赵志远",
+                "杨喜平",
+                "方志祥"
+              ],
+              "source_ids": [
+                "CN-S55"
+              ],
+              "research_scope": "pioneer_candidate",
+              "fulltext_read": false,
+              "pdf_downloaded": false
+            }
+          ],
+          "source_ids": [
+            "CN-S55"
+          ],
+          "evidence_section": "原刊网页中文摘要；PDF未取得，页码未核",
+          "provider_attribution_status": "pending_fulltext",
+          "research_scope": "pioneer_candidate",
+          "scope_reason": "保留同团队数据来源追查候选；供方与技术逐篇独立核实。",
+          "fulltext_read": false,
+          "pdf_downloaded": false
+        },
+        {
+          "id": "FZU-WU-R6",
+          "title": "老年人公园绿地可达性预测",
+          "summary": "保留待核候选。已取得原刊摘要及机构、基金，但未取得正文；不能归入SDK或运营商边界。",
+          "outputs": [
+            {
+              "type": "候选题录（正文数据来源待核）",
+              "title": "基于手机定位数据的西宁市老年人公园绿地可达性预测",
+              "year": 2023,
+              "journal": "干旱区地理",
+              "catalog_id": "L50",
+              "doi": "10.12118/j.issn.1000-6060.2022.672",
+              "url": "https://www.geores.com.cn/ghqdl/CN/10.12118/j.issn.1000-6060.2022.672",
+              "provider": "未核明",
+              "data_statement": "保留待核候选。已取得原刊摘要及机构、基金，但未取得正文；不能归入SDK或运营商边界。",
+              "bibliographic_note": "保留待核候选。已取得原刊摘要及机构、基金，但未取得正文；不能归入SDK或运营商边界。",
+              "authors": [
+                "赵志远",
+                "丁逸尘",
+                "杨喜平",
+                "吴升"
+              ],
+              "source_ids": [
+                "CN-S56"
+              ],
+              "research_scope": "pioneer_candidate",
+              "fulltext_read": false,
+              "pdf_downloaded": false
+            }
+          ],
+          "source_ids": [
+            "CN-S56"
+          ],
+          "evidence_section": "摘要、作者单位、基金",
+          "provider_attribution_status": "pending_fulltext",
+          "research_scope": "pioneer_candidate",
+          "scope_reason": "保留同团队数据来源追查候选；供方与技术逐篇独立核实。",
+          "fulltext_read": false,
+          "pdf_downloaded": false
+        },
+        {
+          "id": "FZU-WU-R7",
+          "title": "轨迹时间聚合与活动空间指标",
+          "summary": "DOI题名作者可核，尚无正文及数据声明。出版年仍待核，2026-02-04只是DOI注册时间。",
+          "outputs": [
+            {
+              "type": "候选题录（正文数据来源待核）",
+              "title": "利用轨迹数据计算典型人类活动空间特征的时间聚合效应",
+              "year": null,
+              "journal": "地理科学（检索题录，卷期待核）",
+              "catalog_id": "L51",
+              "doi": "10.13249/j.cnki.sgs.20241458",
+              "url": "https://doi.org/10.13249/j.cnki.sgs.20241458",
+              "provider": "未核明",
+              "data_statement": "DOI题名作者可核，尚无正文及数据声明。出版年仍待核，2026-02-04只是DOI注册时间。",
+              "bibliographic_note": "DOI题名作者可核，尚无正文及数据声明。出版年仍待核，2026-02-04只是DOI注册时间。",
+              "authors": [
+                "赵志远",
+                "祝章伟",
+                "吴升",
+                "汪艳霞",
+                "胡慧芳"
+              ],
+              "source_ids": [
+                "CN-S57"
+              ],
+              "research_scope": "pioneer_candidate",
+              "fulltext_read": false,
+              "pdf_downloaded": false
+            }
+          ],
+          "source_ids": [
+            "CN-S57"
+          ],
+          "evidence_section": "DOI注册题录",
+          "provider_attribution_status": "pending_fulltext",
+          "research_scope": "pioneer_candidate",
+          "scope_reason": "保留同团队数据来源追查候选；供方与技术逐篇独立核实。",
+          "fulltext_read": false,
+          "pdf_downloaded": false
+        },
+        {
+          "id": "FZU-WU-R8",
+          "title": "城市功能区识别，区域嵌入表示、OD空间交互与POI语义、多头注意力",
+          "summary": "手机定位购自第三方数据服务商，GPS/WIFI/蓝牙融合，误差5–50m；福州2023-03-06至12约140万用户，清洗后120万、平均每用户每天35条记录。POI来自高德（2022年119752条），路网来自OSM。",
+          "outputs": [
+            {
+              "type": "期刊论文",
+              "title": "融合区域嵌入表示的城市功能区识别方法",
+              "year": 2025,
+              "journal": "地球信息科学学报",
+              "catalog_id": "L55",
+              "doi": "10.12082/dqxxkx.2025.240484",
+              "url": "https://www.dqxxkx.cn/CN/10.12082/dqxxkx.2025.240484",
+              "provider": "未具名第三方数据服务商；高德提供POI",
+              "data_statement": "手机定位购自第三方数据服务商，GPS/WIFI/蓝牙融合，误差5–50m；福州2023-03-06至12约140万用户，清洗后120万、平均每用户每天35条记录。POI来自高德（2022年119752条），路网来自OSM。",
+              "bibliographic_note": "乒乓点清洗不等于运营商来源；明确GPS/WIFI/蓝牙胜于术语联想。原文未提供商户品牌/SDK声明，不能归给先锋/摸星/及刻。",
+              "authors": [
+                "韦烨娜",
+                "吴升"
+              ],
+              "source_ids": [
+                "CN-S61"
+              ],
+              "research_scope": "pioneer_candidate",
+              "fulltext_read": true,
+              "pdf_downloaded": true
+            }
+          ],
+          "source_ids": [
+            "CN-S61"
+          ],
+          "evidence_section": "PDF第7页＝印刷430页，§3.2数据来源及表2；PDF第1页基金/机构",
+          "provider_attribution_status": "undisclosed",
+          "research_scope": "pioneer_candidate",
+          "scope_reason": "商业第三方GPS/WiFi/蓝牙定位明确；供应商名称及SDK嵌入机制未披露，保留强候选。",
+          "fulltext_read": true,
+          "pdf_downloaded": true
         }
       ],
       "procurements": [],
       "grants": [
         {
           "id": "FZU-WU-G1-PUBLICATION",
-          "title": "国家重点研发计划：两篇论文共同署名资助",
+          "title": "国家重点研发计划：四篇论文共同署名资助",
           "grant_number": "2023YFB3906804",
           "source_ids": [
             "CN-S42",
-            "CN-S52"
+            "CN-S52",
+            "CN-S54",
+            "CN-S61"
           ],
           "catalog_ids": [
             "L36",
-            "L46"
+            "L46",
+            "L48",
+            "L55"
           ],
-          "summary": "L36与L46均署名该基金；项目负责人和具体任务题名未独立核实，共同基金不能证明同一数据供应商。",
+          "summary": "L36、L46、L48、L55分别在原文署名2023YFB3906804；其中只有L48明确isjike.com，不能据共同基金把其他论文归给及刻。项目负责人和具体任务题名待独立核查。",
           "items": []
+        },
+        {
+          "id": "FZU-WU-G-L50",
+          "title": "基于手机定位数据的西宁市老年人公园绿地可达性预测：论文署名基金",
+          "grant_number": "42201500 / 42271468 / 2020L3005 / 2022LSDMIS03 / KF-2022-07-005",
+          "catalog_ids": [
+            "L50"
+          ],
+          "source_ids": [
+            "CN-S56"
+          ],
+          "summary": "原刊资助声明；不推定项目负责人或数据采购。共同基金不证明相同供方。",
+          "items": [
+            {
+              "grant_number": "42201500",
+              "title": "论文署名基金"
+            },
+            {
+              "grant_number": "42271468",
+              "title": "论文署名基金"
+            },
+            {
+              "grant_number": "2020L3005",
+              "title": "论文署名基金"
+            },
+            {
+              "grant_number": "2022LSDMIS03",
+              "title": "论文署名基金"
+            },
+            {
+              "grant_number": "KF-2022-07-005",
+              "title": "论文署名基金"
+            }
+          ]
         }
       ],
-      "organization": "institution_team_content"
+      "organization": "institution_team_content",
+      "research_scope": "mixed_named_and_candidate",
+      "supplier_relationship_group_id": "USER-CONFIRMED-PIONEER-MOXING-JIKE"
     },
     {
       "id": "CAUPD-SUN-GE",
@@ -4308,13 +5147,15 @@
       "institution": "中南大学",
       "institution_id": "csu",
       "team": "王璞 / 庞腾达合作团队",
-      "summary": "乡村居民就医行为与可达性；目前核原刊摘要，供应商与定位流程等待全文。",
+      "summary": "王璞团队两项研究：乡村就医L44保持摘要候选；长沙旅游L57正文明确SDK采集但供应商未具名。共享基金71871224不证明同一数据服务商。",
       "collaborators": "长沙市勘测设计研究院等；页面未呈现完整逐作者上标，不强配作者单位",
       "source_ids": [
-        "CN-S50"
+        "CN-S50",
+        "CN-S63"
       ],
       "supplier_names": [
-        "手机定位数据供方未披露（当前仅核摘要）"
+        "手机定位数据供方未披露（当前仅核摘要）",
+        "未具名SDK采集供方（L57）"
       ],
       "outputs": [
         {
@@ -4340,6 +5181,30 @@
           "source_ids": [
             "CN-S50"
           ]
+        },
+        {
+          "type": "期刊论文",
+          "title": "多尺度视角下的城市旅游流网络结构特征分析——以长沙市为例",
+          "year": 2025,
+          "journal": "地球信息科学学报",
+          "catalog_id": "L57",
+          "doi": "10.12082/dqxxkx.2025.240586",
+          "url": "https://www.dqxxkx.cn/CN/10.12082/dqxxkx.2025.240586",
+          "provider": "未具名手机通讯服务运营商（正文明确SDK采集）；百度提供POI/AOI",
+          "data_statement": "§3.2明确未具名手机通讯服务运营商通过SDK采集长沙2023年5月手机位置记录；707万用户约78亿条，平均43分钟、10–50米误差，字段脱敏ID/时间戳/经纬度。筛选1263277人、2656089858条，识别232206名外地游客。百度地图开放平台仅供景区POI与AOI。",
+          "bibliographic_note": "与L44共享中南大学王璞团队和基金71871224；共同基金不构成相同供方证明。百度仅景区地理底图，不归为手机轨迹供方。",
+          "authors": [
+            "王贶",
+            "柯日宏",
+            "李胜楠",
+            "王璞"
+          ],
+          "source_ids": [
+            "CN-S63"
+          ],
+          "research_scope": "pioneer_candidate",
+          "fulltext_read": true,
+          "pdf_downloaded": true
         }
       ],
       "studies": [
@@ -4380,6 +5245,46 @@
           "provider_attribution_status": "pending_fulltext",
           "institution_mapping": "原刊列四个机构，页面未呈现逐作者上标，不能逐人强配；通讯信息指向王璞中南大学。",
           "research_scope": "pioneer_candidate"
+        },
+        {
+          "id": "CSU-WANG-R2",
+          "title": "旅游流网络、旅游社区与多尺度空间结构",
+          "summary": "§3.2明确未具名手机通讯服务运营商通过SDK采集长沙2023年5月手机位置记录；707万用户约78亿条，平均43分钟、10–50米误差，字段脱敏ID/时间戳/经纬度。筛选1263277人、2656089858条，识别232206名外地游客。百度地图开放平台仅供景区POI与AOI。",
+          "outputs": [
+            {
+              "type": "期刊论文",
+              "title": "多尺度视角下的城市旅游流网络结构特征分析——以长沙市为例",
+              "year": 2025,
+              "journal": "地球信息科学学报",
+              "catalog_id": "L57",
+              "doi": "10.12082/dqxxkx.2025.240586",
+              "url": "https://www.dqxxkx.cn/CN/10.12082/dqxxkx.2025.240586",
+              "provider": "未具名手机通讯服务运营商（正文明确SDK采集）；百度提供POI/AOI",
+              "data_statement": "§3.2明确未具名手机通讯服务运营商通过SDK采集长沙2023年5月手机位置记录；707万用户约78亿条，平均43分钟、10–50米误差，字段脱敏ID/时间戳/经纬度。筛选1263277人、2656089858条，识别232206名外地游客。百度地图开放平台仅供景区POI与AOI。",
+              "bibliographic_note": "与L44共享中南大学王璞团队和基金71871224；共同基金不构成相同供方证明。百度仅景区地理底图，不归为手机轨迹供方。",
+              "authors": [
+                "王贶",
+                "柯日宏",
+                "李胜楠",
+                "王璞"
+              ],
+              "source_ids": [
+                "CN-S63"
+              ],
+              "research_scope": "pioneer_candidate",
+              "fulltext_read": true,
+              "pdf_downloaded": true
+            }
+          ],
+          "source_ids": [
+            "CN-S63"
+          ],
+          "evidence_section": "3.2 数据来源与预处理；PDF第5页，印刷971页",
+          "provider_attribution_status": "sdk_explicit_supplier_undisclosed",
+          "research_scope": "pioneer_candidate",
+          "scope_reason": "SDK采集与匿名高精度坐标明确，服务商未具名；不能把运营商措辞自动当三大通信运营商来源。",
+          "fulltext_read": true,
+          "pdf_downloaded": true
         }
       ],
       "procurements": [],
@@ -4402,6 +5307,28 @@
             },
             {
               "grant_number": "71871224",
+              "title": "论文署名基金"
+            }
+          ]
+        },
+        {
+          "id": "CSU-WANG-G2-PUBLICATION",
+          "title": "多尺度视角下的城市旅游流网络结构特征分析——以长沙市为例：论文署名基金",
+          "grant_number": "71871224 / 2022JJ10077",
+          "catalog_ids": [
+            "L57"
+          ],
+          "source_ids": [
+            "CN-S63"
+          ],
+          "summary": "原刊资助声明；不推定项目负责人或数据采购。共同基金不证明相同供方。",
+          "items": [
+            {
+              "grant_number": "71871224",
+              "title": "论文署名基金"
+            },
+            {
+              "grant_number": "2022JJ10077",
               "title": "论文署名基金"
             }
           ]
@@ -5885,6 +6812,548 @@
       "organization": "institution_team_content",
       "research_scope": "map_platform",
       "relationships": []
+    },
+    {
+      "id": "FZU-WU-SHENG-carrier_boundary",
+      "title": "吴升 / 赵志远合作团队：运营商基站方法边界",
+      "institution": "福州大学",
+      "institution_id": "fzu-carrier_boundary",
+      "team": "吴升 / 赵志远及合作作者（逐篇保留作者）",
+      "summary": "不同论文数据来源分别核实；本组作为技术与方法边界保留，不计商业SDK核心或泛先锋具名使用。",
+      "source_ids": [
+        "CN-S58",
+        "CN-S60"
+      ],
+      "supplier_names": [
+        "未具名移动通信公司",
+        "未具名通信数据来源；高德为POI辅助源"
+      ],
+      "outputs": [
+        {
+          "type": "期刊论文",
+          "title": "The effect of temporal sampling intervals on typical human mobility indicators obtained from mobile phone location data",
+          "year": 2019,
+          "journal": "International Journal of Geographical Information Science",
+          "catalog_id": "L52",
+          "doi": "10.1080/13658816.2019.1584805",
+          "url": "https://hpcc.siat.ac.cn/group/pub/s3/10%202019%20The%20effect%20of%20temporal%20sampling%20intervals%20on%20typical%20human%20mobility%20indicators%20obtained%20from%20mobile%20phone%20location%20data.pdf",
+          "provider": "未具名移动通信公司",
+          "data_statement": "运营商服务基站定位；包含上网、电话和短信事件，并非GPS/WiFi SDK定位；方法§3.1明确记录服务基站位置，列入运营商定位边界。应用后台联网在此产生的是运营商网络事件，不能将出现WeChat/Apps误读为SDK数据。",
+          "bibliographic_note": "方法§3.1明确记录服务基站位置，列入运营商定位边界。应用后台联网在此产生的是运营商网络事件，不能将出现WeChat/Apps误读为SDK数据。",
+          "authors": [
+            "Zhiyuan Zhao",
+            "Shih-Lung Shaw",
+            "Ling Yin",
+            "Zhixiang Fang",
+            "Xiping Yang",
+            "Fan Zhang",
+            "Sheng Wu"
+          ],
+          "source_ids": [
+            "CN-S58"
+          ],
+          "research_scope": "carrier_boundary",
+          "fulltext_read": false,
+          "pdf_downloaded": false
+        },
+        {
+          "type": "期刊论文",
+          "title": "An urban crowd flow model integrating geographic characteristics",
+          "year": 2023,
+          "journal": "Scientific Reports",
+          "catalog_id": "L54",
+          "doi": "10.1038/s41598-023-29000-5",
+          "url": "https://www.nature.com/articles/s41598-023-29000-5",
+          "provider": "未具名通信数据来源；高德为POI辅助源",
+          "data_statement": "西宁2018年8月连续4工作日，约30万用户、超过1.7亿条记录，通话/短信/上网触发；提取2559个基站，约96%覆盖半径小于500m。高德API仅提供POI，OSM仅提供路网。",
+          "bibliographic_note": "正文技术证据足以判定电信事件/基站边界，但不能据此指定中国移动/联通/电信中的任何一家。数据整理作者Xiping Yang，不可据同作者推断其他论文同源。",
+          "authors": [
+            "Yu Zhang",
+            "Sheng Wu",
+            "Zhiyuan Zhao",
+            "Xiping Yang",
+            "Zhixiang Fang"
+          ],
+          "source_ids": [
+            "CN-S60"
+          ],
+          "research_scope": "carrier_boundary",
+          "fulltext_read": true,
+          "pdf_downloaded": true
+        }
+      ],
+      "studies": [
+        {
+          "id": "FZU-WU-B-L52",
+          "title": "轨迹采样间隔对移动性指标的影响",
+          "summary": "运营商服务基站定位；包含上网、电话和短信事件，并非GPS/WiFi SDK定位；方法§3.1明确记录服务基站位置，列入运营商定位边界。应用后台联网在此产生的是运营商网络事件，不能将出现WeChat/Apps误读为SDK数据。",
+          "outputs": [
+            {
+              "type": "期刊论文",
+              "title": "The effect of temporal sampling intervals on typical human mobility indicators obtained from mobile phone location data",
+              "year": 2019,
+              "journal": "International Journal of Geographical Information Science",
+              "catalog_id": "L52",
+              "doi": "10.1080/13658816.2019.1584805",
+              "url": "https://hpcc.siat.ac.cn/group/pub/s3/10%202019%20The%20effect%20of%20temporal%20sampling%20intervals%20on%20typical%20human%20mobility%20indicators%20obtained%20from%20mobile%20phone%20location%20data.pdf",
+              "provider": "未具名移动通信公司",
+              "data_statement": "运营商服务基站定位；包含上网、电话和短信事件，并非GPS/WiFi SDK定位；方法§3.1明确记录服务基站位置，列入运营商定位边界。应用后台联网在此产生的是运营商网络事件，不能将出现WeChat/Apps误读为SDK数据。",
+              "bibliographic_note": "方法§3.1明确记录服务基站位置，列入运营商定位边界。应用后台联网在此产生的是运营商网络事件，不能将出现WeChat/Apps误读为SDK数据。",
+              "authors": [
+                "Zhiyuan Zhao",
+                "Shih-Lung Shaw",
+                "Ling Yin",
+                "Zhixiang Fang",
+                "Xiping Yang",
+                "Fan Zhang",
+                "Sheng Wu"
+              ],
+              "source_ids": [
+                "CN-S58"
+              ],
+              "research_scope": "carrier_boundary",
+              "fulltext_read": false,
+              "pdf_downloaded": false
+            }
+          ],
+          "source_ids": [
+            "CN-S58"
+          ],
+          "evidence_section": "3. Dataset / 3.1. Data source；Abstract / Authors / Funding / Supplementary material",
+          "provider_attribution_status": "undisclosed",
+          "research_scope": "carrier_boundary",
+          "scope_reason": "原始方法证据为电信事件/服务基站定位，单列边界，不归商业SDK核心。",
+          "fulltext_read": false,
+          "pdf_downloaded": false
+        },
+        {
+          "id": "FZU-WU-B-L54",
+          "title": "融合地理特征的城市人流预测，残差多图卷积与LSTM",
+          "summary": "西宁2018年8月连续4工作日，约30万用户、超过1.7亿条记录，通话/短信/上网触发；提取2559个基站，约96%覆盖半径小于500m。高德API仅提供POI，OSM仅提供路网。",
+          "outputs": [
+            {
+              "type": "期刊论文",
+              "title": "An urban crowd flow model integrating geographic characteristics",
+              "year": 2023,
+              "journal": "Scientific Reports",
+              "catalog_id": "L54",
+              "doi": "10.1038/s41598-023-29000-5",
+              "url": "https://www.nature.com/articles/s41598-023-29000-5",
+              "provider": "未具名通信数据来源；高德为POI辅助源",
+              "data_statement": "西宁2018年8月连续4工作日，约30万用户、超过1.7亿条记录，通话/短信/上网触发；提取2559个基站，约96%覆盖半径小于500m。高德API仅提供POI，OSM仅提供路网。",
+              "bibliographic_note": "正文技术证据足以判定电信事件/基站边界，但不能据此指定中国移动/联通/电信中的任何一家。数据整理作者Xiping Yang，不可据同作者推断其他论文同源。",
+              "authors": [
+                "Yu Zhang",
+                "Sheng Wu",
+                "Zhiyuan Zhao",
+                "Xiping Yang",
+                "Zhixiang Fang"
+              ],
+              "source_ids": [
+                "CN-S60"
+              ],
+              "research_scope": "carrier_boundary",
+              "fulltext_read": true,
+              "pdf_downloaded": true
+            }
+          ],
+          "source_ids": [
+            "CN-S60"
+          ],
+          "evidence_section": "正文PDF第5页 Data and data preprocessing；第6页路网；第16页作者贡献/基金；DOCX补充Fig.S5–S6",
+          "provider_attribution_status": "undisclosed",
+          "research_scope": "carrier_boundary",
+          "scope_reason": "原始方法证据为电信事件/服务基站定位，单列边界，不归商业SDK核心。",
+          "fulltext_read": true,
+          "pdf_downloaded": true
+        }
+      ],
+      "procurements": [],
+      "grants": [
+        {
+          "id": "FZU-WU-BG-L52",
+          "title": "The effect of temporal sampling intervals on typical human mobility indicators obtained from mobile phone location data：论文署名基金",
+          "grant_number": "41231171 / 41771441 / 41371420 / 41801373 / JCYJ20170307164104491 / KF-2018-03-006",
+          "catalog_ids": [
+            "L52"
+          ],
+          "source_ids": [
+            "CN-S58"
+          ],
+          "summary": "原刊资助声明；不推定项目负责人或数据采购。共同基金不证明相同供方。",
+          "items": [
+            {
+              "grant_number": "41231171",
+              "title": "论文署名基金"
+            },
+            {
+              "grant_number": "41771441",
+              "title": "论文署名基金"
+            },
+            {
+              "grant_number": "41371420",
+              "title": "论文署名基金"
+            },
+            {
+              "grant_number": "41801373",
+              "title": "论文署名基金"
+            },
+            {
+              "grant_number": "JCYJ20170307164104491",
+              "title": "论文署名基金"
+            },
+            {
+              "grant_number": "KF-2018-03-006",
+              "title": "论文署名基金"
+            }
+          ]
+        },
+        {
+          "id": "FZU-WU-BG-L54",
+          "title": "An urban crowd flow model integrating geographic characteristics：论文署名基金",
+          "grant_number": "42201500 / 42271468 / 41771473 / 2021H6004 / 2022LSDMIS03 / KF-2022-07-005",
+          "catalog_ids": [
+            "L54"
+          ],
+          "source_ids": [
+            "CN-S60"
+          ],
+          "summary": "原刊资助声明；不推定项目负责人或数据采购。共同基金不证明相同供方。",
+          "items": [
+            {
+              "grant_number": "42201500",
+              "title": "论文署名基金"
+            },
+            {
+              "grant_number": "42271468",
+              "title": "论文署名基金"
+            },
+            {
+              "grant_number": "41771473",
+              "title": "论文署名基金"
+            },
+            {
+              "grant_number": "2021H6004",
+              "title": "论文署名基金"
+            },
+            {
+              "grant_number": "2022LSDMIS03",
+              "title": "论文署名基金"
+            },
+            {
+              "grant_number": "KF-2022-07-005",
+              "title": "论文署名基金"
+            }
+          ]
+        }
+      ],
+      "organization": "institution_team_content",
+      "research_scope": "carrier_boundary"
+    },
+    {
+      "id": "FZU-WU-SHENG-indoor_wifi_boundary",
+      "title": "吴升 / 赵志远合作团队：商场室内WiFi定位边界",
+      "institution": "福州大学",
+      "institution_id": "fzu-indoor_wifi_boundary",
+      "team": "吴升 / 赵志远及合作作者（逐篇保留作者）",
+      "summary": "不同论文数据来源分别核实；本组作为技术与方法边界保留，不计商业SDK核心或泛先锋具名使用。",
+      "source_ids": [
+        "CN-S59",
+        "CN-S62"
+      ],
+      "supplier_names": [
+        "Shanghai Palmap Science & Technology Company Limited"
+      ],
+      "outputs": [
+        {
+          "type": "期刊论文",
+          "title": "Indoor Location Prediction Method for Shopping Malls Based on Location Sequence Similarity",
+          "year": 2019,
+          "journal": "ISPRS International Journal of Geo-Information",
+          "catalog_id": "L53",
+          "doi": "10.3390/ijgi8110517",
+          "url": "https://www.mdpi.com/2220-9964/8/11/517",
+          "provider": "Shanghai Palmap Science & Technology Company Limited",
+          "data_statement": "济南单商场8层、2017-12-23至2018-01-06室内WiFi定位，约3m精度，129070836轨迹点；清洗后345824条用户轨迹。Palmap提供数据，SDK、探针部署和主动连接机制未被正文明确。",
+          "bibliographic_note": "同组关联IEEE Access论文明确WiFi指纹定位，但不能把另一篇的数据采集细节直接继承给本篇；未发现目标先锋/摸星/及刻品牌关联。",
+          "authors": [
+            "Peixiao Wang",
+            "Sheng Wu",
+            "Hengcai Zhang",
+            "Feng Lu"
+          ],
+          "source_ids": [
+            "CN-S59"
+          ],
+          "research_scope": "indoor_wifi_boundary",
+          "fulltext_read": true,
+          "pdf_downloaded": true
+        },
+        {
+          "type": "期刊论文",
+          "title": "A Hybrid Markov and LSTM Model for Indoor Location Prediction",
+          "year": 2019,
+          "journal": "IEEE Access",
+          "catalog_id": "L56",
+          "doi": "10.1109/access.2019.2961559",
+          "url": "https://giserwang.github.io/papers/Access-2019-12.pdf",
+          "provider": "Shanghai Palmap Science & Technology Company Limited",
+          "data_statement": "济南商场8层50位用户，2017-12-20至2018-02-01；Palmap提供室内WiFi指纹定位、约3m、11677438点。",
+          "bibliographic_note": "",
+          "authors": [
+            "Peixiao Wang",
+            "Hongen Wang",
+            "Hengcai Zhang",
+            "Feng Lu",
+            "Sheng Wu"
+          ],
+          "source_ids": [
+            "CN-S62"
+          ],
+          "research_scope": "indoor_wifi_boundary",
+          "fulltext_read": true,
+          "pdf_downloaded": true
+        }
+      ],
+      "studies": [
+        {
+          "id": "FZU-WU-B-L53",
+          "title": "商场室内下一位置预测、停留点、用户相似群组",
+          "summary": "济南单商场8层、2017-12-23至2018-01-06室内WiFi定位，约3m精度，129070836轨迹点；清洗后345824条用户轨迹。Palmap提供数据，SDK、探针部署和主动连接机制未被正文明确。",
+          "outputs": [
+            {
+              "type": "期刊论文",
+              "title": "Indoor Location Prediction Method for Shopping Malls Based on Location Sequence Similarity",
+              "year": 2019,
+              "journal": "ISPRS International Journal of Geo-Information",
+              "catalog_id": "L53",
+              "doi": "10.3390/ijgi8110517",
+              "url": "https://www.mdpi.com/2220-9964/8/11/517",
+              "provider": "Shanghai Palmap Science & Technology Company Limited",
+              "data_statement": "济南单商场8层、2017-12-23至2018-01-06室内WiFi定位，约3m精度，129070836轨迹点；清洗后345824条用户轨迹。Palmap提供数据，SDK、探针部署和主动连接机制未被正文明确。",
+              "bibliographic_note": "同组关联IEEE Access论文明确WiFi指纹定位，但不能把另一篇的数据采集细节直接继承给本篇；未发现目标先锋/摸星/及刻品牌关联。",
+              "authors": [
+                "Peixiao Wang",
+                "Sheng Wu",
+                "Hengcai Zhang",
+                "Feng Lu"
+              ],
+              "source_ids": [
+                "CN-S59"
+              ],
+              "research_scope": "indoor_wifi_boundary",
+              "fulltext_read": true,
+              "pdf_downloaded": true
+            }
+          ],
+          "source_ids": [
+            "CN-S59"
+          ],
+          "evidence_section": "PDF第9页§4.1.1；第10页§4.1.2；第15页Funding/Acknowledgments",
+          "provider_attribution_status": "source_confirmed",
+          "research_scope": "indoor_wifi_boundary",
+          "scope_reason": "商场室内WiFi定位或指纹定位，单列技术边界；Palmap为具名供方，未证商业多App SDK轨迹。",
+          "fulltext_read": true,
+          "pdf_downloaded": true
+        },
+        {
+          "id": "FZU-WU-B-L56",
+          "title": "室内位置预测与马尔可夫/LSTM",
+          "summary": "济南商场8层50位用户，2017-12-20至2018-02-01；Palmap提供室内WiFi指纹定位、约3m、11677438点。",
+          "outputs": [
+            {
+              "type": "期刊论文",
+              "title": "A Hybrid Markov and LSTM Model for Indoor Location Prediction",
+              "year": 2019,
+              "journal": "IEEE Access",
+              "catalog_id": "L56",
+              "doi": "10.1109/access.2019.2961559",
+              "url": "https://giserwang.github.io/papers/Access-2019-12.pdf",
+              "provider": "Shanghai Palmap Science & Technology Company Limited",
+              "data_statement": "济南商场8层50位用户，2017-12-20至2018-02-01；Palmap提供室内WiFi指纹定位、约3m、11677438点。",
+              "bibliographic_note": "",
+              "authors": [
+                "Peixiao Wang",
+                "Hongen Wang",
+                "Hengcai Zhang",
+                "Feng Lu",
+                "Sheng Wu"
+              ],
+              "source_ids": [
+                "CN-S62"
+              ],
+              "research_scope": "indoor_wifi_boundary",
+              "fulltext_read": true,
+              "pdf_downloaded": true
+            }
+          ],
+          "source_ids": [
+            "CN-S62"
+          ],
+          "evidence_section": "PDF第6页＝印刷185933页，§V.A.1；第12页致谢；第1页机构/基金",
+          "provider_attribution_status": "source_confirmed",
+          "research_scope": "indoor_wifi_boundary",
+          "scope_reason": "商场室内WiFi定位或指纹定位，单列技术边界；Palmap为具名供方，未证商业多App SDK轨迹。",
+          "fulltext_read": true,
+          "pdf_downloaded": true
+        }
+      ],
+      "procurements": [],
+      "grants": [
+        {
+          "id": "FZU-WU-BG-L53",
+          "title": "Indoor Location Prediction Method for Shopping Malls Based on Location Sequence Similarity：论文署名基金",
+          "grant_number": "41771436 / 41701521 / 2016YFB0502104 / 2017YFB0503500 / 2016-23",
+          "catalog_ids": [
+            "L53"
+          ],
+          "source_ids": [
+            "CN-S59"
+          ],
+          "summary": "原刊资助声明；不推定项目负责人或数据采购。共同基金不证明相同供方。",
+          "items": [
+            {
+              "grant_number": "41771436",
+              "title": "论文署名基金"
+            },
+            {
+              "grant_number": "41701521",
+              "title": "论文署名基金"
+            },
+            {
+              "grant_number": "2016YFB0502104",
+              "title": "论文署名基金"
+            },
+            {
+              "grant_number": "2017YFB0503500",
+              "title": "论文署名基金"
+            },
+            {
+              "grant_number": "2016-23",
+              "title": "论文署名基金"
+            }
+          ]
+        },
+        {
+          "id": "FZU-WU-BG-L56",
+          "title": "A Hybrid Markov and LSTM Model for Indoor Location Prediction：论文署名基金",
+          "grant_number": "41771436 / 41701521 / 2016YFB0502104 / 2017YFB0503500 / 2016-23",
+          "catalog_ids": [
+            "L56"
+          ],
+          "source_ids": [
+            "CN-S62"
+          ],
+          "summary": "原刊资助声明；不推定项目负责人或数据采购。共同基金不证明相同供方。",
+          "items": [
+            {
+              "grant_number": "41771436",
+              "title": "论文署名基金"
+            },
+            {
+              "grant_number": "41701521",
+              "title": "论文署名基金"
+            },
+            {
+              "grant_number": "2016YFB0502104",
+              "title": "论文署名基金"
+            },
+            {
+              "grant_number": "2017YFB0503500",
+              "title": "论文署名基金"
+            },
+            {
+              "grant_number": "2016-23",
+              "title": "论文署名基金"
+            }
+          ]
+        }
+      ],
+      "organization": "institution_team_content",
+      "research_scope": "indoor_wifi_boundary"
+    },
+    {
+      "id": "TJU-LI-WENBO-map_platform",
+      "title": "李文博 Wenbo Li团队",
+      "institution": "天津大学",
+      "institution_id": "tju-map_platform",
+      "team": "李文博 Wenbo Li团队",
+      "summary": "限行与城际流研究；原文§4.1已确认百度迁徙，移至地图平台次级研究。",
+      "collaborators": "马寅初经济学院",
+      "source_ids": [
+        "CN-S41",
+        "CN-S64"
+      ],
+      "supplier_names": [
+        "百度迁徙 / Baidu Migration"
+      ],
+      "outputs": [
+        {
+          "type": "期刊论文",
+          "title": "The Spillover Effect of Driving Restrictions on Intercity Travel",
+          "year": 2026,
+          "journal": "Journal of Regional Science",
+          "catalog_id": "L35",
+          "doi": "10.1111/jors.70043",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/jors.70043",
+          "provider": "百度迁徙 / Baidu Migration",
+          "data_statement": "原刊HTML §4.1明确Baidu Migration：百度地图API/SDK接收多App位置请求，设备GPS、WiFi和cell sites组合定位；按城市/日聚合，以外流指数乘目的地份额构造城际流。属于地图平台衍生流，不是具名泛先锋轨迹。",
+          "bibliographic_note": "学校机构访问取得HTML及17页正文PDF；第4页核Baidu Migration和API/SDK定位机制。原摘要42城/六省级与英文引言52城/四省存在差异，本轮不裁决。6页SI身份已核，主代理审读第2页Appendix Fig.1原注亦明确Baidu Migration。",
+          "authors": [
+            "Wenbo Li"
+          ],
+          "source_ids": [
+            "CN-S41",
+            "CN-S64"
+          ],
+          "research_scope": "map_platform",
+          "fulltext_read": true,
+          "pdf_downloaded": true
+        }
+      ],
+      "studies": [
+        {
+          "id": "TJU-LI-R1",
+          "title": "限行对城际出行的空间外溢",
+          "summary": "原刊HTML §4.1明确Baidu Migration：百度地图API/SDK接收多App位置请求，设备GPS、WiFi和cell sites组合定位；按城市/日聚合，以外流指数乘目的地份额构造城际流。属于地图平台衍生流，不是具名泛先锋轨迹。",
+          "outputs": [
+            {
+              "type": "期刊论文",
+              "title": "The Spillover Effect of Driving Restrictions on Intercity Travel",
+              "year": 2026,
+              "journal": "Journal of Regional Science",
+              "catalog_id": "L35",
+              "doi": "10.1111/jors.70043",
+              "url": "https://onlinelibrary.wiley.com/doi/10.1111/jors.70043",
+              "provider": "百度迁徙 / Baidu Migration",
+              "data_statement": "原刊HTML §4.1明确Baidu Migration：百度地图API/SDK接收多App位置请求，设备GPS、WiFi和cell sites组合定位；按城市/日聚合，以外流指数乘目的地份额构造城际流。属于地图平台衍生流，不是具名泛先锋轨迹。",
+              "bibliographic_note": "学校机构访问取得HTML及17页正文PDF；第4页核Baidu Migration和API/SDK定位机制。原摘要42城/六省级与英文引言52城/四省存在差异，本轮不裁决。6页SI身份已核，主代理审读第2页Appendix Fig.1原注亦明确Baidu Migration。",
+              "authors": [
+                "Wenbo Li"
+              ],
+              "source_ids": [
+                "CN-S41",
+                "CN-S64"
+              ],
+              "research_scope": "map_platform",
+              "fulltext_read": true,
+              "pdf_downloaded": true
+            }
+          ],
+          "source_ids": [
+            "CN-S41",
+            "CN-S64"
+          ],
+          "evidence_section": "正文PDF第4页§4.1 Baidu Migration；学校机构HTML全文同段；SI PDF第2页Appendix Fig.1原注",
+          "provider_attribution_status": "source_confirmed",
+          "research_scope": "map_platform",
+          "pdf_downloaded": true
+        }
+      ],
+      "procurements": [],
+      "grants": [],
+      "organization": "institution_team_content",
+      "research_scope": "map_platform"
     }
   ],
   "scope_policy": {
@@ -6003,8 +7472,12 @@
         "scope_reason": "保留检索候选；供方身份需独立核验。"
       },
       "L35": {
-        "research_scope": "pioneer_candidate",
-        "scope_reason": "保留检索候选；供方身份需独立核验。"
+        "research_scope": "map_platform",
+        "scope_reason": "原刊全文§4.1直接给出Baidu Migration；百度地图API/SDK与GPS/WiFi/cell sites组合形成城市日流，单列地图平台。",
+        "provider": "百度迁徙 / Baidu Migration",
+        "source_confirmed": true,
+        "provider_evidence_status": "source_confirmed",
+        "curated_evidence": true
       },
       "L36": {
         "research_scope": "pioneer_candidate",
@@ -6017,6 +7490,50 @@
       "L44": {
         "research_scope": "pioneer_candidate",
         "scope_reason": "保留检索候选；供方身份需独立核验。"
+      },
+      "L47": {
+        "research_scope": "pioneer_candidate",
+        "scope_reason": "保留同团队数据来源追查候选；供方与技术逐篇独立核实。"
+      },
+      "L48": {
+        "research_scope": "pioneer_named",
+        "scope_reason": "本文数据来源脚注明确isjike.com，SDK与WiFi有正文直接证据。"
+      },
+      "L49": {
+        "research_scope": "pioneer_candidate",
+        "scope_reason": "保留同团队数据来源追查候选；供方与技术逐篇独立核实。"
+      },
+      "L50": {
+        "research_scope": "pioneer_candidate",
+        "scope_reason": "保留同团队数据来源追查候选；供方与技术逐篇独立核实。"
+      },
+      "L51": {
+        "research_scope": "pioneer_candidate",
+        "scope_reason": "保留同团队数据来源追查候选；供方与技术逐篇独立核实。"
+      },
+      "L52": {
+        "research_scope": "carrier_boundary",
+        "scope_reason": "原始方法证据为电信事件/服务基站定位，单列边界，不归商业SDK核心。"
+      },
+      "L53": {
+        "research_scope": "indoor_wifi_boundary",
+        "scope_reason": "商场室内WiFi定位或指纹定位，单列技术边界；Palmap为具名供方，未证商业多App SDK轨迹。"
+      },
+      "L54": {
+        "research_scope": "carrier_boundary",
+        "scope_reason": "原始方法证据为电信事件/服务基站定位，单列边界，不归商业SDK核心。"
+      },
+      "L55": {
+        "research_scope": "pioneer_candidate",
+        "scope_reason": "商业第三方GPS/WiFi/蓝牙定位明确；供应商名称及SDK嵌入机制未披露，保留强候选。"
+      },
+      "L56": {
+        "research_scope": "indoor_wifi_boundary",
+        "scope_reason": "商场室内WiFi定位或指纹定位，单列技术边界；Palmap为具名供方，未证商业多App SDK轨迹。"
+      },
+      "L57": {
+        "research_scope": "pioneer_candidate",
+        "scope_reason": "SDK采集与匿名高精度坐标明确，服务商未具名；不能把运营商措辞自动当三大通信运营商来源。"
       }
     }
   },
@@ -6041,6 +7558,77 @@
       "other_commercial_paper_ids": [
         "L43"
       ]
+    },
+    {
+      "round": 8,
+      "date": "2026-10-11",
+      "action": "新增11条含候选和边界；L35原刊全文确认百度迁徙，学校团队、研究与基金同步。"
     }
-  ]
+  ],
+  "round8_findings": {
+    "date": "2026-10-11",
+    "new_catalog_ids": [
+      "L47",
+      "L48",
+      "L49",
+      "L50",
+      "L51",
+      "L52",
+      "L53",
+      "L54",
+      "L55",
+      "L56",
+      "L57"
+    ],
+    "source_ids": [
+      "CN-S53",
+      "CN-S54",
+      "CN-S55",
+      "CN-S56",
+      "CN-S57",
+      "CN-S58",
+      "CN-S59",
+      "CN-S60",
+      "CN-S61",
+      "CN-S62",
+      "CN-S63",
+      "CN-S64"
+    ],
+    "confirmed_target_sdk": [
+      "L48"
+    ],
+    "strong_supplier_unresolved_candidates": [
+      "L55",
+      "L57"
+    ],
+    "methods_pending": [
+      "L47",
+      "L49",
+      "L50",
+      "L51"
+    ],
+    "carrier_boundaries": [
+      "L52",
+      "L54"
+    ],
+    "indoor_wifi_boundaries": [
+      "L53",
+      "L56"
+    ],
+    "existing_reclassified": {
+      "L35": "map_platform/Baidu Migration"
+    },
+    "fund_link": "2023YFB3906804独立连接L36、L46、L48、L55，不传递供应商归属。",
+    "limitations": "下载、方法审读、SDK机制、供应商身份分别记录；索引方法证据不标成已取得全文PDF。",
+    "download_counts": {
+      "new_main_pdf_files": 7,
+      "main_pdf_for_new_catalog_records": 6,
+      "existing_L35_new_main_pdf": 1,
+      "supplement_files": 2,
+      "supplement_formats": [
+        "DOCX (L54)",
+        "PDF (L35)"
+      ]
+    }
+  }
 }

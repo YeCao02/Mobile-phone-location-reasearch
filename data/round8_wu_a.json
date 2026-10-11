@@ -1,0 +1,384 @@
+{
+  "as_of": "2026-10-11",
+  "scope": "吴升团队第8轮A：逐篇核查R7F-C01..C03的正文、数据来源与补充材料；未改主目录。",
+  "counts": {
+    "seeds_checked": 3,
+    "new_supplier_confirmed": 1,
+    "pdf_new_downloads_verified": 1,
+    "supplementary_downloads": 0,
+    "methods_pending": 2,
+    "new_confirmed_boundaries": 0,
+    "search_queries": 16
+  },
+  "records": [
+    {
+      "title": "BAMTR: Behavior-Aware Mobile Phone Trajectory Recovery via Adaptive Historical Prior Reasoning",
+      "doi": "10.2139/ssrn.7396621",
+      "year": 2026,
+      "journal": "SSRN",
+      "authors": [
+        "Youjun Tu",
+        "Zhiyuan Zhao",
+        "Sheng Wu",
+        "Baohua Deng",
+        "Peixiao Wang",
+        "Dawen Yu",
+        "Qunyong Wu",
+        "Shiyu Yang"
+      ],
+      "evidence_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7396621",
+      "evidence_status": "publisher_metadata_abstract_read_fulltext_access_failed",
+      "fulltext_read": false,
+      "source_confirmed": false,
+      "sdk_explicit": false,
+      "provider": "待原文核实",
+      "publication_type": "preprint",
+      "reason": "2026-09-02发布，31页；福州与中科院合作手机轨迹恢复。摘要未说明源技术；公开PDF入口403，不据轨迹稀疏性判电信或SDK。",
+      "existing_catalog_matches": [],
+      "verified_on": "2026-10-11",
+      "seed_id": "R7F-C01",
+      "id": "R8WA01",
+      "provider_named": false,
+      "sdk_evidence": null,
+      "telecom_evidence": null,
+      "pdf_downloaded": false,
+      "methods_read": false,
+      "status": "candidate_methods_unread",
+      "team": "福州大学吴升、赵志远、余大文等；中科院王培晓合作",
+      "institutions": [
+        "福州大学",
+        "中国科学院资源与环境信息系统国家重点实验室"
+      ],
+      "data_declaration": "仅可读出版方摘要：真实手机轨迹存在稀疏和不规则采样；未公开读到实验数据来源段，不能据此认定SDK或运营商数据。",
+      "notes": "31页是SSRN题录页数，尚无本地PDF验证。2026-09-02为预印本发布日。未将共同作者或基金线索继承为供方确认。",
+      "publication_date": "2026-09-02",
+      "reported_pages": 31,
+      "evidence_quotes": [
+        {
+          "text": "real-world mobile phone trajectory data",
+          "location": "SSRN摘要（网页，无PDF页码）",
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7396621"
+        }
+      ],
+      "download": {
+        "status": "not_acquired",
+        "landing_http_status": 403,
+        "url": "https://papers.ssrn.com/sol3/Delivery.cfm/e8fefbe9-58f9-4efa-99d8-f9dce5e50d84-MECA.pdf?abstractid=7396621&mirid=1",
+        "limitation": "第7轮PDF403；本轮落地页仍403，搜索未得独立作者机构公开全文，没有绕过验证。"
+      },
+      "supplementary": {
+        "status": "unverified_fulltext_unavailable",
+        "downloaded": false,
+        "urls": []
+      }
+    },
+    {
+      "title": "人口空间分布典型数据的时空差异",
+      "doi": "10.13284/j.cnki.rddl.20250648",
+      "year": 2026,
+      "journal": "热带地理",
+      "authors": [
+        "赵志远",
+        "林沁怡",
+        "邓保华",
+        "吴升",
+        "林湘如"
+      ],
+      "evidence_url": "https://www.rddl.com.cn/CN/10.13284/j.cnki.rddl.20250648",
+      "evidence_status": "publisher_pdf_methods_verified",
+      "fulltext_read": true,
+      "source_confirmed": true,
+      "sdk_explicit": true,
+      "provider": "及刻 / Jike（原文脚注为https://www.isjike.com）",
+      "publication_type": "journal_article",
+      "reason": "正文新核验：明确SDK与WiFi，并以脚注给出isjike.com，满足目标数据来源的直接证据。",
+      "existing_catalog_matches": [],
+      "verified_on": "2026-10-11",
+      "seed_id": "R7F-C02",
+      "id": "R8WA02",
+      "provider_named": true,
+      "sdk_evidence": "PDF第3页§1.2第3项直接写SDK定位服务商；以WiFi与手机内置模糊定位为主。",
+      "telecom_evidence": "本文引言讨论手机信令，但实验手机轨迹明确来自SDK服务商；未披露融合三大运营商信令。",
+      "pdf_downloaded": true,
+      "methods_read": true,
+      "status": "confirmed_sdk_jike_domain",
+      "title_en": "Spatiotemporal Differences in Typical Data of Population Spatial Distribution",
+      "volume": "46",
+      "issue": "6",
+      "pages": "1098–1112",
+      "team": "福州大学赵志远、吴升团队",
+      "institutions": [
+        "福州大学数字中国研究院（福建）",
+        "空间数据挖掘与信息共享教育部重点实验室"
+      ],
+      "provider_source_form": "智能手机SDK定位服务商③；脚注③ https://www.isjike.com",
+      "provider_naming_type": "explicit_provider_domain_footnote",
+      "scope": "core_sdk",
+      "application": [
+        "人口空间分布估计",
+        "多源位置数据偏差与尺度效应",
+        "土地利用与人口分布差异"
+      ],
+      "funds": [
+        {
+          "name": "国家重点研发计划课题项目",
+          "number": "2023YFB3906804",
+          "evidence_location": "PDF第1页/印刷1098页"
+        }
+      ],
+      "geography": "泉州市（不含金门县）",
+      "data_period": "2023-04-10至2023-04-16",
+      "data_declaration": "§1.2手机位置数据来自SDK定位服务商，脚注指向isjike.com；为匿名位置和时间记录，以WiFi及手机内置模糊定位为主。重采样和缺失值补全后生成等间隔轨迹，以1小时窗统计不重复用户ID并映射1公里格网。百度慧眼热力与WorldPop是独立比较数据源，不把百度归为该手机轨迹的供应商。",
+      "evidence_quotes": [
+        {
+          "text": "智能手机SDK定位服务商③",
+          "location": "PDF第3页/印刷1100页，§1.2第3项",
+          "url": "https://www.rddl.com.cn/CN/PDF/10.13284/j.cnki.rddl.20250648"
+        },
+        {
+          "text": "https://www.isjike.com",
+          "location": "PDF第3页/印刷1100页，脚注③",
+          "url": "https://www.rddl.com.cn/CN/PDF/10.13284/j.cnki.rddl.20250648"
+        },
+        {
+          "text": "以WIFI定位和手机内置模糊定位方式为主",
+          "location": "PDF第3页/印刷1100页，§1.2第3项",
+          "url": "https://www.rddl.com.cn/CN/PDF/10.13284/j.cnki.rddl.20250648"
+        }
+      ],
+      "download": {
+        "status": "downloaded_verified",
+        "url": "https://www.rddl.com.cn/CN/PDF/10.13284/j.cnki.rddl.20250648",
+        "http_status": 200,
+        "pages": 15,
+        "bytes": 11227973,
+        "sha256": "6916ff376b1cdb62250a1f5f9f0817ef8d62e74f8a5ca367a3bdd974103dcc25",
+        "identity_verified": "pypdf第1页核对中文题名、作者、DOI、卷期与1098–1112页码；第3页核数据源脚注"
+      },
+      "supplementary": {
+        "status": "publisher_article_endpoint_lists_none",
+        "downloaded": false,
+        "urls": [],
+        "checked_url": "https://www.rddl.com.cn/CN/article/showArticleSuppls.do?articleId=78728",
+        "http_status": 200,
+        "evidence": "出版商落地页脚本直接指定补充材料接口；articleId=78728响应为空，仅含模板注释，无附件链接。PDF正文未检出独立补充材料声明。此结论限于本次出版商页面所列内容。"
+      },
+      "notes": "原文通过域名而非中文公司名标识服务商；及刻品牌映射依赖知识库既有官网核验，不由此推断法律主体或与先锋、摸星的法律关系。同基金可连到L36和L46，但这篇明确供方不能反向赋给前两篇。百度热力同样源于SDK定位请求，但作为平台聚合对照单列。"
+    },
+    {
+      "title": "顾及相似用户特征的个人位置预测算法",
+      "doi": "10.13203/j.whugis20200609",
+      "year": 2023,
+      "journal": "武汉大学学报（信息科学版）",
+      "authors": [
+        "张宇",
+        "吴升",
+        "赵志远",
+        "杨喜平",
+        "方志祥"
+      ],
+      "evidence_url": "https://ch.whu.edu.cn/article/doi/10.13203/j.whugis20200609?viewType=HTML",
+      "evidence_status": "publisher_abstract_read_methods_unread",
+      "fulltext_read": false,
+      "source_confirmed": false,
+      "sdk_explicit": false,
+      "provider": "待原文核实",
+      "publication_type": "journal_article",
+      "reason": "原刊48(4):656–664，8万余用户连续4工作日，GCN/LSTM；PDF连接失败，未核定位来源。",
+      "existing_catalog_matches": [],
+      "verified_on": "2026-10-11",
+      "seed_id": "R7F-C03",
+      "id": "R8WA03",
+      "provider_named": false,
+      "sdk_evidence": null,
+      "telecom_evidence": null,
+      "pdf_downloaded": false,
+      "methods_read": false,
+      "status": "candidate_methods_unread",
+      "title_en": "An Individual Location Prediction Algorithm Considering Similar User Characteristics",
+      "volume": "48",
+      "issue": "4",
+      "pages": "656–664",
+      "team": "福州大学吴升、赵志远团队；陕西师范大学杨喜平；武汉大学方志祥",
+      "institutions": [
+        "福州大学",
+        "陕西师范大学",
+        "武汉大学"
+      ],
+      "data_declaration": "原刊网页摘要称某市8万多个用户连续4个工作日数据，用GCN和LSTM集成相似用户及个人历史轨迹。摘要没有披露服务商、城市或定位技术，HTML全文区无正文，PDF连接失败。",
+      "evidence_quotes": [
+        {
+          "text": "某市8万多个用户连续4个工作日的数据",
+          "location": "原刊网页中文摘要；PDF未取得，页码未核",
+          "url": "https://ch.whu.edu.cn/article/doi/10.13203/j.whugis20200609?viewType=HTML"
+        }
+      ],
+      "notes": "原刊HTML正文区为空。不能从8万样本量、15分钟预测步长或同作者其他研究推断该数据是SDK或运营商信令。2023年卷期由原刊题录/作者机构主页相互印证。",
+      "download": {
+        "status": "not_acquired_connection_error",
+        "url": "https://ch.whu.edu.cn/en/article/pdf/preview/10.13203/j.whugis20200609.pdf",
+        "error_type": "ProxyError_RemoteDisconnected",
+        "limitation": "本轮直接下载连接失败；web PDF open亦Internal Error。网页摘要可读不等于PDF正文可读。"
+      },
+      "supplementary": {
+        "status": "publisher_page_lists_zero_attachments",
+        "downloaded": false,
+        "urls": [],
+        "checked_url": "https://ch.whu.edu.cn/article/doi/10.13203/j.whugis20200609?viewType=HTML",
+        "evidence": "原刊网页两处显示资源附件(0)，本次未发现可下载SI。"
+      }
+    }
+  ],
+  "query_log": [
+    {
+      "id": "R8WA-Q01",
+      "query": "\"BAMTR\" \"7396621\" pdf data",
+      "method": "web_search",
+      "date": "2026-10-11",
+      "result": "SSRN题录与摘要；无新全文"
+    },
+    {
+      "id": "R8WA-Q02",
+      "query": "\"人口空间分布典型数据的时空差异\" pdf",
+      "method": "web_search",
+      "date": "2026-10-11",
+      "result": "原刊落地页及PDF"
+    },
+    {
+      "id": "R8WA-Q03",
+      "query": "\"顾及相似用户特征的个人位置预测算法\" 数据 来源",
+      "method": "web_search",
+      "date": "2026-10-11",
+      "result": "原刊摘要，未得方法"
+    },
+    {
+      "id": "R8WA-Q04",
+      "query": "\"j.cnki.rddl.20250648\" \"数据\" \"手机\"",
+      "method": "web_search",
+      "date": "2026-10-11",
+      "result": "原刊可索引正文，后下载PDF核验"
+    },
+    {
+      "id": "R8WA-Q05",
+      "query": "\"whugis20200609\" \"运营商\"",
+      "method": "web_search",
+      "date": "2026-10-11",
+      "result": "无目标数据来源直接证据"
+    },
+    {
+      "id": "R8WA-Q06",
+      "query": "\"7396621\" \"dataset\"",
+      "method": "web_search",
+      "date": "2026-10-11",
+      "result": "编号噪声，未得实验信息"
+    },
+    {
+      "id": "R8WA-Q07",
+      "query": "\"BAMTR\" \"Xining\" OR \"Fuzhou\" \"data\"",
+      "method": "web_search",
+      "date": "2026-10-11",
+      "result": "仅SSRN摘要，未核城市"
+    },
+    {
+      "id": "R8WA-Q08",
+      "query": "\"BAMTR\" \"trajectory\" filetype:pdf -site:papers.ssrn.com",
+      "method": "web_search",
+      "date": "2026-10-11",
+      "result": "未得独立机构全文"
+    },
+    {
+      "id": "R8WA-Q09",
+      "query": "\"顾及相似用户特征\" \"数据来源\"",
+      "method": "web_search",
+      "date": "2026-10-11",
+      "result": "未得数据来源段"
+    },
+    {
+      "id": "R8WA-Q10",
+      "query": "\"顾及相似用户特征\" \"基站\"",
+      "method": "web_search",
+      "date": "2026-10-11",
+      "result": "作者主页题录，不证明基站来源"
+    },
+    {
+      "id": "R8WA-Q11",
+      "query": "\"BAMTR\" \"Tu\" \"Wu\" pdf",
+      "method": "web_search",
+      "date": "2026-10-11",
+      "result": "仍为SSRN题录/摘要，无独立全文"
+    },
+    {
+      "id": "R8WA-Q12",
+      "query": "\"顾及相似用户特征的个人位置预测算法\" \"深圳\"",
+      "method": "web_search",
+      "date": "2026-10-11",
+      "result": "无有效目标方法证据"
+    },
+    {
+      "id": "R8WA-Q13",
+      "query": "\"顾及相似用户特征的个人位置预测算法\" \"采集\"",
+      "method": "web_search",
+      "date": "2026-10-11",
+      "result": "无有效目标方法证据"
+    },
+    {
+      "id": "R8WA-Q14",
+      "query": "\"10.13284/j.cnki.rddl.20250648\" \"补充\"",
+      "method": "web_search",
+      "date": "2026-10-11",
+      "result": "仅原刊卷期页，无SI直接命中"
+    },
+    {
+      "id": "R8WA-Q15",
+      "query": "\"whugis20200609\" 数据 运营商 手机",
+      "method": "web_search",
+      "date": "2026-10-11",
+      "result": "作者机构主页列题录，无目标来源段"
+    },
+    {
+      "id": "R8WA-Q16",
+      "query": "\"顾及相似用户特征\" \"数据\" \"西宁\"",
+      "method": "web_search",
+      "date": "2026-10-11",
+      "result": "作者机构主页多篇西宁论文，不能移植城市/来源判断"
+    }
+  ],
+  "source_log": [
+    {
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7396621",
+      "read_level": "search_index_metadata_abstract",
+      "direct_request_status": 403
+    },
+    {
+      "url": "https://www.rddl.com.cn/CN/10.13284/j.cnki.rddl.20250648",
+      "read_level": "direct_publisher_html_and_pdf",
+      "direct_request_status": 200
+    },
+    {
+      "url": "https://www.rddl.com.cn/CN/PDF/10.13284/j.cnki.rddl.20250648",
+      "read_level": "local_pdf_identity_and_methods_verified",
+      "direct_request_status": 200
+    },
+    {
+      "url": "https://www.rddl.com.cn/CN/article/showArticleSuppls.do?articleId=78728",
+      "read_level": "direct_article_specific_supplement_endpoint_empty",
+      "direct_request_status": 200
+    },
+    {
+      "url": "https://ch.whu.edu.cn/article/doi/10.13203/j.whugis20200609?viewType=HTML",
+      "read_level": "web_open_abstract_and_resources_count",
+      "note": "web可读，shell直接连接失败，正文区为空"
+    },
+    {
+      "url": "https://faculty.snnu.edu.cn/yangxiping/zh_CN/index/147489/list/index.htm",
+      "read_level": "official_author_publication_list_search_index",
+      "note": "核对2023年第48卷第4期656–664；不作为方法证据"
+    }
+  ],
+  "integration_notes": [
+    "R8WA02可升级为具名域名及刻SDK文献；R8WA01与03继续候选。",
+    "基金2023YFB3906804将R8WA02与L36、L46连接为共同资助成果，不反向推断后两篇供方。",
+    "公开导出必须删除每条private字段；下载hash、页数、出版商URL可公开。",
+    "未把连接失败当作无数据、无文章或运营商边界证据。"
+  ]
+}

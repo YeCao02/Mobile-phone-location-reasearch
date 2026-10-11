@@ -1,0 +1,548 @@
+{
+  "as_of": "2026-10-11",
+  "round": 8,
+  "scope": "福州吴升/赵志远候选R7F-C04..C06逐篇全文与SI核验",
+  "counts": {
+    "followed_up": 3,
+    "carrier_boundary_confirmed": 1,
+    "source_type_pending": 2,
+    "pdf_downloaded": 0,
+    "si_downloaded": 0,
+    "si_existence_confirmed": 1,
+    "search_queries": 33
+  },
+  "records": [
+    {
+      "id": "R7F-C04",
+      "title": "基于手机定位数据的西宁市老年人公园绿地可达性预测",
+      "doi": "10.12118/j.issn.1000-6060.2022.672",
+      "year": 2023,
+      "journal": "干旱区地理",
+      "authors": [
+        "赵志远",
+        "丁逸尘",
+        "杨喜平",
+        "吴升"
+      ],
+      "evidence_url": "https://www.geores.com.cn/ghqdl/CN/10.12118/j.issn.1000-6060.2022.672",
+      "evidence_status": "primary_abstract_and_affiliations_funding_read_methods_unavailable",
+      "fulltext_read": false,
+      "source_confirmed": false,
+      "sdk_explicit": false,
+      "provider": "未核明",
+      "publication_type": "journal_article",
+      "reason": "原刊46(10):1744–1756；源类型未核，不以西宁同组研究继承其信令属性。",
+      "existing_catalog_matches": [],
+      "verified_on": "2026-10-11",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
+      "pdf_verification": {
+        "identity_verified": false,
+        "pages": null,
+        "sha256": null,
+        "reason": "未取得PDF文件；HTML错误页不计下载"
+      },
+      "review_round": 8,
+      "scope_tag": "source_type_pending",
+      "location_technology": "未核明，不能由同城或同团队文献继承",
+      "sample": {
+        "city": "西宁",
+        "period": null,
+        "size": null,
+        "note": "摘要只确认含年龄标识的手机位置数据；2018–2028为预测时段，不作为采样时段"
+      },
+      "conclusion": "保留待核候选。已取得原刊摘要及机构、基金，但未取得正文；不能归入SDK或运营商边界。",
+      "evidence": [
+        {
+          "url": "https://www.geores.com.cn/ghqdl/CN/abstract/article/1000-6060/66143",
+          "section": "摘要、作者单位、基金",
+          "page": null,
+          "quote": "带有年龄标识信息的手机位置数据",
+          "basis": "原刊HTML已成功读取；无数据来源方法段。"
+        }
+      ],
+      "institutions": [
+        "福州大学数字中国研究院（福建）",
+        "空间数据挖掘与信息共享教育部重点实验室",
+        "海西政务大数据应用协同创新中心",
+        "自然资源部城市国土资源监测与仿真重点实验室",
+        "陕西师范大学地理科学与旅游学院"
+      ],
+      "team_note": "作者次序可核；本次页面提取未得到每位作者的单位上标，不强配其余作者单位。赵志远页面简介为福州大学。",
+      "funds": [
+        {
+          "funder": "国家自然科学基金",
+          "award": "42201500",
+          "pi": null
+        },
+        {
+          "funder": "国家自然科学基金",
+          "award": "42271468",
+          "pi": null
+        },
+        {
+          "funder": "福建省中央引导地方科技发展专项",
+          "award": "2020L3005",
+          "pi": null
+        },
+        {
+          "funder": "空间数据挖掘与信息共享教育部重点实验室开放基金",
+          "award": "2022LSDMIS03",
+          "pi": null
+        },
+        {
+          "funder": "自然资源部城市国土资源监测与仿真重点实验室开放基金",
+          "award": "KF-2022-07-005",
+          "pi": null
+        }
+      ],
+      "supplementary": {
+        "status": "not_established",
+        "downloaded": false,
+        "note": "当前摘要页未识别独立SI，不据此断言无SI。"
+      },
+      "download": {
+        "status": "publisher_pdf_link_error_page",
+        "url": "https://www.geores.com.cn/ghqdl/CN/PDF/10.12118/j.issn.1000-6060.2022.672",
+        "http_status": 200,
+        "response_kind": "HTML页面正文为HTTP404，非PDF",
+        "bytes": 3241
+      },
+      "next_action": "通过原刊正文入口或学校订阅取得PDF，核对数据来源小节及附录。"
+    },
+    {
+      "id": "R7F-C05",
+      "title": "利用轨迹数据计算典型人类活动空间特征的时间聚合效应",
+      "doi": "10.13249/j.cnki.sgs.20241458",
+      "year": null,
+      "journal": "地理科学（检索题录，卷期待核）",
+      "authors": [
+        "赵志远",
+        "祝章伟",
+        "吴升",
+        "汪艳霞",
+        "胡慧芳"
+      ],
+      "evidence_url": "https://doi.org/10.13249/j.cnki.sgs.20241458",
+      "evidence_status": "doi_registration_metadata_only",
+      "fulltext_read": false,
+      "source_confirmed": false,
+      "sdk_explicit": false,
+      "provider": "未核明",
+      "publication_type": "journal_article",
+      "reason": "DOI注册页核题名作者，注册时间2026-02-04不作为正式出版年；数据源未核。",
+      "existing_catalog_matches": [],
+      "verified_on": "2026-10-11",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
+      "pdf_verification": {
+        "identity_verified": false,
+        "pages": null,
+        "sha256": null,
+        "reason": "未取得PDF文件；HTML错误页不计下载"
+      },
+      "review_round": 8,
+      "scope_tag": "source_type_pending",
+      "location_technology": "未核明",
+      "sample": {
+        "city": null,
+        "period": null,
+        "size": null
+      },
+      "conclusion": "DOI题名作者可核，尚无正文及数据声明。出版年仍待核，2026-02-04只是DOI注册时间。",
+      "evidence": [
+        {
+          "url": "https://doi.org/10.13249/j.cnki.sgs.20241458",
+          "section": "DOI注册题录",
+          "page": null,
+          "quote": null,
+          "basis": "原始注册记录出版年及来源栏为空。"
+        }
+      ],
+      "institutions": [],
+      "team_note": "题录包含赵志远、祝章伟、吴升等；不能由团队共著推断文章数据供方或逐人单位。",
+      "funds": [],
+      "supplementary": {
+        "status": "not_established",
+        "downloaded": false,
+        "note": "未到达原刊正文，无法判定是否附SI。"
+      },
+      "download": {
+        "status": "doi_registry_access_403_no_pdf_located",
+        "url": "https://www.chndoi.org/Resolution/Handler?doi=10.13249/j.cnki.sgs.20241458",
+        "http_status": 403
+      },
+      "next_action": "从地理科学/CNKI网络首发入口按准确题名与DOI查找正文及数据声明。"
+    },
+    {
+      "id": "R7F-C06",
+      "title": "The effect of temporal sampling intervals on typical human mobility indicators obtained from mobile phone location data",
+      "doi": "10.1080/13658816.2019.1584805",
+      "year": 2019,
+      "journal": "International Journal of Geographical Information Science",
+      "authors": [
+        "Zhiyuan Zhao",
+        "Shih-Lung Shaw",
+        "Ling Yin",
+        "Zhixiang Fang",
+        "Xiping Yang",
+        "Fan Zhang",
+        "Sheng Wu"
+      ],
+      "evidence_url": "https://hpcc.siat.ac.cn/group/pub/s3/10%202019%20The%20effect%20of%20temporal%20sampling%20intervals%20on%20typical%20human%20mobility%20indicators%20obtained%20from%20mobile%20phone%20location%20data.pdf",
+      "evidence_status": "primary_pdf_method_section_read_via_search_index",
+      "fulltext_read": false,
+      "source_confirmed": false,
+      "sdk_explicit": false,
+      "provider": "未具名移动通信公司",
+      "publication_type": "journal_article",
+      "reason": "机构PDF题录索引33(7):1471–1495；下载403，本轮未将其推断为SDK，也未仅凭phone词排除。",
+      "existing_catalog_matches": [],
+      "verified_on": "2026-10-11",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
+      "pdf_verification": {
+        "identity_verified": false,
+        "pages": null,
+        "sha256": null,
+        "reason": "未取得PDF文件；HTML错误页不计下载"
+      },
+      "review_round": 8,
+      "scope_tag": "carrier_cell_tower_boundary",
+      "data_source_type_confirmed": true,
+      "provider_identity_confirmed": false,
+      "location_technology": "运营商服务基站定位；包含上网、电话和短信事件，并非GPS/WiFi SDK定位",
+      "sample": {
+        "city": "深圳",
+        "period": "2013年一个工作日（具体日期未核）",
+        "raw_subscribers_more_than": 1400000,
+        "analysis_trajectories": 19370,
+        "raw_mean_temporal_interval_minutes": 30,
+        "analysis_sampling_interval": "<5分钟",
+        "cell_towers_approx": 3400
+      },
+      "conclusion": "方法§3.1明确记录服务基站位置，列入运营商定位边界。应用后台联网在此产生的是运营商网络事件，不能将出现WeChat/Apps误读为SDK数据。",
+      "evidence": [
+        {
+          "url": "https://hpcc.siat.ac.cn/group/pub/s3/10%202019%20The%20effect%20of%20temporal%20sampling%20intervals%20on%20typical%20human%20mobility%20indicators%20obtained%20from%20mobile%20phone%20location%20data.pdf",
+          "section": "3. Dataset / 3.1. Data source",
+          "page": "印刷1476；本地PDF未取得",
+          "quote": "the location of the servicing cell tower were recorded",
+          "basis": "机构存档PDF的搜索索引直接返回方法段，说明移动通信公司采集网络/电话/短信事件与服务基站位置。"
+        },
+        {
+          "url": "https://www.tandfonline.com/doi/abs/10.1080/13658816.2019.1584805?role=tab&scroll=top&tab=permissions",
+          "section": "Abstract / Authors / Funding / Supplementary material",
+          "page": null,
+          "quote": null,
+          "basis": "原刊索引确认最终19370条个体轨迹、作者单位及基金，明确提供Supplemental入口。"
+        }
+      ],
+      "institutions": [
+        "武汉大学",
+        "福州大学",
+        "田纳西大学",
+        "中国科学院深圳先进技术研究院",
+        "陕西师范大学"
+      ],
+      "author_affiliations": [
+        {
+          "author": "Zhiyuan Zhao",
+          "institutions": [
+            "武汉大学",
+            "福州大学"
+          ]
+        },
+        {
+          "author": "Shih-Lung Shaw",
+          "institutions": [
+            "田纳西大学"
+          ]
+        },
+        {
+          "author": "Ling Yin",
+          "institutions": [
+            "中国科学院深圳先进技术研究院"
+          ]
+        },
+        {
+          "author": "Zhixiang Fang",
+          "institutions": [
+            "武汉大学"
+          ]
+        },
+        {
+          "author": "Xiping Yang",
+          "institutions": [
+            "陕西师范大学"
+          ]
+        },
+        {
+          "author": "Fan Zhang",
+          "institutions": [
+            "中国科学院深圳先进技术研究院"
+          ]
+        },
+        {
+          "author": "Sheng Wu",
+          "institutions": [
+            "福州大学"
+          ]
+        }
+      ],
+      "funds": [
+        {
+          "funder": "国家自然科学基金",
+          "award": "41231171",
+          "pi": null
+        },
+        {
+          "funder": "国家自然科学基金",
+          "award": "41771441",
+          "pi": null
+        },
+        {
+          "funder": "国家自然科学基金",
+          "award": "41371420",
+          "pi": null
+        },
+        {
+          "funder": "国家自然科学基金",
+          "award": "41801373",
+          "pi": null
+        },
+        {
+          "funder": "深圳市基础研究项目",
+          "award": "JCYJ20170307164104491",
+          "pi": null
+        },
+        {
+          "funder": "国土资源部城市国土资源监测与仿真重点实验室开放基金",
+          "award": "KF-2018-03-006",
+          "pi": null
+        },
+        {
+          "funder": "University of Tennessee Alvin and Sally Beaman Professorship; Arts and Sciences Excellence Professorship",
+          "award": null,
+          "pi": null
+        }
+      ],
+      "supplementary": {
+        "status": "existence_confirmed_access_blocked",
+        "downloaded": false,
+        "url": "https://www.tandfonline.com/doi/suppl/10.1080/13658816.2019.1584805",
+        "http_status": 403,
+        "note": "原刊明确列Supplementary material；附件内容、文件名和页数未取得。"
+      },
+      "download": {
+        "status": "author_archive_and_publisher_403",
+        "url": "https://hpcc.siat.ac.cn/group/pub/s3/10%202019%20The%20effect%20of%20temporal%20sampling%20intervals%20on%20typical%20human%20mobility%20indicators%20obtained%20from%20mobile%20phone%20location%20data.pdf",
+        "http_status": 403,
+        "response_kind": "HTML非PDF"
+      },
+      "next_action": "利用学校T&F机构访问取得正文与正式SI；当前无需等待下载即可依据原始方法段将其列为基站边界。"
+    }
+  ],
+  "query_log": [
+    {
+      "id": "R8B-Q01",
+      "query": "\"基于手机定位数据的西宁市老年人公园绿地可达性预测\" 数据",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q02",
+      "query": "\"利用轨迹数据计算典型人类活动空间特征的时间聚合效应\"",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q03",
+      "query": "\"10.1080/13658816.2019.1584805\" data PDF",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q04",
+      "query": "\"10.12118/j.issn.1000-6060.2022.672\" pdf",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q05",
+      "query": "\"利用轨迹数据计算\" \"时间聚合\" 手机",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q06",
+      "query": "\"西宁市老年人\" \"手机\" \"数据\" 运营商",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q07",
+      "query": "\"10.12118\" \"2022.672\" 数据来源",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q08",
+      "query": "\"西宁市老年人公园绿地\" \"运营商\"",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q09",
+      "query": "\"时间聚合效应\" \"赵志远\" 数据",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q10",
+      "query": "\"The effect of temporal sampling intervals\" \"Shenzhen\" operator",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q11",
+      "query": "site:hpcc.siat.ac.cn \"1584805\" \"data\" \"operator\"",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q12",
+      "query": "site:hpcc.siat.ac.cn \"1584805\" \"2014\"",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q13",
+      "query": "\"西宁市老年人公园绿地可达性预测\" \"数据来源\"",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q14",
+      "query": "\"利用轨迹数据计算典型人类活动空间特征\" -site:chndoi.org -site:doi.org",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q15",
+      "query": "\"基于手机定位数据的西宁市老年人\" pdf ghqdl",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q16",
+      "query": "\"赵志远\" \"时间聚合效应\" 地理科学 2026",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q17",
+      "query": "\"1584805\" \"Supplemental\"",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q18",
+      "query": "\"temporal sampling intervals\" \"cell towers\" Zhao",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q19",
+      "query": "\"基于手机定位数据的西宁市老年人公园绿地可达性预测\" 数据来源 运营商",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q20",
+      "query": "\"利用轨迹数据计算典型人类活动空间特征的时间聚合效应\" 地理科学",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q21",
+      "query": "\"1584805\" \"Funding\"",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q22",
+      "query": "\"The effect of temporal sampling intervals\" \"supplementary\"",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q23",
+      "query": "\"西宁市老年人公园绿地\" alg.xjegi.com",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q24",
+      "query": "\"典型人类活动空间特征\" site:geoscien.neigae.ac.cn",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q25",
+      "query": "\"1584805\" \"National\" \"Foundation\"",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q26",
+      "query": "\"1584805\" \"servicing cell tower\"",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q27",
+      "query": "\"The effect of temporal sampling intervals\" \"Funding\" \"China\"",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q28",
+      "query": "\"基于手机定位数据的西宁市老年人公园绿地可达性预测\" \"基金\"",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q29",
+      "query": "\"时间聚合效应\" \"祝章伟\" 数据",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q30",
+      "query": "\"手机定位数据\" \"西宁市\" \"1744\" PDF",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q31",
+      "query": "\"时间聚合效应\" \"20241458\"",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q32",
+      "query": "\"temporal sampling intervals\" \"Shenzhen\" \"servicing\"",
+      "engine": "web search",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "R8B-Q33",
+      "query": "\"1584805\" \"tgis\" supplemental",
+      "engine": "web search",
+      "date": "2026-10-11"
+    }
+  ],
+  "access_note": "早期沙箱DNS失败已用获授权的环境外请求复测，不归咎于网站或VPN。复测结果：C04摘要200、PDF链接返回HTML404错误页；C05注册入口403；C06机构PDF及T&F正文/SI403。未绕过验证。",
+  "methodology": "全文下载、局部方法证据和供方身份分别记账；source_confirmed保持false代表具体供方未核明。没有合法PDF文件时不生成页数/hash，不把HTML冒充PDF。公开输出不含本地路径、账户或联系方式。"
+}

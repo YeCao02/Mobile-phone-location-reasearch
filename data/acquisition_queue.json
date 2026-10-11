@@ -585,19 +585,18 @@
       "title": "The Spillover Effect of Driving Restrictions on Intercity Travel",
       "doi": "10.1111/jors.70043",
       "journal": "Journal of Regional Science",
-      "catalog_status": "pending",
+      "catalog_status": "reviewed",
       "status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "current_review_complete"
       ],
-      "needs_fulltext_review": true,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
         "https://onlinelibrary.wiley.com/doi/10.1111/jors.70043",
         "https://doi.org/10.1111/jors.70043"
       ],
-      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "当前关键段审读完成，按需补充附件细读"
     },
     {
       "id": "L36",
@@ -741,6 +740,208 @@
       "source_urls": [
         "https://giserwang.github.io/papers/DQXXKX-2025-10.pdf",
         "https://doi.org/10.12082/dqxxkx.2025.250198"
+      ],
+      "next_action": "当前关键段审读完成，按需补充附件细读"
+    },
+    {
+      "id": "L47",
+      "title": "BAMTR: Behavior-Aware Mobile Phone Trajectory Recovery via Adaptive Historical Prior Reasoning",
+      "doi": "10.2139/ssrn.7396621",
+      "journal": "SSRN",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7396621",
+        "https://doi.org/10.2139/ssrn.7396621"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "L48",
+      "title": "人口空间分布典型数据的时空差异",
+      "doi": "10.13284/j.cnki.rddl.20250648",
+      "journal": "热带地理",
+      "catalog_status": "reviewed",
+      "status": [
+        "current_review_complete"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://www.rddl.com.cn/CN/10.13284/j.cnki.rddl.20250648",
+        "https://doi.org/10.13284/j.cnki.rddl.20250648"
+      ],
+      "next_action": "当前关键段审读完成，按需补充附件细读"
+    },
+    {
+      "id": "L49",
+      "title": "顾及相似用户特征的个人位置预测算法",
+      "doi": "10.13203/j.whugis20200609",
+      "journal": "武汉大学学报（信息科学版）",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://ch.whu.edu.cn/article/doi/10.13203/j.whugis20200609?viewType=HTML",
+        "https://doi.org/10.13203/j.whugis20200609"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "L50",
+      "title": "基于手机定位数据的西宁市老年人公园绿地可达性预测",
+      "doi": "10.12118/j.issn.1000-6060.2022.672",
+      "journal": "干旱区地理",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://www.geores.com.cn/ghqdl/CN/10.12118/j.issn.1000-6060.2022.672",
+        "https://doi.org/10.12118/j.issn.1000-6060.2022.672"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "L51",
+      "title": "利用轨迹数据计算典型人类活动空间特征的时间聚合效应",
+      "doi": "10.13249/j.cnki.sgs.20241458",
+      "journal": "地理科学（检索题录，卷期待核）",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://doi.org/10.13249/j.cnki.sgs.20241458"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "L52",
+      "title": "The effect of temporal sampling intervals on typical human mobility indicators obtained from mobile phone location data",
+      "doi": "10.1080/13658816.2019.1584805",
+      "journal": "International Journal of Geographical Information Science",
+      "catalog_status": "reviewed",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://hpcc.siat.ac.cn/group/pub/s3/10%202019%20The%20effect%20of%20temporal%20sampling%20intervals%20on%20typical%20human%20mobility%20indicators%20obtained%20from%20mobile%20phone%20location%20data.pdf",
+        "https://doi.org/10.1080/13658816.2019.1584805"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "L53",
+      "title": "Indoor Location Prediction Method for Shopping Malls Based on Location Sequence Similarity",
+      "doi": "10.3390/ijgi8110517",
+      "journal": "ISPRS International Journal of Geo-Information",
+      "catalog_status": "reviewed",
+      "status": [
+        "current_review_complete"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://www.mdpi.com/2220-9964/8/11/517",
+        "https://doi.org/10.3390/ijgi8110517"
+      ],
+      "next_action": "当前关键段审读完成，按需补充附件细读"
+    },
+    {
+      "id": "L54",
+      "title": "An urban crowd flow model integrating geographic characteristics",
+      "doi": "10.1038/s41598-023-29000-5",
+      "journal": "Scientific Reports",
+      "catalog_status": "reviewed",
+      "status": [
+        "current_review_complete"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://www.nature.com/articles/s41598-023-29000-5",
+        "https://doi.org/10.1038/s41598-023-29000-5"
+      ],
+      "next_action": "当前关键段审读完成，按需补充附件细读"
+    },
+    {
+      "id": "L55",
+      "title": "融合区域嵌入表示的城市功能区识别方法",
+      "doi": "10.12082/dqxxkx.2025.240484",
+      "journal": "地球信息科学学报",
+      "catalog_status": "reviewed",
+      "status": [
+        "current_review_complete"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://www.dqxxkx.cn/CN/10.12082/dqxxkx.2025.240484",
+        "https://doi.org/10.12082/dqxxkx.2025.240484"
+      ],
+      "next_action": "当前关键段审读完成，按需补充附件细读"
+    },
+    {
+      "id": "L56",
+      "title": "A Hybrid Markov and LSTM Model for Indoor Location Prediction",
+      "doi": "10.1109/access.2019.2961559",
+      "journal": "IEEE Access",
+      "catalog_status": "reviewed",
+      "status": [
+        "current_review_complete"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://giserwang.github.io/papers/Access-2019-12.pdf",
+        "https://doi.org/10.1109/access.2019.2961559"
+      ],
+      "next_action": "当前关键段审读完成，按需补充附件细读"
+    },
+    {
+      "id": "L57",
+      "title": "多尺度视角下的城市旅游流网络结构特征分析——以长沙市为例",
+      "doi": "10.12082/dqxxkx.2025.240586",
+      "journal": "地球信息科学学报",
+      "catalog_status": "reviewed",
+      "status": [
+        "current_review_complete"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://www.dqxxkx.cn/CN/10.12082/dqxxkx.2025.240586",
+        "https://doi.org/10.12082/dqxxkx.2025.240586"
       ],
       "next_action": "当前关键段审读完成，按需补充附件细读"
     },
@@ -2028,6 +2229,6 @@
       "next_action": "核对书目信息和数据来源，审读方法段"
     }
   ],
-  "count": 113,
+  "count": 124,
   "definitions": "pdf_acquisition=true仅表示尚未核实本地PDF；不意味着文章不可访问。"
 }

@@ -1,0 +1,110 @@
+{
+  "as_of": "2026-10-11",
+  "new_records": 11,
+  "id_mapping": [
+    {
+      "source_id": "R7F-C01",
+      "catalog_id": "L47"
+    },
+    {
+      "source_id": "R7F-C02",
+      "catalog_id": "L48"
+    },
+    {
+      "source_id": "R7F-C03",
+      "catalog_id": "L49"
+    },
+    {
+      "source_id": "R7F-C04",
+      "catalog_id": "L50"
+    },
+    {
+      "source_id": "R7F-C05",
+      "catalog_id": "L51"
+    },
+    {
+      "source_id": "R7F-C06",
+      "catalog_id": "L52"
+    },
+    {
+      "source_id": "R7F-C07",
+      "catalog_id": "L53"
+    },
+    {
+      "source_id": "R7F-C08",
+      "catalog_id": "L54"
+    },
+    {
+      "source_id": "R7F-C09",
+      "catalog_id": "L55"
+    },
+    {
+      "source_id": "R8WC-R01",
+      "catalog_id": "L56"
+    },
+    {
+      "source_id": "ROOT-CSU-TOURISM",
+      "catalog_id": "L57"
+    }
+  ],
+  "catalog_counts": {
+    "new_records": 11,
+    "reviewed": 7,
+    "pending": 4,
+    "fulltext_read": 6,
+    "pdf_downloaded": 6,
+    "supplier_confirmed": 3,
+    "named_target_supplier": 1,
+    "carrier_boundaries": 2,
+    "indoor_wifi_boundaries": 2
+  },
+  "additional_existing_record_updates": [
+    {
+      "id": "L35",
+      "research_scope": "map_platform",
+      "provider": "Baidu Migration",
+      "fulltext_read": true,
+      "pdf_downloaded": true,
+      "pdf_pages": 17,
+      "supplementary_downloaded": true
+    }
+  ],
+  "download_counts": {
+    "new_main_pdf_files": 7,
+    "new_main_pdf_for_new_records": 6,
+    "new_main_pdf_for_existing_L35": 1,
+    "new_supplement_files": 2
+  },
+  "source_ids": [
+    "CN-S53",
+    "CN-S54",
+    "CN-S55",
+    "CN-S56",
+    "CN-S57",
+    "CN-S58",
+    "CN-S59",
+    "CN-S60",
+    "CN-S61",
+    "CN-S62",
+    "CN-S63",
+    "CN-S64"
+  ],
+  "query_count": 60,
+  "required_secondary_scopes": [
+    "map_platform",
+    "other_commercial",
+    "carrier_boundary",
+    "indoor_wifi_boundary"
+  ],
+  "build_order": [
+    "build_catalog.py",
+    "build_provider_usage.py",
+    "site/build_site.py"
+  ],
+  "notes": [
+    "不要运行scope_round7.py或旧round6/7整合脚本，否则可能重置本轮分类。",
+    "builder执行后验最终活跃数；五项用户排除仍保留。",
+    "方法审读47/待核82是应用本轮输入后的预计目录统计；全文关键段状态与供应商具名独立。",
+    "L53补充ZIP链接已定位但ERR_BLOCKED_BY_CLIENT，未下载。"
+  ]
+}
