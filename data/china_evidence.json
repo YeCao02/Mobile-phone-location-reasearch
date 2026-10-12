@@ -1555,8 +1555,8 @@
       "url": "https://www.sciencedirect.com/science/article/pii/S0264275126002155",
       "type": "期刊论文数据来源声明",
       "institution": "福州大学",
-      "supplier": "Jike Technology Ltd",
-      "finding": "全文§3.2.1明确Jike；福州2023-01-01至07，226万人，匿名ID/坐标/时间/年龄/性别/收入标签，多定位融合；高德只是POI。",
+      "supplier": "Jike Technology Ltd.",
+      "finding": "本研究 Jike Technology Ltd. 供手机定位，2023-01-01 至 01-07，共约226万用户。 正文说明多定位技术融合，未在本段逐一列明 GPS、WiFi 或 SDK。原文画像经济水平是相对经济分层，并非实际收入。 吴升对本文的资源和数据整理贡献有原文直接证据；不能据此倒推其全部旧论文同一数据来源。",
       "confidence": "source_confirmed",
       "limits": "原文具名供应商，停止供应商追查。",
       "doi": "10.1016/j.cities.2026.106983",
@@ -1564,9 +1564,21 @@
       "research_scope": "pioneer_named",
       "catalog_id": "L64",
       "round10_record": true,
-      "pdf_downloaded": false,
+      "pdf_downloaded": true,
       "zotero_catalog_imported": true,
-      "zotero_attachment_verified": false
+      "zotero_attachment_verified": true,
+      "author_contribution_evidence": [
+        {
+          "author": "Sheng Wu",
+          "roles": [
+            "Resources",
+            "Data curation"
+          ],
+          "pdf_page": 17,
+          "section": "CRediT authorship contribution statement",
+          "summary": "吴升对本文的资源和数据整理贡献有原文直接证据；不能据此倒推其全部旧论文同一数据来源。"
+        }
+      ]
     },
     {
       "id": "CN-R10-L65",
@@ -1629,7 +1641,7 @@
       "type": "期刊论文数据来源声明",
       "institution": "西南交通大学",
       "supplier": "Jike / isjike.com（及刻）",
-      "finding": "§3.2 明确 Jike/isjike.com 供数。场景数据来自 SDK 与 POI 的 WiFi、蓝牙和 NFC 交互；另有连续亮屏状态下每半小时定时上报。画像标签可能结合运营商外部资料，但不能因此改判为运营商定位。",
+      "finding": "直接具名 Jike/isjike.com；成都 2020-10-15 至 11-15，1210252用户和约3.014亿记录。 SDK 与 POI 场景通过 WiFi、蓝牙、NFC 交互；另外连续亮屏每半小时定时上报。画像外部资料包含运营商，不等同于运营商定位。",
       "confidence": "source_confirmed",
       "limits": "原文具名供应商，停止供应商追查。",
       "doi": "10.1155/2023/8008667",
@@ -1637,9 +1649,9 @@
       "research_scope": "pioneer_named",
       "catalog_id": "L68",
       "round10_record": true,
-      "pdf_downloaded": false,
+      "pdf_downloaded": true,
       "zotero_catalog_imported": true,
-      "zotero_attachment_verified": false
+      "zotero_attachment_verified": true
     },
     {
       "id": "CN-R10-L69",
@@ -4788,7 +4800,8 @@
         "及刻 / Jike（L48脚注isjike.com）",
         "未具名第三方GPS/WiFi/蓝牙服务商（L55）",
         "Jike Technology Ltd",
-        "及刻 / Jike"
+        "及刻 / Jike",
+        "Jike Technology Ltd."
       ],
       "outputs": [
         {
@@ -4970,16 +4983,28 @@
           "journal": "Cities",
           "doi": "10.1016/j.cities.2026.106983",
           "url": "https://www.sciencedirect.com/science/article/pii/S0264275126002155",
-          "provider": "Jike Technology Ltd",
-          "data_statement": "全文§3.2.1明确Jike；福州2023-01-01至07，226万人，匿名ID/坐标/时间/年龄/性别/收入标签，多定位融合；高德只是POI。",
+          "provider": "Jike Technology Ltd.",
+          "data_statement": "本研究 Jike Technology Ltd. 供手机定位，2023-01-01 至 01-07，共约226万用户。 正文说明多定位技术融合，未在本段逐一列明 GPS、WiFi 或 SDK。原文画像经济水平是相对经济分层，并非实际收入。 吴升对本文的资源和数据整理贡献有原文直接证据；不能据此倒推其全部旧论文同一数据来源。",
           "source_ids": [
             "CN-R10-L64"
           ],
-          "bibliographic_note": "主代理读取机构认证全文并负责PDF下载；本agent不重复下载或复查。",
+          "bibliographic_note": "用户上传的正式PDF已核验；用户简记保持原样，公开页面仅展示数据声明摘要。",
           "research_scope": "pioneer_named",
-          "pdf_downloaded": false,
+          "pdf_downloaded": true,
           "zotero_catalog_imported": true,
-          "zotero_attachment_verified": false
+          "zotero_attachment_verified": true,
+          "author_contribution_evidence": [
+            {
+              "author": "Sheng Wu",
+              "roles": [
+                "Resources",
+                "Data curation"
+              ],
+              "pdf_page": 17,
+              "section": "CRediT authorship contribution statement",
+              "summary": "吴升对本文的资源和数据整理贡献有原文直接证据；不能据此倒推其全部旧论文同一数据来源。"
+            }
+          ]
         },
         {
           "type": "期刊论文",
@@ -5322,7 +5347,7 @@
         {
           "id": "FZU-WU-SHENG-R10-L64",
           "title": "Revealing socio-demographic heterogeneity in urban travel behavior under the influence of the built environment",
-          "summary": "全文§3.2.1明确Jike；福州2023-01-01至07，226万人，匿名ID/坐标/时间/年龄/性别/收入标签，多定位融合；高德只是POI。",
+          "summary": "本研究 Jike Technology Ltd. 供手机定位，2023-01-01 至 01-07，共约226万用户。 正文说明多定位技术融合，未在本段逐一列明 GPS、WiFi 或 SDK。原文画像经济水平是相对经济分层，并非实际收入。 吴升对本文的资源和数据整理贡献有原文直接证据；不能据此倒推其全部旧论文同一数据来源。",
           "outputs": [
             {
               "type": "期刊论文",
@@ -5332,16 +5357,28 @@
               "journal": "Cities",
               "doi": "10.1016/j.cities.2026.106983",
               "url": "https://www.sciencedirect.com/science/article/pii/S0264275126002155",
-              "provider": "Jike Technology Ltd",
-              "data_statement": "全文§3.2.1明确Jike；福州2023-01-01至07，226万人，匿名ID/坐标/时间/年龄/性别/收入标签，多定位融合；高德只是POI。",
+              "provider": "Jike Technology Ltd.",
+              "data_statement": "本研究 Jike Technology Ltd. 供手机定位，2023-01-01 至 01-07，共约226万用户。 正文说明多定位技术融合，未在本段逐一列明 GPS、WiFi 或 SDK。原文画像经济水平是相对经济分层，并非实际收入。 吴升对本文的资源和数据整理贡献有原文直接证据；不能据此倒推其全部旧论文同一数据来源。",
               "source_ids": [
                 "CN-R10-L64"
               ],
-              "bibliographic_note": "主代理读取机构认证全文并负责PDF下载；本agent不重复下载或复查。",
+              "bibliographic_note": "用户上传的正式PDF已核验；用户简记保持原样，公开页面仅展示数据声明摘要。",
               "research_scope": "pioneer_named",
-              "pdf_downloaded": false,
+              "pdf_downloaded": true,
               "zotero_catalog_imported": true,
-              "zotero_attachment_verified": false
+              "zotero_attachment_verified": true,
+              "author_contribution_evidence": [
+                {
+                  "author": "Sheng Wu",
+                  "roles": [
+                    "Resources",
+                    "Data curation"
+                  ],
+                  "pdf_page": 17,
+                  "section": "CRediT authorship contribution statement",
+                  "summary": "吴升对本文的资源和数据整理贡献有原文直接证据；不能据此倒推其全部旧论文同一数据来源。"
+                }
+              ]
             }
           ],
           "source_ids": [
@@ -5436,6 +5473,16 @@
               "title": "论文署名基金"
             }
           ]
+        },
+        {
+          "id": "FZU-WU-SHENG-G10-L64",
+          "title": "论文列示资助：Revealing socio-demographic heterogeneity in urban travel behavior under the influence of the built environment",
+          "grant_number": "NSFC 42301523 / National Key R&D Program 2024YFB3908603",
+          "summary": "论文列示资助，不由共同基金推定共同供应商、数据批次或项目负责人。",
+          "source_ids": [
+            "CN-R10-L64"
+          ],
+          "round10_record": true
         },
         {
           "id": "FZU-WU-SHENG-G10-L76",
@@ -6184,7 +6231,7 @@
         {
           "id": "SWJTU-WANG-QIU-R10-L68",
           "title": "地铁站接驳距离和空间异质性",
-          "summary": "§3.2 明确 Jike/isjike.com 供数。场景数据来自 SDK 与 POI 的 WiFi、蓝牙和 NFC 交互；另有连续亮屏状态下每半小时定时上报。画像标签可能结合运营商外部资料，但不能因此改判为运营商定位。",
+          "summary": "直接具名 Jike/isjike.com；成都 2020-10-15 至 11-15，1210252用户和约3.014亿记录。 SDK 与 POI 场景通过 WiFi、蓝牙、NFC 交互；另外连续亮屏每半小时定时上报。画像外部资料包含运营商，不等同于运营商定位。",
           "outputs": [
             {
               "type": "期刊论文",
@@ -6195,15 +6242,15 @@
               "doi": "10.1155/2023/8008667",
               "url": "https://onlinelibrary.wiley.com/doi/10.1155/2023/8008667",
               "provider": "Jike / isjike.com（及刻）",
-              "data_statement": "§3.2 明确 Jike/isjike.com 供数。场景数据来自 SDK 与 POI 的 WiFi、蓝牙和 NFC 交互；另有连续亮屏状态下每半小时定时上报。画像标签可能结合运营商外部资料，但不能因此改判为运营商定位。",
+              "data_statement": "直接具名 Jike/isjike.com；成都 2020-10-15 至 11-15，1210252用户和约3.014亿记录。 SDK 与 POI 场景通过 WiFi、蓝牙、NFC 交互；另外连续亮屏每半小时定时上报。画像外部资料包含运营商，不等同于运营商定位。",
               "source_ids": [
                 "CN-R10-L68"
               ],
-              "bibliographic_note": "",
+              "bibliographic_note": "用户上传的正式PDF已核验；用户简记保持原样，公开页面仅展示数据声明摘要。",
               "research_scope": "pioneer_named",
-              "pdf_downloaded": false,
+              "pdf_downloaded": true,
               "zotero_catalog_imported": true,
-              "zotero_attachment_verified": false
+              "zotero_attachment_verified": true
             }
           ],
           "source_ids": [
@@ -6223,15 +6270,15 @@
           "doi": "10.1155/2023/8008667",
           "url": "https://onlinelibrary.wiley.com/doi/10.1155/2023/8008667",
           "provider": "Jike / isjike.com（及刻）",
-          "data_statement": "§3.2 明确 Jike/isjike.com 供数。场景数据来自 SDK 与 POI 的 WiFi、蓝牙和 NFC 交互；另有连续亮屏状态下每半小时定时上报。画像标签可能结合运营商外部资料，但不能因此改判为运营商定位。",
+          "data_statement": "直接具名 Jike/isjike.com；成都 2020-10-15 至 11-15，1210252用户和约3.014亿记录。 SDK 与 POI 场景通过 WiFi、蓝牙、NFC 交互；另外连续亮屏每半小时定时上报。画像外部资料包含运营商，不等同于运营商定位。",
           "source_ids": [
             "CN-R10-L68"
           ],
-          "bibliographic_note": "",
+          "bibliographic_note": "用户上传的正式PDF已核验；用户简记保持原样，公开页面仅展示数据声明摘要。",
           "research_scope": "pioneer_named",
-          "pdf_downloaded": false,
+          "pdf_downloaded": true,
           "zotero_catalog_imported": true,
-          "zotero_attachment_verified": false
+          "zotero_attachment_verified": true
         }
       ],
       "procurements": [],

@@ -7,8 +7,8 @@
 | 机构／团队 | 研究 | 期刊 | 原文供方 | 正文 PDF |
 |---|---|---|---|---|
 | 深圳大学 郭欣／涂伟 | 高频步行通勤街道品质 | Smart Cities | Jike | 已保存并加入 Zotero |
-| 福州大学 吴升合作团队 | 建成环境与出行行为的人口异质性 | Cities | Jike Technology Ltd | HTML 已读，PDF 待补 |
-| 西南交通大学 Zhongquan Qiu 合作团队 | 成都地铁接驳距离空间差异 | Journal of Advanced Transportation | Jike / isjike.com | HTML 已读，PDF 待补 |
+| 福州大学 吴升合作团队 | 建成环境与出行行为的人口异质性 | Cities | Jike Technology Ltd | 用户补充PDF已核并保存在 Zotero |
+| 西南交通大学 Zhongquan Qiu 合作团队 | 成都地铁接驳距离空间差异 | Journal of Advanced Transportation | Jike / isjike.com | 用户补充PDF已核并保存在 Zotero |
 | 上海市城市建设设计研究总院 张新燕 | 老城区更新潜力与边界划定 | 中国工程咨询 | 先锋数聚 | 已保存并加入 Zotero |
 | 金陵科技学院 韩冰／南京大学 冷南羲／南京中医药大学 丁云霏 | 江苏双一流高校多校区融合 | 江苏高教 | 北京先锋数聚 | 已保存并加入 Zotero |
 | 福州大学 许润炫／赵志远 | 产业园区人群活力与影响因素 | 时空信息学报 | 及刻 | 已保存并加入 Zotero |
@@ -29,4 +29,6 @@
 
 本轮新增 20 条记录：7 条具名泛先锋、5 条未具名候选、1 条方法边界候选、6 条其他商业数据、1 条运营商边界。确认供应商使用不等于确认所有定位字段、采集技术或供应商法律实体关系。
 
-Zotero“先锋/摸星/jike数据”已加入本轮 7 篇具名研究，其中 5 篇附有核验过的正文 PDF；2 篇待补。下载文件仅保存在本地，公共网页提供书目信息与证据摘要。后续仅获取 PDF，不以 CAJ 作为全文交付。
+Zotero“先锋/摸星/jike数据”已加入本轮 7 篇具名研究，7 篇均附有核验过的正文 PDF。下载文件仅保存在本地，公共网页提供书目信息与证据摘要。后续仅获取 PDF，不以 CAJ 作为全文交付。
+
+Cities 正文第17页的作者贡献声明列出吴升负责 Resources 与 Data curation，已存入该研究的证据摘要。
