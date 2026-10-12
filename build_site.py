@@ -21,7 +21,7 @@ def public_data(source):
         providers.append(obj)
     catalog_path = source / 'literature_catalog.json'
     catalog = json.loads(catalog_path.read_text(encoding='utf-8-sig')) if catalog_path.exists() else raw['literature_evolution']
-    papers = [select(r, 'id title year doi reported_doi journal field catalog_status origins metadata_source publication_type bibliographic_note notes bibliographic_status provider_evidence_status classification_basis provider product application data_declaration data_form use_method evidence_url evidence_section fulltext_read fulltext_scope source_confirmed access_status app_collection_confirmed sdk_explicit sensor_mix review_date pdf_downloaded zotero_attachment_verified research_scope scope_reason provider_confirmation_basis') for r in catalog['records'] if not r.get('excluded_from_active')]
+    papers = [select(r, 'id title year doi reported_doi journal field institution team catalog_status origins metadata_source publication_type bibliographic_note notes bibliographic_status provider_evidence_status classification_basis provider product application data_declaration data_form use_method evidence_url evidence_section fulltext_read fulltext_scope source_confirmed access_status app_collection_confirmed sdk_explicit sensor_mix review_date pdf_downloaded zotero_attachment_verified research_scope scope_reason provider_confirmation_basis') for r in catalog['records'] if not r.get('excluded_from_active')]
     excluded_papers = [select(r, 'id title journal year doi evidence_url provider scope_reason scope_decision_basis') for r in catalog['records'] if r.get('excluded_from_active')]
     queue_path = source / 'acquisition_queue.json'
     queue = {r['id']: r for r in json.loads(queue_path.read_text(encoding='utf-8-sig'))['records']} if queue_path.exists() else {}
@@ -67,12 +67,32 @@ def public_data(source):
         'providers': [select(r, 'id name region profile_group') for r in usage_raw.get('providers', [])],
         'associations': [select(r, 'paper_id provider_id provider_name status classification role roles declared_brands evidence_url evidence_section basis catalog_status') for r in usage_raw.get('associations', [])],
     }
+    # This supplier already has official SDK evidence in the source ledger,
+    # even though its candidate paper has no confirmed usage relationship yet.
+    if any(s['id'] == 'CN-S22' for s in sources) and not any(p['id'] == 'talkingdata' for p in usage['providers']):
+        usage['providers'].append({'id': 'talkingdata', 'name': 'TalkingData', 'region': 'china', 'profile_group': 'other_commercial_sdk'})
+    for provider_id, source_id in [('talkingdata', 'CN-S22'), ('getui', 'CN-S19'), ('aurora', 'CN-S24')]:
+        source_record = next((s for s in sources if s['id'] == source_id), None)
+        if source_record and not any(p['id'] == provider_id for p in providers):
+            providers.append({'id': provider_id, 'name': next(p['name'] for p in usage['providers'] if p['id'] == provider_id), 'sources': [{'title': source_record['title'], 'url': source_record['url']}]})
     paper_ids = {r['id'] for r in papers}
     provider_ids = {r['id'] for r in usage['providers']}
     assert all(r['paper_id'] in paper_ids and r['provider_id'] in provider_ids for r in usage['associations']), 'Supplier association references an unknown record'
     assert len({(r['provider_id'], r['paper_id']) for r in usage['associations']}) == len(usage['associations']), 'Duplicate supplier-paper association'
     secondary_scopes = {'map_platform', 'other_commercial', 'carrier_boundary', 'indoor_wifi_boundary', 'method_boundary_candidate'}
     result = {'as_of': china.get('as_of', '2026-10-11'), 'providers': providers, 'provider_usage': usage, 'papers': papers, 'china': [r for r in sources if r.get('research_scope') not in secondary_scopes], 'china_groups': [g for g in research_groups if g.get('research_scope') not in secondary_scopes], 'china_source_aliases': source_aliases, 'coverage': coverage, 'edges': edges, 'secondary_sources': [r for r in sources if r.get('research_scope') in secondary_scopes], 'secondary_groups': [g for g in research_groups if g.get('research_scope') in secondary_scopes], 'excluded_papers': excluded_papers, 'scope_policy': china.get('scope_policy', {}).get('rules', [])}
+    # Browsing categories are paper-level decisions, independent of reading/PDF progress.
+    analog_ids = {p['id'] for p in usage['providers'] if p.get('profile_group') == 'original_21'} | {'getui', 'aurora', 'in_loco', 'descartes_labs', 'talkingdata'}
+    use_roles = {'mobility', 'mixed_mobility', 'platform_aggregate', 'demographic_profile'}
+    pioneer_ids = {a['paper_id'] for a in usage['associations'] if a['provider_id'] == 'pioneer_moxing_jike' and a['status'] == 'confirmed_use'}
+    analog_papers = {a['paper_id'] for a in usage['associations'] if a['provider_id'] in analog_ids and a['status'] == 'confirmed_use' and set(a.get('roles') or [a.get('role')]) & use_roles} - pioneer_ids
+    omitted_scopes = {'map_platform', 'carrier_boundary', 'indoor_wifi_boundary'}
+    omitted = {r['id'] for r in papers if r.get('research_scope') in omitted_scopes} - pioneer_ids - analog_papers
+    # Other already-identified data sources do not become candidates again.
+    known_other = {a['paper_id'] for a in usage['associations'] if a['status'] == 'confirmed_use' and set(a.get('roles') or [a.get('role')]) & use_roles} | {r['id'] for r in papers if r.get('source_confirmed') is True}
+    omitted |= known_other - pioneer_ids - analog_papers
+    pending_ids = paper_ids - pioneer_ids - analog_papers - omitted
+    result['browse'] = {'pioneer_ids': sorted(pioneer_ids), 'analog_ids': sorted(analog_papers), 'pending_ids': sorted(pending_ids), 'omitted_ids': sorted(omitted), 'analog_provider_ids': sorted(analog_ids)}
     encoded = json.dumps(result, ensure_ascii=False)
     # Public export must never embed machine-specific paths, access credentials, or emails.
     encoded = re.sub(r'[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}', '[公开联系邮箱省略]', encoded)
