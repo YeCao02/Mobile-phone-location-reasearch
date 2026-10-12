@@ -8349,10 +8349,10 @@
         "https://www.isjike.com/"
       ],
       "counts": {
-        "confirmed_use": 13,
-        "user_confirmed_use": 4,
+        "confirmed_use": 14,
+        "user_confirmed_use": 9,
         "mention_only": 0,
-        "unresolved_candidate": 2
+        "unresolved_candidate": 0
       },
       "paper_ids": {
         "confirmed_use": [
@@ -8368,24 +8368,27 @@
           "L75",
           "L76",
           "L77",
-          "L80"
+          "L80",
+          "L83"
         ],
         "user_confirmed_use": [
           "L27",
           "L28",
           "L34",
-          "L59"
+          "L44",
+          "L55",
+          "L57",
+          "L59",
+          "L78",
+          "L79"
         ],
         "mention_only": [],
-        "unresolved_candidate": [
-          "L55",
-          "L79"
-        ]
+        "unresolved_candidate": []
       },
       "role_counts": {
         "mobility": {
-          "confirmed_use": 10,
-          "user_confirmed_use": 4,
+          "confirmed_use": 11,
+          "user_confirmed_use": 9,
           "mention_only": 0,
           "unresolved_candidate": 0
         },
@@ -8447,7 +8450,7 @@
           "confirmed_use": 0,
           "user_confirmed_use": 0,
           "mention_only": 0,
-          "unresolved_candidate": 2
+          "unresolved_candidate": 0
         }
       },
       "role_paper_ids": {
@@ -8462,13 +8465,19 @@
             "L74",
             "L75",
             "L76",
-            "L77"
+            "L77",
+            "L83"
           ],
           "user_confirmed_use": [
             "L27",
             "L28",
             "L34",
-            "L59"
+            "L44",
+            "L55",
+            "L57",
+            "L59",
+            "L78",
+            "L79"
           ],
           "mention_only": [],
           "unresolved_candidate": []
@@ -8536,13 +8545,10 @@
           "confirmed_use": [],
           "user_confirmed_use": [],
           "mention_only": [],
-          "unresolved_candidate": [
-            "L55",
-            "L79"
-          ]
+          "unresolved_candidate": []
         }
       },
-      "confirmed_mobility_use": 10,
+      "confirmed_mobility_use": 11,
       "confirmed_mixed_mobility_use": 2,
       "zero_count_meaning": "0仅表示当前文献目录中没有符合该证据门槛的记录；不是全领域无人使用，也不是搜索穷尽。",
       "association_ids": [
@@ -8553,8 +8559,10 @@
         "L28",
         "L29",
         "L34",
+        "L44",
         "L48",
         "L55",
+        "L57",
         "L58",
         "L59",
         "L64",
@@ -8563,14 +8571,16 @@
         "L75",
         "L76",
         "L77",
+        "L78",
         "L79",
-        "L80"
+        "L80",
+        "L83"
       ],
       "entity_interpretation": "展示组，不构成法律实体或独立采样面板合并认定",
       "evidence_role_counts": {
         "mobility": {
-          "confirmed_use": 10,
-          "user_confirmed_use": 4,
+          "confirmed_use": 11,
+          "user_confirmed_use": 9,
           "mention_only": 0,
           "unresolved_candidate": 0
         },
@@ -8632,7 +8642,7 @@
           "confirmed_use": 0,
           "user_confirmed_use": 0,
           "mention_only": 0,
-          "unresolved_candidate": 2
+          "unresolved_candidate": 0
         }
       }
     }
@@ -12590,6 +12600,74 @@
       ]
     },
     {
+      "paper_id": "L44",
+      "paper_title": "基于手机定位数据的乡村居民进城就医行为及可达性研究",
+      "doi": "",
+      "provider_id": "pioneer_moxing_jike",
+      "provider_name": "先锋数聚 / 摸星 / 即刻·及刻（Pioneer / Moxing / Jike）",
+      "status": "user_confirmed_use",
+      "classification": "user_confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "泛先锋关联数据"
+      ],
+      "evidence_url": "https://dlgt.cbpt.cnki.net/portal/journal/portal/client/paper/739b0b7e60043a8747dfa5c027f530ee",
+      "evidence_section": "用户分类与简记核对，2026-10-13",
+      "basis": "按用户人工核验合并供应商展示组，同篇去重；不作工商关系认定。 [先锋数聚 / Pioneer Data；user_confirmed_use；mobility] 用户2026-10-13已人工审查并移入Zotero“先锋/摸星/jike数据”，据此纳入04关联研究；原文具名与关联判断分开记录，具体供应商公开证据继续补充。 来源：https://dlgt.cbpt.cnki.net/portal/journal/portal/client/paper/739b0b7e60043a8747dfa5c027f530ee",
+      "catalog_status": "pending",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "user_reviewed",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
+      "evidence_basis": "user_confirmed_supplier_group",
+      "grouping_basis": "user_confirmed_supplier_group",
+      "member_provider_ids": [
+        "pioneer"
+      ],
+      "role_statuses": {
+        "mobility": "user_confirmed_use"
+      },
+      "evidence_roles": [
+        "mobility"
+      ],
+      "evidence": [
+        {
+          "paper_id": "L44",
+          "paper_title": "基于手机定位数据的乡村居民进城就医行为及可达性研究",
+          "doi": "",
+          "provider_id": "pioneer",
+          "provider_name": "先锋数聚 / Pioneer Data",
+          "status": "user_confirmed_use",
+          "classification": "user_confirmed_use",
+          "role": "mobility",
+          "roles": [
+            "mobility"
+          ],
+          "declared_brands": [
+            "泛先锋关联数据"
+          ],
+          "evidence_url": "https://dlgt.cbpt.cnki.net/portal/journal/portal/client/paper/739b0b7e60043a8747dfa5c027f530ee",
+          "evidence_section": "用户分类与简记核对，2026-10-13",
+          "basis": "用户2026-10-13已人工审查并移入Zotero“先锋/摸星/jike数据”，据此纳入04关联研究；原文具名与关联判断分开记录，具体供应商公开证据继续补充。",
+          "catalog_status": "pending",
+          "scope": "phone_location_or_derivative",
+          "data_access_relationship": "user_reviewed",
+          "data_reuse_note": "",
+          "count_unit": "unique_study_not_independent_dataset",
+          "pdf_downloaded": false,
+          "zotero_attachment_verified": false
+        }
+      ],
+      "evidence_urls": [
+        "https://dlgt.cbpt.cnki.net/portal/journal/portal/client/paper/739b0b7e60043a8747dfa5c027f530ee"
+      ]
+    },
+    {
       "paper_id": "L48",
       "paper_title": "人口空间分布典型数据的时空差异",
       "doi": "10.13284/j.cnki.rddl.20250648",
@@ -12667,36 +12745,35 @@
       "doi": "10.12082/dqxxkx.2025.240484",
       "provider_id": "pioneer_moxing_jike",
       "provider_name": "先锋数聚 / 摸星 / 即刻·及刻（Pioneer / Moxing / Jike）",
-      "status": "unresolved_candidate",
-      "classification": "unresolved_candidate",
-      "role": "unknown",
+      "status": "user_confirmed_use",
+      "classification": "user_confirmed_use",
+      "role": "mobility",
       "roles": [
-        "unknown"
+        "mobility"
       ],
       "declared_brands": [
-        "用户关联：及刻 / Jike；原文未具名"
+        "及刻 / Jike"
       ],
       "evidence_url": "https://www.dqxxkx.cn/CN/10.12082/dqxxkx.2025.240484",
-      "evidence_section": "PDF第7页/印刷430页§3.2",
-      "basis": "按用户人工核验合并供应商展示组，同篇去重；不作工商关系认定。 [及刻 / Jike（即刻为用户检索别名）；unresolved_candidate；unknown] 用户判断：与已具名及刻研究在城市、时间等口径一致时，关联概率可在95%以上（经验判断，非统计估计）。本篇福州2023-03-06—12被L76福州2023全年范围覆盖；同院关联团队、同基金2023YFB3906804、GPS/WiFi方式相近。L64 Cities为福州2023年1月，非同一采集周。L55原文未具名，尚无同批记录直接证据。 来源：https://www.dqxxkx.cn/CN/10.12082/dqxxkx.2025.240484",
+      "evidence_section": "用户分类与简记核对，2026-10-13",
+      "basis": "按用户人工核验合并供应商展示组，同篇去重；不作工商关系认定。 [及刻 / Jike（即刻为用户检索别名）；user_confirmed_use；mobility] 用户2026-10-13已人工审查并移入Zotero“先锋/摸星/jike数据”，据此纳入04关联研究；原文具名与关联判断分开记录，具体供应商公开证据继续补充。用户认为可合并及刻/Jike；此前95%以上属于条件性经验判断。 来源：https://www.dqxxkx.cn/CN/10.12082/dqxxkx.2025.240484",
       "catalog_status": "reviewed",
-      "scope": "user_assessed_supplier_link_unverified",
-      "data_access_relationship": "unverified",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "user_reviewed",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
       "pdf_downloaded": true,
       "zotero_attachment_verified": true,
-      "primary_source_audit": "round13_local_pdf_and_official_html_comparison",
       "evidence_basis": "user_confirmed_supplier_group",
       "grouping_basis": "user_confirmed_supplier_group",
       "member_provider_ids": [
         "jike"
       ],
       "role_statuses": {
-        "unknown": "unresolved_candidate"
+        "mobility": "user_confirmed_use"
       },
       "evidence_roles": [
-        "unknown"
+        "mobility"
       ],
       "evidence": [
         {
@@ -12705,30 +12782,97 @@
           "doi": "10.12082/dqxxkx.2025.240484",
           "provider_id": "jike",
           "provider_name": "及刻 / Jike（即刻为用户检索别名）",
-          "status": "unresolved_candidate",
-          "classification": "unresolved_candidate",
-          "role": "unknown",
+          "status": "user_confirmed_use",
+          "classification": "user_confirmed_use",
+          "role": "mobility",
           "roles": [
-            "unknown"
+            "mobility"
           ],
           "declared_brands": [
-            "用户关联：及刻 / Jike；原文未具名"
+            "及刻 / Jike"
           ],
           "evidence_url": "https://www.dqxxkx.cn/CN/10.12082/dqxxkx.2025.240484",
-          "evidence_section": "PDF第7页/印刷430页§3.2",
-          "basis": "用户判断：与已具名及刻研究在城市、时间等口径一致时，关联概率可在95%以上（经验判断，非统计估计）。本篇福州2023-03-06—12被L76福州2023全年范围覆盖；同院关联团队、同基金2023YFB3906804、GPS/WiFi方式相近。L64 Cities为福州2023年1月，非同一采集周。L55原文未具名，尚无同批记录直接证据。",
+          "evidence_section": "用户分类与简记核对，2026-10-13",
+          "basis": "用户2026-10-13已人工审查并移入Zotero“先锋/摸星/jike数据”，据此纳入04关联研究；原文具名与关联判断分开记录，具体供应商公开证据继续补充。用户认为可合并及刻/Jike；此前95%以上属于条件性经验判断。",
           "catalog_status": "reviewed",
-          "scope": "user_assessed_supplier_link_unverified",
-          "data_access_relationship": "unverified",
+          "scope": "phone_location_or_derivative",
+          "data_access_relationship": "user_reviewed",
           "data_reuse_note": "",
           "count_unit": "unique_study_not_independent_dataset",
           "pdf_downloaded": true,
-          "zotero_attachment_verified": true,
-          "primary_source_audit": "round13_local_pdf_and_official_html_comparison"
+          "zotero_attachment_verified": true
         }
       ],
       "evidence_urls": [
         "https://www.dqxxkx.cn/CN/10.12082/dqxxkx.2025.240484"
+      ]
+    },
+    {
+      "paper_id": "L57",
+      "paper_title": "多尺度视角下的城市旅游流网络结构特征分析——以长沙市为例",
+      "doi": "10.12082/dqxxkx.2025.240586",
+      "provider_id": "pioneer_moxing_jike",
+      "provider_name": "先锋数聚 / 摸星 / 即刻·及刻（Pioneer / Moxing / Jike）",
+      "status": "user_confirmed_use",
+      "classification": "user_confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "泛先锋关联数据"
+      ],
+      "evidence_url": "https://www.dqxxkx.cn/CN/10.12082/dqxxkx.2025.240586",
+      "evidence_section": "用户分类与简记核对，2026-10-13",
+      "basis": "按用户人工核验合并供应商展示组，同篇去重；不作工商关系认定。 [先锋数聚 / Pioneer Data；user_confirmed_use；mobility] 用户2026-10-13已人工审查并移入Zotero“先锋/摸星/jike数据”，据此纳入04关联研究；原文具名与关联判断分开记录，具体供应商公开证据继续补充。 来源：https://www.dqxxkx.cn/CN/10.12082/dqxxkx.2025.240586",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "user_reviewed",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false,
+      "evidence_basis": "user_confirmed_supplier_group",
+      "grouping_basis": "user_confirmed_supplier_group",
+      "member_provider_ids": [
+        "pioneer"
+      ],
+      "role_statuses": {
+        "mobility": "user_confirmed_use"
+      },
+      "evidence_roles": [
+        "mobility"
+      ],
+      "evidence": [
+        {
+          "paper_id": "L57",
+          "paper_title": "多尺度视角下的城市旅游流网络结构特征分析——以长沙市为例",
+          "doi": "10.12082/dqxxkx.2025.240586",
+          "provider_id": "pioneer",
+          "provider_name": "先锋数聚 / Pioneer Data",
+          "status": "user_confirmed_use",
+          "classification": "user_confirmed_use",
+          "role": "mobility",
+          "roles": [
+            "mobility"
+          ],
+          "declared_brands": [
+            "泛先锋关联数据"
+          ],
+          "evidence_url": "https://www.dqxxkx.cn/CN/10.12082/dqxxkx.2025.240586",
+          "evidence_section": "用户分类与简记核对，2026-10-13",
+          "basis": "用户2026-10-13已人工审查并移入Zotero“先锋/摸星/jike数据”，据此纳入04关联研究；原文具名与关联判断分开记录，具体供应商公开证据继续补充。",
+          "catalog_status": "reviewed",
+          "scope": "phone_location_or_derivative",
+          "data_access_relationship": "user_reviewed",
+          "data_reuse_note": "",
+          "count_unit": "unique_study_not_independent_dataset",
+          "pdf_downloaded": true,
+          "zotero_attachment_verified": false
+        }
+      ],
+      "evidence_urls": [
+        "https://www.dqxxkx.cn/CN/10.12082/dqxxkx.2025.240586"
       ]
     },
     {
@@ -13304,42 +13448,109 @@
       ]
     },
     {
-      "paper_id": "L79",
-      "paper_title": "极端天气影响下的人群停留行为时空扰动定量评估",
-      "doi": "10.12082/dqxxkx.2025.240596",
+      "paper_id": "L78",
+      "paper_title": "上海环城大型公园游憩服务效用评价及规划启示",
+      "doi": "10.16361/j.upf.202406004",
       "provider_id": "pioneer_moxing_jike",
       "provider_name": "先锋数聚 / 摸星 / 即刻·及刻（Pioneer / Moxing / Jike）",
-      "status": "unresolved_candidate",
-      "classification": "unresolved_candidate",
-      "role": "unknown",
+      "status": "user_confirmed_use",
+      "classification": "user_confirmed_use",
+      "role": "mobility",
       "roles": [
-        "unknown"
+        "mobility"
       ],
       "declared_brands": [
-        "用户关联：及刻 / Jike；原文未具名"
+        "及刻 / Jike（关联判断）"
       ],
-      "evidence_url": "https://www.dqxxkx.cn/CN/abstract/article/1560-8999/72531",
-      "evidence_section": "PDF第7页／印刷1350页，§3.2.1手机位置数据与§3.2.2数据预处理",
-      "basis": "按用户人工核验合并供应商展示组，同篇去重；不作工商关系认定。 [及刻 / Jike（即刻为用户检索别名）；unresolved_candidate；unknown] 用户2026-10-12依据WiFi+GPS定位口径，将本研究与即刻／及刻（Jike）的关联判断设为99%。这是用户判断，不是统计估计；原文仍未具名供应商。 来源：https://www.dqxxkx.cn/CN/abstract/article/1560-8999/72531",
+      "evidence_url": "https://upforum.wupen.org/Assets/userfiles/files/issues/2024/2024-06/%E4%B8%87%E4%BA%BF.pdf",
+      "evidence_section": "用户分类与简记核对，2026-10-13",
+      "basis": "按用户人工核验合并供应商展示组，同篇去重；不作工商关系认定。 [及刻 / Jike（即刻为用户检索别名）；user_confirmed_use；mobility] 用户2026-10-13已人工审查并移入Zotero“先锋/摸星/jike数据”，据此纳入04关联研究；原文具名与关联判断分开记录，具体供应商公开证据继续补充。 新增Heliyon论文L83直接具名梦享/及刻；两篇同上海760万用户底库、Android、2–30m精度及23PJC027/JKZ02232202资助，2020年10月时段部分重叠。公园数、样本人数与记录量不同，不能认定全样本完全相同。 来源：https://upforum.wupen.org/Assets/userfiles/files/issues/2024/2024-06/%E4%B8%87%E4%BA%BF.pdf",
       "catalog_status": "reviewed",
-      "scope": "user_assessed_supplier_link_unverified",
-      "data_access_relationship": "unverified",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "user_reviewed",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
       "pdf_downloaded": true,
-      "zotero_catalog_imported": true,
-      "zotero_attachment_verified": true,
-      "primary_source_audit": "round13_local_pdf_and_official_html_comparison",
+      "zotero_attachment_verified": false,
       "evidence_basis": "user_confirmed_supplier_group",
       "grouping_basis": "user_confirmed_supplier_group",
       "member_provider_ids": [
         "jike"
       ],
       "role_statuses": {
-        "unknown": "unresolved_candidate"
+        "mobility": "user_confirmed_use"
       },
       "evidence_roles": [
-        "unknown"
+        "mobility"
+      ],
+      "evidence": [
+        {
+          "paper_id": "L78",
+          "paper_title": "上海环城大型公园游憩服务效用评价及规划启示",
+          "doi": "10.16361/j.upf.202406004",
+          "provider_id": "jike",
+          "provider_name": "及刻 / Jike（即刻为用户检索别名）",
+          "status": "user_confirmed_use",
+          "classification": "user_confirmed_use",
+          "role": "mobility",
+          "roles": [
+            "mobility"
+          ],
+          "declared_brands": [
+            "及刻 / Jike（关联判断）"
+          ],
+          "evidence_url": "https://upforum.wupen.org/Assets/userfiles/files/issues/2024/2024-06/%E4%B8%87%E4%BA%BF.pdf",
+          "evidence_section": "用户分类与简记核对，2026-10-13",
+          "basis": "用户2026-10-13已人工审查并移入Zotero“先锋/摸星/jike数据”，据此纳入04关联研究；原文具名与关联判断分开记录，具体供应商公开证据继续补充。 新增Heliyon论文L83直接具名梦享/及刻；两篇同上海760万用户底库、Android、2–30m精度及23PJC027/JKZ02232202资助，2020年10月时段部分重叠。公园数、样本人数与记录量不同，不能认定全样本完全相同。",
+          "catalog_status": "reviewed",
+          "scope": "phone_location_or_derivative",
+          "data_access_relationship": "user_reviewed",
+          "data_reuse_note": "",
+          "count_unit": "unique_study_not_independent_dataset",
+          "pdf_downloaded": true,
+          "zotero_attachment_verified": false
+        }
+      ],
+      "evidence_urls": [
+        "https://upforum.wupen.org/Assets/userfiles/files/issues/2024/2024-06/%E4%B8%87%E4%BA%BF.pdf"
+      ]
+    },
+    {
+      "paper_id": "L79",
+      "paper_title": "极端天气影响下的人群停留行为时空扰动定量评估",
+      "doi": "10.12082/dqxxkx.2025.240596",
+      "provider_id": "pioneer_moxing_jike",
+      "provider_name": "先锋数聚 / 摸星 / 即刻·及刻（Pioneer / Moxing / Jike）",
+      "status": "user_confirmed_use",
+      "classification": "user_confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "及刻 / Jike"
+      ],
+      "evidence_url": "https://www.dqxxkx.cn/CN/abstract/article/1560-8999/72531",
+      "evidence_section": "用户分类与简记核对，2026-10-13",
+      "basis": "按用户人工核验合并供应商展示组，同篇去重；不作工商关系认定。 [及刻 / Jike（即刻为用户检索别名）；user_confirmed_use；mobility] 用户2026-10-13已人工审查并移入Zotero“先锋/摸星/jike数据”，据此纳入04关联研究；原文具名与关联判断分开记录，具体供应商公开证据继续补充。保留用户99%经验判断，非统计估计。 来源：https://www.dqxxkx.cn/CN/abstract/article/1560-8999/72531",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "user_reviewed",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_catalog_imported": true,
+      "zotero_attachment_verified": true,
+      "evidence_basis": "user_confirmed_supplier_group",
+      "grouping_basis": "user_confirmed_supplier_group",
+      "member_provider_ids": [
+        "jike"
+      ],
+      "role_statuses": {
+        "mobility": "user_confirmed_use"
+      },
+      "evidence_roles": [
+        "mobility"
       ],
       "evidence": [
         {
@@ -13348,27 +13559,26 @@
           "doi": "10.12082/dqxxkx.2025.240596",
           "provider_id": "jike",
           "provider_name": "及刻 / Jike（即刻为用户检索别名）",
-          "status": "unresolved_candidate",
-          "classification": "unresolved_candidate",
-          "role": "unknown",
+          "status": "user_confirmed_use",
+          "classification": "user_confirmed_use",
+          "role": "mobility",
           "roles": [
-            "unknown"
+            "mobility"
           ],
           "declared_brands": [
-            "用户关联：及刻 / Jike；原文未具名"
+            "及刻 / Jike"
           ],
           "evidence_url": "https://www.dqxxkx.cn/CN/abstract/article/1560-8999/72531",
-          "evidence_section": "PDF第7页／印刷1350页，§3.2.1手机位置数据与§3.2.2数据预处理",
-          "basis": "用户2026-10-12依据WiFi+GPS定位口径，将本研究与即刻／及刻（Jike）的关联判断设为99%。这是用户判断，不是统计估计；原文仍未具名供应商。",
+          "evidence_section": "用户分类与简记核对，2026-10-13",
+          "basis": "用户2026-10-13已人工审查并移入Zotero“先锋/摸星/jike数据”，据此纳入04关联研究；原文具名与关联判断分开记录，具体供应商公开证据继续补充。保留用户99%经验判断，非统计估计。",
           "catalog_status": "reviewed",
-          "scope": "user_assessed_supplier_link_unverified",
-          "data_access_relationship": "unverified",
+          "scope": "phone_location_or_derivative",
+          "data_access_relationship": "user_reviewed",
           "data_reuse_note": "",
           "count_unit": "unique_study_not_independent_dataset",
           "pdf_downloaded": true,
           "zotero_catalog_imported": true,
-          "zotero_attachment_verified": true,
-          "primary_source_audit": "round13_local_pdf_and_official_html_comparison"
+          "zotero_attachment_verified": true
         }
       ],
       "evidence_urls": [
@@ -13445,6 +13655,80 @@
       ],
       "evidence_urls": [
         "https://www.tandfonline.com/doi/full/10.1080/13467581.2025.2608469"
+      ]
+    },
+    {
+      "paper_id": "L83",
+      "paper_title": "Do hypothetical and actual service distances align for urban fringe parks? An investigation of Shanghai using big data",
+      "doi": "10.1016/j.heliyon.2024.e37918",
+      "provider_id": "pioneer_moxing_jike",
+      "provider_name": "先锋数聚 / 摸星 / 即刻·及刻（Pioneer / Moxing / Jike）",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "Guangzhou Mengxiang Network Technology Co., Ltd.",
+        "及刻 / Jike"
+      ],
+      "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11462473/",
+      "evidence_section": "Data availability；§2.2 Data source and processing",
+      "basis": "按用户人工核验合并供应商展示组，同篇去重；不作工商关系认定。 [及刻 / Jike（即刻为用户检索别名）；confirmed_use；mobility] 论文Data availability具名Guangzhou Mengxiang Network Technology Co., Ltd.；及刻官网隐私政策https://www.isjike.com/h-col-128明确广州市梦享网络技术有限公司即及刻。 来源：https://pmc.ncbi.nlm.nih.gov/articles/PMC11462473/",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "commercial_source_dataset",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_catalog_imported": true,
+      "zotero_attachment_verified": false,
+      "primary_source_audit": "全文JATS数据声明及供应商官方隐私政策",
+      "evidence_basis": "user_confirmed_supplier_group",
+      "grouping_basis": "user_confirmed_supplier_group",
+      "member_provider_ids": [
+        "jike"
+      ],
+      "role_statuses": {
+        "mobility": "confirmed_use"
+      },
+      "evidence_roles": [
+        "mobility"
+      ],
+      "evidence": [
+        {
+          "paper_id": "L83",
+          "paper_title": "Do hypothetical and actual service distances align for urban fringe parks? An investigation of Shanghai using big data",
+          "doi": "10.1016/j.heliyon.2024.e37918",
+          "provider_id": "jike",
+          "provider_name": "及刻 / Jike（即刻为用户检索别名）",
+          "status": "confirmed_use",
+          "classification": "confirmed_use",
+          "role": "mobility",
+          "roles": [
+            "mobility"
+          ],
+          "declared_brands": [
+            "Guangzhou Mengxiang Network Technology Co., Ltd.",
+            "及刻 / Jike"
+          ],
+          "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11462473/",
+          "evidence_section": "Data availability；§2.2 Data source and processing",
+          "basis": "论文Data availability具名Guangzhou Mengxiang Network Technology Co., Ltd.；及刻官网隐私政策https://www.isjike.com/h-col-128明确广州市梦享网络技术有限公司即及刻。",
+          "catalog_status": "reviewed",
+          "scope": "phone_location_or_derivative",
+          "data_access_relationship": "commercial_source_dataset",
+          "data_reuse_note": "",
+          "count_unit": "unique_study_not_independent_dataset",
+          "pdf_downloaded": false,
+          "zotero_catalog_imported": true,
+          "zotero_attachment_verified": false,
+          "primary_source_audit": "全文JATS数据声明及供应商官方隐私政策"
+        }
+      ],
+      "evidence_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11462473/"
       ]
     }
   ],
@@ -13837,59 +14121,33 @@
       "primary_source_audit": "第12轮原文数据方法关键段核验"
     },
     {
-      "paper_id": "L55",
-      "paper_title": "融合区域嵌入表示的城市功能区识别方法",
-      "doi": "10.12082/dqxxkx.2025.240484",
+      "paper_id": "L83",
+      "paper_title": "Do hypothetical and actual service distances align for urban fringe parks? An investigation of Shanghai using big data",
+      "doi": "10.1016/j.heliyon.2024.e37918",
       "provider_id": "jike",
       "provider_name": "及刻 / Jike（即刻为用户检索别名）",
-      "status": "unresolved_candidate",
-      "classification": "unresolved_candidate",
-      "role": "unknown",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
       "roles": [
-        "unknown"
+        "mobility"
       ],
       "declared_brands": [
-        "用户关联：及刻 / Jike；原文未具名"
+        "Guangzhou Mengxiang Network Technology Co., Ltd.",
+        "及刻 / Jike"
       ],
-      "evidence_url": "https://www.dqxxkx.cn/CN/10.12082/dqxxkx.2025.240484",
-      "evidence_section": "PDF第7页/印刷430页§3.2",
-      "basis": "用户判断：与已具名及刻研究在城市、时间等口径一致时，关联概率可在95%以上（经验判断，非统计估计）。本篇福州2023-03-06—12被L76福州2023全年范围覆盖；同院关联团队、同基金2023YFB3906804、GPS/WiFi方式相近。L64 Cities为福州2023年1月，非同一采集周。L55原文未具名，尚无同批记录直接证据。",
+      "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11462473/",
+      "evidence_section": "Data availability；§2.2 Data source and processing",
+      "basis": "论文Data availability具名Guangzhou Mengxiang Network Technology Co., Ltd.；及刻官网隐私政策https://www.isjike.com/h-col-128明确广州市梦享网络技术有限公司即及刻。",
       "catalog_status": "reviewed",
-      "scope": "user_assessed_supplier_link_unverified",
-      "data_access_relationship": "unverified",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "commercial_source_dataset",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": true,
-      "zotero_attachment_verified": true,
-      "primary_source_audit": "round13_local_pdf_and_official_html_comparison"
-    },
-    {
-      "paper_id": "L79",
-      "paper_title": "极端天气影响下的人群停留行为时空扰动定量评估",
-      "doi": "10.12082/dqxxkx.2025.240596",
-      "provider_id": "jike",
-      "provider_name": "及刻 / Jike（即刻为用户检索别名）",
-      "status": "unresolved_candidate",
-      "classification": "unresolved_candidate",
-      "role": "unknown",
-      "roles": [
-        "unknown"
-      ],
-      "declared_brands": [
-        "用户关联：及刻 / Jike；原文未具名"
-      ],
-      "evidence_url": "https://www.dqxxkx.cn/CN/abstract/article/1560-8999/72531",
-      "evidence_section": "PDF第7页／印刷1350页，§3.2.1手机位置数据与§3.2.2数据预处理",
-      "basis": "用户2026-10-12依据WiFi+GPS定位口径，将本研究与即刻／及刻（Jike）的关联判断设为99%。这是用户判断，不是统计估计；原文仍未具名供应商。",
-      "catalog_status": "reviewed",
-      "scope": "user_assessed_supplier_link_unverified",
-      "data_access_relationship": "unverified",
-      "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": true,
+      "pdf_downloaded": false,
       "zotero_catalog_imported": true,
-      "zotero_attachment_verified": true,
-      "primary_source_audit": "round13_local_pdf_and_official_html_comparison"
+      "zotero_attachment_verified": false,
+      "primary_source_audit": "全文JATS数据声明及供应商官方隐私政策"
     },
     {
       "paper_id": "L27",
@@ -13994,6 +14252,137 @@
       "count_unit": "unique_study_not_independent_dataset",
       "pdf_downloaded": false,
       "zotero_attachment_verified": false
+    },
+    {
+      "paper_id": "L44",
+      "paper_title": "基于手机定位数据的乡村居民进城就医行为及可达性研究",
+      "doi": "",
+      "provider_id": "pioneer",
+      "provider_name": "先锋数聚 / Pioneer Data",
+      "status": "user_confirmed_use",
+      "classification": "user_confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "泛先锋关联数据"
+      ],
+      "evidence_url": "https://dlgt.cbpt.cnki.net/portal/journal/portal/client/paper/739b0b7e60043a8747dfa5c027f530ee",
+      "evidence_section": "用户分类与简记核对，2026-10-13",
+      "basis": "用户2026-10-13已人工审查并移入Zotero“先锋/摸星/jike数据”，据此纳入04关联研究；原文具名与关联判断分开记录，具体供应商公开证据继续补充。",
+      "catalog_status": "pending",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "user_reviewed",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false
+    },
+    {
+      "paper_id": "L55",
+      "paper_title": "融合区域嵌入表示的城市功能区识别方法",
+      "doi": "10.12082/dqxxkx.2025.240484",
+      "provider_id": "jike",
+      "provider_name": "及刻 / Jike（即刻为用户检索别名）",
+      "status": "user_confirmed_use",
+      "classification": "user_confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "及刻 / Jike"
+      ],
+      "evidence_url": "https://www.dqxxkx.cn/CN/10.12082/dqxxkx.2025.240484",
+      "evidence_section": "用户分类与简记核对，2026-10-13",
+      "basis": "用户2026-10-13已人工审查并移入Zotero“先锋/摸星/jike数据”，据此纳入04关联研究；原文具名与关联判断分开记录，具体供应商公开证据继续补充。用户认为可合并及刻/Jike；此前95%以上属于条件性经验判断。",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "user_reviewed",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true
+    },
+    {
+      "paper_id": "L57",
+      "paper_title": "多尺度视角下的城市旅游流网络结构特征分析——以长沙市为例",
+      "doi": "10.12082/dqxxkx.2025.240586",
+      "provider_id": "pioneer",
+      "provider_name": "先锋数聚 / Pioneer Data",
+      "status": "user_confirmed_use",
+      "classification": "user_confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "泛先锋关联数据"
+      ],
+      "evidence_url": "https://www.dqxxkx.cn/CN/10.12082/dqxxkx.2025.240586",
+      "evidence_section": "用户分类与简记核对，2026-10-13",
+      "basis": "用户2026-10-13已人工审查并移入Zotero“先锋/摸星/jike数据”，据此纳入04关联研究；原文具名与关联判断分开记录，具体供应商公开证据继续补充。",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "user_reviewed",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false
+    },
+    {
+      "paper_id": "L78",
+      "paper_title": "上海环城大型公园游憩服务效用评价及规划启示",
+      "doi": "10.16361/j.upf.202406004",
+      "provider_id": "jike",
+      "provider_name": "及刻 / Jike（即刻为用户检索别名）",
+      "status": "user_confirmed_use",
+      "classification": "user_confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "及刻 / Jike（关联判断）"
+      ],
+      "evidence_url": "https://upforum.wupen.org/Assets/userfiles/files/issues/2024/2024-06/%E4%B8%87%E4%BA%BF.pdf",
+      "evidence_section": "用户分类与简记核对，2026-10-13",
+      "basis": "用户2026-10-13已人工审查并移入Zotero“先锋/摸星/jike数据”，据此纳入04关联研究；原文具名与关联判断分开记录，具体供应商公开证据继续补充。 新增Heliyon论文L83直接具名梦享/及刻；两篇同上海760万用户底库、Android、2–30m精度及23PJC027/JKZ02232202资助，2020年10月时段部分重叠。公园数、样本人数与记录量不同，不能认定全样本完全相同。",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "user_reviewed",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false
+    },
+    {
+      "paper_id": "L79",
+      "paper_title": "极端天气影响下的人群停留行为时空扰动定量评估",
+      "doi": "10.12082/dqxxkx.2025.240596",
+      "provider_id": "jike",
+      "provider_name": "及刻 / Jike（即刻为用户检索别名）",
+      "status": "user_confirmed_use",
+      "classification": "user_confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "及刻 / Jike"
+      ],
+      "evidence_url": "https://www.dqxxkx.cn/CN/abstract/article/1560-8999/72531",
+      "evidence_section": "用户分类与简记核对，2026-10-13",
+      "basis": "用户2026-10-13已人工审查并移入Zotero“先锋/摸星/jike数据”，据此纳入04关联研究；原文具名与关联判断分开记录，具体供应商公开证据继续补充。保留用户99%经验判断，非统计估计。",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "user_reviewed",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_catalog_imported": true,
+      "zotero_attachment_verified": true
     }
   ],
   "methodology": {
@@ -14042,20 +14431,20 @@
   "counts": {
     "catalog_studies": 149,
     "provider_nodes": 35,
-    "associations": 143,
-    "unique_studies_with_association": 119,
-    "unassigned_studies": 30,
+    "associations": 147,
+    "unique_studies_with_association": 122,
+    "unassigned_studies": 27,
     "association_counts_by_status": {
-      "confirmed_use": 69,
-      "user_confirmed_use": 28,
+      "confirmed_use": 70,
+      "user_confirmed_use": 33,
       "mention_only": 2,
-      "unresolved_candidate": 44
+      "unresolved_candidate": 42
     },
     "unique_studies_by_status": {
-      "confirmed_use": 60,
-      "user_confirmed_use": 25,
+      "confirmed_use": 61,
+      "user_confirmed_use": 30,
       "mention_only": 2,
-      "unresolved_candidate": 35
+      "unresolved_candidate": 33
     }
   },
   "linked_ecosystems": [
@@ -14094,12 +14483,6 @@
       "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
     },
     {
-      "paper_id": "L44",
-      "title": "基于手机定位数据的乡村居民进城就医行为及可达性研究",
-      "doi": "",
-      "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
-    },
-    {
       "paper_id": "L46",
       "title": "先验与数据双引导的城市居民活动强度预测模型",
       "doi": "10.12082/dqxxkx.2025.250198",
@@ -14124,18 +14507,6 @@
       "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
     },
     {
-      "paper_id": "L51",
-      "title": "利用轨迹数据计算典型人类活动空间特征的时间聚合效应",
-      "doi": "10.13249/j.cnki.sgs.20241458",
-      "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
-    },
-    {
-      "paper_id": "L52",
-      "title": "The effect of temporal sampling intervals on typical human mobility indicators obtained from mobile phone location data",
-      "doi": "10.1080/13658816.2019.1584805",
-      "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
-    },
-    {
       "paper_id": "L60",
       "title": "Urban building-level positioning using data-driven algorithms enhanced by spatial variations in sensor features",
       "doi": "10.1080/17538947.2025.2512410",
@@ -14151,18 +14522,6 @@
       "paper_id": "L62",
       "title": "Social inequality of urban park use during the COVID-19 pandemic",
       "doi": "10.1057/s41599-023-01918-1",
-      "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
-    },
-    {
-      "paper_id": "L65",
-      "title": "Dynamic Assessment of Spatiotemporal Population Distribution Based on Mobile Phone Data: A Case Study in Xining City, China",
-      "doi": "10.1007/s13753-023-00480-3",
-      "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
-    },
-    {
-      "paper_id": "L66",
-      "title": "Rapid Assessment of Severely Affected Earthquake Areas Using Mobile Signaling Data and a Random Forest Approach",
-      "doi": "10.1007/s13753-025-00684-9",
       "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
     },
     {
@@ -14184,9 +14543,21 @@
       "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
     },
     {
-      "paper_id": "L78",
-      "title": "上海环城大型公园游憩服务效用评价及规划启示",
-      "doi": "10.16361/j.upf.202406004",
+      "paper_id": "L84",
+      "title": "How job-housing relocations reshape mobility? Evidence from smartphone positioning data",
+      "doi": "10.1016/j.tbs.2026.101363",
+      "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
+    },
+    {
+      "paper_id": "L85",
+      "title": "Measuring carbon mitigation potential from a network perspective: Evidence from Changsha",
+      "doi": "10.1016/j.trd.2026.105539",
+      "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
+    },
+    {
+      "paper_id": "L86",
+      "title": "“站”与“城”融合发展的规划思考：影响因素、实践误区和类型差异",
+      "doi": "10.11982/j.supr.20250106",
       "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
     },
     {

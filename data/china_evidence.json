@@ -5675,6 +5675,17 @@
           "source_ids": [
             "CN-S47"
           ]
+        },
+        {
+          "title": "“站”与“城”融合发展的规划思考：影响因素、实践误区和类型差异",
+          "year": 2025,
+          "journal": "上海城市规划",
+          "doi": "10.11982/j.supr.20250106",
+          "provider": "未具名；待正文核实",
+          "type": "期刊论文",
+          "catalog_id": "L86",
+          "url": "https://www.shplanning.com.cn/archive/detail/id/1435.html",
+          "data_statement": "以长三角50个枢纽为研究对象，按轨迹、停留及目的地划分客群；另将LBS分析与现场访谈结合追踪虹桥客群演变。"
         }
       ],
       "studies": [
@@ -5714,6 +5725,25 @@
           "provider_attribution_status": "undisclosed",
           "institution_mapping": "孙娟：清华建筑学院工程博士、中规院上海分院院长；葛春晖：同济工程博士、中规院上海分院副总规划师；郭祖源、尹泺枫、王行健：上海分院规划一所。",
           "research_scope": "pioneer_candidate"
+        },
+        {
+          "id": "CAUPD-SUN-GE-R16-L86",
+          "title": "铁路枢纽站城融合与客群分型",
+          "summary": "与L41共享5名作者、50个长三角枢纽范围和客群分型方法，并引用L41。以上支持研究延续性，不足以证明同一供应商、同一批原始数据。",
+          "outputs": [
+            {
+              "title": "“站”与“城”融合发展的规划思考：影响因素、实践误区和类型差异",
+              "year": 2025,
+              "journal": "上海城市规划",
+              "doi": "10.11982/j.supr.20250106",
+              "provider": "未具名；待正文核实",
+              "type": "期刊论文",
+              "catalog_id": "L86",
+              "url": "https://www.shplanning.com.cn/archive/detail/id/1435.html",
+              "data_statement": "以长三角50个枢纽为研究对象，按轨迹、停留及目的地划分客群；另将LBS分析与现场访谈结合追踪虹桥客群演变。"
+            }
+          ],
+          "source_ids": []
         }
       ],
       "procurements": [],
@@ -5823,6 +5853,28 @@
           "research_scope": "pioneer_candidate",
           "pdf_downloaded": false,
           "zotero_attachment_verified": false
+        },
+        {
+          "title": "How job-housing relocations reshape mobility? Evidence from smartphone positioning data",
+          "year": 2026,
+          "journal": "Travel Behaviour and Society",
+          "doi": "10.1016/j.tbs.2026.101363",
+          "provider": "未具名；待正文核实",
+          "type": "期刊论文",
+          "catalog_id": "L84",
+          "url": "https://www.sciencedirect.com/science/article/pii/S2214367X26001328",
+          "data_statement": "出版社摘要明确长沙2023和2024年高精度智能手机定位数据，用于识别居住地与工作地迁移。"
+        },
+        {
+          "title": "Measuring carbon mitigation potential from a network perspective: Evidence from Changsha",
+          "year": 2026,
+          "journal": "Transportation Research Part D: Transport and Environment",
+          "doi": "10.1016/j.trd.2026.105539",
+          "provider": "未具名；待正文核实",
+          "type": "期刊论文",
+          "catalog_id": "L85",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1361920926003329",
+          "data_statement": "出版社摘要明确在长沙融合手机数据与车牌识别数据；手机数据供应商和采集方式未在可读摘要中披露。"
         }
       ],
       "studies": [
@@ -5933,6 +5985,44 @@
           ],
           "research_scope": "pioneer_candidate",
           "round10_record": true
+        },
+        {
+          "id": "CSU-WANG-PU-R16-L84",
+          "title": "职住迁移与个人活动空间、出行频次和停留行为",
+          "summary": "同一团队、同一城市且2023年覆盖时间重叠，属于值得核验的关联线索；不能推断2024数据或品牌必然相同。",
+          "outputs": [
+            {
+              "title": "How job-housing relocations reshape mobility? Evidence from smartphone positioning data",
+              "year": 2026,
+              "journal": "Travel Behaviour and Society",
+              "doi": "10.1016/j.tbs.2026.101363",
+              "provider": "未具名；待正文核实",
+              "type": "期刊论文",
+              "catalog_id": "L84",
+              "url": "https://www.sciencedirect.com/science/article/pii/S2214367X26001328",
+              "data_statement": "出版社摘要明确长沙2023和2024年高精度智能手机定位数据，用于识别居住地与工作地迁移。"
+            }
+          ],
+          "source_ids": []
+        },
+        {
+          "id": "CSU-WANG-PU-R16-L85",
+          "title": "社区出行减碳潜力、绿色出行需求与碳排放网络",
+          "summary": "多名作者与既有城市游客论文重合，且同在长沙，形成作者/研究地关联；定位方式未明，不能以手机数据措辞直接确认为SDK。",
+          "outputs": [
+            {
+              "title": "Measuring carbon mitigation potential from a network perspective: Evidence from Changsha",
+              "year": 2026,
+              "journal": "Transportation Research Part D: Transport and Environment",
+              "doi": "10.1016/j.trd.2026.105539",
+              "provider": "未具名；待正文核实",
+              "type": "期刊论文",
+              "catalog_id": "L85",
+              "url": "https://www.sciencedirect.com/science/article/pii/S1361920926003329",
+              "data_statement": "出版社摘要明确在长沙融合手机数据与车牌识别数据；手机数据供应商和采集方式未在可读摘要中披露。"
+            }
+          ],
+          "source_ids": []
         }
       ],
       "procurements": [],
@@ -6626,6 +6716,26 @@
           ],
           "research_scope": "pioneer_candidate",
           "round12_record": true
+        },
+        {
+          "id": "ECUST-WAN-R16-L83",
+          "title": "城市边缘公园实际服务距离",
+          "summary": "英文论文具名梦享/及刻，与中文环城公园研究形成交叉验证。",
+          "outputs": [
+            {
+              "title": "Do hypothetical and actual service distances align for urban fringe parks? An investigation of Shanghai using big data",
+              "doi": "10.1016/j.heliyon.2024.e37918",
+              "year": 2024,
+              "journal": "Heliyon",
+              "provider": "Jike / 及刻（Guangzhou Mengxiang Network Technology Co., Ltd.／广州市梦享网络技术有限公司）",
+              "type": "期刊论文",
+              "catalog_id": "L83",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11462473/",
+              "data_statement": "§2.2：2020-10-15至2020-10-29，上海760万用户底库（约30%手机用户）；样本2.5万用户、3万次公园访问、约650万记录；字段含uuid、居住经纬度、公园名称及到访时间。Android LBS精度2–30m；Data availability明确原始数据商业提供方Guangzhou Mengxiang Network Technology Co., Ltd.。",
+              "bibliographic_note": "赵民并非本篇作者；万亿在Acknowledgments感谢Prof. Min Zhao at Tongji University的讨论。万亿同时列华东理工大学和同济大学单位。"
+            }
+          ],
+          "source_ids": []
         }
       ],
       "outputs": [
@@ -6644,6 +6754,18 @@
           ],
           "research_scope": "pioneer_candidate",
           "round12_record": true
+        },
+        {
+          "title": "Do hypothetical and actual service distances align for urban fringe parks? An investigation of Shanghai using big data",
+          "doi": "10.1016/j.heliyon.2024.e37918",
+          "year": 2024,
+          "journal": "Heliyon",
+          "provider": "Jike / 及刻（Guangzhou Mengxiang Network Technology Co., Ltd.／广州市梦享网络技术有限公司）",
+          "type": "期刊论文",
+          "catalog_id": "L83",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11462473/",
+          "data_statement": "§2.2：2020-10-15至2020-10-29，上海760万用户底库（约30%手机用户）；样本2.5万用户、3万次公园访问、约650万记录；字段含uuid、居住经纬度、公园名称及到访时间。Android LBS精度2–30m；Data availability明确原始数据商业提供方Guangzhou Mengxiang Network Technology Co., Ltd.。",
+          "bibliographic_note": "赵民并非本篇作者；万亿在Acknowledgments感谢Prof. Min Zhao at Tongji University的讨论。万亿同时列华东理工大学和同济大学单位。"
         }
       ],
       "procurements": [],

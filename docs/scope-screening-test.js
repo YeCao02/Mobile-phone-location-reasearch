@@ -6,10 +6,10 @@ assert.equal(sets.reduce((n,s)=>n+s.size,0),data.papers.length);assert.equal(new
 const use=data.provider_usage.associations;
 assert(sets[1].size>0);for(const id of sets[1])assert(use.some(a=>a.paper_id===id&&a.provider_id==='pioneer_moxing_jike'&&['confirmed_use','user_confirmed_use'].includes(a.status)));
 for(const id of sets[0])assert(use.some(a=>a.paper_id===id&&data.browse.analog_provider_ids.includes(a.provider_id)&&['confirmed_use','user_confirmed_use'].includes(a.status)&&(a.roles||[a.role]).some(r=>['mobility','mixed_mobility','platform_aggregate','demographic_profile'].includes(r))));
-for(const id of ['L30','L32','L35','L37','L38','L45','L49','L52','L53','L54','L56','L70'])assert(sets[3].has(id));
-for(const id of ['L55','L57'])assert(sets[2].has(id),'Confirmed auxiliary POI supplier must not conceal unknown mobility supplier');
+for(const id of ['L30','L32','L35','L37','L38','L45','L49','L53','L54','L56','L70'])assert(sets[3].has(id));
+for(const id of ['L55','L57'])assert(sets[1].has(id),'User confirmation moves associated studies into 04, separately from auxiliary POI evidence');
 for(const id of ['L81','L82'])assert(sets[0].has(id));
-for(const id of ['L78','L79'])assert(sets[2].has(id));
+for(const id of ['L44','L78','L79'])assert(sets[1].has(id));
 // Round 13: source audits promote only the five named supplier studies.
 for(const id of ['P25D34630','P3239D548','PD4F8B912','PEEE72CD1','P3881BAD2']) {
   assert(sets[0].has(id), `${id} must appear in 03 after its official full-text audit`);
@@ -34,7 +34,7 @@ for(const id of ['P25D34630','P3239D548','PD4F8B912','PEEE72CD1','P3881BAD2'])as
 assert(use.some(a=>a.paper_id==='L80'&&a.role==='platform_aggregate'));
 assert(data.papers.find(p=>p.id==='L80').zotero_attachment_verified);
 assert(!data.papers.find(p=>p.id==='L81').pdf_downloaded);
-assert.equal(data.excluded_papers.length,5);
+assert.equal(data.excluded_papers.length,9);for(const id of ['L51','L52','L65','L66'])assert(data.excluded_papers.some(p=>p.id===id));
 console.log('PASS scope: exclusive paper categories, evidence-backed 04, auxiliary POI preserved in 06, known boundaries omitted, original archives intact.');
 
 for(const id of ['L27','L28','L34','L59']) { assert(sets[1].has(id)); assert(!sets[2].has(id)); assert.equal(data.papers.find(p=>p.id===id).user_review_status,'pioneer_confirmed'); assert(!data.papers.find(p=>p.id===id).source_confirmed); }

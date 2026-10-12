@@ -816,41 +816,6 @@
       "next_action": "当前关键段审读完成，按需补充附件细读"
     },
     {
-      "id": "L51",
-      "title": "利用轨迹数据计算典型人类活动空间特征的时间聚合效应",
-      "doi": "10.13249/j.cnki.sgs.20241458",
-      "journal": "地理科学",
-      "catalog_status": "reviewed",
-      "status": [
-        "current_review_complete"
-      ],
-      "needs_fulltext_review": false,
-      "pdf_acquisition": false,
-      "pdf_verified": true,
-      "source_urls": [
-        "https://doi.org/10.13249/j.cnki.sgs.20241458"
-      ],
-      "next_action": "当前关键段审读完成，按需补充附件细读"
-    },
-    {
-      "id": "L52",
-      "title": "The effect of temporal sampling intervals on typical human mobility indicators obtained from mobile phone location data",
-      "doi": "10.1080/13658816.2019.1584805",
-      "journal": "International Journal of Geographical Information Science",
-      "catalog_status": "reviewed",
-      "status": [
-        "current_review_complete"
-      ],
-      "needs_fulltext_review": false,
-      "pdf_acquisition": false,
-      "pdf_verified": true,
-      "source_urls": [
-        "https://hpcc.siat.ac.cn/group/pub/s3/10%202019%20The%20effect%20of%20temporal%20sampling%20intervals%20on%20typical%20human%20mobility%20indicators%20obtained%20from%20mobile%20phone%20location%20data.pdf",
-        "https://doi.org/10.1080/13658816.2019.1584805"
-      ],
-      "next_action": "当前关键段审读完成，按需补充附件细读"
-    },
-    {
       "id": "L53",
       "title": "Indoor Location Prediction Method for Shopping Malls Based on Location Sequence Similarity",
       "doi": "10.3390/ijgi8110517",
@@ -1063,42 +1028,6 @@
       "source_urls": [
         "https://www.sciencedirect.com/science/article/pii/S0264275126002155",
         "https://doi.org/10.1016/j.cities.2026.106983"
-      ],
-      "next_action": "当前关键段审读完成，按需补充附件细读"
-    },
-    {
-      "id": "L65",
-      "title": "Dynamic Assessment of Spatiotemporal Population Distribution Based on Mobile Phone Data: A Case Study in Xining City, China",
-      "doi": "10.1007/s13753-023-00480-3",
-      "journal": "International Journal of Disaster Risk Science",
-      "catalog_status": "reviewed",
-      "status": [
-        "current_review_complete"
-      ],
-      "needs_fulltext_review": false,
-      "pdf_acquisition": false,
-      "pdf_verified": true,
-      "source_urls": [
-        "https://link.springer.com/article/10.1007/s13753-023-00480-3",
-        "https://doi.org/10.1007/s13753-023-00480-3"
-      ],
-      "next_action": "当前关键段审读完成，按需补充附件细读"
-    },
-    {
-      "id": "L66",
-      "title": "Rapid Assessment of Severely Affected Earthquake Areas Using Mobile Signaling Data and a Random Forest Approach",
-      "doi": "10.1007/s13753-025-00684-9",
-      "journal": "International Journal of Disaster Risk Science",
-      "catalog_status": "reviewed",
-      "status": [
-        "current_review_complete"
-      ],
-      "needs_fulltext_review": false,
-      "pdf_acquisition": false,
-      "pdf_verified": true,
-      "source_urls": [
-        "https://link.springer.com/article/10.1007/s13753-025-00684-9",
-        "https://doi.org/10.1007/s13753-025-00684-9"
       ],
       "next_action": "当前关键段审读完成，按需补充附件细读"
     },
@@ -1388,6 +1317,80 @@
         "https://doi.org/10.1371/journal.pone.0235732"
       ],
       "next_action": "当前关键段审读完成，按需补充附件细读"
+    },
+    {
+      "id": "L84",
+      "title": "How job-housing relocations reshape mobility? Evidence from smartphone positioning data",
+      "doi": "10.1016/j.tbs.2026.101363",
+      "journal": "Travel Behaviour and Society",
+      "catalog_status": "reviewed",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S2214367X26001328",
+        "https://doi.org/10.1016/j.tbs.2026.101363"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "L85",
+      "title": "Measuring carbon mitigation potential from a network perspective: Evidence from Changsha",
+      "doi": "10.1016/j.trd.2026.105539",
+      "journal": "Transportation Research Part D: Transport and Environment",
+      "catalog_status": "reviewed",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S1361920926003329",
+        "https://doi.org/10.1016/j.trd.2026.105539"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "L86",
+      "title": "“站”与“城”融合发展的规划思考：影响因素、实践误区和类型差异",
+      "doi": "10.11982/j.supr.20250106",
+      "journal": "上海城市规划",
+      "catalog_status": "reviewed",
+      "status": [
+        "current_review_complete"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://www.shplanning.com.cn/archive/detail/id/1435.html",
+        "https://doi.org/10.11982/j.supr.20250106"
+      ],
+      "next_action": "当前关键段审读完成，按需补充附件细读"
+    },
+    {
+      "id": "L83",
+      "title": "Do hypothetical and actual service distances align for urban fringe parks? An investigation of Shanghai using big data",
+      "doi": "10.1016/j.heliyon.2024.e37918",
+      "journal": "Heliyon",
+      "catalog_status": "reviewed",
+      "status": [
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S2405844024139497",
+        "https://doi.org/10.1016/j.heliyon.2024.e37918"
+      ],
+      "next_action": "经出版商/作者机构/学校授权渠道获取PDF并核对身份"
     },
     {
       "id": "P240AD96D",

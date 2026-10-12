@@ -1663,7 +1663,7 @@
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
       "scope_tag": "reviewed_application_candidate",
       "research_scope": "pioneer_user_confirmed",
-      "scope_reason": "保留检索候选；供方身份需独立核验。",
+      "scope_reason": "用户已确认关联分类，纳入04；原文具名与间接关联证据分开记录。",
       "zotero_catalog_present": true,
       "zotero_pdf_present": true,
       "zotero_reconciled_at": "2026-10-13",
@@ -1735,7 +1735,7 @@
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
       "scope_tag": "reviewed_application_candidate",
       "research_scope": "pioneer_user_confirmed",
-      "scope_reason": "保留检索候选；供方身份需独立核验。",
+      "scope_reason": "用户已确认关联分类，纳入04；原文具名与间接关联证据分开记录。",
       "zotero_catalog_present": true,
       "zotero_pdf_present": true,
       "zotero_reconciled_at": "2026-10-13",
@@ -2241,7 +2241,7 @@
       ],
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
       "research_scope": "pioneer_user_confirmed",
-      "scope_reason": "保留检索候选；供方身份需独立核验。",
+      "scope_reason": "用户已确认关联分类，纳入04；原文具名与间接关联证据分开记录。",
       "zotero_catalog_present": true,
       "zotero_pdf_present": true,
       "zotero_reconciled_at": "2026-10-13",
@@ -2858,7 +2858,7 @@
       ],
       "team": "孙娟 / 葛春晖；中规院上海分院规划一所",
       "institution_mapping": "孙娟：清华建筑学院工程博士、中规院上海分院院长；葛春晖：同济工程博士、中规院上海分院副总规划师；郭祖源、尹泺枫、王行健：上海分院规划一所。",
-      "provider": "未披露的LBS全出行链供方",
+      "provider": "泛先锋关联疑似（80%，用户判断；原文未具名）",
       "scope_tag": "high_resolution_lbs_supplier_and_sensor_unresolved",
       "application": "高铁枢纽客群画像、活动链、枢纽发展类型与核心空间",
       "data_declaration": "方法采用长三角LBS全过程出行链；平台含约7200万人次客群信息与性别、年龄、收入、教育、场景标签；作者称可作米级、分钟间隔跟踪。精度和标签相似性不构成SDK或目标供方证明。",
@@ -2890,7 +2890,7 @@
       "access_status": "local_pdf_methods_verified",
       "provider_evidence_status": "undisclosed",
       "legacy_provider_claims": [],
-      "review_date": "2026-10-10",
+      "review_date": "2026-10-13",
       "origins": [
         "2026-10-10审读台账"
       ],
@@ -2905,7 +2905,10 @@
       ],
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
       "research_scope": "pioneer_candidate",
-      "scope_reason": "保留检索候选；供方身份需独立核验。",
+      "scope_reason": "80%疑似；尚未确认具名供方。",
+      "user_review_status": "pioneer_candidate",
+      "user_assessed_confidence": 0.8,
+      "provider_confirmation_basis": "用户2026-10-13估计约80%可能为泛先锋相关数据；属于经验判断，不是统计概率。保持06候选，沿作者关联论文及单位采购公示补证。",
       "download_queue_status": [
         "current_review_complete"
       ]
@@ -3090,11 +3093,11 @@
       ],
       "team": "王璞 / 庞腾达 / 李胜楠 / 柯日宏",
       "institution_mapping": "原刊列四个机构，页面未呈现逐作者上标，不能逐人强配；通讯信息指向王璞中南大学。",
-      "provider": "手机定位数据供方未披露（当前仅核摘要）",
+      "provider": "泛先锋关联数据（用户确认分类；具体供方待补证）",
       "scope_tag": "mobile_location_unspecified_pending_fulltext",
       "application": "长沙乡村就医出行链、医院选择、改进两步移动搜索可达性",
-      "data_declaration": "摘要说明从长沙手机定位数据识别居住地、医院AOI及就医出行链；没有SDK、GPS、WiFi或供应商名称。",
-      "evidence_section": "原刊2026-05-25在线页面：摘要、作者机构、基金",
+      "data_declaration": "用户Zotero简记摘录原文：2023年5月长沙约424万匿名用户、44.58亿条位置记录，含脱敏ID、经纬度和时间。按24个小时窗口筛选每天至少12窗口有记录者，约70万用户，平均每21分钟记录一次。原文供应商名称尚未找到。",
+      "evidence_section": "用户提供原文摘录（Zotero简记，2026-10-13）；本轮未重新取得页码",
       "evidence_url": "https://dlgt.cbpt.cnki.net/portal/journal/portal/client/paper/739b0b7e60043a8747dfa5c027f530ee",
       "funding": [
         "24A0016",
@@ -3123,9 +3126,9 @@
       "source_confirmed": false,
       "sensor_mix": "传感器组成未逐点核实，不能排除蜂窝辅助或信令融合",
       "access_status": "metadata_or_abstract_read_fulltext_pending",
-      "provider_evidence_status": "pending_fulltext",
+      "provider_evidence_status": "user_confirmed",
       "legacy_provider_claims": [],
-      "review_date": "2026-10-10",
+      "review_date": "2026-10-13",
       "origins": [
         "2026-10-10审读台账"
       ],
@@ -3140,8 +3143,13 @@
         "计算方法与数据基础设施"
       ],
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
-      "research_scope": "pioneer_candidate",
-      "scope_reason": "保留检索候选；供方身份需独立核验。",
+      "research_scope": "pioneer_user_confirmed",
+      "scope_reason": "用户已确认关联分类，纳入04；原文具名与间接关联证据分开记录。",
+      "user_review_status": "pioneer_confirmed",
+      "provider_confirmation_basis": "用户2026-10-13已人工审查并移入Zotero“先锋/摸星/jike数据”，据此纳入04关联研究；原文具名与关联判断分开记录，具体供应商公开证据继续补充。",
+      "zotero_catalog_present": true,
+      "zotero_reconciled_at": "2026-10-13",
+      "notes": "",
       "download_queue_status": [
         "needs_fulltext_review",
         "pdf_acquisition"
@@ -3904,7 +3912,7 @@
       "next_action": "从地理科学/CNKI网络首发入口按准确题名与DOI查找正文及数据声明。",
       "round8_source_id": "R7F-C05",
       "curated_evidence": true,
-      "review_date": "2026-10-12",
+      "review_date": "2026-10-13",
       "legacy_provider_claims": [],
       "application": "轨迹时间聚合与活动空间指标",
       "catalog_status": "reviewed",
@@ -3926,7 +3934,7 @@
       "funding": [],
       "supplier_relationship_group": "",
       "research_scope": "volunteer_gps_boundary",
-      "scope_reason": "单名志愿者GPS长时序实验，非商业多App SDK人群定位供数案例，移出泛先锋候选，保留方法背景。",
+      "scope_reason": "用户明确排除该时间采样/聚合研究，不再追查。",
       "origins": [
         "2026-10-10审读台账"
       ],
@@ -3955,8 +3963,11 @@
       "zotero_catalog_present": true,
       "zotero_pdf_present": true,
       "zotero_reconciled_at": "2026-10-13",
+      "excluded_from_active": true,
+      "user_review_status": "excluded_by_user",
+      "scope_decision_basis": "用户明确指令，2026-10-13",
       "download_queue_status": [
-        "current_review_complete"
+        "excluded_by_user"
       ]
     },
     {
@@ -4127,7 +4138,7 @@
       "next_action": "利用学校T&F机构访问取得正文与正式SI；当前无需等待下载即可依据原始方法段将其列为基站边界。",
       "round8_source_id": "R7F-C06",
       "curated_evidence": true,
-      "review_date": "2026-10-12",
+      "review_date": "2026-10-13",
       "legacy_provider_claims": [],
       "application": "轨迹采样间隔对移动性指标的影响",
       "catalog_status": "reviewed",
@@ -4156,7 +4167,7 @@
       ],
       "supplier_relationship_group": "",
       "research_scope": "carrier_boundary",
-      "scope_reason": "原始方法证据为电信事件/服务基站定位，单列边界，不归商业SDK核心。",
+      "scope_reason": "用户明确排除该时间采样/聚合研究，不再追查。",
       "pdf_pages": 26,
       "pdf_sha256": "e2a131a198bceef2e0e6e49d6a7ead99b8fdf26524dbd87182dfae4ce49374d0",
       "pdf_validation": {
@@ -4181,8 +4192,11 @@
       "zotero_catalog_present": true,
       "zotero_pdf_present": true,
       "zotero_reconciled_at": "2026-10-13",
+      "excluded_from_active": true,
+      "user_review_status": "excluded_by_user",
+      "scope_decision_basis": "用户明确指令，2026-10-13",
       "download_queue_status": [
-        "current_review_complete"
+        "excluded_by_user"
       ]
     },
     {
@@ -4467,7 +4481,7 @@
       "fulltext_read": true,
       "source_confirmed": false,
       "sdk_explicit": false,
-      "provider": "及刻 / Jike（高概率关联；原文未具名），高德仅提供POI",
+      "provider": "及刻 / Jike（用户确认关联；原文未具名）",
       "publication_type": "journal_article",
       "existing_catalog_matches": [],
       "verified_on": "2026-10-11",
@@ -4529,15 +4543,15 @@
         "evidence_url": "https://www.dqxxkx.cn/EN/abstract/article/1560-8999/70375",
         "description": "已核原刊完整HTML及17页PDF，无独立补充/附件/附录入口；不以此绝对断言未发布SI。图件ZIP及生成PPT属于正文插图导出，不当作研究补充。"
       },
-      "notes": "乒乓点清洗不等于运营商来源；明确GPS/WIFI/蓝牙胜于术语联想。原文未提供商户品牌/SDK声明，不能归给先锋/摸星/及刻。",
+      "notes": "乒乓点清洗不等于运营商来源；明确GPS/WIFI/蓝牙胜于术语联想。原文未提供商户品牌/SDK声明，用户已确认关联及刻/Jike，原文未具名的事实单列保留。",
       "round8_source_id": "R7F-C09",
       "curated_evidence": true,
-      "review_date": "2026-10-12",
+      "review_date": "2026-10-13",
       "legacy_provider_claims": [],
       "methods_read": true,
       "full_text_checked": true,
       "app_collection_confirmed": false,
-      "provider_evidence_status": "undisclosed",
+      "provider_evidence_status": "user_confirmed",
       "provider_attribution_status": "undisclosed",
       "product": "匿名手机时空记录",
       "data_form": "匿名手机时空记录",
@@ -4546,8 +4560,8 @@
       "access_status": "local_pdf_identity_and_data_methods_verified",
       "publisher_metadata_verified": true,
       "supplier_relationship_group": "",
-      "research_scope": "pioneer_candidate",
-      "scope_reason": "高优先级及刻关联候选；同城且研究时间落在具名及刻数据覆盖期内，原文仍未具名。",
+      "research_scope": "pioneer_user_confirmed",
+      "scope_reason": "用户已确认关联分类，纳入04；原文具名与间接关联证据分开记录。",
       "pdf_source_url": "https://www.dqxxkx.cn/EN/PDF/10.12082/dqxxkx.2025.240484",
       "pdf_sha256": "81fa65f54ea73dcf77c17415d55e8a3ce979755e05108739983592444e2f6c5e",
       "pdf_pages": 17,
@@ -4564,10 +4578,11 @@
         "地理与时空行为（待细分）"
       ],
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
-      "provider_confirmation_basis": "用户判断：与已具名及刻研究在城市、时间等口径一致时，关联概率可在95%以上（经验判断，非统计估计）。本篇福州2023-03-06—12被L76福州2023全年范围覆盖；同院关联团队、同基金2023YFB3906804、GPS/WiFi方式相近。L64 Cities为福州2023年1月，非同一采集周。L55原文未具名，尚无同批记录直接证据。",
+      "provider_confirmation_basis": "用户2026-10-13已人工审查并移入Zotero“先锋/摸星/jike数据”，据此纳入04关联研究；原文具名与关联判断分开记录，具体供应商公开证据继续补充。用户认为可合并及刻/Jike；此前95%以上属于条件性经验判断。",
       "zotero_catalog_present": true,
       "zotero_pdf_present": true,
       "zotero_reconciled_at": "2026-10-13",
+      "user_review_status": "pioneer_confirmed",
       "download_queue_status": [
         "current_review_complete"
       ]
@@ -4702,10 +4717,10 @@
         "轨道交通大数据湖南省重点实验室"
       ],
       "team": "王璞团队",
-      "provider": "未具名手机通讯服务运营商（正文明确SDK采集）；百度提供POI/AOI",
+      "provider": "泛先锋关联数据（用户确认分类；具体供方待补证）",
       "provider_source_form": "手机通讯服务运营商通过软件开发工具包（Software Development Kit，SDK）采集",
       "source_confirmed": false,
-      "provider_evidence_status": "undisclosed",
+      "provider_evidence_status": "user_confirmed",
       "provider_attribution_status": "sdk_explicit_supplier_undisclosed",
       "app_collection_confirmed": true,
       "sdk_explicit": true,
@@ -4732,15 +4747,15 @@
       "curated_evidence": true,
       "publisher_metadata_verified": true,
       "scope_tag": "sdk_explicit_supplier_undisclosed",
-      "research_scope": "pioneer_candidate",
-      "scope_reason": "SDK采集与匿名高精度坐标明确，服务商未具名；不能把运营商措辞自动当三大通信运营商来源。",
+      "research_scope": "pioneer_user_confirmed",
+      "scope_reason": "用户已确认关联分类，纳入04；原文具名与间接关联证据分开记录。",
       "funding": [
         "71871224",
         "2022JJ10077"
       ],
       "notes": "与L44共享中南大学王璞团队和基金71871224；共同基金不构成相同供方证明。百度仅景区地理底图，不归为手机轨迹供方。",
       "access_status": "publisher_pdf_identity_and_methods_verified",
-      "review_date": "2026-10-11",
+      "review_date": "2026-10-13",
       "verified_on": "2026-10-11",
       "legacy_provider_claims": [],
       "supplementary": {
@@ -4775,6 +4790,10 @@
         "地理与时空行为（待细分）"
       ],
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
+      "user_review_status": "pioneer_confirmed",
+      "provider_confirmation_basis": "用户2026-10-13已人工审查并移入Zotero“先锋/摸星/jike数据”，据此纳入04关联研究；原文具名与关联判断分开记录，具体供应商公开证据继续补充。 与L59的长沙2023年5月、707万用户、约78/78.5亿条、43分钟间隔吻合，支持数据批次关联；尚无具名品牌直证。",
+      "zotero_catalog_present": true,
+      "zotero_reconciled_at": "2026-10-13",
       "download_queue_status": [
         "current_review_complete"
       ]
@@ -4881,7 +4900,7 @@
       "institution": "中南大学",
       "team": "王璞团队",
       "provider": "泛先锋关联数据（用户已确认；原文未具名）",
-      "data_declaration": "§3.1.2明确手机SDK，经同意安装；长沙2023年5月，含劳动节5月1–3日。居民424万人44.6亿条，访客707万人78.5亿条；约30–50米、平均43分钟；12.9%记录通过手机WiFi接收器连接POI路由器附加POI标签。百度AOI是独立辅助源。 正文 §3.1.2 明确 SDK 及授权；主代理已在出版社 HTML 核实 WiFi 记录占 12.9%。本地官方 SI §2.1 确认 30–50 m 定位误差、平均每 43 分钟记录一次；§2.3 明确居民和访客均通过设备上同一 SDK 服务采集。正文与 SI 已读相关段均未指名供应商，不归先锋/摸星/及刻。",
+      "data_declaration": "§3.1.2明确手机SDK，经同意安装；长沙2023年5月，含劳动节5月1–3日。居民424万人44.6亿条，访客707万人78.5亿条；约30–50米、平均43分钟；12.9%记录通过手机WiFi接收器连接POI路由器附加POI标签。百度AOI是独立辅助源。 正文 §3.1.2 明确 SDK 及授权；主代理已在出版社 HTML 核实 WiFi 记录占 12.9%。本地官方 SI §2.1 确认 30–50 m 定位误差、平均每 43 分钟记录一次；§2.3 明确居民和访客均通过设备上同一 SDK 服务采集。正文与 SI 已读相关段均未指名供应商，原文未具名；用户已归类泛先锋，具体供方待补证。",
       "product": "手机位置或移动行为数据，具体形式见原文声明",
       "data_form": "长沙 2023 年 5 月；424 万居民用户、44.6 亿定位点，以及 707 万访客用户、78.5 亿点；访客不等于最终识别的游客。",
       "application": "城市游客识别与旅游流动模式",
@@ -4897,13 +4916,13 @@
       "zotero_attachment_verified": false,
       "sdk_explicit": true,
       "app_collection_confirmed": true,
-      "sensor_mix": "§3.1.2明确手机SDK，经同意安装；长沙2023年5月，含劳动节5月1–3日。居民424万人44.6亿条，访客707万人78.5亿条；约30–50米、平均43分钟；12.9%记录通过手机WiFi接收器连接POI路由器附加POI标签。百度AOI是独立辅助源。 正文 §3.1.2 明确 SDK 及授权；主代理已在出版社 HTML 核实 WiFi 记录占 12.9%。本地官方 SI §2.1 确认 30–50 m 定位误差、平均每 43 分钟记录一次；§2.3 明确居民和访客均通过设备上同一 SDK 服务采集。正文与 SI 已读相关段均未指名供应商，不归先锋/摸星/及刻。",
+      "sensor_mix": "§3.1.2明确手机SDK，经同意安装；长沙2023年5月，含劳动节5月1–3日。居民424万人44.6亿条，访客707万人78.5亿条；约30–50米、平均43分钟；12.9%记录通过手机WiFi接收器连接POI路由器附加POI标签。百度AOI是独立辅助源。 正文 §3.1.2 明确 SDK 及授权；主代理已在出版社 HTML 核实 WiFi 记录占 12.9%。本地官方 SI §2.1 确认 30–50 m 定位误差、平均每 43 分钟记录一次；§2.3 明确居民和访客均通过设备上同一 SDK 服务采集。正文与 SI 已读相关段均未指名供应商，原文未具名；用户已归类泛先锋，具体供方待补证。",
       "catalog_status": "reviewed",
       "curated_evidence": true,
       "publisher_metadata_verified": true,
       "research_scope": "pioneer_user_confirmed",
       "scope_tag": "sdk_candidate",
-      "scope_reason": "供应商未具名或方法待核，保留候选；不由同团队、相近字段认定同一供方。",
+      "scope_reason": "用户已确认关联分类，纳入04；原文具名与间接关联证据分开记录。",
       "access_status": "institutional_publisher_html_verified_and_official_SI_docx_verified_main_pdf_pending",
       "review_date": "2026-10-13",
       "legacy_provider_claims": [],
@@ -5341,9 +5360,9 @@
       "publisher_metadata_verified": true,
       "research_scope": "pioneer_candidate",
       "scope_tag": "app_push_candidate_sdk_not_explicit",
-      "scope_reason": "供应商未具名或方法待核，保留候选；不由同团队、相近字段认定同一供方。",
+      "scope_reason": "用户认为缺少明显的数据来源描述线索，明确排除，不再追查。",
       "access_status": "publisher_pdf_verified",
-      "review_date": "2026-10-12",
+      "review_date": "2026-10-13",
       "legacy_provider_claims": [],
       "round10_record": true,
       "round10_input_id": "R10E01",
@@ -5377,8 +5396,11 @@
         "计算方法与数据基础设施"
       ],
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
+      "excluded_from_active": true,
+      "user_review_status": "excluded_by_user",
+      "scope_decision_basis": "用户明确指令，2026-10-13",
       "download_queue_status": [
-        "current_review_complete"
+        "excluded_by_user"
       ]
     },
     {
@@ -5417,9 +5439,9 @@
       "publisher_metadata_verified": true,
       "research_scope": "pioneer_candidate",
       "scope_tag": "sdk_with_mixed_indicators",
-      "scope_reason": "供应商未具名或方法待核，保留候选；不由同团队、相近字段认定同一供方。",
+      "scope_reason": "用户认为缺少明显的数据来源描述线索，明确排除，不再追查。",
       "access_status": "official_repository_pdf_verified",
-      "review_date": "2026-10-12",
+      "review_date": "2026-10-13",
       "legacy_provider_claims": [],
       "round10_record": true,
       "round10_input_id": "R10E02",
@@ -5453,8 +5475,11 @@
         "计算方法与数据基础设施"
       ],
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
+      "excluded_from_active": true,
+      "user_review_status": "excluded_by_user",
+      "scope_decision_basis": "用户明确指令，2026-10-13",
       "download_queue_status": [
-        "current_review_complete"
+        "excluded_by_user"
       ]
     },
     {
@@ -6291,7 +6316,7 @@
       ],
       "institution": "华东理工大学 / 同济大学",
       "team": "万亿 / 赵民合作团队",
-      "provider": "未具名网络技术有限公司",
+      "provider": "及刻 / Jike（用户确认；同团队具名论文交叉补强）",
       "product": "匿名手机位置记录",
       "application": "公园游憩与公共服务",
       "data_declaration": "原刊明确安卓智能手机内置SDK位置数据，供方仅称某网络技术有限公司。上海约760万用户底库；6个环城公园13万样本用户、19万人次、约4500万条。淡季为2021-01-11至24；旺季按公园选择2020年10月或2021年4/5月样本，见表1。不能把2020-01至2021-06的游客统计背景周期当作全部轨迹覆盖期。",
@@ -6308,11 +6333,11 @@
       "app_collection_confirmed": true,
       "sensor_mix": "SDK明确；定位精度2–30米，未单列GPS/WiFi，未披露供方品牌。",
       "source_confirmed": false,
-      "provider_evidence_status": "undisclosed_or_pending",
+      "provider_evidence_status": "user_confirmed",
       "provider_attribution_status": "undisclosed_or_pending",
-      "research_scope": "pioneer_candidate",
+      "research_scope": "pioneer_user_confirmed",
       "scope_tag": "commercial_sdk_unknown_supplier",
-      "scope_reason": "原文明示SDK，供方未具名；候选不等于先锋/摸星/及刻确认使用。",
+      "scope_reason": "用户已确认关联分类，纳入04；原文具名与间接关联证据分开记录。",
       "source_followup_closed": false,
       "catalog_status": "reviewed",
       "curated_evidence": true,
@@ -6320,7 +6345,7 @@
       "publication_type": "journal_article",
       "legacy_provider_claims": [],
       "access_status": "official_pdf_verified",
-      "review_date": "2026-10-12",
+      "review_date": "2026-10-13",
       "funding": [
         "上海市白玉兰人才计划浦江项目23PJC027",
         "中央高校基本科研业务费JKZ02232202"
@@ -6353,6 +6378,10 @@
         "城市规划与服务可达性"
       ],
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
+      "user_review_status": "pioneer_confirmed",
+      "provider_confirmation_basis": "用户2026-10-13已人工审查并移入Zotero“先锋/摸星/jike数据”，据此纳入04关联研究；原文具名与关联判断分开记录，具体供应商公开证据继续补充。 新增Heliyon论文L83直接具名梦享/及刻；两篇同上海760万用户底库、Android、2–30m精度及23PJC027/JKZ02232202资助，2020年10月时段部分重叠。公园数、样本人数与记录量不同，不能认定全样本完全相同。",
+      "zotero_catalog_present": true,
+      "zotero_reconciled_at": "2026-10-13",
       "download_queue_status": [
         "current_review_complete"
       ]
@@ -6389,11 +6418,11 @@
       "app_collection_confirmed": true,
       "sensor_mix": "正文明确WIFI与GPS为主，具SDK机制；同团队其他研究的及刻供数不能自动迁移到本篇。",
       "source_confirmed": false,
-      "provider_evidence_status": "undisclosed_or_pending",
+      "provider_evidence_status": "user_confirmed",
       "provider_attribution_status": "undisclosed_or_pending",
-      "research_scope": "pioneer_candidate",
+      "research_scope": "pioneer_user_confirmed",
       "scope_tag": "commercial_sdk_gps_wifi_unknown_supplier",
-      "scope_reason": "用户判断99%为即刻／及刻（Jike）关联数据；原文未具名，保持06高概率候选。",
+      "scope_reason": "用户已确认关联分类，纳入04；原文具名与间接关联证据分开记录。",
       "source_followup_closed": false,
       "catalog_status": "reviewed",
       "curated_evidence": true,
@@ -6401,7 +6430,7 @@
       "publication_type": "journal_article",
       "legacy_provider_claims": [],
       "access_status": "official_pdf_identity_and_methods_verified",
-      "review_date": "2026-10-12",
+      "review_date": "2026-10-13",
       "funding": [
         "国家自然科学基金42201500",
         "国家自然科学基金42101419"
@@ -6436,7 +6465,7 @@
       ],
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
       "target_supplier_confirmed": false,
-      "provider_confirmation_basis": "用户2026-10-12依据WiFi+GPS定位口径，将本研究与即刻／及刻（Jike）的关联判断设为99%。这是用户判断，不是统计估计；原文仍未具名供应商。",
+      "provider_confirmation_basis": "用户2026-10-13已人工审查并移入Zotero“先锋/摸星/jike数据”，据此纳入04关联研究；原文具名与关联判断分开记录，具体供应商公开证据继续补充。保留用户99%经验判断，非统计估计。",
       "pdf_pages": 17,
       "pdf_sha256": "3acd5a73dac90082d8ad0647f3a179870370b57e3a1f34dcd8719831257169ba",
       "zotero_catalog_imported": true,
@@ -6445,6 +6474,7 @@
       "zotero_catalog_present": true,
       "zotero_pdf_present": true,
       "zotero_reconciled_at": "2026-10-13",
+      "user_review_status": "pioneer_confirmed",
       "download_queue_status": [
         "current_review_complete"
       ]
@@ -6711,6 +6741,243 @@
       "zotero_reconciled_at": "2026-10-13",
       "download_queue_status": [
         "current_review_complete"
+      ]
+    },
+    {
+      "id": "L84",
+      "title": "How job-housing relocations reshape mobility? Evidence from smartphone positioning data",
+      "doi": "10.1016/j.tbs.2026.101363",
+      "journal": "Travel Behaviour and Society",
+      "year": 2026,
+      "institution": "中南大学",
+      "team": "王璞 / 李成功 / 赵大志 / 李胜楠",
+      "evidence_url": "https://www.sciencedirect.com/science/article/pii/S2214367X26001328",
+      "provider": "未具名；待正文核实",
+      "product": "手机位置/LBS数据",
+      "application": "职住迁移与个人活动空间、出行频次和停留行为",
+      "data_declaration": "出版社摘要明确长沙2023和2024年高精度智能手机定位数据，用于识别居住地与工作地迁移。",
+      "data_form": "待核",
+      "use_method": "待核",
+      "evidence_section": "出版社页面 Abstract 第2句（搜索索引返回的出版商原文）",
+      "fulltext_read": false,
+      "source_confirmed": false,
+      "access_status": "pending_fulltext_review",
+      "app_collection_confirmed": false,
+      "sdk_explicit": false,
+      "sensor_mix": "未披露，不能推断采集方式",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
+      "notes": "同一团队、同一城市且2023年覆盖时间重叠，属于值得核验的关联线索；不能推断2024数据或品牌必然相同。",
+      "research_scope": "pioneer_candidate",
+      "review_date": "2026-10-13",
+      "catalog_status": "reviewed",
+      "authors": [
+        "Chenggong Li",
+        "Pu Wang",
+        "Dazhi Zhao",
+        "Shengnan Li"
+      ],
+      "fulltext_scope": "出版社摘要和大学作者主页已核，正文尚未取得",
+      "metadata_source": "2026-10-10审读台账（元数据待核）",
+      "origins": [
+        "2026-10-10审读台账"
+      ],
+      "versions": [],
+      "legacy_provider_claims": [],
+      "bibliographic_status": "inherited_metadata_pending",
+      "publication_title_as_recorded": "Travel Behaviour and Society",
+      "publication_type": "journal_article",
+      "provider_evidence_status": "unconfirmed",
+      "journal_family": "",
+      "field": "计算方法与数据基础设施",
+      "field_tags": [
+        "计算方法与数据基础设施"
+      ],
+      "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
+      "scope_tag": "reviewed_application_candidate",
+      "download_queue_status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ]
+    },
+    {
+      "id": "L85",
+      "title": "Measuring carbon mitigation potential from a network perspective: Evidence from Changsha",
+      "doi": "10.1016/j.trd.2026.105539",
+      "journal": "Transportation Research Part D: Transport and Environment",
+      "year": 2026,
+      "institution": "中南大学",
+      "team": "王璞 / 赵大志 / 柯日宏 / 刘奇 / 刘令",
+      "evidence_url": "https://www.sciencedirect.com/science/article/pii/S1361920926003329",
+      "provider": "未具名；待正文核实",
+      "product": "手机位置/LBS数据",
+      "application": "社区出行减碳潜力、绿色出行需求与碳排放网络",
+      "data_declaration": "出版社摘要明确在长沙融合手机数据与车牌识别数据；手机数据供应商和采集方式未在可读摘要中披露。",
+      "data_form": "待核",
+      "use_method": "待核",
+      "evidence_section": "出版社页面 Abstract 第2句（搜索索引返回的出版商原文）",
+      "fulltext_read": false,
+      "source_confirmed": false,
+      "access_status": "pending_fulltext_review",
+      "app_collection_confirmed": false,
+      "sdk_explicit": false,
+      "sensor_mix": "未披露，不能推断采集方式",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
+      "notes": "多名作者与既有城市游客论文重合，且同在长沙，形成作者/研究地关联；定位方式未明，不能以手机数据措辞直接确认为SDK。",
+      "research_scope": "pioneer_candidate",
+      "review_date": "2026-10-13",
+      "catalog_status": "reviewed",
+      "authors": [
+        "Dazhi Zhao",
+        "Pu Wang",
+        "Rihong Ke",
+        "Qi Liu",
+        "Ling Liu"
+      ],
+      "fulltext_scope": "出版社摘要和大学作者主页已核，正文尚未取得",
+      "metadata_source": "2026-10-10审读台账（元数据待核）",
+      "origins": [
+        "2026-10-10审读台账"
+      ],
+      "versions": [],
+      "legacy_provider_claims": [],
+      "bibliographic_status": "inherited_metadata_pending",
+      "publication_title_as_recorded": "Transportation Research Part D: Transport and Environment",
+      "publication_type": "journal_article",
+      "provider_evidence_status": "unconfirmed",
+      "journal_family": "",
+      "field": "计算方法与数据基础设施",
+      "field_tags": [
+        "计算方法与数据基础设施"
+      ],
+      "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
+      "scope_tag": "reviewed_application_candidate",
+      "download_queue_status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ]
+    },
+    {
+      "id": "L86",
+      "title": "“站”与“城”融合发展的规划思考：影响因素、实践误区和类型差异",
+      "doi": "10.11982/j.supr.20250106",
+      "journal": "上海城市规划",
+      "year": 2025,
+      "institution": "中国城市规划设计研究院上海分院；清华大学；同济大学",
+      "team": "孙娟 / 葛春晖 / 郭祖源 / 尹泺枫 / 王行健",
+      "evidence_url": "https://www.shplanning.com.cn/archive/detail/id/1435.html",
+      "provider": "未具名；待正文核实",
+      "product": "手机位置/LBS数据",
+      "application": "铁路枢纽站城融合与客群分型",
+      "data_declaration": "以长三角50个枢纽为研究对象，按轨迹、停留及目的地划分客群；另将LBS分析与现场访谈结合追踪虹桥客群演变。",
+      "data_form": "LBS活动轨迹、停留和目的地信息",
+      "use_method": "按枢纽客群识别差异并结合实地调研访谈",
+      "evidence_section": "PDF第2页（刊页43），§1.1；PDF第3–4页（刊页44–45），客群分型；PDF第6页（刊页47），§3.1.1；PDF第8页（刊页49），参考文献[9]",
+      "fulltext_read": true,
+      "source_confirmed": false,
+      "access_status": "official_pdf_downloaded",
+      "app_collection_confirmed": false,
+      "sdk_explicit": false,
+      "sensor_mix": "未披露，不能推断采集方式",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false,
+      "notes": "与L41共享5名作者、50个长三角枢纽范围和客群分型方法，并引用L41。以上支持研究延续性，不足以证明同一供应商、同一批原始数据。",
+      "research_scope": "pioneer_candidate",
+      "review_date": "2026-10-13",
+      "catalog_status": "reviewed",
+      "authors": [
+        "葛春晖",
+        "孙娟",
+        "郭祖源",
+        "尹泺枫",
+        "王行健"
+      ],
+      "pdf_source_url": "https://www.shplanning.com.cn/archive/download/id/1435.html",
+      "fulltext_scope": "已核正文LBS数据段；供应商未具名",
+      "origins": [
+        "2026-10-10审读台账"
+      ],
+      "metadata_source": "2026-10-10审读台账（元数据待核）",
+      "versions": [],
+      "legacy_provider_claims": [],
+      "bibliographic_status": "inherited_metadata_pending",
+      "publication_title_as_recorded": "上海城市规划",
+      "publication_type": "journal_article",
+      "provider_evidence_status": "unconfirmed",
+      "journal_family": "",
+      "field": "城市规划与服务可达性",
+      "field_tags": [
+        "城市规划与服务可达性"
+      ],
+      "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
+      "scope_tag": "reviewed_application_candidate",
+      "download_queue_status": [
+        "current_review_complete"
+      ]
+    },
+    {
+      "title": "Do hypothetical and actual service distances align for urban fringe parks? An investigation of Shanghai using big data",
+      "doi": "10.1016/j.heliyon.2024.e37918",
+      "journal": "Heliyon",
+      "year": 2024,
+      "volume": "10",
+      "issue": "19",
+      "pages": "e37918",
+      "authors": [
+        "Yi Wan",
+        "Siyi Wei",
+        "Huantai Harlhax"
+      ],
+      "institution": "华东理工大学 / 同济大学",
+      "team": "万亿 / Siyi Wei / Huantai Harlhax（赵民为致谢对象）",
+      "provider": "Jike / 及刻（Guangzhou Mengxiang Network Technology Co., Ltd.／广州市梦享网络技术有限公司）",
+      "source_confirmed": true,
+      "sdk_explicit": false,
+      "app_collection_confirmed": true,
+      "data_form": "原文明示 Android mobile LBS；精度2–30m，区别于平均200m的手机信令。供应商官网介绍系统内置SDK。",
+      "application": "公园服务范围与实际可达性",
+      "use_method": "依据29个公园访问与居住位置记录识别城市边缘公园实际服务距离和多层级服务圈。",
+      "data_declaration": "§2.2：2020-10-15至2020-10-29，上海760万用户底库（约30%手机用户）；样本2.5万用户、3万次公园访问、约650万记录；字段含uuid、居住经纬度、公园名称及到访时间。Android LBS精度2–30m；Data availability明确原始数据商业提供方Guangzhou Mengxiang Network Technology Co., Ltd.。",
+      "evidence_section": "Data availability；§2.2 Data source and processing",
+      "evidence_url": "https://www.sciencedirect.com/science/article/pii/S2405844024139497",
+      "fulltext_read": true,
+      "fulltext_scope": "Europe PMC完整JATS XML已下载并检查正文、数据可得性和致谢。",
+      "pdf_downloaded": false,
+      "id": "L83",
+      "research_scope": "pioneer_named",
+      "catalog_status": "reviewed",
+      "curated_evidence": true,
+      "review_date": "2026-10-13",
+      "access_status": "fulltext_xml_read_pdf_pending",
+      "zotero_catalog_present": true,
+      "zotero_catalog_imported": true,
+      "zotero_attachment_verified": false,
+      "zotero_pdf_present": false,
+      "provider_confirmation_basis": "论文Data availability具名Guangzhou Mengxiang Network Technology Co., Ltd.；及刻官网隐私政策https://www.isjike.com/h-col-128明确广州市梦享网络技术有限公司即及刻。",
+      "sensor_mix": "原文明示Android LBS、2–30m；供应商官网说明SDK，本文未逐项写GPS/WiFi。",
+      "notes": "赵民并非本篇作者；万亿在Acknowledgments感谢Prof. Min Zhao at Tongji University的讨论。万亿同时列华东理工大学和同济大学单位。 文章Baidu Maps仅用于公园位置/边界辅助校准，不是主体个人位置轨迹来源。30%样本比例此处由全文具名SDK品牌解释，不能据此误排为运营商。",
+      "origins": [
+        "2026-10-10审读台账"
+      ],
+      "metadata_source": "2026-10-10审读台账（元数据待核）",
+      "versions": [],
+      "legacy_provider_claims": [],
+      "bibliographic_status": "inherited_metadata_pending",
+      "publication_title_as_recorded": "Heliyon",
+      "publication_type": "journal_article",
+      "provider_evidence_status": "source_confirmed",
+      "journal_family": "",
+      "field": "环境与生态",
+      "field_tags": [
+        "环境与生态",
+        "城市规划与服务可达性",
+        "计算方法与数据基础设施"
+      ],
+      "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
+      "scope_tag": "reviewed_application_candidate",
+      "download_queue_status": [
+        "pdf_acquisition"
       ]
     },
     {
@@ -11160,10 +11427,10 @@
     "source_counts": [
       {
         "source": "2026-10-10审读台账",
-        "input_rows": 82,
-        "mapped_rows": 82,
-        "unique_catalog_records": 82,
-        "new_records_at_merge_step": 82,
+        "input_rows": 86,
+        "mapped_rows": 86,
+        "unique_catalog_records": 86,
+        "new_records_at_merge_step": 86,
         "merged_rows": 0
       },
       {
@@ -11233,7 +11500,7 @@
     ],
     "source_overlap_matrix": {
       "2026-10-10审读台账": {
-        "2026-10-10审读台账": 82,
+        "2026-10-10审读台账": 86,
         "旧39篇候选清单": 16,
         "literature_commercial_mobile_location_data_2015_2026.csv": 10,
         "literature_commercial_mobile_location_data_addendum_2026.csv": 6,
@@ -11905,6 +12172,34 @@
         "row": 82,
         "source_row": null,
         "catalog_id": "L82",
+        "dedup_reason": "new_record"
+      },
+      {
+        "source": "2026-10-10审读台账",
+        "row": 83,
+        "source_row": null,
+        "catalog_id": "L84",
+        "dedup_reason": "new_record"
+      },
+      {
+        "source": "2026-10-10审读台账",
+        "row": 84,
+        "source_row": null,
+        "catalog_id": "L85",
+        "dedup_reason": "new_record"
+      },
+      {
+        "source": "2026-10-10审读台账",
+        "row": 85,
+        "source_row": null,
+        "catalog_id": "L86",
+        "dedup_reason": "new_record"
+      },
+      {
+        "source": "2026-10-10审读台账",
+        "row": 86,
+        "source_row": null,
+        "catalog_id": "L83",
         "dedup_reason": "new_record"
       },
       {
@@ -14006,16 +14301,16 @@
     "classification": "field/application为编辑归类；pending旧供应商标签均未视为原文确认。"
   },
   "counts": {
-    "total": 154,
-    "reviewed": 79,
+    "total": 158,
+    "reviewed": 83,
     "pending": 75,
-    "fulltext_read": 74,
-    "with_doi": 149,
-    "pdf_verified": 84,
+    "fulltext_read": 76,
+    "with_doi": 153,
+    "pdf_verified": 85,
     "supporting_resources": 7,
     "linked_versions": 1,
     "metadata_conflicts_need_review": 1,
     "active": 149,
-    "excluded": 5
+    "excluded": 9
   }
 }

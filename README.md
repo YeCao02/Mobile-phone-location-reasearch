@@ -92,3 +92,6 @@ python build_site.py --data-dir path/to/evidence
 
 
 最新：[2026-10-13 Zotero 分类同步](docs/zotero-reconciliation-2026-10-13.md)。04 泛先锋17篇；03供应商类似物57篇；06未确认54篇。原文具名与用户确认分别记录。
+
+
+最新：[团队交叉验证与人工分类同步](docs/team-crosscheck-2026-10-13.md)：03=57、04=23、06=50；新增Heliyon具名及刻研究与3篇待核研究。
