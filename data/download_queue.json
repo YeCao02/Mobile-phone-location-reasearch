@@ -785,19 +785,18 @@
       "title": "顾及相似用户特征的个人位置预测算法",
       "doi": "10.13203/j.whugis20200609",
       "journal": "武汉大学学报（信息科学版）",
-      "catalog_status": "pending",
+      "catalog_status": "reviewed",
       "status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "current_review_complete"
       ],
-      "needs_fulltext_review": true,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
         "https://ch.whu.edu.cn/article/doi/10.13203/j.whugis20200609?viewType=HTML",
         "https://doi.org/10.13203/j.whugis20200609"
       ],
-      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "当前关键段审读完成，按需补充附件细读"
     },
     {
       "id": "L50",
@@ -843,17 +842,16 @@
       "journal": "International Journal of Geographical Information Science",
       "catalog_status": "reviewed",
       "status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "current_review_complete"
       ],
-      "needs_fulltext_review": true,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
         "https://hpcc.siat.ac.cn/group/pub/s3/10%202019%20The%20effect%20of%20temporal%20sampling%20intervals%20on%20typical%20human%20mobility%20indicators%20obtained%20from%20mobile%20phone%20location%20data.pdf",
         "https://doi.org/10.1080/13658816.2019.1584805"
       ],
-      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "当前关键段审读完成，按需补充附件细读"
     },
     {
       "id": "L53",
@@ -942,6 +940,366 @@
       "source_urls": [
         "https://www.dqxxkx.cn/CN/10.12082/dqxxkx.2025.240586",
         "https://doi.org/10.12082/dqxxkx.2025.240586"
+      ],
+      "next_action": "当前关键段审读完成，按需补充附件细读"
+    },
+    {
+      "id": "L58",
+      "title": "Evaluating the Quality of High-Frequency Pedestrian Commuting Streets: A Data-Driven Approach in Shenzhen",
+      "doi": "10.3390/smartcities8030083",
+      "journal": "Smart Cities",
+      "catalog_status": "reviewed",
+      "status": [
+        "current_review_complete"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://www.mdpi.com/2624-6511/8/3/83",
+        "https://doi.org/10.3390/smartcities8030083"
+      ],
+      "next_action": "当前关键段审读完成，按需补充附件细读"
+    },
+    {
+      "id": "L59",
+      "title": "Uncovering urban tourist mobility patterns based on large-scale mobile phone data",
+      "doi": "10.1016/j.jtrangeo.2025.104496",
+      "journal": "Journal of Transport Geography",
+      "catalog_status": "reviewed",
+      "status": [
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://www.sciencedirect.com/science/article/abs/pii/S0966692325003874",
+        "https://doi.org/10.1016/j.jtrangeo.2025.104496"
+      ],
+      "next_action": "经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "L60",
+      "title": "Urban building-level positioning using data-driven algorithms enhanced by spatial variations in sensor features",
+      "doi": "10.1080/17538947.2025.2512410",
+      "journal": "International Journal of Digital Earth",
+      "catalog_status": "pending",
+      "status": [
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://www.tandfonline.com/doi/full/10.1080/17538947.2025.2512410",
+        "https://doi.org/10.1080/17538947.2025.2512410"
+      ],
+      "next_action": "经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "L61",
+      "title": "Revealing disparities and driving factors in leisure activity segregation of residents and tourists: A data-driven analysis of smart phone data",
+      "doi": "10.1016/j.apgeog.2025.103513",
+      "journal": "Applied Geography",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S0143622825000086",
+        "https://doi.org/10.1016/j.apgeog.2025.103513"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "L62",
+      "title": "Social inequality of urban park use during the COVID-19 pandemic",
+      "doi": "10.1057/s41599-023-01918-1",
+      "journal": "Humanities and Social Sciences Communications",
+      "catalog_status": "reviewed",
+      "status": [
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://www.nature.com/articles/s41599-023-01918-1",
+        "https://doi.org/10.1057/s41599-023-01918-1"
+      ],
+      "next_action": "经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "L63",
+      "title": "基于手机定位数据的游客步行行为特征及与旅游区功能布局关系研究",
+      "doi": "10.12082/dqxxkx.2024.220546",
+      "journal": "地球信息科学学报",
+      "catalog_status": "reviewed",
+      "status": [
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://www.dqxxkx.cn/CN/abstract/article/1560-8999/56347",
+        "https://doi.org/10.12082/dqxxkx.2024.220546"
+      ],
+      "next_action": "经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "L64",
+      "title": "Revealing socio-demographic heterogeneity in urban travel behavior under the influence of the built environment",
+      "doi": "10.1016/j.cities.2026.106983",
+      "journal": "Cities",
+      "catalog_status": "reviewed",
+      "status": [
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S0264275126002155",
+        "https://doi.org/10.1016/j.cities.2026.106983"
+      ],
+      "next_action": "经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "L65",
+      "title": "Dynamic Assessment of Spatiotemporal Population Distribution Based on Mobile Phone Data: A Case Study in Xining City, China",
+      "doi": "10.1007/s13753-023-00480-3",
+      "journal": "International Journal of Disaster Risk Science",
+      "catalog_status": "reviewed",
+      "status": [
+        "current_review_complete"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://link.springer.com/article/10.1007/s13753-023-00480-3",
+        "https://doi.org/10.1007/s13753-023-00480-3"
+      ],
+      "next_action": "当前关键段审读完成，按需补充附件细读"
+    },
+    {
+      "id": "L66",
+      "title": "Rapid Assessment of Severely Affected Earthquake Areas Using Mobile Signaling Data and a Random Forest Approach",
+      "doi": "10.1007/s13753-025-00684-9",
+      "journal": "International Journal of Disaster Risk Science",
+      "catalog_status": "reviewed",
+      "status": [
+        "current_review_complete"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://link.springer.com/article/10.1007/s13753-025-00684-9",
+        "https://doi.org/10.1007/s13753-025-00684-9"
+      ],
+      "next_action": "当前关键段审读完成，按需补充附件细读"
+    },
+    {
+      "id": "L67",
+      "title": "Measuring Chinese cities’ economic development with mobile application usage",
+      "doi": "10.1007/s11442-022-2054-x",
+      "journal": "Journal of Geographical Sciences",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://link.springer.com/article/10.1007/s11442-022-2054-x",
+        "https://doi.org/10.1007/s11442-022-2054-x"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "L68",
+      "title": "Exploring the Spatial Variation of Access/Egress Distances of Subway Stations Using Mobile Phone Positioning Data in Chengdu, China",
+      "doi": "10.1155/2023/8008667",
+      "journal": "Journal of Advanced Transportation",
+      "catalog_status": "reviewed",
+      "status": [
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://onlinelibrary.wiley.com/doi/10.1155/2023/8008667",
+        "https://doi.org/10.1155/2023/8008667"
+      ],
+      "next_action": "经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "L69",
+      "title": "Spatial Heterogeneities of O2O Retail Space in Urban China Under Digital Transformation: Evidence from Guangzhou, China",
+      "doi": "10.1007/s11769-025-1493-6",
+      "journal": "Chinese Geographical Science",
+      "catalog_status": "reviewed",
+      "status": [
+        "current_review_complete"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://link.springer.com/article/10.1007/s11769-025-1493-6",
+        "https://doi.org/10.1007/s11769-025-1493-6"
+      ],
+      "next_action": "当前关键段审读完成，按需补充附件细读"
+    },
+    {
+      "id": "L70",
+      "title": "Assessing the Association Between Urban Amenities and Home Squatting Residents: Evidence from Location-Based Service Data in Weihai",
+      "doi": "10.1007/s12061-026-09920-1",
+      "journal": "Applied Spatial Analysis and Policy",
+      "catalog_status": "reviewed",
+      "status": [
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://link.springer.com/article/10.1007/s12061-026-09920-1",
+        "https://doi.org/10.1007/s12061-026-09920-1"
+      ],
+      "next_action": "经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "L71",
+      "title": "基于OPGD和MGWR的建成环境对城市活力的影响及其空间异质性研究—以广州市域为例",
+      "doi": "10.11821/dlyj020241315",
+      "journal": "地理研究",
+      "catalog_status": "reviewed",
+      "status": [
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://www.dlyj.ac.cn/EN/abstract/article/1000-0585/74649",
+        "https://doi.org/10.11821/dlyj020241315"
+      ],
+      "next_action": "经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "L72",
+      "title": "基于软件开发工具包(SDK)数据的人群空间活动分析",
+      "doi": "10.13813/j.cn11-5141/u.2020.0403",
+      "journal": "城市交通",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://www.chinautc.com/templates/H_magazine/articlecontent.aspx?contentid=97216&nodeid=4855&page=ContentPage",
+        "https://doi.org/10.13813/j.cn11-5141/u.2020.0403"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "L73",
+      "title": "基于手机信令数据的中小城市区域联系及人口研究",
+      "doi": "10.13813/j.cn11-5141/u.2020.0404",
+      "journal": "城市交通",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review",
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://www.chinautc.com/templates/H_magazine/articlecontent.aspx?contentid=97234&nodeid=4855&page=ContentPage",
+        "https://doi.org/10.13813/j.cn11-5141/u.2020.0404"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "L74",
+      "title": "多源数据支持下的老城区更新潜力评估与边界划定框架构建及实证研究",
+      "doi": "",
+      "journal": "中国工程咨询",
+      "catalog_status": "reviewed",
+      "status": [
+        "current_review_complete"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://kns.cnki.net/"
+      ],
+      "next_action": "当前关键段审读完成，按需补充附件细读"
+    },
+    {
+      "id": "L75",
+      "title": "空间生产视角下的江苏省“双一流”高校多校区融合成效研究",
+      "doi": "10.13236/j.cnki.jshe.2026.01.007",
+      "journal": "江苏高教",
+      "catalog_status": "reviewed",
+      "status": [
+        "current_review_complete"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://doi.org/10.13236/j.cnki.jshe.2026.01.007"
+      ],
+      "next_action": "当前关键段审读完成，按需补充附件细读"
+    },
+    {
+      "id": "L76",
+      "title": "基于手机数据的产业园区人群活力评价与影响因素分析",
+      "doi": "10.20117/j.jsti.202603006",
+      "journal": "时空信息学报",
+      "catalog_status": "reviewed",
+      "status": [
+        "current_review_complete"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://doi.org/10.20117/j.jsti.202603006"
+      ],
+      "next_action": "当前关键段审读完成，按需补充附件细读"
+    },
+    {
+      "id": "L77",
+      "title": "基于人流活动特征的城市商圈空间结构的大数据分析——以广西南宁市为例",
+      "doi": "10.16601/j.cnki.issn2096-7330.2025.01.004",
+      "journal": "南宁师范大学学报(自然科学版)",
+      "catalog_status": "reviewed",
+      "status": [
+        "current_review_complete"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://doi.org/10.16601/j.cnki.issn2096-7330.2025.01.004"
       ],
       "next_action": "当前关键段审读完成，按需补充附件细读"
     },
@@ -2229,6 +2587,6 @@
       "next_action": "核对书目信息和数据来源，审读方法段"
     }
   ],
-  "count": 124,
+  "count": 144,
   "definitions": "pdf_acquisition=true仅表示尚未核实本地PDF；不意味着文章不可访问。"
 }

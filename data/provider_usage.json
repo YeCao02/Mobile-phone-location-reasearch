@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-10",
+  "as_of": "2026-10-12",
   "providers": [
     {
       "id": "safegraph",
@@ -124,6 +124,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "demographic_profile": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 2,
@@ -186,6 +191,11 @@
           "unresolved_candidate": []
         },
         "indoor_positioning": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "demographic_profile": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -356,6 +366,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "demographic_profile": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 2,
@@ -435,6 +450,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "demographic_profile": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -485,6 +505,11 @@
           "unresolved_candidate": []
         },
         "indoor_positioning": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "demographic_profile": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -551,6 +576,11 @@
           "unresolved_candidate": 0
         },
         "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "demographic_profile": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -639,6 +669,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "demographic_profile": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -689,6 +724,11 @@
           "unresolved_candidate": []
         },
         "indoor_positioning": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "demographic_profile": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -763,6 +803,11 @@
           "unresolved_candidate": 0
         },
         "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "demographic_profile": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -867,6 +912,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "demographic_profile": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -926,6 +976,11 @@
           "unresolved_candidate": []
         },
         "indoor_positioning": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "demographic_profile": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -1023,6 +1078,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "demographic_profile": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -1096,6 +1156,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "demographic_profile": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -1144,6 +1209,11 @@
           "unresolved_candidate": []
         },
         "indoor_positioning": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "demographic_profile": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -1201,6 +1271,11 @@
           "unresolved_candidate": 0
         },
         "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "demographic_profile": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -1284,6 +1359,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "demographic_profile": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -1334,6 +1414,11 @@
           "unresolved_candidate": []
         },
         "indoor_positioning": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "demographic_profile": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -1398,6 +1483,11 @@
           "unresolved_candidate": 0
         },
         "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "demographic_profile": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -1475,6 +1565,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "demographic_profile": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -1523,6 +1618,11 @@
           "unresolved_candidate": []
         },
         "indoor_positioning": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "demographic_profile": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -1580,6 +1680,11 @@
           "unresolved_candidate": 0
         },
         "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "demographic_profile": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -1658,6 +1763,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "demographic_profile": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -1706,6 +1816,11 @@
           "unresolved_candidate": []
         },
         "indoor_positioning": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "demographic_profile": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -1763,6 +1878,11 @@
           "unresolved_candidate": 0
         },
         "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "demographic_profile": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -1840,6 +1960,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "demographic_profile": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -1888,6 +2013,11 @@
           "unresolved_candidate": []
         },
         "indoor_positioning": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "demographic_profile": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -1945,6 +2075,11 @@
           "unresolved_candidate": 0
         },
         "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "demographic_profile": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -2022,6 +2157,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "demographic_profile": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -2070,6 +2210,11 @@
           "unresolved_candidate": []
         },
         "indoor_positioning": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "demographic_profile": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -2127,6 +2272,11 @@
           "unresolved_candidate": 0
         },
         "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "demographic_profile": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -2205,6 +2355,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "demographic_profile": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -2253,6 +2408,11 @@
           "unresolved_candidate": []
         },
         "indoor_positioning": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "demographic_profile": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -2310,6 +2470,11 @@
           "unresolved_candidate": 0
         },
         "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "demographic_profile": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -2387,6 +2552,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "demographic_profile": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -2435,6 +2605,11 @@
           "unresolved_candidate": []
         },
         "indoor_positioning": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "demographic_profile": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -2492,6 +2667,11 @@
           "unresolved_candidate": 0
         },
         "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "demographic_profile": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -2570,6 +2750,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "demographic_profile": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -2618,6 +2803,11 @@
           "unresolved_candidate": []
         },
         "indoor_positioning": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "demographic_profile": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -2675,6 +2865,11 @@
           "unresolved_candidate": 0
         },
         "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "demographic_profile": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -2753,6 +2948,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "demographic_profile": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -2801,6 +3001,11 @@
           "unresolved_candidate": []
         },
         "indoor_positioning": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "demographic_profile": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -2858,6 +3063,11 @@
           "unresolved_candidate": 0
         },
         "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "demographic_profile": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -2937,6 +3147,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "demographic_profile": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -2985,6 +3200,11 @@
           "unresolved_candidate": []
         },
         "indoor_positioning": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "demographic_profile": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -3046,6 +3266,11 @@
           "unresolved_candidate": 0
         },
         "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "demographic_profile": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -3124,6 +3349,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "demographic_profile": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -3172,6 +3402,11 @@
           "unresolved_candidate": []
         },
         "indoor_positioning": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "demographic_profile": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -3229,6 +3464,11 @@
           "unresolved_candidate": 0
         },
         "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "demographic_profile": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -3309,6 +3549,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "demographic_profile": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -3357,6 +3602,11 @@
           "unresolved_candidate": []
         },
         "indoor_positioning": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "demographic_profile": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -3418,6 +3668,11 @@
           "unresolved_candidate": 0
         },
         "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "demographic_profile": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -3495,6 +3750,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "demographic_profile": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -3543,6 +3803,11 @@
           "unresolved_candidate": []
         },
         "indoor_positioning": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "demographic_profile": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -3600,6 +3865,11 @@
           "unresolved_candidate": 0
         },
         "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "demographic_profile": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -3676,6 +3946,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "demographic_profile": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -3724,6 +3999,11 @@
           "unresolved_candidate": []
         },
         "indoor_positioning": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "demographic_profile": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -3781,6 +4061,11 @@
           "unresolved_candidate": 0
         },
         "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "demographic_profile": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -3858,6 +4143,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "demographic_profile": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -3906,6 +4196,11 @@
           "unresolved_candidate": []
         },
         "indoor_positioning": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "demographic_profile": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -3963,6 +4258,11 @@
           "unresolved_candidate": 0
         },
         "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "demographic_profile": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -4039,6 +4339,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "demographic_profile": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -4087,6 +4392,11 @@
           "unresolved_candidate": []
         },
         "indoor_positioning": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "demographic_profile": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -4144,6 +4454,11 @@
           "unresolved_candidate": 0
         },
         "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "demographic_profile": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -4224,6 +4539,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "demographic_profile": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -4276,6 +4596,11 @@
             "L53",
             "L56"
           ],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "demographic_profile": {
+          "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
         },
@@ -4336,6 +4661,11 @@
         },
         "indoor_positioning": {
           "confirmed_use": 2,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "demographic_profile": {
+          "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
         },
@@ -4415,6 +4745,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "demographic_profile": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -4471,6 +4806,11 @@
           "unresolved_candidate": []
         },
         "indoor_positioning": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "demographic_profile": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -4535,6 +4875,11 @@
           "unresolved_candidate": 0
         },
         "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "demographic_profile": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -4612,6 +4957,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "demographic_profile": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -4664,6 +5014,11 @@
           "unresolved_candidate": []
         },
         "indoor_positioning": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "demographic_profile": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -4725,6 +5080,11 @@
           "unresolved_candidate": 0
         },
         "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "demographic_profile": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -4801,6 +5161,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "demographic_profile": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -4852,6 +5217,11 @@
           "unresolved_candidate": []
         },
         "indoor_positioning": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "demographic_profile": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -4916,6 +5286,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "demographic_profile": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -4935,20 +5310,21 @@
       "profile_group": "china_app_lbs",
       "supply_chain_role": "原文点名多App高精度位置报点与职住识别；传感器组成另核",
       "counts": {
-        "confirmed_use": 1,
+        "confirmed_use": 2,
         "mention_only": 0,
         "unresolved_candidate": 0
       },
       "paper_ids": {
         "confirmed_use": [
-          "L43"
+          "L43",
+          "L73"
         ],
         "mention_only": [],
         "unresolved_candidate": []
       },
       "role_counts": {
         "mobility": {
-          "confirmed_use": 1,
+          "confirmed_use": 2,
           "mention_only": 0,
           "unresolved_candidate": 0
         },
@@ -4987,6 +5363,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "demographic_profile": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -5001,7 +5382,8 @@
       "role_paper_ids": {
         "mobility": {
           "confirmed_use": [
-            "L43"
+            "L43",
+            "L73"
           ],
           "mention_only": [],
           "unresolved_candidate": []
@@ -5041,6 +5423,11 @@
           "mention_only": [],
           "unresolved_candidate": []
         },
+        "demographic_profile": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
         "comparison_reference": {
           "confirmed_use": [],
           "mention_only": [],
@@ -5052,16 +5439,17 @@
           "unresolved_candidate": []
         }
       },
-      "confirmed_mobility_use": 1,
+      "confirmed_mobility_use": 2,
       "confirmed_mixed_mobility_use": 0,
       "zero_count_meaning": "0仅表示当前文献目录中没有符合该证据门槛的记录；不是全领域无人使用，也不是搜索穷尽。",
       "association_ids": [
-        "L43"
+        "L43",
+        "L73"
       ],
       "entity_interpretation": "按现有品牌/实体标签分别计数",
       "evidence_role_counts": {
         "mobility": {
-          "confirmed_use": 1,
+          "confirmed_use": 2,
           "mention_only": 0,
           "unresolved_candidate": 0
         },
@@ -5096,6 +5484,11 @@
           "unresolved_candidate": 0
         },
         "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "demographic_profile": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -5171,6 +5564,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "demographic_profile": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -5221,6 +5619,11 @@
           "unresolved_candidate": []
         },
         "indoor_positioning": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "demographic_profile": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -5280,6 +5683,11 @@
           "unresolved_candidate": 0
         },
         "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "demographic_profile": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -5355,6 +5763,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "demographic_profile": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -5405,6 +5818,11 @@
           "unresolved_candidate": []
         },
         "indoor_positioning": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "demographic_profile": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -5464,6 +5882,11 @@
           "unresolved_candidate": 0
         },
         "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "demographic_profile": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -5539,6 +5962,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "demographic_profile": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -5589,6 +6017,11 @@
           "unresolved_candidate": []
         },
         "indoor_positioning": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "demographic_profile": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -5648,6 +6081,11 @@
           "unresolved_candidate": 0
         },
         "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "demographic_profile": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -5723,6 +6161,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "demographic_profile": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -5773,6 +6216,11 @@
           "unresolved_candidate": []
         },
         "indoor_positioning": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "demographic_profile": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -5832,6 +6280,11 @@
           "unresolved_candidate": 0
         },
         "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "demographic_profile": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -5907,6 +6360,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "demographic_profile": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -5955,6 +6413,11 @@
           "unresolved_candidate": []
         },
         "indoor_positioning": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "demographic_profile": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -6016,6 +6479,11 @@
           "unresolved_candidate": 0
         },
         "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "demographic_profile": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -6091,6 +6559,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "demographic_profile": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -6139,6 +6612,11 @@
           "unresolved_candidate": []
         },
         "indoor_positioning": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "demographic_profile": {
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -6204,6 +6682,11 @@
           "mention_only": 0,
           "unresolved_candidate": 0
         },
+        "demographic_profile": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
         "comparison_reference": {
           "confirmed_use": 0,
           "mention_only": 0,
@@ -6213,6 +6696,212 @@
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 1
+        }
+      }
+    },
+    {
+      "id": "aurora",
+      "name": "极光 / Aurora Mobile（和讯华谷）",
+      "region": "china",
+      "profile_group": "other_commercial_sdk",
+      "supply_chain_role": "论文具名的其他商业手机SDK供方；独立于泛先锋展示组",
+      "counts": {
+        "confirmed_use": 3,
+        "mention_only": 0,
+        "unresolved_candidate": 0
+      },
+      "paper_ids": {
+        "confirmed_use": [
+          "L63",
+          "L69",
+          "L71"
+        ],
+        "mention_only": [],
+        "unresolved_candidate": []
+      },
+      "role_counts": {
+        "mobility": {
+          "confirmed_use": 2,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "mixed_mobility": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "poi": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "distribution": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "access_contact": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "platform_aggregate": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "vehicle_gps": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "demographic_profile": {
+          "confirmed_use": 1,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "comparison_reference": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "unknown": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        }
+      },
+      "role_paper_ids": {
+        "mobility": {
+          "confirmed_use": [
+            "L63",
+            "L71"
+          ],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "mixed_mobility": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "poi": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "distribution": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "access_contact": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "platform_aggregate": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "vehicle_gps": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "indoor_positioning": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "demographic_profile": {
+          "confirmed_use": [
+            "L69"
+          ],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "comparison_reference": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "unknown": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        }
+      },
+      "confirmed_mobility_use": 2,
+      "confirmed_mixed_mobility_use": 0,
+      "zero_count_meaning": "0仅表示当前文献目录中没有符合该证据门槛的记录；不是全领域无人使用，也不是搜索穷尽。",
+      "association_ids": [
+        "L63",
+        "L69",
+        "L71"
+      ],
+      "entity_interpretation": "按现有品牌/实体标签分别计数",
+      "evidence_role_counts": {
+        "mobility": {
+          "confirmed_use": 2,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "mixed_mobility": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "poi": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "distribution": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "access_contact": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "platform_aggregate": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "vehicle_gps": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "demographic_profile": {
+          "confirmed_use": 1,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "comparison_reference": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "unknown": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
         }
       }
     },
@@ -6258,7 +6947,7 @@
         "https://www.isjike.com/"
       ],
       "counts": {
-        "confirmed_use": 5,
+        "confirmed_use": 12,
         "mention_only": 0,
         "unresolved_candidate": 1
       },
@@ -6268,7 +6957,14 @@
           "L25",
           "L26",
           "L29",
-          "L48"
+          "L48",
+          "L58",
+          "L64",
+          "L68",
+          "L74",
+          "L75",
+          "L76",
+          "L77"
         ],
         "mention_only": [],
         "unresolved_candidate": [
@@ -6277,12 +6973,12 @@
       },
       "role_counts": {
         "mobility": {
-          "confirmed_use": 4,
+          "confirmed_use": 10,
           "mention_only": 0,
           "unresolved_candidate": 0
         },
         "mixed_mobility": {
-          "confirmed_use": 1,
+          "confirmed_use": 2,
           "mention_only": 0,
           "unresolved_candidate": 0
         },
@@ -6312,6 +7008,11 @@
           "unresolved_candidate": 0
         },
         "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "demographic_profile": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -6333,14 +7034,21 @@
             "L21",
             "L25",
             "L26",
-            "L48"
+            "L48",
+            "L64",
+            "L68",
+            "L74",
+            "L75",
+            "L76",
+            "L77"
           ],
           "mention_only": [],
           "unresolved_candidate": []
         },
         "mixed_mobility": {
           "confirmed_use": [
-            "L29"
+            "L29",
+            "L58"
           ],
           "mention_only": [],
           "unresolved_candidate": []
@@ -6375,6 +7083,11 @@
           "mention_only": [],
           "unresolved_candidate": []
         },
+        "demographic_profile": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
         "comparison_reference": {
           "confirmed_use": [],
           "mention_only": [],
@@ -6388,8 +7101,8 @@
           ]
         }
       },
-      "confirmed_mobility_use": 4,
-      "confirmed_mixed_mobility_use": 1,
+      "confirmed_mobility_use": 10,
+      "confirmed_mixed_mobility_use": 2,
       "zero_count_meaning": "0仅表示当前文献目录中没有符合该证据门槛的记录；不是全领域无人使用，也不是搜索穷尽。",
       "association_ids": [
         "L21",
@@ -6397,17 +7110,24 @@
         "L26",
         "L27",
         "L29",
-        "L48"
+        "L48",
+        "L58",
+        "L64",
+        "L68",
+        "L74",
+        "L75",
+        "L76",
+        "L77"
       ],
       "entity_interpretation": "展示组，不构成法律实体或独立采样面板合并认定",
       "evidence_role_counts": {
         "mobility": {
-          "confirmed_use": 4,
+          "confirmed_use": 10,
           "mention_only": 0,
           "unresolved_candidate": 0
         },
         "mixed_mobility": {
-          "confirmed_use": 1,
+          "confirmed_use": 2,
           "mention_only": 0,
           "unresolved_candidate": 0
         },
@@ -6437,6 +7157,11 @@
           "unresolved_candidate": 0
         },
         "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "demographic_profile": {
           "confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -6477,7 +7202,9 @@
       "scope": "phone_location_or_derivative",
       "data_access_relationship": "source_dataset_or_derived_product",
       "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset"
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false
     },
     {
       "paper_id": "L02",
@@ -6501,7 +7228,9 @@
       "scope": "phone_location_or_derivative",
       "data_access_relationship": "source_dataset_or_derived_product",
       "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset"
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false
     },
     {
       "paper_id": "L03",
@@ -6525,7 +7254,9 @@
       "scope": "phone_location_or_derivative",
       "data_access_relationship": "source_dataset_or_derived_product",
       "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset"
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false
     },
     {
       "paper_id": "L07",
@@ -6549,7 +7280,9 @@
       "scope": "phone_location_or_derivative",
       "data_access_relationship": "source_dataset_or_derived_product",
       "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset"
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false
     },
     {
       "paper_id": "L08",
@@ -6573,7 +7306,9 @@
       "scope": "phone_location_or_derivative",
       "data_access_relationship": "source_dataset_or_derived_product",
       "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset"
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false
     },
     {
       "paper_id": "L09",
@@ -6597,7 +7332,9 @@
       "scope": "phone_location_or_derivative",
       "data_access_relationship": "source_dataset_or_derived_product",
       "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset"
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false
     },
     {
       "paper_id": "L11",
@@ -6621,7 +7358,9 @@
       "scope": "phone_location_or_derivative",
       "data_access_relationship": "source_dataset_or_derived_product",
       "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset"
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false
     },
     {
       "paper_id": "L12",
@@ -6645,7 +7384,9 @@
       "scope": "phone_location_or_derivative",
       "data_access_relationship": "source_dataset_or_derived_product",
       "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset"
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false
     },
     {
       "paper_id": "L13",
@@ -6669,7 +7410,9 @@
       "scope": "phone_location_or_derivative",
       "data_access_relationship": "source_dataset_or_derived_product",
       "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset"
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false
     },
     {
       "paper_id": "L16",
@@ -6693,7 +7436,9 @@
       "scope": "phone_location_or_derivative",
       "data_access_relationship": "source_dataset_or_derived_product",
       "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset"
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true
     },
     {
       "paper_id": "L05",
@@ -6717,7 +7462,9 @@
       "scope": "phone_location_or_derivative",
       "data_access_relationship": "source_dataset_or_derived_product",
       "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset"
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false
     },
     {
       "paper_id": "L06",
@@ -6741,7 +7488,9 @@
       "scope": "phone_location_or_derivative",
       "data_access_relationship": "source_dataset_or_derived_product",
       "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset"
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false
     },
     {
       "paper_id": "L10",
@@ -6765,7 +7514,9 @@
       "scope": "phone_location_or_derivative",
       "data_access_relationship": "source_dataset_or_derived_product",
       "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset"
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false
     },
     {
       "paper_id": "L15",
@@ -6789,7 +7540,9 @@
       "scope": "phone_location_or_derivative",
       "data_access_relationship": "source_dataset_or_derived_product",
       "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset"
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false
     },
     {
       "paper_id": "L18",
@@ -6813,7 +7566,9 @@
       "scope": "phone_location_or_derivative",
       "data_access_relationship": "source_dataset_or_derived_product",
       "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset"
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false
     },
     {
       "paper_id": "L23",
@@ -6837,7 +7592,9 @@
       "scope": "phone_location_or_derivative",
       "data_access_relationship": "source_dataset_or_derived_product",
       "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset"
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false
     },
     {
       "paper_id": "L04",
@@ -6861,7 +7618,9 @@
       "scope": "phone_location_or_derivative",
       "data_access_relationship": "source_dataset",
       "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset"
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false
     },
     {
       "paper_id": "L06",
@@ -6885,7 +7644,9 @@
       "scope": "poi_context_not_phone_trace",
       "data_access_relationship": "poi_database",
       "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset"
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false
     },
     {
       "paper_id": "L14",
@@ -6910,7 +7671,9 @@
       "scope": "phone_location_or_derivative",
       "data_access_relationship": "clean_room",
       "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset"
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false
     },
     {
       "paper_id": "L17",
@@ -6934,7 +7697,9 @@
       "scope": "phone_location_or_derivative",
       "data_access_relationship": "derived_flow_reuse",
       "data_reuse_note": "意大利派生流来自Pepe等；不是一套新独立面板",
-      "count_unit": "unique_study_not_independent_dataset"
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false
     },
     {
       "paper_id": "L17",
@@ -6958,7 +7723,9 @@
       "scope": "phone_location_or_derivative",
       "data_access_relationship": "secondary_derived_flow",
       "data_reuse_note": "复用L02发布的派生流；论文计数不等于独立数据集计数",
-      "count_unit": "unique_study_not_independent_dataset"
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false
     },
     {
       "paper_id": "L17",
@@ -6982,7 +7749,9 @@
       "scope": "platform_location_derivative",
       "data_access_relationship": "aggregated_network",
       "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset"
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false
     },
     {
       "paper_id": "L17",
@@ -7006,7 +7775,9 @@
       "scope": "platform_statistics_secondary_use",
       "data_access_relationship": "published_statistics_only",
       "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset"
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false
     },
     {
       "paper_id": "L17",
@@ -7030,7 +7801,9 @@
       "scope": "vehicle_gps_outside_phone_sdk_core",
       "data_access_relationship": "published_statistics_only",
       "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset"
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false
     },
     {
       "paper_id": "L19",
@@ -7054,7 +7827,9 @@
       "scope": "phone_location_or_derivative",
       "data_access_relationship": "secondary_processed_data",
       "data_reuse_note": "同L05原始数据；是另一篇研究而不是另一独立采样面板",
-      "count_unit": "unique_study_not_independent_dataset"
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false
     },
     {
       "paper_id": "L20",
@@ -7078,7 +7853,9 @@
       "scope": "phone_location_or_derivative",
       "data_access_relationship": "aggregated_visits",
       "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset"
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false
     },
     {
       "paper_id": "L20",
@@ -7102,7 +7879,9 @@
       "scope": "poi_context_not_phone_trace",
       "data_access_relationship": "poi_database",
       "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset"
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false
     },
     {
       "paper_id": "L20",
@@ -7126,7 +7905,9 @@
       "scope": "distribution_not_collection",
       "data_access_relationship": "academic_distribution",
       "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset"
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false
     },
     {
       "paper_id": "L24",
@@ -7151,7 +7932,9 @@
       "scope": "phone_location_or_derivative",
       "data_access_relationship": "source_dataset",
       "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset"
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false
     },
     {
       "paper_id": "L21",
@@ -7176,6 +7959,8 @@
       "data_access_relationship": "none_comparison_only",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
       "primary_source_audit": "重新核对已验证正文PDF第6、9页；不依赖参考文献字符串。"
     },
     {
@@ -7201,6 +7986,8 @@
       "data_access_relationship": "poi_database",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
       "primary_source_audit": "同篇已校验PDF第4页。"
     },
     {
@@ -7226,6 +8013,8 @@
       "data_access_relationship": "none_comparison_only",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
       "primary_source_audit": "同篇已校验PDF第5页。"
     },
     {
@@ -7252,6 +8041,8 @@
       "data_access_relationship": "aggregated_population_attributes",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false,
       "primary_source_audit": "11页出版商PDF；sha256 94bc64018e7bec2ec9c8992eee6bd8feb7d86be908729b381cf4f084b17c7229；china_round5_hku原始核验。"
     },
     {
@@ -7277,6 +8068,8 @@
       "data_access_relationship": "aggregated_product",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false,
       "primary_source_audit": "第六轮原刊或作者机构资料核验；证据范围见逐项section。"
     },
     {
@@ -7302,6 +8095,8 @@
       "data_access_relationship": "source_dataset",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "primary_source_audit": "第六轮原刊或作者机构资料核验；证据范围见逐项section。"
     },
     {
@@ -7327,6 +8122,8 @@
       "data_access_relationship": "aggregated_product",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "primary_source_audit": "第六轮原刊或作者机构资料核验；证据范围见逐项section。"
     },
     {
@@ -7352,6 +8149,8 @@
       "data_access_relationship": "platform_data",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "primary_source_audit": "user_verified_provider"
     },
     {
@@ -7377,6 +8176,8 @@
       "data_access_relationship": "platform_data",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "primary_source_audit": "user_verified_provider"
     },
     {
@@ -7402,6 +8203,8 @@
       "data_access_relationship": "platform_data",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false,
       "primary_source_audit": "round8_primary_source_methods_verified"
     },
     {
@@ -7427,6 +8230,8 @@
       "data_access_relationship": "source_dataset",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false,
       "primary_source_audit": "round8_primary_source_methods_verified"
     },
     {
@@ -7452,6 +8257,8 @@
       "data_access_relationship": "source_dataset",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false,
       "primary_source_audit": "round8_primary_source_methods_verified"
     },
     {
@@ -7478,6 +8285,8 @@
       "data_access_relationship": "poi_database",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false,
       "primary_source_audit": "round8_primary_source_methods_verified"
     },
     {
@@ -7503,6 +8312,8 @@
       "data_access_relationship": "poi_database",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false,
       "primary_source_audit": "round8_primary_source_methods_verified"
     },
     {
@@ -7528,6 +8339,8 @@
       "data_access_relationship": "poi_database",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false,
       "primary_source_audit": "round8_primary_source_methods_verified"
     },
     {
@@ -7554,7 +8367,117 @@
       "data_access_relationship": "platform_data",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false,
       "primary_source_audit": "round8_primary_source_methods_verified"
+    },
+    {
+      "paper_id": "L63",
+      "paper_title": "基于手机定位数据的游客步行行为特征及与旅游区功能布局关系研究",
+      "doi": "10.12082/dqxxkx.2024.220546",
+      "provider_id": "aurora",
+      "provider_name": "极光 / Aurora Mobile（和讯华谷）",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "极光 / Aurora Mobile"
+      ],
+      "evidence_url": "https://www.dqxxkx.cn/CN/abstract/article/1560-8999/56347",
+      "evidence_section": "3.2.1",
+      "basis": "§3.2.1极光SDK；鼓浪屿2019-10-1至7；原始76,119人737,373条，清洗后18,710人494,099条。国家自然科学基金51908229。",
+      "catalog_status": "reviewed",
+      "scope": "other_commercial",
+      "data_access_relationship": "source_dataset",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
+      "primary_source_audit": "原文数据声明已核；第10轮"
+    },
+    {
+      "paper_id": "L69",
+      "paper_title": "Spatial Heterogeneities of O2O Retail Space in Urban China Under Digital Transformation: Evidence from Guangzhou, China",
+      "doi": "10.1007/s11769-025-1493-6",
+      "provider_id": "aurora",
+      "provider_name": "极光 / Aurora Mobile（和讯华谷）",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "demographic_profile",
+      "roles": [
+        "demographic_profile"
+      ],
+      "declared_brands": [
+        "Aurora Mobile / jiguang.cn（极光）"
+      ],
+      "evidence_url": "https://link.springer.com/article/10.1007/s11769-025-1493-6",
+      "evidence_section": "§3.2.2 Influencing factors data；PDF 第 6 页/印刷页 968；表 1",
+      "basis": "§3.2.2 明确极光 Aurora Mobile 提供 SDK 数据，用于常住人口社会人口特征（青年比例、教育和收入等），结合网格人口密度解释 O2O 零售分布。本研究未明确 GPS/WiFi 技术或直接使用个体移动轨迹；不能按轨迹使用计数。大众点评供零售店铺数据，高德供建成环境，安居客供租金，各角色须区分。",
+      "catalog_status": "reviewed",
+      "scope": "sdk_demographic_profile_no_trajectory_evidence",
+      "data_access_relationship": "source_dataset",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false,
+      "primary_source_audit": "原文数据声明已核；第10轮"
+    },
+    {
+      "paper_id": "L71",
+      "paper_title": "基于OPGD和MGWR的建成环境对城市活力的影响及其空间异质性研究—以广州市域为例",
+      "doi": "10.11821/dlyj020241315",
+      "provider_id": "aurora",
+      "provider_name": "极光 / Aurora Mobile（和讯华谷）",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "深圳市和讯华谷信息技术有限公司"
+      ],
+      "evidence_url": "https://www.dlyj.ac.cn/EN/abstract/article/1000-0585/74649",
+      "evidence_section": "原刊HTML §2.2.1 表1；§2.3.1",
+      "basis": "表1列明手机SDK产品及具名供方；§2.3.1说明GPS与APP交互触发采集，2020年第四季度广州数据按Geohash7网格统计。百度仅供POI。",
+      "catalog_status": "reviewed",
+      "scope": "other_commercial",
+      "data_access_relationship": "source_dataset",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
+      "primary_source_audit": "原文数据声明已核；第10轮"
+    },
+    {
+      "paper_id": "L73",
+      "paper_title": "基于手机信令数据的中小城市区域联系及人口研究",
+      "doi": "10.13813/j.cn11-5141/u.2020.0404",
+      "provider_id": "getui",
+      "provider_name": "每日互动 / 个推 (Getui)",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "浙江每日互动 / 个推"
+      ],
+      "evidence_url": "https://www.chinautc.com/templates/H_magazine/articlecontent.aspx?contentid=97234&nodeid=4855&page=ContentPage",
+      "evidence_section": "PDF印刷第48页 §1 数据说明（原刊PDF搜索索引可读）",
+      "basis": "§1区分江山联通信令与青田、海盐、宁海个推SDK，不能把整篇当纯SDK，也不能将不同城市数据误称融合定位。",
+      "catalog_status": "pending",
+      "scope": "other_commercial",
+      "data_access_relationship": "source_dataset",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
+      "primary_source_audit": "原文数据声明已核；第10轮"
     },
     {
       "paper_id": "P240AD96D",
@@ -7579,6 +8502,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "SafeGraph"
       ],
@@ -7607,6 +8532,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "SafeGraph"
       ],
@@ -7635,6 +8562,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "SafeGraph"
       ],
@@ -7663,6 +8592,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "SafeGraph"
       ],
@@ -7691,6 +8622,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "SafeGraph"
       ],
@@ -7719,6 +8652,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "SafeGraph (plus Cuebiq/StreetLight/other sources)"
       ],
@@ -7747,6 +8682,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "SafeGraph (plus Cuebiq/StreetLight/other sources)"
       ],
@@ -7775,6 +8712,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "SafeGraph (plus Cuebiq/StreetLight/other sources)"
       ],
@@ -7803,6 +8742,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "SafeGraph"
       ],
@@ -7831,6 +8772,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "SafeGraph"
       ],
@@ -7859,6 +8802,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
       "candidate_claims": [
         "SafeGraph",
         "SafeGraph (vs. taxi records)"
@@ -7888,6 +8833,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "SafeGraph"
       ],
@@ -7916,6 +8863,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "Cuebiq"
       ],
@@ -7944,6 +8893,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "Cuebiq"
       ],
@@ -7972,6 +8923,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "Spectus (Cuebiq)"
       ],
@@ -8000,6 +8953,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "Veraset"
       ],
@@ -8028,6 +8983,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "Veraset"
       ],
@@ -8056,6 +9013,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "Spectus and Veraset"
       ],
@@ -8084,6 +9043,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "Spectus and Veraset"
       ],
@@ -8112,6 +9073,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "Spectus"
       ],
@@ -8140,6 +9103,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "SafeGraph/Advan; Veraset; Foursquare; SDK aggregators"
       ],
@@ -8168,6 +9133,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "SafeGraph/Advan; Veraset; Foursquare; SDK aggregators"
       ],
@@ -8196,6 +9163,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "SafeGraph/Advan; Veraset; Foursquare; SDK aggregators"
       ],
@@ -8224,6 +9193,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "SafeGraph/Advan; Veraset; Foursquare; SDK aggregators"
       ],
@@ -8252,6 +9223,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "Spectus/Cuebiq; Foursquare; Advan; other vendors"
       ],
@@ -8280,6 +9253,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "Spectus/Cuebiq; Foursquare; Advan; other vendors"
       ],
@@ -8308,6 +9283,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "Spectus/Cuebiq; Foursquare; Advan; other vendors"
       ],
@@ -8336,6 +9313,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "SafeGraph and Descartes Labs"
       ],
@@ -8364,6 +9343,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "SafeGraph and Descartes Labs"
       ],
@@ -8392,6 +9373,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "SafeGraph"
       ],
@@ -8420,6 +9403,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "Spectus/SafeGraph"
       ],
@@ -8448,6 +9433,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "Spectus/SafeGraph"
       ],
@@ -8476,6 +9463,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
       "candidate_claims": [
         "Spectus/X-Mode/Veraset",
         "Spectus; X-Mode; Veraset",
@@ -8507,6 +9496,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
       "candidate_claims": [
         "Spectus/X-Mode/Veraset",
         "Spectus; X-Mode; Veraset",
@@ -8538,6 +9529,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
       "candidate_claims": [
         "Spectus/X-Mode/Veraset",
         "Spectus; X-Mode; Veraset",
@@ -8569,6 +9562,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "Cuebiq"
       ],
@@ -8597,6 +9592,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
       "candidate_claims": [
         "SafeGraph (vs. Wejo connected vehicles)",
         "SafeGraph"
@@ -8626,6 +9623,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
       "candidate_claims": [
         "SafeGraph (vs. Wejo connected vehicles)"
       ],
@@ -8654,6 +9653,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
       "candidate_claims": [
         "local Zotero note labels the dataset Veraset ‘Visits’",
         "Veraset"
@@ -8683,6 +9684,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
       "candidate_claims": [
         "local Zotero note labels source Spectus",
         "Spectus"
@@ -8712,6 +9715,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
       "candidate_claims": [
         "local Zotero note labels source Veraset",
         "Veraset"
@@ -8741,6 +9746,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "SafeGraph"
       ],
@@ -8769,6 +9776,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "SafeGraph"
       ],
@@ -8797,6 +9806,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "SafeGraph"
       ],
@@ -8825,6 +9836,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "SafeGraph"
       ],
@@ -8853,6 +9866,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "SafeGraph"
       ],
@@ -8881,6 +9896,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "SafeGraph"
       ],
@@ -8909,6 +9926,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "SafeGraph"
       ],
@@ -8937,6 +9956,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "SafeGraph"
       ],
@@ -8965,6 +9986,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "SafeGraph"
       ],
@@ -8993,6 +10016,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "SafeGraph"
       ],
@@ -9021,6 +10046,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "Spectus"
       ],
@@ -9049,6 +10076,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "SafeGraph"
       ],
@@ -9077,6 +10106,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "SafeGraph"
       ],
@@ -9105,6 +10136,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "SafeGraph"
       ],
@@ -9133,6 +10166,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "SafeGraph"
       ],
@@ -9161,6 +10196,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "SafeGraph"
       ],
@@ -9189,6 +10226,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "SafeGraph"
       ],
@@ -9217,6 +10256,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "SafeGraph"
       ],
@@ -9245,6 +10286,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "SafeGraph"
       ],
@@ -9273,6 +10316,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "SafeGraph"
       ],
@@ -9301,6 +10346,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "SafeGraph"
       ],
@@ -9329,6 +10376,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "SafeGraph / Advan"
       ],
@@ -9357,6 +10406,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "SafeGraph / Advan"
       ],
@@ -9385,6 +10436,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "SafeGraph"
       ],
@@ -9413,6 +10466,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "SafeGraph"
       ],
@@ -9441,6 +10496,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "SafeGraph"
       ],
@@ -9469,6 +10526,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "SafeGraph"
       ],
@@ -9497,6 +10556,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "SafeGraph"
       ],
@@ -9525,6 +10586,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
       "candidate_claims": [
         "SafeGraph 相关基准/POI 体系"
       ],
@@ -9553,6 +10616,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
       "candidate_claims": [
         "SafeGraph"
       ],
@@ -9581,6 +10646,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
       "candidate_claims": [
         "SafeGraph"
       ],
@@ -9609,6 +10676,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
       "candidate_claims": [
         "SafeGraph"
       ],
@@ -9638,6 +10707,8 @@
       "data_access_relationship": "provider_executes_code_returns_aggregates",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
       "evidence_basis": "user_confirmed_supplier_group",
       "grouping_basis": "user_confirmed_supplier_group",
       "member_provider_ids": [
@@ -9675,7 +10746,9 @@
           "scope": "phone_location_or_derivative",
           "data_access_relationship": "provider_executes_code_returns_aggregates",
           "data_reuse_note": "",
-          "count_unit": "unique_study_not_independent_dataset"
+          "count_unit": "unique_study_not_independent_dataset",
+          "pdf_downloaded": true,
+          "zotero_attachment_verified": true
         },
         {
           "paper_id": "L21",
@@ -9699,7 +10772,9 @@
           "scope": "documented_contact_link_not_direct_supplier_attribution",
           "data_access_relationship": "access_contact_only",
           "data_reuse_note": "",
-          "count_unit": "unique_study_not_independent_dataset"
+          "count_unit": "unique_study_not_independent_dataset",
+          "pdf_downloaded": true,
+          "zotero_attachment_verified": true
         }
       ],
       "evidence_urls": [
@@ -9729,6 +10804,8 @@
       "data_access_relationship": "source_dataset",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
       "primary_source_audit": "中国来源代理实取11页PDF并读数据段；SHA256 aaf1902b5838f39246352b439b55af1b14d81a5ff95315ed5e18a69c58c8809e。原载DOI 10.3974/geodp.2026.02.08尚未解析，不以DOI解析失败否定原刊正文，但保持书目状态说明。",
       "evidence_basis": "user_confirmed_supplier_group",
       "grouping_basis": "user_confirmed_supplier_group",
@@ -9765,6 +10842,8 @@
           "data_access_relationship": "source_dataset",
           "data_reuse_note": "",
           "count_unit": "unique_study_not_independent_dataset",
+          "pdf_downloaded": true,
+          "zotero_attachment_verified": true,
           "primary_source_audit": "中国来源代理实取11页PDF并读数据段；SHA256 aaf1902b5838f39246352b439b55af1b14d81a5ff95315ed5e18a69c58c8809e。原载DOI 10.3974/geodp.2026.02.08尚未解析，不以DOI解析失败否定原刊正文，但保持书目状态说明。"
         }
       ],
@@ -9795,6 +10874,8 @@
       "data_access_relationship": "source_dataset",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false,
       "primary_source_audit": "官方122页摘要集PDF已解析核验；SHA256 bb45745f61044b8d6fffe85e48c46902a55bbfc83ebb2deee90e621dbb4c65d1。",
       "evidence_basis": "user_confirmed_supplier_group",
       "grouping_basis": "user_confirmed_supplier_group",
@@ -9831,6 +10912,8 @@
           "data_access_relationship": "source_dataset",
           "data_reuse_note": "",
           "count_unit": "unique_study_not_independent_dataset",
+          "pdf_downloaded": true,
+          "zotero_attachment_verified": false,
           "primary_source_audit": "官方122页摘要集PDF已解析核验；SHA256 bb45745f61044b8d6fffe85e48c46902a55bbfc83ebb2deee90e621dbb4c65d1。"
         }
       ],
@@ -9861,6 +10944,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
       "user_assessed_confidence": 0.99,
       "confidence_interpretation": "用户主观评估，非统计估计或原文供方证据",
       "evidence_basis": "user_confirmed_supplier_group",
@@ -9898,6 +10983,8 @@
           "data_access_relationship": "unverified",
           "data_reuse_note": "",
           "count_unit": "unique_study_not_independent_dataset",
+          "pdf_downloaded": true,
+          "zotero_attachment_verified": true,
           "user_assessed_confidence": 0.99,
           "confidence_interpretation": "用户主观评估，非统计估计或原文供方证据"
         }
@@ -9931,6 +11018,8 @@
       "data_access_relationship": "source_dataset",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
       "primary_source_audit": "15页开放PDF下载及身份核验；sha256 ac5bc0459191a1e596e56766e6610e3159d72f967165a5b3ded881a69aebd3bd。",
       "evidence_basis": "user_confirmed_supplier_group",
       "grouping_basis": "user_confirmed_supplier_group",
@@ -9969,6 +11058,8 @@
           "data_access_relationship": "source_dataset",
           "data_reuse_note": "",
           "count_unit": "unique_study_not_independent_dataset",
+          "pdf_downloaded": true,
+          "zotero_attachment_verified": true,
           "primary_source_audit": "15页开放PDF下载及身份核验；sha256 ac5bc0459191a1e596e56766e6610e3159d72f967165a5b3ded881a69aebd3bd。"
         }
       ],
@@ -10000,6 +11091,8 @@
       "data_access_relationship": "source_dataset",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false,
       "primary_source_audit": "round8_primary_source_methods_verified",
       "evidence_basis": "user_confirmed_supplier_group",
       "grouping_basis": "user_confirmed_supplier_group",
@@ -10037,11 +11130,517 @@
           "data_access_relationship": "source_dataset",
           "data_reuse_note": "",
           "count_unit": "unique_study_not_independent_dataset",
+          "pdf_downloaded": true,
+          "zotero_attachment_verified": false,
           "primary_source_audit": "round8_primary_source_methods_verified"
         }
       ],
       "evidence_urls": [
         "https://www.rddl.com.cn/CN/10.13284/j.cnki.rddl.20250648"
+      ]
+    },
+    {
+      "paper_id": "L58",
+      "paper_title": "Evaluating the Quality of High-Frequency Pedestrian Commuting Streets: A Data-Driven Approach in Shenzhen",
+      "doi": "10.3390/smartcities8030083",
+      "provider_id": "pioneer_moxing_jike",
+      "provider_name": "先锋数聚 / 摸星 / 即刻·及刻（Pioneer / Moxing / Jike）",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mixed_mobility",
+      "roles": [
+        "mixed_mobility"
+      ],
+      "declared_brands": [
+        "Jike by iDream Network Technology（及刻）"
+      ],
+      "evidence_url": "https://www.mdpi.com/2624-6511/8/3/83",
+      "evidence_section": "§2.5.2 Data Processing，PDF 第 9 页；范围 §2.5.1 第 8 页",
+      "basis": "按用户人工核验合并供应商展示组，同篇去重；不作工商关系认定。 [及刻 / Jike（即刻为用户检索别名）；confirmed_use；mixed_mobility] §2.5.2 明确 Jike 供高精度手机 LBS；SDK 扫描 WiFi、蓝牙及基站等环境信号，并结合 GPS 与场景识别点。本文的 Baidu 仅为辅助 POI 来源，不能作为定位供方。 来源：https://www.mdpi.com/2624-6511/8/3/83",
+      "catalog_status": "reviewed",
+      "scope": "sdk_gps_wifi_environment_signals",
+      "data_access_relationship": "source_dataset",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_catalog_imported": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "原文数据声明已核；第10轮",
+      "evidence_basis": "user_confirmed_supplier_group",
+      "grouping_basis": "user_confirmed_supplier_group",
+      "member_provider_ids": [
+        "jike"
+      ],
+      "role_statuses": {
+        "mixed_mobility": "confirmed_use"
+      },
+      "evidence_roles": [
+        "mixed_mobility"
+      ],
+      "evidence": [
+        {
+          "paper_id": "L58",
+          "paper_title": "Evaluating the Quality of High-Frequency Pedestrian Commuting Streets: A Data-Driven Approach in Shenzhen",
+          "doi": "10.3390/smartcities8030083",
+          "provider_id": "jike",
+          "provider_name": "及刻 / Jike（即刻为用户检索别名）",
+          "status": "confirmed_use",
+          "classification": "confirmed_use",
+          "role": "mixed_mobility",
+          "roles": [
+            "mixed_mobility"
+          ],
+          "declared_brands": [
+            "Jike by iDream Network Technology（及刻）"
+          ],
+          "evidence_url": "https://www.mdpi.com/2624-6511/8/3/83",
+          "evidence_section": "§2.5.2 Data Processing，PDF 第 9 页；范围 §2.5.1 第 8 页",
+          "basis": "§2.5.2 明确 Jike 供高精度手机 LBS；SDK 扫描 WiFi、蓝牙及基站等环境信号，并结合 GPS 与场景识别点。本文的 Baidu 仅为辅助 POI 来源，不能作为定位供方。",
+          "catalog_status": "reviewed",
+          "scope": "sdk_gps_wifi_environment_signals",
+          "data_access_relationship": "source_dataset",
+          "data_reuse_note": "",
+          "count_unit": "unique_study_not_independent_dataset",
+          "pdf_downloaded": true,
+          "zotero_catalog_imported": true,
+          "zotero_attachment_verified": true,
+          "primary_source_audit": "原文数据声明已核；第10轮"
+        }
+      ],
+      "evidence_urls": [
+        "https://www.mdpi.com/2624-6511/8/3/83"
+      ]
+    },
+    {
+      "paper_id": "L64",
+      "paper_title": "Revealing socio-demographic heterogeneity in urban travel behavior under the influence of the built environment",
+      "doi": "10.1016/j.cities.2026.106983",
+      "provider_id": "pioneer_moxing_jike",
+      "provider_name": "先锋数聚 / 摸星 / 即刻·及刻（Pioneer / Moxing / Jike）",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "Jike Technology Ltd"
+      ],
+      "evidence_url": "https://www.sciencedirect.com/science/article/pii/S0264275126002155",
+      "evidence_section": "3.2.1",
+      "basis": "按用户人工核验合并供应商展示组，同篇去重；不作工商关系认定。 [及刻 / Jike（即刻为用户检索别名）；confirmed_use；mobility] 全文§3.2.1明确Jike；福州2023-01-01至07，226万人，匿名ID/坐标/时间/年龄/性别/收入标签，多定位融合；高德只是POI。 来源：https://www.sciencedirect.com/science/article/pii/S0264275126002155",
+      "catalog_status": "reviewed",
+      "scope": "pioneer_named",
+      "data_access_relationship": "source_dataset",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_catalog_imported": true,
+      "zotero_attachment_verified": false,
+      "primary_source_audit": "原文数据声明已核；第10轮",
+      "evidence_basis": "user_confirmed_supplier_group",
+      "grouping_basis": "user_confirmed_supplier_group",
+      "member_provider_ids": [
+        "jike"
+      ],
+      "role_statuses": {
+        "mobility": "confirmed_use"
+      },
+      "evidence_roles": [
+        "mobility"
+      ],
+      "evidence": [
+        {
+          "paper_id": "L64",
+          "paper_title": "Revealing socio-demographic heterogeneity in urban travel behavior under the influence of the built environment",
+          "doi": "10.1016/j.cities.2026.106983",
+          "provider_id": "jike",
+          "provider_name": "及刻 / Jike（即刻为用户检索别名）",
+          "status": "confirmed_use",
+          "classification": "confirmed_use",
+          "role": "mobility",
+          "roles": [
+            "mobility"
+          ],
+          "declared_brands": [
+            "Jike Technology Ltd"
+          ],
+          "evidence_url": "https://www.sciencedirect.com/science/article/pii/S0264275126002155",
+          "evidence_section": "3.2.1",
+          "basis": "全文§3.2.1明确Jike；福州2023-01-01至07，226万人，匿名ID/坐标/时间/年龄/性别/收入标签，多定位融合；高德只是POI。",
+          "catalog_status": "reviewed",
+          "scope": "pioneer_named",
+          "data_access_relationship": "source_dataset",
+          "data_reuse_note": "",
+          "count_unit": "unique_study_not_independent_dataset",
+          "pdf_downloaded": false,
+          "zotero_catalog_imported": true,
+          "zotero_attachment_verified": false,
+          "primary_source_audit": "原文数据声明已核；第10轮"
+        }
+      ],
+      "evidence_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S0264275126002155"
+      ]
+    },
+    {
+      "paper_id": "L68",
+      "paper_title": "Exploring the Spatial Variation of Access/Egress Distances of Subway Stations Using Mobile Phone Positioning Data in Chengdu, China",
+      "doi": "10.1155/2023/8008667",
+      "provider_id": "pioneer_moxing_jike",
+      "provider_name": "先锋数聚 / 摸星 / 即刻·及刻（Pioneer / Moxing / Jike）",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "Jike / isjike.com（及刻）"
+      ],
+      "evidence_url": "https://onlinelibrary.wiley.com/doi/10.1155/2023/8008667",
+      "evidence_section": "§3.2 Mobile Phone Positioning Data",
+      "basis": "按用户人工核验合并供应商展示组，同篇去重；不作工商关系认定。 [及刻 / Jike（即刻为用户检索别名）；confirmed_use；mobility] §3.2 明确 Jike/isjike.com 供数。场景数据来自 SDK 与 POI 的 WiFi、蓝牙和 NFC 交互；另有连续亮屏状态下每半小时定时上报。画像标签可能结合运营商外部资料，但不能因此改判为运营商定位。 来源：https://onlinelibrary.wiley.com/doi/10.1155/2023/8008667",
+      "catalog_status": "reviewed",
+      "scope": "sdk_scene_and_timed_positioning",
+      "data_access_relationship": "source_dataset",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_catalog_imported": true,
+      "zotero_attachment_verified": false,
+      "primary_source_audit": "原文数据声明已核；第10轮",
+      "evidence_basis": "user_confirmed_supplier_group",
+      "grouping_basis": "user_confirmed_supplier_group",
+      "member_provider_ids": [
+        "jike"
+      ],
+      "role_statuses": {
+        "mobility": "confirmed_use"
+      },
+      "evidence_roles": [
+        "mobility"
+      ],
+      "evidence": [
+        {
+          "paper_id": "L68",
+          "paper_title": "Exploring the Spatial Variation of Access/Egress Distances of Subway Stations Using Mobile Phone Positioning Data in Chengdu, China",
+          "doi": "10.1155/2023/8008667",
+          "provider_id": "jike",
+          "provider_name": "及刻 / Jike（即刻为用户检索别名）",
+          "status": "confirmed_use",
+          "classification": "confirmed_use",
+          "role": "mobility",
+          "roles": [
+            "mobility"
+          ],
+          "declared_brands": [
+            "Jike / isjike.com（及刻）"
+          ],
+          "evidence_url": "https://onlinelibrary.wiley.com/doi/10.1155/2023/8008667",
+          "evidence_section": "§3.2 Mobile Phone Positioning Data",
+          "basis": "§3.2 明确 Jike/isjike.com 供数。场景数据来自 SDK 与 POI 的 WiFi、蓝牙和 NFC 交互；另有连续亮屏状态下每半小时定时上报。画像标签可能结合运营商外部资料，但不能因此改判为运营商定位。",
+          "catalog_status": "reviewed",
+          "scope": "sdk_scene_and_timed_positioning",
+          "data_access_relationship": "source_dataset",
+          "data_reuse_note": "",
+          "count_unit": "unique_study_not_independent_dataset",
+          "pdf_downloaded": false,
+          "zotero_catalog_imported": true,
+          "zotero_attachment_verified": false,
+          "primary_source_audit": "原文数据声明已核；第10轮"
+        }
+      ],
+      "evidence_urls": [
+        "https://onlinelibrary.wiley.com/doi/10.1155/2023/8008667"
+      ]
+    },
+    {
+      "paper_id": "L74",
+      "paper_title": "多源数据支持下的老城区更新潜力评估与边界划定框架构建及实证研究",
+      "doi": "",
+      "provider_id": "pioneer_moxing_jike",
+      "provider_name": "先锋数聚 / 摸星 / 即刻·及刻（Pioneer / Moxing / Jike）",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "先锋数聚"
+      ],
+      "evidence_url": "https://kns.cnki.net/",
+      "evidence_section": "PDF第2–4页／印刷44–46页，§2.1.1、§2.1.2、§2.2",
+      "basis": "按用户人工核验合并供应商展示组，同篇去重；不作工商关系认定。 [先锋数聚 / Pioneer Data；confirmed_use；mobility] §2.1.1明确引入先锋大数据平台，采用ROM-SDK、运营商与应用程序行为多源数据；§2.1.2细分高时空精度轨迹、运营商群体画像标签和线上行为序列；§2.2明确先锋数聚。运营商画像参与分析不能直接解释为运营商基站融合定位，保留SDK研究并单列角色。案例为嘉善与眉山老城区更新潜力和边界划定。 来源：https://kns.cnki.net/",
+      "catalog_status": "reviewed",
+      "scope": "pioneer_named",
+      "data_access_relationship": "source_dataset",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_catalog_imported": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "原文数据声明已核；第10轮",
+      "evidence_basis": "user_confirmed_supplier_group",
+      "grouping_basis": "user_confirmed_supplier_group",
+      "member_provider_ids": [
+        "pioneer"
+      ],
+      "role_statuses": {
+        "mobility": "confirmed_use"
+      },
+      "evidence_roles": [
+        "mobility"
+      ],
+      "evidence": [
+        {
+          "paper_id": "L74",
+          "paper_title": "多源数据支持下的老城区更新潜力评估与边界划定框架构建及实证研究",
+          "doi": "",
+          "provider_id": "pioneer",
+          "provider_name": "先锋数聚 / Pioneer Data",
+          "status": "confirmed_use",
+          "classification": "confirmed_use",
+          "role": "mobility",
+          "roles": [
+            "mobility"
+          ],
+          "declared_brands": [
+            "先锋数聚"
+          ],
+          "evidence_url": "https://kns.cnki.net/",
+          "evidence_section": "PDF第2–4页／印刷44–46页，§2.1.1、§2.1.2、§2.2",
+          "basis": "§2.1.1明确引入先锋大数据平台，采用ROM-SDK、运营商与应用程序行为多源数据；§2.1.2细分高时空精度轨迹、运营商群体画像标签和线上行为序列；§2.2明确先锋数聚。运营商画像参与分析不能直接解释为运营商基站融合定位，保留SDK研究并单列角色。案例为嘉善与眉山老城区更新潜力和边界划定。",
+          "catalog_status": "reviewed",
+          "scope": "pioneer_named",
+          "data_access_relationship": "source_dataset",
+          "data_reuse_note": "",
+          "count_unit": "unique_study_not_independent_dataset",
+          "pdf_downloaded": true,
+          "zotero_catalog_imported": true,
+          "zotero_attachment_verified": true,
+          "primary_source_audit": "原文数据声明已核；第10轮"
+        }
+      ],
+      "evidence_urls": [
+        "https://kns.cnki.net/"
+      ]
+    },
+    {
+      "paper_id": "L75",
+      "paper_title": "空间生产视角下的江苏省“双一流”高校多校区融合成效研究",
+      "doi": "10.13236/j.cnki.jshe.2026.01.007",
+      "provider_id": "pioneer_moxing_jike",
+      "provider_name": "先锋数聚 / 摸星 / 即刻·及刻（Pioneer / Moxing / Jike）",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "北京先锋数聚信息科技有限公司"
+      ],
+      "evidence_url": "https://doi.org/10.13236/j.cnki.jshe.2026.01.007",
+      "evidence_section": "PDF第3页／印刷51页，二(三)数据来源与处理方法",
+      "basis": "按用户人工核验合并供应商展示组，同篇去重；不作工商关系认定。 [先锋数聚 / Pioneer Data；confirmed_use；mobility] §二(三)明确北京先锋数聚供应江苏省手机SDK轨迹：2024-05-01至05-30，390余亿条位置记录、约5500余万人次；筛选连续14天且覆盖每校至少两校区的有效用户。结合AOI量化迁徙强度、路径连通、活动重叠与网络耦合，分析14所省部共建双一流高校。南京大学为作者单位，不是14校样本之一。 来源：https://doi.org/10.13236/j.cnki.jshe.2026.01.007",
+      "catalog_status": "reviewed",
+      "scope": "pioneer_named",
+      "data_access_relationship": "source_dataset",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_catalog_imported": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "原文数据声明已核；第10轮",
+      "evidence_basis": "user_confirmed_supplier_group",
+      "grouping_basis": "user_confirmed_supplier_group",
+      "member_provider_ids": [
+        "pioneer"
+      ],
+      "role_statuses": {
+        "mobility": "confirmed_use"
+      },
+      "evidence_roles": [
+        "mobility"
+      ],
+      "evidence": [
+        {
+          "paper_id": "L75",
+          "paper_title": "空间生产视角下的江苏省“双一流”高校多校区融合成效研究",
+          "doi": "10.13236/j.cnki.jshe.2026.01.007",
+          "provider_id": "pioneer",
+          "provider_name": "先锋数聚 / Pioneer Data",
+          "status": "confirmed_use",
+          "classification": "confirmed_use",
+          "role": "mobility",
+          "roles": [
+            "mobility"
+          ],
+          "declared_brands": [
+            "北京先锋数聚信息科技有限公司"
+          ],
+          "evidence_url": "https://doi.org/10.13236/j.cnki.jshe.2026.01.007",
+          "evidence_section": "PDF第3页／印刷51页，二(三)数据来源与处理方法",
+          "basis": "§二(三)明确北京先锋数聚供应江苏省手机SDK轨迹：2024-05-01至05-30，390余亿条位置记录、约5500余万人次；筛选连续14天且覆盖每校至少两校区的有效用户。结合AOI量化迁徙强度、路径连通、活动重叠与网络耦合，分析14所省部共建双一流高校。南京大学为作者单位，不是14校样本之一。",
+          "catalog_status": "reviewed",
+          "scope": "pioneer_named",
+          "data_access_relationship": "source_dataset",
+          "data_reuse_note": "",
+          "count_unit": "unique_study_not_independent_dataset",
+          "pdf_downloaded": true,
+          "zotero_catalog_imported": true,
+          "zotero_attachment_verified": true,
+          "primary_source_audit": "原文数据声明已核；第10轮"
+        }
+      ],
+      "evidence_urls": [
+        "https://doi.org/10.13236/j.cnki.jshe.2026.01.007"
+      ]
+    },
+    {
+      "paper_id": "L76",
+      "paper_title": "基于手机数据的产业园区人群活力评价与影响因素分析",
+      "doi": "10.20117/j.jsti.202603006",
+      "provider_id": "pioneer_moxing_jike",
+      "provider_name": "先锋数聚 / 摸星 / 即刻·及刻（Pioneer / Moxing / Jike）",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "及刻 / Jike"
+      ],
+      "evidence_url": "https://doi.org/10.20117/j.jsti.202603006",
+      "evidence_section": "PDF第5页／印刷372页，§3.1(2)数据源与预处理",
+      "basis": "按用户人工核验合并供应商展示组，同篇去重；不作工商关系认定。 [及刻 / Jike（即刻为用户检索别名）；confirmed_use；mobility] §3.1(2)明确匿名手机位置数据来自及刻网站，手机内置GPS、WiFi等定位；福州2023全年，日均235.67万用户、7305.78万条、人均31条，清洗后日均52.55万用户。前瞻提供产业园区清单，百度仅位置/AOI。样本50个园区，测就业活动活力、动态类型及GTWR影响因素。 来源：https://doi.org/10.20117/j.jsti.202603006",
+      "catalog_status": "reviewed",
+      "scope": "pioneer_named",
+      "data_access_relationship": "source_dataset",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_catalog_imported": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "原文数据声明已核；第10轮",
+      "evidence_basis": "user_confirmed_supplier_group",
+      "grouping_basis": "user_confirmed_supplier_group",
+      "member_provider_ids": [
+        "jike"
+      ],
+      "role_statuses": {
+        "mobility": "confirmed_use"
+      },
+      "evidence_roles": [
+        "mobility"
+      ],
+      "evidence": [
+        {
+          "paper_id": "L76",
+          "paper_title": "基于手机数据的产业园区人群活力评价与影响因素分析",
+          "doi": "10.20117/j.jsti.202603006",
+          "provider_id": "jike",
+          "provider_name": "及刻 / Jike（即刻为用户检索别名）",
+          "status": "confirmed_use",
+          "classification": "confirmed_use",
+          "role": "mobility",
+          "roles": [
+            "mobility"
+          ],
+          "declared_brands": [
+            "及刻 / Jike"
+          ],
+          "evidence_url": "https://doi.org/10.20117/j.jsti.202603006",
+          "evidence_section": "PDF第5页／印刷372页，§3.1(2)数据源与预处理",
+          "basis": "§3.1(2)明确匿名手机位置数据来自及刻网站，手机内置GPS、WiFi等定位；福州2023全年，日均235.67万用户、7305.78万条、人均31条，清洗后日均52.55万用户。前瞻提供产业园区清单，百度仅位置/AOI。样本50个园区，测就业活动活力、动态类型及GTWR影响因素。",
+          "catalog_status": "reviewed",
+          "scope": "pioneer_named",
+          "data_access_relationship": "source_dataset",
+          "data_reuse_note": "",
+          "count_unit": "unique_study_not_independent_dataset",
+          "pdf_downloaded": true,
+          "zotero_catalog_imported": true,
+          "zotero_attachment_verified": true,
+          "primary_source_audit": "原文数据声明已核；第10轮"
+        }
+      ],
+      "evidence_urls": [
+        "https://doi.org/10.20117/j.jsti.202603006"
+      ]
+    },
+    {
+      "paper_id": "L77",
+      "paper_title": "基于人流活动特征的城市商圈空间结构的大数据分析——以广西南宁市为例",
+      "doi": "10.16601/j.cnki.issn2096-7330.2025.01.004",
+      "provider_id": "pioneer_moxing_jike",
+      "provider_name": "先锋数聚 / 摸星 / 即刻·及刻（Pioneer / Moxing / Jike）",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "及刻—客流大数据平台（isjike.com）"
+      ],
+      "evidence_url": "https://doi.org/10.16601/j.cnki.issn2096-7330.2025.01.004",
+      "evidence_section": "PDF第2页／印刷32页，§1.1场景流数据介绍、§1.2特征分析",
+      "basis": "按用户人工核验合并供应商展示组，同篇去重；不作工商关系认定。 [及刻 / Jike（即刻为用户检索别名）；confirmed_use；mobility] §1.1具名及刻平台与isjike.com，场景识别、手机厂商与应用合作提供场景流POI数据；§1.2南宁主城区2024-09-02与09-07约86万条，包括POI、经纬度、进离店时间和停留时间。这是手机到访行为产品而非静态POI库；正文未直接说明GPS/WiFi/SDK定位传感器，不能由其他论文倒推。 来源：https://doi.org/10.16601/j.cnki.issn2096-7330.2025.01.004",
+      "catalog_status": "reviewed",
+      "scope": "pioneer_named",
+      "data_access_relationship": "source_dataset",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_catalog_imported": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "原文数据声明已核；第10轮",
+      "evidence_basis": "user_confirmed_supplier_group",
+      "grouping_basis": "user_confirmed_supplier_group",
+      "member_provider_ids": [
+        "jike"
+      ],
+      "role_statuses": {
+        "mobility": "confirmed_use"
+      },
+      "evidence_roles": [
+        "mobility"
+      ],
+      "evidence": [
+        {
+          "paper_id": "L77",
+          "paper_title": "基于人流活动特征的城市商圈空间结构的大数据分析——以广西南宁市为例",
+          "doi": "10.16601/j.cnki.issn2096-7330.2025.01.004",
+          "provider_id": "jike",
+          "provider_name": "及刻 / Jike（即刻为用户检索别名）",
+          "status": "confirmed_use",
+          "classification": "confirmed_use",
+          "role": "mobility",
+          "roles": [
+            "mobility"
+          ],
+          "declared_brands": [
+            "及刻—客流大数据平台（isjike.com）"
+          ],
+          "evidence_url": "https://doi.org/10.16601/j.cnki.issn2096-7330.2025.01.004",
+          "evidence_section": "PDF第2页／印刷32页，§1.1场景流数据介绍、§1.2特征分析",
+          "basis": "§1.1具名及刻平台与isjike.com，场景识别、手机厂商与应用合作提供场景流POI数据；§1.2南宁主城区2024-09-02与09-07约86万条，包括POI、经纬度、进离店时间和停留时间。这是手机到访行为产品而非静态POI库；正文未直接说明GPS/WiFi/SDK定位传感器，不能由其他论文倒推。",
+          "catalog_status": "reviewed",
+          "scope": "pioneer_named",
+          "data_access_relationship": "source_dataset",
+          "data_reuse_note": "",
+          "count_unit": "unique_study_not_independent_dataset",
+          "pdf_downloaded": true,
+          "zotero_catalog_imported": true,
+          "zotero_attachment_verified": true,
+          "primary_source_audit": "原文数据声明已核；第10轮"
+        }
+      ],
+      "evidence_urls": [
+        "https://doi.org/10.16601/j.cnki.issn2096-7330.2025.01.004"
       ]
     }
   ],
@@ -10068,7 +11667,9 @@
       "scope": "phone_location_or_derivative",
       "data_access_relationship": "provider_executes_code_returns_aggregates",
       "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset"
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true
     },
     {
       "paper_id": "L21",
@@ -10092,7 +11693,9 @@
       "scope": "documented_contact_link_not_direct_supplier_attribution",
       "data_access_relationship": "access_contact_only",
       "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset"
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true
     },
     {
       "paper_id": "L25",
@@ -10117,6 +11720,8 @@
       "data_access_relationship": "source_dataset",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
       "primary_source_audit": "中国来源代理实取11页PDF并读数据段；SHA256 aaf1902b5838f39246352b439b55af1b14d81a5ff95315ed5e18a69c58c8809e。原载DOI 10.3974/geodp.2026.02.08尚未解析，不以DOI解析失败否定原刊正文，但保持书目状态说明。"
     },
     {
@@ -10142,6 +11747,8 @@
       "data_access_relationship": "source_dataset",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false,
       "primary_source_audit": "官方122页摘要集PDF已解析核验；SHA256 bb45745f61044b8d6fffe85e48c46902a55bbfc83ebb2deee90e621dbb4c65d1。"
     },
     {
@@ -10169,6 +11776,8 @@
       "data_access_relationship": "source_dataset",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
       "primary_source_audit": "15页开放PDF下载及身份核验；sha256 ac5bc0459191a1e596e56766e6610e3159d72f967165a5b3ded881a69aebd3bd。"
     },
     {
@@ -10195,7 +11804,205 @@
       "data_access_relationship": "source_dataset",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false,
       "primary_source_audit": "round8_primary_source_methods_verified"
+    },
+    {
+      "paper_id": "L58",
+      "paper_title": "Evaluating the Quality of High-Frequency Pedestrian Commuting Streets: A Data-Driven Approach in Shenzhen",
+      "doi": "10.3390/smartcities8030083",
+      "provider_id": "jike",
+      "provider_name": "及刻 / Jike（即刻为用户检索别名）",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mixed_mobility",
+      "roles": [
+        "mixed_mobility"
+      ],
+      "declared_brands": [
+        "Jike by iDream Network Technology（及刻）"
+      ],
+      "evidence_url": "https://www.mdpi.com/2624-6511/8/3/83",
+      "evidence_section": "§2.5.2 Data Processing，PDF 第 9 页；范围 §2.5.1 第 8 页",
+      "basis": "§2.5.2 明确 Jike 供高精度手机 LBS；SDK 扫描 WiFi、蓝牙及基站等环境信号，并结合 GPS 与场景识别点。本文的 Baidu 仅为辅助 POI 来源，不能作为定位供方。",
+      "catalog_status": "reviewed",
+      "scope": "sdk_gps_wifi_environment_signals",
+      "data_access_relationship": "source_dataset",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_catalog_imported": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "原文数据声明已核；第10轮"
+    },
+    {
+      "paper_id": "L64",
+      "paper_title": "Revealing socio-demographic heterogeneity in urban travel behavior under the influence of the built environment",
+      "doi": "10.1016/j.cities.2026.106983",
+      "provider_id": "jike",
+      "provider_name": "及刻 / Jike（即刻为用户检索别名）",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "Jike Technology Ltd"
+      ],
+      "evidence_url": "https://www.sciencedirect.com/science/article/pii/S0264275126002155",
+      "evidence_section": "3.2.1",
+      "basis": "全文§3.2.1明确Jike；福州2023-01-01至07，226万人，匿名ID/坐标/时间/年龄/性别/收入标签，多定位融合；高德只是POI。",
+      "catalog_status": "reviewed",
+      "scope": "pioneer_named",
+      "data_access_relationship": "source_dataset",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_catalog_imported": true,
+      "zotero_attachment_verified": false,
+      "primary_source_audit": "原文数据声明已核；第10轮"
+    },
+    {
+      "paper_id": "L68",
+      "paper_title": "Exploring the Spatial Variation of Access/Egress Distances of Subway Stations Using Mobile Phone Positioning Data in Chengdu, China",
+      "doi": "10.1155/2023/8008667",
+      "provider_id": "jike",
+      "provider_name": "及刻 / Jike（即刻为用户检索别名）",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "Jike / isjike.com（及刻）"
+      ],
+      "evidence_url": "https://onlinelibrary.wiley.com/doi/10.1155/2023/8008667",
+      "evidence_section": "§3.2 Mobile Phone Positioning Data",
+      "basis": "§3.2 明确 Jike/isjike.com 供数。场景数据来自 SDK 与 POI 的 WiFi、蓝牙和 NFC 交互；另有连续亮屏状态下每半小时定时上报。画像标签可能结合运营商外部资料，但不能因此改判为运营商定位。",
+      "catalog_status": "reviewed",
+      "scope": "sdk_scene_and_timed_positioning",
+      "data_access_relationship": "source_dataset",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_catalog_imported": true,
+      "zotero_attachment_verified": false,
+      "primary_source_audit": "原文数据声明已核；第10轮"
+    },
+    {
+      "paper_id": "L74",
+      "paper_title": "多源数据支持下的老城区更新潜力评估与边界划定框架构建及实证研究",
+      "doi": "",
+      "provider_id": "pioneer",
+      "provider_name": "先锋数聚 / Pioneer Data",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "先锋数聚"
+      ],
+      "evidence_url": "https://kns.cnki.net/",
+      "evidence_section": "PDF第2–4页／印刷44–46页，§2.1.1、§2.1.2、§2.2",
+      "basis": "§2.1.1明确引入先锋大数据平台，采用ROM-SDK、运营商与应用程序行为多源数据；§2.1.2细分高时空精度轨迹、运营商群体画像标签和线上行为序列；§2.2明确先锋数聚。运营商画像参与分析不能直接解释为运营商基站融合定位，保留SDK研究并单列角色。案例为嘉善与眉山老城区更新潜力和边界划定。",
+      "catalog_status": "reviewed",
+      "scope": "pioneer_named",
+      "data_access_relationship": "source_dataset",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_catalog_imported": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "原文数据声明已核；第10轮"
+    },
+    {
+      "paper_id": "L75",
+      "paper_title": "空间生产视角下的江苏省“双一流”高校多校区融合成效研究",
+      "doi": "10.13236/j.cnki.jshe.2026.01.007",
+      "provider_id": "pioneer",
+      "provider_name": "先锋数聚 / Pioneer Data",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "北京先锋数聚信息科技有限公司"
+      ],
+      "evidence_url": "https://doi.org/10.13236/j.cnki.jshe.2026.01.007",
+      "evidence_section": "PDF第3页／印刷51页，二(三)数据来源与处理方法",
+      "basis": "§二(三)明确北京先锋数聚供应江苏省手机SDK轨迹：2024-05-01至05-30，390余亿条位置记录、约5500余万人次；筛选连续14天且覆盖每校至少两校区的有效用户。结合AOI量化迁徙强度、路径连通、活动重叠与网络耦合，分析14所省部共建双一流高校。南京大学为作者单位，不是14校样本之一。",
+      "catalog_status": "reviewed",
+      "scope": "pioneer_named",
+      "data_access_relationship": "source_dataset",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_catalog_imported": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "原文数据声明已核；第10轮"
+    },
+    {
+      "paper_id": "L76",
+      "paper_title": "基于手机数据的产业园区人群活力评价与影响因素分析",
+      "doi": "10.20117/j.jsti.202603006",
+      "provider_id": "jike",
+      "provider_name": "及刻 / Jike（即刻为用户检索别名）",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "及刻 / Jike"
+      ],
+      "evidence_url": "https://doi.org/10.20117/j.jsti.202603006",
+      "evidence_section": "PDF第5页／印刷372页，§3.1(2)数据源与预处理",
+      "basis": "§3.1(2)明确匿名手机位置数据来自及刻网站，手机内置GPS、WiFi等定位；福州2023全年，日均235.67万用户、7305.78万条、人均31条，清洗后日均52.55万用户。前瞻提供产业园区清单，百度仅位置/AOI。样本50个园区，测就业活动活力、动态类型及GTWR影响因素。",
+      "catalog_status": "reviewed",
+      "scope": "pioneer_named",
+      "data_access_relationship": "source_dataset",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_catalog_imported": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "原文数据声明已核；第10轮"
+    },
+    {
+      "paper_id": "L77",
+      "paper_title": "基于人流活动特征的城市商圈空间结构的大数据分析——以广西南宁市为例",
+      "doi": "10.16601/j.cnki.issn2096-7330.2025.01.004",
+      "provider_id": "jike",
+      "provider_name": "及刻 / Jike（即刻为用户检索别名）",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "及刻—客流大数据平台（isjike.com）"
+      ],
+      "evidence_url": "https://doi.org/10.16601/j.cnki.issn2096-7330.2025.01.004",
+      "evidence_section": "PDF第2页／印刷32页，§1.1场景流数据介绍、§1.2特征分析",
+      "basis": "§1.1具名及刻平台与isjike.com，场景识别、手机厂商与应用合作提供场景流POI数据；§1.2南宁主城区2024-09-02与09-07约86万条，包括POI、经纬度、进离店时间和停留时间。这是手机到访行为产品而非静态POI库；正文未直接说明GPS/WiFi/SDK定位传感器，不能由其他论文倒推。",
+      "catalog_status": "reviewed",
+      "scope": "pioneer_named",
+      "data_access_relationship": "source_dataset",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_catalog_imported": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "原文数据声明已核；第10轮"
     },
     {
       "paper_id": "L27",
@@ -10220,6 +12027,8 @@
       "data_access_relationship": "unverified",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
       "user_assessed_confidence": 0.99,
       "confidence_interpretation": "用户主观评估，非统计估计或原文供方证据"
     }
@@ -10241,7 +12050,8 @@
       "indoor_positioning": "商场室内WiFi/指纹定位，非已确认商业手机SDK轨迹",
       "vehicle_gps": "车辆GPS或其衍生统计",
       "comparison_reference": "正文类比或讨论，不是实际供方",
-      "unknown": "待核角色"
+      "unknown": "待核角色",
+      "demographic_profile": "SDK社会人口画像或用户属性；不表示使用移动轨迹，不计mobility"
     },
     "confirmed_basis": "人工核对原始方法、数据声明或明确摘要后逐供应商映射；不因论文source_confirmed=true就确认其所有被提及品牌。新增原文证据须明确列入审计补充表。",
     "candidate_basis": "只扫描catalog_status=pending记录的结构化legacy_provider_claims；不扫描全文任意名称，不将旧来源标签升级。",
@@ -10266,18 +12076,18 @@
     "name_collision_rule": "同音或近似拼写不构成供方关联，以上名称均未映射为北京摸星。"
   },
   "counts": {
-    "catalog_studies": 124,
-    "provider_nodes": 33,
-    "associations": 124,
-    "unique_studies_with_association": 99,
-    "unassigned_studies": 25,
+    "catalog_studies": 144,
+    "provider_nodes": 34,
+    "associations": 135,
+    "unique_studies_with_association": 110,
+    "unassigned_studies": 34,
     "association_counts_by_status": {
-      "confirmed_use": 48,
+      "confirmed_use": 59,
       "mention_only": 2,
       "unresolved_candidate": 74
     },
     "unique_studies_by_status": {
-      "confirmed_use": 39,
+      "confirmed_use": 50,
       "mention_only": 2,
       "unresolved_candidate": 60
     }
@@ -10369,6 +12179,60 @@
       "paper_id": "L52",
       "title": "The effect of temporal sampling intervals on typical human mobility indicators obtained from mobile phone location data",
       "doi": "10.1080/13658816.2019.1584805",
+      "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
+    },
+    {
+      "paper_id": "L59",
+      "title": "Uncovering urban tourist mobility patterns based on large-scale mobile phone data",
+      "doi": "10.1016/j.jtrangeo.2025.104496",
+      "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
+    },
+    {
+      "paper_id": "L60",
+      "title": "Urban building-level positioning using data-driven algorithms enhanced by spatial variations in sensor features",
+      "doi": "10.1080/17538947.2025.2512410",
+      "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
+    },
+    {
+      "paper_id": "L61",
+      "title": "Revealing disparities and driving factors in leisure activity segregation of residents and tourists: A data-driven analysis of smart phone data",
+      "doi": "10.1016/j.apgeog.2025.103513",
+      "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
+    },
+    {
+      "paper_id": "L62",
+      "title": "Social inequality of urban park use during the COVID-19 pandemic",
+      "doi": "10.1057/s41599-023-01918-1",
+      "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
+    },
+    {
+      "paper_id": "L65",
+      "title": "Dynamic Assessment of Spatiotemporal Population Distribution Based on Mobile Phone Data: A Case Study in Xining City, China",
+      "doi": "10.1007/s13753-023-00480-3",
+      "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
+    },
+    {
+      "paper_id": "L66",
+      "title": "Rapid Assessment of Severely Affected Earthquake Areas Using Mobile Signaling Data and a Random Forest Approach",
+      "doi": "10.1007/s13753-025-00684-9",
+      "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
+    },
+    {
+      "paper_id": "L67",
+      "title": "Measuring Chinese cities’ economic development with mobile application usage",
+      "doi": "10.1007/s11442-022-2054-x",
+      "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
+    },
+    {
+      "paper_id": "L70",
+      "title": "Assessing the Association Between Urban Amenities and Home Squatting Residents: Evidence from Location-Based Service Data in Weihai",
+      "doi": "10.1007/s12061-026-09920-1",
+      "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
+    },
+    {
+      "paper_id": "L72",
+      "title": "基于软件开发工具包(SDK)数据的人群空间活动分析",
+      "doi": "10.13813/j.cn11-5141/u.2020.0403",
       "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
     },
     {

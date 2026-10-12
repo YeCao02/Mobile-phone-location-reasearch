@@ -71,7 +71,7 @@ def public_data(source):
     provider_ids = {r['id'] for r in usage['providers']}
     assert all(r['paper_id'] in paper_ids and r['provider_id'] in provider_ids for r in usage['associations']), 'Supplier association references an unknown record'
     assert len({(r['provider_id'], r['paper_id']) for r in usage['associations']}) == len(usage['associations']), 'Duplicate supplier-paper association'
-    secondary_scopes = {'map_platform', 'other_commercial', 'carrier_boundary', 'indoor_wifi_boundary'}
+    secondary_scopes = {'map_platform', 'other_commercial', 'carrier_boundary', 'indoor_wifi_boundary', 'method_boundary_candidate'}
     result = {'as_of': china.get('as_of', '2026-10-11'), 'providers': providers, 'provider_usage': usage, 'papers': papers, 'china': [r for r in sources if r.get('research_scope') not in secondary_scopes], 'china_groups': [g for g in research_groups if g.get('research_scope') not in secondary_scopes], 'china_source_aliases': source_aliases, 'coverage': coverage, 'edges': edges, 'secondary_sources': [r for r in sources if r.get('research_scope') in secondary_scopes], 'secondary_groups': [g for g in research_groups if g.get('research_scope') in secondary_scopes], 'excluded_papers': excluded_papers, 'scope_policy': china.get('scope_policy', {}).get('rules', [])}
     encoded = json.dumps(result, ensure_ascii=False)
     # Public export must never embed machine-specific paths, access credentials, or emails.
