@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-13",
+  "pioneer_promoted": [
+    "L27",
+    "L28",
+    "L34",
+    "L59"
+  ],
+  "other_suppliers_promoted": [
+    "P1F72D228",
+    "P76B9708A",
+    "P7A4F6797",
+    "P5DE047C3",
+    "P5416DFC8",
+    "P2F95F02D",
+    "P3B9C78DF",
+    "P38C79679",
+    "P2D4FD926",
+    "P2BDAEE88",
+    "P104EBB42",
+    "P06F06671",
+    "P441C38CE",
+    "PAADD397C",
+    "PFC132E92",
+    "P5C05191D",
+    "P919700C8",
+    "P1DFAD697",
+    "P63686407",
+    "P61DCC998",
+    "P93995647"
+  ],
+  "thematic_only": [
+    "L61",
+    "P06009F26"
+  ],
+  "user_excluded": [
+    "L60",
+    "L67"
+  ],
+  "matched_unique_papers": 108,
+  "policy": "分类依用户最新审核；原文具名与用户确认分开记录。配套数据集归于研究成果，不重复计论文；工作论文与正式版不重复计数。"
+}

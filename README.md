@@ -89,3 +89,6 @@ python build_site.py --data-dir path/to/evidence
 本轮新增与证据边界见 [中国研究第五轮报告](docs/china-research-round5.md)。深大数据声明原文保存于 [声明档案](data/data_statements.json)。混合SDK/基站来源新增独立筛选角色，不计入非混合手机位置角色。
 
 前轮扩检见 [第六轮报告](docs/china-research-round6.md)，Nature Health正文与独立补充材料的页码核验见[附件复核](data/nature_health_attachment_review.json)。未具名公司／operator不会仅据这个词判为电信运营商；具体数据技术与供应商身份分别保留证据状态。第七轮分类回归检查可运行 `node docs/scope-screening-test.js`。
+
+
+最新：[2026-10-13 Zotero 分类同步](docs/zotero-reconciliation-2026-10-13.md)。04 泛先锋17篇；03供应商类似物57篇；06未确认54篇。原文具名与用户确认分别记录。

@@ -37,54 +37,6 @@
       "notes": ""
     },
     {
-      "id": "L59",
-      "title": "Uncovering urban tourist mobility patterns based on large-scale mobile phone data",
-      "journal": "Journal of Transport Geography",
-      "year": 2026,
-      "doi": "10.1016/j.jtrangeo.2025.104496",
-      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0966692325003874",
-      "vpn_url": "https://www-sciencedirect-com-443.webvpn.scut.edu.cn/science/article/abs/pii/S0966692325003874",
-      "pdf_downloaded": false,
-      "search_only": false,
-      "notes": "2026-10-13 已通过Chrome DOI跳转或学校WebVPN打开对应出版商论文页面。"
-    },
-    {
-      "id": "L60",
-      "title": "Urban building-level positioning using data-driven algorithms enhanced by spatial variations in sensor features",
-      "journal": "International Journal of Digital Earth",
-      "year": 2025,
-      "doi": "10.1080/17538947.2025.2512410",
-      "url": "https://www.tandfonline.com/doi/full/10.1080/17538947.2025.2512410",
-      "vpn_url": "https://www-tandfonline-com-443.webvpn.scut.edu.cn/doi/full/10.1080/17538947.2025.2512410",
-      "pdf_downloaded": false,
-      "search_only": false,
-      "notes": ""
-    },
-    {
-      "id": "L61",
-      "title": "Revealing disparities and driving factors in leisure activity segregation of residents and tourists: A data-driven analysis of smart phone data",
-      "journal": "Applied Geography",
-      "year": 2025,
-      "doi": "10.1016/j.apgeog.2025.103513",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0143622825000086",
-      "vpn_url": "https://www-sciencedirect-com-443.webvpn.scut.edu.cn/science/article/pii/S0143622825000086",
-      "pdf_downloaded": false,
-      "search_only": false,
-      "notes": "2026-10-13 已通过Chrome DOI跳转或学校WebVPN打开对应出版商论文页面。"
-    },
-    {
-      "id": "L67",
-      "title": "Measuring Chinese cities’ economic development with mobile application usage",
-      "journal": "Journal of Geographical Sciences",
-      "year": 2022,
-      "doi": "10.1007/s11442-022-2054-x",
-      "url": "https://link.springer.com/article/10.1007/s11442-022-2054-x",
-      "vpn_url": "https://link-springer-com-443.webvpn.scut.edu.cn/article/10.1007/s11442-022-2054-x",
-      "pdf_downloaded": false,
-      "search_only": false,
-      "notes": ""
-    },
-    {
       "id": "L72",
       "title": "基于软件开发工具包(SDK)数据的人群空间活动分析",
       "journal": "城市交通",
@@ -121,54 +73,6 @@
       "notes": ""
     },
     {
-      "id": "P06009F26",
-      "title": "Estimating experienced racial segregation in US cities using large-scale GPS data",
-      "journal": "Proceedings of the National Academy of Sciences (PNAS)",
-      "year": 2021,
-      "doi": "10.1073/pnas.2026160118",
-      "url": "https://doi.org/10.1073/pnas.2026160118",
-      "vpn_url": "",
-      "pdf_downloaded": false,
-      "search_only": false,
-      "notes": ""
-    },
-    {
-      "id": "P06F06671",
-      "title": "Analyzing and mapping the vulnerability and resilience of the hospitality industry: Insights from real consumer visitation behavior",
-      "journal": "International Journal of Hospitality Management",
-      "year": 2026,
-      "doi": "10.1016/j.ijhm.2025.104362",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0278431925002907",
-      "vpn_url": "https://www-sciencedirect-com-443.webvpn.scut.edu.cn/science/article/pii/S0278431925002907",
-      "pdf_downloaded": false,
-      "search_only": false,
-      "notes": "旧标题改写；Crossref与作者University of Memphis机构书目一致。"
-    },
-    {
-      "id": "P104EBB42",
-      "title": "Using mobile phone data for quantifying large-scale household-level disaster recovery",
-      "journal": "Computers, Environment and Urban Systems",
-      "year": 2026,
-      "doi": "10.1016/j.compenvurbsys.2025.102395",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0198971525001486",
-      "vpn_url": "https://www-sciencedirect-com-443.webvpn.scut.edu.cn/science/article/pii/S0198971525001486",
-      "pdf_downloaded": false,
-      "search_only": false,
-      "notes": "出版社页面与Crossref题名DOI一致；卷期2026年4月125卷。"
-    },
-    {
-      "id": "P1F72D228",
-      "title": "Disaster vulnerability in road networks: a data-driven approach through analyzing network topology and movement activity",
-      "journal": "International Journal of Geographical Information Science",
-      "year": 2024,
-      "doi": "10.1080/13658816.2024.2411001",
-      "url": "https://www.tandfonline.com/doi/full/10.1080/13658816.2024.2411001",
-      "vpn_url": "https://www-tandfonline-com-443.webvpn.scut.edu.cn/doi/full/10.1080/13658816.2024.2411001",
-      "pdf_downloaded": false,
-      "search_only": false,
-      "notes": ""
-    },
-    {
       "id": "P214FEF72",
       "title": "Human-centric characterization of life activity flood exposure shifts focus from places to people",
       "journal": "Nature Cities",
@@ -176,18 +80,6 @@
       "doi": "10.1038/s44284-024-00043-7",
       "url": "https://www.nature.com/articles/s44284-024-00043-7",
       "vpn_url": "https://www-nature-com-443.webvpn.scut.edu.cn/articles/s44284-024-00043-7",
-      "pdf_downloaded": false,
-      "search_only": false,
-      "notes": ""
-    },
-    {
-      "id": "P2BDAEE88",
-      "title": "Quantifying the recreational value of urban parks using smartphone mobility data",
-      "journal": "Computational Urban Science",
-      "year": 2026,
-      "doi": "10.1007/s43762-026-00257-6",
-      "url": "https://link.springer.com/article/10.1007/s43762-026-00257-6",
-      "vpn_url": "https://link-springer-com-443.webvpn.scut.edu.cn/article/10.1007/s43762-026-00257-6",
       "pdf_downloaded": false,
       "search_only": false,
       "notes": ""
@@ -205,30 +97,6 @@
       "notes": ""
     },
     {
-      "id": "P2D4FD926",
-      "title": "Policy and weather influences on mobility during the early US COVID-19 pandemic",
-      "journal": "Proceedings of the National Academy of Sciences (PNAS)",
-      "year": 2021,
-      "doi": "10.1073/pnas.2018185118",
-      "url": "https://doi.org/10.1073/PNAS.2018185118",
-      "vpn_url": "",
-      "pdf_downloaded": false,
-      "search_only": false,
-      "notes": ""
-    },
-    {
-      "id": "P2F95F02D",
-      "title": "Mapping large-scale brand networks: A consumers’ foot traffic-based approach",
-      "journal": "Applied Geography",
-      "year": 2025,
-      "doi": "10.1016/j.apgeog.2025.103546",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0143622825000414",
-      "vpn_url": "https://www-sciencedirect-com-443.webvpn.scut.edu.cn/science/article/pii/S0143622825000414",
-      "pdf_downloaded": false,
-      "search_only": false,
-      "notes": "2026-10-13 已通过Chrome DOI跳转或学校WebVPN打开对应出版商论文页面。"
-    },
-    {
       "id": "P377CD02F",
       "title": "Real-time pandemic surveillance using hospital admissions and mobility data",
       "journal": "Proceedings of the National Academy of Sciences",
@@ -239,30 +107,6 @@
       "pdf_downloaded": false,
       "search_only": false,
       "notes": "PMC全文与PubMed/Crossref题名DOI一致；提供开放全文入口。"
-    },
-    {
-      "id": "P38C79679",
-      "title": "The role of alcohol outlet visits derived from mobile phone location data in enhancing domestic violence prediction at the neighborhood level",
-      "journal": "Health & Place",
-      "year": 2022,
-      "doi": "10.1016/j.healthplace.2021.102736",
-      "url": "https://www.sciencedirect.com/science/article/abs/pii/S135382922100232X",
-      "vpn_url": "https://www-sciencedirect-com-443.webvpn.scut.edu.cn/science/article/abs/pii/S135382922100232X",
-      "pdf_downloaded": false,
-      "search_only": false,
-      "notes": "2026-10-13 已通过Chrome DOI跳转或学校WebVPN打开对应出版商论文页面。"
-    },
-    {
-      "id": "P3B9C78DF",
-      "title": "Do urban form characteristics perpetuate disparities of pandemic-induced mobility changes? Evidence from Fulton County, Georgia",
-      "journal": "Travel Behaviour and Society",
-      "year": 2024,
-      "doi": "10.1016/j.tbs.2024.100803",
-      "url": "https://www.sciencedirect.com/science/article/pii/S2214367X24000668",
-      "vpn_url": "https://www-sciencedirect-com-443.webvpn.scut.edu.cn/science/article/pii/S2214367X24000668",
-      "pdf_downloaded": false,
-      "search_only": false,
-      "notes": "旧题名改写且旧期刊Cities & Health错误；Crossref与作者官方CV一致。"
     },
     {
       "id": "P3EEC79FA",
@@ -289,18 +133,6 @@
       "notes": "IEEE页面题名与Crossref一致，补齐正式会议出版物。"
     },
     {
-      "id": "P5416DFC8",
-      "title": "The impact of the built environment on human mobility patterns during Covid-19: A study of New York City's Open Streets Program",
-      "journal": "Applied Geography",
-      "year": 2024,
-      "doi": "10.1016/j.apgeog.2024.103429",
-      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0143622824002340",
-      "vpn_url": "https://www-sciencedirect-com-443.webvpn.scut.edu.cn/science/article/abs/pii/S0143622824002340",
-      "pdf_downloaded": false,
-      "search_only": false,
-      "notes": "2026-10-13 已通过Chrome DOI跳转或学校WebVPN打开对应出版商论文页面。"
-    },
-    {
       "id": "P5B2E6933",
       "title": "Data Driven Mobility Models for COVID-19 Simulation",
       "journal": "Proceedings of the 3rd ACM SIGSPATIAL International Workshop on Advances in Resilient and Intelligent Cities",
@@ -313,18 +145,6 @@
       "notes": ""
     },
     {
-      "id": "P5DE047C3",
-      "title": "Informing inclusive park planning: Neighborhood park visitation modeling based on smartphone big data in Austin, Texas",
-      "journal": "Land Use Policy",
-      "year": 2024,
-      "doi": "10.1016/j.landusepol.2024.107234",
-      "url": "https://www.sciencedirect.com/science/article/pii/S026483772400187X",
-      "vpn_url": "https://www-sciencedirect-com-443.webvpn.scut.edu.cn/science/article/pii/S026483772400187X",
-      "pdf_downloaded": false,
-      "search_only": false,
-      "notes": "2026-10-13 已通过Chrome DOI跳转或学校WebVPN打开对应出版商论文页面。"
-    },
-    {
       "id": "P681BDA6E",
       "title": "POIFormer: A Transformer-Based Framework for Accurate and Scalable Point-of-Interest Attribution",
       "journal": "Proceedings of the 33rd ACM International Conference on Advances in Geographic Information Systems",
@@ -332,30 +152,6 @@
       "doi": "10.1145/3748636.3762775",
       "url": "https://doi.org/10.1145/3748636.3762775",
       "vpn_url": "",
-      "pdf_downloaded": false,
-      "search_only": false,
-      "notes": ""
-    },
-    {
-      "id": "P76B9708A",
-      "title": "Characterizing urban lifestyle signatures using motif properties in network of places",
-      "journal": "Environment and Planning B: Urban Analytics and City Science",
-      "year": 2023,
-      "doi": "10.1177/23998083231206171",
-      "url": "https://journals.sagepub.com/doi/10.1177/23998083231206171",
-      "vpn_url": "",
-      "pdf_downloaded": false,
-      "search_only": false,
-      "notes": ""
-    },
-    {
-      "id": "P7A4F6797",
-      "title": "Using human mobility data to detect evacuation patterns in hurricane Ian",
-      "journal": "Annals of GIS",
-      "year": 2024,
-      "doi": "10.1080/19475683.2024.2341703",
-      "url": "https://www.tandfonline.com/doi/full/10.1080/19475683.2024.2341703",
-      "vpn_url": "https://www-tandfonline-com-443.webvpn.scut.edu.cn/doi/full/10.1080/19475683.2024.2341703",
       "pdf_downloaded": false,
       "search_only": false,
       "notes": ""
@@ -553,42 +349,6 @@
       "notes": ""
     },
     {
-      "id": "L27",
-      "title": "Capturing socio-spatial inequality in planetary urbanisation: A multi-dimensional methodological framework",
-      "journal": "Cities",
-      "year": 2023,
-      "doi": "10.1016/j.cities.2022.104076",
-      "url": "https://www.researchgate.net/publication/365358436_Capturing_socio-spatial_inequality_in_planetary_urbanisation_A_multi-dimensional_methodological_framework",
-      "vpn_url": "",
-      "pdf_downloaded": true,
-      "search_only": false,
-      "notes": ""
-    },
-    {
-      "id": "L28",
-      "title": "城市规划中的“通勤”概念辨析及“通勤阈值”界定探讨",
-      "journal": "城市规划",
-      "year": 2023,
-      "doi": "10.11819/cpr20230603a",
-      "url": "https://www.ncpssd.cn/Literature/articleinfo?id=CSGH2023006003&type=journalArticle",
-      "vpn_url": "",
-      "pdf_downloaded": true,
-      "search_only": false,
-      "notes": ""
-    },
-    {
-      "id": "L34",
-      "title": "空间需求订制的“产城融合”规划——以上海临港新城为例",
-      "journal": "城市规划学刊",
-      "year": 2024,
-      "doi": "10.16361/j.upf.202403014",
-      "url": "https://upforum.wupen.org/Assets/userfiles/files/issues/2024/2024-03/周凌 李峰清 黄璜.pdf",
-      "vpn_url": "",
-      "pdf_downloaded": true,
-      "search_only": false,
-      "notes": ""
-    },
-    {
       "id": "L36",
       "title": "Predicting the Next Location of Urban Individuals via a Representation-Enhanced Multi-View Learning Network",
       "journal": "ISPRS International Journal of Geo-Information",
@@ -733,18 +493,6 @@
       "notes": ""
     },
     {
-      "id": "P1DFAD697",
-      "title": "Comparing connected vehicle and mobile phone data for urban mobility analysis: Examining mobility diversity and spatial interaction across income groups",
-      "journal": "Environment and Planning B: Urban Analytics and City Science",
-      "year": 2026,
-      "doi": "10.1177/23998083261441740",
-      "url": "https://doi.org/10.1177/23998083261441740",
-      "vpn_url": "",
-      "pdf_downloaded": true,
-      "search_only": false,
-      "notes": ""
-    },
-    {
       "id": "P2290471E",
       "title": "Using Big Data to Assess Park System Performance during the COVID-19 Pandemic",
       "journal": "Sustainability",
@@ -752,18 +500,6 @@
       "doi": "10.3390/su152216056",
       "url": "https://doi.org/10.3390/su152216056",
       "vpn_url": "",
-      "pdf_downloaded": true,
-      "search_only": false,
-      "notes": ""
-    },
-    {
-      "id": "P441C38CE",
-      "title": "Comparative analysis of human mobility patterns: utilizing taxi and mobile (SafeGraph) data to investigate neighbourhood-scale mobility in New York City",
-      "journal": "Annals of GIS",
-      "year": 2025,
-      "doi": "10.1080/19475683.2025.2487984",
-      "url": "https://www.tandfonline.com/doi/full/10.1080/19475683.2025.2487984",
-      "vpn_url": "https://www-tandfonline-com-443.webvpn.scut.edu.cn/doi/full/10.1080/19475683.2025.2487984",
       "pdf_downloaded": true,
       "search_only": false,
       "notes": ""
@@ -781,18 +517,6 @@
       "notes": ""
     },
     {
-      "id": "P5C05191D",
-      "title": "Mobility and transit segregation in urban spaces",
-      "journal": "Environment and Planning B: Urban Analytics and City Science",
-      "year": 2023,
-      "doi": "10.1177/23998083231219294",
-      "url": "https://doi.org/10.1177/23998083231219294",
-      "vpn_url": "",
-      "pdf_downloaded": true,
-      "search_only": false,
-      "notes": ""
-    },
-    {
       "id": "P5FE9D417",
       "title": "Socioeconomic disparities in mobility behavior during the COVID-19 pandemic in developing countries",
       "journal": "EPJ Data Science",
@@ -800,30 +524,6 @@
       "doi": "10.1140/epjds/s13688-025-00532-2",
       "url": "https://link.springer.com/article/10.1140/epjds/s13688-025-00532-2",
       "vpn_url": "https://link-springer-com-443.webvpn.scut.edu.cn/article/10.1140/epjds/s13688-025-00532-2",
-      "pdf_downloaded": true,
-      "search_only": false,
-      "notes": ""
-    },
-    {
-      "id": "P61DCC998",
-      "title": "Behaviour-based dependency networks between places shape urban economic resilience",
-      "journal": "Nature Human Behaviour",
-      "year": 2024,
-      "doi": "10.1038/s41562-024-02072-7",
-      "url": "https://www.nature.com/articles/s41562-024-02072-7",
-      "vpn_url": "https://www-nature-com-443.webvpn.scut.edu.cn/articles/s41562-024-02072-7",
-      "pdf_downloaded": true,
-      "search_only": false,
-      "notes": ""
-    },
-    {
-      "id": "P63686407",
-      "title": "Mobility networks in Greater Mexico City",
-      "journal": "Scientific Data",
-      "year": 2024,
-      "doi": "10.1038/s41597-023-02880-y",
-      "url": "https://www.nature.com/articles/s41597-023-02880-y",
-      "vpn_url": "https://www-nature-com-443.webvpn.scut.edu.cn/articles/s41597-023-02880-y",
       "pdf_downloaded": true,
       "search_only": false,
       "notes": ""
@@ -877,30 +577,6 @@
       "notes": ""
     },
     {
-      "id": "P919700C8",
-      "title": "Shifting temporal dynamics of human mobility in the United States",
-      "journal": "Journal of Transport Geography",
-      "year": 2022,
-      "doi": "10.1016/j.jtrangeo.2022.103295",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0966692322000187",
-      "vpn_url": "https://www-sciencedirect-com-443.webvpn.scut.edu.cn/science/article/pii/S0966692322000187",
-      "pdf_downloaded": true,
-      "search_only": false,
-      "notes": ""
-    },
-    {
-      "id": "P93995647",
-      "title": "Utilizing large-scale human mobility data to identify determinants of physical activity",
-      "journal": "Scientific Reports",
-      "year": 2025,
-      "doi": "10.1038/s41598-025-87017-4",
-      "url": "https://www.nature.com/articles/s41598-025-87017-4",
-      "vpn_url": "https://www-nature-com-443.webvpn.scut.edu.cn/articles/s41598-025-87017-4",
-      "pdf_downloaded": true,
-      "search_only": false,
-      "notes": ""
-    },
-    {
       "id": "P9729F216",
       "title": "The geography of connectivity: a review of mobile positioning data for economic geography",
       "journal": "Journal of Geographical Systems",
@@ -937,18 +613,6 @@
       "notes": ""
     },
     {
-      "id": "PAADD397C",
-      "title": "Do human mobility network analyses produced from different location-based data sources yield similar results across scales?",
-      "journal": "Computers, Environment and Urban Systems",
-      "year": 2024,
-      "doi": "10.1016/j.compenvurbsys.2023.102052",
-      "url": "https://arxiv.org/abs/2204.09915",
-      "vpn_url": "",
-      "pdf_downloaded": true,
-      "search_only": false,
-      "notes": ""
-    },
-    {
       "id": "PC3073275",
       "title": "Mobile phone location data reveal the effect and geographic variation of social distancing on the spread of the COVID-19 epidemic",
       "journal": "arXiv（预印本）",
@@ -968,18 +632,6 @@
       "doi": "10.1609/icwsm.v17i1.22132",
       "url": "https://doi.org/10.1609/icwsm.v17i1.22132",
       "vpn_url": "",
-      "pdf_downloaded": true,
-      "search_only": false,
-      "notes": ""
-    },
-    {
-      "id": "PFC132E92",
-      "title": "Unfolding community homophily in U.S. metropolitans via human mobility",
-      "journal": "Cities",
-      "year": 2022,
-      "doi": "10.1016/j.cities.2022.103929",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0264275122003687",
-      "vpn_url": "https://www-sciencedirect-com-443.webvpn.scut.edu.cn/science/article/pii/S0264275122003687",
       "pdf_downloaded": true,
       "search_only": false,
       "notes": ""

@@ -4,8 +4,8 @@ const data=JSON.parse(html.match(/<script id="evidence-data" type="application\/
 const sets=['analog_ids','pioneer_ids','pending_ids','omitted_ids'].map(k=>new Set(data.browse[k]));
 assert.equal(sets.reduce((n,s)=>n+s.size,0),data.papers.length);assert.equal(new Set(sets.flatMap(s=>[...s])).size,data.papers.length);
 const use=data.provider_usage.associations;
-assert(sets[1].size>0);for(const id of sets[1])assert(use.some(a=>a.paper_id===id&&a.provider_id==='pioneer_moxing_jike'&&a.status==='confirmed_use'));
-for(const id of sets[0])assert(use.some(a=>a.paper_id===id&&data.browse.analog_provider_ids.includes(a.provider_id)&&a.status==='confirmed_use'&&(a.roles||[a.role]).some(r=>['mobility','mixed_mobility','platform_aggregate','demographic_profile'].includes(r))));
+assert(sets[1].size>0);for(const id of sets[1])assert(use.some(a=>a.paper_id===id&&a.provider_id==='pioneer_moxing_jike'&&['confirmed_use','user_confirmed_use'].includes(a.status)));
+for(const id of sets[0])assert(use.some(a=>a.paper_id===id&&data.browse.analog_provider_ids.includes(a.provider_id)&&['confirmed_use','user_confirmed_use'].includes(a.status)&&(a.roles||[a.role]).some(r=>['mobility','mixed_mobility','platform_aggregate','demographic_profile'].includes(r))));
 for(const id of ['L30','L32','L35','L37','L38','L45','L49','L52','L53','L54','L56','L70'])assert(sets[3].has(id));
 for(const id of ['L55','L57'])assert(sets[2].has(id),'Confirmed auxiliary POI supplier must not conceal unknown mobility supplier');
 for(const id of ['L81','L82'])assert(sets[0].has(id));
@@ -36,3 +36,9 @@ assert(data.papers.find(p=>p.id==='L80').zotero_attachment_verified);
 assert(!data.papers.find(p=>p.id==='L81').pdf_downloaded);
 assert.equal(data.excluded_papers.length,5);
 console.log('PASS scope: exclusive paper categories, evidence-backed 04, auxiliary POI preserved in 06, known boundaries omitted, original archives intact.');
+
+for(const id of ['L27','L28','L34','L59']) { assert(sets[1].has(id)); assert(!sets[2].has(id)); assert.equal(data.papers.find(p=>p.id===id).user_review_status,'pioneer_confirmed'); assert(!data.papers.find(p=>p.id===id).source_confirmed); }
+for(const id of ['L60','L61','L67','P06009F26']) {assert(sets[3].has(id));assert(!sets[2].has(id));}
+assert.equal(data.papers.find(p=>p.id==='P06009F26').zotero_pdf_present,true);
+assert(!use.some(a=>a.paper_id==='P1F72D228'&&a.provider_id==='veraset'),'User corrected road-network supplier is Cuebiq');
+assert.deepEqual(use.filter(a=>a.paper_id==='PAADD397C'&&a.status==='user_confirmed_use').map(a=>a.provider_id),['veraset'],'Other vendors mentioned in a note are not all data suppliers');

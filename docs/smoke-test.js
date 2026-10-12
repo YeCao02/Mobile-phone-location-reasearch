@@ -9,8 +9,8 @@ const cardIds=id=>new Set([...node(id).innerHTML.matchAll(/data-paper-id="([^"]+
 const equal=(a,b)=>assert.deepEqual([...a].sort(),[...b].sort());
 equal(cardIds('#china-list'),data.browse.pioneer_ids);equal(cardIds('#analog-list'),data.browse.analog_ids);equal(cardIds('#pending-list'),data.browse.pending_ids);
 assert(!html.includes('04B'));assert(!html.includes('id="other-data"'));assert(html.includes('04 / CONFIRMED PIONEER FAMILY'));assert(html.includes('06 / TO BE CONFIRMED'));
-for(const id of ['L21','L25','L48','L64','L80'])assert(cardIds('#china-list').has(id));
-for(const id of ['L27','L55','L57','L78','L79']){assert(cardIds('#pending-list').has(id));assert(!cardIds('#china-list').has(id));}
+for(const id of ['L21','L25','L48','L64','L80','L27','L28','L34','L59'])assert(cardIds('#china-list').has(id));
+for(const id of ['L55','L57','L78','L79']){assert(cardIds('#pending-list').has(id));assert(!cardIds('#china-list').has(id));}
 assert(node('#china-list').innerHTML.includes('HKU-YANG-P1'));assert(!node('#china-list').innerHTML.includes('SHU-LI-P1'));assert(node('#pending-list').innerHTML.includes('SHU-LI-P1'));
 node('#search').value='田子坊';node('#search').listeners.input();assert(cardIds('#china-list').has('L80'));assert(!cardIds('#china-list').has('L21'));
 node('#clear').listeners.click();node('#pending-filter').value='pioneer';node('#pending-filter').listeners.change();
