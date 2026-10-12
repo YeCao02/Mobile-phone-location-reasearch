@@ -1,0 +1,307 @@
+{
+  "date": "2026-10-12",
+  "query_count": 42,
+  "queries": [
+    {
+      "id": "R12-CN-Q01",
+      "query": "\"及刻\" \"数据\" \"学报\" -产业园区 -商圈",
+      "status": "completed",
+      "mode": "公开搜索引擎，非知网全文检索",
+      "report": "round12_cn"
+    },
+    {
+      "id": "R12-CN-Q02",
+      "query": "\"先锋数聚\" 研究 -多校区 -老城区 -采购 -招聘 -注册",
+      "status": "completed",
+      "mode": "公开搜索引擎，非知网全文检索",
+      "report": "round12_cn"
+    },
+    {
+      "id": "R12-CN-Q03",
+      "query": "\"摸星\" 轨迹 大学 -PM2.5 -暴露",
+      "status": "completed",
+      "mode": "公开搜索引擎，非知网全文检索",
+      "report": "round12_cn"
+    },
+    {
+      "id": "R12-CN-Q04",
+      "query": "\"SDK\" \"轨迹\" \"地理\" \"数据来源\" -site:fx361.com -site:fx361.cc",
+      "status": "completed",
+      "mode": "公开搜索引擎，非知网全文检索",
+      "report": "round12_cn"
+    },
+    {
+      "id": "R12-CN-Q05",
+      "query": "\"WiFi\" \"连接\" \"手机\" \"时空信息学报\"",
+      "status": "completed",
+      "mode": "公开搜索引擎，非知网全文检索",
+      "report": "round12_cn"
+    },
+    {
+      "id": "R12-CN-Q06",
+      "query": "\"isjike\" 论文 OR 学报 OR 研究 -商圈 -城市商圈",
+      "status": "completed",
+      "mode": "公开搜索引擎，非知网全文检索",
+      "report": "round12_cn"
+    },
+    {
+      "id": "R12-CN-Q07",
+      "query": "site:dqxxkx.cn \"SDK\" 手机 -240586 -220546 -250198 -240484",
+      "status": "completed",
+      "mode": "公开搜索引擎，非知网全文检索",
+      "report": "round12_cn"
+    },
+    {
+      "id": "R12-CN-Q08",
+      "query": "site:geores.com.cn \"手机\" \"WiFi\"",
+      "status": "completed",
+      "mode": "公开搜索引擎，非知网全文检索",
+      "report": "round12_cn"
+    },
+    {
+      "id": "R12-CN-Q09",
+      "query": "\"手机定位数据\" \"SDK\" 大学 研究 -产业园区 -空间生产 -中小城市 -OPGD",
+      "status": "completed",
+      "mode": "公开搜索引擎，非知网全文检索",
+      "report": "round12_cn"
+    },
+    {
+      "id": "R12-CN-Q10",
+      "query": "\"SDK\" \"数据\" site:upforum.wupen.org -万亿 -通勤阈值",
+      "status": "completed",
+      "mode": "公开搜索引擎，非知网全文检索",
+      "report": "round12_cn"
+    },
+    {
+      "id": "R12-CN-Q11",
+      "query": "\"SDK\" \"数据来源\" \"公园\" 大学 -基站 -软件开发",
+      "status": "completed",
+      "mode": "公开搜索引擎，非知网全文检索",
+      "report": "round12_cn"
+    },
+    {
+      "id": "R12-CN-Q12",
+      "query": "\"手机\" \"WiFi\" \"稳定\" \"赵志远\"",
+      "status": "completed",
+      "mode": "公开搜索引擎，非知网全文检索",
+      "report": "round12_cn"
+    },
+    {
+      "id": "R12-ETF-Q01",
+      "q": "\"Jike\" \"data\" \"mobile\"",
+      "domains": [
+        "sciencedirect.com",
+        "tandfonline.com"
+      ],
+      "report": "round12_elsevier_tf"
+    },
+    {
+      "id": "R12-ETF-Q02",
+      "q": "\"Moxing\" \"data\"",
+      "domains": [
+        "sciencedirect.com",
+        "tandfonline.com"
+      ],
+      "report": "round12_elsevier_tf"
+    },
+    {
+      "id": "R12-ETF-Q03",
+      "q": "\"Pioneer Data\" \"location\"",
+      "domains": [
+        "sciencedirect.com",
+        "tandfonline.com"
+      ],
+      "report": "round12_elsevier_tf"
+    },
+    {
+      "id": "R12-ETF-Q04",
+      "q": "\"wifi stable\" \"wifi connect\" research",
+      "report": "round12_elsevier_tf"
+    },
+    {
+      "id": "R12-ETF-Q05",
+      "q": "\"isjike.com\" \"data\"",
+      "report": "round12_elsevier_tf"
+    },
+    {
+      "id": "R12-ETF-Q06",
+      "q": "\"Jike\" \"positioning\" \"data\"",
+      "domains": [
+        "sciencedirect.com",
+        "tandfonline.com"
+      ],
+      "report": "round12_elsevier_tf"
+    },
+    {
+      "id": "R12-ETF-Q07",
+      "q": "\"mobile phone\" \"SDK\" \"data provider\"",
+      "domains": [
+        "sciencedirect.com"
+      ],
+      "report": "round12_elsevier_tf"
+    },
+    {
+      "id": "R12-ETF-Q08",
+      "q": "\"mobile phone\" \"third-party\" \"China\"",
+      "domains": [
+        "tandfonline.com"
+      ],
+      "report": "round12_elsevier_tf"
+    },
+    {
+      "id": "R12-ETF-Q09",
+      "q": "\"Analyzing visitor distribution and spatial characteristics\" Tianzifang",
+      "report": "round12_elsevier_tf"
+    },
+    {
+      "id": "R12-ETF-Q10",
+      "q": "\"phone\" \"software development kit\" \"China\" mobility",
+      "domains": [
+        "sciencedirect.com"
+      ],
+      "report": "round12_elsevier_tf"
+    },
+    {
+      "id": "R12-ETF-Q11",
+      "q": "\"Jike\" \"GPS\" data",
+      "report": "round12_elsevier_tf"
+    },
+    {
+      "id": "R12-ETF-Q12",
+      "q": "\"wifi connect\" \"data\" \"urban\"",
+      "report": "round12_elsevier_tf"
+    },
+    {
+      "id": "R12SW-Q01",
+      "query": "site:link.springer.com \"Jike\" \"data\"",
+      "tool": "web.search_query",
+      "report": "round12_springer_wiley"
+    },
+    {
+      "id": "R12SW-Q02",
+      "query": "site:onlinelibrary.wiley.com \"Jike\" \"data\"",
+      "tool": "web.search_query",
+      "report": "round12_springer_wiley"
+    },
+    {
+      "id": "R12SW-Q03",
+      "query": "site:nature.com \"Pioneer Data\" OR \"Moxing\" OR \"isjike\"",
+      "tool": "web.search_query",
+      "report": "round12_springer_wiley"
+    },
+    {
+      "id": "R12SW-Q04",
+      "query": "site:link.springer.com \"third-party\" \"push\" \"mobile\" data",
+      "tool": "web.search_query",
+      "report": "round12_springer_wiley"
+    },
+    {
+      "id": "R12SW-Q05",
+      "query": "\"Jike\" \"positioning\" \"Springer\"",
+      "tool": "web.search_query",
+      "report": "round12_springer_wiley"
+    },
+    {
+      "id": "R12SW-Q06",
+      "query": "\"isjike.com\" \"Wiley\"",
+      "tool": "web.search_query",
+      "report": "round12_springer_wiley"
+    },
+    {
+      "id": "R12SW-Q07",
+      "query": "\"Moxing\" \"mobile\" \"data\" geography",
+      "tool": "web.search_query",
+      "report": "round12_springer_wiley"
+    },
+    {
+      "id": "R12SW-Q08",
+      "query": "\"Pioneer Data\" \"location\" \"research\"",
+      "tool": "web.search_query",
+      "report": "round12_springer_wiley"
+    },
+    {
+      "id": "R12SW-Q09",
+      "query": "site:link.springer.com \"SDK\" \"population\" \"China\" -privacy -advertising",
+      "tool": "web.search_query",
+      "report": "round12_springer_wiley"
+    },
+    {
+      "id": "R12SW-Q10",
+      "query": "site:nature.com \"SDK\" \"mobility\" \"China\"",
+      "tool": "web.search_query",
+      "report": "round12_springer_wiley"
+    },
+    {
+      "id": "R12SW-Q11",
+      "query": "site:onlinelibrary.wiley.com \"mobile phone\" \"software development kit\"",
+      "tool": "web.search_query",
+      "report": "round12_springer_wiley"
+    },
+    {
+      "id": "R12SW-Q12",
+      "query": "\"mobile push\" \"population\" -Xining",
+      "tool": "web.search_query",
+      "report": "round12_springer_wiley"
+    },
+    {
+      "id": "R12SW-S01",
+      "query": "\"isjike.com\" \"data\"",
+      "tool": "web.search_query",
+      "report": "round12_springer_wiley"
+    },
+    {
+      "id": "R12SW-S02",
+      "query": "\"data.isjike.com\"",
+      "tool": "web.search_query",
+      "report": "round12_springer_wiley"
+    },
+    {
+      "id": "R12SW-S03",
+      "query": "\"Moxing Beijing\" \"data\" -hospital",
+      "tool": "web.search_query",
+      "report": "round12_springer_wiley"
+    },
+    {
+      "id": "R12SW-S04",
+      "query": "\"Moxing Technology\" \"trajectory\"",
+      "tool": "web.search_query",
+      "report": "round12_springer_wiley"
+    },
+    {
+      "id": "R12SW-S05",
+      "query": "\"isjike.com\" \"mobile phone\" -site:hypestat.com -site:dealroom.co",
+      "tool": "web.search_query",
+      "report": "round12_springer_wiley"
+    },
+    {
+      "id": "R12SW-S06",
+      "query": "\"Moxing\" \"location data\" -hospital -site:researchgate.net -site:patents.google.com",
+      "tool": "web.search_query",
+      "report": "round12_springer_wiley"
+    }
+  ],
+  "boundary_leads": [
+    {
+      "id": "R12-CN-B01",
+      "title_en": "Evaluation of Park Green Space Accessibility in Shenzhen from the Perspective of Social Equity",
+      "title": "深圳公园绿地可达性与社会公平研究（中文精确题名待核）",
+      "year": 2022,
+      "journal": "地理科学",
+      "volume": "42",
+      "issue": "5",
+      "authors": null,
+      "doi": null,
+      "institution": null,
+      "provider": "个推 / Getui",
+      "provider_status": "named_in_primary_pdf_index",
+      "scope_recommendation": "other_commercial_sdk",
+      "data_statement": "官方PDF索引§2.2.2明确个推供深圳SDK多APP居住人口数据；2019-11-12之前12周工作日，夜间位置赋分识别居住地，聚合45909格网、2004.36万人。",
+      "evidence_quote": "深圳市居住人口分布数据源于个推网",
+      "evidence_section": "原刊PDF搜索索引§2.2.2，未取得PDF故页码待核",
+      "source_url": "https://www.sciengine.com/parse/pdf/1000-0690/F0B533A3F98F4A90B882B7F7E9DE2775.pdf?attname=Evaluation+of+Park+Green+Space+Accessibility+in+Shenzhen+from+the+Perspective+of+Social+Equity.pdf",
+      "pdf_downloaded": false,
+      "fulltext_read": false,
+      "next_action": "已具名其他供应商，停止供应商追查；题录待补，不计完整新增入库论文。"
+    }
+  ]
+}

@@ -36,3 +36,19 @@ console.log(`PASS scope: ${data.papers.length} active; ${data.excluded_papers.le
 for (const id of ['L49','L52']) { const r=data.papers.find(x=>x.id===id); assert(r.fulltext_read && r.pdf_downloaded); assert.equal(r.research_scope,'carrier_boundary'); const q=queue.records.find(x=>x.id===id); assert(!q.needs_fulltext_review && !q.pdf_acquisition); }
 assert.equal(data.papers.find(x=>x.id==='L49').zotero_attachment_verified,false);
 assert.equal(data.papers.find(x=>x.id==='L52').zotero_attachment_verified,true);
+
+// Round 12: exact supplier use does not imply individual trajectory access.
+for(const id of ['L78','L79']){
+ const r=data.papers.find(x=>x.id===id);
+ assert(r.sdk_explicit && !r.source_confirmed && r.research_scope==='pioneer_candidate');
+ assert(targetIds.has(id));
+ assert(!data.provider_usage.associations.some(a=>a.paper_id===id && a.status==='confirmed_use'));
+}
+assert(targetIds.has('L80'));
+assert(data.provider_usage.associations.some(a=>a.paper_id==='L80' && a.provider_id==='pioneer_moxing_jike' && a.role==='platform_aggregate'));
+for(const id of ['L81','L82'])assert(secondaryIds.has(id) && !targetIds.has(id));
+assert(data.provider_usage.associations.some(a=>a.paper_id==='L81' && a.provider_id==='in_loco' && a.role==='platform_aggregate'));
+const fullUsage=JSON.parse(fs.readFileSync(path.join(root,'data/provider_usage.json'),'utf8'));
+assert(fullUsage.associations.some(a=>a.paper_id==='L82' && a.provider_id==='in_loco' && a.data_access_relationship==='paired_locations_not_persistent_trajectories'));
+for(const id of ['L80','L82'])assert(data.papers.find(r=>r.id===id).pdf_downloaded && data.papers.find(r=>r.id===id).zotero_attachment_verified);
+assert(!data.papers.find(r=>r.id==='L81').pdf_downloaded && !data.papers.find(r=>r.id==='L81').zotero_attachment_verified);

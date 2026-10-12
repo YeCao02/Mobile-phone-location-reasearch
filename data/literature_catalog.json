@@ -6090,6 +6090,421 @@
       ]
     },
     {
+      "id": "L78",
+      "title": "上海环城大型公园游憩服务效用评价及规划启示",
+      "doi": "10.16361/j.upf.202406004",
+      "journal": "城市规划学刊",
+      "year": 2024,
+      "authors": [
+        "万亿",
+        "赵民"
+      ],
+      "institution": "华东理工大学 / 同济大学",
+      "team": "万亿 / 赵民合作团队",
+      "provider": "未具名网络技术有限公司",
+      "product": "匿名手机位置记录",
+      "application": "公园游憩与公共服务",
+      "data_declaration": "原刊明确安卓智能手机内置SDK位置数据，供方仅称某网络技术有限公司。上海约760万用户底库；6个环城公园13万样本用户、19万人次、约4500万条。淡季为2021-01-11至24；旺季按公园选择2020年10月或2021年4/5月样本，见表1。不能把2020-01至2021-06的游客统计背景周期当作全部轨迹覆盖期。",
+      "data_form": "原刊明确安卓智能手机内置SDK位置数据，供方仅称某网络技术有限公司。上海约760万用户底库；6个环城公园13万样本用户、19万人次、约4500万条。淡季为2021-01-11至24；旺季按公园选择2020年10月或2021年4/5月样本，见表1。不能把2020-01至2021-06的游客统计背景周期当作全部轨迹覆盖期。",
+      "use_method": "从服务强度、服务范围、服务属性比较淡旺季公园效用，并分析公园内外部条件",
+      "evidence_url": "https://upforum.wupen.org/Assets/userfiles/files/issues/2024/2024-06/%E4%B8%87%E4%BA%BF.pdf",
+      "evidence_section": "PDF第3页／印刷21页，§2.2.2–2.2.3、表1",
+      "evidence_quote": "基于安卓系统智能手机内置SDK插件的位置数据",
+      "fulltext_read": true,
+      "fulltext_scope": "已下载原刊8页PDF并核首页、§2.2和表1",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false,
+      "sdk_explicit": true,
+      "app_collection_confirmed": true,
+      "sensor_mix": "SDK明确；定位精度2–30米，未单列GPS/WiFi，未披露供方品牌。",
+      "source_confirmed": false,
+      "provider_evidence_status": "undisclosed_or_pending",
+      "provider_attribution_status": "undisclosed_or_pending",
+      "research_scope": "pioneer_candidate",
+      "scope_tag": "commercial_sdk_unknown_supplier",
+      "scope_reason": "原文明示SDK，供方未具名；候选不等于先锋/摸星/及刻确认使用。",
+      "source_followup_closed": false,
+      "catalog_status": "reviewed",
+      "curated_evidence": true,
+      "publisher_metadata_verified": true,
+      "publication_type": "journal_article",
+      "legacy_provider_claims": [],
+      "access_status": "official_pdf_verified",
+      "review_date": "2026-10-12",
+      "funding": [
+        "上海市白玉兰人才计划浦江项目23PJC027",
+        "中央高校基本科研业务费JKZ02232202"
+      ],
+      "notes": "",
+      "round12_record": true,
+      "round12_input_id": "R12-CN-01",
+      "round12_report": "round12_cn",
+      "data_access_relationship": "individual_location_records",
+      "title_en": "Utility Evaluation and Planning Implications of Large City Ring Parks: A Case Study of Shanghai",
+      "issue": "6",
+      "pages": "19–26",
+      "author_affiliations": {
+        "万亿": "华东理工大学艺术设计与传媒学院",
+        "赵民": "同济大学建筑与城市规划学院"
+      },
+      "pdf_pages": 8,
+      "pdf_sha256": "d8a4df97a1fb2ca3019e680932d64da5181f86ab6c80748277fd7cb6dd5bc02f",
+      "origins": [
+        "2026-10-10审读台账"
+      ],
+      "metadata_source": "出版方原文与PDF核验；DOI状态单独标示",
+      "versions": [],
+      "bibliographic_status": "publisher_metadata_verified",
+      "publication_title_as_recorded": "城市规划学刊",
+      "journal_family": "",
+      "field": "环境与生态",
+      "field_tags": [
+        "环境与生态",
+        "城市规划与服务可达性"
+      ],
+      "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
+      "download_queue_status": [
+        "current_review_complete"
+      ]
+    },
+    {
+      "id": "L79",
+      "title": "极端天气影响下的人群停留行为时空扰动定量评估",
+      "doi": "10.12082/dqxxkx.2025.240596",
+      "journal": "地球信息科学学报",
+      "year": 2025,
+      "authors": [
+        "赵志远",
+        "郑思研",
+        "吴升",
+        "宋晓晴",
+        "汪艳霞"
+      ],
+      "institution": "福州大学",
+      "team": "吴升 / 赵志远团队",
+      "provider": "未具名",
+      "product": "匿名手机位置记录",
+      "application": "灾害韧性与时空行为",
+      "data_declaration": "原刊§3.2.1明确SDK多APP定位、主要WiFi和手机内置GPS；泉州2022-07-04至15，剔除周末后10个工作日。日均220.35万用户、6204.21万条、人均约28条；筛每天至少12小时有记录用户后约49.12万。评估暹芭台风暴雨与常态周停留行为扰动；未具名供数公司。",
+      "data_form": "原刊§3.2.1明确SDK多APP定位、主要WiFi和手机内置GPS；泉州2022-07-04至15，剔除周末后10个工作日。日均220.35万用户、6204.21万条、人均约28条；筛每天至少12小时有记录用户后约49.12万。评估暹芭台风暴雨与常态周停留行为扰动；未具名供数公司。",
+      "use_method": "个体时空相似性/IQR及群体Z-Score，评估停留地理与时间扰动",
+      "evidence_url": "https://www.dqxxkx.cn/CN/abstract/article/1560-8999/72531",
+      "evidence_section": "原刊HTML §3.2.1 手机位置数据、§3.2.2 数据预处理（本地PDF未取得，页码不猜测）",
+      "evidence_quote": "基于SDK手机多应用APP定位产生大规模匿名化手机位置数据",
+      "fulltext_read": true,
+      "fulltext_scope": "原刊完整HTML方法及数据段已读",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
+      "sdk_explicit": true,
+      "app_collection_confirmed": true,
+      "sensor_mix": "正文明确WIFI与GPS为主，具SDK机制；同团队其他研究的及刻供数不能自动迁移到本篇。",
+      "source_confirmed": false,
+      "provider_evidence_status": "undisclosed_or_pending",
+      "provider_attribution_status": "undisclosed_or_pending",
+      "research_scope": "pioneer_candidate",
+      "scope_tag": "commercial_sdk_gps_wifi_unknown_supplier",
+      "scope_reason": "原文明示SDK，供方未具名；候选不等于先锋/摸星/及刻确认使用。",
+      "source_followup_closed": false,
+      "catalog_status": "reviewed",
+      "curated_evidence": true,
+      "publisher_metadata_verified": true,
+      "publication_type": "journal_article",
+      "legacy_provider_claims": [],
+      "access_status": "data_methods_read_pdf_pending",
+      "review_date": "2026-10-12",
+      "funding": [
+        "国家自然科学基金42201500",
+        "国家自然科学基金42101419"
+      ],
+      "notes": "",
+      "round12_record": true,
+      "round12_input_id": "R12-CN-02",
+      "round12_report": "round12_cn",
+      "data_access_relationship": "individual_location_records",
+      "title_en": "Quantitative Evaluation of Spatio-temporal Disruptions to Crowd Stay Behavior Under Extreme Weather",
+      "volume": "27",
+      "issue": "6",
+      "pages": "1344–1360",
+      "author_affiliations": {
+        "赵志远": "福州大学",
+        "郑思研": "福州大学",
+        "吴升": "福州大学",
+        "宋晓晴": "安徽师范大学",
+        "汪艳霞": "福州市勘测院有限公司"
+      },
+      "origins": [
+        "2026-10-10审读台账"
+      ],
+      "metadata_source": "出版方原文与PDF核验；DOI状态单独标示",
+      "versions": [],
+      "bibliographic_status": "publisher_metadata_verified",
+      "publication_title_as_recorded": "地球信息科学学报",
+      "journal_family": "",
+      "field": "灾害与韧性",
+      "field_tags": [
+        "灾害与韧性"
+      ],
+      "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
+      "download_queue_status": [
+        "pdf_acquisition"
+      ]
+    },
+    {
+      "id": "L80",
+      "title": "Analyzing visitor distribution and spatial characteristics in an “Internet-famous” historic district: a case study of tianzifang, shanghai",
+      "doi": "10.1080/13467581.2025.2608469",
+      "journal": "Journal of Asian Architecture and Building Engineering",
+      "year": 2026,
+      "authors": [
+        "Huiyun Yu",
+        "Noor Aimran Samsudin",
+        "Ida Shaheerabinti Bakhtiar"
+      ],
+      "institution": "上海中侨职业技术大学 / 马来西亚理工大学",
+      "team": "Huiyun Yu / Noor Aimran Samsudin合作团队",
+      "provider": "Jike Open Platform / data.isjike.com",
+      "product": "人群密度热图",
+      "application": "历史街区游客分布、空间形态与视觉要素关系",
+      "data_declaration": "原文§2.1–2.2与图2具名Jike开放平台，使用上海田子坊2025-07-05至08-04游客人群分布热图。§Ethics明确只分析公开、匿名化汇总数据；未证明取得个体轨迹或SDK/GPS/WiFi采集机制。红书照片与游记、OSM及Google Maps是独立辅助来源。",
+      "data_form": "原文§2.1–2.2与图2具名Jike开放平台，使用上海田子坊2025-07-05至08-04游客人群分布热图。§Ethics明确只分析公开、匿名化汇总数据；未证明取得个体轨迹或SDK/GPS/WiFi采集机制。红书照片与游记、OSM及Google Maps是独立辅助来源。",
+      "use_method": "空间句法指标、社交媒体照片语义分割与人群分布热图对照",
+      "evidence_url": "https://www.tandfonline.com/doi/full/10.1080/13467581.2025.2608469",
+      "evidence_section": "§2.1–2.2（印刷4/PDF5页）；Figure 2（印刷5/PDF6页）；Ethics statement（印刷14/PDF15页）",
+      "evidence_quote": "crowd distribution data were collected from the Jike Open Platform.",
+      "fulltext_read": true,
+      "fulltext_scope": "学校认证出版社HTML及18页正式PDF（含封面）已核验数据来源、图注、伦理和首页",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "sdk_explicit": false,
+      "app_collection_confirmed": false,
+      "sensor_mix": "原文§2.1–2.2与图2具名Jike开放平台，使用上海田子坊2025-07-05至08-04游客人群分布热图。§Ethics明确只分析公开、匿名化汇总数据；未证明取得个体轨迹或SDK/GPS/WiFi采集机制。红书照片与游记、OSM及Google Maps是独立辅助来源。",
+      "source_confirmed": true,
+      "provider_evidence_status": "source_confirmed",
+      "provider_attribution_status": "source_confirmed",
+      "research_scope": "pioneer_named",
+      "scope_tag": "pioneer_named",
+      "scope_reason": "原文已具名供应商，停止供应商追查；实际数据产品单列。",
+      "source_followup_closed": true,
+      "catalog_status": "reviewed",
+      "curated_evidence": true,
+      "publisher_metadata_verified": true,
+      "publication_type": "journal_article",
+      "legacy_provider_claims": [],
+      "access_status": "official_pdf_verified",
+      "review_date": "2026-10-12",
+      "funding": [
+        "2024CXQ046",
+        "CNACS2024-I-48",
+        "2025297"
+      ],
+      "notes": "",
+      "round12_record": true,
+      "round12_input_id": "R12-ETF01",
+      "round12_report": "round12_elsevier_tf",
+      "data_access_relationship": "crowd_density_heatmap",
+      "pages": "1–17",
+      "published_online": "2026-01-04",
+      "author_affiliations": {
+        "Huiyun Yu": [
+          "College of Art, Shanghai Zhongqiao Vocational and Technical University",
+          "Faculty of Built Environment and Surveying, Universiti Teknologi Malaysia"
+        ],
+        "Noor Aimran Samsudin": [
+          "Faculty of Built Environment and Surveying, Universiti Teknologi Malaysia"
+        ],
+        "Ida Shaheerabinti Bakhtiar": [
+          "Faculty of Built Environment and Surveying, Universiti Teknologi Malaysia"
+        ]
+      },
+      "pdf_pages": 18,
+      "pdf_sha256": "9849b385a516b00facba177a81584df2d5187c54f6cd6280d381a00f90300364",
+      "pdf_bytes": 14503004,
+      "author_fulltext_url": "https://www.researchgate.net/publication/399447689_Analyzing_visitor_distribution_and_spatial_characteristics_in_an_Internet-famous_historic_district_a_case_study_of_tianzifang_shanghai",
+      "metadata_url": "https://doaj.org/article/8a5aa0d9829d4c20b1a6419fcbfc642a",
+      "trajectory_data_confirmed": false,
+      "supplier_relationship_group": "USER-CONFIRMED-PIONEER-MOXING-JIKE",
+      "zotero_catalog_imported": true,
+      "origins": [
+        "2026-10-10审读台账"
+      ],
+      "metadata_source": "出版方原文与PDF核验；DOI状态单独标示",
+      "versions": [],
+      "bibliographic_status": "publisher_metadata_verified",
+      "publication_title_as_recorded": "Journal of Asian Architecture and Building Engineering",
+      "journal_family": "",
+      "field": "地理与时空行为（待细分）",
+      "field_tags": [
+        "地理与时空行为（待细分）"
+      ],
+      "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
+      "download_queue_status": [
+        "current_review_complete"
+      ]
+    },
+    {
+      "id": "L81",
+      "title": "Using Seismic Noise Levels to Monitor Social Isolation: An Example From Rio de Janeiro, Brazil",
+      "doi": "10.1029/2020gl088748",
+      "journal": "Geophysical Research Letters",
+      "year": 2020,
+      "authors": [
+        "Fábio L. Dias",
+        "Marcelo Assumpção",
+        "Pedro S. Peixoto",
+        "Marcelo B. Bianchi",
+        "Bruno Collaço",
+        "Jackson Calhau"
+      ],
+      "institution": "巴西国家天文台 / 圣保罗大学",
+      "team": "Fábio L. Dias / Pedro S. Peixoto合作团队",
+      "provider": "In Loco",
+      "product": "城市级居家指数",
+      "application": "城市环境监测；灾害/流行病时期活动监测",
+      "data_declaration": "§3.1 明确 In Loco SDK，以 GPS、无线及手机传感器定位；研究实际使用城市级居家指数，无个体轨迹访问。用于校准地震噪声与活动联系。",
+      "data_form": "里约热内卢，2020-02-01 至 04-20；当地约10%人口覆盖。3700万是供方全国终端规模，不是本文样本。",
+      "use_method": "城市环境监测；灾害/流行病时期活动监测",
+      "evidence_url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2020GL088748",
+      "evidence_section": "§3.1 The Smartphone Index；Acknowledgments；Figure 2",
+      "evidence_quote": "their SDK (software development kit)",
+      "fulltext_read": true,
+      "fulltext_scope": "原刊正文数据方法关键段已核",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
+      "sdk_explicit": true,
+      "app_collection_confirmed": true,
+      "sensor_mix": "§3.1 明确 In Loco SDK，以 GPS、无线及手机传感器定位；研究实际使用城市级居家指数，无个体轨迹访问。用于校准地震噪声与活动联系。",
+      "source_confirmed": true,
+      "provider_evidence_status": "source_confirmed",
+      "provider_attribution_status": "source_confirmed",
+      "research_scope": "other_commercial",
+      "scope_tag": "sdk_derived_mobility_index",
+      "scope_reason": "原文已具名供应商，停止供应商追查；实际数据产品单列。",
+      "source_followup_closed": true,
+      "catalog_status": "reviewed",
+      "curated_evidence": true,
+      "publisher_metadata_verified": true,
+      "publication_type": "journal_article",
+      "legacy_provider_claims": [],
+      "access_status": "official_html_methods_verified_pdf_403",
+      "review_date": "2026-10-12",
+      "funding": [
+        "Petrobras 2017/00159-0",
+        "CNPq 301284/2017-2",
+        "FAPESP 16/18445-7"
+      ],
+      "notes": "12次范围检索中唯一新增强命中；不同于中国 Jike/摸星/先锋。",
+      "round12_record": true,
+      "round12_input_id": "R12SW01",
+      "round12_report": "round12_springer_wiley",
+      "data_access_relationship": "city_level_index",
+      "volume": "47",
+      "issue": "16",
+      "article_number": "e2020GL088748",
+      "pdf_url": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2020GL088748",
+      "si_status": "官方页列 Supporting Information S1 PDF；未取得",
+      "data_url": "https://doi.org/10.5281/zenodo.3944747",
+      "trajectory_data_confirmed": false,
+      "zotero_catalog_imported": true,
+      "origins": [
+        "2026-10-10审读台账"
+      ],
+      "metadata_source": "出版方原文与PDF核验；DOI状态单独标示",
+      "versions": [],
+      "bibliographic_status": "publisher_metadata_verified",
+      "publication_title_as_recorded": "Geophysical Research Letters",
+      "journal_family": "",
+      "field": "灾害与韧性",
+      "field_tags": [
+        "灾害与韧性"
+      ],
+      "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
+      "download_queue_status": [
+        "pdf_acquisition"
+      ]
+    },
+    {
+      "id": "L82",
+      "title": "Modeling future spread of infections via mobile geolocation data and population dynamics. An application to COVID-19 in Brazil",
+      "doi": "10.1371/journal.pone.0235732",
+      "journal": "PLOS ONE",
+      "year": 2020,
+      "authors": [
+        "Pedro S. Peixoto",
+        "Diego Marcondes",
+        "Cláudia Peixoto",
+        "Sérgio M. Oliva"
+      ],
+      "institution": "圣保罗大学",
+      "team": "Pedro S. Peixoto / Sérgio M. Oliva团队",
+      "provider": "In Loco",
+      "product": "两次连续使用的位置对",
+      "application": "传染病空间传播；城际流动建模",
+      "data_declaration": "Methods/Dataset 具名 In Loco SDK，研究获得两次连续应用使用的位置对，经纬度精度0.01度，不能追踪超过两次使用的持续个体轨迹。城市间移动用于早期疫情传播模拟。",
+      "data_form": "圣保罗州与里约热内卢州，2019及2020年3月1–30日；约1000万及300万独立用户覆盖。",
+      "use_method": "传染病空间传播；城际流动建模",
+      "evidence_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0235732",
+      "evidence_section": "Methods > Dataset，PDF 第3–4页",
+      "evidence_quote": "users of their software development kit (SDK)",
+      "fulltext_read": true,
+      "fulltext_scope": "原刊正文数据方法关键段已核",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "sdk_explicit": true,
+      "app_collection_confirmed": true,
+      "sensor_mix": "Methods/Dataset 具名 In Loco SDK，研究获得两次连续应用使用的位置对，经纬度精度0.01度，不能追踪超过两次使用的持续个体轨迹。城市间移动用于早期疫情传播模拟。",
+      "source_confirmed": true,
+      "provider_evidence_status": "source_confirmed",
+      "provider_attribution_status": "source_confirmed",
+      "research_scope": "other_commercial",
+      "scope_tag": "sdk_paired_location_data",
+      "scope_reason": "原文已具名供应商，停止供应商追查；实际数据产品单列。",
+      "source_followup_closed": true,
+      "catalog_status": "reviewed",
+      "curated_evidence": true,
+      "publisher_metadata_verified": true,
+      "publication_type": "journal_article",
+      "legacy_provider_claims": [],
+      "access_status": "official_pdf_verified",
+      "review_date": "2026-10-12",
+      "funding": [
+        "FAPESP 16/18445-7",
+        "CNPq（正文未列编号）"
+      ],
+      "notes": "作为Wiley来源文献的方法链补充，出版平台为PLOS，独立标注；不将供应商原始米级能力等同于实际交付0.01度精度。",
+      "round12_record": true,
+      "round12_input_id": "R12SW02",
+      "round12_report": "round12_springer_wiley",
+      "data_access_relationship": "paired_locations_not_persistent_trajectories",
+      "volume": "15",
+      "issue": "7",
+      "article_number": "e0235732",
+      "pdf_pages": 23,
+      "pdf_sha256": "6817a5937d52e379ec4aaa18b5987dc7023eca9052d2ba5a685a0fd401a59c22",
+      "pdf_bytes": 8743814,
+      "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0235732&type=printable",
+      "si_status": "数据/代码与支撑资料以作者仓库链接提供；未下载个体数据",
+      "data_url": "https://github.com/pedrospeixoto/mdyn",
+      "trajectory_data_confirmed": false,
+      "zotero_catalog_imported": true,
+      "origins": [
+        "2026-10-10审读台账"
+      ],
+      "metadata_source": "出版方原文与PDF核验；DOI状态单独标示",
+      "versions": [],
+      "bibliographic_status": "publisher_metadata_verified",
+      "publication_title_as_recorded": "PLOS ONE",
+      "journal_family": "PLOS",
+      "field": "健康与公共卫生",
+      "field_tags": [
+        "健康与公共卫生",
+        "计算方法与数据基础设施"
+      ],
+      "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
+      "download_queue_status": [
+        "current_review_complete"
+      ]
+    },
+    {
       "id": "P240AD96D",
       "title": "Insights into population behavior during the COVID-19 pandemic from cell phone mobility data and manifold learning",
       "doi": "10.1038/s43588-021-00125-9",
@@ -9828,10 +10243,10 @@
     "source_counts": [
       {
         "source": "2026-10-10审读台账",
-        "input_rows": 77,
-        "mapped_rows": 77,
-        "unique_catalog_records": 77,
-        "new_records_at_merge_step": 77,
+        "input_rows": 82,
+        "mapped_rows": 82,
+        "unique_catalog_records": 82,
+        "new_records_at_merge_step": 82,
         "merged_rows": 0
       },
       {
@@ -9901,7 +10316,7 @@
     ],
     "source_overlap_matrix": {
       "2026-10-10审读台账": {
-        "2026-10-10审读台账": 77,
+        "2026-10-10审读台账": 82,
         "旧39篇候选清单": 16,
         "literature_commercial_mobile_location_data_2015_2026.csv": 10,
         "literature_commercial_mobile_location_data_addendum_2026.csv": 6,
@@ -10538,6 +10953,41 @@
         "row": 77,
         "source_row": null,
         "catalog_id": "L77",
+        "dedup_reason": "new_record"
+      },
+      {
+        "source": "2026-10-10审读台账",
+        "row": 78,
+        "source_row": null,
+        "catalog_id": "L78",
+        "dedup_reason": "new_record"
+      },
+      {
+        "source": "2026-10-10审读台账",
+        "row": 79,
+        "source_row": null,
+        "catalog_id": "L79",
+        "dedup_reason": "new_record"
+      },
+      {
+        "source": "2026-10-10审读台账",
+        "row": 80,
+        "source_row": null,
+        "catalog_id": "L80",
+        "dedup_reason": "new_record"
+      },
+      {
+        "source": "2026-10-10审读台账",
+        "row": 81,
+        "source_row": null,
+        "catalog_id": "L81",
+        "dedup_reason": "new_record"
+      },
+      {
+        "source": "2026-10-10审读台账",
+        "row": 82,
+        "source_row": null,
+        "catalog_id": "L82",
         "dedup_reason": "new_record"
       },
       {
@@ -12639,16 +13089,16 @@
     "classification": "field/application为编辑归类；pending旧供应商标签均未视为原文确认。"
   },
   "counts": {
-    "total": 149,
-    "reviewed": 63,
+    "total": 154,
+    "reviewed": 68,
     "pending": 86,
-    "fulltext_read": 58,
-    "with_doi": 130,
-    "pdf_verified": 52,
+    "fulltext_read": 63,
+    "with_doi": 135,
+    "pdf_verified": 55,
     "supporting_resources": 7,
     "linked_versions": 1,
     "metadata_conflicts_need_review": 1,
-    "active": 144,
+    "active": 149,
     "excluded": 5
   }
 }

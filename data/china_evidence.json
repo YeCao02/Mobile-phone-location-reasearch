@@ -1818,6 +1818,86 @@
       "pdf_downloaded": true,
       "zotero_catalog_imported": true,
       "zotero_attachment_verified": true
+    },
+    {
+      "id": "CN-R12-L78",
+      "title": "上海环城大型公园游憩服务效用评价及规划启示",
+      "url": "https://upforum.wupen.org/Assets/userfiles/files/issues/2024/2024-06/%E4%B8%87%E4%BA%BF.pdf",
+      "type": "期刊论文数据来源声明",
+      "institution": "华东理工大学 / 同济大学",
+      "supplier": "未具名网络技术有限公司",
+      "finding": "原刊明确安卓智能手机内置SDK位置数据，供方仅称某网络技术有限公司。上海约760万用户底库；6个环城公园13万样本用户、19万人次、约4500万条。淡季为2021-01-11至24；旺季按公园选择2020年10月或2021年4/5月样本，见表1。不能把2020-01至2021-06的游客统计背景周期当作全部轨迹覆盖期。",
+      "confidence": "undisclosed_or_pending",
+      "limits": "原文明示SDK，供方未具名；候选不等于先锋/摸星/及刻确认使用。",
+      "doi": "10.16361/j.upf.202406004",
+      "group_id": "ECUST-WAN-TONGJI-ZHAO",
+      "research_scope": "pioneer_candidate",
+      "catalog_id": "L78",
+      "round12_record": true
+    },
+    {
+      "id": "CN-R12-L79",
+      "title": "极端天气影响下的人群停留行为时空扰动定量评估",
+      "url": "https://www.dqxxkx.cn/CN/abstract/article/1560-8999/72531",
+      "type": "期刊论文数据来源声明",
+      "institution": "福州大学",
+      "supplier": "未具名",
+      "finding": "原刊§3.2.1明确SDK多APP定位、主要WiFi和手机内置GPS；泉州2022-07-04至15，剔除周末后10个工作日。日均220.35万用户、6204.21万条、人均约28条；筛每天至少12小时有记录用户后约49.12万。评估暹芭台风暴雨与常态周停留行为扰动；未具名供数公司。",
+      "confidence": "undisclosed_or_pending",
+      "limits": "原文明示SDK，供方未具名；候选不等于先锋/摸星/及刻确认使用。",
+      "doi": "10.12082/dqxxkx.2025.240596",
+      "group_id": "FZU-WU-SHENG",
+      "research_scope": "pioneer_candidate",
+      "catalog_id": "L79",
+      "round12_record": true
+    },
+    {
+      "id": "CN-R12-L80",
+      "title": "Analyzing visitor distribution and spatial characteristics in an “Internet-famous” historic district: a case study of tianzifang, shanghai",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/13467581.2025.2608469",
+      "type": "期刊论文数据来源声明",
+      "institution": "上海中侨职业技术大学 / 马来西亚理工大学",
+      "supplier": "Jike Open Platform / data.isjike.com",
+      "finding": "原文§2.1–2.2与图2具名Jike开放平台，使用上海田子坊2025-07-05至08-04游客人群分布热图。§Ethics明确只分析公开、匿名化汇总数据；未证明取得个体轨迹或SDK/GPS/WiFi采集机制。红书照片与游记、OSM及Google Maps是独立辅助来源。",
+      "confidence": "source_confirmed",
+      "limits": "原文已具名供应商，停止供应商追查；实际数据产品单列。",
+      "doi": "10.1080/13467581.2025.2608469",
+      "group_id": "SHZQ-UTM-YU",
+      "research_scope": "pioneer_named",
+      "catalog_id": "L80",
+      "round12_record": true
+    },
+    {
+      "id": "CN-R12-L81",
+      "title": "Using Seismic Noise Levels to Monitor Social Isolation: An Example From Rio de Janeiro, Brazil",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2020GL088748",
+      "type": "期刊论文数据来源声明",
+      "institution": "巴西国家天文台 / 圣保罗大学",
+      "supplier": "In Loco",
+      "finding": "§3.1 明确 In Loco SDK，以 GPS、无线及手机传感器定位；研究实际使用城市级居家指数，无个体轨迹访问。用于校准地震噪声与活动联系。",
+      "confidence": "source_confirmed",
+      "limits": "原文已具名供应商，停止供应商追查；实际数据产品单列。",
+      "doi": "10.1029/2020gl088748",
+      "group_id": "BRAZIL-DIAS-PEIXOTO",
+      "research_scope": "other_commercial",
+      "catalog_id": "L81",
+      "round12_record": true
+    },
+    {
+      "id": "CN-R12-L82",
+      "title": "Modeling future spread of infections via mobile geolocation data and population dynamics. An application to COVID-19 in Brazil",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0235732",
+      "type": "期刊论文数据来源声明",
+      "institution": "圣保罗大学",
+      "supplier": "In Loco",
+      "finding": "Methods/Dataset 具名 In Loco SDK，研究获得两次连续应用使用的位置对，经纬度精度0.01度，不能追踪超过两次使用的持续个体轨迹。城市间移动用于早期疫情传播模拟。",
+      "confidence": "source_confirmed",
+      "limits": "原文已具名供应商，停止供应商追查；实际数据产品单列。",
+      "doi": "10.1371/journal.pone.0235732",
+      "group_id": "USP-PEIXOTO",
+      "research_scope": "other_commercial",
+      "catalog_id": "L82",
+      "round12_record": true
     }
   ],
   "verified_edges": [
@@ -4793,7 +4873,8 @@
         "CN-S57",
         "CN-S61",
         "CN-R10-L64",
-        "CN-R10-L76"
+        "CN-R10-L76",
+        "CN-R12-L79"
       ],
       "supplier_names": [
         "未具名位置服务公司",
@@ -4801,7 +4882,8 @@
         "未具名第三方GPS/WiFi/蓝牙服务商（L55）",
         "Jike Technology Ltd",
         "及刻 / Jike",
-        "Jike Technology Ltd."
+        "Jike Technology Ltd.",
+        "未具名"
       ],
       "outputs": [
         {
@@ -5024,6 +5106,22 @@
           "pdf_downloaded": true,
           "zotero_catalog_imported": true,
           "zotero_attachment_verified": true
+        },
+        {
+          "type": "期刊论文",
+          "catalog_id": "L79",
+          "title": "极端天气影响下的人群停留行为时空扰动定量评估",
+          "year": 2025,
+          "journal": "地球信息科学学报",
+          "doi": "10.12082/dqxxkx.2025.240596",
+          "url": "https://www.dqxxkx.cn/CN/abstract/article/1560-8999/72531",
+          "provider": "未具名",
+          "data_statement": "原刊§3.2.1明确SDK多APP定位、主要WiFi和手机内置GPS；泉州2022-07-04至15，剔除周末后10个工作日。日均220.35万用户、6204.21万条、人均约28条；筛每天至少12小时有记录用户后约49.12万。评估暹芭台风暴雨与常态周停留行为扰动；未具名供数公司。",
+          "source_ids": [
+            "CN-R12-L79"
+          ],
+          "research_scope": "pioneer_candidate",
+          "round12_record": true
         }
       ],
       "studies": [
@@ -5417,6 +5515,34 @@
           ],
           "research_scope": "pioneer_named",
           "round10_record": true
+        },
+        {
+          "id": "FZU-WU-SHENG-R12-L79",
+          "title": "灾害韧性与时空行为",
+          "summary": "原刊§3.2.1明确SDK多APP定位、主要WiFi和手机内置GPS；泉州2022-07-04至15，剔除周末后10个工作日。日均220.35万用户、6204.21万条、人均约28条；筛每天至少12小时有记录用户后约49.12万。评估暹芭台风暴雨与常态周停留行为扰动；未具名供数公司。",
+          "outputs": [
+            {
+              "type": "期刊论文",
+              "catalog_id": "L79",
+              "title": "极端天气影响下的人群停留行为时空扰动定量评估",
+              "year": 2025,
+              "journal": "地球信息科学学报",
+              "doi": "10.12082/dqxxkx.2025.240596",
+              "url": "https://www.dqxxkx.cn/CN/abstract/article/1560-8999/72531",
+              "provider": "未具名",
+              "data_statement": "原刊§3.2.1明确SDK多APP定位、主要WiFi和手机内置GPS；泉州2022-07-04至15，剔除周末后10个工作日。日均220.35万用户、6204.21万条、人均约28条；筛每天至少12小时有记录用户后约49.12万。评估暹芭台风暴雨与常态周停留行为扰动；未具名供数公司。",
+              "source_ids": [
+                "CN-R12-L79"
+              ],
+              "research_scope": "pioneer_candidate",
+              "round12_record": true
+            }
+          ],
+          "source_ids": [
+            "CN-R12-L79"
+          ],
+          "research_scope": "pioneer_candidate",
+          "round12_record": true
         }
       ],
       "procurements": [],
@@ -5493,6 +5619,16 @@
             "CN-R10-L76"
           ],
           "round10_record": true
+        },
+        {
+          "id": "FZU-WU-SHENG-G12-L79",
+          "title": "论文列示资助：极端天气影响下的人群停留行为时空扰动定量评估",
+          "grant_number": "国家自然科学基金42201500 / 国家自然科学基金42101419",
+          "summary": "按论文列示；不由共同资助推断同一数据来源。",
+          "source_ids": [
+            "CN-R12-L79"
+          ],
+          "round12_record": true
         }
       ],
       "organization": "institution_team_content",
@@ -6516,6 +6652,162 @@
       "organization": "institution_team_content",
       "research_scope": "pioneer_named",
       "round10_created_group": true
+    },
+    {
+      "id": "ECUST-WAN-TONGJI-ZHAO",
+      "title": "万亿 / 赵民合作团队",
+      "institution": "华东理工大学 / 同济大学",
+      "institution_id": "ecust",
+      "team": "万亿 / 赵民合作团队",
+      "summary": "按机构—团队—研究列示；数据采集机制、供应商及实际产品逐研究判定。",
+      "source_ids": [
+        "CN-R12-L78"
+      ],
+      "supplier_names": [
+        "未具名网络技术有限公司"
+      ],
+      "studies": [
+        {
+          "id": "ECUST-WAN-TONGJI-ZHAO-R12-L78",
+          "title": "公园游憩与公共服务",
+          "summary": "原刊明确安卓智能手机内置SDK位置数据，供方仅称某网络技术有限公司。上海约760万用户底库；6个环城公园13万样本用户、19万人次、约4500万条。淡季为2021-01-11至24；旺季按公园选择2020年10月或2021年4/5月样本，见表1。不能把2020-01至2021-06的游客统计背景周期当作全部轨迹覆盖期。",
+          "outputs": [
+            {
+              "type": "期刊论文",
+              "catalog_id": "L78",
+              "title": "上海环城大型公园游憩服务效用评价及规划启示",
+              "year": 2024,
+              "journal": "城市规划学刊",
+              "doi": "10.16361/j.upf.202406004",
+              "url": "https://upforum.wupen.org/Assets/userfiles/files/issues/2024/2024-06/%E4%B8%87%E4%BA%BF.pdf",
+              "provider": "未具名网络技术有限公司",
+              "data_statement": "原刊明确安卓智能手机内置SDK位置数据，供方仅称某网络技术有限公司。上海约760万用户底库；6个环城公园13万样本用户、19万人次、约4500万条。淡季为2021-01-11至24；旺季按公园选择2020年10月或2021年4/5月样本，见表1。不能把2020-01至2021-06的游客统计背景周期当作全部轨迹覆盖期。",
+              "source_ids": [
+                "CN-R12-L78"
+              ],
+              "research_scope": "pioneer_candidate",
+              "round12_record": true
+            }
+          ],
+          "source_ids": [
+            "CN-R12-L78"
+          ],
+          "research_scope": "pioneer_candidate",
+          "round12_record": true
+        }
+      ],
+      "outputs": [
+        {
+          "type": "期刊论文",
+          "catalog_id": "L78",
+          "title": "上海环城大型公园游憩服务效用评价及规划启示",
+          "year": 2024,
+          "journal": "城市规划学刊",
+          "doi": "10.16361/j.upf.202406004",
+          "url": "https://upforum.wupen.org/Assets/userfiles/files/issues/2024/2024-06/%E4%B8%87%E4%BA%BF.pdf",
+          "provider": "未具名网络技术有限公司",
+          "data_statement": "原刊明确安卓智能手机内置SDK位置数据，供方仅称某网络技术有限公司。上海约760万用户底库；6个环城公园13万样本用户、19万人次、约4500万条。淡季为2021-01-11至24；旺季按公园选择2020年10月或2021年4/5月样本，见表1。不能把2020-01至2021-06的游客统计背景周期当作全部轨迹覆盖期。",
+          "source_ids": [
+            "CN-R12-L78"
+          ],
+          "research_scope": "pioneer_candidate",
+          "round12_record": true
+        }
+      ],
+      "procurements": [],
+      "grants": [
+        {
+          "id": "ECUST-WAN-TONGJI-ZHAO-G12-L78",
+          "title": "论文列示资助：上海环城大型公园游憩服务效用评价及规划启示",
+          "grant_number": "上海市白玉兰人才计划浦江项目23PJC027 / 中央高校基本科研业务费JKZ02232202",
+          "summary": "按论文列示；不由共同资助推断同一数据来源。",
+          "source_ids": [
+            "CN-R12-L78"
+          ],
+          "round12_record": true
+        }
+      ],
+      "organization": "institution_team_content",
+      "research_scope": "pioneer_candidate",
+      "round12_created_group": true
+    },
+    {
+      "id": "SHZQ-UTM-YU",
+      "title": "Huiyun Yu / Noor Aimran Samsudin合作团队",
+      "institution": "上海中侨职业技术大学 / 马来西亚理工大学",
+      "institution_id": "shzq-utm",
+      "team": "Huiyun Yu / Noor Aimran Samsudin合作团队",
+      "summary": "按机构—团队—研究列示；数据采集机制、供应商及实际产品逐研究判定。",
+      "source_ids": [
+        "CN-R12-L80"
+      ],
+      "supplier_names": [
+        "Jike Open Platform / data.isjike.com"
+      ],
+      "studies": [
+        {
+          "id": "SHZQ-UTM-YU-R12-L80",
+          "title": "历史街区游客分布、空间形态与视觉要素关系",
+          "summary": "原文§2.1–2.2与图2具名Jike开放平台，使用上海田子坊2025-07-05至08-04游客人群分布热图。§Ethics明确只分析公开、匿名化汇总数据；未证明取得个体轨迹或SDK/GPS/WiFi采集机制。红书照片与游记、OSM及Google Maps是独立辅助来源。",
+          "outputs": [
+            {
+              "type": "期刊论文",
+              "catalog_id": "L80",
+              "title": "Analyzing visitor distribution and spatial characteristics in an “Internet-famous” historic district: a case study of tianzifang, shanghai",
+              "year": 2026,
+              "journal": "Journal of Asian Architecture and Building Engineering",
+              "doi": "10.1080/13467581.2025.2608469",
+              "url": "https://www.tandfonline.com/doi/full/10.1080/13467581.2025.2608469",
+              "provider": "Jike Open Platform / data.isjike.com",
+              "data_statement": "原文§2.1–2.2与图2具名Jike开放平台，使用上海田子坊2025-07-05至08-04游客人群分布热图。§Ethics明确只分析公开、匿名化汇总数据；未证明取得个体轨迹或SDK/GPS/WiFi采集机制。红书照片与游记、OSM及Google Maps是独立辅助来源。",
+              "source_ids": [
+                "CN-R12-L80"
+              ],
+              "research_scope": "pioneer_named",
+              "round12_record": true
+            }
+          ],
+          "source_ids": [
+            "CN-R12-L80"
+          ],
+          "research_scope": "pioneer_named",
+          "round12_record": true
+        }
+      ],
+      "outputs": [
+        {
+          "type": "期刊论文",
+          "catalog_id": "L80",
+          "title": "Analyzing visitor distribution and spatial characteristics in an “Internet-famous” historic district: a case study of tianzifang, shanghai",
+          "year": 2026,
+          "journal": "Journal of Asian Architecture and Building Engineering",
+          "doi": "10.1080/13467581.2025.2608469",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/13467581.2025.2608469",
+          "provider": "Jike Open Platform / data.isjike.com",
+          "data_statement": "原文§2.1–2.2与图2具名Jike开放平台，使用上海田子坊2025-07-05至08-04游客人群分布热图。§Ethics明确只分析公开、匿名化汇总数据；未证明取得个体轨迹或SDK/GPS/WiFi采集机制。红书照片与游记、OSM及Google Maps是独立辅助来源。",
+          "source_ids": [
+            "CN-R12-L80"
+          ],
+          "research_scope": "pioneer_named",
+          "round12_record": true
+        }
+      ],
+      "procurements": [],
+      "grants": [
+        {
+          "id": "SHZQ-UTM-YU-G12-L80",
+          "title": "论文列示资助：Analyzing visitor distribution and spatial characteristics in an “Internet-famous” historic district: a case study of tianzifang, shanghai",
+          "grant_number": "2024CXQ046 / CNACS2024-I-48 / 2025297",
+          "summary": "按论文列示；不由共同资助推断同一数据来源。",
+          "source_ids": [
+            "CN-R12-L80"
+          ],
+          "round12_record": true
+        }
+      ],
+      "organization": "institution_team_content",
+      "research_scope": "pioneer_named",
+      "round12_created_group": true
     }
   ],
   "source_aliases": {
@@ -9182,6 +9474,162 @@
       "organization": "institution_team_content",
       "research_scope": "other_commercial",
       "round10_created_group": true
+    },
+    {
+      "id": "BRAZIL-DIAS-PEIXOTO",
+      "title": "Fábio L. Dias / Pedro S. Peixoto合作团队",
+      "institution": "巴西国家天文台 / 圣保罗大学",
+      "institution_id": "brazil-on-usp",
+      "team": "Fábio L. Dias / Pedro S. Peixoto合作团队",
+      "summary": "按机构—团队—研究列示；数据采集机制、供应商及实际产品逐研究判定。",
+      "source_ids": [
+        "CN-R12-L81"
+      ],
+      "supplier_names": [
+        "In Loco"
+      ],
+      "studies": [
+        {
+          "id": "BRAZIL-DIAS-PEIXOTO-R12-L81",
+          "title": "城市环境监测；灾害/流行病时期活动监测",
+          "summary": "§3.1 明确 In Loco SDK，以 GPS、无线及手机传感器定位；研究实际使用城市级居家指数，无个体轨迹访问。用于校准地震噪声与活动联系。",
+          "outputs": [
+            {
+              "type": "期刊论文",
+              "catalog_id": "L81",
+              "title": "Using Seismic Noise Levels to Monitor Social Isolation: An Example From Rio de Janeiro, Brazil",
+              "year": 2020,
+              "journal": "Geophysical Research Letters",
+              "doi": "10.1029/2020gl088748",
+              "url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2020GL088748",
+              "provider": "In Loco",
+              "data_statement": "§3.1 明确 In Loco SDK，以 GPS、无线及手机传感器定位；研究实际使用城市级居家指数，无个体轨迹访问。用于校准地震噪声与活动联系。",
+              "source_ids": [
+                "CN-R12-L81"
+              ],
+              "research_scope": "other_commercial",
+              "round12_record": true
+            }
+          ],
+          "source_ids": [
+            "CN-R12-L81"
+          ],
+          "research_scope": "other_commercial",
+          "round12_record": true
+        }
+      ],
+      "outputs": [
+        {
+          "type": "期刊论文",
+          "catalog_id": "L81",
+          "title": "Using Seismic Noise Levels to Monitor Social Isolation: An Example From Rio de Janeiro, Brazil",
+          "year": 2020,
+          "journal": "Geophysical Research Letters",
+          "doi": "10.1029/2020gl088748",
+          "url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2020GL088748",
+          "provider": "In Loco",
+          "data_statement": "§3.1 明确 In Loco SDK，以 GPS、无线及手机传感器定位；研究实际使用城市级居家指数，无个体轨迹访问。用于校准地震噪声与活动联系。",
+          "source_ids": [
+            "CN-R12-L81"
+          ],
+          "research_scope": "other_commercial",
+          "round12_record": true
+        }
+      ],
+      "procurements": [],
+      "grants": [
+        {
+          "id": "BRAZIL-DIAS-PEIXOTO-G12-L81",
+          "title": "论文列示资助：Using Seismic Noise Levels to Monitor Social Isolation: An Example From Rio de Janeiro, Brazil",
+          "grant_number": "Petrobras 2017/00159-0 / CNPq 301284/2017-2 / FAPESP 16/18445-7",
+          "summary": "按论文列示；不由共同资助推断同一数据来源。",
+          "source_ids": [
+            "CN-R12-L81"
+          ],
+          "round12_record": true
+        }
+      ],
+      "organization": "institution_team_content",
+      "research_scope": "other_commercial",
+      "round12_created_group": true
+    },
+    {
+      "id": "USP-PEIXOTO",
+      "title": "Pedro S. Peixoto / Sérgio M. Oliva团队",
+      "institution": "圣保罗大学",
+      "institution_id": "usp",
+      "team": "Pedro S. Peixoto / Sérgio M. Oliva团队",
+      "summary": "按机构—团队—研究列示；数据采集机制、供应商及实际产品逐研究判定。",
+      "source_ids": [
+        "CN-R12-L82"
+      ],
+      "supplier_names": [
+        "In Loco"
+      ],
+      "studies": [
+        {
+          "id": "USP-PEIXOTO-R12-L82",
+          "title": "传染病空间传播；城际流动建模",
+          "summary": "Methods/Dataset 具名 In Loco SDK，研究获得两次连续应用使用的位置对，经纬度精度0.01度，不能追踪超过两次使用的持续个体轨迹。城市间移动用于早期疫情传播模拟。",
+          "outputs": [
+            {
+              "type": "期刊论文",
+              "catalog_id": "L82",
+              "title": "Modeling future spread of infections via mobile geolocation data and population dynamics. An application to COVID-19 in Brazil",
+              "year": 2020,
+              "journal": "PLOS ONE",
+              "doi": "10.1371/journal.pone.0235732",
+              "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0235732",
+              "provider": "In Loco",
+              "data_statement": "Methods/Dataset 具名 In Loco SDK，研究获得两次连续应用使用的位置对，经纬度精度0.01度，不能追踪超过两次使用的持续个体轨迹。城市间移动用于早期疫情传播模拟。",
+              "source_ids": [
+                "CN-R12-L82"
+              ],
+              "research_scope": "other_commercial",
+              "round12_record": true
+            }
+          ],
+          "source_ids": [
+            "CN-R12-L82"
+          ],
+          "research_scope": "other_commercial",
+          "round12_record": true
+        }
+      ],
+      "outputs": [
+        {
+          "type": "期刊论文",
+          "catalog_id": "L82",
+          "title": "Modeling future spread of infections via mobile geolocation data and population dynamics. An application to COVID-19 in Brazil",
+          "year": 2020,
+          "journal": "PLOS ONE",
+          "doi": "10.1371/journal.pone.0235732",
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0235732",
+          "provider": "In Loco",
+          "data_statement": "Methods/Dataset 具名 In Loco SDK，研究获得两次连续应用使用的位置对，经纬度精度0.01度，不能追踪超过两次使用的持续个体轨迹。城市间移动用于早期疫情传播模拟。",
+          "source_ids": [
+            "CN-R12-L82"
+          ],
+          "research_scope": "other_commercial",
+          "round12_record": true
+        }
+      ],
+      "procurements": [],
+      "grants": [
+        {
+          "id": "USP-PEIXOTO-G12-L82",
+          "title": "论文列示资助：Modeling future spread of infections via mobile geolocation data and population dynamics. An application to COVID-19 in Brazil",
+          "grant_number": "FAPESP 16/18445-7 / CNPq（正文未列编号）",
+          "summary": "按论文列示；不由共同资助推断同一数据来源。",
+          "source_ids": [
+            "CN-R12-L82"
+          ],
+          "round12_record": true
+        }
+      ],
+      "organization": "institution_team_content",
+      "research_scope": "other_commercial",
+      "round12_created_group": true
     }
   ],
   "scope_policy": {
@@ -9491,5 +9939,19 @@
       "10.16601/j.cnki.issn2096-7330.2025.01.004"
     ],
     "unknown_supplier_rule": "保留候选，不因同院校、同团队或相近数据批次升级供应商确认。"
+  },
+  "round12_findings": {
+    "catalog_ids": [
+      "L78",
+      "L79",
+      "L80",
+      "L81",
+      "L82"
+    ],
+    "complete_new_records": 5,
+    "unknown_provider_ids": [
+      "L78",
+      "L79"
+    ]
   }
 }

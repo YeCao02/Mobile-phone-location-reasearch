@@ -6906,6 +6906,209 @@
       }
     },
     {
+      "id": "in_loco",
+      "name": "In Loco",
+      "region": "overseas",
+      "profile_group": "other_commercial_sdk",
+      "supply_chain_role": "原文明示SDK位置数据供方；本轮分别使用城市级居家指数、粗化连续位置对，不代表完整个体轨迹。",
+      "counts": {
+        "confirmed_use": 2,
+        "mention_only": 0,
+        "unresolved_candidate": 0
+      },
+      "paper_ids": {
+        "confirmed_use": [
+          "L81",
+          "L82"
+        ],
+        "mention_only": [],
+        "unresolved_candidate": []
+      },
+      "role_counts": {
+        "mobility": {
+          "confirmed_use": 1,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "mixed_mobility": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "poi": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "distribution": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "access_contact": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "platform_aggregate": {
+          "confirmed_use": 1,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "vehicle_gps": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "demographic_profile": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "comparison_reference": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "unknown": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        }
+      },
+      "role_paper_ids": {
+        "mobility": {
+          "confirmed_use": [
+            "L82"
+          ],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "mixed_mobility": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "poi": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "distribution": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "access_contact": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "platform_aggregate": {
+          "confirmed_use": [
+            "L81"
+          ],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "vehicle_gps": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "indoor_positioning": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "demographic_profile": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "comparison_reference": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "unknown": {
+          "confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        }
+      },
+      "confirmed_mobility_use": 1,
+      "confirmed_mixed_mobility_use": 0,
+      "zero_count_meaning": "0仅表示当前文献目录中没有符合该证据门槛的记录；不是全领域无人使用，也不是搜索穷尽。",
+      "association_ids": [
+        "L81",
+        "L82"
+      ],
+      "entity_interpretation": "按现有品牌/实体标签分别计数",
+      "evidence_role_counts": {
+        "mobility": {
+          "confirmed_use": 1,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "mixed_mobility": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "poi": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "distribution": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "access_contact": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "platform_aggregate": {
+          "confirmed_use": 1,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "vehicle_gps": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "indoor_positioning": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "demographic_profile": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "comparison_reference": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "unknown": {
+          "confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        }
+      }
+    },
+    {
       "id": "pioneer_moxing_jike",
       "name": "先锋数聚 / 摸星 / 即刻·及刻（Pioneer / Moxing / Jike）",
       "region": "china",
@@ -6947,7 +7150,7 @@
         "https://www.isjike.com/"
       ],
       "counts": {
-        "confirmed_use": 12,
+        "confirmed_use": 13,
         "mention_only": 0,
         "unresolved_candidate": 1
       },
@@ -6964,7 +7167,8 @@
           "L74",
           "L75",
           "L76",
-          "L77"
+          "L77",
+          "L80"
         ],
         "mention_only": [],
         "unresolved_candidate": [
@@ -6998,7 +7202,7 @@
           "unresolved_candidate": 0
         },
         "platform_aggregate": {
-          "confirmed_use": 0,
+          "confirmed_use": 1,
           "mention_only": 0,
           "unresolved_candidate": 0
         },
@@ -7069,7 +7273,9 @@
           "unresolved_candidate": []
         },
         "platform_aggregate": {
-          "confirmed_use": [],
+          "confirmed_use": [
+            "L80"
+          ],
           "mention_only": [],
           "unresolved_candidate": []
         },
@@ -7117,7 +7323,8 @@
         "L74",
         "L75",
         "L76",
-        "L77"
+        "L77",
+        "L80"
       ],
       "entity_interpretation": "展示组，不构成法律实体或独立采样面板合并认定",
       "evidence_role_counts": {
@@ -7147,7 +7354,7 @@
           "unresolved_candidate": 0
         },
         "platform_aggregate": {
-          "confirmed_use": 0,
+          "confirmed_use": 1,
           "mention_only": 0,
           "unresolved_candidate": 0
         },
@@ -8478,6 +8685,62 @@
       "pdf_downloaded": false,
       "zotero_attachment_verified": false,
       "primary_source_audit": "原文数据声明已核；第10轮"
+    },
+    {
+      "paper_id": "L81",
+      "paper_title": "Using Seismic Noise Levels to Monitor Social Isolation: An Example From Rio de Janeiro, Brazil",
+      "doi": "10.1029/2020gl088748",
+      "provider_id": "in_loco",
+      "provider_name": "In Loco",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "platform_aggregate",
+      "roles": [
+        "platform_aggregate"
+      ],
+      "declared_brands": [
+        "In Loco"
+      ],
+      "evidence_url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2020GL088748",
+      "evidence_section": "§3.1 The Smartphone Index；Acknowledgments；Figure 2",
+      "basis": "§3.1 明确 In Loco SDK，以 GPS、无线及手机传感器定位；研究实际使用城市级居家指数，无个体轨迹访问。用于校准地震噪声与活动联系。",
+      "catalog_status": "reviewed",
+      "scope": "sdk_derived_mobility_index",
+      "data_access_relationship": "city_level_index",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_catalog_imported": true,
+      "zotero_attachment_verified": false,
+      "primary_source_audit": "第12轮原文数据方法关键段核验"
+    },
+    {
+      "paper_id": "L82",
+      "paper_title": "Modeling future spread of infections via mobile geolocation data and population dynamics. An application to COVID-19 in Brazil",
+      "doi": "10.1371/journal.pone.0235732",
+      "provider_id": "in_loco",
+      "provider_name": "In Loco",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "In Loco"
+      ],
+      "evidence_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0235732",
+      "evidence_section": "Methods > Dataset，PDF 第3–4页",
+      "basis": "Methods/Dataset 具名 In Loco SDK，研究获得两次连续应用使用的位置对，经纬度精度0.01度，不能追踪超过两次使用的持续个体轨迹。城市间移动用于早期疫情传播模拟。",
+      "catalog_status": "reviewed",
+      "scope": "sdk_paired_location_data",
+      "data_access_relationship": "paired_locations_not_persistent_trajectories",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_catalog_imported": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "第12轮原文数据方法关键段核验"
     },
     {
       "paper_id": "P240AD96D",
@@ -11642,6 +11905,78 @@
       "evidence_urls": [
         "https://doi.org/10.16601/j.cnki.issn2096-7330.2025.01.004"
       ]
+    },
+    {
+      "paper_id": "L80",
+      "paper_title": "Analyzing visitor distribution and spatial characteristics in an “Internet-famous” historic district: a case study of tianzifang, shanghai",
+      "doi": "10.1080/13467581.2025.2608469",
+      "provider_id": "pioneer_moxing_jike",
+      "provider_name": "先锋数聚 / 摸星 / 即刻·及刻（Pioneer / Moxing / Jike）",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "platform_aggregate",
+      "roles": [
+        "platform_aggregate"
+      ],
+      "declared_brands": [
+        "Jike Open Platform / data.isjike.com"
+      ],
+      "evidence_url": "https://www.tandfonline.com/doi/full/10.1080/13467581.2025.2608469",
+      "evidence_section": "§2.1–2.2（印刷4/PDF5页）；Figure 2（印刷5/PDF6页）；Ethics statement（印刷14/PDF15页）",
+      "basis": "按用户人工核验合并供应商展示组，同篇去重；不作工商关系认定。 [及刻 / Jike（即刻为用户检索别名）；confirmed_use；platform_aggregate] 原文§2.1–2.2与图2具名Jike开放平台，使用上海田子坊2025-07-05至08-04游客人群分布热图。§Ethics明确只分析公开、匿名化汇总数据；未证明取得个体轨迹或SDK/GPS/WiFi采集机制。红书照片与游记、OSM及Google Maps是独立辅助来源。 来源：https://www.tandfonline.com/doi/full/10.1080/13467581.2025.2608469",
+      "catalog_status": "reviewed",
+      "scope": "pioneer_named",
+      "data_access_relationship": "crowd_density_heatmap",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_catalog_imported": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "第12轮原文数据方法关键段核验",
+      "evidence_basis": "user_confirmed_supplier_group",
+      "grouping_basis": "user_confirmed_supplier_group",
+      "member_provider_ids": [
+        "jike"
+      ],
+      "role_statuses": {
+        "platform_aggregate": "confirmed_use"
+      },
+      "evidence_roles": [
+        "platform_aggregate"
+      ],
+      "evidence": [
+        {
+          "paper_id": "L80",
+          "paper_title": "Analyzing visitor distribution and spatial characteristics in an “Internet-famous” historic district: a case study of tianzifang, shanghai",
+          "doi": "10.1080/13467581.2025.2608469",
+          "provider_id": "jike",
+          "provider_name": "及刻 / Jike（即刻为用户检索别名）",
+          "status": "confirmed_use",
+          "classification": "confirmed_use",
+          "role": "platform_aggregate",
+          "roles": [
+            "platform_aggregate"
+          ],
+          "declared_brands": [
+            "Jike Open Platform / data.isjike.com"
+          ],
+          "evidence_url": "https://www.tandfonline.com/doi/full/10.1080/13467581.2025.2608469",
+          "evidence_section": "§2.1–2.2（印刷4/PDF5页）；Figure 2（印刷5/PDF6页）；Ethics statement（印刷14/PDF15页）",
+          "basis": "原文§2.1–2.2与图2具名Jike开放平台，使用上海田子坊2025-07-05至08-04游客人群分布热图。§Ethics明确只分析公开、匿名化汇总数据；未证明取得个体轨迹或SDK/GPS/WiFi采集机制。红书照片与游记、OSM及Google Maps是独立辅助来源。",
+          "catalog_status": "reviewed",
+          "scope": "pioneer_named",
+          "data_access_relationship": "crowd_density_heatmap",
+          "data_reuse_note": "",
+          "count_unit": "unique_study_not_independent_dataset",
+          "pdf_downloaded": true,
+          "zotero_catalog_imported": true,
+          "zotero_attachment_verified": true,
+          "primary_source_audit": "第12轮原文数据方法关键段核验"
+        }
+      ],
+      "evidence_urls": [
+        "https://www.tandfonline.com/doi/full/10.1080/13467581.2025.2608469"
+      ]
     }
   ],
   "member_associations": [
@@ -12005,6 +12340,34 @@
       "primary_source_audit": "原文数据声明已核；第10轮"
     },
     {
+      "paper_id": "L80",
+      "paper_title": "Analyzing visitor distribution and spatial characteristics in an “Internet-famous” historic district: a case study of tianzifang, shanghai",
+      "doi": "10.1080/13467581.2025.2608469",
+      "provider_id": "jike",
+      "provider_name": "及刻 / Jike（即刻为用户检索别名）",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "platform_aggregate",
+      "roles": [
+        "platform_aggregate"
+      ],
+      "declared_brands": [
+        "Jike Open Platform / data.isjike.com"
+      ],
+      "evidence_url": "https://www.tandfonline.com/doi/full/10.1080/13467581.2025.2608469",
+      "evidence_section": "§2.1–2.2（印刷4/PDF5页）；Figure 2（印刷5/PDF6页）；Ethics statement（印刷14/PDF15页）",
+      "basis": "原文§2.1–2.2与图2具名Jike开放平台，使用上海田子坊2025-07-05至08-04游客人群分布热图。§Ethics明确只分析公开、匿名化汇总数据；未证明取得个体轨迹或SDK/GPS/WiFi采集机制。红书照片与游记、OSM及Google Maps是独立辅助来源。",
+      "catalog_status": "reviewed",
+      "scope": "pioneer_named",
+      "data_access_relationship": "crowd_density_heatmap",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_catalog_imported": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "第12轮原文数据方法关键段核验"
+    },
+    {
       "paper_id": "L27",
       "paper_title": "Capturing socio-spatial inequality in planetary urbanisation: A multi-dimensional methodological framework",
       "doi": "10.1016/j.cities.2022.104076",
@@ -12076,18 +12439,18 @@
     "name_collision_rule": "同音或近似拼写不构成供方关联，以上名称均未映射为北京摸星。"
   },
   "counts": {
-    "catalog_studies": 144,
-    "provider_nodes": 34,
-    "associations": 135,
-    "unique_studies_with_association": 110,
-    "unassigned_studies": 34,
+    "catalog_studies": 149,
+    "provider_nodes": 35,
+    "associations": 138,
+    "unique_studies_with_association": 113,
+    "unassigned_studies": 36,
     "association_counts_by_status": {
-      "confirmed_use": 59,
+      "confirmed_use": 62,
       "mention_only": 2,
       "unresolved_candidate": 74
     },
     "unique_studies_by_status": {
-      "confirmed_use": 50,
+      "confirmed_use": 53,
       "mention_only": 2,
       "unresolved_candidate": 60
     }
@@ -12233,6 +12596,18 @@
       "paper_id": "L72",
       "title": "基于软件开发工具包(SDK)数据的人群空间活动分析",
       "doi": "10.13813/j.cn11-5141/u.2020.0403",
+      "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
+    },
+    {
+      "paper_id": "L78",
+      "title": "上海环城大型公园游憩服务效用评价及规划启示",
+      "doi": "10.16361/j.upf.202406004",
+      "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
+    },
+    {
+      "paper_id": "L79",
+      "title": "极端天气影响下的人群停留行为时空扰动定量评估",
+      "doi": "10.12082/dqxxkx.2025.240596",
       "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
     },
     {

@@ -63,6 +63,8 @@ python build_site.py --data-dir path/to/evidence
 
 ## 第八轮追查报告
 
+第十二轮增量见[新增研究与来源核验](docs/china-round12-discovery-2026-10-12.md)和[精确检索式](data/round12_search.json)：新增两篇未具名SDK研究、一篇Jike聚合热图研究及两篇In Loco研究。供应商品牌与作者实际取得的热图、城市指数或位置对分别记录。
+
 [第八轮正文与补充材料追查](docs/china-round8-followup-2026-10-11.md)逐条记录吴升合作链九条线索、及刻SDK新证据、室内WiFi与电信基站边界，并补充学校认证浏览器成功读取Wiley正文、L35百度迁徙来源修正和中南大学旅游SDK候选。报告把正文PDF、网页正文、独立补充材料分别计账；最终全站统计以整合后的目录与构建结果为准。
 
 ## 第七轮归档快照与构建核验
