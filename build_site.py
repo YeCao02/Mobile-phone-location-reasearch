@@ -117,6 +117,8 @@ def main():
     dois = [r['doi'].lower().strip() for r in data['papers'] if r.get('doi')]
     assert len(set(dois)) == len(dois), 'Duplicate DOI in literature catalog'
     print(json.dumps({'output': 'index.html', 'counts': {k: len(data[k]) for k in ('providers', 'papers', 'china', 'coverage')}, 'bytes': len(html.encode('utf-8'))}, ensure_ascii=False))
+    from build_access import build as build_access
+    build_access()
 
 
 if __name__ == '__main__':

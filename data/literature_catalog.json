@@ -1224,6 +1224,7 @@
       ],
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
       "scope_tag": "reviewed_application_candidate",
+      "bibliographic_note": "2026-10-13 全文入口核对：2026-10-13 已通过Chrome DOI跳转或学校WebVPN打开对应出版商论文页面。",
       "download_queue_status": [
         "needs_fulltext_review",
         "pdf_acquisition"
@@ -2986,7 +2987,7 @@
       "application": "长沙乡村就医出行链、医院选择、改进两步移动搜索可达性",
       "data_declaration": "摘要说明从长沙手机定位数据识别居住地、医院AOI及就医出行链；没有SDK、GPS、WiFi或供应商名称。",
       "evidence_section": "原刊2026-05-25在线页面：摘要、作者机构、基金",
-      "evidence_url": "https://dlgt.cbpt.cnki.net/portal/journal/portal/client/paper/8f51054e43abb471486edff8ac616cb5",
+      "evidence_url": "https://dlgt.cbpt.cnki.net/portal/journal/portal/client/paper/739b0b7e60043a8747dfa5c027f530ee",
       "funding": [
         "24A0016",
         "71871224"
@@ -2995,7 +2996,7 @@
       "abstract_read": true,
       "pdf_downloaded": false,
       "supplier_attribution_status": "pending_fulltext",
-      "bibliographic_note": "原刊DOI栏为空且卷期未给，不臆造；日期为在线页面标示。",
+      "bibliographic_note": "原刊DOI栏为空且卷期未给，不臆造；日期为在线页面标示。；2026-10-13 全文入口核对：补为有卷期的新正式记录：2026,42(3):68–74+83；期刊页DOI字段仍空。EBSCO收录10.3969/j.issn.1672-0504.2026.03.008，仅索引线索，暂不直接写入DOI确认字段。",
       "next_action": "优先校VPN/CNKI获取正文方法段；追踪同团队2025长沙旅游流论文。",
       "publication_type": "journal_article",
       "zotero_attachment_verified": false,
@@ -4800,6 +4801,7 @@
         "计算方法与数据基础设施"
       ],
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
+      "bibliographic_note": "2026-10-13 全文入口核对：2026-10-13 已通过Chrome DOI跳转或学校WebVPN打开对应出版商论文页面。",
       "download_queue_status": [
         "pdf_acquisition"
       ]
@@ -4932,6 +4934,7 @@
         "计算方法与数据基础设施"
       ],
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
+      "bibliographic_note": "2026-10-13 全文入口核对：2026-10-13 已通过Chrome DOI跳转或学校WebVPN打开对应出版商论文页面。",
       "download_queue_status": [
         "needs_fulltext_review",
         "pdf_acquisition"
@@ -6907,11 +6910,11 @@
       "fulltext_read": false,
       "fulltext_scope": "本轮未完成全文关键段复核；旧审读标签不自动继承",
       "source_confirmed": false,
-      "access_status": "pending_bibliographic_and_fulltext_review",
+      "access_status": "pdf_identity_verified_provider_review_pending",
       "app_collection_confirmed": false,
       "sdk_explicit": false,
       "sensor_mix": "待原文核实；不可据品牌认定定位技术",
-      "pdf_downloaded": false,
+      "pdf_downloaded": true,
       "zotero_attachment_verified": false,
       "notes": "供应商、数据形式及研究结论的旧标签均待原始文献复核。",
       "catalog_status": "pending",
@@ -6929,7 +6932,12 @@
         "SafeGraph",
         "商业 crowd-sourced mobility"
       ],
-      "authors": "Haoyu He; Hengfang Deng; Qi Wang; Jianxi Gao",
+      "authors": [
+        "Haoyu He",
+        "Hengfang Deng",
+        "Qi Wang",
+        "Jianxi Gao"
+      ],
       "bibliographic_status": "doi_metadata_verified",
       "publication_title_as_recorded": "Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences",
       "publication_type": "journal_article",
@@ -6942,9 +6950,10 @@
       ],
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
       "scope_tag": "pending_source_screening",
+      "pdf_source_url": "https://par.nsf.gov/servlets/purl/10316717",
+      "pdf_sha256": "ac1b11bf2f86962f9a34d1e0d6570c39f91262dea38bb161f9fb3a1d3d6357f6",
       "download_queue_status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "needs_fulltext_review"
       ]
     },
     {
@@ -7069,11 +7078,11 @@
       "fulltext_read": false,
       "fulltext_scope": "本轮未完成全文关键段复核；旧审读标签不自动继承",
       "source_confirmed": false,
-      "access_status": "pending_bibliographic_and_fulltext_review",
+      "access_status": "pdf_identity_verified_provider_review_pending",
       "app_collection_confirmed": false,
       "sdk_explicit": false,
       "sensor_mix": "待原文核实；不可据品牌认定定位技术",
-      "pdf_downloaded": false,
+      "pdf_downloaded": true,
       "zotero_attachment_verified": false,
       "notes": "供应商、数据形式及研究结论的旧标签均待原始文献复核。",
       "catalog_status": "pending",
@@ -7093,7 +7102,10 @@
       "inherited_title_variants": [
         "Use of SafeGraph visitation patterns for the identification of essential service destinations during the pandemic"
       ],
-      "authors": "Innocensia Owuor; Hartwig H. Hochmair",
+      "authors": [
+        "Innocensia Owuor",
+        "Hartwig H. Hochmair"
+      ],
       "bibliographic_status": "doi_metadata_verified",
       "publication_title_as_recorded": "AGILE: GIScience Series",
       "publication_type": "journal_article",
@@ -7106,9 +7118,10 @@
       ],
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
       "scope_tag": "pending_source_screening",
+      "pdf_source_url": "https://agile-giss.copernicus.org/articles/4/36/2023/agile-giss-4-36-2023.pdf",
+      "pdf_sha256": "1dcd6d765ecab3dbeef6762137695feb62f9699e45b49e2831370059d9a98db7",
       "download_queue_status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "needs_fulltext_review"
       ]
     },
     {
@@ -7187,11 +7200,11 @@
       "fulltext_read": false,
       "fulltext_scope": "本轮未完成全文关键段复核；旧审读标签不自动继承",
       "source_confirmed": false,
-      "access_status": "pending_bibliographic_and_fulltext_review",
+      "access_status": "pdf_identity_verified_provider_review_pending",
       "app_collection_confirmed": false,
       "sdk_explicit": false,
       "sensor_mix": "待原文核实；不可据品牌认定定位技术",
-      "pdf_downloaded": false,
+      "pdf_downloaded": true,
       "zotero_attachment_verified": false,
       "notes": "供应商、数据形式及研究结论的旧标签均待原始文献复核。",
       "catalog_status": "pending",
@@ -7206,7 +7219,12 @@
       "legacy_provider_claims": [
         "SafeGraph"
       ],
-      "authors": "Lorenzo Lucchini; et al.",
+      "authors": [
+        "Hamish Gibbs",
+        "Mirco Musolesi",
+        "James Cheshire",
+        "Rosalind M. Eggo"
+      ],
       "bibliographic_status": "doi_metadata_verified",
       "publication_title_as_recorded": "EPJ Data Science",
       "publication_type": "journal_article",
@@ -7219,14 +7237,15 @@
       ],
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
       "scope_tag": "review_or_methodological_context",
+      "pdf_source_url": "https://www.machineintelligencelab.ai/papers/epj26_impact_federated_data.pdf",
+      "pdf_sha256": "e8e347b8544d6e906c61197a7163ff81fb6e660e5c732acc9c7ef7dd31bbd05c",
       "download_queue_status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "needs_fulltext_review"
       ]
     },
     {
       "id": "P71C3218F",
-      "title": "Inequality in Risk-Taking: Evidence From Location Tracking in Mexican Cities During COVID-19",
+      "title": "Inequality in Risk-Taking: Evidence From Location Tracking in Mexican Cities During COVID 19",
       "doi": "10.3389/fpos.2021.631826",
       "year": 2021,
       "provider": "Cuebiq（旧记录标签，待原文核实）",
@@ -7240,11 +7259,11 @@
       "fulltext_read": false,
       "fulltext_scope": "本轮未完成全文关键段复核；旧审读标签不自动继承",
       "source_confirmed": false,
-      "access_status": "pending_bibliographic_and_fulltext_review",
+      "access_status": "pdf_identity_verified_provider_review_pending",
       "app_collection_confirmed": false,
       "sdk_explicit": false,
       "sensor_mix": "待原文核实；不可据品牌认定定位技术",
-      "pdf_downloaded": false,
+      "pdf_downloaded": true,
       "zotero_attachment_verified": false,
       "notes": "供应商、数据形式及研究结论的旧标签均待原始文献复核。",
       "catalog_status": "pending",
@@ -7259,7 +7278,13 @@
       "legacy_provider_claims": [
         "Cuebiq"
       ],
-      "authors": "Melissa Ziegler Rogers; Yuzhu Zeng; Andrew Marx; Mia Poynor; Morgan Lu",
+      "authors": [
+        "Melissa Ziegler Rogers",
+        "Yuzhu Zeng",
+        "Andrew Marx",
+        "Mia Poynor",
+        "Morgan Lu"
+      ],
       "bibliographic_status": "doi_metadata_verified",
       "publication_title_as_recorded": "Frontiers in Political Science",
       "publication_type": "journal_article",
@@ -7272,9 +7297,10 @@
       ],
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
       "scope_tag": "pending_source_screening",
+      "pdf_source_url": "https://www.frontiersin.org/journals/political-science/articles/10.3389/fpos.2021.631826/pdf",
+      "pdf_sha256": "d08b72916b4e3e326d045719064b5f714a7e8923e4d00f1a26a2d0d4a456f9be",
       "download_queue_status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "needs_fulltext_review"
       ]
     },
     {
@@ -7491,11 +7517,11 @@
       "fulltext_read": false,
       "fulltext_scope": "本轮未完成全文关键段复核；旧审读标签不自动继承",
       "source_confirmed": false,
-      "access_status": "pending_bibliographic_and_fulltext_review",
+      "access_status": "pdf_identity_verified_provider_review_pending",
       "app_collection_confirmed": false,
       "sdk_explicit": false,
       "sensor_mix": "待原文核实；不可据品牌认定定位技术",
-      "pdf_downloaded": false,
+      "pdf_downloaded": true,
       "zotero_attachment_verified": false,
       "notes": "供应商、数据形式及研究结论的旧标签均待原始文献复核。",
       "catalog_status": "pending",
@@ -7510,7 +7536,17 @@
       "legacy_provider_claims": [
         "Veraset"
       ],
-      "authors": "Lorenzo Lucchini; Ollin D. Langle-Chimal; Lorenzo Candeago; Lucio Melito; Alex Chunet; Aleister Montfort; Bruno Lepri; Nancy Lozano-Gracia; Samuel P. Fraiberger",
+      "authors": [
+        "Lorenzo Lucchini",
+        "Ollin D. Langle-Chimal",
+        "Lorenzo Candeago",
+        "Lucio Melito",
+        "Alex Chunet",
+        "Aleister Montfort",
+        "Bruno Lepri",
+        "Nancy Lozano-Gracia",
+        "Samuel P. Fraiberger"
+      ],
       "bibliographic_status": "doi_metadata_verified",
       "publication_title_as_recorded": "EPJ Data Science",
       "publication_type": "journal_article",
@@ -7523,9 +7559,10 @@
       ],
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
       "scope_tag": "pending_source_screening",
+      "pdf_source_url": "https://link.springer.com/content/pdf/10.1140/epjds/s13688-025-00532-2.pdf",
+      "pdf_sha256": "8c18f82411fa0eb6d1568081a1f0322039ddc0ac1d68ae8d16d58e0528ede328",
       "download_queue_status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "needs_fulltext_review"
       ]
     },
     {
@@ -7592,7 +7629,7 @@
       "data_declaration": "继承候选，尚未在本轮核对原始数据声明。",
       "data_form": "待全文核实",
       "use_method": "待全文核实",
-      "evidence_url": "https://doi.org/10.1016/j.cities.2025.106296",
+      "evidence_url": "https://www.sciencedirect.com/science/article/pii/S0264275125005979",
       "evidence_section": "继承元数据/旧表；待原文核对",
       "fulltext_read": false,
       "fulltext_scope": "本轮未完成全文关键段复核；旧审读标签不自动继承",
@@ -7628,6 +7665,7 @@
       ],
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
       "scope_tag": "pending_source_screening",
+      "bibliographic_note": "2026-10-13 全文入口核对：2026-10-13 已通过Chrome DOI跳转或学校WebVPN打开对应出版商论文页面。",
       "download_queue_status": [
         "needs_fulltext_review",
         "pdf_acquisition"
@@ -7849,11 +7887,11 @@
       "fulltext_read": false,
       "fulltext_scope": "本轮未完成全文关键段复核；旧审读标签不自动继承",
       "source_confirmed": false,
-      "access_status": "pending_bibliographic_and_fulltext_review",
+      "access_status": "pdf_identity_verified_provider_review_pending",
       "app_collection_confirmed": false,
       "sdk_explicit": false,
       "sensor_mix": "待原文核实；不可据品牌认定定位技术",
-      "pdf_downloaded": false,
+      "pdf_downloaded": true,
       "zotero_attachment_verified": false,
       "notes": "供应商、数据形式及研究结论的旧标签均待原始文献复核。",
       "catalog_status": "pending",
@@ -7868,7 +7906,11 @@
       "legacy_provider_claims": [
         "Mobile positioning data (review; includes commercial/app and carrier data)"
       ],
-      "authors": "Andreas Erlström; Markus Grillitsch; Ola Hall",
+      "authors": [
+        "Andreas Erlström",
+        "Markus Grillitsch",
+        "Ola Hall"
+      ],
       "bibliographic_status": "inherited_metadata_pending",
       "publication_title_as_recorded": "Journal of Geographical Systems",
       "publication_type": "journal_article",
@@ -7881,9 +7923,11 @@
       ],
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
       "scope_tag": "review_or_methodological_context",
+      "bibliographic_note": "2026-10-13 全文入口核对：原DOI有效，Springer出版商页面、Lund作者机构正式出版记录及德国国家图书馆原刊PDF首页均与原题名一致。问题在旧evidence_url链接的是另一题名2020工作论文，不应继续作此2022论文全文。本文为文献综述，摘要明确侧重CDR；不应视为某供应商原始实证研究。",
+      "pdf_source_url": "https://d-nb.info/1268095893/34",
+      "pdf_sha256": "0b11a2c602bf847c4c3482e2b7764144fd8e0bb6dafbc761fe3c0714874e40f1",
       "download_queue_status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "needs_fulltext_review"
       ]
     },
     {
@@ -7990,11 +8034,11 @@
       "fulltext_read": false,
       "fulltext_scope": "本轮未完成全文关键段复核；旧审读标签不自动继承",
       "source_confirmed": false,
-      "access_status": "pending_bibliographic_and_fulltext_review",
+      "access_status": "pdf_identity_verified_provider_review_pending",
       "app_collection_confirmed": false,
       "sdk_explicit": false,
       "sensor_mix": "待原文核实；不可据品牌认定定位技术",
-      "pdf_downloaded": false,
+      "pdf_downloaded": true,
       "zotero_attachment_verified": false,
       "notes": "供应商、数据形式及研究结论的旧标签均待原始文献复核。",
       "catalog_status": "pending",
@@ -8022,9 +8066,10 @@
         "计算方法与数据基础设施"
       ],
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
+      "pdf_source_url": "https://arxiv.org/pdf/2004.11430",
+      "pdf_sha256": "db93e311ccb4e6cf715ec8eccdf414367ebf68ecbcedeaeed1823cad552aeee9",
       "download_queue_status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "needs_fulltext_review"
       ]
     },
     {
@@ -8043,11 +8088,11 @@
       "fulltext_read": false,
       "fulltext_scope": "本轮未完成全文关键段复核；旧审读标签不自动继承",
       "source_confirmed": false,
-      "access_status": "pending_bibliographic_and_fulltext_review",
+      "access_status": "pdf_identity_verified_provider_review_pending",
       "app_collection_confirmed": false,
       "sdk_explicit": false,
       "sensor_mix": "待原文核实；不可据品牌认定定位技术",
-      "pdf_downloaded": false,
+      "pdf_downloaded": true,
       "zotero_attachment_verified": false,
       "notes": "供应商、数据形式及研究结论的旧标签均待原始文献复核。",
       "catalog_status": "pending",
@@ -8061,7 +8106,11 @@
       "legacy_provider_claims": [
         "SafeGraph"
       ],
-      "authors": "Zachary Susswein; Eva C Rest; Shweta Bansal",
+      "authors": [
+        "Zachary Susswein",
+        "Eva C Rest",
+        "Shweta Bansal"
+      ],
       "inherited_title_variants": [
         "Disentangling the rhythms of human activity in the built environment for airborne transmission risk: an analysis of large-scale mobility data",
         "Disentangling the rhythms of human activity in the built environment for airborne transmission risk"
@@ -8078,9 +8127,10 @@
       ],
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
       "scope_tag": "pending_source_screening",
+      "pdf_source_url": "https://cdn.elifesciences.org/articles/80466/elife-80466-v2.pdf",
+      "pdf_sha256": "32cb9409814ca0a367ea21a7a8374a1d91bc1125cc3fdc1127f56984faad314e",
       "download_queue_status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "needs_fulltext_review"
       ]
     },
     {
@@ -8530,11 +8580,11 @@
       "fulltext_read": false,
       "fulltext_scope": "本轮未完成全文关键段复核；旧审读标签不自动继承",
       "source_confirmed": false,
-      "access_status": "pending_bibliographic_and_fulltext_review",
+      "access_status": "pdf_identity_verified_provider_review_pending",
       "app_collection_confirmed": false,
       "sdk_explicit": false,
       "sensor_mix": "待原文核实；不可据品牌认定定位技术",
-      "pdf_downloaded": false,
+      "pdf_downloaded": true,
       "zotero_attachment_verified": false,
       "notes": "供应商、数据形式及研究结论的旧标签均待原始文献复核。",
       "catalog_status": "pending",
@@ -8563,15 +8613,22 @@
       ],
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
       "scope_tag": "pending_source_screening",
+      "pdf_source_url": "https://www.nature.com/articles/s41598-021-95894-8.pdf",
+      "pdf_sha256": "592ba07d9f63804cf5bbf94ead8dbf05db3ed60ab6c531bb1310987012762e7d",
+      "authors": [
+        "Chao Fan",
+        "Ronald Lee",
+        "Yang Yang",
+        "Ali Mostafavi"
+      ],
       "download_queue_status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "needs_fulltext_review"
       ]
     },
     {
       "id": "P002C367F",
-      "title": "Activity-adjusted crime rates show that public safety worsened overall in major cities after COVID-19 lockdowns",
-      "doi": "",
+      "title": "Activity-adjusted crime rates show that public safety worsened in 2020",
+      "doi": "10.1073/pnas.2208598119",
       "year": 2022,
       "provider": "SafeGraph（旧记录标签，待原文核实）",
       "product": "未核实",
@@ -8579,7 +8636,7 @@
       "data_declaration": "继承候选，尚未在本轮核对原始数据声明。",
       "data_form": "待全文核实",
       "use_method": "待全文核实",
-      "evidence_url": "",
+      "evidence_url": "https://www.pnas.org/doi/10.1073/pnas.2208598119",
       "evidence_section": "继承元数据/旧表；待原文核对",
       "fulltext_read": false,
       "fulltext_scope": "本轮未完成全文关键段复核；旧审读标签不自动继承",
@@ -8595,7 +8652,7 @@
       "origins": [
         "先前对话最终HTML主文献表"
       ],
-      "journal": "Proceedings of the National Academy of Sciences (PNAS)",
+      "journal": "Proceedings of the National Academy of Sciences",
       "metadata_source": "先前对话最终HTML主文献表（元数据待核）",
       "versions": [],
       "legacy_provider_claims": [
@@ -8613,6 +8670,7 @@
       ],
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
       "scope_tag": "pending_source_screening",
+      "bibliographic_note": "2026-10-13 全文入口核对：旧标题为改写；Crossref出版商登记与PNAS检索页核对正式标题。",
       "download_queue_status": [
         "needs_fulltext_review",
         "pdf_acquisition"
@@ -8621,7 +8679,7 @@
     {
       "id": "P377CD02F",
       "title": "Real-time pandemic surveillance using hospital admissions and mobility data",
-      "doi": "",
+      "doi": "10.1073/pnas.2111870119",
       "year": 2022,
       "provider": "商业 mobility + 公共卫生数据（旧记录标签，待原文核实）",
       "product": "未核实",
@@ -8629,7 +8687,7 @@
       "data_declaration": "继承候选，尚未在本轮核对原始数据声明。",
       "data_form": "待全文核实",
       "use_method": "待全文核实",
-      "evidence_url": "",
+      "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8851544/",
       "evidence_section": "继承元数据/旧表；待原文核对",
       "fulltext_read": false,
       "fulltext_scope": "本轮未完成全文关键段复核；旧审读标签不自动继承",
@@ -8645,7 +8703,7 @@
       "origins": [
         "先前对话最终HTML主文献表"
       ],
-      "journal": "Proceedings of the National Academy of Sciences (PNAS)",
+      "journal": "Proceedings of the National Academy of Sciences",
       "metadata_source": "先前对话最终HTML主文献表（元数据待核）",
       "versions": [],
       "legacy_provider_claims": [
@@ -8663,6 +8721,7 @@
       ],
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
       "scope_tag": "pending_source_screening",
+      "bibliographic_note": "2026-10-13 全文入口核对：PMC全文与PubMed/Crossref题名DOI一致；提供开放全文入口。",
       "download_queue_status": [
         "needs_fulltext_review",
         "pdf_acquisition"
@@ -8684,11 +8743,11 @@
       "fulltext_read": false,
       "fulltext_scope": "本轮未完成全文关键段复核；旧审读标签不自动继承",
       "source_confirmed": false,
-      "access_status": "pending_bibliographic_and_fulltext_review",
+      "access_status": "pdf_identity_verified_provider_review_pending",
       "app_collection_confirmed": false,
       "sdk_explicit": false,
       "sensor_mix": "待原文核实；不可据品牌认定定位技术",
-      "pdf_downloaded": false,
+      "pdf_downloaded": true,
       "zotero_attachment_verified": false,
       "notes": "供应商、数据形式及研究结论的旧标签均待原始文献复核。",
       "catalog_status": "pending",
@@ -8712,9 +8771,15 @@
       ],
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
       "scope_tag": "pending_source_screening",
+      "pdf_source_url": "https://www.nature.com/articles/s41598-023-44444-5.pdf",
+      "pdf_sha256": "46a3486c8202ba1d2d202d4d81fd9ff93e33b08ee073e19c8340843eca466f88",
+      "authors": [
+        "Chia-Wei Hsu",
+        "Matthew Alexander Ho",
+        "Ali Mostafavi"
+      ],
       "download_queue_status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "needs_fulltext_review"
       ]
     },
     {
@@ -8834,6 +8899,12 @@
       ],
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
       "scope_tag": "pending_source_screening",
+      "authors": [
+        "Akhil Anil Rajput",
+        "Chenyue Liu",
+        "Zhewei Liu",
+        "Ali Mostafavi"
+      ],
       "download_queue_status": [
         "needs_fulltext_review",
         "pdf_acquisition"
@@ -8883,6 +8954,12 @@
       ],
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
       "scope_tag": "pending_source_screening",
+      "authors": [
+        "Yilong Han",
+        "Peng Liao",
+        "Weiyu Li",
+        "Qi R. Wang"
+      ],
       "download_queue_status": [
         "needs_fulltext_review",
         "pdf_acquisition"
@@ -8975,8 +9052,8 @@
     },
     {
       "id": "PFDDDACD2",
-      "title": "Exploring the relationship between mobility and COVID−19 infection rates for the second peak in the United States using phase-wise association",
-      "doi": "",
+      "title": "Exploring the relationship between mobility and COVID− 19 infection rates for the second peak in the United States using phase-wise association",
+      "doi": "10.1186/s12889-021-11657-0",
       "year": 2021,
       "provider": "SafeGraph（旧记录标签，待原文核实）",
       "product": "未核实",
@@ -8984,16 +9061,16 @@
       "data_declaration": "继承候选，尚未在本轮核对原始数据声明。",
       "data_form": "待全文核实",
       "use_method": "待全文核实",
-      "evidence_url": "",
+      "evidence_url": "https://link.springer.com/article/10.1186/s12889-021-11657-0",
       "evidence_section": "继承元数据/旧表；待原文核对",
       "fulltext_read": false,
       "fulltext_scope": "本轮未完成全文关键段复核；旧审读标签不自动继承",
       "source_confirmed": false,
-      "access_status": "pending_bibliographic_and_fulltext_review",
+      "access_status": "pdf_identity_verified_provider_review_pending",
       "app_collection_confirmed": false,
       "sdk_explicit": false,
       "sensor_mix": "待原文核实；不可据品牌认定定位技术",
-      "pdf_downloaded": false,
+      "pdf_downloaded": true,
       "zotero_attachment_verified": false,
       "notes": "供应商、数据形式及研究结论的旧标签均待原始文献复核。",
       "catalog_status": "pending",
@@ -9017,15 +9094,27 @@
       ],
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
       "scope_tag": "pending_source_screening",
+      "bibliographic_note": "2026-10-13 全文入口核对：Springer BMC正式开放全文；存在2021年10月26日更正。",
+      "pdf_source_url": "https://link.springer.com/content/pdf/10.1186/s12889-021-11657-0.pdf",
+      "pdf_sha256": "882a63a8c9066b763e35e5e710e5025f1bfa2792599e79bfb0cc41bce62ce991",
+      "authors": [
+        "Raju Gottumukkala",
+        "Satya Katragadda",
+        "Ravi Teja Bhupatiraju",
+        "Azmyin Md. Kamal",
+        "Vijay Raghavan",
+        "Henry Chu",
+        "Ramesh Kolluru",
+        "Ziad Ashkar"
+      ],
       "download_queue_status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "needs_fulltext_review"
       ]
     },
     {
       "id": "P0663A19C",
       "title": "Use of smartphone mobility data to analyze city park visits during the COVID-19 pandemic",
-      "doi": "",
+      "doi": "10.1016/j.landurbplan.2022.104554",
       "year": 2022,
       "provider": "SafeGraph（旧记录标签，待原文核实）",
       "product": "未核实",
@@ -9033,16 +9122,16 @@
       "data_declaration": "继承候选，尚未在本轮核对原始数据声明。",
       "data_form": "待全文核实",
       "use_method": "待全文核实",
-      "evidence_url": "",
+      "evidence_url": "https://www.sciencedirect.com/science/article/am/pii/S0169204622002031",
       "evidence_section": "继承元数据/旧表；待原文核对",
       "fulltext_read": false,
       "fulltext_scope": "本轮未完成全文关键段复核；旧审读标签不自动继承",
       "source_confirmed": false,
-      "access_status": "pending_bibliographic_and_fulltext_review",
+      "access_status": "pdf_identity_verified_provider_review_pending",
       "app_collection_confirmed": false,
       "sdk_explicit": false,
       "sensor_mix": "待原文核实；不可据品牌认定定位技术",
-      "pdf_downloaded": false,
+      "pdf_downloaded": true,
       "zotero_attachment_verified": false,
       "notes": "供应商、数据形式及研究结论的旧标签均待原始文献复核。",
       "catalog_status": "pending",
@@ -9068,9 +9157,19 @@
       ],
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
       "scope_tag": "pending_source_screening",
+      "bibliographic_note": "2026-10-13 全文入口核对：出版社接受稿页与USDA作者机构原刊PDF一致。",
+      "pdf_source_url": "https://research.fs.usda.gov/download/treesearch/65204.pdf",
+      "pdf_sha256": "77f2cd2df2235774de85273f9df4f710b7d60a9e29fc40a29b53febb16349314",
+      "authors": [
+        "Jonathan Jay",
+        "Felicia Heykoop",
+        "Linda Hwang",
+        "Alexa Courtepatte",
+        "Jorrit de Jong",
+        "Michelle Kondo"
+      ],
       "download_queue_status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "needs_fulltext_review"
       ]
     },
     {
@@ -9084,7 +9183,7 @@
       "data_declaration": "继承候选，尚未在本轮核对原始数据声明。",
       "data_form": "待全文核实",
       "use_method": "待全文核实",
-      "evidence_url": "https://doi.org/10.1016/j.healthplace.2021.102736",
+      "evidence_url": "https://www.sciencedirect.com/science/article/abs/pii/S135382922100232X",
       "evidence_section": "继承元数据/旧表；待原文核对",
       "fulltext_read": false,
       "fulltext_scope": "本轮未完成全文关键段复核；旧审读标签不自动继承",
@@ -9117,6 +9216,7 @@
       ],
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
       "scope_tag": "pending_source_screening",
+      "bibliographic_note": "2026-10-13 全文入口核对：2026-10-13 已通过Chrome DOI跳转或学校WebVPN打开对应出版商论文页面。",
       "download_queue_status": [
         "needs_fulltext_review",
         "pdf_acquisition"
@@ -9133,7 +9233,7 @@
       "data_declaration": "继承候选，尚未在本轮核对原始数据声明。",
       "data_form": "待全文核实",
       "use_method": "待全文核实",
-      "evidence_url": "https://doi.org/10.1016/j.cities.2022.104006",
+      "evidence_url": "https://www.sciencedirect.com/science/article/pii/S0264275122004450",
       "evidence_section": "继承元数据/旧表；待原文核对",
       "fulltext_read": false,
       "fulltext_scope": "本轮未完成全文关键段复核；旧审读标签不自动继承",
@@ -9167,6 +9267,7 @@
       ],
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
       "scope_tag": "pending_source_screening",
+      "bibliographic_note": "2026-10-13 全文入口核对：2026-10-13 已通过Chrome DOI跳转或学校WebVPN打开对应出版商论文页面。",
       "download_queue_status": [
         "needs_fulltext_review",
         "pdf_acquisition"
@@ -9188,11 +9289,11 @@
       "fulltext_read": false,
       "fulltext_scope": "本轮未完成全文关键段复核；旧审读标签不自动继承",
       "source_confirmed": false,
-      "access_status": "pending_bibliographic_and_fulltext_review",
+      "access_status": "pdf_identity_verified_provider_review_pending",
       "app_collection_confirmed": false,
       "sdk_explicit": false,
       "sensor_mix": "待原文核实；不可据品牌认定定位技术",
-      "pdf_downloaded": false,
+      "pdf_downloaded": true,
       "zotero_attachment_verified": false,
       "notes": "供应商、数据形式及研究结论的旧标签均待原始文献复核。",
       "catalog_status": "pending",
@@ -9218,9 +9319,15 @@
       ],
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
       "scope_tag": "pending_source_screening",
+      "pdf_source_url": "https://mdpi-res.com/d_attachment/sustainability/sustainability-15-16056/article_deploy/sustainability-15-16056.pdf",
+      "pdf_sha256": "273503d3bb52fda00de9cc34c8e0671682d735ee91d1035faef194e7be3d9948",
+      "authors": [
+        "Shujuan Li",
+        "Bo Yang",
+        "Haiquan Li"
+      ],
       "download_queue_status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "needs_fulltext_review"
       ]
     },
     {
@@ -9234,7 +9341,7 @@
       "data_declaration": "继承候选，尚未在本轮核对原始数据声明。",
       "data_form": "待全文核实",
       "use_method": "待全文核实",
-      "evidence_url": "https://doi.org/10.1016/j.apgeog.2024.103429",
+      "evidence_url": "https://www.sciencedirect.com/science/article/abs/pii/S0143622824002340",
       "evidence_section": "继承元数据/旧表；待原文核对",
       "fulltext_read": false,
       "fulltext_scope": "本轮未完成全文关键段复核；旧审读标签不自动继承",
@@ -9267,6 +9374,7 @@
       ],
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
       "scope_tag": "pending_source_screening",
+      "bibliographic_note": "2026-10-13 全文入口核对：2026-10-13 已通过Chrome DOI跳转或学校WebVPN打开对应出版商论文页面。",
       "download_queue_status": [
         "needs_fulltext_review",
         "pdf_acquisition"
@@ -9283,7 +9391,7 @@
       "data_declaration": "继承候选，尚未在本轮核对原始数据声明。",
       "data_form": "待全文核实",
       "use_method": "待全文核实",
-      "evidence_url": "https://doi.org/10.1016/j.landusepol.2024.107234",
+      "evidence_url": "https://www.sciencedirect.com/science/article/pii/S026483772400187X",
       "evidence_section": "继承元数据/旧表；待原文核对",
       "fulltext_read": false,
       "fulltext_scope": "本轮未完成全文关键段复核；旧审读标签不自动继承",
@@ -9317,6 +9425,7 @@
       ],
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
       "scope_tag": "pending_source_screening",
+      "bibliographic_note": "2026-10-13 全文入口核对：2026-10-13 已通过Chrome DOI跳转或学校WebVPN打开对应出版商论文页面。",
       "download_queue_status": [
         "needs_fulltext_review",
         "pdf_acquisition"
@@ -9333,7 +9442,7 @@
       "data_declaration": "继承候选，尚未在本轮核对原始数据声明。",
       "data_form": "待全文核实",
       "use_method": "待全文核实",
-      "evidence_url": "https://doi.org/10.1016/j.compenvurbsys.2024.102173",
+      "evidence_url": "https://www.sciencedirect.com/science/article/pii/S0198971524001029",
       "evidence_section": "继承元数据/旧表；待原文核对",
       "fulltext_read": false,
       "fulltext_scope": "本轮未完成全文关键段复核；旧审读标签不自动继承",
@@ -9366,6 +9475,7 @@
       ],
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
       "scope_tag": "pending_source_screening",
+      "bibliographic_note": "2026-10-13 全文入口核对：2026-10-13 已通过Chrome DOI跳转或学校WebVPN打开对应出版商论文页面。",
       "download_queue_status": [
         "needs_fulltext_review",
         "pdf_acquisition"
@@ -9373,8 +9483,8 @@
     },
     {
       "id": "PC2196B2E",
-      "title": "Impact of apparent temperatures on park visitation behavior: A causal machine learning approach",
-      "doi": "",
+      "title": "Impact of apparent temperatures on park visitation behavior: A comprehensive analysis using large-scale mobility data",
+      "doi": "10.1016/j.scitotenv.2024.173388",
       "year": 2024,
       "provider": "SafeGraph（旧记录标签，待原文核实）",
       "product": "未核实",
@@ -9382,7 +9492,7 @@
       "data_declaration": "继承候选，尚未在本轮核对原始数据声明。",
       "data_form": "待全文核实",
       "use_method": "待全文核实",
-      "evidence_url": "",
+      "evidence_url": "https://www.sciencedirect.com/science/article/abs/pii/S0048969724035356",
       "evidence_section": "继承元数据/旧表；待原文核对",
       "fulltext_read": false,
       "fulltext_scope": "本轮未完成全文关键段复核；旧审读标签不自动继承",
@@ -9416,6 +9526,7 @@
       ],
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
       "scope_tag": "pending_source_screening",
+      "bibliographic_note": "2026-10-13 全文入口核对：旧副标题错误；Crossref和出版商检索页给出正式题名。",
       "download_queue_status": [
         "needs_fulltext_review",
         "pdf_acquisition"
@@ -9423,8 +9534,8 @@
     },
     {
       "id": "P913EE387",
-      "title": "Equity, travel, and park visitation in 10 US metro areas: A smartphone big data approach",
-      "doi": "",
+      "title": "Equity, travel, and park visitation in 10 US metro areas: A smartphone mobility study",
+      "doi": "10.1016/j.ufug.2024.128557",
       "year": 2024,
       "provider": "SafeGraph（旧记录标签，待原文核实）",
       "product": "未核实",
@@ -9432,7 +9543,7 @@
       "data_declaration": "继承候选，尚未在本轮核对原始数据声明。",
       "data_form": "待全文核实",
       "use_method": "待全文核实",
-      "evidence_url": "",
+      "evidence_url": "https://www.sciencedirect.com/science/article/pii/S1618866724003558",
       "evidence_section": "继承元数据/旧表；待原文核对",
       "fulltext_read": false,
       "fulltext_scope": "本轮未完成全文关键段复核；旧审读标签不自动继承",
@@ -9467,6 +9578,7 @@
       ],
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
       "scope_tag": "pending_source_screening",
+      "bibliographic_note": "2026-10-13 全文入口核对：旧副标题错误；出版社检索结果和作者TU Delft机构书目一致。",
       "download_queue_status": [
         "needs_fulltext_review",
         "pdf_acquisition"
@@ -9475,7 +9587,7 @@
     {
       "id": "PA597BCE5",
       "title": "Seasonal variations in urban park characteristics and visitation patterns in Atlanta: A big data study using smartphone user mobility",
-      "doi": "",
+      "doi": "10.1016/j.ufug.2023.128166",
       "year": 2024,
       "provider": "SafeGraph（旧记录标签，待原文核实）",
       "product": "未核实",
@@ -9483,7 +9595,7 @@
       "data_declaration": "继承候选，尚未在本轮核对原始数据声明。",
       "data_form": "待全文核实",
       "use_method": "待全文核实",
-      "evidence_url": "",
+      "evidence_url": "https://www.sciencedirect.com/science/article/pii/S1618866723003370",
       "evidence_section": "继承元数据/旧表；待原文核对",
       "fulltext_read": false,
       "fulltext_scope": "本轮未完成全文关键段复核；旧审读标签不自动继承",
@@ -9517,6 +9629,7 @@
       ],
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
       "scope_tag": "pending_source_screening",
+      "bibliographic_note": "2026-10-13 全文入口核对：Crossref题名与作者TU Eindhoven原刊PDF一致；卷期出版年2024（DOI带2023）。",
       "download_queue_status": [
         "needs_fulltext_review",
         "pdf_acquisition"
@@ -9524,8 +9637,8 @@
     },
     {
       "id": "P3B9C78DF",
-      "title": "Do urban form characteristics perpetuate disparities of pandemic mobilities?",
-      "doi": "",
+      "title": "Do urban form characteristics perpetuate disparities of pandemic-induced mobility changes? Evidence from Fulton County, Georgia",
+      "doi": "10.1016/j.tbs.2024.100803",
       "year": 2024,
       "provider": "SafeGraph（旧记录标签，待原文核实）",
       "product": "未核实",
@@ -9533,7 +9646,7 @@
       "data_declaration": "继承候选，尚未在本轮核对原始数据声明。",
       "data_form": "待全文核实",
       "use_method": "待全文核实",
-      "evidence_url": "",
+      "evidence_url": "https://www.sciencedirect.com/science/article/pii/S2214367X24000668",
       "evidence_section": "继承元数据/旧表；待原文核对",
       "fulltext_read": false,
       "fulltext_scope": "本轮未完成全文关键段复核；旧审读标签不自动继承",
@@ -9549,7 +9662,7 @@
       "origins": [
         "先前对话最终HTML主文献表"
       ],
-      "journal": "Cities & Health",
+      "journal": "Travel Behaviour and Society",
       "metadata_source": "先前对话最终HTML主文献表（元数据待核）",
       "versions": [],
       "legacy_provider_claims": [
@@ -9567,6 +9680,7 @@
       ],
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
       "scope_tag": "pending_source_screening",
+      "bibliographic_note": "2026-10-13 全文入口核对：旧题名改写且旧期刊Cities & Health错误；Crossref与作者官方CV一致。",
       "download_queue_status": [
         "needs_fulltext_review",
         "pdf_acquisition"
@@ -9633,7 +9747,7 @@
       "data_declaration": "继承候选，尚未在本轮核对原始数据声明。",
       "data_form": "待全文核实",
       "use_method": "待全文核实",
-      "evidence_url": "https://doi.org/10.1016/j.apgeog.2025.103546",
+      "evidence_url": "https://www.sciencedirect.com/science/article/pii/S0143622825000414",
       "evidence_section": "继承元数据/旧表；待原文核对",
       "fulltext_read": false,
       "fulltext_scope": "本轮未完成全文关键段复核；旧审读标签不自动继承",
@@ -9667,6 +9781,7 @@
       ],
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
       "scope_tag": "pending_source_screening",
+      "bibliographic_note": "2026-10-13 全文入口核对：2026-10-13 已通过Chrome DOI跳转或学校WebVPN打开对应出版商论文页面。",
       "download_queue_status": [
         "needs_fulltext_review",
         "pdf_acquisition"
@@ -9716,6 +9831,7 @@
       ],
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
       "scope_tag": "pending_source_screening",
+      "bibliographic_note": "2026-10-13 全文入口核对：精确题名检索未找到真实论文。最接近出版商记录是美国医疗可达性而非grocery deserts，不能强行合并。备选题名Realized spatial accessibility vs. potential spatial accessibility in the United States: A case study based on geospatial big data；DOI 10.1016/j.compenvurbsys.2025.102382。此url仅搜索入口，绝不是已核论文页。",
       "download_queue_status": [
         "needs_fulltext_review",
         "pdf_acquisition"
@@ -9724,7 +9840,7 @@
     {
       "id": "P7E59C8D1",
       "title": "The racial inequity of park visitation behavior in the post-pandemic era",
-      "doi": "",
+      "doi": "10.1016/j.tbs.2025.101105",
       "year": 2025,
       "provider": "SafeGraph（旧记录标签，待原文核实）",
       "product": "未核实",
@@ -9732,7 +9848,7 @@
       "data_declaration": "继承候选，尚未在本轮核对原始数据声明。",
       "data_form": "待全文核实",
       "use_method": "待全文核实",
-      "evidence_url": "",
+      "evidence_url": "https://www.sciencedirect.com/science/article/pii/S2214367X25001231",
       "evidence_section": "继承元数据/旧表；待原文核对",
       "fulltext_read": false,
       "fulltext_scope": "本轮未完成全文关键段复核；旧审读标签不自动继承",
@@ -9748,7 +9864,7 @@
       "origins": [
         "先前对话最终HTML主文献表"
       ],
-      "journal": "Cities",
+      "journal": "Travel Behaviour and Society",
       "metadata_source": "先前对话最终HTML主文献表（元数据待核）",
       "versions": [],
       "legacy_provider_claims": [
@@ -9766,6 +9882,7 @@
       ],
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
       "scope_tag": "pending_source_screening",
+      "bibliographic_note": "2026-10-13 全文入口核对：出版商全文预览逐项核题名DOI；旧期刊Cities错误。",
       "download_queue_status": [
         "needs_fulltext_review",
         "pdf_acquisition"
@@ -9773,16 +9890,16 @@
     },
     {
       "id": "P06F06671",
-      "title": "Analyzing and mapping the vulnerability and resilience of the hospitality industry to COVID-19 across the United States",
-      "doi": "",
-      "year": 2025,
+      "title": "Analyzing and mapping the vulnerability and resilience of the hospitality industry: Insights from real consumer visitation behavior",
+      "doi": "10.1016/j.ijhm.2025.104362",
+      "year": 2026,
       "provider": "SafeGraph（旧记录标签，待原文核实）",
       "product": "未核实",
       "application": "经济与商业地理；具体问题待全文核实",
       "data_declaration": "继承候选，尚未在本轮核对原始数据声明。",
       "data_form": "待全文核实",
       "use_method": "待全文核实",
-      "evidence_url": "",
+      "evidence_url": "https://www.sciencedirect.com/science/article/pii/S0278431925002907",
       "evidence_section": "继承元数据/旧表；待原文核对",
       "fulltext_read": false,
       "fulltext_scope": "本轮未完成全文关键段复核；旧审读标签不自动继承",
@@ -9798,7 +9915,7 @@
       "origins": [
         "先前对话最终HTML主文献表"
       ],
-      "journal": "待核实（旧记录未给出准确出版物）",
+      "journal": "International Journal of Hospitality Management",
       "metadata_source": "先前对话最终HTML主文献表（元数据待核）",
       "versions": [],
       "legacy_provider_claims": [
@@ -9817,6 +9934,7 @@
       ],
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
       "scope_tag": "pending_source_screening",
+      "bibliographic_note": "2026-10-13 全文入口核对：旧标题改写；Crossref与作者University of Memphis机构书目一致。",
       "download_queue_status": [
         "needs_fulltext_review",
         "pdf_acquisition"
@@ -9825,15 +9943,15 @@
     {
       "id": "P104EBB42",
       "title": "Using mobile phone data for quantifying large-scale household-level disaster recovery",
-      "doi": "",
-      "year": 2025,
+      "doi": "10.1016/j.compenvurbsys.2025.102395",
+      "year": 2026,
       "provider": "商业 LBS（旧记录标签，待原文核实）",
       "product": "未核实",
       "application": "灾害与韧性；具体问题待全文核实",
       "data_declaration": "继承候选，尚未在本轮核对原始数据声明。",
       "data_form": "待全文核实",
       "use_method": "待全文核实",
-      "evidence_url": "",
+      "evidence_url": "https://www.sciencedirect.com/science/article/pii/S0198971525001486",
       "evidence_section": "继承元数据/旧表；待原文核对",
       "fulltext_read": false,
       "fulltext_scope": "本轮未完成全文关键段复核；旧审读标签不自动继承",
@@ -9867,6 +9985,7 @@
       ],
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
       "scope_tag": "pending_source_screening",
+      "bibliographic_note": "2026-10-13 全文入口核对：出版社页面与Crossref题名DOI一致；卷期2026年4月125卷。",
       "download_queue_status": [
         "needs_fulltext_review",
         "pdf_acquisition"
@@ -10079,8 +10198,8 @@
     },
     {
       "id": "P7C63CA4F",
-      "title": "Data-Driven Real-Time Strategic Placement of Mobile Vaccine Clinics",
-      "doi": "10.1609/aaai.v36i12.21529",
+      "title": "Data-Driven Real-Time Strategic Placement of Mobile Vaccine Distribution Sites",
+      "doi": "10.1609/aaai.v36i11.21529",
       "year": 2022,
       "provider": "SafeGraph（旧记录标签，待原文核实）",
       "product": "未核实",
@@ -10088,23 +10207,23 @@
       "data_declaration": "继承候选，尚未在本轮核对原始数据声明。",
       "data_form": "待全文核实",
       "use_method": "待全文核实",
-      "evidence_url": "https://doi.org/10.1609/aaai.v36i12.21529",
+      "evidence_url": "https://ojs.aaai.org/index.php/AAAI/article/view/21529",
       "evidence_section": "继承元数据/旧表；待原文核对",
       "fulltext_read": false,
       "fulltext_scope": "本轮未完成全文关键段复核；旧审读标签不自动继承",
       "source_confirmed": false,
-      "access_status": "pending_bibliographic_and_fulltext_review",
+      "access_status": "pdf_identity_verified_provider_review_pending",
       "app_collection_confirmed": false,
       "sdk_explicit": false,
       "sensor_mix": "待原文核实；不可据品牌认定定位技术",
-      "pdf_downloaded": false,
+      "pdf_downloaded": true,
       "zotero_attachment_verified": false,
       "notes": "供应商、数据形式及研究结论的旧标签均待原始文献复核。",
       "catalog_status": "pending",
       "origins": [
         "先前对话最终HTML主文献表"
       ],
-      "journal": "待核实（旧记录未给出准确出版物）",
+      "journal": "Proceedings of the AAAI Conference on Artificial Intelligence",
       "metadata_source": "先前对话最终HTML主文献表（元数据待核）",
       "versions": [],
       "legacy_provider_claims": [
@@ -10122,15 +10241,30 @@
       ],
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
       "scope_tag": "pending_source_screening",
+      "pdf_source_url": "https://cs.stanford.edu/people/jure/pubs/vaccination-aaai22.pdf",
+      "pdf_sha256": "c9a68660304af0623e5d0bbd5541a12b94ddaefe16df10cc5df1647e5aebdde5",
+      "authors": [
+        "Zakaria Mehrab",
+        "Mandy L. Wilson",
+        "Serina Chang",
+        "Galen Harrison",
+        "Bryan Lewis",
+        "Alex Telionis",
+        "Justin Crow",
+        "Dennis Kim",
+        "Scott Spillmann",
+        "Kate Peters",
+        "Jure Leskovec",
+        "Madhav Marathe"
+      ],
       "download_queue_status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "needs_fulltext_review"
       ]
     },
     {
       "id": "P48A032E2",
       "title": "The Impact of COVID-19 on Human Mobility: A Case Study on New York",
-      "doi": "",
+      "doi": "10.1109/BigData55660.2022.10020695",
       "year": 2022,
       "provider": "SafeGraph（旧记录标签，待原文核实）",
       "product": "未核实",
@@ -10138,7 +10272,7 @@
       "data_declaration": "继承候选，尚未在本轮核对原始数据声明。",
       "data_form": "待全文核实",
       "use_method": "待全文核实",
-      "evidence_url": "",
+      "evidence_url": "https://ieeexplore.ieee.org/document/10020695",
       "evidence_section": "继承元数据/旧表；待原文核对",
       "fulltext_read": false,
       "fulltext_scope": "本轮未完成全文关键段复核；旧审读标签不自动继承",
@@ -10154,7 +10288,7 @@
       "origins": [
         "先前对话最终HTML主文献表"
       ],
-      "journal": "待核实（旧记录未给出准确出版物）",
+      "journal": "2022 IEEE International Conference on Big Data (Big Data)",
       "metadata_source": "先前对话最终HTML主文献表（元数据待核）",
       "versions": [],
       "legacy_provider_claims": [
@@ -10172,6 +10306,7 @@
       ],
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
       "scope_tag": "pending_source_screening",
+      "bibliographic_note": "2026-10-13 全文入口核对：IEEE页面题名与Crossref一致，补齐正式会议出版物。",
       "download_queue_status": [
         "needs_fulltext_review",
         "pdf_acquisition"
@@ -10180,15 +10315,15 @@
     {
       "id": "P3EEC79FA",
       "title": "Leveraging Human Mobility Data for Efficient Parameter Estimation in Epidemic Models of COVID-19",
-      "doi": "",
-      "year": 2022,
+      "doi": "10.1109/TITS.2022.3223229",
+      "year": 2024,
       "provider": "商业 mobility 数据（旧记录标签，待原文核实）",
       "product": "未核实",
       "application": "健康与公共卫生；具体问题待全文核实",
       "data_declaration": "继承候选，尚未在本轮核对原始数据声明。",
       "data_form": "待全文核实",
       "use_method": "待全文核实",
-      "evidence_url": "",
+      "evidence_url": "https://ieeexplore.ieee.org/document/9967435",
       "evidence_section": "继承元数据/旧表；待原文核对",
       "fulltext_read": false,
       "fulltext_scope": "本轮未完成全文关键段复核；旧审读标签不自动继承",
@@ -10204,7 +10339,7 @@
       "origins": [
         "先前对话最终HTML主文献表"
       ],
-      "journal": "待核实（旧记录未给出准确出版物）",
+      "journal": "IEEE Transactions on Intelligent Transportation Systems",
       "metadata_source": "先前对话最终HTML主文献表（元数据待核）",
       "versions": [],
       "legacy_provider_claims": [
@@ -10223,6 +10358,7 @@
       ],
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
       "scope_tag": "pending_source_screening",
+      "bibliographic_note": "2026-10-13 全文入口核对：Crossref正式登记题名一致；IEEE页面当前要求JavaScript人机验证。2024卷25期1页763–773，DOI带2022。",
       "download_queue_status": [
         "needs_fulltext_review",
         "pdf_acquisition"
@@ -10231,31 +10367,31 @@
     {
       "id": "P6AAE6DFC",
       "title": "STORM-GAN: Spatio-Temporal Meta-GAN for Cross-City Estimation of Human Mobility Responses to COVID-19",
-      "doi": "",
-      "year": 2023,
+      "doi": "10.1109/icdm54844.2022.00010",
+      "year": 2022,
       "provider": "商业 mobility 数据（旧记录标签，待原文核实）",
       "product": "未核实",
       "application": "健康与公共卫生；具体问题待全文核实",
       "data_declaration": "继承候选，尚未在本轮核对原始数据声明。",
       "data_form": "待全文核实",
       "use_method": "待全文核实",
-      "evidence_url": "",
+      "evidence_url": "https://arxiv.org/abs/2301.08648",
       "evidence_section": "继承元数据/旧表；待原文核对",
       "fulltext_read": false,
       "fulltext_scope": "本轮未完成全文关键段复核；旧审读标签不自动继承",
       "source_confirmed": false,
-      "access_status": "pending_bibliographic_and_fulltext_review",
+      "access_status": "pdf_identity_verified_provider_review_pending",
       "app_collection_confirmed": false,
       "sdk_explicit": false,
       "sensor_mix": "待原文核实；不可据品牌认定定位技术",
-      "pdf_downloaded": false,
+      "pdf_downloaded": true,
       "zotero_attachment_verified": false,
       "notes": "供应商、数据形式及研究结论的旧标签均待原始文献复核。",
       "catalog_status": "pending",
       "origins": [
         "先前对话最终HTML主文献表"
       ],
-      "journal": "待核实（旧记录未给出准确出版物）",
+      "journal": "2022 IEEE International Conference on Data Mining (ICDM)",
       "metadata_source": "先前对话最终HTML主文献表（元数据待核）",
       "versions": [],
       "legacy_provider_claims": [
@@ -10273,9 +10409,18 @@
       ],
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
       "scope_tag": "pending_source_screening",
+      "bibliographic_note": "2026-10-13 全文入口核对：Crossref正式会议DOI核对成功；arXiv为2023上传预印本，论文正式会议年2022。",
+      "pdf_source_url": "https://users.wpi.edu/~yli15/Includes/22-ICDM-STORM-GAN-Han-PDFA.pdf",
+      "pdf_sha256": "eae83f8a588b9905ffae0a2af1efe33174eef139b39118fa5adc6cf703ad7612",
+      "authors": [
+        "Han Bao",
+        "Xun Zhou",
+        "Yiqun Xie",
+        "Yanhua Li",
+        "Xiaowei Jia"
+      ],
       "download_queue_status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "needs_fulltext_review"
       ]
     },
     {
@@ -10294,11 +10439,11 @@
       "fulltext_read": false,
       "fulltext_scope": "本轮未完成全文关键段复核；旧审读标签不自动继承",
       "source_confirmed": false,
-      "access_status": "pending_bibliographic_and_fulltext_review",
+      "access_status": "pdf_identity_verified_provider_review_pending",
       "app_collection_confirmed": false,
       "sdk_explicit": false,
       "sensor_mix": "待原文核实；不可据品牌认定定位技术",
-      "pdf_downloaded": false,
+      "pdf_downloaded": true,
       "zotero_attachment_verified": false,
       "notes": "供应商、数据形式及研究结论的旧标签均待原始文献复核。",
       "catalog_status": "pending",
@@ -10324,9 +10469,17 @@
       ],
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
       "scope_tag": "pending_source_screening",
+      "pdf_source_url": "https://ojs.aaai.org/index.php/ICWSM/article/download/22132/21911",
+      "pdf_sha256": "03385e8439a6f296a3f6a94af78a003f8b9fc8884aecb138de970335f4f0a8b3",
+      "authors": [
+        "Lin Chen",
+        "Fengli Xu",
+        "Qianyue Hao",
+        "Pan Hui",
+        "Yong Li"
+      ],
       "download_queue_status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "needs_fulltext_review"
       ]
     },
     {
@@ -13437,8 +13590,8 @@
     "reviewed": 79,
     "pending": 75,
     "fulltext_read": 74,
-    "with_doi": 135,
-    "pdf_verified": 68,
+    "with_doi": 149,
+    "pdf_verified": 84,
     "supporting_resources": 7,
     "linked_versions": 1,
     "metadata_conflicts_need_review": 1,

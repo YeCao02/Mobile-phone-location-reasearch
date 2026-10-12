@@ -702,7 +702,7 @@
       "pdf_acquisition": true,
       "pdf_verified": false,
       "source_urls": [
-        "https://dlgt.cbpt.cnki.net/portal/journal/portal/client/paper/8f51054e43abb471486edff8ac616cb5"
+        "https://dlgt.cbpt.cnki.net/portal/journal/portal/client/paper/739b0b7e60043a8747dfa5c027f530ee"
       ],
       "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
     },
@@ -1467,17 +1467,16 @@
       "journal": "Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences",
       "catalog_status": "pending",
       "status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "needs_fulltext_review"
       ],
       "needs_fulltext_review": true,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC8607142/",
         "https://doi.org/10.1098/rsta.2021.0116"
       ],
-      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "核对书目信息和数据来源，审读方法段"
     },
     {
       "id": "P837C3A60",
@@ -1524,17 +1523,16 @@
       "journal": "AGILE: GIScience Series",
       "catalog_status": "pending",
       "status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "needs_fulltext_review"
       ],
       "needs_fulltext_review": true,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
         "https://agile-giss.copernicus.org/articles/4/36/2023/",
         "https://doi.org/10.5194/agile-giss-4-36-2023"
       ],
-      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "核对书目信息和数据来源，审读方法段"
     },
     {
       "id": "P441C38CE",
@@ -1560,36 +1558,34 @@
       "journal": "EPJ Data Science",
       "catalog_status": "pending",
       "status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "needs_fulltext_review"
       ],
       "needs_fulltext_review": true,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
         "https://link.springer.com/article/10.1140/epjds/s13688-025-00611-4",
         "https://doi.org/10.1140/epjds/s13688-025-00611-4"
       ],
-      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "核对书目信息和数据来源，审读方法段"
     },
     {
       "id": "P71C3218F",
-      "title": "Inequality in Risk-Taking: Evidence From Location Tracking in Mexican Cities During COVID-19",
+      "title": "Inequality in Risk-Taking: Evidence From Location Tracking in Mexican Cities During COVID 19",
       "doi": "10.3389/fpos.2021.631826",
       "journal": "Frontiers in Political Science",
       "catalog_status": "pending",
       "status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "needs_fulltext_review"
       ],
       "needs_fulltext_review": true,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
         "https://www.frontiersin.org/journals/political-science/articles/10.3389/fpos.2021.631826/full",
         "https://doi.org/10.3389/fpos.2021.631826"
       ],
-      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "核对书目信息和数据来源，审读方法段"
     },
     {
       "id": "PEEE72CD1",
@@ -1654,17 +1650,16 @@
       "journal": "EPJ Data Science",
       "catalog_status": "pending",
       "status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "needs_fulltext_review"
       ],
       "needs_fulltext_review": true,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
         "https://link.springer.com/article/10.1140/epjds/s13688-025-00532-2",
         "https://doi.org/10.1140/epjds/s13688-025-00532-2"
       ],
-      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "核对书目信息和数据来源，审读方法段"
     },
     {
       "id": "P1F72D228",
@@ -1699,6 +1694,7 @@
       "pdf_acquisition": true,
       "pdf_verified": false,
       "source_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S0264275125005979",
         "https://doi.org/10.1016/j.cities.2025.106296"
       ],
       "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
@@ -1766,17 +1762,16 @@
       "journal": "Journal of Geographical Systems",
       "catalog_status": "pending",
       "status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "needs_fulltext_review"
       ],
       "needs_fulltext_review": true,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
         "https://journals.lub.lu.se/piis/article/download/27210/23785/71929",
         "https://doi.org/10.1007/s10109-022-00388-4"
       ],
-      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "核对书目信息和数据来源，审读方法段"
     },
     {
       "id": "P55058E29",
@@ -1803,17 +1798,16 @@
       "journal": "arXiv（预印本）",
       "catalog_status": "pending",
       "status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "needs_fulltext_review"
       ],
       "needs_fulltext_review": true,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
         "https://arxiv.org/abs/2004.11430",
         "https://doi.org/10.48550/arxiv.2004.11430"
       ],
-      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "核对书目信息和数据来源，审读方法段"
     },
     {
       "id": "PA225066F",
@@ -1822,17 +1816,16 @@
       "journal": "eLife",
       "catalog_status": "pending",
       "status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "needs_fulltext_review"
       ],
       "needs_fulltext_review": true,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
         "https://elifesciences.org/articles/80466",
         "https://doi.org/10.7554/elife.80466"
       ],
-      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "核对书目信息和数据来源，审读方法段"
     },
     {
       "id": "PBC87DC0B",
@@ -1982,6 +1975,23 @@
       "journal": "Scientific Reports",
       "catalog_status": "pending",
       "status": [
+        "needs_fulltext_review"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://doi.org/10.1038/s41598-021-95894-8"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段"
+    },
+    {
+      "id": "P002C367F",
+      "title": "Activity-adjusted crime rates show that public safety worsened in 2020",
+      "doi": "10.1073/pnas.2208598119",
+      "journal": "Proceedings of the National Academy of Sciences",
+      "catalog_status": "pending",
+      "status": [
         "needs_fulltext_review",
         "pdf_acquisition"
       ],
@@ -1989,31 +1999,16 @@
       "pdf_acquisition": true,
       "pdf_verified": false,
       "source_urls": [
-        "https://doi.org/10.1038/s41598-021-95894-8"
+        "https://www.pnas.org/doi/10.1073/pnas.2208598119",
+        "https://doi.org/10.1073/pnas.2208598119"
       ],
-      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
-    },
-    {
-      "id": "P002C367F",
-      "title": "Activity-adjusted crime rates show that public safety worsened overall in major cities after COVID-19 lockdowns",
-      "doi": "",
-      "journal": "Proceedings of the National Academy of Sciences (PNAS)",
-      "catalog_status": "pending",
-      "status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
-      ],
-      "needs_fulltext_review": true,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
-      "source_urls": [],
       "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
     },
     {
       "id": "P377CD02F",
       "title": "Real-time pandemic surveillance using hospital admissions and mobility data",
-      "doi": "",
-      "journal": "Proceedings of the National Academy of Sciences (PNAS)",
+      "doi": "10.1073/pnas.2111870119",
+      "journal": "Proceedings of the National Academy of Sciences",
       "catalog_status": "pending",
       "status": [
         "needs_fulltext_review",
@@ -2022,7 +2017,10 @@
       "needs_fulltext_review": true,
       "pdf_acquisition": true,
       "pdf_verified": false,
-      "source_urls": [],
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8851544/",
+        "https://doi.org/10.1073/pnas.2111870119"
+      ],
       "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
     },
     {
@@ -2032,16 +2030,15 @@
       "journal": "Scientific Reports",
       "catalog_status": "pending",
       "status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "needs_fulltext_review"
       ],
       "needs_fulltext_review": true,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
         "https://doi.org/10.1038/s41598-023-44444-5"
       ],
-      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "核对书目信息和数据来源，审读方法段"
     },
     {
       "id": "P8B0F32E0",
@@ -2116,35 +2113,39 @@
     },
     {
       "id": "PFDDDACD2",
-      "title": "Exploring the relationship between mobility and COVID−19 infection rates for the second peak in the United States using phase-wise association",
-      "doi": "",
+      "title": "Exploring the relationship between mobility and COVID− 19 infection rates for the second peak in the United States using phase-wise association",
+      "doi": "10.1186/s12889-021-11657-0",
       "journal": "BMC Public Health",
       "catalog_status": "pending",
       "status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "needs_fulltext_review"
       ],
       "needs_fulltext_review": true,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
-      "source_urls": [],
-      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://link.springer.com/article/10.1186/s12889-021-11657-0",
+        "https://doi.org/10.1186/s12889-021-11657-0"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段"
     },
     {
       "id": "P0663A19C",
       "title": "Use of smartphone mobility data to analyze city park visits during the COVID-19 pandemic",
-      "doi": "",
+      "doi": "10.1016/j.landurbplan.2022.104554",
       "journal": "Landscape and Urban Planning",
       "catalog_status": "pending",
       "status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "needs_fulltext_review"
       ],
       "needs_fulltext_review": true,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
-      "source_urls": [],
-      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://www.sciencedirect.com/science/article/am/pii/S0169204622002031",
+        "https://doi.org/10.1016/j.landurbplan.2022.104554"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段"
     },
     {
       "id": "P38C79679",
@@ -2160,6 +2161,7 @@
       "pdf_acquisition": true,
       "pdf_verified": false,
       "source_urls": [
+        "https://www.sciencedirect.com/science/article/abs/pii/S135382922100232X",
         "https://doi.org/10.1016/j.healthplace.2021.102736"
       ],
       "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
@@ -2178,6 +2180,7 @@
       "pdf_acquisition": true,
       "pdf_verified": false,
       "source_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S0264275122004450",
         "https://doi.org/10.1016/j.cities.2022.104006"
       ],
       "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
@@ -2189,16 +2192,15 @@
       "journal": "Sustainability",
       "catalog_status": "pending",
       "status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "needs_fulltext_review"
       ],
       "needs_fulltext_review": true,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
         "https://doi.org/10.3390/su152216056"
       ],
-      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "核对书目信息和数据来源，审读方法段"
     },
     {
       "id": "P5416DFC8",
@@ -2214,6 +2216,7 @@
       "pdf_acquisition": true,
       "pdf_verified": false,
       "source_urls": [
+        "https://www.sciencedirect.com/science/article/abs/pii/S0143622824002340",
         "https://doi.org/10.1016/j.apgeog.2024.103429"
       ],
       "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
@@ -2232,6 +2235,7 @@
       "pdf_acquisition": true,
       "pdf_verified": false,
       "source_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S026483772400187X",
         "https://doi.org/10.1016/j.landusepol.2024.107234"
       ],
       "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
@@ -2250,14 +2254,15 @@
       "pdf_acquisition": true,
       "pdf_verified": false,
       "source_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S0198971524001029",
         "https://doi.org/10.1016/j.compenvurbsys.2024.102173"
       ],
       "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
     },
     {
       "id": "PC2196B2E",
-      "title": "Impact of apparent temperatures on park visitation behavior: A causal machine learning approach",
-      "doi": "",
+      "title": "Impact of apparent temperatures on park visitation behavior: A comprehensive analysis using large-scale mobility data",
+      "doi": "10.1016/j.scitotenv.2024.173388",
       "journal": "Science of the Total Environment",
       "catalog_status": "pending",
       "status": [
@@ -2267,13 +2272,16 @@
       "needs_fulltext_review": true,
       "pdf_acquisition": true,
       "pdf_verified": false,
-      "source_urls": [],
+      "source_urls": [
+        "https://www.sciencedirect.com/science/article/abs/pii/S0048969724035356",
+        "https://doi.org/10.1016/j.scitotenv.2024.173388"
+      ],
       "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
     },
     {
       "id": "P913EE387",
-      "title": "Equity, travel, and park visitation in 10 US metro areas: A smartphone big data approach",
-      "doi": "",
+      "title": "Equity, travel, and park visitation in 10 US metro areas: A smartphone mobility study",
+      "doi": "10.1016/j.ufug.2024.128557",
       "journal": "Urban Forestry & Urban Greening",
       "catalog_status": "pending",
       "status": [
@@ -2283,13 +2291,16 @@
       "needs_fulltext_review": true,
       "pdf_acquisition": true,
       "pdf_verified": false,
-      "source_urls": [],
+      "source_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S1618866724003558",
+        "https://doi.org/10.1016/j.ufug.2024.128557"
+      ],
       "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
     },
     {
       "id": "PA597BCE5",
       "title": "Seasonal variations in urban park characteristics and visitation patterns in Atlanta: A big data study using smartphone user mobility",
-      "doi": "",
+      "doi": "10.1016/j.ufug.2023.128166",
       "journal": "Urban Forestry & Urban Greening",
       "catalog_status": "pending",
       "status": [
@@ -2299,14 +2310,17 @@
       "needs_fulltext_review": true,
       "pdf_acquisition": true,
       "pdf_verified": false,
-      "source_urls": [],
+      "source_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S1618866723003370",
+        "https://doi.org/10.1016/j.ufug.2023.128166"
+      ],
       "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
     },
     {
       "id": "P3B9C78DF",
-      "title": "Do urban form characteristics perpetuate disparities of pandemic mobilities?",
-      "doi": "",
-      "journal": "Cities & Health",
+      "title": "Do urban form characteristics perpetuate disparities of pandemic-induced mobility changes? Evidence from Fulton County, Georgia",
+      "doi": "10.1016/j.tbs.2024.100803",
+      "journal": "Travel Behaviour and Society",
       "catalog_status": "pending",
       "status": [
         "needs_fulltext_review",
@@ -2315,7 +2329,10 @@
       "needs_fulltext_review": true,
       "pdf_acquisition": true,
       "pdf_verified": false,
-      "source_urls": [],
+      "source_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S2214367X24000668",
+        "https://doi.org/10.1016/j.tbs.2024.100803"
+      ],
       "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
     },
     {
@@ -2350,6 +2367,7 @@
       "pdf_acquisition": true,
       "pdf_verified": false,
       "source_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S0143622825000414",
         "https://doi.org/10.1016/j.apgeog.2025.103546"
       ],
       "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
@@ -2373,8 +2391,8 @@
     {
       "id": "P7E59C8D1",
       "title": "The racial inequity of park visitation behavior in the post-pandemic era",
-      "doi": "",
-      "journal": "Cities",
+      "doi": "10.1016/j.tbs.2025.101105",
+      "journal": "Travel Behaviour and Society",
       "catalog_status": "pending",
       "status": [
         "needs_fulltext_review",
@@ -2383,14 +2401,17 @@
       "needs_fulltext_review": true,
       "pdf_acquisition": true,
       "pdf_verified": false,
-      "source_urls": [],
+      "source_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S2214367X25001231",
+        "https://doi.org/10.1016/j.tbs.2025.101105"
+      ],
       "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
     },
     {
       "id": "P06F06671",
-      "title": "Analyzing and mapping the vulnerability and resilience of the hospitality industry to COVID-19 across the United States",
-      "doi": "",
-      "journal": "待核实（旧记录未给出准确出版物）",
+      "title": "Analyzing and mapping the vulnerability and resilience of the hospitality industry: Insights from real consumer visitation behavior",
+      "doi": "10.1016/j.ijhm.2025.104362",
+      "journal": "International Journal of Hospitality Management",
       "catalog_status": "pending",
       "status": [
         "needs_fulltext_review",
@@ -2399,13 +2420,16 @@
       "needs_fulltext_review": true,
       "pdf_acquisition": true,
       "pdf_verified": false,
-      "source_urls": [],
+      "source_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S0278431925002907",
+        "https://doi.org/10.1016/j.ijhm.2025.104362"
+      ],
       "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
     },
     {
       "id": "P104EBB42",
       "title": "Using mobile phone data for quantifying large-scale household-level disaster recovery",
-      "doi": "",
+      "doi": "10.1016/j.compenvurbsys.2025.102395",
       "journal": "Computers, Environment and Urban Systems",
       "catalog_status": "pending",
       "status": [
@@ -2415,7 +2439,10 @@
       "needs_fulltext_review": true,
       "pdf_acquisition": true,
       "pdf_verified": false,
-      "source_urls": [],
+      "source_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S0198971525001486",
+        "https://doi.org/10.1016/j.compenvurbsys.2025.102395"
+      ],
       "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
     },
     {
@@ -2492,9 +2519,27 @@
     },
     {
       "id": "P7C63CA4F",
-      "title": "Data-Driven Real-Time Strategic Placement of Mobile Vaccine Clinics",
-      "doi": "10.1609/aaai.v36i12.21529",
-      "journal": "待核实（旧记录未给出准确出版物）",
+      "title": "Data-Driven Real-Time Strategic Placement of Mobile Vaccine Distribution Sites",
+      "doi": "10.1609/aaai.v36i11.21529",
+      "journal": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "catalog_status": "pending",
+      "status": [
+        "needs_fulltext_review"
+      ],
+      "needs_fulltext_review": true,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://ojs.aaai.org/index.php/AAAI/article/view/21529",
+        "https://doi.org/10.1609/aaai.v36i11.21529"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段"
+    },
+    {
+      "id": "P48A032E2",
+      "title": "The Impact of COVID-19 on Human Mobility: A Case Study on New York",
+      "doi": "10.1109/BigData55660.2022.10020695",
+      "journal": "2022 IEEE International Conference on Big Data (Big Data)",
       "catalog_status": "pending",
       "status": [
         "needs_fulltext_review",
@@ -2504,31 +2549,16 @@
       "pdf_acquisition": true,
       "pdf_verified": false,
       "source_urls": [
-        "https://doi.org/10.1609/aaai.v36i12.21529"
+        "https://ieeexplore.ieee.org/document/10020695",
+        "https://doi.org/10.1109/BigData55660.2022.10020695"
       ],
-      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
-    },
-    {
-      "id": "P48A032E2",
-      "title": "The Impact of COVID-19 on Human Mobility: A Case Study on New York",
-      "doi": "",
-      "journal": "待核实（旧记录未给出准确出版物）",
-      "catalog_status": "pending",
-      "status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
-      ],
-      "needs_fulltext_review": true,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
-      "source_urls": [],
       "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
     },
     {
       "id": "P3EEC79FA",
       "title": "Leveraging Human Mobility Data for Efficient Parameter Estimation in Epidemic Models of COVID-19",
-      "doi": "",
-      "journal": "待核实（旧记录未给出准确出版物）",
+      "doi": "10.1109/TITS.2022.3223229",
+      "journal": "IEEE Transactions on Intelligent Transportation Systems",
       "catalog_status": "pending",
       "status": [
         "needs_fulltext_review",
@@ -2537,24 +2567,29 @@
       "needs_fulltext_review": true,
       "pdf_acquisition": true,
       "pdf_verified": false,
-      "source_urls": [],
+      "source_urls": [
+        "https://ieeexplore.ieee.org/document/9967435",
+        "https://doi.org/10.1109/TITS.2022.3223229"
+      ],
       "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
     },
     {
       "id": "P6AAE6DFC",
       "title": "STORM-GAN: Spatio-Temporal Meta-GAN for Cross-City Estimation of Human Mobility Responses to COVID-19",
-      "doi": "",
-      "journal": "待核实（旧记录未给出准确出版物）",
+      "doi": "10.1109/icdm54844.2022.00010",
+      "journal": "2022 IEEE International Conference on Data Mining (ICDM)",
       "catalog_status": "pending",
       "status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "needs_fulltext_review"
       ],
       "needs_fulltext_review": true,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
-      "source_urls": [],
-      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://arxiv.org/abs/2301.08648",
+        "https://doi.org/10.1109/icdm54844.2022.00010"
+      ],
+      "next_action": "核对书目信息和数据来源，审读方法段"
     },
     {
       "id": "PE6FBF191",
@@ -2563,16 +2598,15 @@
       "journal": "Proceedings of the International AAAI Conference on Web and Social Media",
       "catalog_status": "pending",
       "status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "needs_fulltext_review"
       ],
       "needs_fulltext_review": true,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
         "https://doi.org/10.1609/icwsm.v17i1.22132"
       ],
-      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "核对书目信息和数据来源，审读方法段"
     },
     {
       "id": "P8A8A7B36",

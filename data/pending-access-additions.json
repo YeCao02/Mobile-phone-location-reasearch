@@ -1,0 +1,328 @@
+{
+  "records": [
+    {
+      "id": "P002C367F",
+      "title": "Activity-adjusted crime rates show that public safety worsened overall in major cities after COVID-19 lockdowns",
+      "doi": "10.1073/pnas.2208598119",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.2208598119",
+      "status": "verified_article_page",
+      "notes": "旧标题为改写；Crossref出版商登记与PNAS检索页核对正式标题。",
+      "verified_on": "2026-10-13",
+      "evidence_urls": [
+        "https://api.crossref.org/works/10.1073/pnas.2208598119",
+        "https://doi.org/10.1073%2Fpnas.2208598119"
+      ],
+      "corrected_title": "Activity-adjusted crime rates show that public safety worsened in 2020",
+      "corrected_journal": "Proceedings of the National Academy of Sciences",
+      "corrected_year": 2022
+    },
+    {
+      "id": "P377CD02F",
+      "title": "Real-time pandemic surveillance using hospital admissions and mobility data",
+      "doi": "10.1073/pnas.2111870119",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8851544/",
+      "status": "verified_article_page",
+      "notes": "PMC全文与PubMed/Crossref题名DOI一致；提供开放全文入口。",
+      "verified_on": "2026-10-13",
+      "evidence_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8851544/",
+        "https://pubmed.ncbi.nlm.nih.gov/35105729/"
+      ],
+      "corrected_journal": "Proceedings of the National Academy of Sciences",
+      "corrected_year": 2022
+    },
+    {
+      "id": "PFDDDACD2",
+      "title": "Exploring the relationship between mobility and COVID−19 infection rates for the second peak in the United States using phase-wise association",
+      "doi": "10.1186/s12889-021-11657-0",
+      "url": "https://link.springer.com/article/10.1186/s12889-021-11657-0",
+      "status": "verified_article_page",
+      "notes": "Springer BMC正式开放全文；存在2021年10月26日更正。",
+      "verified_on": "2026-10-13",
+      "evidence_urls": [
+        "https://doi.org/10.1186/s12889-021-11657-0",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8438287/"
+      ],
+      "corrected_year": 2021
+    },
+    {
+      "id": "P0663A19C",
+      "title": "Use of smartphone mobility data to analyze city park visits during the COVID-19 pandemic",
+      "doi": "10.1016/j.landurbplan.2022.104554",
+      "url": "https://www.sciencedirect.com/science/article/am/pii/S0169204622002031",
+      "status": "verified_article_page",
+      "notes": "出版社接受稿页与USDA作者机构原刊PDF一致。",
+      "verified_on": "2026-10-13",
+      "evidence_urls": [
+        "https://www.sciencedirect.com/science/article/am/pii/S0169204622002031",
+        "https://research.fs.usda.gov/treesearch/65204"
+      ],
+      "corrected_year": 2022,
+      "pdf_url": "https://research.fs.usda.gov/download/treesearch/65204.pdf"
+    },
+    {
+      "id": "PC2196B2E",
+      "title": "Impact of apparent temperatures on park visitation behavior: A causal machine learning approach",
+      "doi": "10.1016/j.scitotenv.2024.173388",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0048969724035356",
+      "status": "verified_article_page",
+      "notes": "旧副标题错误；Crossref和出版商检索页给出正式题名。",
+      "verified_on": "2026-10-13",
+      "evidence_urls": [
+        "https://api.crossref.org/works/10.1016/j.scitotenv.2024.173388",
+        "https://www.sciencedirect.com/science/article/abs/pii/S0048969724035356"
+      ],
+      "corrected_title": "Impact of apparent temperatures on park visitation behavior: A comprehensive analysis using large-scale mobility data",
+      "corrected_year": 2024
+    },
+    {
+      "id": "P913EE387",
+      "title": "Equity, travel, and park visitation in 10 US metro areas: A smartphone big data approach",
+      "doi": "10.1016/j.ufug.2024.128557",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1618866724003558",
+      "status": "verified_article_page",
+      "notes": "旧副标题错误；出版社检索结果和作者TU Delft机构书目一致。",
+      "verified_on": "2026-10-13",
+      "evidence_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S1618866724003558",
+        "https://research.tudelft.nl/en/publications/equity-travel-and-park-visitation-in-10-us-metro-areas-a-smartpho/"
+      ],
+      "corrected_title": "Equity, travel, and park visitation in 10 US metro areas: A smartphone mobility study",
+      "corrected_year": 2024
+    },
+    {
+      "id": "PA597BCE5",
+      "title": "Seasonal variations in urban park characteristics and visitation patterns in Atlanta: A big data study using smartphone user mobility",
+      "doi": "10.1016/j.ufug.2023.128166",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1618866723003370",
+      "status": "verified_article_page",
+      "notes": "Crossref题名与作者TU Eindhoven原刊PDF一致；卷期出版年2024（DOI带2023）。",
+      "verified_on": "2026-10-13",
+      "evidence_urls": [
+        "https://api.crossref.org/works/10.1016/j.ufug.2023.128166",
+        "https://research.tue.nl/files/352274829/1-s2.0-S1618866723003370-main.pdf"
+      ],
+      "corrected_year": 2024,
+      "pdf_url": "https://research.tue.nl/files/352274829/1-s2.0-S1618866723003370-main.pdf"
+    },
+    {
+      "id": "P3B9C78DF",
+      "title": "Do urban form characteristics perpetuate disparities of pandemic mobilities?",
+      "doi": "10.1016/j.tbs.2024.100803",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2214367X24000668",
+      "status": "verified_article_page",
+      "notes": "旧题名改写且旧期刊Cities & Health错误；Crossref与作者官方CV一致。",
+      "verified_on": "2026-10-13",
+      "evidence_urls": [
+        "https://api.crossref.org/works/10.1016/j.tbs.2024.100803",
+        "https://www.fau.edu/science/departments/urban-regional-planning/documents/jun-wang-cv.pdf"
+      ],
+      "corrected_title": "Do urban form characteristics perpetuate disparities of pandemic-induced mobility changes? Evidence from Fulton County, Georgia",
+      "corrected_journal": "Travel Behaviour and Society",
+      "corrected_year": 2024
+    },
+    {
+      "id": "P9B76EC36",
+      "title": "Realized spatial accessibility vs. potential spatial accessibility in grocery deserts",
+      "doi": "",
+      "url": "https://www.google.com/search?q=%22Realized%20spatial%20accessibility%20vs.%20potential%20spatial%20accessibility%20in%20grocery%20deserts%22",
+      "status": "unresolved_title_search_only",
+      "notes": "精确题名检索未找到真实论文。最接近出版商记录是美国医疗可达性而非grocery deserts，不能强行合并。备选题名Realized spatial accessibility vs. potential spatial accessibility in the United States: A case study based on geospatial big data；DOI 10.1016/j.compenvurbsys.2025.102382。此url仅搜索入口，绝不是已核论文页。",
+      "verified_on": "2026-10-13",
+      "evidence_urls": [
+        "https://www.sciencedirect.com/science/article/abs/pii/S0198971525001358"
+      ],
+      "possible_match": {
+        "title": "Realized spatial accessibility vs. potential spatial accessibility in the United States: A case study based on geospatial big data",
+        "doi": "10.1016/j.compenvurbsys.2025.102382",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0198971525001358",
+        "reason_not_confirmed": "医疗与食品荒漠研究对象不符，旧条目无作者等额外身份凭据"
+      }
+    },
+    {
+      "id": "P7E59C8D1",
+      "title": "The racial inequity of park visitation behavior in the post-pandemic era",
+      "doi": "10.1016/j.tbs.2025.101105",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2214367X25001231",
+      "status": "verified_article_page",
+      "notes": "出版商全文预览逐项核题名DOI；旧期刊Cities错误。",
+      "verified_on": "2026-10-13",
+      "evidence_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S2214367X25001231"
+      ],
+      "corrected_journal": "Travel Behaviour and Society",
+      "corrected_year": 2025
+    },
+    {
+      "id": "P06F06671",
+      "title": "Analyzing and mapping the vulnerability and resilience of the hospitality industry to COVID-19 across the United States",
+      "doi": "10.1016/j.ijhm.2025.104362",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0278431925002907",
+      "status": "verified_article_page",
+      "notes": "旧标题改写；Crossref与作者University of Memphis机构书目一致。",
+      "verified_on": "2026-10-13",
+      "evidence_urls": [
+        "https://api.crossref.org/works/10.1016/j.ijhm.2025.104362",
+        "https://digitalcommons.memphis.edu/facpub2/889/"
+      ],
+      "corrected_title": "Analyzing and mapping the vulnerability and resilience of the hospitality industry: Insights from real consumer visitation behavior",
+      "corrected_journal": "International Journal of Hospitality Management",
+      "corrected_year": 2026
+    },
+    {
+      "id": "P104EBB42",
+      "title": "Using mobile phone data for quantifying large-scale household-level disaster recovery",
+      "doi": "10.1016/j.compenvurbsys.2025.102395",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0198971525001486",
+      "status": "verified_article_page",
+      "notes": "出版社页面与Crossref题名DOI一致；卷期2026年4月125卷。",
+      "verified_on": "2026-10-13",
+      "evidence_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S0198971525001486"
+      ],
+      "corrected_year": 2026
+    },
+    {
+      "id": "P48A032E2",
+      "title": "The Impact of COVID-19 on Human Mobility: A Case Study on New York",
+      "doi": "10.1109/BigData55660.2022.10020695",
+      "url": "https://ieeexplore.ieee.org/document/10020695",
+      "status": "verified_article_page",
+      "notes": "IEEE页面题名与Crossref一致，补齐正式会议出版物。",
+      "verified_on": "2026-10-13",
+      "evidence_urls": [
+        "https://ieeexplore.ieee.org/document/10020695",
+        "https://api.crossref.org/works/10.1109/BigData55660.2022.10020695"
+      ],
+      "corrected_journal": "2022 IEEE International Conference on Big Data (Big Data)",
+      "corrected_year": 2022
+    },
+    {
+      "id": "P3EEC79FA",
+      "title": "Leveraging Human Mobility Data for Efficient Parameter Estimation in Epidemic Models of COVID-19",
+      "doi": "10.1109/TITS.2022.3223229",
+      "url": "https://ieeexplore.ieee.org/document/9967435",
+      "status": "verified_article_page",
+      "notes": "Crossref正式登记题名一致；IEEE页面当前要求JavaScript人机验证。2024卷25期1页763–773，DOI带2022。",
+      "verified_on": "2026-10-13",
+      "evidence_urls": [
+        "https://api.crossref.org/works/10.1109/TITS.2022.3223229"
+      ],
+      "corrected_journal": "IEEE Transactions on Intelligent Transportation Systems",
+      "corrected_year": 2024
+    },
+    {
+      "id": "P6AAE6DFC",
+      "title": "STORM-GAN: Spatio-Temporal Meta-GAN for Cross-City Estimation of Human Mobility Responses to COVID-19",
+      "doi": "10.1109/ICDM54844.2022.00010",
+      "url": "https://arxiv.org/abs/2301.08648",
+      "status": "verified_article_page",
+      "notes": "Crossref正式会议DOI核对成功；arXiv为2023上传预印本，论文正式会议年2022。",
+      "verified_on": "2026-10-13",
+      "evidence_urls": [
+        "https://api.crossref.org/works/10.1109/ICDM54844.2022.00010",
+        "https://arxiv.org/abs/2301.08648",
+        "https://users.wpi.edu/~yli15/Includes/22-ICDM-STORM-GAN-Han-PDFA.pdf"
+      ],
+      "corrected_journal": "2022 IEEE International Conference on Data Mining (ICDM)",
+      "corrected_year": 2022,
+      "pdf_url": "https://users.wpi.edu/~yli15/Includes/22-ICDM-STORM-GAN-Han-PDFA.pdf"
+    },
+    {
+      "id": "L44",
+      "title": "基于手机定位数据的乡村居民进城就医行为及可达性研究",
+      "doi": "",
+      "url": "https://dlgt.cbpt.cnki.net/portal/journal/portal/client/paper/739b0b7e60043a8747dfa5c027f530ee",
+      "status": "verified_article_page",
+      "notes": "补为有卷期的新正式记录：2026,42(3):68–74+83；期刊页DOI字段仍空。EBSCO收录10.3969/j.issn.1672-0504.2026.03.008，仅索引线索，暂不直接写入DOI确认字段。",
+      "verified_on": "2026-10-13",
+      "evidence_urls": [
+        "https://dlgt.cbpt.cnki.net/portal/journal/portal/client/paper/739b0b7e60043a8747dfa5c027f530ee"
+      ],
+      "corrected_year": 2026
+    },
+    {
+      "id": "P9729F216",
+      "title": "The geography of connectivity: a review of mobile positioning data for economic geography",
+      "doi": "10.1007/s10109-022-00388-4",
+      "url": "https://link.springer.com/article/10.1007/s10109-022-00388-4",
+      "status": "verified_article_page_wrong_legacy_pdf",
+      "notes": "原DOI有效，Springer出版商页面、Lund作者机构正式出版记录及德国国家图书馆原刊PDF首页均与原题名一致。问题在旧evidence_url链接的是另一题名2020工作论文，不应继续作此2022论文全文。本文为文献综述，摘要明确侧重CDR；不应视为某供应商原始实证研究。",
+      "verified_on": "2026-10-13",
+      "corrected_journal": "Journal of Geographical Systems",
+      "corrected_year": 2022,
+      "volume": "24",
+      "issue": "4",
+      "pages": "679–707",
+      "publication_type": "review",
+      "pdf_url": "https://d-nb.info/1268095893/34",
+      "alternate_pdf_url": "https://link.springer.com/content/pdf/10.1007/s10109-022-00388-4.pdf",
+      "evidence_urls": [
+        "https://link.springer.com/article/10.1007/s10109-022-00388-4",
+        "https://portal.research.lu.se/en/publications/the-geography-of-connectivity-a-review-of-mobile-positioning-data/",
+        "https://d-nb.info/1268095893/34"
+      ],
+      "rejected_legacy_evidence_url": "https://journals.lub.lu.se/piis/article/download/27210/23785/71929"
+    },
+    {
+      "id": "L22",
+      "url": "https://www.sciencedirect.com/science/article/pii/S096669232400317X",
+      "status": "verified_article_page",
+      "notes": "2026-10-13 已通过Chrome DOI跳转或学校WebVPN打开对应出版商论文页面。"
+    },
+    {
+      "id": "L59",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0966692325003874",
+      "status": "verified_article_page",
+      "notes": "2026-10-13 已通过Chrome DOI跳转或学校WebVPN打开对应出版商论文页面。"
+    },
+    {
+      "id": "L61",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0143622825000086",
+      "status": "verified_article_page",
+      "notes": "2026-10-13 已通过Chrome DOI跳转或学校WebVPN打开对应出版商论文页面。"
+    },
+    {
+      "id": "P2F95F02D",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0143622825000414",
+      "status": "verified_article_page",
+      "notes": "2026-10-13 已通过Chrome DOI跳转或学校WebVPN打开对应出版商论文页面。"
+    },
+    {
+      "id": "P38C79679",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S135382922100232X",
+      "status": "verified_article_page",
+      "notes": "2026-10-13 已通过Chrome DOI跳转或学校WebVPN打开对应出版商论文页面。"
+    },
+    {
+      "id": "P5416DFC8",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0143622824002340",
+      "status": "verified_article_page",
+      "notes": "2026-10-13 已通过Chrome DOI跳转或学校WebVPN打开对应出版商论文页面。"
+    },
+    {
+      "id": "P5DE047C3",
+      "url": "https://www.sciencedirect.com/science/article/pii/S026483772400187X",
+      "status": "verified_article_page",
+      "notes": "2026-10-13 已通过Chrome DOI跳转或学校WebVPN打开对应出版商论文页面。"
+    },
+    {
+      "id": "P9123C07B",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0198971524001029",
+      "status": "verified_article_page",
+      "notes": "2026-10-13 已通过Chrome DOI跳转或学校WebVPN打开对应出版商论文页面。"
+    },
+    {
+      "id": "PA98D85BB",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0264275125005979",
+      "status": "verified_article_page",
+      "notes": "2026-10-13 已通过Chrome DOI跳转或学校WebVPN打开对应出版商论文页面。"
+    },
+    {
+      "id": "PB6FFBAD1",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0264275122004450",
+      "status": "verified_article_page",
+      "notes": "2026-10-13 已通过Chrome DOI跳转或学校WebVPN打开对应出版商论文页面。"
+    }
+  ]
+}
