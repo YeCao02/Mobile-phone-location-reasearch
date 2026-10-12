@@ -622,8 +622,8 @@
       "app_collection_confirmed": true,
       "sdk_explicit": false,
       "sensor_mix": "论文未提供逐点定位源审计；不能证明绝无蜂窝辅助定位",
-      "review_date": "2026-10-10",
-      "notes": "2026-04-24发表，Nature Health 1:760–769。Moxing与先锋的法律实体关系待工商核证；NSFC 42171400、42471496。正文访问联系 [公开联系方式略]。",
+      "review_date": "2026-10-11",
+      "notes": "2026-04-24发表，Nature Health 1:760–769。Moxing与先锋的法律实体关系待工商核证；NSFC 42171400、42471496。正文访问联系 [公开联系方式略]。；2026-10-10本轮核对Zotero正文13页及补充材料25页：供方Moxing与Pioneer联系域名位于正文第6/9页，补充图1–2支持GPS识别流程和验证。供应商组按用户确认合并。",
       "pdf_downloaded": true,
       "zotero_attachment_verified": true,
       "pdf_audit_ids": [
@@ -640,7 +640,10 @@
       ],
       "supplement_review_scope": "已核对补充PDF首页标题与DOI、目录；未逐页审读全部图表。",
       "journal": "Nature Health",
-      "field": "健康与公共卫生"
+      "field": "健康与公共卫生",
+      "supplement_fulltext_read": true,
+      "supplement_evidence": "Zotero Supplementary Information 25页，Supplementary Fig.1–2（第3–4页）GPS就医识别与验证关键段已核",
+      "user_collection_membership": true
     },
     {
       "id": "L22",

@@ -1127,31 +1127,32 @@
       "url": "https://www.geores.com.cn/ghqdl/CN/10.12118/j.issn.1000-6060.2022.672",
       "type": "题录与摘要，正文待核",
       "type_code": "round8_paper_source_audit",
-      "finding": "保留待核候选。已取得原刊摘要及机构、基金，但未取得正文；不能归入SDK或运营商边界。",
-      "limits": "保留同团队数据来源追查候选；供方与技术逐篇独立核实。 保留待核候选。已取得原刊摘要及机构、基金，但未取得正文；不能归入SDK或运营商边界。",
-      "confidence": "metadata_abstract_only",
+      "finding": "原文§2.1明确数据来自某移动运营商，并识别近2600个手机基站点，基站平均间距191.26m；属于运营商基站数据，不是泛先锋SDK定位数据。西宁主城区2018-08-01至06，38万用户，占城镇常住人口22%，平均4300万条记录/日、平均时间采样间隔29min。",
+      "limits": "从06及泛先锋候选移除，归入运营商基站边界；品牌不必继续追查",
+      "confidence": "source_type_confirmed",
       "review_date": "2026-10-11",
       "catalog_id": "L50",
       "doi": "10.12118/j.issn.1000-6060.2022.672",
       "institution": "福州大学数字中国研究院（福建）；空间数据挖掘与信息共享教育部重点实验室；海西政务大数据应用协同创新中心；自然资源部城市国土资源监测与仿真重点实验室；陕西师范大学地理科学与旅游学院",
-      "supplier": "未核明",
+      "supplier": "未具名移动运营商（原文明示手机基站定位）",
       "group_id": "FZU-WU-SHENG",
       "published": "2023",
       "verification": "primary_abstract_and_affiliations_funding_read_methods_unavailable",
-      "evidence_section": "摘要、作者单位、基金",
+      "evidence_section": "PDF第2页/印1745页§2.1；第3页图2",
       "authors": [
         "赵志远",
         "丁逸尘",
         "杨喜平",
         "吴升"
       ],
-      "research_scope": "pioneer_candidate",
-      "pdf_downloaded": false,
+      "research_scope": "carrier_boundary",
+      "pdf_downloaded": true,
       "supplementary": {
         "status": "not_established",
         "downloaded": false,
         "note": "当前摘要页未识别独立SI，不据此断言无SI。"
-      }
+      },
+      "zotero_attachment_verified": true
     },
     {
       "id": "CN-S57",
@@ -1159,18 +1160,18 @@
       "url": "https://doi.org/10.13249/j.cnki.sgs.20241458",
       "type": "题录与摘要，正文待核",
       "type_code": "round8_paper_source_audit",
-      "finding": "DOI题名作者可核，尚无正文及数据声明。出版年仍待核，2026-02-04只是DOI注册时间。",
-      "limits": "保留同团队数据来源追查候选；供方与技术逐篇独立核实。 DOI题名作者可核，尚无正文及数据声明。出版年仍待核，2026-02-04只是DOI注册时间。",
-      "confidence": "metadata_abstract_only",
+      "finding": "原文§1.1为一名志愿者2019年8月至11月共123天的手机位置数据，共28486条，主要位于福州市区；98.4%的时间间隔为6或7分钟。用于10/15/30/60/120分钟重采样的时间聚合效应分析。",
+      "limits": "单名志愿者GPS长时序实验，非商业多App SDK人群定位供数案例，移出泛先锋候选，保留方法背景。",
+      "confidence": "source_type_confirmed",
       "review_date": "2026-10-11",
       "catalog_id": "L51",
       "doi": "10.13249/j.cnki.sgs.20241458",
       "institution": "作者包含赵志远、吴升；本文逐人单位待核",
-      "supplier": "未核明",
+      "supplier": "单名志愿者GPS轨迹（非商业SDK供数案例）",
       "group_id": "FZU-WU-SHENG",
       "published": null,
       "verification": "doi_registration_metadata_only",
-      "evidence_section": "DOI注册题录",
+      "evidence_section": "PDF第2页/印刷543页，§1.1；PDF第10页/印551页局限明确单个个体",
       "authors": [
         "赵志远",
         "祝章伟",
@@ -1178,13 +1179,14 @@
         "汪艳霞",
         "胡慧芳"
       ],
-      "research_scope": "pioneer_candidate",
-      "pdf_downloaded": false,
+      "research_scope": "volunteer_gps_boundary",
+      "pdf_downloaded": true,
       "supplementary": {
         "status": "not_established",
         "downloaded": false,
         "note": "未到达原刊正文，无法判定是否附SI。"
-      }
+      },
+      "zotero_attachment_verified": true
     },
     {
       "id": "CN-S58",
@@ -1519,17 +1521,18 @@
       "url": "https://www.nature.com/articles/s41599-023-01918-1",
       "type": "期刊论文数据来源声明",
       "institution": "北京大学",
-      "supplier": "供应商未具名",
-      "finding": "Data Description描述匿名第三方手机数据：深圳2019/2020/2021各年3月，81,350人面板。京东电商用户数据用于人口社会属性，不能未经核验当作轨迹供应商。",
-      "confidence": "undisclosed_or_pending",
-      "limits": "供应商未具名或方法待核，保留候选；不由同团队、相近字段认定同一供方。",
+      "supplier": "China Unicom（中国联通，手机数据）；JD.com（京东，电商人口社会属性）",
+      "finding": "手机公园访问面板 + 京东电商人口社会属性；并未明确SDK采集。原文数据可得性具名联通和京东；结合第3页京东用于电商人口社会属性，可以区别两类数据角色。；研究深圳2019、2020、2021年各年3月的公园访问，联结电商人口社会属性，81,350人面板。该页先称第三方并不抵销后文具名声明。",
+      "confidence": "source_confirmed",
+      "limits": "从06和泛先锋候选移除；保留历史边界记录，不再追查",
       "doi": "10.1057/s41599-023-01918-1",
       "group_id": "PKU-ZHAO-PENGJUN",
-      "research_scope": "pioneer_candidate",
+      "research_scope": "carrier_boundary",
       "catalog_id": "L62",
       "round10_record": true,
-      "pdf_downloaded": false,
-      "zotero_attachment_verified": false
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false,
+      "evidence_section": "PDF第9页 Data availability；PDF第3页 Materials and methods / Data description"
     },
     {
       "id": "CN-R10-L63",
@@ -6138,77 +6141,6 @@
       "round10_created_group": true
     },
     {
-      "id": "PKU-ZHAO-PENGJUN",
-      "title": "赵鹏军团队",
-      "institution": "北京大学",
-      "institution_id": "pku",
-      "team": "赵鹏军团队",
-      "summary": "按学校—团队—研究组织；具体数据来源逐研究标明。",
-      "source_ids": [
-        "CN-R10-L62"
-      ],
-      "supplier_names": [
-        "供应商未具名"
-      ],
-      "studies": [
-        {
-          "id": "PKU-ZHAO-PENGJUN-R10-L62",
-          "title": "Social inequality of urban park use during the COVID-19 pandemic",
-          "summary": "Data Description描述匿名第三方手机数据：深圳2019/2020/2021各年3月，81,350人面板。京东电商用户数据用于人口社会属性，不能未经核验当作轨迹供应商。",
-          "outputs": [
-            {
-              "type": "期刊论文",
-              "catalog_id": "L62",
-              "title": "Social inequality of urban park use during the COVID-19 pandemic",
-              "year": 2023,
-              "journal": "Humanities and Social Sciences Communications",
-              "doi": "10.1057/s41599-023-01918-1",
-              "url": "https://www.nature.com/articles/s41599-023-01918-1",
-              "provider": "供应商未具名",
-              "data_statement": "Data Description描述匿名第三方手机数据：深圳2019/2020/2021各年3月，81,350人面板。京东电商用户数据用于人口社会属性，不能未经核验当作轨迹供应商。",
-              "source_ids": [
-                "CN-R10-L62"
-              ],
-              "bibliographic_note": "论文PDF搜索索引可读数据段；官方页打开错误；未下载本地。",
-              "research_scope": "pioneer_candidate",
-              "pdf_downloaded": false,
-              "zotero_attachment_verified": false
-            }
-          ],
-          "source_ids": [
-            "CN-R10-L62"
-          ],
-          "research_scope": "pioneer_candidate",
-          "round10_record": true
-        }
-      ],
-      "outputs": [
-        {
-          "type": "期刊论文",
-          "catalog_id": "L62",
-          "title": "Social inequality of urban park use during the COVID-19 pandemic",
-          "year": 2023,
-          "journal": "Humanities and Social Sciences Communications",
-          "doi": "10.1057/s41599-023-01918-1",
-          "url": "https://www.nature.com/articles/s41599-023-01918-1",
-          "provider": "供应商未具名",
-          "data_statement": "Data Description描述匿名第三方手机数据：深圳2019/2020/2021各年3月，81,350人面板。京东电商用户数据用于人口社会属性，不能未经核验当作轨迹供应商。",
-          "source_ids": [
-            "CN-R10-L62"
-          ],
-          "bibliographic_note": "论文PDF搜索索引可读数据段；官方页打开错误；未下载本地。",
-          "research_scope": "pioneer_candidate",
-          "pdf_downloaded": false,
-          "zotero_attachment_verified": false
-        }
-      ],
-      "procurements": [],
-      "grants": [],
-      "organization": "institution_team_content",
-      "research_scope": "pioneer_candidate",
-      "round10_created_group": true
-    },
-    {
       "id": "CEA-WEI-SU",
       "title": "魏本勇 / 苏桂武团队",
       "institution": "中国地震局地质研究所",
@@ -9630,6 +9562,77 @@
       "organization": "institution_team_content",
       "research_scope": "other_commercial",
       "round12_created_group": true
+    },
+    {
+      "id": "PKU-ZHAO-PENGJUN",
+      "title": "赵鹏军团队",
+      "institution": "北京大学",
+      "institution_id": "pku",
+      "team": "赵鹏军团队",
+      "summary": "原文具名运营商供数；保留历史来源证据，从SDK待核清单移除。",
+      "source_ids": [
+        "CN-R10-L62"
+      ],
+      "supplier_names": [
+        "China Unicom（中国联通，手机数据）；JD.com（京东，电商人口社会属性）"
+      ],
+      "studies": [
+        {
+          "id": "PKU-ZHAO-PENGJUN-R10-L62",
+          "title": "Social inequality of urban park use during the COVID-19 pandemic",
+          "summary": "手机公园访问面板 + 京东电商人口社会属性；并未明确SDK采集。原文数据可得性具名联通和京东；结合第3页京东用于电商人口社会属性，可以区别两类数据角色。；研究深圳2019、2020、2021年各年3月的公园访问，联结电商人口社会属性，81,350人面板。该页先称第三方并不抵销后文具名声明。",
+          "outputs": [
+            {
+              "type": "期刊论文",
+              "catalog_id": "L62",
+              "title": "Social inequality of urban park use during the COVID-19 pandemic",
+              "year": 2023,
+              "journal": "Humanities and Social Sciences Communications",
+              "doi": "10.1057/s41599-023-01918-1",
+              "url": "https://www.nature.com/articles/s41599-023-01918-1",
+              "provider": "China Unicom（中国联通，手机数据）；JD.com（京东，电商人口社会属性）",
+              "data_statement": "手机公园访问面板 + 京东电商人口社会属性；并未明确SDK采集。原文数据可得性具名联通和京东；结合第3页京东用于电商人口社会属性，可以区别两类数据角色。；研究深圳2019、2020、2021年各年3月的公园访问，联结电商人口社会属性，81,350人面板。该页先称第三方并不抵销后文具名声明。",
+              "source_ids": [
+                "CN-R10-L62"
+              ],
+              "bibliographic_note": "本轮官方11页PDF已核；第9页数据可得性具名联通/京东，第3页区分手机访问与电商画像角色。",
+              "research_scope": "carrier_boundary",
+              "pdf_downloaded": true,
+              "zotero_attachment_verified": false
+            }
+          ],
+          "source_ids": [
+            "CN-R10-L62"
+          ],
+          "research_scope": "carrier_boundary",
+          "round10_record": true
+        }
+      ],
+      "outputs": [
+        {
+          "type": "期刊论文",
+          "catalog_id": "L62",
+          "title": "Social inequality of urban park use during the COVID-19 pandemic",
+          "year": 2023,
+          "journal": "Humanities and Social Sciences Communications",
+          "doi": "10.1057/s41599-023-01918-1",
+          "url": "https://www.nature.com/articles/s41599-023-01918-1",
+          "provider": "China Unicom（中国联通，手机数据）；JD.com（京东，电商人口社会属性）",
+          "data_statement": "手机公园访问面板 + 京东电商人口社会属性；并未明确SDK采集。原文数据可得性具名联通和京东；结合第3页京东用于电商人口社会属性，可以区别两类数据角色。；研究深圳2019、2020、2021年各年3月的公园访问，联结电商人口社会属性，81,350人面板。该页先称第三方并不抵销后文具名声明。",
+          "source_ids": [
+            "CN-R10-L62"
+          ],
+          "bibliographic_note": "本轮官方11页PDF已核；第9页数据可得性具名联通/京东，第3页区分手机访问与电商画像角色。",
+          "research_scope": "carrier_boundary",
+          "pdf_downloaded": true,
+          "zotero_attachment_verified": false
+        }
+      ],
+      "procurements": [],
+      "grants": [],
+      "organization": "institution_team_content",
+      "research_scope": "carrier_boundary",
+      "round10_created_group": true
     }
   ],
   "scope_policy": {
@@ -9953,5 +9956,14 @@
       "L78",
       "L79"
     ]
-  }
+  },
+  "user_confirmations": [
+    {
+      "date": "2026-10-10",
+      "subject": "Moxing Beijing 与先锋数聚",
+      "claim": "项目发起人确认 Moxing Beijing 属于先锋数聚关联体系。",
+      "evidence_type": "user_confirmed",
+      "public_registry_status": "工商主体、股权及合同关系仍待公开来源补证；论文可支持服务联系，不能替代工商证明。"
+    }
+  ]
 }

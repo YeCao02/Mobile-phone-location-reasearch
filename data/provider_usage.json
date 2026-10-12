@@ -12,9 +12,9 @@
         "https://www.safegraph.com/"
       ],
       "counts": {
-        "confirmed_use": 12,
+        "confirmed_use": 17,
         "mention_only": 2,
-        "unresolved_candidate": 45
+        "unresolved_candidate": 40
       },
       "paper_ids": {
         "confirmed_use": [
@@ -29,7 +29,12 @@
           "L13",
           "L16",
           "L17",
-          "L20"
+          "L20",
+          "P240AD96D",
+          "P25D34630",
+          "P3239D548",
+          "P3881BAD2",
+          "PD4F8B912"
         ],
         "mention_only": [
           "L21",
@@ -42,13 +47,9 @@
           "P1A918461",
           "P1DFAD697",
           "P2290471E",
-          "P240AD96D",
-          "P25D34630",
           "P2BDAEE88",
           "P2D2C630F",
           "P2F95F02D",
-          "P3239D548",
-          "P3881BAD2",
           "P38C79679",
           "P3B9C78DF",
           "P441C38CE",
@@ -76,7 +77,6 @@
           "PBC87DC0B",
           "PC2196B2E",
           "PC3073275",
-          "PD4F8B912",
           "PD5396003",
           "PF912AF74",
           "PFC132E92",
@@ -85,7 +85,7 @@
       },
       "role_counts": {
         "mobility": {
-          "confirmed_use": 11,
+          "confirmed_use": 16,
           "mention_only": 0,
           "unresolved_candidate": 0
         },
@@ -137,7 +137,7 @@
         "unknown": {
           "confirmed_use": 0,
           "mention_only": 0,
-          "unresolved_candidate": 45
+          "unresolved_candidate": 40
         }
       },
       "role_paper_ids": {
@@ -153,7 +153,12 @@
             "L12",
             "L13",
             "L16",
-            "L17"
+            "L17",
+            "P240AD96D",
+            "P25D34630",
+            "P3239D548",
+            "P3881BAD2",
+            "PD4F8B912"
           ],
           "mention_only": [],
           "unresolved_candidate": []
@@ -218,13 +223,9 @@
             "P1A918461",
             "P1DFAD697",
             "P2290471E",
-            "P240AD96D",
-            "P25D34630",
             "P2BDAEE88",
             "P2D2C630F",
             "P2F95F02D",
-            "P3239D548",
-            "P3881BAD2",
             "P38C79679",
             "P3B9C78DF",
             "P441C38CE",
@@ -252,7 +253,6 @@
             "PBC87DC0B",
             "PC2196B2E",
             "PC3073275",
-            "PD4F8B912",
             "PD5396003",
             "PF912AF74",
             "PFC132E92",
@@ -260,7 +260,7 @@
           ]
         }
       },
-      "confirmed_mobility_use": 11,
+      "confirmed_mobility_use": 16,
       "confirmed_mixed_mobility_use": 0,
       "zero_count_meaning": "0仅表示当前文献目录中没有符合该证据门槛的记录；不是全领域无人使用，也不是搜索穷尽。",
       "association_ids": [
@@ -278,10 +278,11 @@
         "L20",
         "L21",
         "L29",
-        "P240AD96D",
-        "P25D34630",
         "P3239D548",
         "PD4F8B912",
+        "P3881BAD2",
+        "P25D34630",
+        "P240AD96D",
         "P557B9764",
         "P837C3A60",
         "PAF9C787A",
@@ -295,7 +296,6 @@
         "P1DFAD697",
         "P99197F39",
         "P002C367F",
-        "P3881BAD2",
         "PFDDDACD2",
         "P0663A19C",
         "P38C79679",
@@ -327,7 +327,7 @@
       "entity_interpretation": "按现有品牌/实体标签分别计数",
       "evidence_role_counts": {
         "mobility": {
-          "confirmed_use": 11,
+          "confirmed_use": 16,
           "mention_only": 0,
           "unresolved_candidate": 0
         },
@@ -379,7 +379,7 @@
         "unknown": {
           "confirmed_use": 0,
           "mention_only": 0,
-          "unresolved_candidate": 45
+          "unresolved_candidate": 40
         }
       }
     },
@@ -838,9 +838,9 @@
         "https://cuebiq.com/privacy-policy/"
       ],
       "counts": {
-        "confirmed_use": 10,
+        "confirmed_use": 11,
         "mention_only": 0,
-        "unresolved_candidate": 12
+        "unresolved_candidate": 11
       },
       "paper_ids": {
         "confirmed_use": [
@@ -853,7 +853,8 @@
           "L18",
           "L19",
           "L23",
-          "L24"
+          "L24",
+          "PEEE72CD1"
         ],
         "mention_only": [],
         "unresolved_candidate": [
@@ -867,13 +868,12 @@
           "PA98D85BB",
           "PAADD397C",
           "PBC87DC0B",
-          "PEEE72CD1",
           "PEF9587A5"
         ]
       },
       "role_counts": {
         "mobility": {
-          "confirmed_use": 10,
+          "confirmed_use": 11,
           "mention_only": 0,
           "unresolved_candidate": 0
         },
@@ -925,7 +925,7 @@
         "unknown": {
           "confirmed_use": 0,
           "mention_only": 0,
-          "unresolved_candidate": 12
+          "unresolved_candidate": 11
         }
       },
       "role_paper_ids": {
@@ -940,7 +940,8 @@
             "L18",
             "L19",
             "L23",
-            "L24"
+            "L24",
+            "PEEE72CD1"
           ],
           "mention_only": [],
           "unresolved_candidate": []
@@ -1004,12 +1005,11 @@
             "PA98D85BB",
             "PAADD397C",
             "PBC87DC0B",
-            "PEEE72CD1",
             "PEF9587A5"
           ]
         }
       },
-      "confirmed_mobility_use": 10,
+      "confirmed_mobility_use": 11,
       "confirmed_mixed_mobility_use": 0,
       "zero_count_meaning": "0仅表示当前文献目录中没有符合该证据门槛的记录；不是全领域无人使用，也不是搜索穷尽。",
       "association_ids": [
@@ -1023,9 +1023,9 @@
         "L17",
         "L19",
         "L24",
+        "PEEE72CD1",
         "P837C3A60",
         "P71C3218F",
-        "PEEE72CD1",
         "P76B9708A",
         "P1F72D228",
         "PA98D85BB",
@@ -1039,7 +1039,7 @@
       "entity_interpretation": "展示组，不构成法律实体或独立采样面板合并认定",
       "evidence_role_counts": {
         "mobility": {
-          "confirmed_use": 10,
+          "confirmed_use": 11,
           "mention_only": 0,
           "unresolved_candidate": 0
         },
@@ -1091,7 +1091,7 @@
         "unknown": {
           "confirmed_use": 0,
           "mention_only": 0,
-          "unresolved_candidate": 12
+          "unresolved_candidate": 11
         }
       }
     },
@@ -1515,18 +1515,20 @@
         "https://www.unacast.com/gravy-analytics"
       ],
       "counts": {
-        "confirmed_use": 0,
+        "confirmed_use": 1,
         "mention_only": 0,
         "unresolved_candidate": 0
       },
       "paper_ids": {
-        "confirmed_use": [],
+        "confirmed_use": [
+          "P8C0DBF46"
+        ],
         "mention_only": [],
         "unresolved_candidate": []
       },
       "role_counts": {
         "mobility": {
-          "confirmed_use": 0,
+          "confirmed_use": 1,
           "mention_only": 0,
           "unresolved_candidate": 0
         },
@@ -1583,7 +1585,9 @@
       },
       "role_paper_ids": {
         "mobility": {
-          "confirmed_use": [],
+          "confirmed_use": [
+            "P8C0DBF46"
+          ],
           "mention_only": [],
           "unresolved_candidate": []
         },
@@ -1638,14 +1642,16 @@
           "unresolved_candidate": []
         }
       },
-      "confirmed_mobility_use": 0,
+      "confirmed_mobility_use": 1,
       "confirmed_mixed_mobility_use": 0,
       "zero_count_meaning": "0仅表示当前文献目录中没有符合该证据门槛的记录；不是全领域无人使用，也不是搜索穷尽。",
-      "association_ids": [],
+      "association_ids": [
+        "P8C0DBF46"
+      ],
       "entity_interpretation": "按现有品牌/实体标签分别计数",
       "evidence_role_counts": {
         "mobility": {
-          "confirmed_use": 0,
+          "confirmed_use": 1,
           "mention_only": 0,
           "unresolved_candidate": 0
         },
@@ -7152,7 +7158,7 @@
       "counts": {
         "confirmed_use": 13,
         "mention_only": 0,
-        "unresolved_candidate": 1
+        "unresolved_candidate": 3
       },
       "paper_ids": {
         "confirmed_use": [
@@ -7172,7 +7178,9 @@
         ],
         "mention_only": [],
         "unresolved_candidate": [
-          "L27"
+          "L27",
+          "L55",
+          "L79"
         ]
       },
       "role_counts": {
@@ -7229,7 +7237,7 @@
         "unknown": {
           "confirmed_use": 0,
           "mention_only": 0,
-          "unresolved_candidate": 1
+          "unresolved_candidate": 3
         }
       },
       "role_paper_ids": {
@@ -7303,7 +7311,9 @@
           "confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": [
-            "L27"
+            "L27",
+            "L55",
+            "L79"
           ]
         }
       },
@@ -7317,6 +7327,7 @@
         "L27",
         "L29",
         "L48",
+        "L55",
         "L58",
         "L64",
         "L68",
@@ -7324,6 +7335,7 @@
         "L75",
         "L76",
         "L77",
+        "L79",
         "L80"
       ],
       "entity_interpretation": "展示组，不构成法律实体或独立采样面板合并认定",
@@ -7381,7 +7393,7 @@
         "unknown": {
           "confirmed_use": 0,
           "mention_only": 0,
-          "unresolved_candidate": 1
+          "unresolved_candidate": 3
         }
       }
     }
@@ -8520,7 +8532,7 @@
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
       "pdf_downloaded": true,
-      "zotero_attachment_verified": false,
+      "zotero_attachment_verified": true,
       "primary_source_audit": "round8_primary_source_methods_verified"
     },
     {
@@ -8743,94 +8755,32 @@
       "primary_source_audit": "第12轮原文数据方法关键段核验"
     },
     {
-      "paper_id": "P240AD96D",
-      "paper_title": "Insights into population behavior during the COVID-19 pandemic from cell phone mobility data and manifold learning",
-      "doi": "10.1038/s43588-021-00125-9",
-      "provider_id": "safegraph",
-      "provider_name": "SafeGraph",
-      "status": "unresolved_candidate",
-      "classification": "unresolved_candidate",
-      "role": "unknown",
-      "roles": [
-        "unknown"
-      ],
-      "declared_brands": [
-        "SafeGraph"
-      ],
-      "evidence_url": "https://www.nature.com/articles/s43588-021-00125-9",
-      "evidence_section": "旧记录legacy_provider_claims；原文证据待核",
-      "basis": "仅来自继承供应商标签；尚未判定本文实际使用、仅讨论、仅引用或旧记录误归。",
-      "catalog_status": "pending",
-      "scope": "pending_source_screening",
-      "data_access_relationship": "unverified",
-      "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": false,
-      "zotero_attachment_verified": false,
-      "candidate_claims": [
-        "SafeGraph"
-      ],
-      "evidence_url_status": "paper_landing_link_only_not_attribution_proof"
-    },
-    {
-      "paper_id": "P25D34630",
-      "paper_title": "Analysis of mobility data to build contact networks for COVID-19",
-      "doi": "10.1371/journal.pone.0249726",
-      "provider_id": "safegraph",
-      "provider_name": "SafeGraph",
-      "status": "unresolved_candidate",
-      "classification": "unresolved_candidate",
-      "role": "unknown",
-      "roles": [
-        "unknown"
-      ],
-      "declared_brands": [
-        "SafeGraph"
-      ],
-      "evidence_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0249726",
-      "evidence_section": "旧记录legacy_provider_claims；原文证据待核",
-      "basis": "仅来自继承供应商标签；尚未判定本文实际使用、仅讨论、仅引用或旧记录误归。",
-      "catalog_status": "pending",
-      "scope": "pending_source_screening",
-      "data_access_relationship": "unverified",
-      "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": false,
-      "zotero_attachment_verified": false,
-      "candidate_claims": [
-        "SafeGraph"
-      ],
-      "evidence_url_status": "paper_landing_link_only_not_attribution_proof"
-    },
-    {
       "paper_id": "P3239D548",
       "paper_title": "ODT FLOW: Extracting, analyzing, and sharing multi-source multi-scale human mobility",
       "doi": "10.1371/journal.pone.0255259",
       "provider_id": "safegraph",
       "provider_name": "SafeGraph",
-      "status": "unresolved_candidate",
-      "classification": "unresolved_candidate",
-      "role": "unknown",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
       "roles": [
-        "unknown"
+        "mobility"
       ],
       "declared_brands": [
         "SafeGraph"
       ],
       "evidence_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0255259",
-      "evidence_section": "旧记录legacy_provider_claims；原文证据待核",
-      "basis": "仅来自继承供应商标签；尚未判定本文实际使用、仅讨论、仅引用或旧记录误归。",
-      "catalog_status": "pending",
-      "scope": "pending_source_screening",
-      "data_access_relationship": "unverified",
+      "evidence_section": "PDF第7页，§2.3.2；PDF第9页，§3.1与表1",
+      "basis": "直接从SafeGraph网站获取美国2019—2020年Social Distancing Metrics，使用origin_census_block_group、destination_cbgs、date_range_start提取每日OD；约1.603亿SDM记录生成约111亿Entity-O-D-T记录，再聚合为县/州/普查区流。实际并未取得SafeGraph个体GPS轨迹；Twitter数据是独立来源。",
+      "catalog_status": "reviewed",
+      "scope": "commercial_phone_location_derivative",
+      "data_access_relationship": "supplier_aggregated_product",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": false,
-      "zotero_attachment_verified": false,
-      "candidate_claims": [
-        "SafeGraph"
-      ],
-      "evidence_url_status": "paper_landing_link_only_not_attribution_proof"
+      "pdf_downloaded": true,
+      "zotero_catalog_imported": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "第13轮官方PDF与JATS XML数据方法核验"
     },
     {
       "paper_id": "PD4F8B912",
@@ -8838,29 +8788,167 @@
       "doi": "10.1371/journal.pone.0259031",
       "provider_id": "safegraph",
       "provider_name": "SafeGraph",
-      "status": "unresolved_candidate",
-      "classification": "unresolved_candidate",
-      "role": "unknown",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
       "roles": [
-        "unknown"
+        "mobility"
       ],
       "declared_brands": [
         "SafeGraph"
       ],
       "evidence_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0259031",
-      "evidence_section": "旧记录legacy_provider_claims；原文证据待核",
-      "basis": "仅来自继承供应商标签；尚未判定本文实际使用、仅讨论、仅引用或旧记录误归。",
-      "catalog_status": "pending",
-      "scope": "pending_source_screening",
-      "data_access_relationship": "unverified",
+      "evidence_section": "PDF第4页，§2.1 Mobility data source；第4—5页，§2.2 Human mobility measures",
+      "basis": "直接使用SafeGraph Data for Academics的Social Distancing Metrics，时间2019-01-01至2020-12-31。用CBG非居家停留时长中位数平均成县级TSPP，再构造两年同期变化；不是个人轨迹。§2.1说明第三方APP开发者通过API提供用户精确位置，未明确SDK及GPS/WiFi组合。",
+      "catalog_status": "reviewed",
+      "scope": "commercial_phone_location_derivative",
+      "data_access_relationship": "supplier_aggregated_product",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": false,
-      "zotero_attachment_verified": false,
-      "candidate_claims": [
+      "pdf_downloaded": true,
+      "zotero_catalog_imported": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "第13轮官方PDF与JATS XML数据方法核验"
+    },
+    {
+      "paper_id": "PEEE72CD1",
+      "paper_title": "Network percolation reveals adaptive bridges of the mobility network response to COVID-19",
+      "doi": "10.1371/journal.pone.0258868",
+      "provider_id": "cuebiq_spectus",
+      "provider_name": "Cuebiq / Spectus",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "Cuebiq"
+      ],
+      "evidence_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0258868",
+      "evidence_section": "PDF第3页，Mobility data；GPS措辞见PDF第14页讨论局限",
+      "basis": "Cuebiq提供美国大陆2020-01-01至06-30匿名实时位置记录，超过3000万选择参与设备，日均超过1500万。作者从各设备每日轨迹计算中位位置，比较连续两天所在县建立流网络，再做7天平滑与渗流分析。讨论称aggregated GPS data，未明确SDK或WiFi；并非供应商仅交付县级指数。",
+      "catalog_status": "reviewed",
+      "scope": "commercial_phone_location_derivative",
+      "data_access_relationship": "source_individual_positions",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_catalog_imported": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "第13轮官方PDF与JATS XML数据方法核验"
+    },
+    {
+      "paper_id": "P3881BAD2",
+      "paper_title": "Human mobility data and machine learning reveal geographic differences in alcohol sales and alcohol outlet visits across U.S. states during COVID-19",
+      "doi": "10.1371/journal.pone.0255757",
+      "provider_id": "safegraph",
+      "provider_name": "SafeGraph",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
         "SafeGraph"
       ],
-      "evidence_url_status": "paper_landing_link_only_not_attribution_proof"
+      "evidence_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0255757",
+      "evidence_section": "PDF第3页，Data—Human mobility data from SafeGraph；第12页Changes in alcohol outlet visits；第17页州月聚合",
+      "basis": "使用SafeGraph基于4500多万匿名智能设备、360多万POI的访问聚合数据；正文明确不提供individual-level trajectories。研究取16州2018-01至2020-06的酒类商店/酒吧/酒庄/啤酒厂访问，与NIAAA酒类销售统计结合，使用随机森林等模型；未逐项披露SDK/GPS/WiFi机制。",
+      "catalog_status": "reviewed",
+      "scope": "commercial_phone_location_derivative",
+      "data_access_relationship": "supplier_aggregated_product",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_catalog_imported": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "第13轮官方PDF与JATS XML数据方法核验"
+    },
+    {
+      "paper_id": "P25D34630",
+      "paper_title": "Analysis of mobility data to build contact networks for COVID-19",
+      "doi": "10.1371/journal.pone.0249726",
+      "provider_id": "safegraph",
+      "provider_name": "SafeGraph",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "SafeGraph"
+      ],
+      "evidence_url": "https://doi.org/10.1371/journal.pone.0249726",
+      "evidence_section": "PDF第1页 Data Availability Statement；PDF第4页 2.1 SafeGraph data；PDF第8页 2.5 Concurrent occupancy；PDF第9页 3 Results",
+      "basis": "POI每小时设备访问数、停留时长分布、访客居住CBG与CBG每小时居家设备数；聚合产品，不是直接可识别的个人轨迹。直接具名研究数据供方。；逐项列出Weekly Patterns、Social Distancing、Census、Core Places用途；跟踪app和退出定位说明见本页末段。；特别区分聚合观测与模型分配出的个体接触网络。；Bernalillo County，2020-02-10到06-08按周构网，435CBG、8000余POI、模型人口10,000。",
+      "catalog_status": "reviewed",
+      "scope": "commercial_phone_location_derivative",
+      "data_access_relationship": "supplier_aggregated_product",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_catalog_imported": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "第13轮官方PDF与JATS XML数据方法核验"
+    },
+    {
+      "paper_id": "P240AD96D",
+      "paper_title": "Insights into population behavior during the COVID-19 pandemic from cell phone mobility data and manifold learning",
+      "doi": "10.1038/s43588-021-00125-9",
+      "provider_id": "safegraph",
+      "provider_name": "SafeGraph",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "SafeGraph"
+      ],
+      "evidence_url": "https://www.nature.com/articles/s43588-021-00125-9",
+      "evidence_section": "Methods—SafeGraph mobility data，PDF第8页（刊页595）；Data availability，第9页；Discussion第7页说明第三方与应用位置来源。",
+      "basis": "作者从SafeGraph取得手机GPS来源、匿名并聚合至人口普查街区组（CBG）的社会距离数据。研究使用2020-02-23起117天、加利福尼亚/佐治亚/得克萨斯/华盛顿四州的每日居家设备比例；不是作者获取逐人原始轨迹。",
+      "catalog_status": "reviewed",
+      "scope": "commercial_phone_location_derivative",
+      "data_access_relationship": "supplier_aggregated_product",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_catalog_imported": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "第13轮Nature官方PDF及补充核验"
+    },
+    {
+      "paper_id": "P8C0DBF46",
+      "paper_title": "Partisan differences in physical distancing are linked to health outcomes during the COVID-19 pandemic",
+      "doi": "10.1038/s41562-020-00977-7",
+      "provider_id": "unacast",
+      "provider_name": "Unacast",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "Unacast"
+      ],
+      "evidence_url": "https://www.nature.com/articles/s41562-020-00977-7",
+      "evidence_section": "Methods / Physical distancing，主文PDF第10–11页；Data availability第11页；SI Supplemental Materials—Reduction in general movement and visiting nonessential services，SI PDF第7–8页（内部页6–7）。",
+      "basis": "Unacast从数千个经用户同意的应用收集GPS点，包含设备ID、时间戳和经纬度，再识别停留/出行事件并形成县级移动及非必要服务访问减少指标。作者获得县级汇总数据，不获得个人位置。样本为美国2020-03-09至05-29；最终主分析3007县移动指标、2068县非必要访问指标。",
+      "catalog_status": "reviewed",
+      "scope": "commercial_phone_location_derivative",
+      "data_access_relationship": "supplier_aggregated_product",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_catalog_imported": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "第13轮Nature官方PDF及补充核验"
     },
     {
       "paper_id": "P557B9764",
@@ -9119,36 +9207,6 @@
         "Cuebiq / Spectus"
       ],
       "evidence_url": "https://www.frontiersin.org/journals/political-science/articles/10.3389/fpos.2021.631826/full",
-      "evidence_section": "旧记录legacy_provider_claims；原文证据待核",
-      "basis": "仅来自继承供应商标签；尚未判定本文实际使用、仅讨论、仅引用或旧记录误归。",
-      "catalog_status": "pending",
-      "scope": "pending_source_screening",
-      "data_access_relationship": "unverified",
-      "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": false,
-      "zotero_attachment_verified": false,
-      "candidate_claims": [
-        "Cuebiq"
-      ],
-      "evidence_url_status": "paper_landing_link_only_not_attribution_proof"
-    },
-    {
-      "paper_id": "PEEE72CD1",
-      "paper_title": "Network percolation reveals adaptive bridges of the mobility network response to COVID-19",
-      "doi": "10.1371/journal.pone.0258868",
-      "provider_id": "cuebiq_spectus",
-      "provider_name": "Cuebiq / Spectus",
-      "status": "unresolved_candidate",
-      "classification": "unresolved_candidate",
-      "role": "unknown",
-      "roles": [
-        "unknown"
-      ],
-      "declared_brands": [
-        "Cuebiq / Spectus"
-      ],
-      "evidence_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0258868",
       "evidence_section": "旧记录legacy_provider_claims；原文证据待核",
       "basis": "仅来自继承供应商标签；尚未判定本文实际使用、仅讨论、仅引用或旧记录误归。",
       "catalog_status": "pending",
@@ -10032,36 +10090,6 @@
         "SafeGraph"
       ],
       "evidence_url": "",
-      "evidence_section": "旧记录legacy_provider_claims；原文证据待核",
-      "basis": "仅来自继承供应商标签；尚未判定本文实际使用、仅讨论、仅引用或旧记录误归。",
-      "catalog_status": "pending",
-      "scope": "pending_source_screening",
-      "data_access_relationship": "unverified",
-      "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": false,
-      "zotero_attachment_verified": false,
-      "candidate_claims": [
-        "SafeGraph"
-      ],
-      "evidence_url_status": "paper_landing_link_only_not_attribution_proof"
-    },
-    {
-      "paper_id": "P3881BAD2",
-      "paper_title": "Human mobility data and machine learning reveal geographic differences in alcohol sales and alcohol outlet visits across U.S. states during COVID-19",
-      "doi": "10.1371/journal.pone.0255757",
-      "provider_id": "safegraph",
-      "provider_name": "SafeGraph",
-      "status": "unresolved_candidate",
-      "classification": "unresolved_candidate",
-      "role": "unknown",
-      "roles": [
-        "unknown"
-      ],
-      "declared_brands": [
-        "SafeGraph"
-      ],
-      "evidence_url": "https://doi.org/10.1371/journal.pone.0255757",
       "evidence_section": "旧记录legacy_provider_claims；原文证据待核",
       "basis": "仅来自继承供应商标签；尚未判定本文实际使用、仅讨论、仅引用或旧记录误归。",
       "catalog_status": "pending",
@@ -11403,6 +11431,76 @@
       ]
     },
     {
+      "paper_id": "L55",
+      "paper_title": "融合区域嵌入表示的城市功能区识别方法",
+      "doi": "10.12082/dqxxkx.2025.240484",
+      "provider_id": "pioneer_moxing_jike",
+      "provider_name": "先锋数聚 / 摸星 / 即刻·及刻（Pioneer / Moxing / Jike）",
+      "status": "unresolved_candidate",
+      "classification": "unresolved_candidate",
+      "role": "unknown",
+      "roles": [
+        "unknown"
+      ],
+      "declared_brands": [
+        "用户关联：及刻 / Jike；原文未具名"
+      ],
+      "evidence_url": "https://www.dqxxkx.cn/CN/10.12082/dqxxkx.2025.240484",
+      "evidence_section": "PDF第7页/印刷430页§3.2",
+      "basis": "按用户人工核验合并供应商展示组，同篇去重；不作工商关系认定。 [及刻 / Jike（即刻为用户检索别名）；unresolved_candidate；unknown] 用户判断：与已具名及刻研究在城市、时间等口径一致时，关联概率可在95%以上（经验判断，非统计估计）。本篇福州2023-03-06—12被L76福州2023全年范围覆盖；同院关联团队、同基金2023YFB3906804、GPS/WiFi方式相近。L64 Cities为福州2023年1月，非同一采集周。L55原文未具名，尚无同批记录直接证据。 来源：https://www.dqxxkx.cn/CN/10.12082/dqxxkx.2025.240484",
+      "catalog_status": "reviewed",
+      "scope": "user_assessed_supplier_link_unverified",
+      "data_access_relationship": "unverified",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "round13_local_pdf_and_official_html_comparison",
+      "evidence_basis": "user_confirmed_supplier_group",
+      "grouping_basis": "user_confirmed_supplier_group",
+      "member_provider_ids": [
+        "jike"
+      ],
+      "role_statuses": {
+        "unknown": "unresolved_candidate"
+      },
+      "evidence_roles": [
+        "unknown"
+      ],
+      "evidence": [
+        {
+          "paper_id": "L55",
+          "paper_title": "融合区域嵌入表示的城市功能区识别方法",
+          "doi": "10.12082/dqxxkx.2025.240484",
+          "provider_id": "jike",
+          "provider_name": "及刻 / Jike（即刻为用户检索别名）",
+          "status": "unresolved_candidate",
+          "classification": "unresolved_candidate",
+          "role": "unknown",
+          "roles": [
+            "unknown"
+          ],
+          "declared_brands": [
+            "用户关联：及刻 / Jike；原文未具名"
+          ],
+          "evidence_url": "https://www.dqxxkx.cn/CN/10.12082/dqxxkx.2025.240484",
+          "evidence_section": "PDF第7页/印刷430页§3.2",
+          "basis": "用户判断：与已具名及刻研究在城市、时间等口径一致时，关联概率可在95%以上（经验判断，非统计估计）。本篇福州2023-03-06—12被L76福州2023全年范围覆盖；同院关联团队、同基金2023YFB3906804、GPS/WiFi方式相近。L64 Cities为福州2023年1月，非同一采集周。L55原文未具名，尚无同批记录直接证据。",
+          "catalog_status": "reviewed",
+          "scope": "user_assessed_supplier_link_unverified",
+          "data_access_relationship": "unverified",
+          "data_reuse_note": "",
+          "count_unit": "unique_study_not_independent_dataset",
+          "pdf_downloaded": true,
+          "zotero_attachment_verified": true,
+          "primary_source_audit": "round13_local_pdf_and_official_html_comparison"
+        }
+      ],
+      "evidence_urls": [
+        "https://www.dqxxkx.cn/CN/10.12082/dqxxkx.2025.240484"
+      ]
+    },
+    {
       "paper_id": "L58",
       "paper_title": "Evaluating the Quality of High-Frequency Pedestrian Commuting Streets: A Data-Driven Approach in Shenzhen",
       "doi": "10.3390/smartcities8030083",
@@ -11907,6 +12005,78 @@
       ]
     },
     {
+      "paper_id": "L79",
+      "paper_title": "极端天气影响下的人群停留行为时空扰动定量评估",
+      "doi": "10.12082/dqxxkx.2025.240596",
+      "provider_id": "pioneer_moxing_jike",
+      "provider_name": "先锋数聚 / 摸星 / 即刻·及刻（Pioneer / Moxing / Jike）",
+      "status": "unresolved_candidate",
+      "classification": "unresolved_candidate",
+      "role": "unknown",
+      "roles": [
+        "unknown"
+      ],
+      "declared_brands": [
+        "用户关联：及刻 / Jike；原文未具名"
+      ],
+      "evidence_url": "https://www.dqxxkx.cn/CN/abstract/article/1560-8999/72531",
+      "evidence_section": "PDF第7页／印刷1350页，§3.2.1手机位置数据与§3.2.2数据预处理",
+      "basis": "按用户人工核验合并供应商展示组，同篇去重；不作工商关系认定。 [及刻 / Jike（即刻为用户检索别名）；unresolved_candidate；unknown] 用户2026-10-12依据WiFi+GPS定位口径，将本研究与即刻／及刻（Jike）的关联判断设为99%。这是用户判断，不是统计估计；原文仍未具名供应商。 来源：https://www.dqxxkx.cn/CN/abstract/article/1560-8999/72531",
+      "catalog_status": "reviewed",
+      "scope": "user_assessed_supplier_link_unverified",
+      "data_access_relationship": "unverified",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_catalog_imported": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "round13_local_pdf_and_official_html_comparison",
+      "evidence_basis": "user_confirmed_supplier_group",
+      "grouping_basis": "user_confirmed_supplier_group",
+      "member_provider_ids": [
+        "jike"
+      ],
+      "role_statuses": {
+        "unknown": "unresolved_candidate"
+      },
+      "evidence_roles": [
+        "unknown"
+      ],
+      "evidence": [
+        {
+          "paper_id": "L79",
+          "paper_title": "极端天气影响下的人群停留行为时空扰动定量评估",
+          "doi": "10.12082/dqxxkx.2025.240596",
+          "provider_id": "jike",
+          "provider_name": "及刻 / Jike（即刻为用户检索别名）",
+          "status": "unresolved_candidate",
+          "classification": "unresolved_candidate",
+          "role": "unknown",
+          "roles": [
+            "unknown"
+          ],
+          "declared_brands": [
+            "用户关联：及刻 / Jike；原文未具名"
+          ],
+          "evidence_url": "https://www.dqxxkx.cn/CN/abstract/article/1560-8999/72531",
+          "evidence_section": "PDF第7页／印刷1350页，§3.2.1手机位置数据与§3.2.2数据预处理",
+          "basis": "用户2026-10-12依据WiFi+GPS定位口径，将本研究与即刻／及刻（Jike）的关联判断设为99%。这是用户判断，不是统计估计；原文仍未具名供应商。",
+          "catalog_status": "reviewed",
+          "scope": "user_assessed_supplier_link_unverified",
+          "data_access_relationship": "unverified",
+          "data_reuse_note": "",
+          "count_unit": "unique_study_not_independent_dataset",
+          "pdf_downloaded": true,
+          "zotero_catalog_imported": true,
+          "zotero_attachment_verified": true,
+          "primary_source_audit": "round13_local_pdf_and_official_html_comparison"
+        }
+      ],
+      "evidence_urls": [
+        "https://www.dqxxkx.cn/CN/abstract/article/1560-8999/72531"
+      ]
+    },
+    {
       "paper_id": "L80",
       "paper_title": "Analyzing visitor distribution and spatial characteristics in an “Internet-famous” historic district: a case study of tianzifang, shanghai",
       "doi": "10.1080/13467581.2025.2608469",
@@ -12368,6 +12538,61 @@
       "primary_source_audit": "第12轮原文数据方法关键段核验"
     },
     {
+      "paper_id": "L55",
+      "paper_title": "融合区域嵌入表示的城市功能区识别方法",
+      "doi": "10.12082/dqxxkx.2025.240484",
+      "provider_id": "jike",
+      "provider_name": "及刻 / Jike（即刻为用户检索别名）",
+      "status": "unresolved_candidate",
+      "classification": "unresolved_candidate",
+      "role": "unknown",
+      "roles": [
+        "unknown"
+      ],
+      "declared_brands": [
+        "用户关联：及刻 / Jike；原文未具名"
+      ],
+      "evidence_url": "https://www.dqxxkx.cn/CN/10.12082/dqxxkx.2025.240484",
+      "evidence_section": "PDF第7页/印刷430页§3.2",
+      "basis": "用户判断：与已具名及刻研究在城市、时间等口径一致时，关联概率可在95%以上（经验判断，非统计估计）。本篇福州2023-03-06—12被L76福州2023全年范围覆盖；同院关联团队、同基金2023YFB3906804、GPS/WiFi方式相近。L64 Cities为福州2023年1月，非同一采集周。L55原文未具名，尚无同批记录直接证据。",
+      "catalog_status": "reviewed",
+      "scope": "user_assessed_supplier_link_unverified",
+      "data_access_relationship": "unverified",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "round13_local_pdf_and_official_html_comparison"
+    },
+    {
+      "paper_id": "L79",
+      "paper_title": "极端天气影响下的人群停留行为时空扰动定量评估",
+      "doi": "10.12082/dqxxkx.2025.240596",
+      "provider_id": "jike",
+      "provider_name": "及刻 / Jike（即刻为用户检索别名）",
+      "status": "unresolved_candidate",
+      "classification": "unresolved_candidate",
+      "role": "unknown",
+      "roles": [
+        "unknown"
+      ],
+      "declared_brands": [
+        "用户关联：及刻 / Jike；原文未具名"
+      ],
+      "evidence_url": "https://www.dqxxkx.cn/CN/abstract/article/1560-8999/72531",
+      "evidence_section": "PDF第7页／印刷1350页，§3.2.1手机位置数据与§3.2.2数据预处理",
+      "basis": "用户2026-10-12依据WiFi+GPS定位口径，将本研究与即刻／及刻（Jike）的关联判断设为99%。这是用户判断，不是统计估计；原文仍未具名供应商。",
+      "catalog_status": "reviewed",
+      "scope": "user_assessed_supplier_link_unverified",
+      "data_access_relationship": "unverified",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_catalog_imported": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "round13_local_pdf_and_official_html_comparison"
+    },
+    {
       "paper_id": "L27",
       "paper_title": "Capturing socio-spatial inequality in planetary urbanisation: A multi-dimensional methodological framework",
       "doi": "10.1016/j.cities.2022.104076",
@@ -12441,18 +12666,18 @@
   "counts": {
     "catalog_studies": 149,
     "provider_nodes": 35,
-    "associations": 138,
-    "unique_studies_with_association": 113,
-    "unassigned_studies": 36,
+    "associations": 141,
+    "unique_studies_with_association": 115,
+    "unassigned_studies": 34,
     "association_counts_by_status": {
-      "confirmed_use": 62,
+      "confirmed_use": 69,
       "mention_only": 2,
-      "unresolved_candidate": 74
+      "unresolved_candidate": 70
     },
     "unique_studies_by_status": {
-      "confirmed_use": 53,
+      "confirmed_use": 60,
       "mention_only": 2,
-      "unresolved_candidate": 60
+      "unresolved_candidate": 56
     }
   },
   "linked_ecosystems": [
@@ -12602,18 +12827,6 @@
       "paper_id": "L78",
       "title": "上海环城大型公园游憩服务效用评价及规划启示",
       "doi": "10.16361/j.upf.202406004",
-      "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
-    },
-    {
-      "paper_id": "L79",
-      "title": "极端天气影响下的人群停留行为时空扰动定量评估",
-      "doi": "10.12082/dqxxkx.2025.240596",
-      "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
-    },
-    {
-      "paper_id": "P8C0DBF46",
-      "title": "Partisan differences in physical distancing are linked to health outcomes during the COVID-19 pandemic",
-      "doi": "10.1038/s41562-020-00977-7",
       "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
     },
     {

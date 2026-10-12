@@ -1,0 +1,233 @@
+{
+  "round": 13,
+  "date": "2026-10-12",
+  "scope": "吴升团队两项候选与三项具名及刻研究的原文对照",
+  "records": [
+    {
+      "catalog_id": "L48",
+      "title": "人口空间分布典型数据的时空差异",
+      "doi": "10.13284/j.cnki.rddl.20250648",
+      "journal": "热带地理",
+      "year": 2026,
+      "team": "福州大学吴升 / 赵志远关联团队",
+      "authors": [
+        "赵志远",
+        "林沁怡",
+        "邓保华",
+        "吴升",
+        "林湘如"
+      ],
+      "source_url": "https://www.rddl.com.cn/CN/10.13284/j.cnki.rddl.20250648",
+      "city": "泉州市（不含金门）",
+      "period_start": "2023-04-10",
+      "period_end": "2023-04-16",
+      "sample": "数据段未报告手机用户总数；878万为城市常住人口，不能当样本",
+      "technology": "智能手机SDK；WiFi定位、手机内置模糊定位；GPS并未在数据源段明确",
+      "location": "PDF第3页／印刷1100页，§1.2第3项及脚注③",
+      "quote": "智能手机SDK定位服务商③",
+      "provider": "isjike.com（及刻 / Jike）",
+      "named": true,
+      "pdf_available": true,
+      "pdf_sha256": "6916ff376b1cdb62250a1f5f9f0817ef8d62e74f8a5ca367a3bdd974103dcc25"
+    },
+    {
+      "catalog_id": "L55",
+      "title": "融合区域嵌入表示的城市功能区识别方法",
+      "doi": "10.12082/dqxxkx.2025.240484",
+      "journal": "地球信息科学学报",
+      "year": 2025,
+      "team": "福州大学吴升 / 赵志远关联团队",
+      "authors": [
+        "韦烨娜",
+        "吴升"
+      ],
+      "source_url": "https://www.dqxxkx.cn/CN/10.12082/dqxxkx.2025.240484",
+      "city": "福州市三环以内，鼓楼、台江、晋安和仓山区",
+      "period_start": "2023-03-06",
+      "period_end": "2023-03-12",
+      "sample": "原始约140万用户；清洗后约120万；平均35条/人/日",
+      "technology": "GPS、WIFI、蓝牙融合；误差5–50米；SDK术语未见数据来源段",
+      "location": "PDF第7页／印刷430页，§3.2与表2",
+      "quote": "手机定位数据购自第三方数据服务商",
+      "provider": "未具名第三方数据服务商",
+      "named": false,
+      "pdf_available": true,
+      "pdf_sha256": "81fa65f54ea73dcf77c17415d55e8a3ce979755e05108739983592444e2f6c5e"
+    },
+    {
+      "catalog_id": "L64",
+      "title": "Revealing socio-demographic heterogeneity in urban travel behavior under the influence of the built environment",
+      "doi": "10.1016/j.cities.2026.106983",
+      "journal": "Cities",
+      "year": 2026,
+      "team": "福州大学吴升 / 赵志远关联团队",
+      "authors": [
+        "Kunkun Fan",
+        "Xiaogang Guo",
+        "Daichao Li",
+        "Sheng Wu",
+        "Luliang Tang"
+      ],
+      "source_url": "https://www.sciencedirect.com/science/article/pii/S0264275126002155",
+      "city": "福州",
+      "period_start": "2023-01-01",
+      "period_end": "2023-01-07",
+      "sample": "约226万用户；有匿名ID、经纬度、时间和性别/年龄/相对经济水平画像",
+      "technology": "多种定位技术融合；本段未逐项说明GPS/WiFi/SDK",
+      "location": "PDF第3—4页，§3.2.1；吴升资源与数据管理贡献见第17页",
+      "quote": "provided in collaboration with Jike Technology Ltd.",
+      "provider": "Jike Technology Ltd.",
+      "named": true,
+      "pdf_available": true,
+      "pdf_sha256": "5257e418a61e29fba55cfd7517e319b906a7c3d4b1fe2f1bca4c1b191d4b275e"
+    },
+    {
+      "catalog_id": "L76",
+      "title": "基于手机数据的产业园区人群活力评价与影响因素分析",
+      "doi": "10.20117/j.jsti.202603006",
+      "journal": "时空信息学报",
+      "year": 2026,
+      "team": "福州大学吴升 / 赵志远关联团队",
+      "authors": [
+        "许润炫",
+        "赵志远"
+      ],
+      "source_url": "https://doi.org/10.20117/j.jsti.202603006",
+      "city": "福州市",
+      "period_start": "2023-01-01",
+      "period_end": "2023-12-31",
+      "sample": "日均235.67万用户、7305.78万条、31条/人/日；筛选后日均52.55万用户",
+      "technology": "手机内置GPS、WiFi等；未在数据段写SDK",
+      "location": "PDF第5—6页／印刷372—373页，§3.1(2)及表3",
+      "quote": "实验所用匿名化手机位置数据来源于及刻网站",
+      "provider": "及刻网站",
+      "named": true,
+      "pdf_available": true,
+      "pdf_sha256": "457cbfa3bba44f9044751ac40a3a764adadb6838a321b743508f14dc26b7ce15"
+    },
+    {
+      "catalog_id": "L79",
+      "title": "极端天气影响下的人群停留行为时空扰动定量评估",
+      "doi": "10.12082/dqxxkx.2025.240596",
+      "journal": "地球信息科学学报",
+      "year": 2025,
+      "team": "福州大学吴升 / 赵志远关联团队",
+      "authors": [
+        "赵志远",
+        "郑思研",
+        "吴升",
+        "宋晓晴",
+        "汪艳霞"
+      ],
+      "source_url": "https://www.dqxxkx.cn/CN/abstract/article/1560-8999/72531",
+      "city": "泉州",
+      "period_start": "2022-07-04",
+      "period_end": "2022-07-15",
+      "sample": "日均220.35万用户、6204.21万条、28条/人/日；筛选后49.12万；两周仅10个工作日",
+      "technology": "SDK多APP定位；WiFi及手机内置GPS为主",
+      "location": "PDF第7页/印刷1350页，§3.2.1；预处理§3.2.2",
+      "quote": "基于SDK手机多应用APP定位产生大规模匿名化手机位置数据",
+      "provider": "未具名",
+      "named": false,
+      "pdf_available": true,
+      "user_assessed_confidence": 0.99,
+      "user_confidence_basis": "用户2026-10-12依据WiFi+GPS定位口径，将本研究与即刻／及刻（Jike）的关联判断设为99%。这是用户判断，不是统计估计；原文仍未具名供应商。",
+      "pdf_pages": 17,
+      "pdf_sha256": "3acd5a73dac90082d8ad0647f3a179870370b57e3a1f34dcd8719831257169ba",
+      "user_assessed_provider": "即刻／及刻（Jike）",
+      "confidence_basis": "用户2026-10-12依据WiFi+GPS描述的经验判断，非统计估计；原文未具名"
+    }
+  ],
+  "comparisons": [
+    {
+      "candidate": "L55",
+      "anchor": "L76",
+      "same_city": true,
+      "candidate_period_within_anchor": true,
+      "same_exact_dataset_proven": false,
+      "matches": [
+        "福州研究范围相交",
+        "2023-03-06—12落在2023全年覆盖期内",
+        "GPS/WiFi多技术位置数据一致",
+        "同属福州大学数字中国研究院关联团队",
+        "国家重点研发计划2023YFB3906804相同"
+      ],
+      "differences": [
+        "L55限定福州三环内，L76分析福州市产业园区",
+        "用户数、记录频率及筛选规则不同，可由时空范围和清洗差异造成，但非同一底库直接证据",
+        "L55无具名供应商及SDK机制原话"
+      ],
+      "assessment": "更强的同源候选对照：同城且时段被及刻全年样本覆盖，符合用户提出的高概率关联条件；保留原文供应商未具名状态。"
+    },
+    {
+      "candidate": "L55",
+      "anchor": "L64",
+      "same_city": true,
+      "same_exact_period": false,
+      "same_exact_dataset_proven": false,
+      "matches": [
+        "均在福州",
+        "吴升为共同作者",
+        "均为匿名手机位置数据"
+      ],
+      "differences": [
+        "L55为2023年3月6—12日；L64为2023年1月1—7日",
+        "140万原始用户与226万用户不同"
+      ],
+      "assessment": "同城同年，不能称同一采集周。"
+    },
+    {
+      "candidate": "L79",
+      "anchor": "L48",
+      "same_city": true,
+      "same_exact_period": false,
+      "same_exact_dataset_proven": false,
+      "matches": [
+        "均为泉州",
+        "赵志远和吴升均为作者",
+        "均明确SDK与WiFi数据机制"
+      ],
+      "differences": [
+        "L79为2022年7月4—15日；L48为2023年4月10—16日，年份与月份均不同",
+        "L48未报告可比手机用户总数",
+        "L79没有isjike.com或及刻的原文供应商指示"
+      ],
+      "assessment": "同城同团队同技术类型的高价值候选，但尚未满足同一时间窗核对条件。"
+    },
+    {
+      "candidate": "L79",
+      "anchor": "L76",
+      "same_city": false,
+      "same_exact_period": false,
+      "same_exact_dataset_proven": false,
+      "matches": [
+        "同团队关联",
+        "位置记录以GPS/WiFi为主",
+        "筛选每天至少12小时有记录用户，再用最邻近时间法插值的规则高度一致"
+      ],
+      "differences": [
+        "泉州2022年与福州2023年不同",
+        "日均规模220.35万/235.67万及频率28/31不同"
+      ],
+      "assessment": "预处理方法高度相似增强研究数据流程关联，无法单靠处理算法唯一识别供应商。"
+    }
+  ],
+  "user_confidence_statement": {
+    "text": "用户认为两项候选非常大概率同为Jike；若城市、时间等信息相同，判断95%以上",
+    "percentage": 95,
+    "kind": "user_conditional_judgment_not_statistical_estimate",
+    "application": "此前95%以上条件性判断作为L55比较背景；L79现按用户2026-10-12最新判断更新为99%，原文仍未具名。",
+    "supplier_direct_confirmation": false
+  },
+  "zotero_read_check": {
+    "L55": "题名查询未发现独立条目；PDF已在项目本地",
+    "L79": "正式17页PDF已取得并加入Zotero；正文附件和简记均经本机接口回读验证。",
+    "L48": "已存在用户条目及PDF，用户简记准确记录泉州2023-04-10—16；保持原样"
+  },
+  "missing_pdf": [],
+  "next_actions": [
+    "将已验证17页L55现有PDF导入待核分类，避免重复下载",
+    "对L55显示高概率Jike关联（用户判断≥95%）；另保留原文未具名标记",
+    "对L79保留高优先级候选，并明确泉州2022而非2023，不迁移其他研究的具名证据"
+  ]
+}

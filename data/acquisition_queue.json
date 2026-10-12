@@ -803,37 +803,34 @@
       "title": "基于手机定位数据的西宁市老年人公园绿地可达性预测",
       "doi": "10.12118/j.issn.1000-6060.2022.672",
       "journal": "干旱区地理",
-      "catalog_status": "pending",
+      "catalog_status": "reviewed",
       "status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "current_review_complete"
       ],
-      "needs_fulltext_review": true,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
-        "https://www.geores.com.cn/ghqdl/CN/10.12118/j.issn.1000-6060.2022.672",
         "https://doi.org/10.12118/j.issn.1000-6060.2022.672"
       ],
-      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "当前关键段审读完成，按需补充附件细读"
     },
     {
       "id": "L51",
       "title": "利用轨迹数据计算典型人类活动空间特征的时间聚合效应",
       "doi": "10.13249/j.cnki.sgs.20241458",
-      "journal": "地理科学（检索题录，卷期待核）",
-      "catalog_status": "pending",
+      "journal": "地理科学",
+      "catalog_status": "reviewed",
       "status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "current_review_complete"
       ],
-      "needs_fulltext_review": true,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
         "https://doi.org/10.13249/j.cnki.sgs.20241458"
       ],
-      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "当前关键段审读完成，按需补充附件细读"
     },
     {
       "id": "L52",
@@ -1023,16 +1020,15 @@
       "journal": "Humanities and Social Sciences Communications",
       "catalog_status": "reviewed",
       "status": [
-        "pdf_acquisition"
+        "current_review_complete"
       ],
       "needs_fulltext_review": false,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
-        "https://www.nature.com/articles/s41599-023-01918-1",
         "https://doi.org/10.1057/s41599-023-01918-1"
       ],
-      "next_action": "经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "当前关键段审读完成，按需补充附件细读"
     },
     {
       "id": "L63",
@@ -1328,16 +1324,16 @@
       "journal": "地球信息科学学报",
       "catalog_status": "reviewed",
       "status": [
-        "pdf_acquisition"
+        "current_review_complete"
       ],
       "needs_fulltext_review": false,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
         "https://www.dqxxkx.cn/CN/abstract/article/1560-8999/72531",
         "https://doi.org/10.12082/dqxxkx.2025.240596"
       ],
-      "next_action": "经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "当前关键段审读完成，按需补充附件细读"
     },
     {
       "id": "L80",
@@ -1398,76 +1394,71 @@
       "title": "Insights into population behavior during the COVID-19 pandemic from cell phone mobility data and manifold learning",
       "doi": "10.1038/s43588-021-00125-9",
       "journal": "Nature Computational Science",
-      "catalog_status": "pending",
+      "catalog_status": "reviewed",
       "status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "current_review_complete"
       ],
-      "needs_fulltext_review": true,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
         "https://www.nature.com/articles/s43588-021-00125-9",
         "https://doi.org/10.1038/s43588-021-00125-9"
       ],
-      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "当前关键段审读完成，按需补充附件细读"
     },
     {
       "id": "P25D34630",
       "title": "Analysis of mobility data to build contact networks for COVID-19",
       "doi": "10.1371/journal.pone.0249726",
       "journal": "PLOS ONE",
-      "catalog_status": "pending",
+      "catalog_status": "reviewed",
       "status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "current_review_complete"
       ],
-      "needs_fulltext_review": true,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
-        "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0249726",
         "https://doi.org/10.1371/journal.pone.0249726"
       ],
-      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "当前关键段审读完成，按需补充附件细读"
     },
     {
       "id": "P3239D548",
       "title": "ODT FLOW: Extracting, analyzing, and sharing multi-source multi-scale human mobility",
       "doi": "10.1371/journal.pone.0255259",
       "journal": "PLOS ONE",
-      "catalog_status": "pending",
+      "catalog_status": "reviewed",
       "status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "current_review_complete"
       ],
-      "needs_fulltext_review": true,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
         "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0255259",
         "https://doi.org/10.1371/journal.pone.0255259"
       ],
-      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "当前关键段审读完成，按需补充附件细读"
     },
     {
       "id": "PD4F8B912",
       "title": "Change of human mobility during COVID-19: A United States case study",
       "doi": "10.1371/journal.pone.0259031",
       "journal": "PLOS ONE",
-      "catalog_status": "pending",
+      "catalog_status": "reviewed",
       "status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "current_review_complete"
       ],
-      "needs_fulltext_review": true,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
         "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0259031",
         "https://doi.org/10.1371/journal.pone.0259031"
       ],
-      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "当前关键段审读完成，按需补充附件细读"
     },
     {
       "id": "P557B9764",
@@ -1605,19 +1596,18 @@
       "title": "Network percolation reveals adaptive bridges of the mobility network response to COVID-19",
       "doi": "10.1371/journal.pone.0258868",
       "journal": "PLOS ONE",
-      "catalog_status": "pending",
+      "catalog_status": "reviewed",
       "status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "current_review_complete"
       ],
-      "needs_fulltext_review": true,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
         "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0258868",
         "https://doi.org/10.1371/journal.pone.0258868"
       ],
-      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "当前关键段审读完成，按需补充附件细读"
     },
     {
       "id": "P76B9708A",
@@ -1756,19 +1746,18 @@
       "title": "Partisan differences in physical distancing are linked to health outcomes during the COVID-19 pandemic",
       "doi": "10.1038/s41562-020-00977-7",
       "journal": "Nature Human Behaviour",
-      "catalog_status": "pending",
+      "catalog_status": "reviewed",
       "status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "current_review_complete"
       ],
-      "needs_fulltext_review": true,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
-        "https://www.nature.com/articles/s41562-020-00977-7.pdf",
+        "https://www.nature.com/articles/s41562-020-00977-7",
         "https://doi.org/10.1038/s41562-020-00977-7"
       ],
-      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "当前关键段审读完成，按需补充附件细读"
     },
     {
       "id": "P9729F216",
@@ -1794,19 +1783,18 @@
       "title": "On the privacy-conscientious use of mobile phone data",
       "doi": "10.1038/sdata.2018.286",
       "journal": "Scientific Data",
-      "catalog_status": "pending",
+      "catalog_status": "reviewed",
       "status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "current_review_complete"
       ],
-      "needs_fulltext_review": true,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
         "https://www.nature.com/articles/sdata2018286",
         "https://doi.org/10.1038/sdata.2018.286"
       ],
-      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "当前关键段审读完成，按需补充附件细读"
     },
     {
       "id": "PC3073275",
@@ -2060,18 +2048,17 @@
       "title": "Unravelling the spatial directionality of urban mobility",
       "doi": "10.1038/s41467-024-48909-7",
       "journal": "Nature Communications",
-      "catalog_status": "pending",
+      "catalog_status": "reviewed",
       "status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "current_review_complete"
       ],
-      "needs_fulltext_review": true,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
         "https://doi.org/10.1038/s41467-024-48909-7"
       ],
-      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "当前关键段审读完成，按需补充附件细读"
     },
     {
       "id": "P214FEF72",
@@ -2114,18 +2101,18 @@
       "title": "Human mobility data and machine learning reveal geographic differences in alcohol sales and alcohol outlet visits across U.S. states during COVID-19",
       "doi": "10.1371/journal.pone.0255757",
       "journal": "PLOS ONE",
-      "catalog_status": "pending",
+      "catalog_status": "reviewed",
       "status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "current_review_complete"
       ],
-      "needs_fulltext_review": true,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
+        "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0255757",
         "https://doi.org/10.1371/journal.pone.0255757"
       ],
-      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "当前关键段审读完成，按需补充附件细读"
     },
     {
       "id": "PFDDDACD2",

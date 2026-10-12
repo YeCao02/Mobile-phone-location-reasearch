@@ -86,7 +86,7 @@ def public_data(source):
     use_roles = {'mobility', 'mixed_mobility', 'platform_aggregate', 'demographic_profile'}
     pioneer_ids = {a['paper_id'] for a in usage['associations'] if a['provider_id'] == 'pioneer_moxing_jike' and a['status'] == 'confirmed_use'}
     analog_papers = {a['paper_id'] for a in usage['associations'] if a['provider_id'] in analog_ids and a['status'] == 'confirmed_use' and set(a.get('roles') or [a.get('role')]) & use_roles} - pioneer_ids
-    omitted_scopes = {'map_platform', 'carrier_boundary', 'indoor_wifi_boundary'}
+    omitted_scopes = {'map_platform', 'carrier_boundary', 'indoor_wifi_boundary', 'non_empirical_context'}
     omitted = {r['id'] for r in papers if r.get('research_scope') in omitted_scopes} - pioneer_ids - analog_papers
     # Other already-identified data sources do not become candidates again.
     known_other = {a['paper_id'] for a in usage['associations'] if a['status'] == 'confirmed_use' and set(a.get('roles') or [a.get('role')]) & use_roles} | {r['id'] for r in papers if r.get('source_confirmed') is True}
