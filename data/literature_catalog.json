@@ -6915,7 +6915,7 @@
       "sdk_explicit": false,
       "sensor_mix": "待原文核实；不可据品牌认定定位技术",
       "pdf_downloaded": true,
-      "zotero_attachment_verified": false,
+      "zotero_attachment_verified": true,
       "notes": "供应商、数据形式及研究结论的旧标签均待原始文献复核。",
       "catalog_status": "pending",
       "origins": [
@@ -6952,6 +6952,7 @@
       "scope_tag": "pending_source_screening",
       "pdf_source_url": "https://par.nsf.gov/servlets/purl/10316717",
       "pdf_sha256": "ac1b11bf2f86962f9a34d1e0d6570c39f91262dea38bb161f9fb3a1d3d6357f6",
+      "zotero_attachment_scope": "main_pdf",
       "download_queue_status": [
         "needs_fulltext_review"
       ]
@@ -7083,7 +7084,7 @@
       "sdk_explicit": false,
       "sensor_mix": "待原文核实；不可据品牌认定定位技术",
       "pdf_downloaded": true,
-      "zotero_attachment_verified": false,
+      "zotero_attachment_verified": true,
       "notes": "供应商、数据形式及研究结论的旧标签均待原始文献复核。",
       "catalog_status": "pending",
       "origins": [
@@ -7120,6 +7121,7 @@
       "scope_tag": "pending_source_screening",
       "pdf_source_url": "https://agile-giss.copernicus.org/articles/4/36/2023/agile-giss-4-36-2023.pdf",
       "pdf_sha256": "1dcd6d765ecab3dbeef6762137695feb62f9699e45b49e2831370059d9a98db7",
+      "zotero_attachment_scope": "main_pdf",
       "download_queue_status": [
         "needs_fulltext_review"
       ]
@@ -7205,7 +7207,7 @@
       "sdk_explicit": false,
       "sensor_mix": "待原文核实；不可据品牌认定定位技术",
       "pdf_downloaded": true,
-      "zotero_attachment_verified": false,
+      "zotero_attachment_verified": true,
       "notes": "供应商、数据形式及研究结论的旧标签均待原始文献复核。",
       "catalog_status": "pending",
       "origins": [
@@ -7239,6 +7241,7 @@
       "scope_tag": "review_or_methodological_context",
       "pdf_source_url": "https://www.machineintelligencelab.ai/papers/epj26_impact_federated_data.pdf",
       "pdf_sha256": "e8e347b8544d6e906c61197a7163ff81fb6e660e5c732acc9c7ef7dd31bbd05c",
+      "zotero_attachment_scope": "main_pdf",
       "download_queue_status": [
         "needs_fulltext_review"
       ]
@@ -7264,7 +7267,7 @@
       "sdk_explicit": false,
       "sensor_mix": "待原文核实；不可据品牌认定定位技术",
       "pdf_downloaded": true,
-      "zotero_attachment_verified": false,
+      "zotero_attachment_verified": true,
       "notes": "供应商、数据形式及研究结论的旧标签均待原始文献复核。",
       "catalog_status": "pending",
       "origins": [
@@ -7299,6 +7302,7 @@
       "scope_tag": "pending_source_screening",
       "pdf_source_url": "https://www.frontiersin.org/journals/political-science/articles/10.3389/fpos.2021.631826/pdf",
       "pdf_sha256": "d08b72916b4e3e326d045719064b5f714a7e8923e4d00f1a26a2d0d4a456f9be",
+      "zotero_attachment_scope": "main_pdf",
       "download_queue_status": [
         "needs_fulltext_review"
       ]
@@ -7522,7 +7526,7 @@
       "sdk_explicit": false,
       "sensor_mix": "待原文核实；不可据品牌认定定位技术",
       "pdf_downloaded": true,
-      "zotero_attachment_verified": false,
+      "zotero_attachment_verified": true,
       "notes": "供应商、数据形式及研究结论的旧标签均待原始文献复核。",
       "catalog_status": "pending",
       "origins": [
@@ -7561,6 +7565,7 @@
       "scope_tag": "pending_source_screening",
       "pdf_source_url": "https://link.springer.com/content/pdf/10.1140/epjds/s13688-025-00532-2.pdf",
       "pdf_sha256": "8c18f82411fa0eb6d1568081a1f0322039ddc0ac1d68ae8d16d58e0528ede328",
+      "zotero_attachment_scope": "main_pdf",
       "download_queue_status": [
         "needs_fulltext_review"
       ]
@@ -7892,7 +7897,7 @@
       "sdk_explicit": false,
       "sensor_mix": "待原文核实；不可据品牌认定定位技术",
       "pdf_downloaded": true,
-      "zotero_attachment_verified": false,
+      "zotero_attachment_verified": true,
       "notes": "供应商、数据形式及研究结论的旧标签均待原始文献复核。",
       "catalog_status": "pending",
       "origins": [
@@ -7926,6 +7931,7 @@
       "bibliographic_note": "2026-10-13 全文入口核对：原DOI有效，Springer出版商页面、Lund作者机构正式出版记录及德国国家图书馆原刊PDF首页均与原题名一致。问题在旧evidence_url链接的是另一题名2020工作论文，不应继续作此2022论文全文。本文为文献综述，摘要明确侧重CDR；不应视为某供应商原始实证研究。",
       "pdf_source_url": "https://d-nb.info/1268095893/34",
       "pdf_sha256": "0b11a2c602bf847c4c3482e2b7764144fd8e0bb6dafbc761fe3c0714874e40f1",
+      "zotero_attachment_scope": "main_pdf",
       "download_queue_status": [
         "needs_fulltext_review"
       ]
@@ -8039,7 +8045,7 @@
       "sdk_explicit": false,
       "sensor_mix": "待原文核实；不可据品牌认定定位技术",
       "pdf_downloaded": true,
-      "zotero_attachment_verified": false,
+      "zotero_attachment_verified": true,
       "notes": "供应商、数据形式及研究结论的旧标签均待原始文献复核。",
       "catalog_status": "pending",
       "origins": [
@@ -8068,6 +8074,7 @@
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
       "pdf_source_url": "https://arxiv.org/pdf/2004.11430",
       "pdf_sha256": "db93e311ccb4e6cf715ec8eccdf414367ebf68ecbcedeaeed1823cad552aeee9",
+      "zotero_attachment_scope": "main_pdf",
       "download_queue_status": [
         "needs_fulltext_review"
       ]
@@ -8093,7 +8100,7 @@
       "sdk_explicit": false,
       "sensor_mix": "待原文核实；不可据品牌认定定位技术",
       "pdf_downloaded": true,
-      "zotero_attachment_verified": false,
+      "zotero_attachment_verified": true,
       "notes": "供应商、数据形式及研究结论的旧标签均待原始文献复核。",
       "catalog_status": "pending",
       "origins": [
@@ -8129,6 +8136,7 @@
       "scope_tag": "pending_source_screening",
       "pdf_source_url": "https://cdn.elifesciences.org/articles/80466/elife-80466-v2.pdf",
       "pdf_sha256": "32cb9409814ca0a367ea21a7a8374a1d91bc1125cc3fdc1127f56984faad314e",
+      "zotero_attachment_scope": "main_pdf",
       "download_queue_status": [
         "needs_fulltext_review"
       ]
@@ -8585,7 +8593,7 @@
       "sdk_explicit": false,
       "sensor_mix": "待原文核实；不可据品牌认定定位技术",
       "pdf_downloaded": true,
-      "zotero_attachment_verified": false,
+      "zotero_attachment_verified": true,
       "notes": "供应商、数据形式及研究结论的旧标签均待原始文献复核。",
       "catalog_status": "pending",
       "origins": [
@@ -8621,6 +8629,7 @@
         "Yang Yang",
         "Ali Mostafavi"
       ],
+      "zotero_attachment_scope": "main_pdf",
       "download_queue_status": [
         "needs_fulltext_review"
       ]
@@ -8748,7 +8757,7 @@
       "sdk_explicit": false,
       "sensor_mix": "待原文核实；不可据品牌认定定位技术",
       "pdf_downloaded": true,
-      "zotero_attachment_verified": false,
+      "zotero_attachment_verified": true,
       "notes": "供应商、数据形式及研究结论的旧标签均待原始文献复核。",
       "catalog_status": "pending",
       "origins": [
@@ -8778,6 +8787,7 @@
         "Matthew Alexander Ho",
         "Ali Mostafavi"
       ],
+      "zotero_attachment_scope": "main_pdf",
       "download_queue_status": [
         "needs_fulltext_review"
       ]
@@ -8872,7 +8882,7 @@
       "sdk_explicit": false,
       "sensor_mix": "待原文核实；不可据品牌认定定位技术",
       "pdf_downloaded": false,
-      "zotero_attachment_verified": false,
+      "zotero_attachment_verified": true,
       "notes": "供应商、数据形式及研究结论的旧标签均待原始文献复核。",
       "catalog_status": "pending",
       "origins": [
@@ -8905,6 +8915,7 @@
         "Zhewei Liu",
         "Ali Mostafavi"
       ],
+      "zotero_attachment_scope": "supplement_only",
       "download_queue_status": [
         "needs_fulltext_review",
         "pdf_acquisition"
@@ -8931,7 +8942,7 @@
       "sdk_explicit": false,
       "sensor_mix": "待原文核实；不可据品牌认定定位技术",
       "pdf_downloaded": false,
-      "zotero_attachment_verified": false,
+      "zotero_attachment_verified": true,
       "notes": "供应商、数据形式及研究结论的旧标签均待原始文献复核。",
       "catalog_status": "pending",
       "origins": [
@@ -8960,6 +8971,7 @@
         "Weiyu Li",
         "Qi R. Wang"
       ],
+      "zotero_attachment_scope": "supplement_only",
       "download_queue_status": [
         "needs_fulltext_review",
         "pdf_acquisition"
@@ -9071,7 +9083,7 @@
       "sdk_explicit": false,
       "sensor_mix": "待原文核实；不可据品牌认定定位技术",
       "pdf_downloaded": true,
-      "zotero_attachment_verified": false,
+      "zotero_attachment_verified": true,
       "notes": "供应商、数据形式及研究结论的旧标签均待原始文献复核。",
       "catalog_status": "pending",
       "origins": [
@@ -9107,6 +9119,7 @@
         "Ramesh Kolluru",
         "Ziad Ashkar"
       ],
+      "zotero_attachment_scope": "main_pdf",
       "download_queue_status": [
         "needs_fulltext_review"
       ]
@@ -9132,7 +9145,7 @@
       "sdk_explicit": false,
       "sensor_mix": "待原文核实；不可据品牌认定定位技术",
       "pdf_downloaded": true,
-      "zotero_attachment_verified": false,
+      "zotero_attachment_verified": true,
       "notes": "供应商、数据形式及研究结论的旧标签均待原始文献复核。",
       "catalog_status": "pending",
       "origins": [
@@ -9168,6 +9181,7 @@
         "Jorrit de Jong",
         "Michelle Kondo"
       ],
+      "zotero_attachment_scope": "main_pdf",
       "download_queue_status": [
         "needs_fulltext_review"
       ]
@@ -9294,7 +9308,7 @@
       "sdk_explicit": false,
       "sensor_mix": "待原文核实；不可据品牌认定定位技术",
       "pdf_downloaded": true,
-      "zotero_attachment_verified": false,
+      "zotero_attachment_verified": true,
       "notes": "供应商、数据形式及研究结论的旧标签均待原始文献复核。",
       "catalog_status": "pending",
       "origins": [
@@ -9326,6 +9340,7 @@
         "Bo Yang",
         "Haiquan Li"
       ],
+      "zotero_attachment_scope": "main_pdf",
       "download_queue_status": [
         "needs_fulltext_review"
       ]
@@ -10217,7 +10232,7 @@
       "sdk_explicit": false,
       "sensor_mix": "待原文核实；不可据品牌认定定位技术",
       "pdf_downloaded": true,
-      "zotero_attachment_verified": false,
+      "zotero_attachment_verified": true,
       "notes": "供应商、数据形式及研究结论的旧标签均待原始文献复核。",
       "catalog_status": "pending",
       "origins": [
@@ -10257,6 +10272,7 @@
         "Jure Leskovec",
         "Madhav Marathe"
       ],
+      "zotero_attachment_scope": "main_pdf",
       "download_queue_status": [
         "needs_fulltext_review"
       ]
@@ -10385,7 +10401,7 @@
       "sdk_explicit": false,
       "sensor_mix": "待原文核实；不可据品牌认定定位技术",
       "pdf_downloaded": true,
-      "zotero_attachment_verified": false,
+      "zotero_attachment_verified": true,
       "notes": "供应商、数据形式及研究结论的旧标签均待原始文献复核。",
       "catalog_status": "pending",
       "origins": [
@@ -10419,6 +10435,7 @@
         "Yanhua Li",
         "Xiaowei Jia"
       ],
+      "zotero_attachment_scope": "main_pdf",
       "download_queue_status": [
         "needs_fulltext_review"
       ]
@@ -10444,7 +10461,7 @@
       "sdk_explicit": false,
       "sensor_mix": "待原文核实；不可据品牌认定定位技术",
       "pdf_downloaded": true,
-      "zotero_attachment_verified": false,
+      "zotero_attachment_verified": true,
       "notes": "供应商、数据形式及研究结论的旧标签均待原始文献复核。",
       "catalog_status": "pending",
       "origins": [
@@ -10478,6 +10495,7 @@
         "Pan Hui",
         "Yong Li"
       ],
+      "zotero_attachment_scope": "main_pdf",
       "download_queue_status": [
         "needs_fulltext_review"
       ]
