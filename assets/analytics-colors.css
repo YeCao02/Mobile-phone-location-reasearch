@@ -1,3 +1,10 @@
 /* Brighter categorical hues; white plot background and dark labels. */
 :root,body{--ds-chart-series-blue:#357AF0!important;--ds-chart-series-orange:#F49B35!important;--ds-chart-series-green:#20B49B!important;--ds-chart-series-purple:#9371DB!important;--ds-chart-series-red:#EA6374!important;--ds-chart-series-pink:#E78AC3!important;--ds-chart-series-yellow:#EDC84B!important;--ds-chart-series-neutral:#76ADCA!important;--ds-blue:#357AF0!important;--ds-chart-sequential-1:#357AF0!important;--ds-chart-sequential-9:#357AF0!important;}
 .chart-legend-button{opacity:1!important;color:#37465b!important}.chart-legend-button[aria-pressed=true]{font-weight:700}
+
+/* Round21 two-row legends */
+.chart-legend-wrap--bottom{width:100%;padding:12px 16px;box-sizing:border-box}
+.chart-legend-wrap--bottom .chart-legend{display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px 20px;width:100%;max-width:1000px;margin:0 auto!important;padding:0!important}
+.chart-legend-item{min-width:0}.chart-legend-button{font-size:14px!important;line-height:1.4!important;white-space:normal!important;text-align:left;justify-content:flex-start!important;align-items:flex-start!important;gap:8px!important;max-width:100%}
+.chart-legend-dot{width:11px!important;height:11px!important;flex-shrink:0;margin-top:4px}
+@media(max-width:580px){.chart-legend-wrap--bottom .chart-legend{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.chart-legend-button{font-size:13px!important}}

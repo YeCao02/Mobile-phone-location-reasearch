@@ -15,3 +15,20 @@ body{font-size:15px}.main{max-width:1660px}.brand small{font-size:10px}.rail-bot
 #next{--section-accent:#b36712;--section-soft:#ffe6b7;--section-surface:#fff9ed;--section-line:#f3d096}
 .nav a[href="#evolution"]{--nav-accent:#2869d8;--nav-soft:#dceaff}.nav a[href="#data-products"]{--nav-accent:#7955c6;--nav-soft:#e9e0fb}.nav a[href="#providers"]{--nav-accent:#2875dc;--nav-soft:#e0edff}.nav a[href="#china"]{--nav-accent:#05816f;--nav-soft:#cdf3e8}.nav a[href="#next"]{--nav-accent:#a95d0b;--nav-soft:#ffe6b7}
 .metric:nth-child(1) b{color:#357af0}.metric:nth-child(2) b{color:#059b81}.metric:nth-child(3) b{color:#ce7917}.profile-card,.stream-card,.paper-card{box-shadow:0 2px 7px #203b5c06}
+
+/* Round21 reading hierarchy */
+.paper-card .journal{font-size:15px;font-weight:750;line-height:1.55;margin-top:14px;color:var(--section-accent)}
+#pioneer-data{--section-accent:#0c7185;--section-soft:#d8eff5;--section-surface:#f2fafc;--section-line:#b9dce6;background:#f2fafc;border:1px solid #b9dce6;border-top:4px solid #16859c;padding:20px;margin:22px 0 30px}
+#pioneer-data>.subsection-heading{margin-top:0;color:#0c6578}
+#china .research-divider{background:#d9eddf;border-top:4px solid #328455;padding:16px 20px;margin-top:30px}
+#china .research-divider .subsection-heading{color:#235b38;margin:0 0 8px}
+#china-list{--section-accent:#28623e;--section-soft:#dbeede;--section-line:#b8d7bd}
+.pioneer-profile>.pipeline{align-items:start;grid-template-columns:repeat(2,minmax(0,1fr))}.pioneer-profile>.pipeline>.pipeline-wide{grid-column:span 2}
+.pioneer-profile>.pipeline>.alias-card{background:#eee7fc;border-top:3px solid #8d67c8}
+.pioneer-profile>.pipeline>.alias-card:before{color:#744cae}
+.pioneer-profile>.pipeline>.vocabulary-card{background:#fff0d9;border-top:3px solid #d49734}
+.pioneer-profile>.pipeline>.vocabulary-card:before{color:#a66c15}
+.alias-groups,.vocabulary-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:14px 0}.alias-group,.vocabulary-item{padding:12px;background:#ffffffb8;min-width:0}
+.alias-group b,.vocabulary-item b{font-size:14px}.alias-group p,.vocabulary-item p{font-size:13px;line-height:1.75;margin:7px 0}.vocabulary-keywords{color:#62523b;overflow-wrap:anywhere}.vocabulary-refs{font-size:12px;font-weight:650}.vocabulary-refs a{color:#805718}
+@media(max-width:760px){#pioneer-data{padding:15px}.paper-card .journal{font-size:14px}.alias-groups,.vocabulary-grid{grid-template-columns:1fr}}
+@media(max-width:430px){.pioneer-profile>.pipeline{grid-template-columns:1fr}.pioneer-profile>.pipeline>.pipeline-wide{grid-column:span 1}}

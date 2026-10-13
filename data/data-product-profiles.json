@@ -280,10 +280,12 @@
     "pipeline": [
       {
         "title": "终端采集",
-        "text": "具名梦享论文描述与手机厂商合作，将 SDK 嵌入手机系统，并在用户同意许可后获取位置。",
+        "text": "与手机厂商合作，将 SDK 嵌入国行安卓手机系统，并在用户同意许可后获取位置。",
         "source_ids": [
+          "P19-S1",
           "P19-S2",
-          "P19-S3"
+          "P19-S3",
+          "P21-USER"
         ]
       },
       {
@@ -465,7 +467,95 @@
         "url": "https://doi.org/10.1038/s44360-026-00100-6",
         "section": "Methods / Data（PDF 第 6 页），Data availability / Ethics（第 9 页）",
         "type": "verified_fulltext_and_supplement"
+      },
+      {
+        "id": "P21-USER",
+        "title": "用户补充：国行安卓终端范围及关联品牌关系",
+        "type": "user_provided_confirmation",
+        "section": "2026-10-13；同一资方、同一数据来源及竞争关系按用户提供信息整理"
       }
-    ]
+    ],
+    "brand_relationship": {
+      "title": "关联品牌与公司名称",
+      "summary": "按用户提供的供应商信息：及刻与先锋同一资方、同一数据来源，同时存在一定竞争关系；在本库中作为互相关联的品牌／“马甲”追踪。",
+      "groups": [
+        {
+          "title": "先锋数聚一侧",
+          "names": "先锋数聚（Pioneer Data）／北京先锋数聚信息科技有限公司；摸星科技（Moxing Technology、Moxing Beijing）。"
+        },
+        {
+          "title": "及刻一侧",
+          "names": "及刻（Jike、isjike.com）；梦享（广州市梦享网络技术有限公司，Guangzhou Mengxiang Network Technology Co., Ltd.）。"
+        }
+      ],
+      "note": "关联关系依据：用户提供信息；论文仍保留实际署名。"
+    },
+    "declaration_vocabulary": {
+      "title": "论文怎样称呼这些数据",
+      "intro": "从本库 Zotero“先锋/摸星/jike数据”简记中的声明整理；英文检索词为相应用语或同义组合。",
+      "items": [
+        {
+          "label": "LBS／手机定位数据",
+          "wording": "“2020年GPS精度的手机LBS数据”；“手机定位数据 (LBS)”",
+          "keywords": "LBS data · mobile phone location data · smartphone positioning data",
+          "paper_ids": [
+            "L28",
+            "L78",
+            "L84"
+          ]
+        },
+        {
+          "label": "手机 ROM-SDK／内置 SDK",
+          "wording": "“手机ROM-SDK数据”；“基于安卓系统智能手机内置 SDK 插件的位置数据”",
+          "keywords": "ROM-SDK · embedded SDK · Android LBS",
+          "paper_ids": [
+            "L74",
+            "L78"
+          ]
+        },
+        {
+          "label": "GPS + Wi-Fi／多源融合",
+          "wording": "“定位方式以 WIFI 定位和手机内置 GPS 方式为主”；“融合了 GPS、WIFI 和蓝牙等多种技术”",
+          "keywords": "GPS + WiFi data · Wi-Fi / Bluetooth / GPS",
+          "paper_ids": [
+            "L79",
+            "L55",
+            "L25"
+          ]
+        },
+        {
+          "label": "SDK 服务／手机通讯服务运营商",
+          "wording": "“手机通讯服务运营商通过软件开发工具包…采集”；获得用户明确许可的 SDK 服务",
+          "keywords": "SDK services · explicit user consent · mobile phone data",
+          "paper_ids": [
+            "L57",
+            "L59"
+          ]
+        },
+        {
+          "label": "场景数据／场景流 POI",
+          "wording": "“场景流POI数据”；场景数据与计时报告数据；WiFi 接收器连接 POI 路由器产生的记录",
+          "keywords": "scene data · POI records · timing report · WiFi connection",
+          "paper_ids": [
+            "L77",
+            "L68",
+            "L59"
+          ]
+        },
+        {
+          "label": "具名供应商／平台",
+          "wording": "Moxing Beijing；Moxing Technology；Jike Platform／Jike Open Platform；Guangzhou Mengxiang",
+          "keywords": "Pioneer Data · Moxing · isjike.com · Guangzhou Mengxiang",
+          "paper_ids": [
+            "L21",
+            "L25",
+            "L29",
+            "L80",
+            "L88"
+          ]
+        }
+      ],
+      "note": "上述表述用于扩展检索；“手机通讯服务运营商”须结合 SDK、字段和定位方法阅读，不能仅据这一称呼判作三大运营商信令。GPS + WiFi 为检索组合，不表示每篇论文均逐字使用此英文写法。"
+    }
   }
 }
