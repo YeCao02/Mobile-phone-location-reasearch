@@ -1417,16 +1417,16 @@
       "journal": "Ecological Indicators",
       "catalog_status": "reviewed",
       "status": [
-        "pdf_acquisition"
+        "current_review_complete"
       ],
       "needs_fulltext_review": false,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
         "https://www.sciencedirect.com/science/article/pii/S1470160X24008604",
         "https://doi.org/10.1016/j.ecolind.2024.112403"
       ],
-      "next_action": "经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "当前关键段审读完成，按需补充附件细读"
     },
     {
       "id": "P240AD96D",

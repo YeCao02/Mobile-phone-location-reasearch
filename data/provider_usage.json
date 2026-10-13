@@ -13700,7 +13700,7 @@
       "count_unit": "unique_study_not_independent_dataset",
       "pdf_downloaded": true,
       "zotero_catalog_imported": true,
-      "zotero_attachment_verified": false,
+      "zotero_attachment_verified": true,
       "primary_source_audit": "全文JATS数据声明及供应商官方隐私政策",
       "evidence_basis": "user_confirmed_supplier_group",
       "grouping_basis": "user_confirmed_supplier_group",
@@ -13740,7 +13740,7 @@
           "count_unit": "unique_study_not_independent_dataset",
           "pdf_downloaded": true,
           "zotero_catalog_imported": true,
-          "zotero_attachment_verified": false,
+          "zotero_attachment_verified": true,
           "primary_source_audit": "全文JATS数据声明及供应商官方隐私政策"
         }
       ],
@@ -13773,7 +13773,7 @@
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
       "pdf_downloaded": true,
-      "zotero_attachment_verified": false,
+      "zotero_attachment_verified": true,
       "primary_source_audit": "出版社全文具名、SDK采集机制及及刻官方法人对应",
       "evidence_basis": "user_confirmed_supplier_group",
       "grouping_basis": "user_confirmed_supplier_group",
@@ -13812,7 +13812,7 @@
           "data_reuse_note": "",
           "count_unit": "unique_study_not_independent_dataset",
           "pdf_downloaded": true,
-          "zotero_attachment_verified": false,
+          "zotero_attachment_verified": true,
           "primary_source_audit": "出版社全文具名、SDK采集机制及及刻官方法人对应"
         }
       ],
@@ -13844,8 +13844,8 @@
       "data_access_relationship": "commercial_source_dataset",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": false,
-      "zotero_attachment_verified": false,
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
       "primary_source_audit": "出版社全文具名、SDK采集机制及及刻官方法人对应",
       "evidence_basis": "user_confirmed_supplier_group",
       "grouping_basis": "user_confirmed_supplier_group",
@@ -13883,8 +13883,8 @@
           "data_access_relationship": "commercial_source_dataset",
           "data_reuse_note": "",
           "count_unit": "unique_study_not_independent_dataset",
-          "pdf_downloaded": false,
-          "zotero_attachment_verified": false,
+          "pdf_downloaded": true,
+          "zotero_attachment_verified": true,
           "primary_source_audit": "出版社全文具名、SDK采集机制及及刻官方法人对应"
         }
       ],
@@ -14307,7 +14307,7 @@
       "count_unit": "unique_study_not_independent_dataset",
       "pdf_downloaded": true,
       "zotero_catalog_imported": true,
-      "zotero_attachment_verified": false,
+      "zotero_attachment_verified": true,
       "primary_source_audit": "全文JATS数据声明及供应商官方隐私政策"
     },
     {
@@ -14335,7 +14335,7 @@
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
       "pdf_downloaded": true,
-      "zotero_attachment_verified": false,
+      "zotero_attachment_verified": true,
       "primary_source_audit": "出版社全文具名、SDK采集机制及及刻官方法人对应"
     },
     {
@@ -14362,8 +14362,8 @@
       "data_access_relationship": "commercial_source_dataset",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": false,
-      "zotero_attachment_verified": false,
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
       "primary_source_audit": "出版社全文具名、SDK采集机制及及刻官方法人对应"
     },
     {

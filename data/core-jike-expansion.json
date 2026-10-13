@@ -21,8 +21,9 @@
   "new_confirmed_lbs_awards": 1,
   "new_proposed_model_service_awards": 1,
   "pdfs_completed": [
+    "L87",
     "L83",
-    "L87"
+    "L88"
   ],
   "procurement_source_ids": [
     "R18-PROC-01",
@@ -33,138 +34,142 @@
     "中山大学": "单位名称加摸星/Moxing检索，本轮未取得新增论文来源声明；保留用户合作线索"
   },
   "remarks": {
-    "status": "审核完成；Zotero原生授权等待600秒后到期，尚未写入",
+    "status": "核心分类简记已修正并逐条读回，三份PDF已导入并校验",
     "audited_count": 25,
     "prepared_remark_count": 12,
-    "updated_remark_count": 0,
+    "updated_remark_count": 12,
     "preserved_user_remark_count": 13,
-    "unchanged_parent_count": 25,
-    "prepared_pdf_count": 2,
-    "imported_pdf_count": 0,
+    "prepared_pdf_count": 3,
+    "imported_pdf_count": 3,
+    "conflict_count": 0,
     "records": [
       {
         "id": "L87",
         "title": "Urban park green space use analysis based on trajectory big data: Experience from a medium–sized city in China",
-        "status": "简记格式与原文已核，待Zotero授权写入"
+        "status": "remark updated and read back"
       },
       {
         "id": "L88",
         "title": "Framework for analyzing the relationship between supply, demand, and flow of recreational services in urban park green spaces",
-        "status": "简记格式与原文已核，待Zotero授权写入"
+        "status": "remark updated and read back"
       },
       {
         "id": "L83",
         "title": "Do hypothetical and actual service distances align for urban fringe parks? An investigation of Shanghai using big data",
-        "status": "简记格式与原文已核，待Zotero授权写入"
+        "status": "remark updated and read back"
       },
       {
         "id": "L80",
         "title": "Analyzing visitor distribution and spatial characteristics in an “Internet-famous” historic district: a case study of tianzifang, shanghai",
-        "status": "简记格式与原文已核，待Zotero授权写入"
+        "status": "remark updated and read back"
       },
       {
         "id": "L55",
         "title": "融合区域嵌入表示的城市功能区识别方法",
-        "status": "简记格式与原文已核，待Zotero授权写入"
+        "status": "remark updated and read back"
       },
       {
         "id": "L79",
         "title": "极端天气影响下的人群停留行为时空扰动定量评估",
-        "status": "简记格式与原文已核，待Zotero授权写入"
+        "status": "remark updated and read back"
       },
       {
         "id": "L27",
         "title": "Capturing socio-spatial inequality in planetary urbanisation: A multi-dimensional methodological framework",
-        "status": "简记格式与原文已核，待Zotero授权写入"
+        "status": "remark updated and read back"
       },
       {
         "id": "L28",
         "title": "城市规划中的“通勤”概念辨析及“通勤阈值”界定探讨",
-        "status": "简记格式与原文已核，待Zotero授权写入"
+        "status": "remark updated and read back"
       },
       {
         "id": "L34",
         "title": "空间需求订制的“产城融合”规划——以上海临港新城为例",
-        "status": "简记格式与原文已核，待Zotero授权写入"
+        "status": "remark updated and read back"
       },
       {
         "id": "DATASET:10.3974/geodb.2026.02.08.V1",
         "title": "1-km Hourly Raster Dataset of PM 2.5 Exposure Equality in Six Cities of China from the Trajectory Data Perspective (Jan.-Feb. 2023)",
-        "status": "简记格式与原文已核，待Zotero授权写入"
+        "status": "remark updated and read back"
       },
       {
         "id": "L29",
         "title": "Rapid community response and resilience to typhoon Doksuri in coastal Fujian: insights from large-scale human mobility data",
-        "status": "简记格式与原文已核，待Zotero授权写入"
+        "status": "remark updated and read back"
       },
       {
         "id": "L21",
         "title": "Mobile phone data show spatial and socioeconomic inequalities in hospital utilization",
-        "status": "简记格式与原文已核，待Zotero授权写入"
+        "status": "remark updated and read back"
       }
     ],
     "preserved": [
       {
         "title": "上海环城大型公园游憩服务效用评价及规划启示",
-        "status": "现有用户简记原样保留"
+        "status": "existing remark preserved"
       },
       {
         "title": "多尺度视角下的城市旅游流网络结构特征分析——以长沙市为例",
-        "status": "现有用户简记原样保留"
+        "status": "existing remark preserved"
       },
       {
         "title": "基于手机定位数据的乡村居民进城就医行为及可达性研究",
-        "status": "现有用户简记原样保留"
+        "status": "existing remark preserved"
       },
       {
         "title": "Uncovering urban tourist mobility patterns based on large-scale mobile phone data",
-        "status": "现有用户简记原样保留"
+        "status": "existing remark preserved"
       },
       {
         "title": "Revealing socio-demographic heterogeneity in urban travel behavior under the influence of the built environment",
-        "status": "现有用户简记原样保留"
+        "status": "existing remark preserved"
       },
       {
         "title": "Exploring the Spatial Variation of Access/Egress Distances of Subway Stations Using Mobile Phone Positioning Data in Chengdu, China",
-        "status": "现有用户简记原样保留"
+        "status": "existing remark preserved"
       },
       {
         "title": "基于人流活动特征的城市商圈空间结构的大数据分析——以广西南宁市为例",
-        "status": "现有用户简记原样保留"
+        "status": "existing remark preserved"
       },
       {
         "title": "基于手机数据的产业园区人群活力评价与影响因素分析",
-        "status": "现有用户简记原样保留"
+        "status": "existing remark preserved"
       },
       {
         "title": "空间生产视角下的江苏省“双一流”高校多校区融合成效研究",
-        "status": "现有用户简记原样保留"
+        "status": "existing remark preserved"
       },
       {
         "title": "多源数据支持下的老城区更新潜力评估与边界划定框架构建及实证研究",
-        "status": "现有用户简记原样保留"
+        "status": "existing remark preserved"
       },
       {
         "title": "Evaluating the Quality of High-Frequency Pedestrian Commuting Streets: A Data-Driven Approach in Shenzhen",
-        "status": "现有用户简记原样保留"
+        "status": "existing remark preserved"
       },
       {
         "title": "轨迹数据视角下的分人群PM2.5暴露平等性数据集研发",
-        "status": "现有用户简记原样保留"
+        "status": "existing remark preserved"
       },
       {
         "title": "人口空间分布典型数据的时空差异",
-        "status": "现有用户简记原样保留"
+        "status": "existing remark preserved"
       }
     ],
     "pdfs": [
       {
         "id": "L87",
-        "status": "真PDF已下载并校验，待Zotero授权导入"
+        "status": "Zotero stored attachment verified"
       },
       {
         "id": "L83",
-        "status": "真PDF已下载并校验，待Zotero授权导入"
+        "status": "Zotero stored attachment verified"
+      },
+      {
+        "id": "L88",
+        "status": "Zotero stored attachment verified"
       }
     ]
   }

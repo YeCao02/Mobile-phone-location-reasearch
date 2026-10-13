@@ -4,7 +4,7 @@
 
 本轮把“广州市梦享网络技术有限公司”和“Guangzhou Mengxiang”统一显示为 **Jike（梦享）**，与 Pioneer Data、Moxing 一起作为核心检索入口。实际论文或采购中的公司原名继续保留。[及刻官方隐私政策](https://www.isjike.com/h-col-128)支持品牌与公司主体的对应；不同公司的股权关系另行记录。
 
-本轮新增 **2 条高校采购记录**，其中 1 条明确成交的匿名 LBS 数据采购、1 条拟成交的模型服务。没有净新增的已确认论文；重复命中的既有论文不再次计数。补齐两篇既有 Heliyon 论文的正式正文 PDF。
+本轮新增 **2 条高校采购记录**，其中 1 条明确成交的匿名 LBS 数据采购、1 条拟成交的模型服务。没有净新增的已确认论文；重复命中的既有论文不再次计数。补齐两篇 Heliyon 和一篇 Ecological Indicators 既有论文的正式正文 PDF，并完成 Zotero 附件与简记同步。
 
 ## 深圳大学—建筑与城市规划学院—梦享采购
 
@@ -29,10 +29,11 @@
 |---|---|---|
 |[Urban park green space use analysis based on trajectory big data: Experience from a medium–sized city in China](https://pmc.ncbi.nlm.nih.gov/articles/PMC10900791/)|**Heliyon**；许昌学院—许淑娜团队；10.1016/j.heliyon.2024.e26445|正式正文 14 页，来源声明位于 PDF 第 2 页 §2.1，明确 Guangzhou Mengxiang|
 |[Do hypothetical and actual service distances align for urban fringe parks? An investigation of Shanghai using big data](https://doi.org/10.1016/j.heliyon.2024.e37918)|**Heliyon**；华东理工大学—万亿合作团队；10.1016/j.heliyon.2024.e37918|正式正文 17 页，PDF 第 14 页 Data availability 明确 Guangzhou Mengxiang；方法见 §2.2|
+|[Framework for analyzing the relationship between supply, demand, and flow of recreational services in urban park green spaces](https://doi.org/10.1016/j.ecolind.2024.112403)|**Ecological Indicators**；许昌学院—许淑娜团队；10.1016/j.ecolind.2024.112403|正式正文 14 页，PDF 第 5 页 §2.3 明确 Guangzhou Mengxiang 及手机系统内嵌 SDK；许昌 2022 年 4 月|
 
-两份文件均来自 NCBI PMC 官方开放数据存储，已核对正文身份、完整页数及文件校验值。下载材料仅用于本地文献库，网站提供文献入口与证据位置。
+两篇 Heliyon 文件来自 NCBI PMC 官方开放数据存储；Ecological Indicators 文件由用户通过已认证的 Chrome 下载。三份文件均已核对正文身份、完整页数及文件校验值。下载材料用于本地文献库，网站提供文献入口与证据位置。
 
-**Zotero 状态：**本次原生授权等待到期，未执行写入；两份 PDF 已在本地核验，附件尚未导入。
+**Zotero 状态：**三份正文 PDF 已补入既有论文条目，逐份读回核对文件校验值和页数。
 
 ## 简记格式
 
@@ -43,7 +44,7 @@
 3. **供应商：**原文具名供应商；未具名时用 `*` 明示疑似归属。
 4. **其他备注：**以 `*` 或 `**` 补充城市、时期、样本、用途和仍需区分的事项。
 
-本轮检查该分类的 25 个父条目（包含 1 个配套数据集），计划整理 12 条简记、原样保留 13 条已完善简记。百分比若来自用户判断，继续标明判断来源，不改写为统计测得概率。
+本轮检查该分类的 25 个父条目（包含 1 个配套数据集），已整理并读回核验 12 条简记，13 条已完善简记原样保留。百分比若来自用户判断，继续标明判断来源，不改写为统计测得概率。
 
 ## 北京大学、中山大学与声明关键词扩展
 
