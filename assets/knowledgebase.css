@@ -34,4 +34,4 @@ body{font-size:15px}.main{max-width:1660px}.brand small{font-size:10px}.rail-bot
 @media(max-width:430px){.pioneer-profile>.pipeline{grid-template-columns:1fr}.pioneer-profile>.pipeline>.pipeline-wide{grid-column:span 1}}
 
 /* Journal typography in the confirmed Pioneer collection. */
-#china-list .paper-card .journal{font-style:italic}
+#china-list .paper-card .journal{font-style:italic;color:#8a4f08}
