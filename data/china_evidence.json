@@ -1,6 +1,6 @@
 {
   "as_of": "2026-10-13",
-  "scope": "中国供应商、采购、作者单位及基金论文关系证据；含2026-10-10第五轮URA、HKU、杜苏芮与及刻官网核验，非穷尽调查；第六轮73次宽口径检索及1次正式出版元数据核验，新增13条研究来源",
+  "scope": "泛先锋核心供应商、论文声明、采购与高校团队关联；第17轮新增许昌学院具名梦享SDK研究，沿用户Zotero简记扩检。非穷尽检索。",
   "classification_rules": [
     "采购、课题、论文分别建节点；只建立有直接证据的边。",
     "LBS名称或公司品牌不能单独证明SDK/GPS/WiFi且排除运营商。",
@@ -1901,6 +1901,164 @@
       "research_scope": "other_commercial",
       "catalog_id": "L82",
       "round12_record": true
+    },
+    {
+      "id": "CN-R17-L87",
+      "title": "Urban park green space use analysis based on trajectory big data: Experience from a medium–sized city in China",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10900791/",
+      "type": "publisher_fulltext",
+      "published": "2024-02-19",
+      "institution": "许昌学院 · 许淑娜团队",
+      "supplier": "及刻 / Jike（Guangzhou Mengxiang Network Technology Co., LTD.／广州市梦享网络技术有限公司）",
+      "finding": "§2.1直接具名Guangzhou Mengxiang Network Technology Co., LTD.；公司与手机厂商合作，将SDK嵌入手机系统提供智能场景识别，用户同意许可后采集。2022-04-03至12，许昌中心城区及2km缓冲区，半小时定位；开阔户外约10m、多遮挡最大20m。识别256423常住用户，其中中心城区186970，约占当地常住人口33.72%。轨迹不含个人属性。",
+      "confidence": "high",
+      "limits": "33.72%是具名SDK样本的人口覆盖率，不能依据接近1/3推为运营商。摘要称GPS trajectory big data；数据源段直接明确SDK，但未逐项说明WiFi/蓝牙。与Ecological Indicators 112403同批许昌底库、同基金；Heliyon仅分析10天子期，不能当两个独立采购项目。",
+      "doi": "10.1016/j.heliyon.2024.e26445",
+      "group_id": "XCU-XU-SHUNA",
+      "verbatim_statement": "The mobile phone location data used in this research was sourced from Guangzhou Mengxiang Network Technology Co., LTD.",
+      "research_scope": "pioneer_named"
+    },
+    {
+      "id": "CN-R17-L88",
+      "title": "Framework for analyzing the relationship between supply, demand, and flow of recreational services in urban park green spaces",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1470160X24008604",
+      "type": "publisher_fulltext",
+      "published": "2024-09",
+      "institution": "许昌学院 · 许淑娜团队",
+      "supplier": "及刻 / Jike（Guangzhou Mengxiang Network Technology Co., Ltd.／广州市梦享网络技术有限公司）",
+      "finding": "§2.3明确Guangzhou Mengxiang Network Technology Co., Ltd.，与手机制造商合作以系统内嵌SDK提供智能场景识别，经用户许可采集。2022-04-01至30，30天半小时周期定位轨迹，许昌中心城区及2km缓冲区，精度约10m。识别256423常住用户，中心城区186970，33.72%覆盖。",
+      "confidence": "high",
+      "limits": "在同团队原文中找到了完全具名供方，不需保持候选。两文使用同一城市、同样样本数量、部分重叠时间和同基金，关联极强；仍分别为两篇研究、不能算两个采购公告。供方确认来自正文§2.3，Data availability只说按请求提供。",
+      "doi": "10.1016/j.ecolind.2024.112403",
+      "group_id": "XCU-XU-SHUNA",
+      "verbatim_statement": "The mobile phone big data used in this research comes from Guangzhou Mengxiang Network Technology Co., Ltd.",
+      "research_scope": "pioneer_named"
+    },
+    {
+      "id": "CN-R17-XCU-GRANT",
+      "title": "许淑娜导师主页：代表性项目",
+      "url": "https://chenghuan.xcu.edu.cn/info/1252/4904.htm",
+      "type": "official_grant_profile",
+      "institution": "许昌学院",
+      "finding": "国家自然科学基金42001265，城市公园绿地游憩服务供需关系与时空流动机制，许淑娜，2021-01至2023-12；论文致谢与项目对应。",
+      "confidence": "high",
+      "limits": "主页原“在研”为旧状态，不称2026年仍在研；不是采购合同。",
+      "group_id": "XCU-XU-SHUNA"
+    },
+    {
+      "id": "CN-R17-TONGJI-CHEN",
+      "title": "长三角乡镇城乡流动性指数报告",
+      "url": "https://caup.tongji.edu.cn/d5/8f/c33362a382351/page.htm",
+      "type": "official_university_report_news",
+      "published": "2026-09-10",
+      "institution": "同济大学 · 陈晨课题组",
+      "supplier": "未具名",
+      "finding": "手机定位数据覆盖长三角三省一市300多个县级单元和3700多个乡镇；使用个体时序LBS报点、用户画像常住地标签及目的地/POI识别。",
+      "confidence": "research_candidate",
+      "limits": "同一介绍后文使用“信令”一词；未见GPS/WiFi技术说明及电信运营商品牌，不能升级为泛先锋确认。；报告全文待取得。",
+      "research_scope": "pioneer_candidate"
+    },
+    {
+      "id": "CN-R17-XCU-THESIS",
+      "title": "基于手机大数据的城市公园绿地使用现状及影响因素分析",
+      "url": "https://xcoss.henan.gov.cn/typtfile/20250919/f1a136475be542edb04d64c20f5707d3.pdf",
+      "type": "official_thesis_award_directory",
+      "institution": "许昌学院 · 许淑娜指导 / 王银枝",
+      "supplier": "未具名",
+      "finding": "河南省优秀学士论文名单第26页序号329确认题名、作者和导师。",
+      "confidence": "research_candidate",
+      "limits": "尚未取得该学位论文数据声明，不计具名供应商论文数。",
+      "research_scope": "pioneer_candidate"
+    },
+    {
+      "id": "CN-R17-PKU-COOP",
+      "title": "摸星科技与北京大学人工智能研究院产学研合作（用户提供报道线索）",
+      "url": "https://mp.weixin.qq.com/s/dIXu1UwoPDSMtV2qyC5F1A",
+      "type": "user_provided_supplier_news",
+      "published": "2025-12",
+      "institution": "北京大学人工智能研究院 · 具体团队待核",
+      "supplier": "摸星科技 / Moxing",
+      "finding": "用户提供：摸云团公众号称完成产学研项目合作。",
+      "confidence": "user_cooperation_lead",
+      "limits": "微信原文读取受浏览器安全策略限制；合作人员、项目题名、采购合同与发表成果未核，不与北京通用人工智能研究院混同。",
+      "research_scope": "pioneer_candidate"
+    },
+    {
+      "id": "CN-R17-SYSU-COOP",
+      "title": "摸星科技联合中山大学开展城市动态分析（用户提供报道线索）",
+      "url": "https://mp.weixin.qq.com/s/6MoXxhf8-F69XSIEh6eMvw",
+      "type": "user_provided_supplier_news",
+      "published": "2024-06",
+      "institution": "中山大学 · 具体团队待核",
+      "supplier": "摸星科技 / Moxing",
+      "finding": "用户提供：摸云团称联合开展城市动态分析，涉及重庆、成都、西安、武汉、新疆、吐鲁番等地域的人口、经济和交通信息。",
+      "confidence": "user_cooperation_lead",
+      "limits": "微信正文未读取；新疆按地域保留，不错误称为城市；具体项目和数据产品、团队与论文待独立核查。",
+      "research_scope": "pioneer_candidate"
+    },
+    {
+      "id": "CN-R17-PROC-01",
+      "title": "盐田区旅游市场分析数据服务项目中标结果公示",
+      "url": "https://www.yantian.gov.cn/YTWHGDLYTY/gkmlpt/content/12/12399/post_12399068.html",
+      "type": "procurement_participation",
+      "published": "2025-09-16",
+      "institution": "深圳市盐田区文化广电旅游体育局",
+      "supplier": "广州市梦享网络技术有限公司",
+      "finding": "投标供应商，未中标。广州市梦享网络技术有限公司（投标报价11.8万元）",
+      "confidence": "high_for_bid_role_only",
+      "limits": "不能计入Jike数据被本项目使用；2024年55万元的同类项目另有预算，不能与本次混并。",
+      "research_scope": "procurement_context_only"
+    },
+    {
+      "id": "CN-R17-PROC-02",
+      "title": "华润万家2025–2030年外部品类及商品销售数据服务项目中标结果公告",
+      "url": "https://www.crpsz.com/zbxx/006001/006001004/20250605/1f9b9cf7-f34f-4ea0-ab41-e9a6eb760dc1.html",
+      "type": "procurement_participation",
+      "published": "2025-06-05",
+      "institution": "华润万家有限公司",
+      "supplier": "广州市梦享网络技术有限公司",
+      "finding": "备选供应商。“广州市梦享网络技术有限公司”为备选供应商。",
+      "confidence": "high_for_bid_role_only",
+      "limits": "企业外部销售数据服务采购，不是高校采购；没有轨迹数据或SDK定位来源声明，也不能证明已履行供货。",
+      "research_scope": "procurement_context_only"
+    },
+    {
+      "id": "CN-R17-SHU-LI-PROC",
+      "title": "上海大学城市更新数字平台建设：李峰清与先锋数聚采购补证",
+      "url": "https://xunbiaobao.baidu.com/biddingDetail?id=51f4807f5bec176c44e60a08bab5157b430ee26f&source=seo",
+      "type": "procurement_mirror_with_attachment",
+      "published": "2024-11-08",
+      "institution": "上海大学 · 李峰清团队",
+      "supplier": "北京先锋数聚信息科技有限公司",
+      "finding": "成交金额97.2万元；技术联系人李峰清。全国匿名位置数据包括timing、link、stable、poi四类点位，服务12个月，覆盖率65%以上。镜像附带中小企业声明函具名北京先锋数聚信息科技有限公司。",
+      "confidence": "high_with_mirror_limit",
+      "limits": "成交正文供应商字段遮挡，名称来自同页声明函；官方竞争性磋商公告已找到，官方成交原页尚未取得。沿用既有项目编号STC24A483，镜像本身未独立核定该编号。2024采购不倒推2022/2023论文使用同批次。",
+      "group_id": "URA-LI-LYNAM",
+      "research_scope": "pioneer_procurement"
+    },
+    {
+      "id": "CN-R17-SHU-LI-PROC-TENDER",
+      "title": "上海大学城市更新数字平台建设：官方竞争性磋商公告",
+      "url": "https://bidding.shu.edu.cn/sy/zbkscg_detail_phone.jsp?wid=202410140026798435&gglx=ZBGG&fl=C&lx=ZBGG",
+      "type": "official_tender",
+      "published": "2024-10-28",
+      "institution": "上海大学",
+      "finding": "校采购管理系统提供竞争性磋商公告及PDF入口，与本轮成交镜像交叉参照。",
+      "confidence": "high",
+      "limits": "这是采购公告，不是官方成交结果页；PDF尚未保存。",
+      "group_id": "URA-LI-LYNAM"
+    },
+    {
+      "id": "CN-R17-MOXING-OFFICIAL",
+      "title": "摸星科技官网：北京摸星科技有限公司",
+      "url": "https://www.moyuntuan.com/#/home",
+      "type": "official_supplier_website",
+      "institution": "供应商官网",
+      "supplier": "北京摸星科技有限公司",
+      "finding": "Chrome直接读取官网页脚主体与京ICP备2022033927号，业务涉及高校、城市规划和城市治理；moyuntuan/摸云团可作为检索词。",
+      "confidence": "high",
+      "limits": "官网不证明某所高校已采购，也不单独证明公司间股权关系。",
+      "research_scope": "supplier_identity"
     }
   ],
   "verified_edges": [
@@ -3594,6 +3752,42 @@
           ]
         }
       ]
+    },
+    {
+      "institution": "许昌学院",
+      "query": "沿许淑娜、42001265、许昌2022年4月追相关论文与采购",
+      "status": "named_supplier_papers",
+      "sources": [
+        "CN-R17-L87"
+      ],
+      "next": "沿许淑娜、42001265、许昌2022年4月追相关论文与采购"
+    },
+    {
+      "institution": "同济大学 · 陈晨课题组",
+      "query": "取得城乡流动性指数报告并核供方",
+      "status": "candidate_followup",
+      "sources": [
+        "CN-R17-TONGJI-CHEN"
+      ],
+      "next": "取得城乡流动性指数报告并核供方"
+    },
+    {
+      "institution": "北京大学人工智能研究院",
+      "query": "摸星/摸云团/Moxing/moyuntuan＋产学研合作＋2025年12月",
+      "status": "candidate_followup",
+      "sources": [
+        "CN-R17-PKU-COOP"
+      ],
+      "next": "摸星/摸云团/Moxing/moyuntuan＋产学研合作＋2025年12月"
+    },
+    {
+      "institution": "中山大学",
+      "query": "摸星/摸云团/Moxing/moyuntuan＋城市动态分析＋2024年6月＋地域组合",
+      "status": "candidate_followup",
+      "sources": [
+        "CN-R17-SYSU-COOP"
+      ],
+      "next": "摸星/摸云团/Moxing/moyuntuan＋城市动态分析＋2024年6月＋地域组合"
     }
   ],
   "corporate_search_log": [
@@ -4524,18 +4718,19 @@
       "title": "李峰清团队",
       "institution": "上海大学",
       "team": "李峰清团队",
-      "summary": "L27确认URA产出及LBS方法，L28全文已核，使用上海GPS精度LBS；其供应商仍待核；不自动认定L28为URA成果。上海大学STC24A483公开采购公告待追踪。 用户置信判断：论文GPS/WiFi、匿名位置、居住/工作识别等数据形式与其自用数据“99%相同”；依据供应商提供的院校客户名单与论文数据形式交叉吻合。“99%”为用户经验置信表述，非统计估计。列同类数据及关联供应商追查高优先级，原文未披露供方，不能升级为原文确认先锋/Moxing/Jike。",
+      "summary": "李峰清团队已有Cities、城市规划及城市规划学刊研究，由用户确认归入泛先锋关联。2024年城市更新数字平台采购现有技术联系人及四类点位补证，供方由成交镜像的中小企业声明函显名；不能倒推早期论文的数据批次。",
       "source_ids": [
         "CN-S18",
         "CN-S28",
         "CN-S29",
         "CN-S30",
-        "CN-S40"
+        "CN-S40",
+        "CN-R17-SHU-LI-PROC",
+        "CN-R17-SHU-LI-PROC-TENDER"
       ],
       "supplier_names": [
-        "L27供方未披露",
-        "L28待核",
-        "未具名；供应商待追查"
+        "论文未具名，用户已确认关联",
+        "2024年采购：北京先锋数聚信息科技有限公司"
       ],
       "verbatim_statement": "",
       "outputs": [
@@ -4619,7 +4814,7 @@
             "CN-S28",
             "CN-S30"
           ],
-          "summary": "L27确认URA产出及LBS方法，L28保留同作者通勤概念候选；不自动认定L28为URA成果。上海大学STC24A483公开采购公告待追踪。 用户置信判断：论文GPS/WiFi、匿名位置、居住/工作识别等数据形式与其自用数据“99%相同”；依据供应商提供的院校客户名单与论文数据形式交叉吻合。“99%”为用户经验置信表述，非统计估计。列同类数据及关联供应商追查高优先级，原文未披露供方，不能升级为原文确认先锋/Moxing/Jike。",
+          "summary": "L27确认URA产出及LBS方法，L28保留同作者通勤概念候选；不自动认定L28为URA成果。2024年采购的李峰清技术联系人及先锋供方已补证；与该论文批次仍分别记录。 用户置信判断：论文GPS/WiFi、匿名位置、居住/工作识别等数据形式与其自用数据“99%相同”；依据供应商提供的院校客户名单与论文数据形式交叉吻合。“99%”为用户经验置信表述，非统计估计。列同类数据及关联供应商追查高优先级，原文未披露供方，不能升级为原文确认先锋/Moxing/Jike。",
           "research_scope": "pioneer_candidate"
         },
         {
@@ -4683,9 +4878,12 @@
         {
           "id": "SHU-LI-P1",
           "title": "城市更新数字平台建设（STC24A483）",
-          "source_ids": [],
-          "summary": "用户提供上海大学采购线索；与李峰清团队及具体研究的对应关系、公开公告待核。",
-          "status": "用户提供机构采购线索；团队对应待核"
+          "source_ids": [
+            "CN-R17-SHU-LI-PROC",
+            "CN-R17-SHU-LI-PROC-TENDER"
+          ],
+          "summary": "成交97.2万元；全国匿名位置，timing/link/stable/poi，12个月、覆盖率65%以上。供应商名称见同页中小企业声明函。官方成交原页待补，2024采购不倒推早期论文批次。",
+          "status": "已核采购镜像及附件；技术联系人李峰清"
         }
       ],
       "grants": [
@@ -6862,6 +7060,117 @@
       "organization": "institution_team_content",
       "research_scope": "pioneer_named",
       "round12_created_group": true
+    },
+    {
+      "id": "XCU-XU-SHUNA",
+      "title": "许淑娜 / Shuna Xu团队",
+      "institution": "许昌学院",
+      "institution_id": "xcu",
+      "team": "许淑娜 / Shuna Xu团队",
+      "summary": "从梦享法定英文名称发现的两篇具名SDK研究；同一许昌底库的不同分析。",
+      "source_ids": [
+        "CN-R17-L87",
+        "CN-R17-L88"
+      ],
+      "supplier_names": [
+        "及刻 / Jike",
+        "Guangzhou Mengxiang Network Technology Co., Ltd."
+      ],
+      "studies": [
+        {
+          "id": "XCU-XU-L87",
+          "title": "公园使用模式与服务距离",
+          "summary": "城市公园绿地使用、可达性距离阈值、到访频率与持续时间、节假日及天气影响",
+          "outputs": [
+            {
+              "type": "期刊论文",
+              "catalog_id": "L87",
+              "title": "Urban park green space use analysis based on trajectory big data: Experience from a medium–sized city in China",
+              "doi": "10.1016/j.heliyon.2024.e26445",
+              "year": 2024,
+              "journal": "Heliyon",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10900791/",
+              "provider": "及刻 / Jike（Guangzhou Mengxiang Network Technology Co., LTD.／广州市梦享网络技术有限公司）",
+              "data_statement": "§2.1直接具名Guangzhou Mengxiang Network Technology Co., LTD.；公司与手机厂商合作，将SDK嵌入手机系统提供智能场景识别，用户同意许可后采集。2022-04-03至12，许昌中心城区及2km缓冲区，半小时定位；开阔户外约10m、多遮挡最大20m。识别256423常住用户，其中中心城区186970，约占当地常住人口33.72%。轨迹不含个人属性。",
+              "source_ids": [
+                "CN-R17-L87"
+              ]
+            }
+          ],
+          "source_ids": [
+            "CN-R17-L87"
+          ]
+        },
+        {
+          "id": "XCU-XU-L88",
+          "title": "公园游憩服务供给—需求—流动",
+          "summary": "公园游憩服务供给—需求—流动；潜在与实际供需；供给压力和可达性",
+          "outputs": [
+            {
+              "type": "期刊论文",
+              "catalog_id": "L88",
+              "title": "Framework for analyzing the relationship between supply, demand, and flow of recreational services in urban park green spaces",
+              "doi": "10.1016/j.ecolind.2024.112403",
+              "year": 2024,
+              "journal": "Ecological Indicators",
+              "url": "https://www.sciencedirect.com/science/article/pii/S1470160X24008604",
+              "provider": "及刻 / Jike（Guangzhou Mengxiang Network Technology Co., Ltd.／广州市梦享网络技术有限公司）",
+              "data_statement": "§2.3明确Guangzhou Mengxiang Network Technology Co., Ltd.，与手机制造商合作以系统内嵌SDK提供智能场景识别，经用户许可采集。2022-04-01至30，30天半小时周期定位轨迹，许昌中心城区及2km缓冲区，精度约10m。识别256423常住用户，中心城区186970，33.72%覆盖。",
+              "source_ids": [
+                "CN-R17-L88"
+              ]
+            }
+          ],
+          "source_ids": [
+            "CN-R17-L88"
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "type": "期刊论文",
+          "catalog_id": "L87",
+          "title": "Urban park green space use analysis based on trajectory big data: Experience from a medium–sized city in China",
+          "doi": "10.1016/j.heliyon.2024.e26445",
+          "year": 2024,
+          "journal": "Heliyon",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10900791/",
+          "provider": "及刻 / Jike（Guangzhou Mengxiang Network Technology Co., LTD.／广州市梦享网络技术有限公司）",
+          "data_statement": "§2.1直接具名Guangzhou Mengxiang Network Technology Co., LTD.；公司与手机厂商合作，将SDK嵌入手机系统提供智能场景识别，用户同意许可后采集。2022-04-03至12，许昌中心城区及2km缓冲区，半小时定位；开阔户外约10m、多遮挡最大20m。识别256423常住用户，其中中心城区186970，约占当地常住人口33.72%。轨迹不含个人属性。",
+          "source_ids": [
+            "CN-R17-L87"
+          ]
+        },
+        {
+          "type": "期刊论文",
+          "catalog_id": "L88",
+          "title": "Framework for analyzing the relationship between supply, demand, and flow of recreational services in urban park green spaces",
+          "doi": "10.1016/j.ecolind.2024.112403",
+          "year": 2024,
+          "journal": "Ecological Indicators",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1470160X24008604",
+          "provider": "及刻 / Jike（Guangzhou Mengxiang Network Technology Co., Ltd.／广州市梦享网络技术有限公司）",
+          "data_statement": "§2.3明确Guangzhou Mengxiang Network Technology Co., Ltd.，与手机制造商合作以系统内嵌SDK提供智能场景识别，经用户许可采集。2022-04-01至30，30天半小时周期定位轨迹，许昌中心城区及2km缓冲区，精度约10m。识别256423常住用户，中心城区186970，33.72%覆盖。",
+          "source_ids": [
+            "CN-R17-L88"
+          ]
+        }
+      ],
+      "procurements": [],
+      "grants": [
+        {
+          "id": "XCU-XU-G1",
+          "title": "城市公园绿地游憩服务供需关系与时空流动机制",
+          "grant_number": "国家自然科学基金42001265",
+          "summary": "许淑娜主持；学校主页列2021-01至2023-12，两篇论文致谢均列此基金。",
+          "source_ids": [
+            "CN-R17-L87",
+            "CN-R17-L88",
+            "CN-R17-XCU-GRANT"
+          ]
+        }
+      ],
+      "research_scope": "pioneer_named"
     }
   ],
   "source_aliases": {

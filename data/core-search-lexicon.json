@@ -1,0 +1,136 @@
+{
+  "date": "2026-10-13",
+  "basis": "当前Zotero先锋/摸星/jike数据分类23个父条目的简记（含1个数据集），结合已核全文与公开采购；不发布私人简记全文。",
+  "confirmed_new_papers": [
+    "L87",
+    "L88"
+  ],
+  "seeds": [
+    {
+      "group": "具名供应商",
+      "terms": [
+        "isjike.com",
+        "及刻",
+        "即刻LBS",
+        "广州市梦享网络技术有限公司",
+        "Guangzhou Mengxiang Network Technology",
+        "Jike by iDream Network Technology"
+      ],
+      "status": "Jike官网法定名与论文文本变体；iDream不自动映射其他同名公司",
+      "sources": [
+        "https://www.isjike.com/h-col-128",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10900791/",
+        "https://www.mdpi.com/2624-6511/8/3/83"
+      ]
+    },
+    {
+      "group": "具名供应商",
+      "terms": [
+        "Moxing Technology",
+        "Moxing Beijing",
+        "Beijing Moxing",
+        "北京摸星科技有限公司",
+        "moyuntuan",
+        "摸云团",
+        "先锋数聚",
+        "Pioneer Data",
+        "pioneerdata.com.cn"
+      ],
+      "status": "供应商名称与官网域名；不同法人不凭文字相似直接合并",
+      "sources": [
+        "https://www.moyuntuan.com/#/home",
+        "https://www.pioneerdata.com.cn/"
+      ]
+    },
+    {
+      "group": "稀有数据描述",
+      "terms": [
+        "timing link stable poi",
+        "timing report data",
+        "scene data",
+        "continuous screen",
+        "intelligent scene recognition",
+        "ROM-SDK",
+        "场景流POI",
+        "进离店时间"
+      ],
+      "status": "实际采购/已核论文词组；单个词不能判定供方",
+      "sources": [
+        "https://bidding.szu.edu.cn/info/1023/35590.htm",
+        "https://onlinelibrary.wiley.com/doi/10.1155/2023/8008667",
+        "https://xunbiaobao.baidu.com/biddingDetail?id=51f4807f5bec176c44e60a08bab5157b430ee26f&source=seo"
+      ]
+    },
+    {
+      "group": "同批次对照",
+      "terms": [
+        "Xuchang 2022 April 256423 186970",
+        "42001265 Shuna Xu",
+        "Changsha 12.9% WiFi routers",
+        "Shanghai Android 7.6 million 2–30m"
+      ],
+      "status": "城市、时间、样本量和采集方式联合核对；样本覆盖1/3不自动等于运营商",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10900791/",
+        "https://doi.org/10.1016/j.jtrangeo.2025.104496",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11462473/"
+      ]
+    },
+    {
+      "group": "采购产品",
+      "terms": [
+        "及刻商脉",
+        "及刻智数",
+        "客流易",
+        "来客地图",
+        "城市规划定制化数据集",
+        "高精度匿名LBS",
+        "城市更新数字平台建设"
+      ],
+      "status": "检索产品和采购附件；竞标、备选与成交分别记",
+      "sources": [
+        "https://www.isjike.com/h-col-128",
+        "https://bidding.shu.edu.cn/sy/zbkscg_detail_phone.jsp?wid=202410140026798435&gglx=ZBGG&fl=C&lx=ZBGG"
+      ]
+    },
+    {
+      "group": "摸星新产品候选",
+      "terms": [
+        "摸云数据平台",
+        "2024SR0561596",
+        "摸星人口投射系统",
+        "摸云（北京）数据技术有限公司"
+      ],
+      "status": "二手结果摘要，产品和公司关系尚待官方核定",
+      "sources": []
+    }
+  ],
+  "new_institutional_leads": [
+    {
+      "institution": "北京大学人工智能研究院",
+      "team": null,
+      "time": "2025-12",
+      "supplier": "摸星科技",
+      "theme": "产学研项目合作",
+      "basis": "用户提供摸云团报道",
+      "status": "合作项目线索，团队/项目名/论文待核"
+    },
+    {
+      "institution": "中山大学",
+      "team": null,
+      "time": "2024-06",
+      "supplier": "摸星科技",
+      "theme": "城市动态分析；人口、经济、交通；重庆、成都、西安、武汉、新疆、吐鲁番",
+      "basis": "用户提供摸云团报道",
+      "status": "合作项目线索，团队/项目名/论文待核"
+    }
+  ],
+  "search_audit": {
+    "google_browser_queries": 11,
+    "baidu_browser_queries": 8,
+    "fingerprint_public_queries": 76,
+    "university_followup_queries": 32,
+    "non_exhaustive": true,
+    "counting_note": "不同专线存在独立重检，不将查询数或重复发现计作新成果。"
+  }
+}

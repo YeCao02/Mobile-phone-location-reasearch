@@ -8349,7 +8349,7 @@
         "https://www.isjike.com/"
       ],
       "counts": {
-        "confirmed_use": 14,
+        "confirmed_use": 16,
         "user_confirmed_use": 9,
         "mention_only": 0,
         "unresolved_candidate": 0
@@ -8369,7 +8369,9 @@
           "L76",
           "L77",
           "L80",
-          "L83"
+          "L83",
+          "L87",
+          "L88"
         ],
         "user_confirmed_use": [
           "L27",
@@ -8387,7 +8389,7 @@
       },
       "role_counts": {
         "mobility": {
-          "confirmed_use": 11,
+          "confirmed_use": 13,
           "user_confirmed_use": 9,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -8466,7 +8468,9 @@
             "L75",
             "L76",
             "L77",
-            "L83"
+            "L83",
+            "L87",
+            "L88"
           ],
           "user_confirmed_use": [
             "L27",
@@ -8548,7 +8552,7 @@
           "unresolved_candidate": []
         }
       },
-      "confirmed_mobility_use": 11,
+      "confirmed_mobility_use": 13,
       "confirmed_mixed_mobility_use": 2,
       "zero_count_meaning": "0仅表示当前文献目录中没有符合该证据门槛的记录；不是全领域无人使用，也不是搜索穷尽。",
       "association_ids": [
@@ -8574,12 +8578,14 @@
         "L78",
         "L79",
         "L80",
-        "L83"
+        "L83",
+        "L87",
+        "L88"
       ],
       "entity_interpretation": "展示组，不构成法律实体或独立采样面板合并认定",
       "evidence_role_counts": {
         "mobility": {
-          "confirmed_use": 11,
+          "confirmed_use": 13,
           "user_confirmed_use": 9,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -13730,6 +13736,150 @@
       "evidence_urls": [
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC11462473/"
       ]
+    },
+    {
+      "paper_id": "L87",
+      "paper_title": "Urban park green space use analysis based on trajectory big data: Experience from a medium–sized city in China",
+      "doi": "10.1016/j.heliyon.2024.e26445",
+      "provider_id": "pioneer_moxing_jike",
+      "provider_name": "先锋数聚 / 摸星 / 即刻·及刻（Pioneer / Moxing / Jike）",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "Guangzhou Mengxiang Network Technology Co., Ltd.",
+        "及刻 / Jike"
+      ],
+      "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10900791/",
+      "evidence_section": "§2.1 Data sources；§2.2 Methods；Acknowledgements",
+      "basis": "按用户人工核验合并供应商展示组，同篇去重；不作工商关系认定。 [及刻 / Jike（即刻为用户检索别名）；confirmed_use；mobility] The mobile phone location data used in this research was sourced from Guangzhou Mengxiang Network Technology Co., LTD.；及刻官方隐私政策核品牌对应。 来源：https://pmc.ncbi.nlm.nih.gov/articles/PMC10900791/",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "commercial_source_dataset",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
+      "primary_source_audit": "出版社全文具名、SDK采集机制及及刻官方法人对应",
+      "evidence_basis": "user_confirmed_supplier_group",
+      "grouping_basis": "user_confirmed_supplier_group",
+      "member_provider_ids": [
+        "jike"
+      ],
+      "role_statuses": {
+        "mobility": "confirmed_use"
+      },
+      "evidence_roles": [
+        "mobility"
+      ],
+      "evidence": [
+        {
+          "paper_id": "L87",
+          "paper_title": "Urban park green space use analysis based on trajectory big data: Experience from a medium–sized city in China",
+          "doi": "10.1016/j.heliyon.2024.e26445",
+          "provider_id": "jike",
+          "provider_name": "及刻 / Jike（即刻为用户检索别名）",
+          "status": "confirmed_use",
+          "classification": "confirmed_use",
+          "role": "mobility",
+          "roles": [
+            "mobility"
+          ],
+          "declared_brands": [
+            "Guangzhou Mengxiang Network Technology Co., Ltd.",
+            "及刻 / Jike"
+          ],
+          "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10900791/",
+          "evidence_section": "§2.1 Data sources；§2.2 Methods；Acknowledgements",
+          "basis": "The mobile phone location data used in this research was sourced from Guangzhou Mengxiang Network Technology Co., LTD.；及刻官方隐私政策核品牌对应。",
+          "catalog_status": "reviewed",
+          "scope": "phone_location_or_derivative",
+          "data_access_relationship": "commercial_source_dataset",
+          "data_reuse_note": "",
+          "count_unit": "unique_study_not_independent_dataset",
+          "pdf_downloaded": false,
+          "zotero_attachment_verified": false,
+          "primary_source_audit": "出版社全文具名、SDK采集机制及及刻官方法人对应"
+        }
+      ],
+      "evidence_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10900791/"
+      ]
+    },
+    {
+      "paper_id": "L88",
+      "paper_title": "Framework for analyzing the relationship between supply, demand, and flow of recreational services in urban park green spaces",
+      "doi": "10.1016/j.ecolind.2024.112403",
+      "provider_id": "pioneer_moxing_jike",
+      "provider_name": "先锋数聚 / 摸星 / 即刻·及刻（Pioneer / Moxing / Jike）",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "Guangzhou Mengxiang Network Technology Co., Ltd.",
+        "及刻 / Jike"
+      ],
+      "evidence_url": "https://www.sciencedirect.com/science/article/pii/S1470160X24008604",
+      "evidence_section": "§2.3 Data sources；Acknowledgements",
+      "basis": "按用户人工核验合并供应商展示组，同篇去重；不作工商关系认定。 [及刻 / Jike（即刻为用户检索别名）；confirmed_use；mobility] The mobile phone big data used in this research comes from Guangzhou Mengxiang Network Technology Co., Ltd.；及刻官方隐私政策核品牌对应。 来源：https://www.sciencedirect.com/science/article/pii/S1470160X24008604",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "commercial_source_dataset",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
+      "primary_source_audit": "出版社全文具名、SDK采集机制及及刻官方法人对应",
+      "evidence_basis": "user_confirmed_supplier_group",
+      "grouping_basis": "user_confirmed_supplier_group",
+      "member_provider_ids": [
+        "jike"
+      ],
+      "role_statuses": {
+        "mobility": "confirmed_use"
+      },
+      "evidence_roles": [
+        "mobility"
+      ],
+      "evidence": [
+        {
+          "paper_id": "L88",
+          "paper_title": "Framework for analyzing the relationship between supply, demand, and flow of recreational services in urban park green spaces",
+          "doi": "10.1016/j.ecolind.2024.112403",
+          "provider_id": "jike",
+          "provider_name": "及刻 / Jike（即刻为用户检索别名）",
+          "status": "confirmed_use",
+          "classification": "confirmed_use",
+          "role": "mobility",
+          "roles": [
+            "mobility"
+          ],
+          "declared_brands": [
+            "Guangzhou Mengxiang Network Technology Co., Ltd.",
+            "及刻 / Jike"
+          ],
+          "evidence_url": "https://www.sciencedirect.com/science/article/pii/S1470160X24008604",
+          "evidence_section": "§2.3 Data sources；Acknowledgements",
+          "basis": "The mobile phone big data used in this research comes from Guangzhou Mengxiang Network Technology Co., Ltd.；及刻官方隐私政策核品牌对应。",
+          "catalog_status": "reviewed",
+          "scope": "phone_location_or_derivative",
+          "data_access_relationship": "commercial_source_dataset",
+          "data_reuse_note": "",
+          "count_unit": "unique_study_not_independent_dataset",
+          "pdf_downloaded": false,
+          "zotero_attachment_verified": false,
+          "primary_source_audit": "出版社全文具名、SDK采集机制及及刻官方法人对应"
+        }
+      ],
+      "evidence_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S1470160X24008604"
+      ]
     }
   ],
   "member_associations": [
@@ -14150,6 +14300,62 @@
       "primary_source_audit": "全文JATS数据声明及供应商官方隐私政策"
     },
     {
+      "paper_id": "L87",
+      "paper_title": "Urban park green space use analysis based on trajectory big data: Experience from a medium–sized city in China",
+      "doi": "10.1016/j.heliyon.2024.e26445",
+      "provider_id": "jike",
+      "provider_name": "及刻 / Jike（即刻为用户检索别名）",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "Guangzhou Mengxiang Network Technology Co., Ltd.",
+        "及刻 / Jike"
+      ],
+      "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10900791/",
+      "evidence_section": "§2.1 Data sources；§2.2 Methods；Acknowledgements",
+      "basis": "The mobile phone location data used in this research was sourced from Guangzhou Mengxiang Network Technology Co., LTD.；及刻官方隐私政策核品牌对应。",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "commercial_source_dataset",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
+      "primary_source_audit": "出版社全文具名、SDK采集机制及及刻官方法人对应"
+    },
+    {
+      "paper_id": "L88",
+      "paper_title": "Framework for analyzing the relationship between supply, demand, and flow of recreational services in urban park green spaces",
+      "doi": "10.1016/j.ecolind.2024.112403",
+      "provider_id": "jike",
+      "provider_name": "及刻 / Jike（即刻为用户检索别名）",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "Guangzhou Mengxiang Network Technology Co., Ltd.",
+        "及刻 / Jike"
+      ],
+      "evidence_url": "https://www.sciencedirect.com/science/article/pii/S1470160X24008604",
+      "evidence_section": "§2.3 Data sources；Acknowledgements",
+      "basis": "The mobile phone big data used in this research comes from Guangzhou Mengxiang Network Technology Co., Ltd.；及刻官方隐私政策核品牌对应。",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "commercial_source_dataset",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
+      "primary_source_audit": "出版社全文具名、SDK采集机制及及刻官方法人对应"
+    },
+    {
       "paper_id": "L27",
       "paper_title": "Capturing socio-spatial inequality in planetary urbanisation: A multi-dimensional methodological framework",
       "doi": "10.1016/j.cities.2022.104076",
@@ -14429,19 +14635,19 @@
     "name_collision_rule": "同音或近似拼写不构成供方关联，以上名称均未映射为北京摸星。"
   },
   "counts": {
-    "catalog_studies": 149,
+    "catalog_studies": 151,
     "provider_nodes": 35,
-    "associations": 147,
-    "unique_studies_with_association": 122,
+    "associations": 149,
+    "unique_studies_with_association": 124,
     "unassigned_studies": 27,
     "association_counts_by_status": {
-      "confirmed_use": 70,
+      "confirmed_use": 72,
       "user_confirmed_use": 33,
       "mention_only": 2,
       "unresolved_candidate": 42
     },
     "unique_studies_by_status": {
-      "confirmed_use": 61,
+      "confirmed_use": 63,
       "user_confirmed_use": 30,
       "mention_only": 2,
       "unresolved_candidate": 33

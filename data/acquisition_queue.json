@@ -1393,6 +1393,42 @@
       "next_action": "经出版商/作者机构/学校授权渠道获取PDF并核对身份"
     },
     {
+      "id": "L87",
+      "title": "Urban park green space use analysis based on trajectory big data: Experience from a medium–sized city in China",
+      "doi": "10.1016/j.heliyon.2024.e26445",
+      "journal": "Heliyon",
+      "catalog_status": "reviewed",
+      "status": [
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10900791/",
+        "https://doi.org/10.1016/j.heliyon.2024.e26445"
+      ],
+      "next_action": "经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
+      "id": "L88",
+      "title": "Framework for analyzing the relationship between supply, demand, and flow of recreational services in urban park green spaces",
+      "doi": "10.1016/j.ecolind.2024.112403",
+      "journal": "Ecological Indicators",
+      "catalog_status": "reviewed",
+      "status": [
+        "pdf_acquisition"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": true,
+      "pdf_verified": false,
+      "source_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S1470160X24008604",
+        "https://doi.org/10.1016/j.ecolind.2024.112403"
+      ],
+      "next_action": "经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+    },
+    {
       "id": "P240AD96D",
       "title": "Insights into population behavior during the COVID-19 pandemic from cell phone mobility data and manifold learning",
       "doi": "10.1038/s43588-021-00125-9",
@@ -2701,6 +2737,6 @@
       "next_action": "核对书目信息和数据来源，审读方法段"
     }
   ],
-  "count": 149,
+  "count": 151,
   "definitions": "pdf_acquisition=true仅表示尚未核实本地PDF；不意味着文章不可访问。"
 }

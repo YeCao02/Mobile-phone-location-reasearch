@@ -6981,6 +6981,139 @@
       ]
     },
     {
+      "title": "Urban park green space use analysis based on trajectory big data: Experience from a medium–sized city in China",
+      "authors": [
+        "Shuna Xu",
+        "Shengyuan Yuan",
+        "Jingzhong Li",
+        "Xin Gao",
+        "Jinhua Hu"
+      ],
+      "year": 2024,
+      "publication_date": "2024-02-19",
+      "journal": "Heliyon",
+      "volume": "10",
+      "issue": "4",
+      "pages": "e26445",
+      "doi": "10.1016/j.heliyon.2024.e26445",
+      "institution": "许昌学院（Xuchang University）",
+      "team": "许淑娜 / Shuna Xu团队",
+      "provider": "及刻 / Jike（Guangzhou Mengxiang Network Technology Co., LTD.／广州市梦享网络技术有限公司）",
+      "source_confirmed": true,
+      "evidence_status": "具名正文已核",
+      "application": "城市公园绿地使用、可达性距离阈值、到访频率与持续时间、节假日及天气影响",
+      "research_scope": "pioneer_named",
+      "data_declaration": "§2.1直接具名Guangzhou Mengxiang Network Technology Co., LTD.；公司与手机厂商合作，将SDK嵌入手机系统提供智能场景识别，用户同意许可后采集。2022-04-03至12，许昌中心城区及2km缓冲区，半小时定位；开阔户外约10m、多遮挡最大20m。识别256423常住用户，其中中心城区186970，约占当地常住人口33.72%。轨迹不含个人属性。",
+      "evidence_section": "§2.1 Data sources；§2.2 Methods；Acknowledgements",
+      "fulltext_read": true,
+      "fulltext_scope": "完整正文已取得并核数据来源、方法、资助段；PDF尚待补齐",
+      "notes": "33.72%是具名SDK样本的人口覆盖率，不能依据接近1/3推为运营商。摘要称GPS trajectory big data；数据源段直接明确SDK，但未逐项说明WiFi/蓝牙。与Ecological Indicators 112403同批许昌底库、同基金；Heliyon仅分析10天子期，不能当两个独立采购项目。",
+      "id": "L87",
+      "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10900791/",
+      "catalog_status": "reviewed",
+      "review_date": "2026-10-13",
+      "product": "手机系统内嵌SDK轨迹",
+      "data_form": "匿名个体半小时定位轨迹",
+      "use_method": "城市公园绿地使用、可达性距离阈值、到访频率与持续时间、节假日及天气影响",
+      "app_collection_confirmed": true,
+      "sdk_explicit": true,
+      "sensor_mix": "正文明确系统内嵌SDK；未逐项披露WiFi/蓝牙，保留实际声明",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
+      "zotero_catalog_present": true,
+      "zotero_pdf_present": false,
+      "provider_evidence_status": "source_confirmed",
+      "access_status": "fulltext_read_pdf_pending",
+      "metadata_source": "出版方原文与PDF核验；DOI状态单独标示",
+      "publisher_metadata_verified": true,
+      "origins": [
+        "2026-10-10审读台账"
+      ],
+      "versions": [],
+      "legacy_provider_claims": [],
+      "bibliographic_status": "publisher_metadata_verified",
+      "publication_title_as_recorded": "Heliyon",
+      "publication_type": "journal_article",
+      "journal_family": "",
+      "field": "环境与生态",
+      "field_tags": [
+        "环境与生态",
+        "城市规划与服务可达性",
+        "计算方法与数据基础设施"
+      ],
+      "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
+      "scope_tag": "reviewed_application_candidate",
+      "download_queue_status": [
+        "pdf_acquisition"
+      ]
+    },
+    {
+      "title": "Framework for analyzing the relationship between supply, demand, and flow of recreational services in urban park green spaces",
+      "authors": [
+        "Shuna Xu",
+        "Jingzhong Li",
+        "Xin Gao",
+        "Huibing Zhao",
+        "Jinhua Hu",
+        "Shengyuan Yuan"
+      ],
+      "year": 2024,
+      "publication_date": "2024-09",
+      "journal": "Ecological Indicators",
+      "volume": "166",
+      "pages": "112403",
+      "doi": "10.1016/j.ecolind.2024.112403",
+      "institution": "许昌学院（Xuchang University）",
+      "team": "许淑娜 / Shuna Xu团队",
+      "provider": "及刻 / Jike（Guangzhou Mengxiang Network Technology Co., Ltd.／广州市梦享网络技术有限公司）",
+      "source_confirmed": true,
+      "evidence_status": "学校认证Chrome出版社全文具名已核",
+      "application": "公园游憩服务供给—需求—流动；潜在与实际供需；供给压力和可达性",
+      "research_scope": "pioneer_named",
+      "data_declaration": "§2.3明确Guangzhou Mengxiang Network Technology Co., Ltd.，与手机制造商合作以系统内嵌SDK提供智能场景识别，经用户许可采集。2022-04-01至30，30天半小时周期定位轨迹，许昌中心城区及2km缓冲区，精度约10m。识别256423常住用户，中心城区186970，33.72%覆盖。",
+      "evidence_section": "§2.3 Data sources；Acknowledgements",
+      "fulltext_read": true,
+      "fulltext_scope": "完整正文已取得并核数据来源、方法、资助段；PDF尚待补齐",
+      "notes": "在同团队原文中找到了完全具名供方，不需保持候选。两文使用同一城市、同样样本数量、部分重叠时间和同基金，关联极强；仍分别为两篇研究、不能算两个采购公告。供方确认来自正文§2.3，Data availability只说按请求提供。",
+      "id": "L88",
+      "evidence_url": "https://www.sciencedirect.com/science/article/pii/S1470160X24008604",
+      "catalog_status": "reviewed",
+      "review_date": "2026-10-13",
+      "product": "手机系统内嵌SDK轨迹",
+      "data_form": "匿名个体半小时定位轨迹",
+      "use_method": "公园游憩服务供给—需求—流动；潜在与实际供需；供给压力和可达性",
+      "app_collection_confirmed": true,
+      "sdk_explicit": true,
+      "sensor_mix": "正文明确系统内嵌SDK；未逐项披露WiFi/蓝牙，保留实际声明",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false,
+      "zotero_catalog_present": true,
+      "zotero_pdf_present": false,
+      "provider_evidence_status": "source_confirmed",
+      "access_status": "fulltext_read_pdf_pending",
+      "metadata_source": "出版方原文与PDF核验；DOI状态单独标示",
+      "publisher_metadata_verified": true,
+      "origins": [
+        "2026-10-10审读台账"
+      ],
+      "versions": [],
+      "legacy_provider_claims": [],
+      "bibliographic_status": "publisher_metadata_verified",
+      "publication_title_as_recorded": "Ecological Indicators",
+      "publication_type": "journal_article",
+      "journal_family": "",
+      "field": "环境与生态",
+      "field_tags": [
+        "环境与生态",
+        "城市规划与服务可达性"
+      ],
+      "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
+      "scope_tag": "reviewed_application_candidate",
+      "download_queue_status": [
+        "pdf_acquisition"
+      ]
+    },
+    {
       "id": "P240AD96D",
       "title": "Insights into population behavior during the COVID-19 pandemic from cell phone mobility data and manifold learning",
       "doi": "10.1038/s43588-021-00125-9",
@@ -11427,10 +11560,10 @@
     "source_counts": [
       {
         "source": "2026-10-10审读台账",
-        "input_rows": 86,
-        "mapped_rows": 86,
-        "unique_catalog_records": 86,
-        "new_records_at_merge_step": 86,
+        "input_rows": 88,
+        "mapped_rows": 88,
+        "unique_catalog_records": 88,
+        "new_records_at_merge_step": 88,
         "merged_rows": 0
       },
       {
@@ -11500,7 +11633,7 @@
     ],
     "source_overlap_matrix": {
       "2026-10-10审读台账": {
-        "2026-10-10审读台账": 86,
+        "2026-10-10审读台账": 88,
         "旧39篇候选清单": 16,
         "literature_commercial_mobile_location_data_2015_2026.csv": 10,
         "literature_commercial_mobile_location_data_addendum_2026.csv": 6,
@@ -12200,6 +12333,20 @@
         "row": 86,
         "source_row": null,
         "catalog_id": "L83",
+        "dedup_reason": "new_record"
+      },
+      {
+        "source": "2026-10-10审读台账",
+        "row": 87,
+        "source_row": null,
+        "catalog_id": "L87",
+        "dedup_reason": "new_record"
+      },
+      {
+        "source": "2026-10-10审读台账",
+        "row": 88,
+        "source_row": null,
+        "catalog_id": "L88",
         "dedup_reason": "new_record"
       },
       {
@@ -14301,16 +14448,16 @@
     "classification": "field/application为编辑归类；pending旧供应商标签均未视为原文确认。"
   },
   "counts": {
-    "total": 158,
-    "reviewed": 83,
+    "total": 160,
+    "reviewed": 85,
     "pending": 75,
-    "fulltext_read": 76,
-    "with_doi": 153,
+    "fulltext_read": 78,
+    "with_doi": 155,
     "pdf_verified": 85,
     "supporting_resources": 7,
     "linked_versions": 1,
     "metadata_conflicts_need_review": 1,
-    "active": 149,
+    "active": 151,
     "excluded": 9
   }
 }

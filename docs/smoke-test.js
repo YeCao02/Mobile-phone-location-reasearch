@@ -11,7 +11,9 @@ equal(cardIds('#china-list'),data.browse.pioneer_ids);equal(cardIds('#analog-lis
 assert(!html.includes('04B'));assert(!html.includes('id="other-data"'));assert(html.includes('04 / CONFIRMED PIONEER FAMILY'));assert(html.includes('06 / TO BE CONFIRMED'));
 for(const id of ['L21','L25','L48','L64','L80','L27','L28','L34','L59','L44','L55','L57','L78','L79'])assert(cardIds('#china-list').has(id));
 assert(cardIds('#pending-list').has('L41'));for(const id of ['L51','L52','L65','L66']){assert(!cardIds('#pending-list').has(id));assert(!cardIds('#china-list').has(id));}
-assert(node('#china-list').innerHTML.includes('HKU-YANG-P1'));assert(!node('#china-list').innerHTML.includes('SHU-LI-P1'));assert(node('#pending-list').innerHTML.includes('SHU-LI-P1'));
+assert(node('#china-list').innerHTML.includes('HKU-YANG-P1'));assert(node('#china-list').innerHTML.includes('SHU-LI-P1'));assert(!node('#pending-list').innerHTML.includes('SHU-LI-P1'));
+for(const id of ['L87','L88'])assert(cardIds('#china-list').has(id));
+for(const id of ['CN-R17-PKU-COOP','CN-R17-SYSU-COOP','CN-R17-TONGJI-CHEN','CN-R17-XCU-THESIS'])assert(node('#pending-evidence').innerHTML.includes(id));
 node('#search').value='田子坊';node('#search').listeners.input();assert(cardIds('#china-list').has('L80'));assert(!cardIds('#china-list').has('L21'));
 node('#clear').listeners.click();node('#pending-filter').value='pioneer';node('#pending-filter').listeners.change();
 equal(cardIds('#pending-list'),data.papers.filter(r=>data.browse.pending_ids.includes(r.id)&&r.research_scope==='pioneer_candidate').map(r=>r.id));
