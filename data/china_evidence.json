@@ -4552,6 +4552,30 @@
       "institution_id": "szu",
       "studies": [
         {
+          "id": "SZU-XIA-R2",
+          "title": "移动数据与就医公平性",
+          "outputs": [
+            {
+              "type": "期刊论文",
+              "catalog_id": "L21",
+              "title": "Mobile phone data show spatial and socioeconomic inequalities in hospital utilization",
+              "year": 2026,
+              "doi": "10.1038/s44360-026-00100-6",
+              "url": "https://www.nature.com/articles/s44360-026-00100-6",
+              "provider": "Moxing Beijing；数据申请联系为pioneerdata.com.cn域名",
+              "data_statement": "正文Methods/Data（第6页）与Ethics（第9页）明确Moxing Beijing；Data availability（第9页）提供pioneerdata.com.cn邮箱。服务商执行代码并返回聚合结果，作者不接触原始个体轨迹。Zotero正文与补充材料均已核读相关段落。",
+              "bibliographic_note": "Zotero正文13页（含附后报告）与Supplementary Information 25页；补充图1–2支持GPS就医行为识别及外部验证，补充文件未重复列出Moxing或Pioneer名称。",
+              "journal": "Nature Health"
+            }
+          ],
+          "source_ids": [
+            "CN-S05",
+            "CN-S06"
+          ],
+          "summary": "Nature Health：利用11城手机位置数据识别就医及越级就医，比较空间与社会经济不平等。CN-S05与CN-S06为同一研究的出版社和作者机构入口。",
+          "research_scope": "pioneer_named"
+        },
+        {
           "id": "SZU-XIA-R1",
           "title": "轨迹数据与PM2.5暴露公平",
           "outputs": [
@@ -4623,30 +4647,6 @@
               ]
             }
           ],
-          "research_scope": "pioneer_named"
-        },
-        {
-          "id": "SZU-XIA-R2",
-          "title": "移动数据与就医公平性",
-          "outputs": [
-            {
-              "type": "期刊论文",
-              "catalog_id": "L21",
-              "title": "Mobile phone data show spatial and socioeconomic inequalities in hospital utilization",
-              "year": 2026,
-              "doi": "10.1038/s44360-026-00100-6",
-              "url": "https://www.nature.com/articles/s44360-026-00100-6",
-              "provider": "Moxing Beijing；数据申请联系为pioneerdata.com.cn域名",
-              "data_statement": "正文Methods/Data（第6页）与Ethics（第9页）明确Moxing Beijing；Data availability（第9页）提供pioneerdata.com.cn邮箱。服务商执行代码并返回聚合结果，作者不接触原始个体轨迹。Zotero正文与补充材料均已核读相关段落。",
-              "bibliographic_note": "Zotero正文13页（含附后报告）与Supplementary Information 25页；补充图1–2支持GPS就医行为识别及外部验证，补充文件未重复列出Moxing或Pioneer名称。",
-              "journal": "Nature Health"
-            }
-          ],
-          "source_ids": [
-            "CN-S05",
-            "CN-S06"
-          ],
-          "summary": "Nature Health：利用11城手机位置数据识别就医及越级就医，比较空间与社会经济不平等。CN-S05与CN-S06为同一研究的出版社和作者机构入口。",
           "research_scope": "pioneer_named"
         }
       ],

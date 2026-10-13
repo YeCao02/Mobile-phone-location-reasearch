@@ -48,3 +48,20 @@ body{font-size:15px}.main{max-width:1660px}.brand small{font-size:10px}.rail-bot
 #analog-list>.provider-block>.cards{padding:18px}
 #provider-shortcuts:empty{display:none}
 @media(max-width:600px){#analog-list>.provider-block>.provider-heading{padding:14px;flex-wrap:wrap;gap:8px}#analog-list>.provider-block>.provider-heading h3{flex-basis:100%;font-size:17px}#analog-list>.provider-block>.cards{padding:12px}}
+
+/* Compact data streams and individually expandable review entries. */
+details.stream-card{padding:0;align-self:start}
+details.stream-card>summary{list-style:none;cursor:pointer;padding:17px 35px 17px 17px;position:relative;min-height:90px}
+details.stream-card>summary::-webkit-details-marker{display:none}
+details.stream-card>summary:after{content:'＋';position:absolute;right:12px;top:20px;color:var(--section-accent)}
+details.stream-card[open]>summary:after{content:'−'}
+details.stream-card>summary h4{margin-bottom:0}
+details.stream-card>.profile-items{padding:0 17px 17px;margin:0}
+#next .cards{display:block}
+#next .paper-card{margin:8px 0}
+#next .paper-card:not([open])>summary{padding:14px 42px 14px 16px}
+#next .paper-card:not([open])>summary .card-top,#next .paper-card:not([open])>summary .journal,#next .paper-card:not([open])>summary .card-bottom{display:none}
+#next .paper-card:not([open])>summary h3{margin:0;font-size:15px;font-weight:650}
+#next .paper-card>summary{position:relative}
+#next .paper-card:not([open])>summary:after{content:'＋';position:absolute;right:16px;top:14px;color:var(--section-accent)}
+#next .paper-card[open]>.card-body{display:block}
