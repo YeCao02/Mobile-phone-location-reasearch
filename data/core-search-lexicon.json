@@ -9,6 +9,8 @@
     {
       "group": "具名供应商",
       "terms": [
+        "Jike（梦享）",
+        "梦享",
         "isjike.com",
         "及刻",
         "即刻LBS",
@@ -132,5 +134,20 @@
     "university_followup_queries": 32,
     "non_exhaustive": true,
     "counting_note": "不同专线存在独立重检，不将查询数或重复发现计作新成果。"
+  },
+  "normalized_vendor": {
+    "label": "Jike（梦享）",
+    "company": "广州市梦享网络技术有限公司",
+    "english_company": "Guangzhou Mengxiang Network Technology Co., Ltd.",
+    "aliases": [
+      "梦享",
+      "Guangzhou Mengxiang",
+      "及刻",
+      "Jike",
+      "即刻LBS",
+      "isjike.com"
+    ],
+    "evidence": "及刻官方隐私政策开头明确公司名与品牌对应",
+    "source": "https://www.isjike.com/h-col-128"
   }
 }

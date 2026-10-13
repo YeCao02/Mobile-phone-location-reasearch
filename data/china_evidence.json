@@ -2030,9 +2030,9 @@
       "published": "2024-11-08",
       "institution": "上海大学 · 李峰清团队",
       "supplier": "北京先锋数聚信息科技有限公司",
-      "finding": "成交金额97.2万元；技术联系人李峰清。全国匿名位置数据包括timing、link、stable、poi四类点位，服务12个月，覆盖率65%以上。镜像附带中小企业声明函具名北京先锋数聚信息科技有限公司。",
-      "confidence": "high_with_mirror_limit",
-      "limits": "成交正文供应商字段遮挡，名称来自同页声明函；官方竞争性磋商公告已找到，官方成交原页尚未取得。沿用既有项目编号STC24A483，镜像本身未独立核定该编号。2024采购不倒推2022/2023论文使用同批次。",
+      "finding": "成交金额97.2万元；技术联系人李峰清。全国匿名位置数据包括timing、link、stable、poi四类点位，服务12个月，覆盖率65%以上。镜像附带中小企业声明函具名北京先锋数聚信息科技有限公司。 用户于2026-10-13明确确认本记录就是既有上海大学采购先锋数据的具体证据。",
+      "confidence": "user_confirmed_with_procurement_evidence",
+      "limits": "成交正文供应商字段遮挡，名称由同页声明函确认；官方竞争性磋商公告已找到。归属STC24A483的对应已获用户确认。采购年份不用于倒推早期论文同批次。",
       "group_id": "URA-LI-LYNAM",
       "research_scope": "pioneer_procurement"
     },
@@ -2059,6 +2059,40 @@
       "confidence": "high",
       "limits": "官网不证明某所高校已采购，也不单独证明公司间股权关系。",
       "research_scope": "supplier_identity"
+    },
+    {
+      "id": "R18-PROC-01",
+      "title": "手机高精度匿名 LBS 数据采集（广州+深圳）项目采购信息公开（服务类）",
+      "url": "https://bidding.szu.edu.cn/__local/5/27/FE/82C13B2A29A4C6122909C93EC78_68CD83B2_4C59D.pdf?e=.pdf",
+      "type": "official_university_scanned_pdf",
+      "date": "2022-09-01",
+      "institution": "深圳大学",
+      "buyer": "深圳大学建筑与城市规划学院",
+      "supplier": "广州市梦享网络技术有限公司",
+      "normalized_supplier": "Jike（梦享）",
+      "finding": "广州+深圳手机高精度匿名LBS数据采集；成交供应商广州市梦享网络技术有限公司；预算7万元，实际成交6.75万元，服务期2022年9—12月。",
+      "confidence": "confirmed_official_procurement",
+      "limits": "官方扫描盖章PDF已核；未披露负责人及SDK/GPS/WiFi等技术参数。服务期不等于原始轨迹观测期。",
+      "research_scope": "pioneer_named_procurement",
+      "evidence_quote": "3. 成交供应商：广州市梦享网络技术有限公司；5. 成交价格：67500.00元",
+      "source_group_id": "SZU-ARCH-JIKE-PROC"
+    },
+    {
+      "id": "R18-PROC-02",
+      "title": "中国超大城市交通韧性模型测试、校准与性能优化项目采购信息公开（服务类）",
+      "url": "https://bidding.szu.edu.cn/info/1023/359799.htm",
+      "type": "official_university_fulltext",
+      "date": "2026-07-10",
+      "institution": "深圳大学",
+      "buyer": "深圳大学建筑与城市规划学院",
+      "supplier": "广州市梦享网络技术有限公司",
+      "normalized_supplier": "Jike（梦享）",
+      "finding": "中国超大城市交通韧性模型测试、校准与性能优化；拟成交供应商广州市梦享网络技术有限公司，拟成交9.8万元，服务期2026-06-12—2026-12-31。",
+      "confidence": "confirmed_official_proposed_award",
+      "limits": "官方拟成交公告，未披露具体团队；不是合同履约或原始轨迹交付证明，未声明SDK/GPS/WiFi。",
+      "research_scope": "pioneer_named_procurement",
+      "evidence_quote": "4.拟成交供应商：广州市梦享网络技术有限公司；5.拟成交价格：98,000.00 元",
+      "source_group_id": "SZU-ARCH-JIKE-PROC"
     }
   ],
   "verified_edges": [
@@ -4882,8 +4916,8 @@
             "CN-R17-SHU-LI-PROC",
             "CN-R17-SHU-LI-PROC-TENDER"
           ],
-          "summary": "成交97.2万元；全国匿名位置，timing/link/stable/poi，12个月、覆盖率65%以上。供应商名称见同页中小企业声明函。官方成交原页待补，2024采购不倒推早期论文批次。",
-          "status": "已核采购镜像及附件；技术联系人李峰清"
+          "summary": "用户结合97.2万元成交镜像、李峰清技术联系人、timing/link/stable/poi四类点位及供方声明函，明确确认就是既有STC24A483项目。全国匿名位置数据，服务12个月，覆盖率65%以上；2024年采购与早期论文批次分别记录。",
+          "status": "已确认：上海大学李峰清团队采购先锋数聚"
         }
       ],
       "grants": [
@@ -7171,6 +7205,52 @@
         }
       ],
       "research_scope": "pioneer_named"
+    },
+    {
+      "id": "SZU-ARCH-JIKE-PROC",
+      "title": "建筑与城市规划学院 · 梦享采购",
+      "institution": "深圳大学",
+      "institution_id": "szu",
+      "team": "建筑与城市规划学院 · 采购（负责人未公开）",
+      "summary": "梦享具名采购记录；2022年匿名LBS数据与2026年模型服务分别记录。",
+      "supplier_names": [
+        "Jike（梦享）",
+        "广州市梦享网络技术有限公司"
+      ],
+      "source_ids": [
+        "R18-PROC-01",
+        "R18-PROC-02"
+      ],
+      "outputs": [],
+      "studies": [],
+      "procurements": [
+        {
+          "id": "R18-PROC-01",
+          "title": "手机高精度匿名 LBS 数据采集（广州+深圳）项目采购信息公开（服务类）",
+          "date": "2022-09-01",
+          "supplier": "Jike（梦享） / 广州市梦享网络技术有限公司",
+          "source_ids": [
+            "R18-PROC-01"
+          ],
+          "summary": "广州+深圳手机高精度匿名LBS数据采集；成交供应商广州市梦享网络技术有限公司；预算7万元，实际成交6.75万元，服务期2022年9—12月。 官方扫描盖章PDF已核；未披露负责人及SDK/GPS/WiFi等技术参数。服务期不等于原始轨迹观测期。",
+          "status": "已确认成交：匿名LBS数据采购",
+          "url": "https://bidding.szu.edu.cn/__local/5/27/FE/82C13B2A29A4C6122909C93EC78_68CD83B2_4C59D.pdf?e=.pdf"
+        },
+        {
+          "id": "R18-PROC-02",
+          "title": "中国超大城市交通韧性模型测试、校准与性能优化项目采购信息公开（服务类）",
+          "date": "2026-07-10",
+          "supplier": "Jike（梦享） / 广州市梦享网络技术有限公司",
+          "source_ids": [
+            "R18-PROC-02"
+          ],
+          "summary": "中国超大城市交通韧性模型测试、校准与性能优化；拟成交供应商广州市梦享网络技术有限公司，拟成交9.8万元，服务期2026-06-12—2026-12-31。 官方拟成交公告，未披露具体团队；不是合同履约或原始轨迹交付证明，未声明SDK/GPS/WiFi。",
+          "status": "已核官方拟成交公告：模型服务",
+          "url": "https://bidding.szu.edu.cn/info/1023/359799.htm"
+        }
+      ],
+      "grants": [],
+      "organization": "institution_team_content"
     }
   ],
   "source_aliases": {

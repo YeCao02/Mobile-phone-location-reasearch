@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-13",
+  "normalized_vendor": {
+    "label": "Jike（梦享）",
+    "company": "广州市梦享网络技术有限公司",
+    "english_company": "Guangzhou Mengxiang Network Technology Co., Ltd.",
+    "aliases": [
+      "梦享",
+      "Guangzhou Mengxiang",
+      "及刻",
+      "Jike",
+      "即刻LBS",
+      "isjike.com"
+    ],
+    "evidence": "及刻官方隐私政策开头明确公司名与品牌对应",
+    "source": "https://www.isjike.com/h-col-128"
+  },
+  "new_confirmed_papers": 0,
+  "new_candidate_papers": 0,
+  "new_procurement_records": 2,
+  "new_confirmed_lbs_awards": 1,
+  "new_proposed_model_service_awards": 1,
+  "pdfs_completed": [
+    "L83",
+    "L87"
+  ],
+  "procurement_source_ids": [
+    "R18-PROC-01",
+    "R18-PROC-02"
+  ],
+  "institution_leads": {
+    "北京大学": "单位名称加摸星/Moxing检索，本轮未取得新增论文来源声明；保留用户合作线索",
+    "中山大学": "单位名称加摸星/Moxing检索，本轮未取得新增论文来源声明；保留用户合作线索"
+  },
+  "remarks": {
+    "status": "waiting_for_native_authorization",
+    "planned_updates": 12,
+    "preserved_existing": 13
+  }
+}

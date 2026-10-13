@@ -13,6 +13,15 @@ for(const id of ['L21','L25','L48','L64','L80','L27','L28','L34','L59','L44','L5
 assert(cardIds('#pending-list').has('L41'));for(const id of ['L51','L52','L65','L66']){assert(!cardIds('#pending-list').has(id));assert(!cardIds('#china-list').has(id));}
 assert(node('#china-list').innerHTML.includes('HKU-YANG-P1'));assert(node('#china-list').innerHTML.includes('SHU-LI-P1'));assert(!node('#pending-list').innerHTML.includes('SHU-LI-P1'));
 for(const id of ['L87','L88'])assert(cardIds('#china-list').has(id));
+for(const id of ['R18-PROC-01','R18-PROC-02']) {
+  assert(node('#china-list').innerHTML.includes(id),'Official named procurement belongs to 04');
+  assert(!node('#pending-list').innerHTML.includes(id));
+}
+assert(node('#china-list').innerHTML.includes('拟成交9.8万元'),'Proposed award must retain its status');
+node('#search').value='梦享';node('#search').listeners.input();
+for(const id of ['L29','L48','L68','L80','L83','L87','L88'])assert(cardIds('#china-list').has(id),'Company alias should also find papers stating only Jike');
+assert(!cardIds('#china-list').has('L21'),'The Jike alias must not relabel Moxing-only studies');
+node('#clear').listeners.click();
 for(const id of ['CN-R17-PKU-COOP','CN-R17-SYSU-COOP','CN-R17-TONGJI-CHEN','CN-R17-XCU-THESIS'])assert(node('#pending-evidence').innerHTML.includes(id));
 node('#search').value='田子坊';node('#search').listeners.input();assert(cardIds('#china-list').has('L80'));assert(!cardIds('#china-list').has('L21'));
 node('#clear').listeners.click();node('#pending-filter').value='pioneer';node('#pending-filter').listeners.change();

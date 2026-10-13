@@ -6939,17 +6939,17 @@
       "application": "公园服务范围与实际可达性",
       "use_method": "依据29个公园访问与居住位置记录识别城市边缘公园实际服务距离和多层级服务圈。",
       "data_declaration": "§2.2：2020-10-15至2020-10-29，上海760万用户底库（约30%手机用户）；样本2.5万用户、3万次公园访问、约650万记录；字段含uuid、居住经纬度、公园名称及到访时间。Android LBS精度2–30m；Data availability明确原始数据商业提供方Guangzhou Mengxiang Network Technology Co., Ltd.。",
-      "evidence_section": "Data availability；§2.2 Data source and processing",
+      "evidence_section": "PDF第14页 Data availability；§2.2",
       "evidence_url": "https://www.sciencedirect.com/science/article/pii/S2405844024139497",
       "fulltext_read": true,
-      "fulltext_scope": "Europe PMC完整JATS XML已下载并检查正文、数据可得性和致谢。",
-      "pdf_downloaded": false,
+      "fulltext_scope": "完整正文PDF已取得；数据来源及具名供应商声明已核验",
+      "pdf_downloaded": true,
       "id": "L83",
       "research_scope": "pioneer_named",
       "catalog_status": "reviewed",
       "curated_evidence": true,
       "review_date": "2026-10-13",
-      "access_status": "fulltext_xml_read_pdf_pending",
+      "access_status": "fulltext_pdf_verified",
       "zotero_catalog_present": true,
       "zotero_catalog_imported": true,
       "zotero_attachment_verified": false,
@@ -6957,6 +6957,10 @@
       "provider_confirmation_basis": "论文Data availability具名Guangzhou Mengxiang Network Technology Co., Ltd.；及刻官网隐私政策https://www.isjike.com/h-col-128明确广州市梦享网络技术有限公司即及刻。",
       "sensor_mix": "原文明示Android LBS、2–30m；供应商官网说明SDK，本文未逐项写GPS/WiFi。",
       "notes": "赵民并非本篇作者；万亿在Acknowledgments感谢Prof. Min Zhao at Tongji University的讨论。万亿同时列华东理工大学和同济大学单位。 文章Baidu Maps仅用于公园位置/边界辅助校准，不是主体个人位置轨迹来源。30%样本比例此处由全文具名SDK品牌解释，不能据此误排为运营商。",
+      "pdf_pages": 17,
+      "pdf_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC11462473.1/PMC11462473.1.pdf?md5=67d301140312a0d317abfcb1b0dc480f",
+      "pdf_source": "NCBI PMC Article Datasets",
+      "pdf_identity_verified": true,
       "origins": [
         "2026-10-10审读台账"
       ],
@@ -6977,7 +6981,7 @@
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
       "scope_tag": "reviewed_application_candidate",
       "download_queue_status": [
-        "pdf_acquisition"
+        "current_review_complete"
       ]
     },
     {
@@ -7004,9 +7008,9 @@
       "application": "城市公园绿地使用、可达性距离阈值、到访频率与持续时间、节假日及天气影响",
       "research_scope": "pioneer_named",
       "data_declaration": "§2.1直接具名Guangzhou Mengxiang Network Technology Co., LTD.；公司与手机厂商合作，将SDK嵌入手机系统提供智能场景识别，用户同意许可后采集。2022-04-03至12，许昌中心城区及2km缓冲区，半小时定位；开阔户外约10m、多遮挡最大20m。识别256423常住用户，其中中心城区186970，约占当地常住人口33.72%。轨迹不含个人属性。",
-      "evidence_section": "§2.1 Data sources；§2.2 Methods；Acknowledgements",
+      "evidence_section": "PDF第2页 §2.1 Data sources",
       "fulltext_read": true,
-      "fulltext_scope": "完整正文已取得并核数据来源、方法、资助段；PDF尚待补齐",
+      "fulltext_scope": "完整正文PDF已取得；数据来源及具名供应商声明已核验",
       "notes": "33.72%是具名SDK样本的人口覆盖率，不能依据接近1/3推为运营商。摘要称GPS trajectory big data；数据源段直接明确SDK，但未逐项说明WiFi/蓝牙。与Ecological Indicators 112403同批许昌底库、同基金；Heliyon仅分析10天子期，不能当两个独立采购项目。",
       "id": "L87",
       "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10900791/",
@@ -7018,14 +7022,18 @@
       "app_collection_confirmed": true,
       "sdk_explicit": true,
       "sensor_mix": "正文明确系统内嵌SDK；未逐项披露WiFi/蓝牙，保留实际声明",
-      "pdf_downloaded": false,
+      "pdf_downloaded": true,
       "zotero_attachment_verified": false,
       "zotero_catalog_present": true,
       "zotero_pdf_present": false,
       "provider_evidence_status": "source_confirmed",
-      "access_status": "fulltext_read_pdf_pending",
+      "access_status": "fulltext_pdf_verified",
       "metadata_source": "出版方原文与PDF核验；DOI状态单独标示",
       "publisher_metadata_verified": true,
+      "pdf_pages": 14,
+      "pdf_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10900791.1/PMC10900791.1.pdf?md5=c385c88cc1f01f401c9facf1749befe7",
+      "pdf_source": "NCBI PMC Article Datasets",
+      "pdf_identity_verified": true,
       "origins": [
         "2026-10-10审读台账"
       ],
@@ -7044,7 +7052,7 @@
       "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
       "scope_tag": "reviewed_application_candidate",
       "download_queue_status": [
-        "pdf_acquisition"
+        "current_review_complete"
       ]
     },
     {
@@ -14453,7 +14461,7 @@
     "pending": 75,
     "fulltext_read": 78,
     "with_doi": 155,
-    "pdf_verified": 85,
+    "pdf_verified": 87,
     "supporting_resources": 7,
     "linked_versions": 1,
     "metadata_conflicts_need_review": 1,
