@@ -1,0 +1,893 @@
+{
+  "surface": "dashboard",
+  "manifest": {
+    "version": 1,
+    "surface": "dashboard",
+    "title": "收录文献的年度变化与期刊领域",
+    "generatedAt": "2026-10-13T08:00:00+08:00",
+    "description": "当前知识库收录的研究分布，不代表全领域发文量。",
+    "sources": [
+      {
+        "id": "literature-catalog",
+        "label": "手机定位数据知识库：去重文献与出版物分类",
+        "href": "https://yecao02.github.io/Mobile-phone-location-reasearch/data/literature-statistics.json",
+        "path": "data/literature-statistics.json",
+        "query": {
+          "sql": "WITH scopes AS (SELECT DISTINCT scope FROM scope_members)\nSELECT s.scope, CAST(y.year AS TEXT)||'年' AS year, COUNT(l.id) AS papers,\n SUM(COUNT(l.id)) OVER(PARTITION BY s.scope) AS denominator,\n CASE WHEN y.year=2026 THEN '截至2026年10月13日收录' ELSE '' END AS note\nFROM scopes s CROSS JOIN years y\nLEFT JOIN scope_members m ON m.scope=s.scope\nLEFT JOIN literature l ON l.id=m.id AND l.year=y.year AND l.publication_type!='conference_abstract'\nGROUP BY s.scope,y.year ORDER BY s.scope,y.year;\n\nWITH scopes AS (SELECT DISTINCT scope FROM scope_members)\nSELECT s.scope,d.domain,COUNT(l.id) AS papers,\n 1.0*COUNT(l.id)/SUM(COUNT(l.id)) OVER(PARTITION BY s.scope) AS share,\n SUM(COUNT(l.id)) OVER(PARTITION BY s.scope) AS denominator\nFROM scopes s CROSS JOIN domains d\nLEFT JOIN scope_members m ON m.scope=s.scope\nLEFT JOIN literature l ON l.id=m.id AND l.journal_domain=d.domain AND l.publication_type='journal_article'\nGROUP BY s.scope,d.domain,d.rank ORDER BY s.scope,d.rank;",
+          "description": "从公开literature_catalog.json导入literature、从literature-statistics.json导入scope_members和domains，SQLite聚合后与独立审核数量逐项核对。",
+          "engine": "SQLite",
+          "language": "sql",
+          "tables_used": [
+            "literature",
+            "scope_members",
+            "years",
+            "domains"
+          ],
+          "filters": [
+            "仅当前主页面收录研究，去重ID",
+            "年度图排除会议摘要、配套数据集、采购和基金",
+            "期刊领域图另排除会议论文与预印本",
+            "2026年截至2026-10-13收录"
+          ],
+          "metric_definitions": {
+            "papers": "count of distinct catalog IDs within selected scope and year or journal domain",
+            "share": "journal-domain papers divided by all journal papers in the selected scope"
+          }
+        }
+      }
+    ],
+    "filters": [
+      {
+        "id": "scope",
+        "label": "统计范围",
+        "dataset": "annual",
+        "field": "scope",
+        "defaultValue": "全部收录（含待核）",
+        "includeAll": false,
+        "targets": [
+          {
+            "dataset": "annual",
+            "field": "scope"
+          },
+          {
+            "dataset": "domains",
+            "field": "scope"
+          },
+          {
+            "dataset": "denominators",
+            "field": "scope"
+          }
+        ]
+      }
+    ],
+    "charts": [
+      {
+        "id": "annual-papers",
+        "title": "年度论文数量",
+        "type": "bar",
+        "dataset": "annual",
+        "sourceId": "literature-catalog",
+        "encodings": {
+          "x": {
+            "field": "year",
+            "type": "ordinal",
+            "label": "发表年份"
+          },
+          "y": {
+            "field": "papers",
+            "type": "quantitative",
+            "label": "论文数量（篇）"
+          },
+          "tooltip": [
+            {
+              "field": "denominator",
+              "type": "quantitative",
+              "label": "该范围论文总数"
+            },
+            {
+              "field": "note",
+              "type": "nominal",
+              "label": "说明"
+            }
+          ]
+        },
+        "labels": {
+          "values": "all"
+        },
+        "settings": {
+          "sort": "none",
+          "showValues": true
+        },
+        "palette": {
+          "kind": "sequential"
+        },
+        "valueFormat": "number"
+      },
+      {
+        "id": "journal-domains",
+        "title": "期刊主领域分布",
+        "type": "pie",
+        "dataset": "domains",
+        "sourceId": "literature-catalog",
+        "encodings": {
+          "x": {
+            "field": "domain",
+            "type": "nominal",
+            "label": "期刊领域"
+          },
+          "y": {
+            "field": "papers",
+            "type": "quantitative",
+            "label": "期刊论文数"
+          },
+          "tooltip": [
+            {
+              "field": "share",
+              "type": "quantitative",
+              "format": "percent",
+              "label": "占比"
+            },
+            {
+              "field": "denominator",
+              "type": "quantitative",
+              "label": "期刊论文总数"
+            }
+          ]
+        },
+        "labels": {
+          "values": "all"
+        },
+        "legend": {
+          "position": "bottom"
+        },
+        "settings": {
+          "showPercent": true,
+          "showValues": true,
+          "sort": "none",
+          "maxSegments": 8
+        },
+        "palette": {
+          "kind": "identity"
+        }
+      }
+    ],
+    "tables": [
+      {
+        "id": "counts",
+        "title": "统计范围与分母",
+        "dataset": "denominators",
+        "sourceId": "literature-catalog",
+        "defaultSort": {
+          "field": "records",
+          "direction": "desc"
+        },
+        "columns": [
+          {
+            "field": "scope",
+            "label": "范围",
+            "type": "text"
+          },
+          {
+            "field": "records",
+            "label": "研究文献（条）",
+            "type": "number"
+          },
+          {
+            "field": "annual_papers",
+            "label": "年度图（篇）",
+            "type": "number"
+          },
+          {
+            "field": "journal_papers",
+            "label": "期刊领域图（篇）",
+            "type": "number"
+          }
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "id": "intro",
+        "type": "markdown",
+        "body": "默认统计 **131 篇论文与预印本**；2024 年在当前集合中最多（30 篇）。下方可切换已确认、泛先锋或待核范围。该分布反映本知识库的收录结果，不能推断整个领域的真实增长率。2026 年为截至 **10月13日** 的收录量，2019 年的零值表示当前集合尚未收录。",
+        "sourceId": "literature-catalog"
+      },
+      {
+        "id": "annual-chart",
+        "type": "chart",
+        "chartId": "annual-papers",
+        "layout": "full"
+      },
+      {
+        "id": "domain-note",
+        "type": "markdown",
+        "body": "领域图默认统计 **120 篇期刊论文**。每种期刊按主要学术方向归入一个领域，属于编辑分类，并非 JCR 分区或论文主题；综合期刊保留在“综合科学”。会议论文、预印本与会议摘要不进入这个分母。",
+        "sourceId": "literature-catalog"
+      },
+      {
+        "id": "domain-chart",
+        "type": "chart",
+        "chartId": "journal-domains",
+        "layout": "full"
+      },
+      {
+        "id": "counts-table",
+        "type": "table",
+        "tableId": "counts"
+      },
+      {
+        "id": "reading-note",
+        "type": "markdown",
+        "body": "图表范围由上方“统计范围”控制；主页的关键词搜索只筛选下方文献卡片。后续优先补齐待核正文和数据供应商声明；期刊领域映射、类型修正和文献清单可在图表来源或主页下载入口核对。"
+      }
+    ]
+  },
+  "snapshot": {
+    "version": 1,
+    "status": "ready",
+    "generatedAt": "2026-10-13T08:00:00+08:00",
+    "datasets": {
+      "annual": [
+        {
+          "scope": "全部收录（含待核）",
+          "year": "2018年",
+          "papers": 1,
+          "denominator": 131,
+          "note": ""
+        },
+        {
+          "scope": "全部收录（含待核）",
+          "year": "2019年",
+          "papers": 0,
+          "denominator": 131,
+          "note": ""
+        },
+        {
+          "scope": "全部收录（含待核）",
+          "year": "2020年",
+          "papers": 8,
+          "denominator": 131,
+          "note": ""
+        },
+        {
+          "scope": "全部收录（含待核）",
+          "year": "2021年",
+          "papers": 17,
+          "denominator": 131,
+          "note": ""
+        },
+        {
+          "scope": "全部收录（含待核）",
+          "year": "2022年",
+          "papers": 17,
+          "denominator": 131,
+          "note": ""
+        },
+        {
+          "scope": "全部收录（含待核）",
+          "year": "2023年",
+          "papers": 13,
+          "denominator": 131,
+          "note": ""
+        },
+        {
+          "scope": "全部收录（含待核）",
+          "year": "2024年",
+          "papers": 30,
+          "denominator": 131,
+          "note": ""
+        },
+        {
+          "scope": "全部收录（含待核）",
+          "year": "2025年",
+          "papers": 25,
+          "denominator": 131,
+          "note": ""
+        },
+        {
+          "scope": "全部收录（含待核）",
+          "year": "2026年",
+          "papers": 20,
+          "denominator": 131,
+          "note": "截至2026年10月13日收录"
+        },
+        {
+          "scope": "已确认关联研究",
+          "year": "2018年",
+          "papers": 1,
+          "denominator": 81,
+          "note": ""
+        },
+        {
+          "scope": "已确认关联研究",
+          "year": "2019年",
+          "papers": 0,
+          "denominator": 81,
+          "note": ""
+        },
+        {
+          "scope": "已确认关联研究",
+          "year": "2020年",
+          "papers": 5,
+          "denominator": 81,
+          "note": ""
+        },
+        {
+          "scope": "已确认关联研究",
+          "year": "2021年",
+          "papers": 11,
+          "denominator": 81,
+          "note": ""
+        },
+        {
+          "scope": "已确认关联研究",
+          "year": "2022年",
+          "papers": 8,
+          "denominator": 81,
+          "note": ""
+        },
+        {
+          "scope": "已确认关联研究",
+          "year": "2023年",
+          "papers": 7,
+          "denominator": 81,
+          "note": ""
+        },
+        {
+          "scope": "已确认关联研究",
+          "year": "2024年",
+          "papers": 21,
+          "denominator": 81,
+          "note": ""
+        },
+        {
+          "scope": "已确认关联研究",
+          "year": "2025年",
+          "papers": 14,
+          "denominator": 81,
+          "note": ""
+        },
+        {
+          "scope": "已确认关联研究",
+          "year": "2026年",
+          "papers": 14,
+          "denominator": 81,
+          "note": "截至2026年10月13日收录"
+        },
+        {
+          "scope": "待核研究",
+          "year": "2018年",
+          "papers": 0,
+          "denominator": 50,
+          "note": ""
+        },
+        {
+          "scope": "待核研究",
+          "year": "2019年",
+          "papers": 0,
+          "denominator": 50,
+          "note": ""
+        },
+        {
+          "scope": "待核研究",
+          "year": "2020年",
+          "papers": 3,
+          "denominator": 50,
+          "note": ""
+        },
+        {
+          "scope": "待核研究",
+          "year": "2021年",
+          "papers": 6,
+          "denominator": 50,
+          "note": ""
+        },
+        {
+          "scope": "待核研究",
+          "year": "2022年",
+          "papers": 9,
+          "denominator": 50,
+          "note": ""
+        },
+        {
+          "scope": "待核研究",
+          "year": "2023年",
+          "papers": 6,
+          "denominator": 50,
+          "note": ""
+        },
+        {
+          "scope": "待核研究",
+          "year": "2024年",
+          "papers": 9,
+          "denominator": 50,
+          "note": ""
+        },
+        {
+          "scope": "待核研究",
+          "year": "2025年",
+          "papers": 11,
+          "denominator": 50,
+          "note": ""
+        },
+        {
+          "scope": "待核研究",
+          "year": "2026年",
+          "papers": 6,
+          "denominator": 50,
+          "note": "截至2026年10月13日收录"
+        },
+        {
+          "scope": "泛先锋关联研究",
+          "year": "2018年",
+          "papers": 0,
+          "denominator": 24,
+          "note": ""
+        },
+        {
+          "scope": "泛先锋关联研究",
+          "year": "2019年",
+          "papers": 0,
+          "denominator": 24,
+          "note": ""
+        },
+        {
+          "scope": "泛先锋关联研究",
+          "year": "2020年",
+          "papers": 0,
+          "denominator": 24,
+          "note": ""
+        },
+        {
+          "scope": "泛先锋关联研究",
+          "year": "2021年",
+          "papers": 0,
+          "denominator": 24,
+          "note": ""
+        },
+        {
+          "scope": "泛先锋关联研究",
+          "year": "2022年",
+          "papers": 0,
+          "denominator": 24,
+          "note": ""
+        },
+        {
+          "scope": "泛先锋关联研究",
+          "year": "2023年",
+          "papers": 3,
+          "denominator": 24,
+          "note": ""
+        },
+        {
+          "scope": "泛先锋关联研究",
+          "year": "2024年",
+          "papers": 5,
+          "denominator": 24,
+          "note": ""
+        },
+        {
+          "scope": "泛先锋关联研究",
+          "year": "2025年",
+          "papers": 6,
+          "denominator": 24,
+          "note": ""
+        },
+        {
+          "scope": "泛先锋关联研究",
+          "year": "2026年",
+          "papers": 10,
+          "denominator": 24,
+          "note": "截至2026年10月13日收录"
+        },
+        {
+          "scope": "类似供应商研究",
+          "year": "2018年",
+          "papers": 1,
+          "denominator": 57,
+          "note": ""
+        },
+        {
+          "scope": "类似供应商研究",
+          "year": "2019年",
+          "papers": 0,
+          "denominator": 57,
+          "note": ""
+        },
+        {
+          "scope": "类似供应商研究",
+          "year": "2020年",
+          "papers": 5,
+          "denominator": 57,
+          "note": ""
+        },
+        {
+          "scope": "类似供应商研究",
+          "year": "2021年",
+          "papers": 11,
+          "denominator": 57,
+          "note": ""
+        },
+        {
+          "scope": "类似供应商研究",
+          "year": "2022年",
+          "papers": 8,
+          "denominator": 57,
+          "note": ""
+        },
+        {
+          "scope": "类似供应商研究",
+          "year": "2023年",
+          "papers": 4,
+          "denominator": 57,
+          "note": ""
+        },
+        {
+          "scope": "类似供应商研究",
+          "year": "2024年",
+          "papers": 16,
+          "denominator": 57,
+          "note": ""
+        },
+        {
+          "scope": "类似供应商研究",
+          "year": "2025年",
+          "papers": 8,
+          "denominator": 57,
+          "note": ""
+        },
+        {
+          "scope": "类似供应商研究",
+          "year": "2026年",
+          "papers": 4,
+          "denominator": 57,
+          "note": "截至2026年10月13日收录"
+        }
+      ],
+      "domains": [
+        {
+          "scope": "全部收录（含待核）",
+          "domain": "综合科学",
+          "papers": 30,
+          "share": 0.25,
+          "denominator": 120
+        },
+        {
+          "scope": "全部收录（含待核）",
+          "domain": "地理与地理信息",
+          "papers": 21,
+          "share": 0.175,
+          "denominator": 120
+        },
+        {
+          "scope": "全部收录（含待核）",
+          "domain": "城市规划与建筑",
+          "papers": 26,
+          "share": 0.21666666666666667,
+          "denominator": 120
+        },
+        {
+          "scope": "全部收录（含待核）",
+          "domain": "环境生态与风险",
+          "papers": 8,
+          "share": 0.06666666666666667,
+          "denominator": 120
+        },
+        {
+          "scope": "全部收录（含待核）",
+          "domain": "交通与出行",
+          "papers": 11,
+          "share": 0.09166666666666666,
+          "denominator": 120
+        },
+        {
+          "scope": "全部收录（含待核）",
+          "domain": "健康与生命科学",
+          "papers": 7,
+          "share": 0.058333333333333334,
+          "denominator": 120
+        },
+        {
+          "scope": "全部收录（含待核）",
+          "domain": "计算与数理科学",
+          "papers": 7,
+          "share": 0.058333333333333334,
+          "denominator": 120
+        },
+        {
+          "scope": "全部收录（含待核）",
+          "domain": "社会经济与管理",
+          "papers": 10,
+          "share": 0.08333333333333333,
+          "denominator": 120
+        },
+        {
+          "scope": "已确认关联研究",
+          "domain": "综合科学",
+          "papers": 26,
+          "share": 0.32098765432098764,
+          "denominator": 81
+        },
+        {
+          "scope": "已确认关联研究",
+          "domain": "地理与地理信息",
+          "papers": 16,
+          "share": 0.19753086419753085,
+          "denominator": 81
+        },
+        {
+          "scope": "已确认关联研究",
+          "domain": "城市规划与建筑",
+          "papers": 16,
+          "share": 0.19753086419753085,
+          "denominator": 81
+        },
+        {
+          "scope": "已确认关联研究",
+          "domain": "环境生态与风险",
+          "papers": 3,
+          "share": 0.037037037037037035,
+          "denominator": 81
+        },
+        {
+          "scope": "已确认关联研究",
+          "domain": "交通与出行",
+          "papers": 5,
+          "share": 0.06172839506172839,
+          "denominator": 81
+        },
+        {
+          "scope": "已确认关联研究",
+          "domain": "健康与生命科学",
+          "papers": 5,
+          "share": 0.06172839506172839,
+          "denominator": 81
+        },
+        {
+          "scope": "已确认关联研究",
+          "domain": "计算与数理科学",
+          "papers": 4,
+          "share": 0.04938271604938271,
+          "denominator": 81
+        },
+        {
+          "scope": "已确认关联研究",
+          "domain": "社会经济与管理",
+          "papers": 6,
+          "share": 0.07407407407407407,
+          "denominator": 81
+        },
+        {
+          "scope": "待核研究",
+          "domain": "综合科学",
+          "papers": 4,
+          "share": 0.10256410256410256,
+          "denominator": 39
+        },
+        {
+          "scope": "待核研究",
+          "domain": "地理与地理信息",
+          "papers": 5,
+          "share": 0.1282051282051282,
+          "denominator": 39
+        },
+        {
+          "scope": "待核研究",
+          "domain": "城市规划与建筑",
+          "papers": 10,
+          "share": 0.2564102564102564,
+          "denominator": 39
+        },
+        {
+          "scope": "待核研究",
+          "domain": "环境生态与风险",
+          "papers": 5,
+          "share": 0.1282051282051282,
+          "denominator": 39
+        },
+        {
+          "scope": "待核研究",
+          "domain": "交通与出行",
+          "papers": 6,
+          "share": 0.15384615384615385,
+          "denominator": 39
+        },
+        {
+          "scope": "待核研究",
+          "domain": "健康与生命科学",
+          "papers": 2,
+          "share": 0.05128205128205128,
+          "denominator": 39
+        },
+        {
+          "scope": "待核研究",
+          "domain": "计算与数理科学",
+          "papers": 3,
+          "share": 0.07692307692307693,
+          "denominator": 39
+        },
+        {
+          "scope": "待核研究",
+          "domain": "社会经济与管理",
+          "papers": 4,
+          "share": 0.10256410256410256,
+          "denominator": 39
+        },
+        {
+          "scope": "泛先锋关联研究",
+          "domain": "综合科学",
+          "papers": 3,
+          "share": 0.125,
+          "denominator": 24
+        },
+        {
+          "scope": "泛先锋关联研究",
+          "domain": "地理与地理信息",
+          "papers": 8,
+          "share": 0.3333333333333333,
+          "denominator": 24
+        },
+        {
+          "scope": "泛先锋关联研究",
+          "domain": "城市规划与建筑",
+          "papers": 8,
+          "share": 0.3333333333333333,
+          "denominator": 24
+        },
+        {
+          "scope": "泛先锋关联研究",
+          "domain": "环境生态与风险",
+          "papers": 1,
+          "share": 0.041666666666666664,
+          "denominator": 24
+        },
+        {
+          "scope": "泛先锋关联研究",
+          "domain": "交通与出行",
+          "papers": 2,
+          "share": 0.08333333333333333,
+          "denominator": 24
+        },
+        {
+          "scope": "泛先锋关联研究",
+          "domain": "健康与生命科学",
+          "papers": 1,
+          "share": 0.041666666666666664,
+          "denominator": 24
+        },
+        {
+          "scope": "泛先锋关联研究",
+          "domain": "计算与数理科学",
+          "papers": 0,
+          "share": 0.0,
+          "denominator": 24
+        },
+        {
+          "scope": "泛先锋关联研究",
+          "domain": "社会经济与管理",
+          "papers": 1,
+          "share": 0.041666666666666664,
+          "denominator": 24
+        },
+        {
+          "scope": "类似供应商研究",
+          "domain": "综合科学",
+          "papers": 23,
+          "share": 0.40350877192982454,
+          "denominator": 57
+        },
+        {
+          "scope": "类似供应商研究",
+          "domain": "地理与地理信息",
+          "papers": 8,
+          "share": 0.14035087719298245,
+          "denominator": 57
+        },
+        {
+          "scope": "类似供应商研究",
+          "domain": "城市规划与建筑",
+          "papers": 8,
+          "share": 0.14035087719298245,
+          "denominator": 57
+        },
+        {
+          "scope": "类似供应商研究",
+          "domain": "环境生态与风险",
+          "papers": 2,
+          "share": 0.03508771929824561,
+          "denominator": 57
+        },
+        {
+          "scope": "类似供应商研究",
+          "domain": "交通与出行",
+          "papers": 3,
+          "share": 0.05263157894736842,
+          "denominator": 57
+        },
+        {
+          "scope": "类似供应商研究",
+          "domain": "健康与生命科学",
+          "papers": 4,
+          "share": 0.07017543859649122,
+          "denominator": 57
+        },
+        {
+          "scope": "类似供应商研究",
+          "domain": "计算与数理科学",
+          "papers": 4,
+          "share": 0.07017543859649122,
+          "denominator": 57
+        },
+        {
+          "scope": "类似供应商研究",
+          "domain": "社会经济与管理",
+          "papers": 5,
+          "share": 0.08771929824561403,
+          "denominator": 57
+        }
+      ],
+      "denominators": [
+        {
+          "scope": "全部收录（含待核）",
+          "records": 132,
+          "annual_papers": 131,
+          "journal_papers": 120
+        },
+        {
+          "scope": "已确认关联研究",
+          "records": 82,
+          "annual_papers": 81,
+          "journal_papers": 81
+        },
+        {
+          "scope": "泛先锋关联研究",
+          "records": 25,
+          "annual_papers": 24,
+          "journal_papers": 24
+        },
+        {
+          "scope": "类似供应商研究",
+          "records": 57,
+          "annual_papers": 57,
+          "journal_papers": 57
+        },
+        {
+          "scope": "待核研究",
+          "records": 50,
+          "annual_papers": 50,
+          "journal_papers": 39
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "literature-catalog",
+      "label": "手机定位数据知识库：去重文献与出版物分类",
+      "href": "https://yecao02.github.io/Mobile-phone-location-reasearch/data/literature-statistics.json",
+      "path": "data/literature-statistics.json",
+      "query": {
+        "sql": "WITH scopes AS (SELECT DISTINCT scope FROM scope_members)\nSELECT s.scope, CAST(y.year AS TEXT)||'年' AS year, COUNT(l.id) AS papers,\n SUM(COUNT(l.id)) OVER(PARTITION BY s.scope) AS denominator,\n CASE WHEN y.year=2026 THEN '截至2026年10月13日收录' ELSE '' END AS note\nFROM scopes s CROSS JOIN years y\nLEFT JOIN scope_members m ON m.scope=s.scope\nLEFT JOIN literature l ON l.id=m.id AND l.year=y.year AND l.publication_type!='conference_abstract'\nGROUP BY s.scope,y.year ORDER BY s.scope,y.year;\n\nWITH scopes AS (SELECT DISTINCT scope FROM scope_members)\nSELECT s.scope,d.domain,COUNT(l.id) AS papers,\n 1.0*COUNT(l.id)/SUM(COUNT(l.id)) OVER(PARTITION BY s.scope) AS share,\n SUM(COUNT(l.id)) OVER(PARTITION BY s.scope) AS denominator\nFROM scopes s CROSS JOIN domains d\nLEFT JOIN scope_members m ON m.scope=s.scope\nLEFT JOIN literature l ON l.id=m.id AND l.journal_domain=d.domain AND l.publication_type='journal_article'\nGROUP BY s.scope,d.domain,d.rank ORDER BY s.scope,d.rank;",
+        "description": "从公开literature_catalog.json导入literature、从literature-statistics.json导入scope_members和domains，SQLite聚合后与独立审核数量逐项核对。",
+        "engine": "SQLite",
+        "language": "sql",
+        "tables_used": [
+          "literature",
+          "scope_members",
+          "years",
+          "domains"
+        ],
+        "filters": [
+          "仅当前主页面收录研究，去重ID",
+          "年度图排除会议摘要、配套数据集、采购和基金",
+          "期刊领域图另排除会议论文与预印本",
+          "2026年截至2026-10-13收录"
+        ],
+        "metric_definitions": {
+          "papers": "count of distinct catalog IDs within selected scope and year or journal domain",
+          "share": "journal-domain papers divided by all journal papers in the selected scope"
+        }
+      }
+    }
+  ]
+}

@@ -8,7 +8,7 @@ const ctx={document:{querySelector:node,getElementById:id=>nodes['#'+id]},window
 const cardIds=id=>new Set([...node(id).innerHTML.matchAll(/data-paper-id="([^"]+)"/g)].map(x=>x[1]));
 const equal=(a,b)=>assert.deepEqual([...a].sort(),[...b].sort());
 equal(cardIds('#china-list'),data.browse.pioneer_ids);equal(cardIds('#analog-list'),data.browse.analog_ids);equal(cardIds('#pending-list'),data.browse.pending_ids);
-assert(!html.includes('04B'));assert(!html.includes('id="other-data"'));assert(html.includes('04 / CONFIRMED PIONEER FAMILY'));assert(html.includes('06 / TO BE CONFIRMED'));
+assert(!html.includes('04B'));assert(!html.includes('id="other-data"'));assert(html.includes('04 / CONFIRMED PIONEER FAMILY'));assert(html.includes('05 / TO BE CONFIRMED'));
 for(const id of ['L21','L25','L48','L64','L80','L27','L28','L34','L59','L44','L55','L57','L78','L79'])assert(cardIds('#china-list').has(id));
 assert(cardIds('#pending-list').has('L41'));for(const id of ['L51','L52','L65','L66']){assert(!cardIds('#pending-list').has(id));assert(!cardIds('#china-list').has(id));}
 assert(node('#china-list').innerHTML.includes('HKU-YANG-P1'));assert(node('#china-list').innerHTML.includes('SHU-LI-P1'));assert(!node('#pending-list').innerHTML.includes('SHU-LI-P1'));
@@ -33,4 +33,16 @@ node('#clear').listeners.click();
 const rendered=['#china-list','#analog-list','#pending-list','#pending-evidence'].map(id=>node(id).innerHTML).join('');
 const ids=[...rendered.matchAll(/\sid="([^"]+)"/g)].map(m=>m[1]);
 const duplicates=ids.filter((id,i)=>ids.indexOf(id)!==i);assert.equal(duplicates.length,0,'Duplicate DOM IDs: '+duplicates.join(', '));
-console.log(`PASS browsing: 03 ${data.browse.analog_ids.length}; 04 ${data.browse.pioneer_ids.length}; 06 ${data.browse.pending_ids.length}; search, filters, procurement, unique anchors.`);
+const sections=[...html.matchAll(/<section id="([^"]+)"/g)].map(m=>m[1]);
+assert.deepEqual(sections,['evolution','data-products','providers','china','next']);
+assert(node('#china-list').innerHTML.includes('study-caption'),'School/team rendering must retain study groups');
+assert(node('#china-list').innerHTML.includes('研究 2'),'Multiple studies must remain distinct');
+assert(html.includes('id="analytics-frame"'),'Overview must embed visible charts');
+const artifact=JSON.parse(fs.readFileSync(path.join(__dirname,'../data/literature-analytics-artifact.json'),'utf8'));
+assert.equal(artifact.surface,'dashboard');assert.equal(artifact.manifest.charts.length,2);
+for(const d of artifact.snapshot.datasets.denominators){
+  assert.equal(artifact.snapshot.datasets.annual.filter(r=>r.scope===d.scope).reduce((s,r)=>s+r.papers,0),d.annual_papers);
+  assert.equal(artifact.snapshot.datasets.domains.filter(r=>r.scope===d.scope).reduce((s,r)=>s+r.papers,0),d.journal_papers);
+}
+assert(artifact.snapshot.datasets.annual.every(r=>/^20\d{2}年$/.test(r.year)),'Years must remain readable in fallback tables');
+console.log(`PASS browsing: 03 ${data.browse.analog_ids.length}; 04 ${data.browse.pioneer_ids.length}; 05 ${data.browse.pending_ids.length}; search, filters, procurement, unique anchors.`);

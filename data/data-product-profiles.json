@@ -1,0 +1,471 @@
+{
+  "updated_at": "2026-10-13",
+  "overseas": {
+    "as_of": "2026-10-13",
+    "title": "海外常用位置数据：先分产品，再看供应商",
+    "intro": "同一供应商可能交付设备位置点、设备到访事件或地点聚合表。它们支持的研究尺度不同，不能仅凭公司名称把所有论文的数据视为相同。以下简介将历史研究版本与当前官方说明分开。",
+    "levels": [
+      {
+        "name": "位置点 / ping",
+        "unit": "设备 × 时间 × 坐标",
+        "meaning": "适合自行识别停留、轨迹和暴露；采样间隔与有效覆盖需在研究样本内核验。"
+      },
+      {
+        "name": "停留与到访 / stay、visit",
+        "unit": "设备 × 停留区或POI × 时段",
+        "meaning": "从位置点经聚类或地理围栏匹配生成；已包含供应商或作者的行为识别规则。"
+      },
+      {
+        "name": "地点或区域聚合",
+        "unit": "POI、CBG或区域 × 日、周、月",
+        "meaning": "交付人数、次数、来源分布或OD；通常不能还原每个设备的完整轨迹。"
+      }
+    ],
+    "profiles": [
+      {
+        "id": "safegraph",
+        "name": "SafeGraph · 历史 Patterns",
+        "tagline": "以地点为中心的聚合到访；早期论文也用过设备位置点",
+        "items": [
+          {
+            "label": "数据形式",
+            "text": "学术研究常见 Weekly / Monthly Patterns：POI到访量、访客量、停留分布与来源CBG。Social Distancing则提供居住CBG层面的移动性指标。早期SafeGraph论文也使用设备级ping，不能一概称为聚合数据。",
+            "source_ids": [
+              "sg-patterns",
+              "sg-paper",
+              "sg-early"
+            ]
+          },
+          {
+            "label": "结构与粒度",
+            "text": "Patterns通常每行对应一个POI及周/月时段，包含placekey、raw_visit_counts、raw_visitor_counts、visits_by_day、visitor_home_cbgs、median_dwell等；Core Places提供地点属性，本身不是人群移动记录。",
+            "source_ids": [
+              "sg-patterns",
+              "sg-paper"
+            ]
+          },
+          {
+            "label": "生产方式",
+            "text": "获准共享的应用位置点经停留识别、POI归属和居住区推断后聚合。历史Patterns文档明确以GPS数据识别到访，并对部分来源分布字段加噪、抑制小样本；这不是全球所有产品的统一采样规则。",
+            "source_ids": [
+              "sg-patterns",
+              "sg-early"
+            ]
+          },
+          {
+            "label": "覆盖与版本",
+            "text": "历史Monthly Patterns面向美国，Weekly Patterns还包含加拿大；具体论文可只研究某城市或县。2022年11月Advan宣布收购Patterns业务，SafeGraph文档将2023年初起的该产品标为legacy，阅读旧文献时需保留产品名与数据年份。",
+            "source_ids": [
+              "sg-patterns",
+              "sg-advan",
+              "sg-paper"
+            ]
+          }
+        ],
+        "paper_example": {
+          "id": "P25D34630",
+          "title": "Analysis of mobility data to build contact networks for COVID-19",
+          "journal": "PLOS ONE",
+          "year": 2021,
+          "doi": "10.1371/journal.pone.0249726",
+          "note": "2020-02-10至06-08，新墨西哥州Bernalillo County；正文第4页§2.1解释Weekly Patterns、Social Distancing和Core Places。Zotero现有简记明确：模型人口10,000不是原始实际样本量。"
+        },
+        "boundary": "海外与泛先锋的差异应比较具体产品的事件触发、字段和交付粒度；SafeGraph公司名不能直接等同于POI聚合表。",
+        "sources": [
+          {
+            "id": "sg-patterns",
+            "title": "SafeGraph：Patterns历史产品、字段与方法",
+            "url": "https://docs.safegraph.com/docs/monthly-patterns",
+            "type": "vendor-documentation",
+            "checked": "2026-10-13"
+          },
+          {
+            "id": "sg-advan",
+            "title": "Advan收购Patterns公告（2022-11-03）",
+            "url": "https://advanresearch.com/insights/advan-acquires-safegraphs-patterns-business-expanding-leadership-in-location-intelligence-and-foot-traffic-analytics",
+            "type": "vendor-announcement",
+            "checked": "2026-10-13"
+          },
+          {
+            "id": "sg-paper",
+            "title": "Klise等：接触网络方法，PLOS ONE（2021）",
+            "url": "https://doi.org/10.1371/journal.pone.0249726",
+            "type": "paper-local-fulltext",
+            "checked": "2026-10-13"
+          },
+          {
+            "id": "sg-early",
+            "title": "Chen与Rohla：历史设备级ping，Science（2018）",
+            "url": "https://www.anderson.ucla.edu/faculty_pages/keith.chen/papers/Final_Science18.pdf",
+            "type": "paper-local-fulltext",
+            "checked": "2026-10-13"
+          }
+        ]
+      },
+      {
+        "id": "veraset",
+        "name": "Veraset · Movement / Visits",
+        "tagline": "Movement交付设备位置点，Visits交付设备—POI到访",
+        "items": [
+          {
+            "label": "数据形式",
+            "text": "Movement是经预处理的假名化设备位置数据；Visits是另一个设备级POI到访产品。两者不能与只提供POI总客流的聚合表混用。",
+            "source_ids": [
+              "vs-movement",
+              "vs-visits"
+            ]
+          },
+          {
+            "label": "结构与粒度",
+            "text": "Movement围绕设备、坐标和时间组织位置观察，附水平精度等质量信息并去重；Visits将设备到访关联到POI。精确字段名、时间戳单位和可获得字段应以采购版本的数据字典为准。",
+            "source_ids": [
+              "vs-product",
+              "vs-visits",
+              "vs-paper"
+            ]
+          },
+          {
+            "label": "生产方式",
+            "text": "官方说明上游包括apps、SDKs与aggregators；Movement按日交付，Visits将GPS信号与地点多边形匹配。由此不能推定全部数据来自同一个自有SDK，也不能把按日交付解释为固定频率定位。",
+            "source_ids": [
+              "vs-movement",
+              "vs-visits"
+            ]
+          },
+          {
+            "label": "覆盖与版本",
+            "text": "当前Movement产品面向全球，Visits文档描述美国POI。研究实际覆盖须单列：PNAS养老院研究使用2020-03-13至05-28的美国样本，从超过5,000万设备中筛选出501,503个到访养老院的设备；不是当前全球可用样本量。",
+            "source_ids": [
+              "vs-product",
+              "vs-visits",
+              "vs-paper"
+            ]
+          }
+        ],
+        "paper_example": {
+          "id": "L04",
+          "title": "Nursing home staff networks and COVID-19",
+          "journal": "Proceedings of the National Academy of Sciences",
+          "year": 2021,
+          "doi": "10.1073/pnas.2015455118",
+          "note": "Materials and Methods / Smartphone Location Data（PDF第5页）：Veraset汇集Apple/Android应用位置；此研究报告典型约10分钟一次ping，并自行用至少3个点、跨度至少1小时识别养老院访问。该频率和阈值属于本研究，不能推广至全部Veraset产品。"
+        },
+        "boundary": "Movement适合自行生成轨迹、停留与OD；使用Visits时需接受或检验供应商的POI匹配规则。",
+        "sources": [
+          {
+            "id": "vs-movement",
+            "title": "Veraset Movement：上游与交付文档",
+            "url": "https://www.veraset.com/resource/doc/datasets-schema/docs",
+            "type": "vendor-documentation",
+            "checked": "2026-10-13"
+          },
+          {
+            "id": "vs-product",
+            "title": "Movement：设备级GPS与质量字段",
+            "url": "https://www.veraset.com/datasets/movement",
+            "type": "vendor-product",
+            "checked": "2026-10-13"
+          },
+          {
+            "id": "vs-visits",
+            "title": "Visits：美国设备—POI到访产品",
+            "url": "https://www.veraset.com/resource/doc/datasets-schema/visits---documentation-veraset",
+            "type": "vendor-documentation",
+            "checked": "2026-10-13"
+          },
+          {
+            "id": "vs-paper",
+            "title": "Chen等：养老院网络，PNAS（2021）",
+            "url": "https://www.anderson.ucla.edu/faculty/keith.chen/papers/Final_PNAS20.pdf",
+            "type": "author-hosted-paper",
+            "checked": "2026-10-13"
+          }
+        ]
+      },
+      {
+        "id": "spectus-cuebiq",
+        "name": "Spectus / Cuebiq · 隐私增强位置与停留",
+        "tagline": "设备位置与停留分析，通常在受控数据平台中完成",
+        "items": [
+          {
+            "label": "数据形式",
+            "text": "论文中可见位置点、Stay Location、居住区和派生OD等形态；Spectus Data Clean Room是分析环境，不能当作单一固定数据表。现有Spectus文档门户以Cuebiq名称提供说明。",
+            "source_ids": [
+              "sp-paper",
+              "sp-portal",
+              "sp-policy"
+            ]
+          },
+          {
+            "label": "结构与粒度",
+            "text": "位置点包含设备位置与时间；停留由时空聚类生成。官方文档把推断的居住/工作区限制在美国CBG层面，邻域点与停留可上推至CBG质心，并过滤敏感POI；不能把这些变换后坐标当作真实住宅位置。",
+            "source_ids": [
+              "sp-privacy",
+              "sp-paper"
+            ]
+          },
+          {
+            "label": "生产方式",
+            "text": "手机应用获准共享位置后进入处理流程。Cuebiq现行政策（2026-08-21）列出SDK和server-to-server途径，并明确GPS级经纬度及可行时的WiFi数据；因此“海外只用GPS”不成立，历史论文仍需按当时版本解释。",
+            "source_ids": [
+              "sp-policy",
+              "sp-paper"
+            ]
+          },
+          {
+            "label": "覆盖与版本",
+            "text": "已核文献包括美国全国和城市样本。Scientific Data 2024研究选取2022年四季各两周的美国数据；纽约暴露论文则使用2021年城市样本。国家、时间窗口及隐私处理会改变可分析的轨迹，不能套用厂商总面板数。",
+            "source_ids": [
+              "sp-paper"
+            ]
+          }
+        ],
+        "paper_example": {
+          "id": "L14",
+          "title": "An experienced racial-ethnic diversity dataset in the United States using human mobility data",
+          "journal": "Scientific Data",
+          "year": 2024,
+          "doi": "10.1038/s41597-024-03490-y",
+          "note": "Methods / Stays and home areas：2022年3、6、9、12月各两周；应用位置经SOC聚类形成停留。用该文说明数据形态与样本时间，不把论文报告的全部面板规模解释成过滤后分析人数。",
+          "corroborating_paper": {
+            "id": "L24",
+            "doi": "10.1038/s44284-024-00093-x",
+            "title": "Big mobility data reveals hyperlocal air pollution exposure disparities in the Bronx, New York",
+            "journal": "Nature Cities",
+            "url": "https://senseable.mit.edu/papers/pdf/20240627_Wang-etal_BigMobility_NatureCities.pdf"
+          }
+        },
+        "boundary": "Cuebiq与Spectus在本库作为关联品牌追溯，仍保留原论文署名；不据此认定所有年份、合同和数据集完全相同。",
+        "sources": [
+          {
+            "id": "sp-paper",
+            "title": "美国经历性族群多样性，Scientific Data（2024）",
+            "url": "https://www.nature.com/articles/s41597-024-03490-y",
+            "type": "publisher-methods-index",
+            "checked": "2026-10-13"
+          },
+          {
+            "id": "sp-privacy",
+            "title": "居住/工作区域上推与敏感地点处理",
+            "url": "https://docs.spectus.ai/Getting%20Started/User_Guides/Data_Assets/Device_Recurring_Areas_and_Sensitive_Locations/",
+            "type": "vendor-documentation",
+            "checked": "2026-10-13"
+          },
+          {
+            "id": "sp-policy",
+            "title": "Cuebiq数据来源与字段政策（更新2026-08-21）",
+            "url": "https://cuebiq.com/privacy-policy/",
+            "type": "vendor-policy",
+            "checked": "2026-10-13"
+          },
+          {
+            "id": "sp-portal",
+            "title": "Cuebiq / Spectus平台文档",
+            "url": "https://docs.spectus.ai/",
+            "type": "vendor-documentation",
+            "checked": "2026-10-13"
+          }
+        ]
+      }
+    ],
+    "comparison_guidance": "与泛先锋比较时，以当前交付样本是否包含timing/link/stable/poi等触发或事件类型、WiFi连接或稳定状态、设备时序、点位精度和停留识别方式为主；不要把WiFi+GPS视作某一公司独有技术指纹，也不要把某一论文的频率、精度、样本率推广为整个供应商承诺。"
+  },
+  "pioneer": {
+    "id": "pioneer-data-profile",
+    "title": "泛先锋数据：从终端定位到场景与轨迹",
+    "updated_at": "2026-10-13",
+    "subtitle": "Pioneer Data · Moxing · Jike（梦享）",
+    "lede": "这里汇总先锋数聚、摸星与及刻（梦享）关联研究使用的手机定位产品。已核实论文包含手机系统内嵌 SDK、GPS / Wi-Fi / 蓝牙定位和场景识别；研究者取得的材料既可能是带设备标识的多源点位，也可能是服务商运行分析后返回的聚合结果。不同论文、年份与交付批次的规格应分别阅读。",
+    "scope_note": "“泛先锋”是本知识库沿用的关联供应商品牌分组，不代表所有品牌、论文或产品具有完全相同的采集机制、字段、精度和样本覆盖。",
+    "pipeline": [
+      {
+        "title": "终端采集",
+        "text": "具名梦享论文描述与手机厂商合作，将 SDK 嵌入手机系统，并在用户同意许可后获取位置。",
+        "source_ids": [
+          "P19-S2",
+          "P19-S3"
+        ]
+      },
+      {
+        "title": "多源定位与场景识别",
+        "text": "GPS 定时记录与 Wi-Fi 连接、稳定停留、场景指纹记录共同形成观测；各类型的触发条件不同。",
+        "source_ids": [
+          "P19-S1",
+          "P19-S4"
+        ]
+      },
+      {
+        "title": "点位、停留与画像",
+        "text": "通过设备标识关联时间、经纬度、来源类型及可用的 POI / 停留区间；部分产品另提供推断的职住地和人群标签。",
+        "source_ids": [
+          "P19-S1"
+        ]
+      },
+      {
+        "title": "交付与研究",
+        "text": "清洗点位后构建停留、访问或出行链；也有由服务商执行研究代码、仅返回聚合结果的交付方式。",
+        "source_ids": [
+          "P19-S1",
+          "P19-S5"
+        ]
+      }
+    ],
+    "stream_title": "同一套多源交付中的四类记录",
+    "stream_note": "以下为用户提供的先锋交付说明口径，文档未标统一技术版本；数值属于该说明的精度描述，并非本知识库的独立精度测试。采购文件出现 timing / link / stable / poi，交付说明使用下列名称；具体字段映射以对应批次字典为准。",
+    "streams": [
+      {
+        "code": "timing",
+        "name": "GPS 定时点位",
+        "trigger": "手机使用 / 亮屏等终端条件触发；记录间隔受厂商设置及设备活跃程度影响。",
+        "time_semantics": "点事件：该说明中 start_time 与 end_time 相同，不据此推断停留时长。",
+        "claimed_accuracy": "约 50 m",
+        "research_use": "连续轨迹、空间活动与职住推断的基础观测。",
+        "source_ids": [
+          "P19-S1"
+        ]
+      },
+      {
+        "code": "wificonnect",
+        "procurement_alias": "link",
+        "name": "Wi-Fi 连接点位",
+        "trigger": "用户主动连接已建库 Wi-Fi 接入点时上报。",
+        "time_semantics": "连接行为观测；不等同于所有到访者都会产生记录。",
+        "claimed_accuracy": "5–10 m",
+        "research_use": "连接场所定位与到访辅助识别。",
+        "source_ids": [
+          "P19-S1"
+        ]
+      },
+      {
+        "code": "wifistable",
+        "procurement_alias": "stable",
+        "name": "Wi-Fi 稳定点位",
+        "trigger": "在稳定网络环境中停留达到阈值；说明以 2 分钟以上描述。",
+        "time_semantics": "区间事件：提供开始与结束时间，需检查重复、重叠和漂移。",
+        "claimed_accuracy": "15–20 m",
+        "research_use": "停留识别、活动时长及日内行为分析。",
+        "source_ids": [
+          "P19-S1"
+        ]
+      },
+      {
+        "code": "scenereco",
+        "procurement_alias": "poi（场景产品口径需对照字典）",
+        "name": "场景识别点位",
+        "trigger": "Wi-Fi、蓝牙及终端环境传感器信号与场景指纹库匹配。",
+        "time_semantics": "场景到访观测；识别能力取决于场景库与相应触发条件。",
+        "claimed_accuracy": "2–3 m",
+        "research_use": "商场、枢纽、轨道站点等已覆盖场景的精细到访研究。",
+        "source_ids": [
+          "P19-S1"
+        ]
+      }
+    ],
+    "schema": [
+      {
+        "label": "关联键",
+        "fields": "uuid / 脱敏设备 ID",
+        "meaning": "在获授权数据范围内连接同一设备的点位与可用标签。"
+      },
+      {
+        "label": "时空观测",
+        "fields": "时间戳 / start_time / end_time；经度、纬度",
+        "meaning": "区分瞬时点与持续区间，不能将点事件自动换算成停留。"
+      },
+      {
+        "label": "来源与场景",
+        "fields": "point_source；可用的 POI / 场景标识",
+        "meaning": "保留定位来源以进行分类型清洗、融合和可靠性检查。"
+      },
+      {
+        "label": "派生产品",
+        "fields": "职住地、人群标签、OD / 到访统计（依合同）",
+        "meaning": "属于规则或模型推断、分析输出；不等同于原始传感器观测。"
+      }
+    ],
+    "evidence_examples": [
+      {
+        "title": "梦享：系统内嵌 SDK 与定时轨迹",
+        "journal": "Ecological Indicators",
+        "year": 2024,
+        "doi": "10.1016/j.ecolind.2024.112403",
+        "section": "PDF 第 5 页，§2.3 Data sources",
+        "text": "许昌研究明确写出 Guangzhou Mengxiang Network Technology Co., Ltd. 及手机厂商合作、系统内嵌 SDK。本文采用 2022 年 4 月的 30 天半小时周期轨迹，报告约 10 m 精度。",
+        "source_ids": [
+          "P19-S2"
+        ]
+      },
+      {
+        "title": "摸星：多技术定位与来源字段",
+        "journal": "Journal of Global Change Data & Discovery",
+        "year": 2026,
+        "doi": "10.3974/geodp.2026.02.08",
+        "section": "轨迹数据来源说明",
+        "text": "六城 PM2.5 暴露研究明确 Moxing Technology，列出 Wi-Fi、蓝牙和 GPS；记录含匿名 ID、时间戳、定位方式与经纬度。观测期为 2023-01-24 至 2023-02-23。",
+        "source_ids": [
+          "P19-S4"
+        ]
+      },
+      {
+        "title": "Moxing Beijing：聚合分析交付",
+        "journal": "Nature Health",
+        "year": 2026,
+        "doi": "10.1038/s44360-026-00100-6",
+        "section": "Methods / Data；Data availability；Ethics",
+        "text": "医院利用研究具名 Moxing Beijing，并给出 Pioneer 域名联系渠道。该研究由服务商执行代码、返回聚合结果；论文中的数据访问方式不等同于研究者直接持有原始个体轨迹。",
+        "source_ids": [
+          "P19-S5"
+        ]
+      }
+    ],
+    "comparison": {
+      "title": "与常见海外到访产品怎样比较？",
+      "text": "比较应落在交付层级与观测机制：这份先锋说明把多种定位来源、点事件与停留区间交付给研究者，便于自行清洗和构建行为指标；以 SafeGraph Patterns 为例的到访产品则更适合从已处理的 POI 访问与聚合模式理解。Veraset 等也存在设备级位置或访问产品，不能将全部海外产品都视为同一种格式。",
+      "qualification": "“GPS 为主”不能解释为“只用 GPS”。海外位置观测也可能来自融合定位；Wi-Fi / 蓝牙并不是此关联供应商品牌独有的技术标志。区分数据还需核对 SDK 部署方式、原始或派生交付、字段、采样条件、样本范围与年份。"
+    },
+    "method_notes": [
+      "全国品牌覆盖、某城市样本数与特定论文清洗后的研究样本不是同一指标。",
+      "采集依赖设备、使用与连接行为；说明中的 Android 覆盖及画像筛选条件只适用于相应产品，不能直接泛化为全部论文的年龄或设备范围。",
+      "说明指出 Wi-Fi stable 可能重复、重叠及漂移；应结合时间、速度、来源类型进行一致性检查，保留清洗与选择样本的记录。",
+      "同一供应商不保证同一批数据；高频、GPS / Wi-Fi 和近似精度也不足以独立确认供应商。"
+    ],
+    "sources": [
+      {
+        "id": "P19-S1",
+        "title": "用户提供：先锋数聚《手机移动数据说明》",
+        "type": "user_provided_technical_notes",
+        "section": "数据说明（字段与类型）；数据清洗及过滤；OD 行程链生成和处理原则",
+        "url": null,
+        "note": "本页经授权选择性转述，原始说明及个人级数据不公开；文档未标统一技术版本。"
+      },
+      {
+        "id": "P19-S2",
+        "title": "Xu et al. (2024), Ecological Indicators 166:112403",
+        "url": "https://doi.org/10.1016/j.ecolind.2024.112403",
+        "section": "§2.3 Data sources，PDF 第 5 页",
+        "type": "verified_fulltext"
+      },
+      {
+        "id": "P19-S3",
+        "title": "Xu et al. (2024), Heliyon 10:e26445",
+        "url": "https://doi.org/10.1016/j.heliyon.2024.e26445",
+        "section": "§2.1 Data sources，PDF 第 2 页",
+        "type": "verified_fulltext"
+      },
+      {
+        "id": "P19-S4",
+        "title": "Wu, Ma & Xia (2026)，六城 PM2.5 暴露公平数据论文",
+        "url": "https://doi.org/10.3974/geodp.2026.02.08",
+        "section": "原始轨迹数据来源说明",
+        "type": "verified_statement"
+      },
+      {
+        "id": "P19-S5",
+        "title": "Xia et al. (2026), Nature Health",
+        "url": "https://doi.org/10.1038/s44360-026-00100-6",
+        "section": "Methods / Data（PDF 第 6 页），Data availability / Ethics（第 9 页）",
+        "type": "verified_fulltext_and_supplement"
+      }
+    ]
+  }
+}

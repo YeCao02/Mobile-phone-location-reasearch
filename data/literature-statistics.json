@@ -1,0 +1,2638 @@
+{
+  "as_of": "2026-10-13",
+  "method": "按出版物学术定位的编辑主领域归类，每刊一主类；非官方JCR/中科院分区，也非当前论文研究主题。会议论文与预印本不纳入期刊领域饼图。",
+  "annual_scope_note": "年度图默认当前收录期刊论文、会议论文和预印本共131篇；排除1条会议摘要。非全领域发文总量。2026为截至收录日。",
+  "domain_order": [
+    "综合科学",
+    "地理与地理信息",
+    "城市规划与建筑",
+    "环境生态与风险",
+    "交通与出行",
+    "健康与生命科学",
+    "计算与数理科学",
+    "社会经济与管理"
+  ],
+  "venues": [
+    {
+      "journal": "2022 IEEE International Conference on Big Data (Big Data)",
+      "canonical_journal": "2022 IEEE International Conference on Big Data (Big Data)",
+      "domain": "计算与数理科学",
+      "rationale": "出版物以计算、数据科学、人工智能、物理或数理工程为主要方向。",
+      "paper_ids": [
+        "P48A032E2"
+      ],
+      "record_count": 1,
+      "journal_article_count": 0,
+      "original_journal_article_count": 1
+    },
+    {
+      "journal": "2022 IEEE International Conference on Data Mining (ICDM)",
+      "canonical_journal": "2022 IEEE International Conference on Data Mining (ICDM)",
+      "domain": "计算与数理科学",
+      "rationale": "出版物以计算、数据科学、人工智能、物理或数理工程为主要方向。",
+      "paper_ids": [
+        "P6AAE6DFC"
+      ],
+      "record_count": 1,
+      "journal_article_count": 0,
+      "original_journal_article_count": 1
+    },
+    {
+      "journal": "AGILE: GIScience Series",
+      "canonical_journal": "AGILE: GIScience Series",
+      "domain": "地理与地理信息",
+      "rationale": "AGILE年度会议论文系列，归地理信息；不进入期刊论文饼图。",
+      "paper_ids": [
+        "P8A06ED95"
+      ],
+      "record_count": 1,
+      "journal_article_count": 0,
+      "original_journal_article_count": 1
+    },
+    {
+      "journal": "Annals of Epidemiology",
+      "canonical_journal": "Annals of Epidemiology",
+      "domain": "健康与生命科学",
+      "rationale": "出版物以公共卫生、健康地理、数字健康或生命科学为主要方向。",
+      "paper_ids": [
+        "L10"
+      ],
+      "record_count": 1,
+      "journal_article_count": 1,
+      "original_journal_article_count": 1
+    },
+    {
+      "journal": "Annals of GIS",
+      "canonical_journal": "Annals of GIS",
+      "domain": "地理与地理信息",
+      "rationale": "出版物以地理过程、空间分析、地理信息科学或地球观测为主要方向。",
+      "paper_ids": [
+        "P441C38CE",
+        "P7A4F6797"
+      ],
+      "record_count": 2,
+      "journal_article_count": 2,
+      "original_journal_article_count": 2
+    },
+    {
+      "journal": "Annals of the American Association of Geographers",
+      "canonical_journal": "Annals of the American Association of Geographers",
+      "domain": "地理与地理信息",
+      "rationale": "出版物以地理过程、空间分析、地理信息科学或地球观测为主要方向。",
+      "paper_ids": [
+        "PD5396003"
+      ],
+      "record_count": 1,
+      "journal_article_count": 1,
+      "original_journal_article_count": 1
+    },
+    {
+      "journal": "Applied Geography",
+      "canonical_journal": "Applied Geography",
+      "domain": "地理与地理信息",
+      "rationale": "出版物以地理过程、空间分析、地理信息科学或地球观测为主要方向。",
+      "paper_ids": [
+        "P5416DFC8",
+        "P2F95F02D"
+      ],
+      "record_count": 2,
+      "journal_article_count": 2,
+      "original_journal_article_count": 2
+    },
+    {
+      "journal": "BMC Public Health",
+      "canonical_journal": "BMC Public Health",
+      "domain": "健康与生命科学",
+      "rationale": "出版物以公共卫生、健康地理、数字健康或生命科学为主要方向。",
+      "paper_ids": [
+        "PFDDDACD2"
+      ],
+      "record_count": 1,
+      "journal_article_count": 1,
+      "original_journal_article_count": 1
+    },
+    {
+      "journal": "Chinese Geographical Science",
+      "canonical_journal": "Chinese Geographical Science",
+      "domain": "地理与地理信息",
+      "rationale": "出版物以地理过程、空间分析、地理信息科学或地球观测为主要方向。",
+      "paper_ids": [
+        "L69"
+      ],
+      "record_count": 1,
+      "journal_article_count": 1,
+      "original_journal_article_count": 1
+    },
+    {
+      "journal": "Cities",
+      "canonical_journal": "Cities",
+      "domain": "城市规划与建筑",
+      "rationale": "出版物以城市研究、空间规划、城市分析或建筑与建成环境为主要方向。",
+      "paper_ids": [
+        "L27",
+        "L64",
+        "PA98D85BB",
+        "PB6FFBAD1",
+        "PFC132E92"
+      ],
+      "record_count": 5,
+      "journal_article_count": 5,
+      "original_journal_article_count": 5
+    },
+    {
+      "journal": "Communications Physics",
+      "canonical_journal": "Communications Physics",
+      "domain": "计算与数理科学",
+      "rationale": "出版物以计算、数据科学、人工智能、物理或数理工程为主要方向。",
+      "paper_ids": [
+        "L17"
+      ],
+      "record_count": 1,
+      "journal_article_count": 1,
+      "original_journal_article_count": 1
+    },
+    {
+      "journal": "Computational Urban Science",
+      "canonical_journal": "Computational Urban Science",
+      "domain": "城市规划与建筑",
+      "rationale": "出版物以城市研究、空间规划、城市分析或建筑与建成环境为主要方向。",
+      "paper_ids": [
+        "P2BDAEE88"
+      ],
+      "record_count": 1,
+      "journal_article_count": 1,
+      "original_journal_article_count": 1
+    },
+    {
+      "journal": "Computers, Environment and Urban Systems",
+      "canonical_journal": "Computers, Environment and Urban Systems",
+      "domain": "城市规划与建筑",
+      "rationale": "出版物以城市研究、空间规划、城市分析或建筑与建成环境为主要方向。",
+      "paper_ids": [
+        "PAADD397C",
+        "P9123C07B",
+        "P9B76EC36",
+        "P104EBB42"
+      ],
+      "record_count": 4,
+      "journal_article_count": 4,
+      "original_journal_article_count": 4
+    },
+    {
+      "journal": "EPJ Data Science",
+      "canonical_journal": "EPJ Data Science",
+      "domain": "计算与数理科学",
+      "rationale": "出版物以计算、数据科学、人工智能、物理或数理工程为主要方向。",
+      "paper_ids": [
+        "L05",
+        "L19",
+        "P1A918461",
+        "P5FE9D417"
+      ],
+      "record_count": 4,
+      "journal_article_count": 4,
+      "original_journal_article_count": 4
+    },
+    {
+      "journal": "Ecological Indicators",
+      "canonical_journal": "Ecological Indicators",
+      "domain": "环境生态与风险",
+      "rationale": "出版物以环境生态、土地及自然系统、可持续性或风险分析为主要方向。",
+      "paper_ids": [
+        "L88"
+      ],
+      "record_count": 1,
+      "journal_article_count": 1,
+      "original_journal_article_count": 1
+    },
+    {
+      "journal": "Environment and Planning B: Urban Analytics and City Science",
+      "canonical_journal": "Environment and Planning B: Urban Analytics and City Science",
+      "domain": "城市规划与建筑",
+      "rationale": "出版物以城市研究、空间规划、城市分析或建筑与建成环境为主要方向。",
+      "paper_ids": [
+        "PAF9C787A",
+        "P76B9708A",
+        "P1DFAD697",
+        "P5C05191D"
+      ],
+      "record_count": 4,
+      "journal_article_count": 4,
+      "original_journal_article_count": 4
+    },
+    {
+      "journal": "Frontiers in Political Science",
+      "canonical_journal": "Frontiers in Political Science",
+      "domain": "社会经济与管理",
+      "rationale": "出版物以社会行为、政治、经济、管理或教育研究为主要方向。",
+      "paper_ids": [
+        "P71C3218F"
+      ],
+      "record_count": 1,
+      "journal_article_count": 1,
+      "original_journal_article_count": 1
+    },
+    {
+      "journal": "Geophysical Research Letters",
+      "canonical_journal": "Geophysical Research Letters",
+      "domain": "环境生态与风险",
+      "rationale": "地球与空间物理期刊，在此八类体系并入环境生态与风险。",
+      "paper_ids": [
+        "L81"
+      ],
+      "record_count": 1,
+      "journal_article_count": 1,
+      "original_journal_article_count": 1
+    },
+    {
+      "journal": "Global Smart Cities Summit cum The 3rd International Conference on Urban Informatics (GSCS & ICUI 2023), Conference Proceedings",
+      "canonical_journal": "Global Smart Cities Summit cum The 3rd International Conference on Urban Informatics (GSCS & ICUI 2023), Conference Proceedings",
+      "domain": "城市规划与建筑",
+      "rationale": "出版物以城市研究、空间规划、城市分析或建筑与建成环境为主要方向。",
+      "paper_ids": [
+        "L26"
+      ],
+      "record_count": 1,
+      "journal_article_count": 0,
+      "original_journal_article_count": 0
+    },
+    {
+      "journal": "Health & Place",
+      "canonical_journal": "Health & Place",
+      "domain": "健康与生命科学",
+      "rationale": "出版物以公共卫生、健康地理、数字健康或生命科学为主要方向。",
+      "paper_ids": [
+        "P38C79679"
+      ],
+      "record_count": 1,
+      "journal_article_count": 1,
+      "original_journal_article_count": 1
+    },
+    {
+      "journal": "Heliyon",
+      "canonical_journal": "Heliyon",
+      "domain": "综合科学",
+      "rationale": "出版物覆盖多学科基础或应用研究，按综合刊定位归类；不根据本篇论文主题改类。",
+      "paper_ids": [
+        "L83",
+        "L87"
+      ],
+      "record_count": 2,
+      "journal_article_count": 2,
+      "original_journal_article_count": 2
+    },
+    {
+      "journal": "IEEE Transactions on Intelligent Transportation Systems",
+      "canonical_journal": "IEEE Transactions on Intelligent Transportation Systems",
+      "domain": "交通与出行",
+      "rationale": "出版物以交通系统、运输地理或出行行为为主要方向。",
+      "paper_ids": [
+        "P3EEC79FA"
+      ],
+      "record_count": 1,
+      "journal_article_count": 1,
+      "original_journal_article_count": 1
+    },
+    {
+      "journal": "ISPRS International Journal of Geo-Information",
+      "canonical_journal": "ISPRS International Journal of Geo-Information",
+      "domain": "地理与地理信息",
+      "rationale": "出版物以地理过程、空间分析、地理信息科学或地球观测为主要方向。",
+      "paper_ids": [
+        "L36"
+      ],
+      "record_count": 1,
+      "journal_article_count": 1,
+      "original_journal_article_count": 1
+    },
+    {
+      "journal": "International Journal of Applied Earth Observation and Geoinformation",
+      "canonical_journal": "International Journal of Applied Earth Observation and Geoinformation",
+      "domain": "地理与地理信息",
+      "rationale": "出版物以地理过程、空间分析、地理信息科学或地球观测为主要方向。",
+      "paper_ids": [
+        "L29"
+      ],
+      "record_count": 1,
+      "journal_article_count": 1,
+      "original_journal_article_count": 1
+    },
+    {
+      "journal": "International Journal of Geographical Information Science",
+      "canonical_journal": "International Journal of Geographical Information Science",
+      "domain": "地理与地理信息",
+      "rationale": "出版物以地理过程、空间分析、地理信息科学或地球观测为主要方向。",
+      "paper_ids": [
+        "P837C3A60",
+        "P1F72D228"
+      ],
+      "record_count": 2,
+      "journal_article_count": 2,
+      "original_journal_article_count": 2
+    },
+    {
+      "journal": "International Journal of Health Geographics",
+      "canonical_journal": "International Journal of Health Geographics",
+      "domain": "健康与生命科学",
+      "rationale": "出版物以公共卫生、健康地理、数字健康或生命科学为主要方向。",
+      "paper_ids": [
+        "L09"
+      ],
+      "record_count": 1,
+      "journal_article_count": 1,
+      "original_journal_article_count": 1
+    },
+    {
+      "journal": "International Journal of Hospitality Management",
+      "canonical_journal": "International Journal of Hospitality Management",
+      "domain": "社会经济与管理",
+      "rationale": "出版物以社会行为、政治、经济、管理或教育研究为主要方向。",
+      "paper_ids": [
+        "P06F06671"
+      ],
+      "record_count": 1,
+      "journal_article_count": 1,
+      "original_journal_article_count": 1
+    },
+    {
+      "journal": "Journal of Advanced Transportation",
+      "canonical_journal": "Journal of Advanced Transportation",
+      "domain": "交通与出行",
+      "rationale": "出版物以交通系统、运输地理或出行行为为主要方向。",
+      "paper_ids": [
+        "L68"
+      ],
+      "record_count": 1,
+      "journal_article_count": 1,
+      "original_journal_article_count": 1
+    },
+    {
+      "journal": "Journal of Asian Architecture and Building Engineering",
+      "canonical_journal": "Journal of Asian Architecture and Building Engineering",
+      "domain": "城市规划与建筑",
+      "rationale": "出版物以城市研究、空间规划、城市分析或建筑与建成环境为主要方向。",
+      "paper_ids": [
+        "L80"
+      ],
+      "record_count": 1,
+      "journal_article_count": 1,
+      "original_journal_article_count": 1
+    },
+    {
+      "journal": "Journal of Economic Surveys",
+      "canonical_journal": "Journal of Economic Surveys",
+      "domain": "社会经济与管理",
+      "rationale": "出版物以社会行为、政治、经济、管理或教育研究为主要方向。",
+      "paper_ids": [
+        "PEF9587A5"
+      ],
+      "record_count": 1,
+      "journal_article_count": 1,
+      "original_journal_article_count": 1
+    },
+    {
+      "journal": "Journal of Geographical Systems",
+      "canonical_journal": "Journal of Geographical Systems",
+      "domain": "地理与地理信息",
+      "rationale": "出版物以地理过程、空间分析、地理信息科学或地球观测为主要方向。",
+      "paper_ids": [
+        "P9729F216"
+      ],
+      "record_count": 1,
+      "journal_article_count": 1,
+      "original_journal_article_count": 1
+    },
+    {
+      "journal": "Journal of Transport Geography",
+      "canonical_journal": "Journal of Transport Geography",
+      "domain": "交通与出行",
+      "rationale": "出版物以交通系统、运输地理或出行行为为主要方向。",
+      "paper_ids": [
+        "L22",
+        "L59",
+        "P919700C8"
+      ],
+      "record_count": 3,
+      "journal_article_count": 3,
+      "original_journal_article_count": 3
+    },
+    {
+      "journal": "Land Use Policy",
+      "canonical_journal": "Land Use Policy",
+      "domain": "环境生态与风险",
+      "rationale": "跨越规划与环境政策，按土地利用治理的刊物主方向归入环境生态与风险。",
+      "paper_ids": [
+        "P5DE047C3"
+      ],
+      "record_count": 1,
+      "journal_article_count": 1,
+      "original_journal_article_count": 1
+    },
+    {
+      "journal": "Landscape and Urban Planning",
+      "canonical_journal": "Landscape and Urban Planning",
+      "domain": "城市规划与建筑",
+      "rationale": "出版物以城市研究、空间规划、城市分析或建筑与建成环境为主要方向。",
+      "paper_ids": [
+        "P0663A19C"
+      ],
+      "record_count": 1,
+      "journal_article_count": 1,
+      "original_journal_article_count": 1
+    },
+    {
+      "journal": "Nature",
+      "canonical_journal": "Nature",
+      "domain": "综合科学",
+      "rationale": "出版物覆盖多学科基础或应用研究，按综合刊定位归类；不根据本篇论文主题改类。",
+      "paper_ids": [
+        "L03",
+        "L11"
+      ],
+      "record_count": 2,
+      "journal_article_count": 2,
+      "original_journal_article_count": 2
+    },
+    {
+      "journal": "Nature Cities",
+      "canonical_journal": "Nature Cities",
+      "domain": "城市规划与建筑",
+      "rationale": "城市跨学科期刊，主领域归入城市规划与建筑。",
+      "paper_ids": [
+        "L24",
+        "P214FEF72"
+      ],
+      "record_count": 2,
+      "journal_article_count": 2,
+      "original_journal_article_count": 2
+    },
+    {
+      "journal": "Nature Communications",
+      "canonical_journal": "Nature Communications",
+      "domain": "综合科学",
+      "rationale": "出版物覆盖多学科基础或应用研究，按综合刊定位归类；不根据本篇论文主题改类。",
+      "paper_ids": [
+        "L06"
+      ],
+      "record_count": 1,
+      "journal_article_count": 1,
+      "original_journal_article_count": 1
+    },
+    {
+      "journal": "Nature Computational Science",
+      "canonical_journal": "Nature Computational Science",
+      "domain": "计算与数理科学",
+      "rationale": "出版物以计算、数据科学、人工智能、物理或数理工程为主要方向。",
+      "paper_ids": [
+        "P240AD96D"
+      ],
+      "record_count": 1,
+      "journal_article_count": 1,
+      "original_journal_article_count": 1
+    },
+    {
+      "journal": "Nature Health",
+      "canonical_journal": "Nature Health",
+      "domain": "健康与生命科学",
+      "rationale": "出版物以公共卫生、健康地理、数字健康或生命科学为主要方向。",
+      "paper_ids": [
+        "L21"
+      ],
+      "record_count": 1,
+      "journal_article_count": 1,
+      "original_journal_article_count": 1
+    },
+    {
+      "journal": "Nature Human Behaviour",
+      "canonical_journal": "Nature Human Behaviour",
+      "domain": "社会经济与管理",
+      "rationale": "按人类行为及社会科学的刊物定位归入社会经济与管理，非按当前论文主题。",
+      "paper_ids": [
+        "L13",
+        "P8C0DBF46",
+        "P61DCC998",
+        "P01D7334F"
+      ],
+      "record_count": 4,
+      "journal_article_count": 4,
+      "original_journal_article_count": 4
+    },
+    {
+      "journal": "PLOS Digital Health",
+      "canonical_journal": "PLOS Digital Health",
+      "domain": "健康与生命科学",
+      "rationale": "出版物以公共卫生、健康地理、数字健康或生命科学为主要方向。",
+      "paper_ids": [
+        "L23"
+      ],
+      "record_count": 1,
+      "journal_article_count": 1,
+      "original_journal_article_count": 1
+    },
+    {
+      "journal": "PLOS ONE",
+      "canonical_journal": "PLOS ONE",
+      "domain": "综合科学",
+      "rationale": "出版物覆盖多学科基础或应用研究，按综合刊定位归类；不根据本篇论文主题改类。",
+      "paper_ids": [
+        "L16",
+        "L82",
+        "P25D34630",
+        "P3239D548",
+        "PD4F8B912",
+        "PEEE72CD1",
+        "P3881BAD2"
+      ],
+      "record_count": 7,
+      "journal_article_count": 7,
+      "original_journal_article_count": 7
+    },
+    {
+      "journal": "Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences",
+      "canonical_journal": "Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences",
+      "domain": "计算与数理科学",
+      "rationale": "出版物以计算、数据科学、人工智能、物理或数理工程为主要方向。",
+      "paper_ids": [
+        "P557B9764"
+      ],
+      "record_count": 1,
+      "journal_article_count": 1,
+      "original_journal_article_count": 1
+    },
+    {
+      "journal": "Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery & Data Mining",
+      "canonical_journal": "Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery & Data Mining",
+      "domain": "计算与数理科学",
+      "rationale": "出版物以计算、数据科学、人工智能、物理或数理工程为主要方向。",
+      "paper_ids": [
+        "PF912AF74"
+      ],
+      "record_count": 1,
+      "journal_article_count": 0,
+      "original_journal_article_count": 0
+    },
+    {
+      "journal": "Proceedings of the 32nd ACM International Conference on Advances in Geographic Information Systems",
+      "canonical_journal": "Proceedings of the 32nd ACM International Conference on Advances in Geographic Information Systems",
+      "domain": "地理与地理信息",
+      "rationale": "出版物以地理过程、空间分析、地理信息科学或地球观测为主要方向。",
+      "paper_ids": [
+        "P8A8A7B36"
+      ],
+      "record_count": 1,
+      "journal_article_count": 0,
+      "original_journal_article_count": 0
+    },
+    {
+      "journal": "Proceedings of the 33rd ACM International Conference on Advances in Geographic Information Systems",
+      "canonical_journal": "Proceedings of the 33rd ACM International Conference on Advances in Geographic Information Systems",
+      "domain": "地理与地理信息",
+      "rationale": "出版物以地理过程、空间分析、地理信息科学或地球观测为主要方向。",
+      "paper_ids": [
+        "P681BDA6E"
+      ],
+      "record_count": 1,
+      "journal_article_count": 0,
+      "original_journal_article_count": 0
+    },
+    {
+      "journal": "Proceedings of the 3rd ACM SIGSPATIAL International Workshop on Advances in Resilient and Intelligent Cities",
+      "canonical_journal": "Proceedings of the 3rd ACM SIGSPATIAL International Workshop on Advances in Resilient and Intelligent Cities",
+      "domain": "城市规划与建筑",
+      "rationale": "出版物以城市研究、空间规划、城市分析或建筑与建成环境为主要方向。",
+      "paper_ids": [
+        "P5B2E6933"
+      ],
+      "record_count": 1,
+      "journal_article_count": 0,
+      "original_journal_article_count": 0
+    },
+    {
+      "journal": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "canonical_journal": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "domain": "计算与数理科学",
+      "rationale": "出版物以计算、数据科学、人工智能、物理或数理工程为主要方向。",
+      "paper_ids": [
+        "P7C63CA4F"
+      ],
+      "record_count": 1,
+      "journal_article_count": 0,
+      "original_journal_article_count": 1
+    },
+    {
+      "journal": "Proceedings of the International AAAI Conference on Web and Social Media",
+      "canonical_journal": "Proceedings of the International AAAI Conference on Web and Social Media",
+      "domain": "计算与数理科学",
+      "rationale": "计算社会科学会议论文系列，主域归计算与数理；不进入期刊论文饼图。",
+      "paper_ids": [
+        "PE6FBF191"
+      ],
+      "record_count": 1,
+      "journal_article_count": 0,
+      "original_journal_article_count": 1
+    },
+    {
+      "journal": "Proceedings of the National Academy of Sciences",
+      "canonical_journal": "Proceedings of the National Academy of Sciences",
+      "domain": "综合科学",
+      "rationale": "出版物覆盖多学科基础或应用研究，按综合刊定位归类；不根据本篇论文主题改类。",
+      "paper_ids": [
+        "P002C367F",
+        "P377CD02F"
+      ],
+      "record_count": 2,
+      "journal_article_count": 2,
+      "original_journal_article_count": 2
+    },
+    {
+      "journal": "Proceedings of the National Academy of Sciences (PNAS)",
+      "canonical_journal": "Proceedings of the National Academy of Sciences",
+      "domain": "综合科学",
+      "rationale": "出版物覆盖多学科基础或应用研究，按综合刊定位归类；不根据本篇论文主题改类。",
+      "paper_ids": [
+        "L04",
+        "L18",
+        "P2D4FD926"
+      ],
+      "record_count": 3,
+      "journal_article_count": 3,
+      "original_journal_article_count": 3
+    },
+    {
+      "journal": "Risk Analysis",
+      "canonical_journal": "Risk Analysis",
+      "domain": "环境生态与风险",
+      "rationale": "跨领域风险分析期刊，在此八类体系并入环境生态与风险；不表示该刊只研究环境风险。",
+      "paper_ids": [
+        "PE7B72F15"
+      ],
+      "record_count": 1,
+      "journal_article_count": 1,
+      "original_journal_article_count": 1
+    },
+    {
+      "journal": "SSRN",
+      "canonical_journal": "SSRN",
+      "domain": "社会经济与管理",
+      "rationale": "预印本平台，不是期刊；领域占位不参与期刊饼图。",
+      "paper_ids": [
+        "L47"
+      ],
+      "record_count": 1,
+      "journal_article_count": 0,
+      "original_journal_article_count": 0
+    },
+    {
+      "journal": "Science",
+      "canonical_journal": "Science",
+      "domain": "综合科学",
+      "rationale": "出版物覆盖多学科基础或应用研究，按综合刊定位归类；不根据本篇论文主题改类。",
+      "paper_ids": [
+        "L01"
+      ],
+      "record_count": 1,
+      "journal_article_count": 1,
+      "original_journal_article_count": 1
+    },
+    {
+      "journal": "Science of the Total Environment",
+      "canonical_journal": "Science of the Total Environment",
+      "domain": "环境生态与风险",
+      "rationale": "出版物以环境生态、土地及自然系统、可持续性或风险分析为主要方向。",
+      "paper_ids": [
+        "PC2196B2E"
+      ],
+      "record_count": 1,
+      "journal_article_count": 1,
+      "original_journal_article_count": 1
+    },
+    {
+      "journal": "Scientific Data",
+      "canonical_journal": "Scientific Data",
+      "domain": "综合科学",
+      "rationale": "跨学科数据描述期刊，归综合科学，不按方法论文误归计算学科。",
+      "paper_ids": [
+        "L02",
+        "L08",
+        "L14",
+        "P63686407"
+      ],
+      "record_count": 4,
+      "journal_article_count": 4,
+      "original_journal_article_count": 4
+    },
+    {
+      "journal": "Scientific Reports",
+      "canonical_journal": "Scientific Reports",
+      "domain": "综合科学",
+      "rationale": "出版物覆盖多学科基础或应用研究，按综合刊定位归类；不根据本篇论文主题改类。",
+      "paper_ids": [
+        "L12",
+        "L15",
+        "L20",
+        "P93995647",
+        "P99197F39",
+        "P1BFB6B6F"
+      ],
+      "record_count": 6,
+      "journal_article_count": 6,
+      "original_journal_article_count": 6
+    },
+    {
+      "journal": "Smart Cities",
+      "canonical_journal": "Smart Cities",
+      "domain": "城市规划与建筑",
+      "rationale": "出版物以城市研究、空间规划、城市分析或建筑与建成环境为主要方向。",
+      "paper_ids": [
+        "L58"
+      ],
+      "record_count": 1,
+      "journal_article_count": 1,
+      "original_journal_article_count": 1
+    },
+    {
+      "journal": "Strategic Management Journal",
+      "canonical_journal": "Strategic Management Journal",
+      "domain": "社会经济与管理",
+      "rationale": "出版物以社会行为、政治、经济、管理或教育研究为主要方向。",
+      "paper_ids": [
+        "L07"
+      ],
+      "record_count": 1,
+      "journal_article_count": 1,
+      "original_journal_article_count": 1
+    },
+    {
+      "journal": "Strategy Science",
+      "canonical_journal": "Strategy Science",
+      "domain": "社会经济与管理",
+      "rationale": "出版物以社会行为、政治、经济、管理或教育研究为主要方向。",
+      "paper_ids": [
+        "P2D2C630F"
+      ],
+      "record_count": 1,
+      "journal_article_count": 1,
+      "original_journal_article_count": 1
+    },
+    {
+      "journal": "Sustainability",
+      "canonical_journal": "Sustainability",
+      "domain": "环境生态与风险",
+      "rationale": "出版物以环境生态、土地及自然系统、可持续性或风险分析为主要方向。",
+      "paper_ids": [
+        "P2290471E"
+      ],
+      "record_count": 1,
+      "journal_article_count": 1,
+      "original_journal_article_count": 1
+    },
+    {
+      "journal": "Transportation Research Part D: Transport and Environment",
+      "canonical_journal": "Transportation Research Part D: Transport and Environment",
+      "domain": "交通与出行",
+      "rationale": "出版物以交通系统、运输地理或出行行为为主要方向。",
+      "paper_ids": [
+        "L85"
+      ],
+      "record_count": 1,
+      "journal_article_count": 1,
+      "original_journal_article_count": 1
+    },
+    {
+      "journal": "Travel Behaviour and Society",
+      "canonical_journal": "Travel Behaviour and Society",
+      "domain": "交通与出行",
+      "rationale": "出版物以交通系统、运输地理或出行行为为主要方向。",
+      "paper_ids": [
+        "L84",
+        "P3B9C78DF",
+        "P7E59C8D1"
+      ],
+      "record_count": 3,
+      "journal_article_count": 3,
+      "original_journal_article_count": 3
+    },
+    {
+      "journal": "Urban Forestry & Urban Greening",
+      "canonical_journal": "Urban Forestry & Urban Greening",
+      "domain": "环境生态与风险",
+      "rationale": "出版物以环境生态、土地及自然系统、可持续性或风险分析为主要方向。",
+      "paper_ids": [
+        "P913EE387",
+        "PA597BCE5"
+      ],
+      "record_count": 2,
+      "journal_article_count": 2,
+      "original_journal_article_count": 2
+    },
+    {
+      "journal": "Urban Informatics",
+      "canonical_journal": "Urban Informatics",
+      "domain": "城市规划与建筑",
+      "rationale": "出版物以城市研究、空间规划、城市分析或建筑与建成环境为主要方向。",
+      "paper_ids": [
+        "PBC87DC0B"
+      ],
+      "record_count": 1,
+      "journal_article_count": 1,
+      "original_journal_article_count": 1
+    },
+    {
+      "journal": "arXiv（预印本）",
+      "canonical_journal": "arXiv（预印本）",
+      "domain": "计算与数理科学",
+      "rationale": "预印本平台，不是期刊；领域占位不参与期刊饼图。",
+      "paper_ids": [
+        "PC3073275"
+      ],
+      "record_count": 1,
+      "journal_article_count": 0,
+      "original_journal_article_count": 0
+    },
+    {
+      "journal": "eLife",
+      "canonical_journal": "eLife",
+      "domain": "健康与生命科学",
+      "rationale": "出版物以公共卫生、健康地理、数字健康或生命科学为主要方向。",
+      "paper_ids": [
+        "PA225066F"
+      ],
+      "record_count": 1,
+      "journal_article_count": 1,
+      "original_journal_article_count": 1
+    },
+    {
+      "journal": "上海城市规划",
+      "canonical_journal": "上海城市规划",
+      "domain": "城市规划与建筑",
+      "rationale": "出版物以城市研究、空间规划、城市分析或建筑与建成环境为主要方向。",
+      "paper_ids": [
+        "L86"
+      ],
+      "record_count": 1,
+      "journal_article_count": 1,
+      "original_journal_article_count": 1
+    },
+    {
+      "journal": "中国工程咨询",
+      "canonical_journal": "中国工程咨询",
+      "domain": "城市规划与建筑",
+      "rationale": "工程咨询与项目实践期刊，暂并入城市规划与建筑；不是认定为城市规划专业期刊。",
+      "paper_ids": [
+        "L74"
+      ],
+      "record_count": 1,
+      "journal_article_count": 1,
+      "original_journal_article_count": 1
+    },
+    {
+      "journal": "全球变化数据学报 / Journal of Global Change Data & Discovery",
+      "canonical_journal": "全球变化数据学报 / Journal of Global Change Data & Discovery",
+      "domain": "地理与地理信息",
+      "rationale": "出版物以地理过程、空间分析、地理信息科学或地球观测为主要方向。",
+      "paper_ids": [
+        "L25"
+      ],
+      "record_count": 1,
+      "journal_article_count": 1,
+      "original_journal_article_count": 1
+    },
+    {
+      "journal": "南宁师范大学学报(自然科学版)",
+      "canonical_journal": "南宁师范大学学报(自然科学版)",
+      "domain": "综合科学",
+      "rationale": "出版物覆盖多学科基础或应用研究，按综合刊定位归类；不根据本篇论文主题改类。",
+      "paper_ids": [
+        "L77"
+      ],
+      "record_count": 1,
+      "journal_article_count": 1,
+      "original_journal_article_count": 1
+    },
+    {
+      "journal": "地球信息科学学报",
+      "canonical_journal": "地球信息科学学报",
+      "domain": "地理与地理信息",
+      "rationale": "出版物以地理过程、空间分析、地理信息科学或地球观测为主要方向。",
+      "paper_ids": [
+        "L46",
+        "L55",
+        "L57",
+        "L63",
+        "L79"
+      ],
+      "record_count": 5,
+      "journal_article_count": 5,
+      "original_journal_article_count": 5
+    },
+    {
+      "journal": "地理与地理信息科学",
+      "canonical_journal": "地理与地理信息科学",
+      "domain": "地理与地理信息",
+      "rationale": "出版物以地理过程、空间分析、地理信息科学或地球观测为主要方向。",
+      "paper_ids": [
+        "L44"
+      ],
+      "record_count": 1,
+      "journal_article_count": 1,
+      "original_journal_article_count": 1
+    },
+    {
+      "journal": "地理研究",
+      "canonical_journal": "地理研究",
+      "domain": "地理与地理信息",
+      "rationale": "出版物以地理过程、空间分析、地理信息科学或地球观测为主要方向。",
+      "paper_ids": [
+        "L71"
+      ],
+      "record_count": 1,
+      "journal_article_count": 1,
+      "original_journal_article_count": 1
+    },
+    {
+      "journal": "城市交通",
+      "canonical_journal": "城市交通",
+      "domain": "交通与出行",
+      "rationale": "出版物以交通系统、运输地理或出行行为为主要方向。",
+      "paper_ids": [
+        "L72",
+        "L73"
+      ],
+      "record_count": 2,
+      "journal_article_count": 2,
+      "original_journal_article_count": 2
+    },
+    {
+      "journal": "城市规划",
+      "canonical_journal": "城市规划",
+      "domain": "城市规划与建筑",
+      "rationale": "出版物以城市研究、空间规划、城市分析或建筑与建成环境为主要方向。",
+      "paper_ids": [
+        "L28"
+      ],
+      "record_count": 1,
+      "journal_article_count": 1,
+      "original_journal_article_count": 1
+    },
+    {
+      "journal": "城市规划学刊",
+      "canonical_journal": "城市规划学刊",
+      "domain": "城市规划与建筑",
+      "rationale": "出版物以城市研究、空间规划、城市分析或建筑与建成环境为主要方向。",
+      "paper_ids": [
+        "L34",
+        "L41",
+        "L78"
+      ],
+      "record_count": 3,
+      "journal_article_count": 3,
+      "original_journal_article_count": 3
+    },
+    {
+      "journal": "时空信息学报",
+      "canonical_journal": "时空信息学报",
+      "domain": "地理与地理信息",
+      "rationale": "出版物以地理过程、空间分析、地理信息科学或地球观测为主要方向。",
+      "paper_ids": [
+        "L76"
+      ],
+      "record_count": 1,
+      "journal_article_count": 1,
+      "original_journal_article_count": 1
+    },
+    {
+      "journal": "江苏高教",
+      "canonical_journal": "江苏高教",
+      "domain": "社会经济与管理",
+      "rationale": "出版物以社会行为、政治、经济、管理或教育研究为主要方向。",
+      "paper_ids": [
+        "L75"
+      ],
+      "record_count": 1,
+      "journal_article_count": 1,
+      "original_journal_article_count": 1
+    },
+    {
+      "journal": "清华大学学报(自然科学版)",
+      "canonical_journal": "清华大学学报(自然科学版)",
+      "domain": "综合科学",
+      "rationale": "出版物覆盖多学科基础或应用研究，按综合刊定位归类；不根据本篇论文主题改类。",
+      "paper_ids": [
+        "L43"
+      ],
+      "record_count": 1,
+      "journal_article_count": 1,
+      "original_journal_article_count": 1
+    },
+    {
+      "journal": "热带地理",
+      "canonical_journal": "热带地理",
+      "domain": "地理与地理信息",
+      "rationale": "出版物以地理过程、空间分析、地理信息科学或地球观测为主要方向。",
+      "paper_ids": [
+        "L48"
+      ],
+      "record_count": 1,
+      "journal_article_count": 1,
+      "original_journal_article_count": 1
+    }
+  ],
+  "publication_type_overrides": [
+    {
+      "id": "P8A06ED95",
+      "title": "Use of SafeGraph visitation patterns for the identification of essential services during COVID-19",
+      "journal": "AGILE: GIScience Series",
+      "original_type": "journal_article",
+      "effective_type": "conference_or_proceedings",
+      "reason": "出版物为年度学术会议论文或会议论文系列，原catalog journal_article分类过宽。",
+      "source_url": "https://www.agile-giscience-series.net/"
+    },
+    {
+      "id": "P7C63CA4F",
+      "title": "Data-Driven Real-Time Strategic Placement of Mobile Vaccine Distribution Sites",
+      "journal": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "original_type": "journal_article",
+      "effective_type": "conference_or_proceedings",
+      "reason": "出版物为年度学术会议论文或会议论文系列，原catalog journal_article分类过宽。",
+      "source_url": "https://aaai.org/aaai-publications/aaai-conference-proceedings/"
+    },
+    {
+      "id": "P48A032E2",
+      "title": "The Impact of COVID-19 on Human Mobility: A Case Study on New York",
+      "journal": "2022 IEEE International Conference on Big Data (Big Data)",
+      "original_type": "journal_article",
+      "effective_type": "conference_or_proceedings",
+      "reason": "出版物为年度学术会议论文或会议论文系列，原catalog journal_article分类过宽。",
+      "source_url": "https://doi.org/10.1109/BigData55660.2022.10020695"
+    },
+    {
+      "id": "P6AAE6DFC",
+      "title": "STORM-GAN: Spatio-Temporal Meta-GAN for Cross-City Estimation of Human Mobility Responses to COVID-19",
+      "journal": "2022 IEEE International Conference on Data Mining (ICDM)",
+      "original_type": "journal_article",
+      "effective_type": "conference_or_proceedings",
+      "reason": "出版物为年度学术会议论文或会议论文系列，原catalog journal_article分类过宽。",
+      "source_url": "https://doi.org/10.1109/icdm54844.2022.00010"
+    },
+    {
+      "id": "PE6FBF191",
+      "title": "Getting Back on Track: Understanding COVID-19 Impact on Urban Mobility and Segregation with Location Service Data",
+      "journal": "Proceedings of the International AAAI Conference on Web and Social Media",
+      "original_type": "journal_article",
+      "effective_type": "conference_or_proceedings",
+      "reason": "出版物为年度学术会议论文或会议论文系列，原catalog journal_article分类过宽。",
+      "source_url": "https://ojs.aaai.org/index.php/ICWSM/index"
+    }
+  ],
+  "scopes": {
+    "all": {
+      "record_count": 132,
+      "record_ids": [
+        "L01",
+        "L02",
+        "L03",
+        "L04",
+        "L05",
+        "L06",
+        "L07",
+        "L08",
+        "L09",
+        "L10",
+        "L11",
+        "L12",
+        "L13",
+        "L14",
+        "L15",
+        "L16",
+        "L17",
+        "L18",
+        "L19",
+        "L20",
+        "L21",
+        "L22",
+        "L23",
+        "L24",
+        "L25",
+        "L26",
+        "L27",
+        "L28",
+        "L29",
+        "L34",
+        "L36",
+        "L41",
+        "L43",
+        "L44",
+        "L46",
+        "L47",
+        "L48",
+        "L55",
+        "L57",
+        "L58",
+        "L59",
+        "L63",
+        "L64",
+        "L68",
+        "L69",
+        "L71",
+        "L72",
+        "L73",
+        "L74",
+        "L75",
+        "L76",
+        "L77",
+        "L78",
+        "L79",
+        "L80",
+        "L81",
+        "L82",
+        "L83",
+        "L84",
+        "L85",
+        "L86",
+        "L87",
+        "L88",
+        "P002C367F",
+        "P01D7334F",
+        "P0663A19C",
+        "P06F06671",
+        "P104EBB42",
+        "P1A918461",
+        "P1BFB6B6F",
+        "P1DFAD697",
+        "P1F72D228",
+        "P214FEF72",
+        "P2290471E",
+        "P240AD96D",
+        "P25D34630",
+        "P2BDAEE88",
+        "P2D2C630F",
+        "P2D4FD926",
+        "P2F95F02D",
+        "P3239D548",
+        "P377CD02F",
+        "P3881BAD2",
+        "P38C79679",
+        "P3B9C78DF",
+        "P3EEC79FA",
+        "P441C38CE",
+        "P48A032E2",
+        "P5416DFC8",
+        "P557B9764",
+        "P5B2E6933",
+        "P5C05191D",
+        "P5DE047C3",
+        "P5FE9D417",
+        "P61DCC998",
+        "P63686407",
+        "P681BDA6E",
+        "P6AAE6DFC",
+        "P71C3218F",
+        "P76B9708A",
+        "P7A4F6797",
+        "P7C63CA4F",
+        "P7E59C8D1",
+        "P837C3A60",
+        "P8A06ED95",
+        "P8A8A7B36",
+        "P8C0DBF46",
+        "P9123C07B",
+        "P913EE387",
+        "P919700C8",
+        "P93995647",
+        "P9729F216",
+        "P99197F39",
+        "P9B76EC36",
+        "PA225066F",
+        "PA597BCE5",
+        "PA98D85BB",
+        "PAADD397C",
+        "PAF9C787A",
+        "PB6FFBAD1",
+        "PBC87DC0B",
+        "PC2196B2E",
+        "PC3073275",
+        "PD4F8B912",
+        "PD5396003",
+        "PE6FBF191",
+        "PE7B72F15",
+        "PEEE72CD1",
+        "PEF9587A5",
+        "PF912AF74",
+        "PFC132E92",
+        "PFDDDACD2"
+      ],
+      "annual_paper_count": 131,
+      "annual_paper_ids": [
+        "L01",
+        "L02",
+        "L03",
+        "L04",
+        "L05",
+        "L06",
+        "L07",
+        "L08",
+        "L09",
+        "L10",
+        "L11",
+        "L12",
+        "L13",
+        "L14",
+        "L15",
+        "L16",
+        "L17",
+        "L18",
+        "L19",
+        "L20",
+        "L21",
+        "L22",
+        "L23",
+        "L24",
+        "L25",
+        "L27",
+        "L28",
+        "L29",
+        "L34",
+        "L36",
+        "L41",
+        "L43",
+        "L44",
+        "L46",
+        "L47",
+        "L48",
+        "L55",
+        "L57",
+        "L58",
+        "L59",
+        "L63",
+        "L64",
+        "L68",
+        "L69",
+        "L71",
+        "L72",
+        "L73",
+        "L74",
+        "L75",
+        "L76",
+        "L77",
+        "L78",
+        "L79",
+        "L80",
+        "L81",
+        "L82",
+        "L84",
+        "L85",
+        "L86",
+        "L83",
+        "L87",
+        "L88",
+        "P240AD96D",
+        "P25D34630",
+        "P3239D548",
+        "PD4F8B912",
+        "P557B9764",
+        "P837C3A60",
+        "PAF9C787A",
+        "P8A06ED95",
+        "P441C38CE",
+        "P1A918461",
+        "P71C3218F",
+        "PEEE72CD1",
+        "P76B9708A",
+        "PE7B72F15",
+        "P5FE9D417",
+        "P1F72D228",
+        "PA98D85BB",
+        "P2D2C630F",
+        "PEF9587A5",
+        "P8C0DBF46",
+        "P9729F216",
+        "PC3073275",
+        "PA225066F",
+        "PBC87DC0B",
+        "PAADD397C",
+        "P2D4FD926",
+        "P1DFAD697",
+        "P93995647",
+        "P61DCC998",
+        "P63686407",
+        "P99197F39",
+        "P002C367F",
+        "P377CD02F",
+        "P1BFB6B6F",
+        "P214FEF72",
+        "P01D7334F",
+        "P3881BAD2",
+        "PFDDDACD2",
+        "P0663A19C",
+        "P38C79679",
+        "PB6FFBAD1",
+        "P2290471E",
+        "P5416DFC8",
+        "P5DE047C3",
+        "P9123C07B",
+        "PC2196B2E",
+        "P913EE387",
+        "PA597BCE5",
+        "P3B9C78DF",
+        "P7A4F6797",
+        "P2F95F02D",
+        "P9B76EC36",
+        "P7E59C8D1",
+        "P06F06671",
+        "P104EBB42",
+        "PD5396003",
+        "P2BDAEE88",
+        "P5B2E6933",
+        "PF912AF74",
+        "P7C63CA4F",
+        "P48A032E2",
+        "P3EEC79FA",
+        "P6AAE6DFC",
+        "PE6FBF191",
+        "P8A8A7B36",
+        "P681BDA6E",
+        "PFC132E92",
+        "P5C05191D",
+        "P919700C8"
+      ],
+      "journal_article_count": 120,
+      "journal_article_ids": [
+        "L01",
+        "L02",
+        "L03",
+        "L04",
+        "L05",
+        "L06",
+        "L07",
+        "L08",
+        "L09",
+        "L10",
+        "L11",
+        "L12",
+        "L13",
+        "L14",
+        "L15",
+        "L16",
+        "L17",
+        "L18",
+        "L19",
+        "L20",
+        "L21",
+        "L22",
+        "L23",
+        "L24",
+        "L25",
+        "L27",
+        "L28",
+        "L29",
+        "L34",
+        "L36",
+        "L41",
+        "L43",
+        "L44",
+        "L46",
+        "L48",
+        "L55",
+        "L57",
+        "L58",
+        "L59",
+        "L63",
+        "L64",
+        "L68",
+        "L69",
+        "L71",
+        "L72",
+        "L73",
+        "L74",
+        "L75",
+        "L76",
+        "L77",
+        "L78",
+        "L79",
+        "L80",
+        "L81",
+        "L82",
+        "L84",
+        "L85",
+        "L86",
+        "L83",
+        "L87",
+        "L88",
+        "P240AD96D",
+        "P25D34630",
+        "P3239D548",
+        "PD4F8B912",
+        "P557B9764",
+        "P837C3A60",
+        "PAF9C787A",
+        "P441C38CE",
+        "P1A918461",
+        "P71C3218F",
+        "PEEE72CD1",
+        "P76B9708A",
+        "PE7B72F15",
+        "P5FE9D417",
+        "P1F72D228",
+        "PA98D85BB",
+        "P2D2C630F",
+        "PEF9587A5",
+        "P8C0DBF46",
+        "P9729F216",
+        "PA225066F",
+        "PBC87DC0B",
+        "PAADD397C",
+        "P2D4FD926",
+        "P1DFAD697",
+        "P93995647",
+        "P61DCC998",
+        "P63686407",
+        "P99197F39",
+        "P002C367F",
+        "P377CD02F",
+        "P1BFB6B6F",
+        "P214FEF72",
+        "P01D7334F",
+        "P3881BAD2",
+        "PFDDDACD2",
+        "P0663A19C",
+        "P38C79679",
+        "PB6FFBAD1",
+        "P2290471E",
+        "P5416DFC8",
+        "P5DE047C3",
+        "P9123C07B",
+        "PC2196B2E",
+        "P913EE387",
+        "PA597BCE5",
+        "P3B9C78DF",
+        "P7A4F6797",
+        "P2F95F02D",
+        "P9B76EC36",
+        "P7E59C8D1",
+        "P06F06671",
+        "P104EBB42",
+        "PD5396003",
+        "P2BDAEE88",
+        "P3EEC79FA",
+        "PFC132E92",
+        "P5C05191D",
+        "P919700C8"
+      ],
+      "excluded_from_annual": [
+        "L26"
+      ],
+      "publication_types": {
+        "journal_article": 120,
+        "conference_abstract": 1,
+        "preprint": 2,
+        "conference_or_proceedings": 9
+      },
+      "annual": [
+        {
+          "year": 2018,
+          "count": 1,
+          "all_record_count": 1
+        },
+        {
+          "year": 2019,
+          "count": 0,
+          "all_record_count": 0
+        },
+        {
+          "year": 2020,
+          "count": 8,
+          "all_record_count": 8
+        },
+        {
+          "year": 2021,
+          "count": 17,
+          "all_record_count": 17
+        },
+        {
+          "year": 2022,
+          "count": 17,
+          "all_record_count": 17
+        },
+        {
+          "year": 2023,
+          "count": 13,
+          "all_record_count": 14
+        },
+        {
+          "year": 2024,
+          "count": 30,
+          "all_record_count": 30
+        },
+        {
+          "year": 2025,
+          "count": 25,
+          "all_record_count": 25
+        },
+        {
+          "year": 2026,
+          "count": 20,
+          "all_record_count": 20
+        }
+      ],
+      "journal_domains": [
+        {
+          "domain": "综合科学",
+          "count": 30
+        },
+        {
+          "domain": "地理与地理信息",
+          "count": 21
+        },
+        {
+          "domain": "城市规划与建筑",
+          "count": 26
+        },
+        {
+          "domain": "环境生态与风险",
+          "count": 8
+        },
+        {
+          "domain": "交通与出行",
+          "count": 11
+        },
+        {
+          "domain": "健康与生命科学",
+          "count": 7
+        },
+        {
+          "domain": "计算与数理科学",
+          "count": 7
+        },
+        {
+          "domain": "社会经济与管理",
+          "count": 10
+        }
+      ]
+    },
+    "confirmed": {
+      "record_count": 82,
+      "record_ids": [
+        "L01",
+        "L02",
+        "L03",
+        "L04",
+        "L05",
+        "L06",
+        "L07",
+        "L08",
+        "L09",
+        "L10",
+        "L11",
+        "L12",
+        "L13",
+        "L14",
+        "L15",
+        "L16",
+        "L17",
+        "L18",
+        "L19",
+        "L20",
+        "L21",
+        "L23",
+        "L24",
+        "L25",
+        "L26",
+        "L27",
+        "L28",
+        "L29",
+        "L34",
+        "L43",
+        "L44",
+        "L48",
+        "L55",
+        "L57",
+        "L58",
+        "L59",
+        "L63",
+        "L64",
+        "L68",
+        "L69",
+        "L71",
+        "L73",
+        "L74",
+        "L75",
+        "L76",
+        "L77",
+        "L78",
+        "L79",
+        "L80",
+        "L81",
+        "L82",
+        "L83",
+        "L87",
+        "L88",
+        "P06F06671",
+        "P104EBB42",
+        "P1DFAD697",
+        "P1F72D228",
+        "P240AD96D",
+        "P25D34630",
+        "P2BDAEE88",
+        "P2D4FD926",
+        "P2F95F02D",
+        "P3239D548",
+        "P3881BAD2",
+        "P38C79679",
+        "P3B9C78DF",
+        "P441C38CE",
+        "P5416DFC8",
+        "P5C05191D",
+        "P5DE047C3",
+        "P61DCC998",
+        "P63686407",
+        "P76B9708A",
+        "P7A4F6797",
+        "P8C0DBF46",
+        "P919700C8",
+        "P93995647",
+        "PAADD397C",
+        "PD4F8B912",
+        "PEEE72CD1",
+        "PFC132E92"
+      ],
+      "annual_paper_count": 81,
+      "annual_paper_ids": [
+        "L01",
+        "L02",
+        "L03",
+        "L04",
+        "L05",
+        "L06",
+        "L07",
+        "L08",
+        "L09",
+        "L10",
+        "L11",
+        "L12",
+        "L13",
+        "L14",
+        "L15",
+        "L16",
+        "L17",
+        "L18",
+        "L19",
+        "L20",
+        "L21",
+        "L23",
+        "L24",
+        "L25",
+        "L27",
+        "L28",
+        "L29",
+        "L34",
+        "L43",
+        "L44",
+        "L48",
+        "L55",
+        "L57",
+        "L58",
+        "L59",
+        "L63",
+        "L64",
+        "L68",
+        "L69",
+        "L71",
+        "L73",
+        "L74",
+        "L75",
+        "L76",
+        "L77",
+        "L78",
+        "L79",
+        "L80",
+        "L81",
+        "L82",
+        "L83",
+        "L87",
+        "L88",
+        "P240AD96D",
+        "P25D34630",
+        "P3239D548",
+        "PD4F8B912",
+        "P441C38CE",
+        "PEEE72CD1",
+        "P76B9708A",
+        "P1F72D228",
+        "P8C0DBF46",
+        "PAADD397C",
+        "P2D4FD926",
+        "P1DFAD697",
+        "P93995647",
+        "P61DCC998",
+        "P63686407",
+        "P3881BAD2",
+        "P38C79679",
+        "P5416DFC8",
+        "P5DE047C3",
+        "P3B9C78DF",
+        "P7A4F6797",
+        "P2F95F02D",
+        "P06F06671",
+        "P104EBB42",
+        "P2BDAEE88",
+        "PFC132E92",
+        "P5C05191D",
+        "P919700C8"
+      ],
+      "journal_article_count": 81,
+      "journal_article_ids": [
+        "L01",
+        "L02",
+        "L03",
+        "L04",
+        "L05",
+        "L06",
+        "L07",
+        "L08",
+        "L09",
+        "L10",
+        "L11",
+        "L12",
+        "L13",
+        "L14",
+        "L15",
+        "L16",
+        "L17",
+        "L18",
+        "L19",
+        "L20",
+        "L21",
+        "L23",
+        "L24",
+        "L25",
+        "L27",
+        "L28",
+        "L29",
+        "L34",
+        "L43",
+        "L44",
+        "L48",
+        "L55",
+        "L57",
+        "L58",
+        "L59",
+        "L63",
+        "L64",
+        "L68",
+        "L69",
+        "L71",
+        "L73",
+        "L74",
+        "L75",
+        "L76",
+        "L77",
+        "L78",
+        "L79",
+        "L80",
+        "L81",
+        "L82",
+        "L83",
+        "L87",
+        "L88",
+        "P240AD96D",
+        "P25D34630",
+        "P3239D548",
+        "PD4F8B912",
+        "P441C38CE",
+        "PEEE72CD1",
+        "P76B9708A",
+        "P1F72D228",
+        "P8C0DBF46",
+        "PAADD397C",
+        "P2D4FD926",
+        "P1DFAD697",
+        "P93995647",
+        "P61DCC998",
+        "P63686407",
+        "P3881BAD2",
+        "P38C79679",
+        "P5416DFC8",
+        "P5DE047C3",
+        "P3B9C78DF",
+        "P7A4F6797",
+        "P2F95F02D",
+        "P06F06671",
+        "P104EBB42",
+        "P2BDAEE88",
+        "PFC132E92",
+        "P5C05191D",
+        "P919700C8"
+      ],
+      "excluded_from_annual": [
+        "L26"
+      ],
+      "publication_types": {
+        "journal_article": 81,
+        "conference_abstract": 1
+      },
+      "annual": [
+        {
+          "year": 2018,
+          "count": 1,
+          "all_record_count": 1
+        },
+        {
+          "year": 2019,
+          "count": 0,
+          "all_record_count": 0
+        },
+        {
+          "year": 2020,
+          "count": 5,
+          "all_record_count": 5
+        },
+        {
+          "year": 2021,
+          "count": 11,
+          "all_record_count": 11
+        },
+        {
+          "year": 2022,
+          "count": 8,
+          "all_record_count": 8
+        },
+        {
+          "year": 2023,
+          "count": 7,
+          "all_record_count": 8
+        },
+        {
+          "year": 2024,
+          "count": 21,
+          "all_record_count": 21
+        },
+        {
+          "year": 2025,
+          "count": 14,
+          "all_record_count": 14
+        },
+        {
+          "year": 2026,
+          "count": 14,
+          "all_record_count": 14
+        }
+      ],
+      "journal_domains": [
+        {
+          "domain": "综合科学",
+          "count": 26
+        },
+        {
+          "domain": "地理与地理信息",
+          "count": 16
+        },
+        {
+          "domain": "城市规划与建筑",
+          "count": 16
+        },
+        {
+          "domain": "环境生态与风险",
+          "count": 3
+        },
+        {
+          "domain": "交通与出行",
+          "count": 5
+        },
+        {
+          "domain": "健康与生命科学",
+          "count": 5
+        },
+        {
+          "domain": "计算与数理科学",
+          "count": 4
+        },
+        {
+          "domain": "社会经济与管理",
+          "count": 6
+        }
+      ]
+    },
+    "pioneer": {
+      "record_count": 25,
+      "record_ids": [
+        "L21",
+        "L25",
+        "L26",
+        "L27",
+        "L28",
+        "L29",
+        "L34",
+        "L44",
+        "L48",
+        "L55",
+        "L57",
+        "L58",
+        "L59",
+        "L64",
+        "L68",
+        "L74",
+        "L75",
+        "L76",
+        "L77",
+        "L78",
+        "L79",
+        "L80",
+        "L83",
+        "L87",
+        "L88"
+      ],
+      "annual_paper_count": 24,
+      "annual_paper_ids": [
+        "L21",
+        "L25",
+        "L27",
+        "L28",
+        "L29",
+        "L34",
+        "L44",
+        "L48",
+        "L55",
+        "L57",
+        "L58",
+        "L59",
+        "L64",
+        "L68",
+        "L74",
+        "L75",
+        "L76",
+        "L77",
+        "L78",
+        "L79",
+        "L80",
+        "L83",
+        "L87",
+        "L88"
+      ],
+      "journal_article_count": 24,
+      "journal_article_ids": [
+        "L21",
+        "L25",
+        "L27",
+        "L28",
+        "L29",
+        "L34",
+        "L44",
+        "L48",
+        "L55",
+        "L57",
+        "L58",
+        "L59",
+        "L64",
+        "L68",
+        "L74",
+        "L75",
+        "L76",
+        "L77",
+        "L78",
+        "L79",
+        "L80",
+        "L83",
+        "L87",
+        "L88"
+      ],
+      "excluded_from_annual": [
+        "L26"
+      ],
+      "publication_types": {
+        "journal_article": 24,
+        "conference_abstract": 1
+      },
+      "annual": [
+        {
+          "year": 2018,
+          "count": 0,
+          "all_record_count": 0
+        },
+        {
+          "year": 2019,
+          "count": 0,
+          "all_record_count": 0
+        },
+        {
+          "year": 2020,
+          "count": 0,
+          "all_record_count": 0
+        },
+        {
+          "year": 2021,
+          "count": 0,
+          "all_record_count": 0
+        },
+        {
+          "year": 2022,
+          "count": 0,
+          "all_record_count": 0
+        },
+        {
+          "year": 2023,
+          "count": 3,
+          "all_record_count": 4
+        },
+        {
+          "year": 2024,
+          "count": 5,
+          "all_record_count": 5
+        },
+        {
+          "year": 2025,
+          "count": 6,
+          "all_record_count": 6
+        },
+        {
+          "year": 2026,
+          "count": 10,
+          "all_record_count": 10
+        }
+      ],
+      "journal_domains": [
+        {
+          "domain": "综合科学",
+          "count": 3
+        },
+        {
+          "domain": "地理与地理信息",
+          "count": 8
+        },
+        {
+          "domain": "城市规划与建筑",
+          "count": 8
+        },
+        {
+          "domain": "环境生态与风险",
+          "count": 1
+        },
+        {
+          "domain": "交通与出行",
+          "count": 2
+        },
+        {
+          "domain": "健康与生命科学",
+          "count": 1
+        },
+        {
+          "domain": "计算与数理科学",
+          "count": 0
+        },
+        {
+          "domain": "社会经济与管理",
+          "count": 1
+        }
+      ]
+    },
+    "analog": {
+      "record_count": 57,
+      "record_ids": [
+        "L01",
+        "L02",
+        "L03",
+        "L04",
+        "L05",
+        "L06",
+        "L07",
+        "L08",
+        "L09",
+        "L10",
+        "L11",
+        "L12",
+        "L13",
+        "L14",
+        "L15",
+        "L16",
+        "L17",
+        "L18",
+        "L19",
+        "L20",
+        "L23",
+        "L24",
+        "L43",
+        "L63",
+        "L69",
+        "L71",
+        "L73",
+        "L81",
+        "L82",
+        "P06F06671",
+        "P104EBB42",
+        "P1DFAD697",
+        "P1F72D228",
+        "P240AD96D",
+        "P25D34630",
+        "P2BDAEE88",
+        "P2D4FD926",
+        "P2F95F02D",
+        "P3239D548",
+        "P3881BAD2",
+        "P38C79679",
+        "P3B9C78DF",
+        "P441C38CE",
+        "P5416DFC8",
+        "P5C05191D",
+        "P5DE047C3",
+        "P61DCC998",
+        "P63686407",
+        "P76B9708A",
+        "P7A4F6797",
+        "P8C0DBF46",
+        "P919700C8",
+        "P93995647",
+        "PAADD397C",
+        "PD4F8B912",
+        "PEEE72CD1",
+        "PFC132E92"
+      ],
+      "annual_paper_count": 57,
+      "annual_paper_ids": [
+        "L01",
+        "L02",
+        "L03",
+        "L04",
+        "L05",
+        "L06",
+        "L07",
+        "L08",
+        "L09",
+        "L10",
+        "L11",
+        "L12",
+        "L13",
+        "L14",
+        "L15",
+        "L16",
+        "L17",
+        "L18",
+        "L19",
+        "L20",
+        "L23",
+        "L24",
+        "L43",
+        "L63",
+        "L69",
+        "L71",
+        "L73",
+        "L81",
+        "L82",
+        "P240AD96D",
+        "P25D34630",
+        "P3239D548",
+        "PD4F8B912",
+        "P441C38CE",
+        "PEEE72CD1",
+        "P76B9708A",
+        "P1F72D228",
+        "P8C0DBF46",
+        "PAADD397C",
+        "P2D4FD926",
+        "P1DFAD697",
+        "P93995647",
+        "P61DCC998",
+        "P63686407",
+        "P3881BAD2",
+        "P38C79679",
+        "P5416DFC8",
+        "P5DE047C3",
+        "P3B9C78DF",
+        "P7A4F6797",
+        "P2F95F02D",
+        "P06F06671",
+        "P104EBB42",
+        "P2BDAEE88",
+        "PFC132E92",
+        "P5C05191D",
+        "P919700C8"
+      ],
+      "journal_article_count": 57,
+      "journal_article_ids": [
+        "L01",
+        "L02",
+        "L03",
+        "L04",
+        "L05",
+        "L06",
+        "L07",
+        "L08",
+        "L09",
+        "L10",
+        "L11",
+        "L12",
+        "L13",
+        "L14",
+        "L15",
+        "L16",
+        "L17",
+        "L18",
+        "L19",
+        "L20",
+        "L23",
+        "L24",
+        "L43",
+        "L63",
+        "L69",
+        "L71",
+        "L73",
+        "L81",
+        "L82",
+        "P240AD96D",
+        "P25D34630",
+        "P3239D548",
+        "PD4F8B912",
+        "P441C38CE",
+        "PEEE72CD1",
+        "P76B9708A",
+        "P1F72D228",
+        "P8C0DBF46",
+        "PAADD397C",
+        "P2D4FD926",
+        "P1DFAD697",
+        "P93995647",
+        "P61DCC998",
+        "P63686407",
+        "P3881BAD2",
+        "P38C79679",
+        "P5416DFC8",
+        "P5DE047C3",
+        "P3B9C78DF",
+        "P7A4F6797",
+        "P2F95F02D",
+        "P06F06671",
+        "P104EBB42",
+        "P2BDAEE88",
+        "PFC132E92",
+        "P5C05191D",
+        "P919700C8"
+      ],
+      "excluded_from_annual": [],
+      "publication_types": {
+        "journal_article": 57
+      },
+      "annual": [
+        {
+          "year": 2018,
+          "count": 1,
+          "all_record_count": 1
+        },
+        {
+          "year": 2019,
+          "count": 0,
+          "all_record_count": 0
+        },
+        {
+          "year": 2020,
+          "count": 5,
+          "all_record_count": 5
+        },
+        {
+          "year": 2021,
+          "count": 11,
+          "all_record_count": 11
+        },
+        {
+          "year": 2022,
+          "count": 8,
+          "all_record_count": 8
+        },
+        {
+          "year": 2023,
+          "count": 4,
+          "all_record_count": 4
+        },
+        {
+          "year": 2024,
+          "count": 16,
+          "all_record_count": 16
+        },
+        {
+          "year": 2025,
+          "count": 8,
+          "all_record_count": 8
+        },
+        {
+          "year": 2026,
+          "count": 4,
+          "all_record_count": 4
+        }
+      ],
+      "journal_domains": [
+        {
+          "domain": "综合科学",
+          "count": 23
+        },
+        {
+          "domain": "地理与地理信息",
+          "count": 8
+        },
+        {
+          "domain": "城市规划与建筑",
+          "count": 8
+        },
+        {
+          "domain": "环境生态与风险",
+          "count": 2
+        },
+        {
+          "domain": "交通与出行",
+          "count": 3
+        },
+        {
+          "domain": "健康与生命科学",
+          "count": 4
+        },
+        {
+          "domain": "计算与数理科学",
+          "count": 4
+        },
+        {
+          "domain": "社会经济与管理",
+          "count": 5
+        }
+      ]
+    },
+    "pending": {
+      "record_count": 50,
+      "record_ids": [
+        "L22",
+        "L36",
+        "L41",
+        "L46",
+        "L47",
+        "L72",
+        "L84",
+        "L85",
+        "L86",
+        "P002C367F",
+        "P01D7334F",
+        "P0663A19C",
+        "P1A918461",
+        "P1BFB6B6F",
+        "P214FEF72",
+        "P2290471E",
+        "P2D2C630F",
+        "P377CD02F",
+        "P3EEC79FA",
+        "P48A032E2",
+        "P557B9764",
+        "P5B2E6933",
+        "P5FE9D417",
+        "P681BDA6E",
+        "P6AAE6DFC",
+        "P71C3218F",
+        "P7C63CA4F",
+        "P7E59C8D1",
+        "P837C3A60",
+        "P8A06ED95",
+        "P8A8A7B36",
+        "P9123C07B",
+        "P913EE387",
+        "P9729F216",
+        "P99197F39",
+        "P9B76EC36",
+        "PA225066F",
+        "PA597BCE5",
+        "PA98D85BB",
+        "PAF9C787A",
+        "PB6FFBAD1",
+        "PBC87DC0B",
+        "PC2196B2E",
+        "PC3073275",
+        "PD5396003",
+        "PE6FBF191",
+        "PE7B72F15",
+        "PEF9587A5",
+        "PF912AF74",
+        "PFDDDACD2"
+      ],
+      "annual_paper_count": 50,
+      "annual_paper_ids": [
+        "L22",
+        "L36",
+        "L41",
+        "L46",
+        "L47",
+        "L72",
+        "L84",
+        "L85",
+        "L86",
+        "P557B9764",
+        "P837C3A60",
+        "PAF9C787A",
+        "P8A06ED95",
+        "P1A918461",
+        "P71C3218F",
+        "PE7B72F15",
+        "P5FE9D417",
+        "PA98D85BB",
+        "P2D2C630F",
+        "PEF9587A5",
+        "P9729F216",
+        "PC3073275",
+        "PA225066F",
+        "PBC87DC0B",
+        "P99197F39",
+        "P002C367F",
+        "P377CD02F",
+        "P1BFB6B6F",
+        "P214FEF72",
+        "P01D7334F",
+        "PFDDDACD2",
+        "P0663A19C",
+        "PB6FFBAD1",
+        "P2290471E",
+        "P9123C07B",
+        "PC2196B2E",
+        "P913EE387",
+        "PA597BCE5",
+        "P9B76EC36",
+        "P7E59C8D1",
+        "PD5396003",
+        "P5B2E6933",
+        "PF912AF74",
+        "P7C63CA4F",
+        "P48A032E2",
+        "P3EEC79FA",
+        "P6AAE6DFC",
+        "PE6FBF191",
+        "P8A8A7B36",
+        "P681BDA6E"
+      ],
+      "journal_article_count": 39,
+      "journal_article_ids": [
+        "L22",
+        "L36",
+        "L41",
+        "L46",
+        "L72",
+        "L84",
+        "L85",
+        "L86",
+        "P557B9764",
+        "P837C3A60",
+        "PAF9C787A",
+        "P1A918461",
+        "P71C3218F",
+        "PE7B72F15",
+        "P5FE9D417",
+        "PA98D85BB",
+        "P2D2C630F",
+        "PEF9587A5",
+        "P9729F216",
+        "PA225066F",
+        "PBC87DC0B",
+        "P99197F39",
+        "P002C367F",
+        "P377CD02F",
+        "P1BFB6B6F",
+        "P214FEF72",
+        "P01D7334F",
+        "PFDDDACD2",
+        "P0663A19C",
+        "PB6FFBAD1",
+        "P2290471E",
+        "P9123C07B",
+        "PC2196B2E",
+        "P913EE387",
+        "PA597BCE5",
+        "P9B76EC36",
+        "P7E59C8D1",
+        "PD5396003",
+        "P3EEC79FA"
+      ],
+      "excluded_from_annual": [],
+      "publication_types": {
+        "journal_article": 39,
+        "preprint": 2,
+        "conference_or_proceedings": 9
+      },
+      "annual": [
+        {
+          "year": 2018,
+          "count": 0,
+          "all_record_count": 0
+        },
+        {
+          "year": 2019,
+          "count": 0,
+          "all_record_count": 0
+        },
+        {
+          "year": 2020,
+          "count": 3,
+          "all_record_count": 3
+        },
+        {
+          "year": 2021,
+          "count": 6,
+          "all_record_count": 6
+        },
+        {
+          "year": 2022,
+          "count": 9,
+          "all_record_count": 9
+        },
+        {
+          "year": 2023,
+          "count": 6,
+          "all_record_count": 6
+        },
+        {
+          "year": 2024,
+          "count": 9,
+          "all_record_count": 9
+        },
+        {
+          "year": 2025,
+          "count": 11,
+          "all_record_count": 11
+        },
+        {
+          "year": 2026,
+          "count": 6,
+          "all_record_count": 6
+        }
+      ],
+      "journal_domains": [
+        {
+          "domain": "综合科学",
+          "count": 4
+        },
+        {
+          "domain": "地理与地理信息",
+          "count": 5
+        },
+        {
+          "domain": "城市规划与建筑",
+          "count": 10
+        },
+        {
+          "domain": "环境生态与风险",
+          "count": 5
+        },
+        {
+          "domain": "交通与出行",
+          "count": 6
+        },
+        {
+          "domain": "健康与生命科学",
+          "count": 2
+        },
+        {
+          "domain": "计算与数理科学",
+          "count": 3
+        },
+        {
+          "domain": "社会经济与管理",
+          "count": 4
+        }
+      ]
+    }
+  },
+  "legacy_125_audit": {
+    "count": 125,
+    "warning": "旧publication_type将5条会议论文误记为journal_article。此125仅用于审计原数据，不应标成真实期刊论文总量。",
+    "domains": [
+      {
+        "domain": "综合科学",
+        "count": 30
+      },
+      {
+        "domain": "地理与地理信息",
+        "count": 22
+      },
+      {
+        "domain": "城市规划与建筑",
+        "count": 26
+      },
+      {
+        "domain": "环境生态与风险",
+        "count": 8
+      },
+      {
+        "domain": "交通与出行",
+        "count": 11
+      },
+      {
+        "domain": "健康与生命科学",
+        "count": 7
+      },
+      {
+        "domain": "计算与数理科学",
+        "count": 11
+      },
+      {
+        "domain": "社会经济与管理",
+        "count": 10
+      }
+    ]
+  },
+  "checks": {
+    "active_browse_unique_records": 132,
+    "unique_venue_strings": 81,
+    "duplicate_browse_ids": 0,
+    "all_domains_mapped": true,
+    "domain_counts_checked": true,
+    "annual_counts_checked": true
+  }
+}
