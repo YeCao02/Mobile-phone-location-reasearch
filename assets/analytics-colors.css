@@ -1,0 +1,3 @@
+/* Brighter categorical hues; white plot background and dark labels. */
+:root,body{--ds-chart-series-blue:#357AF0!important;--ds-chart-series-orange:#F49B35!important;--ds-chart-series-green:#20B49B!important;--ds-chart-series-purple:#9371DB!important;--ds-chart-series-red:#EA6374!important;--ds-chart-series-pink:#E78AC3!important;--ds-chart-series-yellow:#EDC84B!important;--ds-chart-series-neutral:#76ADCA!important;--ds-blue:#357AF0!important;--ds-chart-sequential-1:#357AF0!important;--ds-chart-sequential-9:#357AF0!important;}
+.chart-legend-button{opacity:1!important;color:#37465b!important}.chart-legend-button[aria-pressed=true]{font-weight:700}

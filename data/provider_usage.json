@@ -8361,7 +8361,7 @@
       ],
       "counts": {
         "confirmed_use": 16,
-        "user_confirmed_use": 9,
+        "user_confirmed_use": 13,
         "mention_only": 0,
         "unresolved_candidate": 0
       },
@@ -8388,12 +8388,16 @@
           "L27",
           "L28",
           "L34",
+          "L41",
           "L44",
           "L55",
           "L57",
           "L59",
           "L78",
-          "L79"
+          "L79",
+          "L84",
+          "L85",
+          "L86"
         ],
         "mention_only": [],
         "unresolved_candidate": []
@@ -8401,7 +8405,7 @@
       "role_counts": {
         "mobility": {
           "confirmed_use": 13,
-          "user_confirmed_use": 9,
+          "user_confirmed_use": 13,
           "mention_only": 0,
           "unresolved_candidate": 0
         },
@@ -8487,12 +8491,16 @@
             "L27",
             "L28",
             "L34",
+            "L41",
             "L44",
             "L55",
             "L57",
             "L59",
             "L78",
-            "L79"
+            "L79",
+            "L84",
+            "L85",
+            "L86"
           ],
           "mention_only": [],
           "unresolved_candidate": []
@@ -8574,6 +8582,7 @@
         "L28",
         "L29",
         "L34",
+        "L41",
         "L44",
         "L48",
         "L55",
@@ -8590,6 +8599,9 @@
         "L79",
         "L80",
         "L83",
+        "L84",
+        "L85",
+        "L86",
         "L87",
         "L88"
       ],
@@ -8597,7 +8609,7 @@
       "evidence_role_counts": {
         "mobility": {
           "confirmed_use": 13,
-          "user_confirmed_use": 9,
+          "user_confirmed_use": 13,
           "mention_only": 0,
           "unresolved_candidate": 0
         },
@@ -12617,6 +12629,74 @@
       ]
     },
     {
+      "paper_id": "L41",
+      "paper_title": "基于客群精准识别的长三角高铁枢纽地区发展评估：门槛、分异和核心空间",
+      "doi": "10.16361/j.upf.202404008",
+      "provider_id": "pioneer_moxing_jike",
+      "provider_name": "先锋数聚 / 摸星 / Jike（梦享）",
+      "status": "user_confirmed_use",
+      "classification": "user_confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "先锋数聚 / Pioneer Data（用户确认）"
+      ],
+      "evidence_url": "https://upforum.wupen.org/Assets/userfiles/files/issues/2024/2024-03/2024-04/%E5%AD%99%E5%A8%9F%20%E8%91%9B%E6%98%A5%E6%99%96%20%E7%AD%89.pdf",
+      "evidence_section": "用户2026-10-13明确确认；原文数据声明与同团队研究交叉核对",
+      "basis": "按用户人工核验合并供应商展示组，同篇去重；不作工商关系认定。 [先锋数聚 / Pioneer Data；user_confirmed_use；mobility] 用户结合已知采购关系、微信公众号技术材料及两篇论文数据声明的一致性，明确确认中规院上海分院孙娟／葛春晖团队使用先锋数聚数据。供应商归属按用户确认记录；不将未具名的原文改写成公开具名声明。 来源：https://upforum.wupen.org/Assets/userfiles/files/issues/2024/2024-03/2024-04/%E5%AD%99%E5%A8%9F%20%E8%91%9B%E6%98%A5%E6%99%96%20%E7%AD%89.pdf",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "user_reviewed",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false,
+      "evidence_basis": "user_confirmed_supplier_group",
+      "grouping_basis": "user_confirmed_supplier_group",
+      "member_provider_ids": [
+        "pioneer"
+      ],
+      "role_statuses": {
+        "mobility": "user_confirmed_use"
+      },
+      "evidence_roles": [
+        "mobility"
+      ],
+      "evidence": [
+        {
+          "paper_id": "L41",
+          "paper_title": "基于客群精准识别的长三角高铁枢纽地区发展评估：门槛、分异和核心空间",
+          "doi": "10.16361/j.upf.202404008",
+          "provider_id": "pioneer",
+          "provider_name": "先锋数聚 / Pioneer Data",
+          "status": "user_confirmed_use",
+          "classification": "user_confirmed_use",
+          "role": "mobility",
+          "roles": [
+            "mobility"
+          ],
+          "declared_brands": [
+            "先锋数聚 / Pioneer Data（用户确认）"
+          ],
+          "evidence_url": "https://upforum.wupen.org/Assets/userfiles/files/issues/2024/2024-03/2024-04/%E5%AD%99%E5%A8%9F%20%E8%91%9B%E6%98%A5%E6%99%96%20%E7%AD%89.pdf",
+          "evidence_section": "用户2026-10-13明确确认；原文数据声明与同团队研究交叉核对",
+          "basis": "用户结合已知采购关系、微信公众号技术材料及两篇论文数据声明的一致性，明确确认中规院上海分院孙娟／葛春晖团队使用先锋数聚数据。供应商归属按用户确认记录；不将未具名的原文改写成公开具名声明。",
+          "catalog_status": "reviewed",
+          "scope": "phone_location_or_derivative",
+          "data_access_relationship": "user_reviewed",
+          "data_reuse_note": "",
+          "count_unit": "unique_study_not_independent_dataset",
+          "pdf_downloaded": true,
+          "zotero_attachment_verified": false
+        }
+      ],
+      "evidence_urls": [
+        "https://upforum.wupen.org/Assets/userfiles/files/issues/2024/2024-03/2024-04/%E5%AD%99%E5%A8%9F%20%E8%91%9B%E6%98%A5%E6%99%96%20%E7%AD%89.pdf"
+      ]
+    },
+    {
       "paper_id": "L44",
       "paper_title": "基于手机定位数据的乡村居民进城就医行为及可达性研究",
       "doi": "",
@@ -12629,11 +12709,11 @@
         "mobility"
       ],
       "declared_brands": [
-        "泛先锋关联数据"
+        "先锋数聚 / Pioneer Data（用户确认）"
       ],
       "evidence_url": "https://dlgt.cbpt.cnki.net/portal/journal/portal/client/paper/739b0b7e60043a8747dfa5c027f530ee",
-      "evidence_section": "用户分类与简记核对，2026-10-13",
-      "basis": "按用户人工核验合并供应商展示组，同篇去重；不作工商关系认定。 [先锋数聚 / Pioneer Data；user_confirmed_use；mobility] 用户2026-10-13已人工审查并移入Zotero“先锋/摸星/jike数据”，据此纳入04关联研究；原文具名与关联判断分开记录，具体供应商公开证据继续补充。 来源：https://dlgt.cbpt.cnki.net/portal/journal/portal/client/paper/739b0b7e60043a8747dfa5c027f530ee",
+      "evidence_section": "用户2026-10-13明确确认；原文数据声明与同团队研究交叉核对",
+      "basis": "按用户人工核验合并供应商展示组，同篇去重；不作工商关系认定。 [先锋数聚 / Pioneer Data；user_confirmed_use；mobility] 用户结合既有闭源信息、团队各论文数据声明的一致性，明确确认中南大学王璞／庞腾达团队使用先锋数聚数据。供应商归属按用户确认记录；不将未具名的原文改写成公开具名声明。 来源：https://dlgt.cbpt.cnki.net/portal/journal/portal/client/paper/739b0b7e60043a8747dfa5c027f530ee",
       "catalog_status": "pending",
       "scope": "phone_location_or_derivative",
       "data_access_relationship": "user_reviewed",
@@ -12666,11 +12746,11 @@
             "mobility"
           ],
           "declared_brands": [
-            "泛先锋关联数据"
+            "先锋数聚 / Pioneer Data（用户确认）"
           ],
           "evidence_url": "https://dlgt.cbpt.cnki.net/portal/journal/portal/client/paper/739b0b7e60043a8747dfa5c027f530ee",
-          "evidence_section": "用户分类与简记核对，2026-10-13",
-          "basis": "用户2026-10-13已人工审查并移入Zotero“先锋/摸星/jike数据”，据此纳入04关联研究；原文具名与关联判断分开记录，具体供应商公开证据继续补充。",
+          "evidence_section": "用户2026-10-13明确确认；原文数据声明与同团队研究交叉核对",
+          "basis": "用户结合既有闭源信息、团队各论文数据声明的一致性，明确确认中南大学王璞／庞腾达团队使用先锋数聚数据。供应商归属按用户确认记录；不将未具名的原文改写成公开具名声明。",
           "catalog_status": "pending",
           "scope": "phone_location_or_derivative",
           "data_access_relationship": "user_reviewed",
@@ -12837,11 +12917,11 @@
         "mobility"
       ],
       "declared_brands": [
-        "泛先锋关联数据"
+        "先锋数聚 / Pioneer Data（用户确认）"
       ],
       "evidence_url": "https://www.dqxxkx.cn/CN/10.12082/dqxxkx.2025.240586",
-      "evidence_section": "用户分类与简记核对，2026-10-13",
-      "basis": "按用户人工核验合并供应商展示组，同篇去重；不作工商关系认定。 [先锋数聚 / Pioneer Data；user_confirmed_use；mobility] 用户2026-10-13已人工审查并移入Zotero“先锋/摸星/jike数据”，据此纳入04关联研究；原文具名与关联判断分开记录，具体供应商公开证据继续补充。 来源：https://www.dqxxkx.cn/CN/10.12082/dqxxkx.2025.240586",
+      "evidence_section": "用户2026-10-13明确确认；原文数据声明与同团队研究交叉核对",
+      "basis": "按用户人工核验合并供应商展示组，同篇去重；不作工商关系认定。 [先锋数聚 / Pioneer Data；user_confirmed_use；mobility] 用户结合既有闭源信息、团队各论文数据声明的一致性，明确确认中南大学王璞／庞腾达团队使用先锋数聚数据。供应商归属按用户确认记录；不将未具名的原文改写成公开具名声明。 来源：https://www.dqxxkx.cn/CN/10.12082/dqxxkx.2025.240586",
       "catalog_status": "reviewed",
       "scope": "phone_location_or_derivative",
       "data_access_relationship": "user_reviewed",
@@ -12874,11 +12954,11 @@
             "mobility"
           ],
           "declared_brands": [
-            "泛先锋关联数据"
+            "先锋数聚 / Pioneer Data（用户确认）"
           ],
           "evidence_url": "https://www.dqxxkx.cn/CN/10.12082/dqxxkx.2025.240586",
-          "evidence_section": "用户分类与简记核对，2026-10-13",
-          "basis": "用户2026-10-13已人工审查并移入Zotero“先锋/摸星/jike数据”，据此纳入04关联研究；原文具名与关联判断分开记录，具体供应商公开证据继续补充。",
+          "evidence_section": "用户2026-10-13明确确认；原文数据声明与同团队研究交叉核对",
+          "basis": "用户结合既有闭源信息、团队各论文数据声明的一致性，明确确认中南大学王璞／庞腾达团队使用先锋数聚数据。供应商归属按用户确认记录；不将未具名的原文改写成公开具名声明。",
           "catalog_status": "reviewed",
           "scope": "phone_location_or_derivative",
           "data_access_relationship": "user_reviewed",
@@ -12977,11 +13057,11 @@
         "mobility"
       ],
       "declared_brands": [
-        "泛先锋关联数据"
+        "先锋数聚 / Pioneer Data（用户确认）"
       ],
       "evidence_url": "https://www.sciencedirect.com/science/article/abs/pii/S0966692325003874",
-      "evidence_section": "用户分类与简记核对，2026-10-13",
-      "basis": "按用户人工核验合并供应商展示组，同篇去重；不作工商关系认定。 [先锋数聚 / Pioneer Data；user_confirmed_use；mobility] 依据用户2026-10-13明确要求，以其人工核验及Zotero“先锋/摸星/jike数据”分类同步为已确认关联研究；原文是否具名另行保留，不再列入待确认清单。 来源：https://www.sciencedirect.com/science/article/abs/pii/S0966692325003874",
+      "evidence_section": "用户2026-10-13明确确认；原文数据声明与同团队研究交叉核对",
+      "basis": "按用户人工核验合并供应商展示组，同篇去重；不作工商关系认定。 [先锋数聚 / Pioneer Data；user_confirmed_use；mobility] 用户结合既有闭源信息、团队各论文数据声明的一致性，明确确认中南大学王璞／庞腾达团队使用先锋数聚数据。供应商归属按用户确认记录；不将未具名的原文改写成公开具名声明。 来源：https://www.sciencedirect.com/science/article/abs/pii/S0966692325003874",
       "catalog_status": "reviewed",
       "scope": "phone_location_or_derivative",
       "data_access_relationship": "user_reviewed",
@@ -13014,11 +13094,11 @@
             "mobility"
           ],
           "declared_brands": [
-            "泛先锋关联数据"
+            "先锋数聚 / Pioneer Data（用户确认）"
           ],
           "evidence_url": "https://www.sciencedirect.com/science/article/abs/pii/S0966692325003874",
-          "evidence_section": "用户分类与简记核对，2026-10-13",
-          "basis": "依据用户2026-10-13明确要求，以其人工核验及Zotero“先锋/摸星/jike数据”分类同步为已确认关联研究；原文是否具名另行保留，不再列入待确认清单。",
+          "evidence_section": "用户2026-10-13明确确认；原文数据声明与同团队研究交叉核对",
+          "basis": "用户结合既有闭源信息、团队各论文数据声明的一致性，明确确认中南大学王璞／庞腾达团队使用先锋数聚数据。供应商归属按用户确认记录；不将未具名的原文改写成公开具名声明。",
           "catalog_status": "reviewed",
           "scope": "phone_location_or_derivative",
           "data_access_relationship": "user_reviewed",
@@ -13749,6 +13829,210 @@
       ]
     },
     {
+      "paper_id": "L84",
+      "paper_title": "How job-housing relocations reshape mobility? Evidence from smartphone positioning data",
+      "doi": "10.1016/j.tbs.2026.101363",
+      "provider_id": "pioneer_moxing_jike",
+      "provider_name": "先锋数聚 / 摸星 / Jike（梦享）",
+      "status": "user_confirmed_use",
+      "classification": "user_confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "先锋数聚 / Pioneer Data（用户确认）"
+      ],
+      "evidence_url": "https://www.sciencedirect.com/science/article/pii/S2214367X26001328",
+      "evidence_section": "用户2026-10-13明确确认；原文数据声明与同团队研究交叉核对",
+      "basis": "按用户人工核验合并供应商展示组，同篇去重；不作工商关系认定。 [先锋数聚 / Pioneer Data；user_confirmed_use；mobility] 用户结合既有闭源信息、团队各论文数据声明的一致性，明确确认中南大学王璞／庞腾达团队使用先锋数聚数据。供应商归属按用户确认记录；不将未具名的原文改写成公开具名声明。 来源：https://www.sciencedirect.com/science/article/pii/S2214367X26001328",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "user_reviewed",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "evidence_basis": "user_confirmed_supplier_group",
+      "grouping_basis": "user_confirmed_supplier_group",
+      "member_provider_ids": [
+        "pioneer"
+      ],
+      "role_statuses": {
+        "mobility": "user_confirmed_use"
+      },
+      "evidence_roles": [
+        "mobility"
+      ],
+      "evidence": [
+        {
+          "paper_id": "L84",
+          "paper_title": "How job-housing relocations reshape mobility? Evidence from smartphone positioning data",
+          "doi": "10.1016/j.tbs.2026.101363",
+          "provider_id": "pioneer",
+          "provider_name": "先锋数聚 / Pioneer Data",
+          "status": "user_confirmed_use",
+          "classification": "user_confirmed_use",
+          "role": "mobility",
+          "roles": [
+            "mobility"
+          ],
+          "declared_brands": [
+            "先锋数聚 / Pioneer Data（用户确认）"
+          ],
+          "evidence_url": "https://www.sciencedirect.com/science/article/pii/S2214367X26001328",
+          "evidence_section": "用户2026-10-13明确确认；原文数据声明与同团队研究交叉核对",
+          "basis": "用户结合既有闭源信息、团队各论文数据声明的一致性，明确确认中南大学王璞／庞腾达团队使用先锋数聚数据。供应商归属按用户确认记录；不将未具名的原文改写成公开具名声明。",
+          "catalog_status": "reviewed",
+          "scope": "phone_location_or_derivative",
+          "data_access_relationship": "user_reviewed",
+          "data_reuse_note": "",
+          "count_unit": "unique_study_not_independent_dataset",
+          "pdf_downloaded": true,
+          "zotero_attachment_verified": true
+        }
+      ],
+      "evidence_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S2214367X26001328"
+      ]
+    },
+    {
+      "paper_id": "L85",
+      "paper_title": "Measuring carbon mitigation potential from a network perspective: Evidence from Changsha",
+      "doi": "10.1016/j.trd.2026.105539",
+      "provider_id": "pioneer_moxing_jike",
+      "provider_name": "先锋数聚 / 摸星 / Jike（梦享）",
+      "status": "user_confirmed_use",
+      "classification": "user_confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "先锋数聚 / Pioneer Data（用户确认）"
+      ],
+      "evidence_url": "https://www.sciencedirect.com/science/article/pii/S1361920926003329",
+      "evidence_section": "用户2026-10-13明确确认；原文数据声明与同团队研究交叉核对",
+      "basis": "按用户人工核验合并供应商展示组，同篇去重；不作工商关系认定。 [先锋数聚 / Pioneer Data；user_confirmed_use；mobility] 用户结合既有闭源信息、团队各论文数据声明的一致性，明确确认中南大学王璞／庞腾达团队使用先锋数聚数据。供应商归属按用户确认记录；不将未具名的原文改写成公开具名声明。 来源：https://www.sciencedirect.com/science/article/pii/S1361920926003329",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "user_reviewed",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "evidence_basis": "user_confirmed_supplier_group",
+      "grouping_basis": "user_confirmed_supplier_group",
+      "member_provider_ids": [
+        "pioneer"
+      ],
+      "role_statuses": {
+        "mobility": "user_confirmed_use"
+      },
+      "evidence_roles": [
+        "mobility"
+      ],
+      "evidence": [
+        {
+          "paper_id": "L85",
+          "paper_title": "Measuring carbon mitigation potential from a network perspective: Evidence from Changsha",
+          "doi": "10.1016/j.trd.2026.105539",
+          "provider_id": "pioneer",
+          "provider_name": "先锋数聚 / Pioneer Data",
+          "status": "user_confirmed_use",
+          "classification": "user_confirmed_use",
+          "role": "mobility",
+          "roles": [
+            "mobility"
+          ],
+          "declared_brands": [
+            "先锋数聚 / Pioneer Data（用户确认）"
+          ],
+          "evidence_url": "https://www.sciencedirect.com/science/article/pii/S1361920926003329",
+          "evidence_section": "用户2026-10-13明确确认；原文数据声明与同团队研究交叉核对",
+          "basis": "用户结合既有闭源信息、团队各论文数据声明的一致性，明确确认中南大学王璞／庞腾达团队使用先锋数聚数据。供应商归属按用户确认记录；不将未具名的原文改写成公开具名声明。",
+          "catalog_status": "reviewed",
+          "scope": "phone_location_or_derivative",
+          "data_access_relationship": "user_reviewed",
+          "data_reuse_note": "",
+          "count_unit": "unique_study_not_independent_dataset",
+          "pdf_downloaded": true,
+          "zotero_attachment_verified": true
+        }
+      ],
+      "evidence_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S1361920926003329"
+      ]
+    },
+    {
+      "paper_id": "L86",
+      "paper_title": "“站”与“城”融合发展的规划思考：影响因素、实践误区和类型差异",
+      "doi": "10.11982/j.supr.20250106",
+      "provider_id": "pioneer_moxing_jike",
+      "provider_name": "先锋数聚 / 摸星 / Jike（梦享）",
+      "status": "user_confirmed_use",
+      "classification": "user_confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "先锋数聚 / Pioneer Data（用户确认）"
+      ],
+      "evidence_url": "https://www.shplanning.com.cn/archive/detail/id/1435.html",
+      "evidence_section": "用户2026-10-13明确确认；原文数据声明与同团队研究交叉核对",
+      "basis": "按用户人工核验合并供应商展示组，同篇去重；不作工商关系认定。 [先锋数聚 / Pioneer Data；user_confirmed_use；mobility] 用户结合已知采购关系、微信公众号技术材料及两篇论文数据声明的一致性，明确确认中规院上海分院孙娟／葛春晖团队使用先锋数聚数据。供应商归属按用户确认记录；不将未具名的原文改写成公开具名声明。 来源：https://www.shplanning.com.cn/archive/detail/id/1435.html",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "user_reviewed",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false,
+      "evidence_basis": "user_confirmed_supplier_group",
+      "grouping_basis": "user_confirmed_supplier_group",
+      "member_provider_ids": [
+        "pioneer"
+      ],
+      "role_statuses": {
+        "mobility": "user_confirmed_use"
+      },
+      "evidence_roles": [
+        "mobility"
+      ],
+      "evidence": [
+        {
+          "paper_id": "L86",
+          "paper_title": "“站”与“城”融合发展的规划思考：影响因素、实践误区和类型差异",
+          "doi": "10.11982/j.supr.20250106",
+          "provider_id": "pioneer",
+          "provider_name": "先锋数聚 / Pioneer Data",
+          "status": "user_confirmed_use",
+          "classification": "user_confirmed_use",
+          "role": "mobility",
+          "roles": [
+            "mobility"
+          ],
+          "declared_brands": [
+            "先锋数聚 / Pioneer Data（用户确认）"
+          ],
+          "evidence_url": "https://www.shplanning.com.cn/archive/detail/id/1435.html",
+          "evidence_section": "用户2026-10-13明确确认；原文数据声明与同团队研究交叉核对",
+          "basis": "用户结合已知采购关系、微信公众号技术材料及两篇论文数据声明的一致性，明确确认中规院上海分院孙娟／葛春晖团队使用先锋数聚数据。供应商归属按用户确认记录；不将未具名的原文改写成公开具名声明。",
+          "catalog_status": "reviewed",
+          "scope": "phone_location_or_derivative",
+          "data_access_relationship": "user_reviewed",
+          "data_reuse_note": "",
+          "count_unit": "unique_study_not_independent_dataset",
+          "pdf_downloaded": true,
+          "zotero_attachment_verified": false
+        }
+      ],
+      "evidence_urls": [
+        "https://www.shplanning.com.cn/archive/detail/id/1435.html"
+      ]
+    },
+    {
       "paper_id": "L87",
       "paper_title": "Urban park green space use analysis based on trajectory big data: Experience from a medium–sized city in China",
       "doi": "10.1016/j.heliyon.2024.e26445",
@@ -14445,58 +14729,6 @@
       "zotero_attachment_verified": true
     },
     {
-      "paper_id": "L59",
-      "paper_title": "Uncovering urban tourist mobility patterns based on large-scale mobile phone data",
-      "doi": "10.1016/j.jtrangeo.2025.104496",
-      "provider_id": "pioneer",
-      "provider_name": "先锋数聚 / Pioneer Data",
-      "status": "user_confirmed_use",
-      "classification": "user_confirmed_use",
-      "role": "mobility",
-      "roles": [
-        "mobility"
-      ],
-      "declared_brands": [
-        "泛先锋关联数据"
-      ],
-      "evidence_url": "https://www.sciencedirect.com/science/article/abs/pii/S0966692325003874",
-      "evidence_section": "用户分类与简记核对，2026-10-13",
-      "basis": "依据用户2026-10-13明确要求，以其人工核验及Zotero“先锋/摸星/jike数据”分类同步为已确认关联研究；原文是否具名另行保留，不再列入待确认清单。",
-      "catalog_status": "reviewed",
-      "scope": "phone_location_or_derivative",
-      "data_access_relationship": "user_reviewed",
-      "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": false,
-      "zotero_attachment_verified": false
-    },
-    {
-      "paper_id": "L44",
-      "paper_title": "基于手机定位数据的乡村居民进城就医行为及可达性研究",
-      "doi": "",
-      "provider_id": "pioneer",
-      "provider_name": "先锋数聚 / Pioneer Data",
-      "status": "user_confirmed_use",
-      "classification": "user_confirmed_use",
-      "role": "mobility",
-      "roles": [
-        "mobility"
-      ],
-      "declared_brands": [
-        "泛先锋关联数据"
-      ],
-      "evidence_url": "https://dlgt.cbpt.cnki.net/portal/journal/portal/client/paper/739b0b7e60043a8747dfa5c027f530ee",
-      "evidence_section": "用户分类与简记核对，2026-10-13",
-      "basis": "用户2026-10-13已人工审查并移入Zotero“先锋/摸星/jike数据”，据此纳入04关联研究；原文具名与关联判断分开记录，具体供应商公开证据继续补充。",
-      "catalog_status": "pending",
-      "scope": "phone_location_or_derivative",
-      "data_access_relationship": "user_reviewed",
-      "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": false,
-      "zotero_attachment_verified": false
-    },
-    {
       "paper_id": "L55",
       "paper_title": "融合区域嵌入表示的城市功能区识别方法",
       "doi": "10.12082/dqxxkx.2025.240484",
@@ -14521,32 +14753,6 @@
       "count_unit": "unique_study_not_independent_dataset",
       "pdf_downloaded": true,
       "zotero_attachment_verified": true
-    },
-    {
-      "paper_id": "L57",
-      "paper_title": "多尺度视角下的城市旅游流网络结构特征分析——以长沙市为例",
-      "doi": "10.12082/dqxxkx.2025.240586",
-      "provider_id": "pioneer",
-      "provider_name": "先锋数聚 / Pioneer Data",
-      "status": "user_confirmed_use",
-      "classification": "user_confirmed_use",
-      "role": "mobility",
-      "roles": [
-        "mobility"
-      ],
-      "declared_brands": [
-        "泛先锋关联数据"
-      ],
-      "evidence_url": "https://www.dqxxkx.cn/CN/10.12082/dqxxkx.2025.240586",
-      "evidence_section": "用户分类与简记核对，2026-10-13",
-      "basis": "用户2026-10-13已人工审查并移入Zotero“先锋/摸星/jike数据”，据此纳入04关联研究；原文具名与关联判断分开记录，具体供应商公开证据继续补充。",
-      "catalog_status": "reviewed",
-      "scope": "phone_location_or_derivative",
-      "data_access_relationship": "user_reviewed",
-      "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": true,
-      "zotero_attachment_verified": false
     },
     {
       "paper_id": "L78",
@@ -14600,6 +14806,188 @@
       "pdf_downloaded": true,
       "zotero_catalog_imported": true,
       "zotero_attachment_verified": true
+    },
+    {
+      "paper_id": "L41",
+      "paper_title": "基于客群精准识别的长三角高铁枢纽地区发展评估：门槛、分异和核心空间",
+      "doi": "10.16361/j.upf.202404008",
+      "provider_id": "pioneer",
+      "provider_name": "先锋数聚 / Pioneer Data",
+      "status": "user_confirmed_use",
+      "classification": "user_confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "先锋数聚 / Pioneer Data（用户确认）"
+      ],
+      "evidence_url": "https://upforum.wupen.org/Assets/userfiles/files/issues/2024/2024-03/2024-04/%E5%AD%99%E5%A8%9F%20%E8%91%9B%E6%98%A5%E6%99%96%20%E7%AD%89.pdf",
+      "evidence_section": "用户2026-10-13明确确认；原文数据声明与同团队研究交叉核对",
+      "basis": "用户结合已知采购关系、微信公众号技术材料及两篇论文数据声明的一致性，明确确认中规院上海分院孙娟／葛春晖团队使用先锋数聚数据。供应商归属按用户确认记录；不将未具名的原文改写成公开具名声明。",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "user_reviewed",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false
+    },
+    {
+      "paper_id": "L86",
+      "paper_title": "“站”与“城”融合发展的规划思考：影响因素、实践误区和类型差异",
+      "doi": "10.11982/j.supr.20250106",
+      "provider_id": "pioneer",
+      "provider_name": "先锋数聚 / Pioneer Data",
+      "status": "user_confirmed_use",
+      "classification": "user_confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "先锋数聚 / Pioneer Data（用户确认）"
+      ],
+      "evidence_url": "https://www.shplanning.com.cn/archive/detail/id/1435.html",
+      "evidence_section": "用户2026-10-13明确确认；原文数据声明与同团队研究交叉核对",
+      "basis": "用户结合已知采购关系、微信公众号技术材料及两篇论文数据声明的一致性，明确确认中规院上海分院孙娟／葛春晖团队使用先锋数聚数据。供应商归属按用户确认记录；不将未具名的原文改写成公开具名声明。",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "user_reviewed",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false
+    },
+    {
+      "paper_id": "L44",
+      "paper_title": "基于手机定位数据的乡村居民进城就医行为及可达性研究",
+      "doi": "",
+      "provider_id": "pioneer",
+      "provider_name": "先锋数聚 / Pioneer Data",
+      "status": "user_confirmed_use",
+      "classification": "user_confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "先锋数聚 / Pioneer Data（用户确认）"
+      ],
+      "evidence_url": "https://dlgt.cbpt.cnki.net/portal/journal/portal/client/paper/739b0b7e60043a8747dfa5c027f530ee",
+      "evidence_section": "用户2026-10-13明确确认；原文数据声明与同团队研究交叉核对",
+      "basis": "用户结合既有闭源信息、团队各论文数据声明的一致性，明确确认中南大学王璞／庞腾达团队使用先锋数聚数据。供应商归属按用户确认记录；不将未具名的原文改写成公开具名声明。",
+      "catalog_status": "pending",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "user_reviewed",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false
+    },
+    {
+      "paper_id": "L57",
+      "paper_title": "多尺度视角下的城市旅游流网络结构特征分析——以长沙市为例",
+      "doi": "10.12082/dqxxkx.2025.240586",
+      "provider_id": "pioneer",
+      "provider_name": "先锋数聚 / Pioneer Data",
+      "status": "user_confirmed_use",
+      "classification": "user_confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "先锋数聚 / Pioneer Data（用户确认）"
+      ],
+      "evidence_url": "https://www.dqxxkx.cn/CN/10.12082/dqxxkx.2025.240586",
+      "evidence_section": "用户2026-10-13明确确认；原文数据声明与同团队研究交叉核对",
+      "basis": "用户结合既有闭源信息、团队各论文数据声明的一致性，明确确认中南大学王璞／庞腾达团队使用先锋数聚数据。供应商归属按用户确认记录；不将未具名的原文改写成公开具名声明。",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "user_reviewed",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false
+    },
+    {
+      "paper_id": "L59",
+      "paper_title": "Uncovering urban tourist mobility patterns based on large-scale mobile phone data",
+      "doi": "10.1016/j.jtrangeo.2025.104496",
+      "provider_id": "pioneer",
+      "provider_name": "先锋数聚 / Pioneer Data",
+      "status": "user_confirmed_use",
+      "classification": "user_confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "先锋数聚 / Pioneer Data（用户确认）"
+      ],
+      "evidence_url": "https://www.sciencedirect.com/science/article/abs/pii/S0966692325003874",
+      "evidence_section": "用户2026-10-13明确确认；原文数据声明与同团队研究交叉核对",
+      "basis": "用户结合既有闭源信息、团队各论文数据声明的一致性，明确确认中南大学王璞／庞腾达团队使用先锋数聚数据。供应商归属按用户确认记录；不将未具名的原文改写成公开具名声明。",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "user_reviewed",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false
+    },
+    {
+      "paper_id": "L84",
+      "paper_title": "How job-housing relocations reshape mobility? Evidence from smartphone positioning data",
+      "doi": "10.1016/j.tbs.2026.101363",
+      "provider_id": "pioneer",
+      "provider_name": "先锋数聚 / Pioneer Data",
+      "status": "user_confirmed_use",
+      "classification": "user_confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "先锋数聚 / Pioneer Data（用户确认）"
+      ],
+      "evidence_url": "https://www.sciencedirect.com/science/article/pii/S2214367X26001328",
+      "evidence_section": "用户2026-10-13明确确认；原文数据声明与同团队研究交叉核对",
+      "basis": "用户结合既有闭源信息、团队各论文数据声明的一致性，明确确认中南大学王璞／庞腾达团队使用先锋数聚数据。供应商归属按用户确认记录；不将未具名的原文改写成公开具名声明。",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "user_reviewed",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true
+    },
+    {
+      "paper_id": "L85",
+      "paper_title": "Measuring carbon mitigation potential from a network perspective: Evidence from Changsha",
+      "doi": "10.1016/j.trd.2026.105539",
+      "provider_id": "pioneer",
+      "provider_name": "先锋数聚 / Pioneer Data",
+      "status": "user_confirmed_use",
+      "classification": "user_confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "先锋数聚 / Pioneer Data（用户确认）"
+      ],
+      "evidence_url": "https://www.sciencedirect.com/science/article/pii/S1361920926003329",
+      "evidence_section": "用户2026-10-13明确确认；原文数据声明与同团队研究交叉核对",
+      "basis": "用户结合既有闭源信息、团队各论文数据声明的一致性，明确确认中南大学王璞／庞腾达团队使用先锋数聚数据。供应商归属按用户确认记录；不将未具名的原文改写成公开具名声明。",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "user_reviewed",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true
     }
   ],
   "methodology": {
@@ -14646,20 +15034,20 @@
     "name_collision_rule": "同音或近似拼写不构成供方关联，以上名称均未映射为北京摸星。"
   },
   "counts": {
-    "catalog_studies": 151,
+    "catalog_studies": 150,
     "provider_nodes": 35,
-    "associations": 149,
-    "unique_studies_with_association": 124,
-    "unassigned_studies": 27,
+    "associations": 153,
+    "unique_studies_with_association": 128,
+    "unassigned_studies": 22,
     "association_counts_by_status": {
       "confirmed_use": 72,
-      "user_confirmed_use": 33,
+      "user_confirmed_use": 37,
       "mention_only": 2,
       "unresolved_candidate": 42
     },
     "unique_studies_by_status": {
       "confirmed_use": 63,
-      "user_confirmed_use": 30,
+      "user_confirmed_use": 34,
       "mention_only": 2,
       "unresolved_candidate": 33
     }
@@ -14694,21 +15082,9 @@
       "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
     },
     {
-      "paper_id": "L41",
-      "title": "基于客群精准识别的长三角高铁枢纽地区发展评估：门槛、分异和核心空间",
-      "doi": "10.16361/j.upf.202404008",
-      "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
-    },
-    {
       "paper_id": "L46",
       "title": "先验与数据双引导的城市居民活动强度预测模型",
       "doi": "10.12082/dqxxkx.2025.250198",
-      "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
-    },
-    {
-      "paper_id": "L47",
-      "title": "BAMTR: Behavior-Aware Mobile Phone Trajectory Recovery via Adaptive Historical Prior Reasoning",
-      "doi": "10.2139/ssrn.7396621",
       "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
     },
     {
@@ -14757,24 +15133,6 @@
       "paper_id": "L72",
       "title": "基于软件开发工具包(SDK)数据的人群空间活动分析",
       "doi": "10.13813/j.cn11-5141/u.2020.0403",
-      "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
-    },
-    {
-      "paper_id": "L84",
-      "title": "How job-housing relocations reshape mobility? Evidence from smartphone positioning data",
-      "doi": "10.1016/j.tbs.2026.101363",
-      "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
-    },
-    {
-      "paper_id": "L85",
-      "title": "Measuring carbon mitigation potential from a network perspective: Evidence from Changsha",
-      "doi": "10.1016/j.trd.2026.105539",
-      "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
-    },
-    {
-      "paper_id": "L86",
-      "title": "“站”与“城”融合发展的规划思考：影响因素、实践误区和类型差异",
-      "doi": "10.11982/j.supr.20250106",
       "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
     },
     {

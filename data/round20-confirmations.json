@@ -1,0 +1,140 @@
+{
+  "date": "2026-10-13",
+  "excluded": [
+    "L47"
+  ],
+  "new_confirmed": [
+    "L41",
+    "L86",
+    "L84",
+    "L85"
+  ],
+  "pioneer_supplier_labels": [
+    "L41",
+    "L86",
+    "L44",
+    "L57",
+    "L59",
+    "L84",
+    "L85"
+  ],
+  "technical_article": "CN-S31",
+  "basis": "用户明确确认；原文未具名与公开具名声明分开保留。",
+  "fulltext_records": [
+    {
+      "id": "L84",
+      "title": "How job-housing relocations reshape mobility? Evidence from smartphone positioning data",
+      "institution": "中南大学",
+      "team": "王璞 / Pu Wang；Chenggong Li、Dazhi Zhao、Shengnan Li",
+      "journal": "Travel Behaviour and Society",
+      "year": 2026,
+      "doi": "10.1016/j.tbs.2026.101363",
+      "url": "https://doi.org/10.1016/j.tbs.2026.101363",
+      "provider": "先锋数据（用户确认）",
+      "provider_named_in_article": false,
+      "classification_basis": "用户已将该文及中南大学王璞团队对应五篇确认纳入先锋数据；本轮全文与补充核验保留原文未具名这一事实。",
+      "statements": [
+        {
+          "location": "正文 PDF 第 3 页，§3.1.2 Data source and pre-processing",
+          "quote": "The smartphone positioning data were collected through Software Development Kit (SDK) services installed on smartphone devices with users’ explicit consent.",
+          "interpretation": "明确为手机设备 SDK 采集，并称经过用户明确许可；未在此段写出公司名称。"
+        },
+        {
+          "location": "正文 PDF 第 3 页，§3.1.2",
+          "quote": "The dataset consists of location pings with latitude-longitude coordinates and corresponding timestamps or time intervals, with an approximate positioning accuracy of 30–50 m. The observation window spans May 1 to June 30 in both 2023 and 2024.",
+          "interpretation": "记录支持时间戳或时间区间；报告约 30–50 m 精度，长沙 2023 和 2024 年各 5–6 月。供方另提供性别、年龄、汽车拥有情况、家庭是否有儿童等匿名类别画像，用于基线协变量。"
+        },
+        {
+          "location": "DOCX 补充 Appendix A (2) Population coverage and representativeness of datasets；不是 PDF，未虚构页码",
+          "quote": "The raw smartphone positioning data recorded 4.3 million and 4.5 million smartphone users living in Changsha for the years 2023 and 2024, respectively.",
+          "interpretation": "原始覆盖分别约 430 万、450 万用户；与最后筛选的通勤样本不同。补充 Appendix A (1) 明确最终样本偏向 20–60 岁、记录充分且职住稳定的用户。"
+        },
+        {
+          "location": "DOCX 补充 Appendix B. Comparability of the observations across the two years，Fig. B1 前说明段",
+          "quote": "A plausible explanation is the increased deployment of mobile and WiFi sensing devices in 2024, which enabled the collection of more spatiotemporal records from smartphone users.",
+          "interpretation": "作者将 2024 年记录更丰富的一种可能解释归于 mobile 和 WiFi sensing devices 增加；这是作者解释，不宜转述成已验证供应商设备部署事实。"
+        }
+      ],
+      "source_name_check": "正文及 DOCX 补充可提取文本中未发现 Pioneer / Moxing / Jike / Mengxiang / isjike 或对应核心中文名。",
+      "material_status": "正文 PDF 与补充 DOCX 已在 Zotero，均已核读数据相关部分。"
+    },
+    {
+      "id": "L85",
+      "title": "Measuring carbon mitigation potential from a network perspective: Evidence from Changsha",
+      "institution": "中南大学",
+      "team": "中南大学王璞 / Pu Wang（通讯）；Dazhi Zhao、Rihong Ke；Qi Liu、Ling Liu 署名单位为 Changsha Geotechnical Engineering & Surveying Institute",
+      "journal": "Transportation Research Part D: Transport and Environment",
+      "year": 2026,
+      "doi": "10.1016/j.trd.2026.105539",
+      "url": "https://doi.org/10.1016/j.trd.2026.105539",
+      "provider": "先锋数据（用户确认）",
+      "provider_named_in_article": false,
+      "classification_basis": "用户已将该文及中南大学王璞团队对应五篇确认纳入先锋数据；本轮全文核验不改变原文未具名的标记。",
+      "statements": [
+        {
+          "location": "正文 PDF 第 4 页，§3.2 Data sources",
+          "quote": "The mobile phone data employed in this study were collected through Software Development Kit (SDK) services installed on mobile devices with users’ explicit consent.",
+          "interpretation": "明确 SDK 及许可采集；长沙 2023 年 5 月约 424 万用户、44.6 亿记录，定位误差约 30–50 m，平均间隔 43 min。"
+        },
+        {
+          "location": "正文 PDF 第 4 页，§3.2 Data sources",
+          "quote": "However, the mobile phone positioning records are generated through an event-based mechanism, meaning that the sampling frequency is not fixed but varies with user activity, mobility, and device usage.",
+          "interpretation": "原文明确事件触发、采样不固定；不能把平均 43 min 写成固定采样周期。该文将手机数据与车牌识别数据结合，后者不是手机位置数据来源。"
+        },
+        {
+          "location": "正文 PDF 第 16 页，Appendix A. Descriptive statistics of mobile phone data",
+          "quote": "In each record, the user ID, the timestamp, and the user coordinates are recorded.",
+          "interpretation": "记录字段为用户标识、时间和坐标；补充说明间隔呈截断幂律，80.4%用户日均超过12条记录、深夜记录明显下降。"
+        },
+        {
+          "location": "正文 PDF 第 21 页，Data availability",
+          "quote": "The authors do not have permission to share data.",
+          "interpretation": "不能公开分享数据；该句本身不提供供应商名称。"
+        }
+      ],
+      "source_name_check": "正文与内置附录可提取文本中未发现 Pioneer / Moxing / Jike / Mengxiang / isjike 或对应核心中文名。",
+      "material_status": "正文 PDF 已在 Zotero；Appendix A 等附录在同一正文 PDF 内。",
+      "affiliations": [
+        "School of Traffic and Transportation Engineering, Central South University",
+        "Changsha Geotechnical Engineering & Surveying Institute"
+      ]
+    },
+    {
+      "id": "CAUPD-WECHAT-20230213",
+      "title": "申享 | 2023年规划信息化技术系列发布系列 ①",
+      "institution": "中国城市规划设计研究院上海分院 / 长三角创新发展研究中心",
+      "team": "长三角创新中心；本场为长三角人群流动与人群画像技术发布",
+      "publication": "申客思享会（微信公众号）",
+      "date": "2023-02-13",
+      "url": "https://mp.weixin.qq.com/s/WcTVUMEl7u0YYNlfJl1EqQ",
+      "provider": "先锋数据（用户确认）",
+      "provider_named_in_article": false,
+      "classification_basis": "用户确认中规院上海分院相关研究及该微信材料采用先锋数据；快照正文给出四类点位结构，但没有直接给出供应商公司名。",
+      "statements": [
+        {
+          "location": "微信公众号本地 HTML 快照，PART 01 产品介绍，第2段；无固定页码",
+          "quote": "本次新场景数据的研发，在传统定时报点收集数据的基础上，增加了基于空间标签的场景定位、基于 WIFI 设备的连接点位、基于停留时间的稳定点位",
+          "interpretation": "完整列出定时、场景、Wi-Fi连接、稳定四种来源/触发结构，可与用户先锋交付说明交叉对照；这支持产品结构一致性，不替代原文具名。"
+        },
+        {
+          "location": "PART 01 产品介绍，第1段",
+          "quote": "目前院内积累的数据已覆盖长三角地区约 1 亿人群轨迹，数据精度达米级、汇总精度达街镇。",
+          "interpretation": "这是文章报告的院内积累规模和精度；原文称“约1亿人群轨迹”，不能改写成去重用户1亿或研究样本1亿。"
+        },
+        {
+          "location": "PART 01 产品介绍，平台数据仓段落",
+          "quote": "原始数据精度可达米级，平台内汇总至 150 米级精度进行操作展示。",
+          "interpretation": "区分原始定位口径与平台汇总展示粒度，不混作同一定位精度。"
+        }
+      ],
+      "applications": [
+        "人群热力与画像",
+        "通勤职住网络",
+        "空间特征聚类",
+        "职住关联度",
+        "机器学习预测人流"
+      ],
+      "material_status": "Zotero HTML 快照全文已核读，属于机构技术报道，不计为期刊论文。"
+    }
+  ]
+}

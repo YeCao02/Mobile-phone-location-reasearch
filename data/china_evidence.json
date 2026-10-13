@@ -449,16 +449,20 @@
       "id": "CN-S31",
       "title": "申享 | 2023年规划信息化技术系列发布系列 ①",
       "url": "https://mp.weixin.qq.com/s/WcTVUMEl7u0YYNlfJl1EqQ",
-      "type": "用户题名与独立目录元数据",
-      "finding": "题名由用户提供；独立规划云目录列2023-02-13、申客思享会。",
-      "limits": "微信原文未取得：验证页及主线站点安全阻断；目录不是技术原文，不能确认SDK、供方或采购。",
-      "confidence": "user_title_directory_metadata_only",
+      "type": "微信公众号技术文章（Zotero快照核读）",
+      "finding": "本次新场景数据的研发，在传统定时报点收集数据的基础上，增加了基于空间标签的场景定位、基于 WIFI 设备的连接点位、基于停留时间的稳定点位；目前院内积累的数据已覆盖长三角地区约 1 亿人群轨迹，数据精度达米级、汇总精度达街镇。；原始数据精度可达米级，平台内汇总至 150 米级精度进行操作展示。。用途：人群热力与画像、通勤职住网络、空间特征聚类、职住关联度、机器学习预测人流。供应商：先锋数聚（用户确认）。",
+      "limits": "报道正文未具名；用户已结合采购与数据结构确认为先锋数聚。约1亿人群轨迹不等于1亿独立用户；原始米级定位与平台150米汇总分别记录。",
+      "confidence": "user_confirmed_pioneer",
       "review_date": "2026-10-10",
-      "institution": "中规院上海分院（用户线索）",
+      "institution": "中国城市规划设计研究院上海分院",
       "published": "2023-02-13",
       "directory_url": "https://www.guihuayun.com/baike/%E6%8A%80%E6%9C%AF?page=12",
-      "verification": "article_body_pending",
-      "type_code": "user_title_and_independent_directory_metadata"
+      "verification": "snapshot_fulltext_reviewed",
+      "type_code": "user_title_and_independent_directory_metadata",
+      "supplier": "先锋数聚 / Pioneer Data",
+      "research_scope": "pioneer_user_confirmed",
+      "group_id": "CAUPD-SUN-GE",
+      "verbatim_statement": "本次新场景数据的研发，在传统定时报点收集数据的基础上，增加了基于空间标签的场景定位、基于 WIFI 设备的连接点位、基于停留时间的稳定点位"
     },
     {
       "id": "CN-S32",
@@ -853,13 +857,13 @@
       "url": "https://upforum.wupen.org/Assets/userfiles/files/issues/2024/2024-03/2024-04/%E5%AD%99%E5%A8%9F%20%E8%91%9B%E6%98%A5%E6%99%96%20%E7%AD%89.pdf",
       "type": "出版社/机构论文全文",
       "finding": "方法采用长三角LBS全过程出行链；平台含约7200万人次客群信息与性别、年龄、收入、教育、场景标签；作者称可作米级、分钟间隔跟踪。精度和标签相似性不构成SDK或目标供方证明。",
-      "limits": "优先请用户据供应商项目清单人工对应，并核验原始采购/作者数据声明；保留供方待识别。",
-      "confidence": "primary_methods_verified_supplier_separately_classified",
+      "limits": "2026-10-13用户明确确认供方为先锋数聚；原文未具名的状态保留，旧候选判断已被本次确认更新。",
+      "confidence": "user_confirmed_pioneer",
       "review_date": "2026-10-10",
       "catalog_id": "L41",
       "doi": "10.16361/j.upf.202404008",
       "institution": "中国城市规划设计研究院上海分院；清华大学建筑学院；同济大学建筑与城市规划学院；香港置地上海公司",
-      "supplier": "未披露的LBS全出行链供方",
+      "supplier": "先锋数聚 / Pioneer Data（用户确认）",
       "group_id": "CAUPD-SUN-GE",
       "published": "2024",
       "verification": "primary_methods_read",
@@ -872,7 +876,8 @@
         "尹泺枫",
         "王行健",
         "孙晓敏"
-      ]
+      ],
+      "research_scope": "pioneer_user_confirmed"
     },
     {
       "id": "CN-S48",
@@ -937,13 +942,13 @@
       "url": "https://dlgt.cbpt.cnki.net/portal/journal/portal/client/paper/8f51054e43abb471486edff8ac616cb5",
       "type": "原刊题录/摘要或方法索引待全文",
       "finding": "摘要说明从长沙手机定位数据识别居住地、医院AOI及就医出行链；没有SDK、GPS、WiFi或供应商名称。",
-      "limits": "优先校VPN/CNKI获取正文方法段；追踪同团队2025长沙旅游流论文。",
-      "confidence": "bibliographic_or_abstract_verified_fulltext_pending",
+      "limits": "2026-10-13用户明确确认供方为先锋数聚；原文未具名的状态保留，旧候选判断已被本次确认更新。",
+      "confidence": "user_confirmed_pioneer",
       "review_date": "2026-10-10",
       "catalog_id": "L44",
       "doi": "",
       "institution": "中南大学交通运输工程学院；轨道交通大数据湖南省重点实验室；长沙市勘测设计研究院；城市交通大数据与仿真技术应用湖南省工程研究中心",
-      "supplier": "手机定位数据供方未披露（当前仅核摘要）",
+      "supplier": "先锋数聚 / Pioneer Data（用户确认）",
       "group_id": "CSU-WANG-PU",
       "published": "2026",
       "verification": "primary_metadata_or_abstract_read",
@@ -957,7 +962,8 @@
         "刘奇",
         "刘令",
         "王璞"
-      ]
+      ],
+      "research_scope": "pioneer_user_confirmed"
     },
     {
       "id": "CN-S51",
@@ -1382,13 +1388,13 @@
       "type": "全文方法核验",
       "type_code": "round8_paper_source_audit",
       "finding": "§3.2明确未具名手机通讯服务运营商通过SDK采集长沙2023年5月手机位置记录；707万用户约78亿条，平均43分钟、10–50米误差，字段脱敏ID/时间戳/经纬度。筛选1263277人、2656089858条，识别232206名外地游客。百度地图开放平台仅供景区POI与AOI。",
-      "limits": "与L44共享中南大学王璞团队和基金71871224；共同基金不构成相同供方证明。百度仅景区地理底图，不归为手机轨迹供方。",
-      "confidence": "methods_read_supplier_unresolved",
+      "limits": "2026-10-13用户明确确认供方为先锋数聚；原文未具名的状态保留，旧候选判断已被本次确认更新。",
+      "confidence": "user_confirmed_pioneer",
       "review_date": "2026-10-11",
       "catalog_id": "L57",
       "doi": "10.12082/dqxxkx.2025.240586",
       "institution": "中南大学交通运输工程学院；轨道交通大数据湖南省重点实验室",
-      "supplier": "未具名手机通讯服务运营商（正文明确SDK采集）；百度提供POI/AOI",
+      "supplier": "先锋数聚 / Pioneer Data（用户确认）",
       "group_id": "CSU-WANG-PU",
       "published": "2025",
       "verification": "publisher_pdf_identity_and_methods_verified",
@@ -1399,7 +1405,7 @@
         "李胜楠",
         "王璞"
       ],
-      "research_scope": "pioneer_candidate",
+      "research_scope": "pioneer_user_confirmed",
       "pdf_downloaded": true,
       "supplementary": {
         "status": "no_separate_si_link_identified",
@@ -1467,13 +1473,13 @@
       "url": "https://www.sciencedirect.com/science/article/abs/pii/S0966692325003874",
       "type": "期刊论文数据来源声明",
       "institution": "中南大学",
-      "supplier": "正文已读片段未具名",
+      "supplier": "先锋数聚 / Pioneer Data（用户确认）",
       "finding": "§3.1.2明确手机SDK，经同意安装；长沙2023年5月，含劳动节5月1–3日。居民424万人44.6亿条，访客707万人78.5亿条；约30–50米、平均43分钟；12.9%记录通过手机WiFi接收器连接POI路由器附加POI标签。百度AOI是独立辅助源。 正文 §3.1.2 明确 SDK 及授权；主代理已在出版社 HTML 核实 WiFi 记录占 12.9%。本地官方 SI §2.1 确认 30–50 m 定位误差、平均每 43 分钟记录一次；§2.3 明确居民和访客均通过设备上同一 SDK 服务采集。正文与 SI 已读相关段均未指名供应商，不归先锋/摸星/及刻。",
-      "confidence": "undisclosed_or_pending",
-      "limits": "供应商未具名或方法待核，保留候选；不由同团队、相近字段认定同一供方。",
+      "confidence": "user_confirmed_pioneer",
+      "limits": "2026-10-13用户明确确认供方为先锋数聚；原文未具名的状态保留，旧候选判断已被本次确认更新。",
       "doi": "10.1016/j.jtrangeo.2025.104496",
       "group_id": "CSU-WANG-PU",
-      "research_scope": "pioneer_candidate",
+      "research_scope": "pioneer_user_confirmed",
       "catalog_id": "L59",
       "round10_record": true,
       "pdf_downloaded": false,
@@ -5876,13 +5882,14 @@
       "institution": "中国城市规划设计研究院上海分院",
       "institution_id": "caupd-shanghai",
       "team": "孙娟 / 葛春晖团队",
-      "summary": "高铁枢纽LBS全过程出行链与客群画像研究；供方和定位传感器未披露，精度描述不能代替SDK证据。",
+      "summary": "用户已确认本团队研究使用先锋数聚数据；研究、采购与配套技术材料分别列示。",
       "collaborators": "清华大学、同济大学博士培养及香港置地合作；不能将培养学校视为采购主体",
       "source_ids": [
-        "CN-S47"
+        "CN-S47",
+        "CN-S31"
       ],
       "supplier_names": [
-        "未披露的LBS全出行链供方"
+        "先锋数聚 / Pioneer Data"
       ],
       "outputs": [
         {
@@ -5893,9 +5900,9 @@
           "catalog_id": "L41",
           "doi": "10.16361/j.upf.202404008",
           "url": "https://upforum.wupen.org/Assets/userfiles/files/issues/2024/2024-03/2024-04/%E5%AD%99%E5%A8%9F%20%E8%91%9B%E6%98%A5%E6%99%96%20%E7%AD%89.pdf",
-          "provider": "未披露的LBS全出行链供方",
+          "provider": "先锋数聚 / Pioneer Data",
           "data_statement": "方法采用长三角LBS全过程出行链；平台含约7200万人次客群信息与性别、年龄、收入、教育、场景标签；作者称可作米级、分钟间隔跟踪。精度和标签相似性不构成SDK或目标供方证明。",
-          "bibliographic_note": "优先请用户据供应商项目清单人工对应，并核验原始采购/作者数据声明；保留供方待识别。",
+          "bibliographic_note": "供应商归属经用户明确确认；原文数据声明保留。",
           "authors": [
             "孙娟",
             "葛春晖",
@@ -5906,18 +5913,21 @@
           ],
           "source_ids": [
             "CN-S47"
-          ]
+          ],
+          "research_scope": "pioneer_user_confirmed"
         },
         {
           "title": "“站”与“城”融合发展的规划思考：影响因素、实践误区和类型差异",
           "year": 2025,
           "journal": "上海城市规划",
           "doi": "10.11982/j.supr.20250106",
-          "provider": "未具名；待正文核实",
+          "provider": "先锋数聚 / Pioneer Data",
           "type": "期刊论文",
           "catalog_id": "L86",
           "url": "https://www.shplanning.com.cn/archive/detail/id/1435.html",
-          "data_statement": "以长三角50个枢纽为研究对象，按轨迹、停留及目的地划分客群；另将LBS分析与现场访谈结合追踪虹桥客群演变。"
+          "data_statement": "以长三角50个枢纽为研究对象，按轨迹、停留及目的地划分客群；另将LBS分析与现场访谈结合追踪虹桥客群演变。",
+          "research_scope": "pioneer_user_confirmed",
+          "bibliographic_note": "供应商归属经用户明确确认；原文数据声明保留。"
         }
       ],
       "studies": [
@@ -5934,9 +5944,9 @@
               "catalog_id": "L41",
               "doi": "10.16361/j.upf.202404008",
               "url": "https://upforum.wupen.org/Assets/userfiles/files/issues/2024/2024-03/2024-04/%E5%AD%99%E5%A8%9F%20%E8%91%9B%E6%98%A5%E6%99%96%20%E7%AD%89.pdf",
-              "provider": "未披露的LBS全出行链供方",
+              "provider": "先锋数聚 / Pioneer Data",
               "data_statement": "方法采用长三角LBS全过程出行链；平台含约7200万人次客群信息与性别、年龄、收入、教育、场景标签；作者称可作米级、分钟间隔跟踪。精度和标签相似性不构成SDK或目标供方证明。",
-              "bibliographic_note": "优先请用户据供应商项目清单人工对应，并核验原始采购/作者数据声明；保留供方待识别。",
+              "bibliographic_note": "供应商归属经用户明确确认；原文数据声明保留。",
               "authors": [
                 "孙娟",
                 "葛春晖",
@@ -5947,38 +5957,53 @@
               ],
               "source_ids": [
                 "CN-S47"
-              ]
+              ],
+              "research_scope": "pioneer_user_confirmed"
             }
           ],
           "source_ids": [
             "CN-S47"
           ],
           "evidence_section": "PDF第1页作者/DOI/基金；第2页§1.3；第3页§1.4.2",
-          "provider_attribution_status": "undisclosed",
+          "provider_attribution_status": "user_confirmed_pioneer",
           "institution_mapping": "孙娟：清华建筑学院工程博士、中规院上海分院院长；葛春晖：同济工程博士、中规院上海分院副总规划师；郭祖源、尹泺枫、王行健：上海分院规划一所。",
-          "research_scope": "pioneer_candidate"
+          "research_scope": "pioneer_user_confirmed",
+          "scope_reason": "用户明确确认供方为先锋数聚。"
         },
         {
           "id": "CAUPD-SUN-GE-R16-L86",
           "title": "铁路枢纽站城融合与客群分型",
-          "summary": "与L41共享5名作者、50个长三角枢纽范围和客群分型方法，并引用L41。以上支持研究延续性，不足以证明同一供应商、同一批原始数据。",
+          "summary": "以长三角50个枢纽为研究对象，按轨迹、停留及目的地划分客群；另将LBS分析与现场访谈结合追踪虹桥客群演变。",
           "outputs": [
             {
               "title": "“站”与“城”融合发展的规划思考：影响因素、实践误区和类型差异",
               "year": 2025,
               "journal": "上海城市规划",
               "doi": "10.11982/j.supr.20250106",
-              "provider": "未具名；待正文核实",
+              "provider": "先锋数聚 / Pioneer Data",
               "type": "期刊论文",
               "catalog_id": "L86",
               "url": "https://www.shplanning.com.cn/archive/detail/id/1435.html",
-              "data_statement": "以长三角50个枢纽为研究对象，按轨迹、停留及目的地划分客群；另将LBS分析与现场访谈结合追踪虹桥客群演变。"
+              "data_statement": "以长三角50个枢纽为研究对象，按轨迹、停留及目的地划分客群；另将LBS分析与现场访谈结合追踪虹桥客群演变。",
+              "research_scope": "pioneer_user_confirmed",
+              "bibliographic_note": "供应商归属经用户明确确认；原文数据声明保留。"
             }
           ],
+          "source_ids": [],
+          "research_scope": "pioneer_user_confirmed",
+          "provider_attribution_status": "user_confirmed_pioneer",
+          "scope_reason": "用户明确确认供方为先锋数聚。"
+        }
+      ],
+      "procurements": [
+        {
+          "id": "CAUPD-SUN-P1",
+          "title": "先锋数聚位置数据采购关系",
+          "status": "已确认（用户提供信息）",
+          "summary": "用户确认中规院上海分院采购先锋数聚数据；未提供可公开核对的合同金额和采购日期，不将微信公众号帖子当作招标公告。",
           "source_ids": []
         }
       ],
-      "procurements": [],
       "grants": [
         {
           "id": "CAUPD-SUN-G1-PUBLICATION",
@@ -5999,7 +6024,11 @@
           ]
         }
       ],
-      "organization": "institution_team_content"
+      "organization": "institution_team_content",
+      "research_scope": "pioneer_user_confirmed",
+      "related_source_ids": [
+        "CN-S31"
+      ]
     },
     {
       "id": "CSU-WANG-PU",
@@ -6007,7 +6036,7 @@
       "institution": "中南大学",
       "institution_id": "csu",
       "team": "王璞 / 庞腾达合作团队",
-      "summary": "王璞团队：农村就医、长沙旅游网络与游客流动；明确SDK的研究仍保留未具名供应商状态。",
+      "summary": "用户已确认本团队研究使用先锋数聚数据；研究、采购与配套技术材料分别列示。",
       "collaborators": "长沙市勘测设计研究院等；页面未呈现完整逐作者上标，不强配作者单位",
       "source_ids": [
         "CN-S50",
@@ -6015,22 +6044,20 @@
         "CN-R10-L59"
       ],
       "supplier_names": [
-        "手机定位数据供方未披露（当前仅核摘要）",
-        "未具名SDK采集供方（L57）",
-        "正文已读片段未具名"
+        "先锋数聚 / Pioneer Data"
       ],
       "outputs": [
         {
-          "type": "候选题录（原文或正式出版待核）",
+          "type": "期刊论文",
           "title": "基于手机定位数据的乡村居民进城就医行为及可达性研究",
           "year": 2026,
           "journal": "地理与地理信息科学",
           "catalog_id": "L44",
           "doi": "",
           "url": "https://dlgt.cbpt.cnki.net/portal/journal/portal/client/paper/8f51054e43abb471486edff8ac616cb5",
-          "provider": "手机定位数据供方未披露（当前仅核摘要）",
-          "data_statement": "摘要说明从长沙手机定位数据识别居住地、医院AOI及就医出行链；没有SDK、GPS、WiFi或供应商名称。",
-          "bibliographic_note": "优先校VPN/CNKI获取正文方法段；追踪同团队2025长沙旅游流论文。",
+          "provider": "先锋数聚 / Pioneer Data",
+          "data_statement": "用户Zotero简记摘录原文：2023年5月长沙约424万匿名用户、44.58亿条位置记录，含脱敏ID、经纬度和时间。按24个小时窗口筛选每天至少12窗口有记录者，约70万用户，平均每21分钟记录一次。原文供应商名称尚未找到。",
+          "bibliographic_note": "供应商归属经用户明确确认；原文数据声明保留。",
           "authors": [
             "庞腾达",
             "李胜楠",
@@ -6042,7 +6069,8 @@
           ],
           "source_ids": [
             "CN-S50"
-          ]
+          ],
+          "research_scope": "pioneer_user_confirmed"
         },
         {
           "type": "期刊论文",
@@ -6052,9 +6080,9 @@
           "catalog_id": "L57",
           "doi": "10.12082/dqxxkx.2025.240586",
           "url": "https://www.dqxxkx.cn/CN/10.12082/dqxxkx.2025.240586",
-          "provider": "未具名手机通讯服务运营商（正文明确SDK采集）；百度提供POI/AOI",
+          "provider": "先锋数聚 / Pioneer Data",
           "data_statement": "§3.2明确未具名手机通讯服务运营商通过SDK采集长沙2023年5月手机位置记录；707万用户约78亿条，平均43分钟、10–50米误差，字段脱敏ID/时间戳/经纬度。筛选1263277人、2656089858条，识别232206名外地游客。百度地图开放平台仅供景区POI与AOI。",
-          "bibliographic_note": "与L44共享中南大学王璞团队和基金71871224；共同基金不构成相同供方证明。百度仅景区地理底图，不归为手机轨迹供方。",
+          "bibliographic_note": "供应商归属经用户明确确认；原文数据声明保留。",
           "authors": [
             "王贶",
             "柯日宏",
@@ -6064,7 +6092,7 @@
           "source_ids": [
             "CN-S63"
           ],
-          "research_scope": "pioneer_candidate",
+          "research_scope": "pioneer_user_confirmed",
           "fulltext_read": true,
           "pdf_downloaded": true
         },
@@ -6076,13 +6104,13 @@
           "journal": "Journal of Transport Geography",
           "doi": "10.1016/j.jtrangeo.2025.104496",
           "url": "https://www.sciencedirect.com/science/article/abs/pii/S0966692325003874",
-          "provider": "正文已读片段未具名",
-          "data_statement": "§3.1.2明确手机SDK，经同意安装；长沙2023年5月，含劳动节5月1–3日。居民424万人44.6亿条，访客707万人78.5亿条；约30–50米、平均43分钟；12.9%记录通过手机WiFi接收器连接POI路由器附加POI标签。百度AOI是独立辅助源。 正文 §3.1.2 明确 SDK 及授权；主代理已在出版社 HTML 核实 WiFi 记录占 12.9%。本地官方 SI §2.1 确认 30–50 m 定位误差、平均每 43 分钟记录一次；§2.3 明确居民和访客均通过设备上同一 SDK 服务采集。正文与 SI 已读相关段均未指名供应商，不归先锋/摸星/及刻。",
+          "provider": "先锋数聚 / Pioneer Data",
+          "data_statement": "§3.1.2明确手机SDK，经同意安装；长沙2023年5月，含劳动节5月1–3日。居民424万人44.6亿条，访客707万人78.5亿条；约30–50米、平均43分钟；12.9%记录通过手机WiFi接收器连接POI路由器附加POI标签。百度AOI是独立辅助源。 正文 §3.1.2 明确 SDK 及授权；主代理已在出版社 HTML 核实 WiFi 记录占 12.9%。本地官方 SI §2.1 确认 30–50 m 定位误差、平均每 43 分钟记录一次；§2.3 明确居民和访客均通过设备上同一 SDK 服务采集。正文与 SI 已读相关段均未指名供应商，原文未具名；用户已归类泛先锋，供应商归属已由用户确认为先锋数聚。",
           "source_ids": [
             "CN-R10-L59"
           ],
-          "bibliographic_note": "官方补充材料已下载并解析；官方补充材料 DOCX 已复制并解析，§2.1 与 §2.3 数据来源相关段核验；供应商仍未具名",
-          "research_scope": "pioneer_candidate",
+          "bibliographic_note": "供应商归属经用户明确确认；原文数据声明保留。",
+          "research_scope": "pioneer_user_confirmed",
           "pdf_downloaded": false,
           "zotero_attachment_verified": false
         },
@@ -6091,41 +6119,45 @@
           "year": 2026,
           "journal": "Travel Behaviour and Society",
           "doi": "10.1016/j.tbs.2026.101363",
-          "provider": "未具名；待正文核实",
+          "provider": "先锋数聚 / Pioneer Data",
           "type": "期刊论文",
           "catalog_id": "L84",
           "url": "https://www.sciencedirect.com/science/article/pii/S2214367X26001328",
-          "data_statement": "出版社摘要明确长沙2023和2024年高精度智能手机定位数据，用于识别居住地与工作地迁移。"
+          "data_statement": "出版社摘要明确长沙2023和2024年高精度智能手机定位数据，用于识别居住地与工作地迁移。",
+          "research_scope": "pioneer_user_confirmed",
+          "bibliographic_note": "供应商归属经用户明确确认；原文数据声明保留。"
         },
         {
           "title": "Measuring carbon mitigation potential from a network perspective: Evidence from Changsha",
           "year": 2026,
           "journal": "Transportation Research Part D: Transport and Environment",
           "doi": "10.1016/j.trd.2026.105539",
-          "provider": "未具名；待正文核实",
+          "provider": "先锋数聚 / Pioneer Data",
           "type": "期刊论文",
           "catalog_id": "L85",
           "url": "https://www.sciencedirect.com/science/article/pii/S1361920926003329",
-          "data_statement": "出版社摘要明确在长沙融合手机数据与车牌识别数据；手机数据供应商和采集方式未在可读摘要中披露。"
+          "data_statement": "出版社摘要明确在长沙融合手机数据与车牌识别数据；手机数据供应商和采集方式未在可读摘要中披露。",
+          "research_scope": "pioneer_user_confirmed",
+          "bibliographic_note": "供应商归属经用户明确确认；原文数据声明保留。"
         }
       ],
       "studies": [
         {
           "id": "CSU-WANG-R1",
           "title": "乡村进城就医链与可达性",
-          "summary": "摘要说明从长沙手机定位数据识别居住地、医院AOI及就医出行链；没有SDK、GPS、WiFi或供应商名称。",
+          "summary": "用户Zotero简记摘录原文：2023年5月长沙约424万匿名用户、44.58亿条位置记录，含脱敏ID、经纬度和时间。按24个小时窗口筛选每天至少12窗口有记录者，约70万用户，平均每21分钟记录一次。原文供应商名称尚未找到。",
           "outputs": [
             {
-              "type": "候选题录（原文或正式出版待核）",
+              "type": "期刊论文",
               "title": "基于手机定位数据的乡村居民进城就医行为及可达性研究",
               "year": 2026,
               "journal": "地理与地理信息科学",
               "catalog_id": "L44",
               "doi": "",
               "url": "https://dlgt.cbpt.cnki.net/portal/journal/portal/client/paper/8f51054e43abb471486edff8ac616cb5",
-              "provider": "手机定位数据供方未披露（当前仅核摘要）",
-              "data_statement": "摘要说明从长沙手机定位数据识别居住地、医院AOI及就医出行链；没有SDK、GPS、WiFi或供应商名称。",
-              "bibliographic_note": "优先校VPN/CNKI获取正文方法段；追踪同团队2025长沙旅游流论文。",
+              "provider": "先锋数聚 / Pioneer Data",
+              "data_statement": "用户Zotero简记摘录原文：2023年5月长沙约424万匿名用户、44.58亿条位置记录，含脱敏ID、经纬度和时间。按24个小时窗口筛选每天至少12窗口有记录者，约70万用户，平均每21分钟记录一次。原文供应商名称尚未找到。",
+              "bibliographic_note": "供应商归属经用户明确确认；原文数据声明保留。",
               "authors": [
                 "庞腾达",
                 "李胜楠",
@@ -6137,16 +6169,18 @@
               ],
               "source_ids": [
                 "CN-S50"
-              ]
+              ],
+              "research_scope": "pioneer_user_confirmed"
             }
           ],
           "source_ids": [
             "CN-S50"
           ],
           "evidence_section": "原刊2026-05-25在线页面：摘要、作者机构、基金",
-          "provider_attribution_status": "pending_fulltext",
+          "provider_attribution_status": "user_confirmed_pioneer",
           "institution_mapping": "原刊列四个机构，页面未呈现逐作者上标，不能逐人强配；通讯信息指向王璞中南大学。",
-          "research_scope": "pioneer_candidate"
+          "research_scope": "pioneer_user_confirmed",
+          "scope_reason": "用户明确确认供方为先锋数聚。"
         },
         {
           "id": "CSU-WANG-R2",
@@ -6161,9 +6195,9 @@
               "catalog_id": "L57",
               "doi": "10.12082/dqxxkx.2025.240586",
               "url": "https://www.dqxxkx.cn/CN/10.12082/dqxxkx.2025.240586",
-              "provider": "未具名手机通讯服务运营商（正文明确SDK采集）；百度提供POI/AOI",
+              "provider": "先锋数聚 / Pioneer Data",
               "data_statement": "§3.2明确未具名手机通讯服务运营商通过SDK采集长沙2023年5月手机位置记录；707万用户约78亿条，平均43分钟、10–50米误差，字段脱敏ID/时间戳/经纬度。筛选1263277人、2656089858条，识别232206名外地游客。百度地图开放平台仅供景区POI与AOI。",
-              "bibliographic_note": "与L44共享中南大学王璞团队和基金71871224；共同基金不构成相同供方证明。百度仅景区地理底图，不归为手机轨迹供方。",
+              "bibliographic_note": "供应商归属经用户明确确认；原文数据声明保留。",
               "authors": [
                 "王贶",
                 "柯日宏",
@@ -6173,7 +6207,7 @@
               "source_ids": [
                 "CN-S63"
               ],
-              "research_scope": "pioneer_candidate",
+              "research_scope": "pioneer_user_confirmed",
               "fulltext_read": true,
               "pdf_downloaded": true
             }
@@ -6182,16 +6216,16 @@
             "CN-S63"
           ],
           "evidence_section": "3.2 数据来源与预处理；PDF第5页，印刷971页",
-          "provider_attribution_status": "sdk_explicit_supplier_undisclosed",
-          "research_scope": "pioneer_candidate",
-          "scope_reason": "SDK采集与匿名高精度坐标明确，服务商未具名；不能把运营商措辞自动当三大通信运营商来源。",
+          "provider_attribution_status": "user_confirmed_pioneer",
+          "research_scope": "pioneer_user_confirmed",
+          "scope_reason": "用户明确确认供方为先锋数聚。",
           "fulltext_read": true,
           "pdf_downloaded": true
         },
         {
           "id": "CSU-WANG-PU-R10-L59",
           "title": "城市游客识别与旅游流动模式",
-          "summary": "§3.1.2明确手机SDK，经同意安装；长沙2023年5月，含劳动节5月1–3日。居民424万人44.6亿条，访客707万人78.5亿条；约30–50米、平均43分钟；12.9%记录通过手机WiFi接收器连接POI路由器附加POI标签。百度AOI是独立辅助源。 正文 §3.1.2 明确 SDK 及授权；主代理已在出版社 HTML 核实 WiFi 记录占 12.9%。本地官方 SI §2.1 确认 30–50 m 定位误差、平均每 43 分钟记录一次；§2.3 明确居民和访客均通过设备上同一 SDK 服务采集。正文与 SI 已读相关段均未指名供应商，不归先锋/摸星/及刻。",
+          "summary": "§3.1.2明确手机SDK，经同意安装；长沙2023年5月，含劳动节5月1–3日。居民424万人44.6亿条，访客707万人78.5亿条；约30–50米、平均43分钟；12.9%记录通过手机WiFi接收器连接POI路由器附加POI标签。百度AOI是独立辅助源。 正文 §3.1.2 明确 SDK 及授权；主代理已在出版社 HTML 核实 WiFi 记录占 12.9%。本地官方 SI §2.1 确认 30–50 m 定位误差、平均每 43 分钟记录一次；§2.3 明确居民和访客均通过设备上同一 SDK 服务采集。正文与 SI 已读相关段均未指名供应商，原文未具名；用户已归类泛先锋，供应商归属已由用户确认为先锋数聚。",
           "outputs": [
             {
               "type": "期刊论文",
@@ -6201,13 +6235,13 @@
               "journal": "Journal of Transport Geography",
               "doi": "10.1016/j.jtrangeo.2025.104496",
               "url": "https://www.sciencedirect.com/science/article/abs/pii/S0966692325003874",
-              "provider": "正文已读片段未具名",
-              "data_statement": "§3.1.2明确手机SDK，经同意安装；长沙2023年5月，含劳动节5月1–3日。居民424万人44.6亿条，访客707万人78.5亿条；约30–50米、平均43分钟；12.9%记录通过手机WiFi接收器连接POI路由器附加POI标签。百度AOI是独立辅助源。 正文 §3.1.2 明确 SDK 及授权；主代理已在出版社 HTML 核实 WiFi 记录占 12.9%。本地官方 SI §2.1 确认 30–50 m 定位误差、平均每 43 分钟记录一次；§2.3 明确居民和访客均通过设备上同一 SDK 服务采集。正文与 SI 已读相关段均未指名供应商，不归先锋/摸星/及刻。",
+              "provider": "先锋数聚 / Pioneer Data",
+              "data_statement": "§3.1.2明确手机SDK，经同意安装；长沙2023年5月，含劳动节5月1–3日。居民424万人44.6亿条，访客707万人78.5亿条；约30–50米、平均43分钟；12.9%记录通过手机WiFi接收器连接POI路由器附加POI标签。百度AOI是独立辅助源。 正文 §3.1.2 明确 SDK 及授权；主代理已在出版社 HTML 核实 WiFi 记录占 12.9%。本地官方 SI §2.1 确认 30–50 m 定位误差、平均每 43 分钟记录一次；§2.3 明确居民和访客均通过设备上同一 SDK 服务采集。正文与 SI 已读相关段均未指名供应商，原文未具名；用户已归类泛先锋，供应商归属已由用户确认为先锋数聚。",
               "source_ids": [
                 "CN-R10-L59"
               ],
-              "bibliographic_note": "官方补充材料已下载并解析；官方补充材料 DOCX 已复制并解析，§2.1 与 §2.3 数据来源相关段核验；供应商仍未具名",
-              "research_scope": "pioneer_candidate",
+              "bibliographic_note": "供应商归属经用户明确确认；原文数据声明保留。",
+              "research_scope": "pioneer_user_confirmed",
               "pdf_downloaded": false,
               "zotero_attachment_verified": false
             }
@@ -6215,46 +6249,58 @@
           "source_ids": [
             "CN-R10-L59"
           ],
-          "research_scope": "pioneer_candidate",
-          "round10_record": true
+          "research_scope": "pioneer_user_confirmed",
+          "round10_record": true,
+          "provider_attribution_status": "user_confirmed_pioneer",
+          "scope_reason": "用户明确确认供方为先锋数聚。"
         },
         {
           "id": "CSU-WANG-PU-R16-L84",
           "title": "职住迁移与个人活动空间、出行频次和停留行为",
-          "summary": "同一团队、同一城市且2023年覆盖时间重叠，属于值得核验的关联线索；不能推断2024数据或品牌必然相同。",
+          "summary": "明确为手机设备 SDK 采集，并称经过用户明确许可；未在此段写出公司名称。 用户已将该文及中南大学王璞团队对应五篇确认纳入先锋数据；本轮全文与补充核验保留原文未具名这一事实。",
           "outputs": [
             {
               "title": "How job-housing relocations reshape mobility? Evidence from smartphone positioning data",
               "year": 2026,
               "journal": "Travel Behaviour and Society",
               "doi": "10.1016/j.tbs.2026.101363",
-              "provider": "未具名；待正文核实",
+              "provider": "先锋数聚 / Pioneer Data",
               "type": "期刊论文",
               "catalog_id": "L84",
               "url": "https://www.sciencedirect.com/science/article/pii/S2214367X26001328",
-              "data_statement": "出版社摘要明确长沙2023和2024年高精度智能手机定位数据，用于识别居住地与工作地迁移。"
+              "data_statement": "“The smartphone positioning data were collected through Software Development Kit (SDK) services installed on smartphone devices with users’ explicit consent.” — 正文 PDF 第 3 页，§3.1.2 Data source and pre-processing。明确为手机设备 SDK 采集，并称经过用户明确许可；未在此段写出公司名称。\n“The dataset consists of location pings with latitude-longitude coordinates and corresponding timestamps or time intervals, with an approximate positioning accuracy of 30–50 m. The observation window spans May 1 to June 30 in both 2023 and 2024.” — 正文 PDF 第 3 页，§3.1.2。记录支持时间戳或时间区间；报告约 30–50 m 精度，长沙 2023 和 2024 年各 5–6 月。供方另提供性别、年龄、汽车拥有情况、家庭是否有儿童等匿名类别画像，用于基线协变量。\n“The raw smartphone positioning data recorded 4.3 million and 4.5 million smartphone users living in Changsha for the years 2023 and 2024, respectively.” — DOCX 补充 Appendix A (2) Population coverage and representativeness of datasets；不是 PDF，未虚构页码。原始覆盖分别约 430 万、450 万用户；与最后筛选的通勤样本不同。补充 Appendix A (1) 明确最终样本偏向 20–60 岁、记录充分且职住稳定的用户。\n“A plausible explanation is the increased deployment of mobile and WiFi sensing devices in 2024, which enabled the collection of more spatiotemporal records from smartphone users.” — DOCX 补充 Appendix B. Comparability of the observations across the two years，Fig. B1 前说明段。作者将 2024 年记录更丰富的一种可能解释归于 mobile 和 WiFi sensing devices 增加；这是作者解释，不宜转述成已验证供应商设备部署事实。",
+              "research_scope": "pioneer_user_confirmed",
+              "bibliographic_note": "供应商归属经用户明确确认；原文数据声明保留。"
             }
           ],
-          "source_ids": []
+          "source_ids": [],
+          "research_scope": "pioneer_user_confirmed",
+          "provider_attribution_status": "user_confirmed_pioneer",
+          "scope_reason": "用户明确确认供方为先锋数聚。"
         },
         {
           "id": "CSU-WANG-PU-R16-L85",
           "title": "社区出行减碳潜力、绿色出行需求与碳排放网络",
-          "summary": "多名作者与既有城市游客论文重合，且同在长沙，形成作者/研究地关联；定位方式未明，不能以手机数据措辞直接确认为SDK。",
+          "summary": "明确 SDK 及许可采集；长沙 2023 年 5 月约 424 万用户、44.6 亿记录，定位误差约 30–50 m，平均间隔 43 min。 用户已将该文及中南大学王璞团队对应五篇确认纳入先锋数据；本轮全文核验不改变原文未具名的标记。",
           "outputs": [
             {
               "title": "Measuring carbon mitigation potential from a network perspective: Evidence from Changsha",
               "year": 2026,
               "journal": "Transportation Research Part D: Transport and Environment",
               "doi": "10.1016/j.trd.2026.105539",
-              "provider": "未具名；待正文核实",
+              "provider": "先锋数聚 / Pioneer Data",
               "type": "期刊论文",
               "catalog_id": "L85",
               "url": "https://www.sciencedirect.com/science/article/pii/S1361920926003329",
-              "data_statement": "出版社摘要明确在长沙融合手机数据与车牌识别数据；手机数据供应商和采集方式未在可读摘要中披露。"
+              "data_statement": "“The mobile phone data employed in this study were collected through Software Development Kit (SDK) services installed on mobile devices with users’ explicit consent.” — 正文 PDF 第 4 页，§3.2 Data sources。明确 SDK 及许可采集；长沙 2023 年 5 月约 424 万用户、44.6 亿记录，定位误差约 30–50 m，平均间隔 43 min。\n“However, the mobile phone positioning records are generated through an event-based mechanism, meaning that the sampling frequency is not fixed but varies with user activity, mobility, and device usage.” — 正文 PDF 第 4 页，§3.2 Data sources。原文明确事件触发、采样不固定；不能把平均 43 min 写成固定采样周期。该文将手机数据与车牌识别数据结合，后者不是手机位置数据来源。\n“In each record, the user ID, the timestamp, and the user coordinates are recorded.” — 正文 PDF 第 16 页，Appendix A. Descriptive statistics of mobile phone data。记录字段为用户标识、时间和坐标；补充说明间隔呈截断幂律，80.4%用户日均超过12条记录、深夜记录明显下降。\n“The authors do not have permission to share data.” — 正文 PDF 第 21 页，Data availability。不能公开分享数据；该句本身不提供供应商名称。",
+              "research_scope": "pioneer_user_confirmed",
+              "bibliographic_note": "供应商归属经用户明确确认；原文数据声明保留。"
             }
           ],
-          "source_ids": []
+          "source_ids": [],
+          "research_scope": "pioneer_user_confirmed",
+          "provider_attribution_status": "user_confirmed_pioneer",
+          "scope_reason": "用户明确确认供方为先锋数聚。"
         }
       ],
       "procurements": [],
@@ -6305,7 +6351,7 @@
         }
       ],
       "organization": "institution_team_content",
-      "research_scope": "pioneer_candidate"
+      "research_scope": "pioneer_user_confirmed"
     },
     {
       "id": "SZU-GUO-TU",

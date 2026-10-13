@@ -13,18 +13,6 @@
       "notes": "2026-10-13 已通过Chrome DOI跳转或学校WebVPN打开对应出版商论文页面。"
     },
     {
-      "id": "L47",
-      "title": "BAMTR: Behavior-Aware Mobile Phone Trajectory Recovery via Adaptive Historical Prior Reasoning",
-      "journal": "SSRN",
-      "year": 2026,
-      "doi": "10.2139/ssrn.7396621",
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7396621",
-      "vpn_url": "",
-      "pdf_downloaded": false,
-      "search_only": false,
-      "notes": ""
-    },
-    {
       "id": "L72",
       "title": "基于软件开发工具包(SDK)数据的人群空间活动分析",
       "journal": "城市交通",
@@ -32,30 +20,6 @@
       "doi": "10.13813/j.cn11-5141/u.2020.0403",
       "url": "https://www.chinautc.com/templates/H_magazine/articlecontent.aspx?contentid=97216&nodeid=4855&page=ContentPage",
       "vpn_url": "",
-      "pdf_downloaded": false,
-      "search_only": false,
-      "notes": ""
-    },
-    {
-      "id": "L84",
-      "title": "How job-housing relocations reshape mobility? Evidence from smartphone positioning data",
-      "journal": "Travel Behaviour and Society",
-      "year": 2026,
-      "doi": "10.1016/j.tbs.2026.101363",
-      "url": "https://www.sciencedirect.com/science/article/pii/S2214367X26001328",
-      "vpn_url": "https://www-sciencedirect-com-443.webvpn.scut.edu.cn/science/article/pii/S2214367X26001328",
-      "pdf_downloaded": false,
-      "search_only": false,
-      "notes": ""
-    },
-    {
-      "id": "L85",
-      "title": "Measuring carbon mitigation potential from a network perspective: Evidence from Changsha",
-      "journal": "Transportation Research Part D: Transport and Environment",
-      "year": 2026,
-      "doi": "10.1016/j.trd.2026.105539",
-      "url": "https://www.sciencedirect.com/science/article/pii/S1361920926003329",
-      "vpn_url": "https://www-sciencedirect-com-443.webvpn.scut.edu.cn/science/article/pii/S1361920926003329",
       "pdf_downloaded": false,
       "search_only": false,
       "notes": ""
@@ -373,36 +337,12 @@
       "notes": ""
     },
     {
-      "id": "L41",
-      "title": "基于客群精准识别的长三角高铁枢纽地区发展评估：门槛、分异和核心空间",
-      "journal": "城市规划学刊",
-      "year": 2024,
-      "doi": "10.16361/j.upf.202404008",
-      "url": "https://upforum.wupen.org/Assets/userfiles/files/issues/2024/2024-03/2024-04/%E5%AD%99%E5%A8%9F%20%E8%91%9B%E6%98%A5%E6%99%96%20%E7%AD%89.pdf",
-      "vpn_url": "",
-      "pdf_downloaded": true,
-      "search_only": false,
-      "notes": ""
-    },
-    {
       "id": "L46",
       "title": "先验与数据双引导的城市居民活动强度预测模型",
       "journal": "地球信息科学学报",
       "year": 2025,
       "doi": "10.12082/dqxxkx.2025.250198",
       "url": "https://giserwang.github.io/papers/DQXXKX-2025-10.pdf",
-      "vpn_url": "",
-      "pdf_downloaded": true,
-      "search_only": false,
-      "notes": ""
-    },
-    {
-      "id": "L86",
-      "title": "“站”与“城”融合发展的规划思考：影响因素、实践误区和类型差异",
-      "journal": "上海城市规划",
-      "year": 2025,
-      "doi": "10.11982/j.supr.20250106",
-      "url": "https://www.shplanning.com.cn/archive/detail/id/1435.html",
       "vpn_url": "",
       "pdf_downloaded": true,
       "search_only": false,

@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-11",
+  "as_of": "2026-10-13",
   "label": "泛先锋／先锋类数据",
   "rules": [
     "先锋数聚/Pioneer Data、摸星/Moxing、即刻或及刻/Jike为具名优先检索词。",
@@ -126,16 +126,28 @@
       "scope_reason": "保留检索候选；供方身份需独立核验。"
     },
     "L41": {
-      "research_scope": "pioneer_candidate",
-      "scope_reason": "保留检索候选；供方身份需独立核验。"
+      "research_scope": "pioneer_user_confirmed",
+      "scope_reason": "用户明确确认供应商为先锋数聚，纳入04；保留原文声明与确认依据。",
+      "provider": "先锋数聚 / Pioneer Data",
+      "source_confirmed": false,
+      "user_review_status": "pioneer_confirmed",
+      "provider_evidence_status": "user_confirmed",
+      "provider_confirmation_basis": "用户结合已知采购关系、微信公众号技术材料及两篇论文数据声明的一致性，明确确认中规院上海分院孙娟／葛春晖团队使用先锋数聚数据。供应商归属按用户确认记录；不将未具名的原文改写成公开具名声明。"
     },
     "L44": {
-      "research_scope": "pioneer_candidate",
-      "scope_reason": "保留检索候选；供方身份需独立核验。"
+      "research_scope": "pioneer_user_confirmed",
+      "scope_reason": "用户明确确认供应商为先锋数聚，纳入04；保留原文声明与确认依据。",
+      "provider": "先锋数聚 / Pioneer Data",
+      "source_confirmed": false,
+      "user_review_status": "pioneer_confirmed",
+      "provider_evidence_status": "user_confirmed",
+      "provider_confirmation_basis": "用户结合既有闭源信息、团队各论文数据声明的一致性，明确确认中南大学王璞／庞腾达团队使用先锋数聚数据。供应商归属按用户确认记录；不将未具名的原文改写成公开具名声明。"
     },
     "L47": {
-      "research_scope": "pioneer_candidate",
-      "scope_reason": "保留同团队数据来源追查候选；供方与技术逐篇独立核实。"
+      "research_scope": "excluded",
+      "excluded_from_active": true,
+      "scope_reason": "用户2026-10-13明确要求排除BAMTR，不再作为待核线索。",
+      "user_review_status": "excluded_by_user_workflow"
     },
     "L48": {
       "research_scope": "pioneer_named",
@@ -174,8 +186,49 @@
       "scope_reason": "商场室内WiFi定位或指纹定位，单列技术边界；Palmap为具名供方，未证商业多App SDK轨迹。"
     },
     "L57": {
-      "research_scope": "pioneer_candidate",
-      "scope_reason": "SDK采集与匿名高精度坐标明确，服务商未具名；不能把运营商措辞自动当三大通信运营商来源。"
+      "research_scope": "pioneer_user_confirmed",
+      "scope_reason": "用户明确确认供应商为先锋数聚，纳入04；保留原文声明与确认依据。",
+      "provider": "先锋数聚 / Pioneer Data",
+      "source_confirmed": false,
+      "user_review_status": "pioneer_confirmed",
+      "provider_evidence_status": "user_confirmed",
+      "provider_confirmation_basis": "用户结合既有闭源信息、团队各论文数据声明的一致性，明确确认中南大学王璞／庞腾达团队使用先锋数聚数据。供应商归属按用户确认记录；不将未具名的原文改写成公开具名声明。"
+    },
+    "L86": {
+      "research_scope": "pioneer_user_confirmed",
+      "scope_reason": "用户明确确认供应商为先锋数聚，纳入04；保留原文声明与确认依据。",
+      "provider": "先锋数聚 / Pioneer Data",
+      "source_confirmed": false,
+      "user_review_status": "pioneer_confirmed",
+      "provider_evidence_status": "user_confirmed",
+      "provider_confirmation_basis": "用户结合已知采购关系、微信公众号技术材料及两篇论文数据声明的一致性，明确确认中规院上海分院孙娟／葛春晖团队使用先锋数聚数据。供应商归属按用户确认记录；不将未具名的原文改写成公开具名声明。"
+    },
+    "L59": {
+      "research_scope": "pioneer_user_confirmed",
+      "scope_reason": "用户明确确认供应商为先锋数聚，纳入04；保留原文声明与确认依据。",
+      "provider": "先锋数聚 / Pioneer Data",
+      "source_confirmed": false,
+      "user_review_status": "pioneer_confirmed",
+      "provider_evidence_status": "user_confirmed",
+      "provider_confirmation_basis": "用户结合既有闭源信息、团队各论文数据声明的一致性，明确确认中南大学王璞／庞腾达团队使用先锋数聚数据。供应商归属按用户确认记录；不将未具名的原文改写成公开具名声明。"
+    },
+    "L84": {
+      "research_scope": "pioneer_user_confirmed",
+      "scope_reason": "用户明确确认供应商为先锋数聚，纳入04；保留原文声明与确认依据。",
+      "provider": "先锋数聚 / Pioneer Data",
+      "source_confirmed": false,
+      "user_review_status": "pioneer_confirmed",
+      "provider_evidence_status": "user_confirmed",
+      "provider_confirmation_basis": "用户结合既有闭源信息、团队各论文数据声明的一致性，明确确认中南大学王璞／庞腾达团队使用先锋数聚数据。供应商归属按用户确认记录；不将未具名的原文改写成公开具名声明。"
+    },
+    "L85": {
+      "research_scope": "pioneer_user_confirmed",
+      "scope_reason": "用户明确确认供应商为先锋数聚，纳入04；保留原文声明与确认依据。",
+      "provider": "先锋数聚 / Pioneer Data",
+      "source_confirmed": false,
+      "user_review_status": "pioneer_confirmed",
+      "provider_evidence_status": "user_confirmed",
+      "provider_confirmation_basis": "用户结合既有闭源信息、团队各论文数据声明的一致性，明确确认中南大学王璞／庞腾达团队使用先锋数聚数据。供应商归属按用户确认记录；不将未具名的原文改写成公开具名声明。"
     }
   }
 }

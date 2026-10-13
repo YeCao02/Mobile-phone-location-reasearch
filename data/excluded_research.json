@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-11",
+  "as_of": "2026-10-13",
   "records": [
     {
       "id": "L31",
@@ -64,6 +64,17 @@
       "excluded_from_active": true,
       "scope_reason": "用户指定排除；未形成清晰的数据供应商归属证据。保留书目，不将有效DOI误记成失效。",
       "scope_decision_basis": "user_instruction_2026-10-11"
+    },
+    {
+      "id": "L47",
+      "title": "BAMTR: Behavior-Aware Mobile Phone Trajectory Recovery via Adaptive Historical Prior Reasoning",
+      "journal": "SSRN",
+      "year": 2026,
+      "doi": "10.2139/ssrn.7396621",
+      "evidence_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7396621",
+      "research_scope": "excluded",
+      "excluded_from_active": true,
+      "scope_reason": "用户2026-10-13明确要求排除BAMTR，不再作为待核线索。"
     }
   ]
 }

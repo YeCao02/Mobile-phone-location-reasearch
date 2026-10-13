@@ -39,7 +39,7 @@ def public_data(source):
     for item in china.get('research_groups', []) + china.get('secondary_research_groups', []):
         if not active(item):
             continue
-        group = select(item, 'id title institution institution_id team collaborators summary source_ids supplier_names verbatim_statement statement_source statement_url research_scope')
+        group = select(item, 'id title institution institution_id team collaborators summary source_ids supplier_names verbatim_statement statement_source statement_url research_scope related_source_ids')
         output_keys = 'id type title year journal url catalog_id doi reported_doi provider data_statement verbatim_statement bibliographic_note source_ids'
         group['outputs'] = [select(r, output_keys) for r in item.get('outputs', [])]
         group['studies'] = []

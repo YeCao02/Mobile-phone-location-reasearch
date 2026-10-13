@@ -744,25 +744,6 @@
       "next_action": "当前关键段审读完成，按需补充附件细读"
     },
     {
-      "id": "L47",
-      "title": "BAMTR: Behavior-Aware Mobile Phone Trajectory Recovery via Adaptive Historical Prior Reasoning",
-      "doi": "10.2139/ssrn.7396621",
-      "journal": "SSRN",
-      "catalog_status": "pending",
-      "status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
-      ],
-      "needs_fulltext_review": true,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
-      "source_urls": [
-        "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7396621",
-        "https://doi.org/10.2139/ssrn.7396621"
-      ],
-      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
-    },
-    {
       "id": "L48",
       "title": "人口空间分布典型数据的时空差异",
       "doi": "10.13284/j.cnki.rddl.20250648",
@@ -1325,17 +1306,16 @@
       "journal": "Travel Behaviour and Society",
       "catalog_status": "reviewed",
       "status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "current_review_complete"
       ],
-      "needs_fulltext_review": true,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
         "https://www.sciencedirect.com/science/article/pii/S2214367X26001328",
         "https://doi.org/10.1016/j.tbs.2026.101363"
       ],
-      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "当前关键段审读完成，按需补充附件细读"
     },
     {
       "id": "L85",
@@ -1344,17 +1324,16 @@
       "journal": "Transportation Research Part D: Transport and Environment",
       "catalog_status": "reviewed",
       "status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "current_review_complete"
       ],
-      "needs_fulltext_review": true,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
         "https://www.sciencedirect.com/science/article/pii/S1361920926003329",
         "https://doi.org/10.1016/j.trd.2026.105539"
       ],
-      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "当前关键段审读完成，按需补充附件细读"
     },
     {
       "id": "L86",
@@ -2737,6 +2716,6 @@
       "next_action": "核对书目信息和数据来源，审读方法段"
     }
   ],
-  "count": 151,
+  "count": 150,
   "definitions": "pdf_acquisition=true仅表示尚未核实本地PDF；不意味着文章不可访问。"
 }

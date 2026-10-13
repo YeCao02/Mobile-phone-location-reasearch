@@ -1,0 +1,680 @@
+{
+  "as_of": "2026-10-13",
+  "recommended_title": "Nature系列、PNAS与Science：当前收录分布",
+  "definition": "精选刊物范围固定为刊名为Nature或以Nature空格开头的期刊、PNAS、Science；按论文去重，不是对全部期刊作影响力排名或分区判定。",
+  "scope": "仅当前浏览文献，不重新纳入已排除、边界省略及仅其他专题归档的条目。",
+  "note": "Scientific Data、Scientific Reports和Communications Physics属于Nature Portfolio，保留在总体期刊领域图中；本图仅采用上述明确刊名清单。",
+  "sources": [
+    {
+      "title": "Nature Portfolio: About our journals",
+      "url": "https://www.nature.com/nature-portfolio/about-journals"
+    },
+    {
+      "title": "Nature Portfolio: Scientific Series",
+      "url": "https://www.nature.com/nature-portfolio/about-journals/scientific-series"
+    },
+    {
+      "title": "Nature research journals",
+      "url": "https://www.nature.com/nature-portfolio/about-journals/research-journals"
+    }
+  ],
+  "venues": [
+    {
+      "journal": "Nature",
+      "group": "Nature系列（刊名含Nature）",
+      "paper_count": 2,
+      "paper_ids": [
+        "L03",
+        "L11"
+      ],
+      "confirmed_count": 2,
+      "pioneer_count": 0,
+      "analog_count": 2,
+      "pending_count": 0
+    },
+    {
+      "journal": "Nature Cities",
+      "group": "Nature系列（刊名含Nature）",
+      "paper_count": 2,
+      "paper_ids": [
+        "L24",
+        "P214FEF72"
+      ],
+      "confirmed_count": 1,
+      "pioneer_count": 0,
+      "analog_count": 1,
+      "pending_count": 1
+    },
+    {
+      "journal": "Nature Communications",
+      "group": "Nature系列（刊名含Nature）",
+      "paper_count": 1,
+      "paper_ids": [
+        "L06"
+      ],
+      "confirmed_count": 1,
+      "pioneer_count": 0,
+      "analog_count": 1,
+      "pending_count": 0
+    },
+    {
+      "journal": "Nature Computational Science",
+      "group": "Nature系列（刊名含Nature）",
+      "paper_count": 1,
+      "paper_ids": [
+        "P240AD96D"
+      ],
+      "confirmed_count": 1,
+      "pioneer_count": 0,
+      "analog_count": 1,
+      "pending_count": 0
+    },
+    {
+      "journal": "Nature Health",
+      "group": "Nature系列（刊名含Nature）",
+      "paper_count": 1,
+      "paper_ids": [
+        "L21"
+      ],
+      "confirmed_count": 1,
+      "pioneer_count": 1,
+      "analog_count": 0,
+      "pending_count": 0
+    },
+    {
+      "journal": "Nature Human Behaviour",
+      "group": "Nature系列（刊名含Nature）",
+      "paper_count": 4,
+      "paper_ids": [
+        "L13",
+        "P8C0DBF46",
+        "P61DCC998",
+        "P01D7334F"
+      ],
+      "confirmed_count": 3,
+      "pioneer_count": 0,
+      "analog_count": 3,
+      "pending_count": 1
+    },
+    {
+      "journal": "PNAS",
+      "group": "PNAS",
+      "paper_count": 5,
+      "paper_ids": [
+        "L04",
+        "L18",
+        "P2D4FD926",
+        "P002C367F",
+        "P377CD02F"
+      ],
+      "confirmed_count": 3,
+      "pioneer_count": 0,
+      "analog_count": 3,
+      "pending_count": 2
+    },
+    {
+      "journal": "Science",
+      "group": "Science",
+      "paper_count": 1,
+      "paper_ids": [
+        "L01"
+      ],
+      "confirmed_count": 1,
+      "pioneer_count": 0,
+      "analog_count": 1,
+      "pending_count": 0
+    }
+  ],
+  "scopes": {
+    "all": {
+      "scope_record_count": 131,
+      "selected_paper_count": 17,
+      "selected_journal_count": 8,
+      "paper_ids": [
+        "L01",
+        "L03",
+        "L04",
+        "L06",
+        "L11",
+        "L13",
+        "L18",
+        "L21",
+        "L24",
+        "P240AD96D",
+        "P8C0DBF46",
+        "P2D4FD926",
+        "P61DCC998",
+        "P002C367F",
+        "P377CD02F",
+        "P214FEF72",
+        "P01D7334F"
+      ],
+      "groups": [
+        {
+          "group": "Nature系列（刊名含Nature）",
+          "paper_count": 11,
+          "journal_count": 6
+        },
+        {
+          "group": "PNAS",
+          "paper_count": 5,
+          "journal_count": 1
+        },
+        {
+          "group": "Science",
+          "paper_count": 1,
+          "journal_count": 1
+        }
+      ],
+      "venues": [
+        {
+          "journal": "Nature",
+          "count": 2
+        },
+        {
+          "journal": "Nature Cities",
+          "count": 2
+        },
+        {
+          "journal": "Nature Communications",
+          "count": 1
+        },
+        {
+          "journal": "Nature Computational Science",
+          "count": 1
+        },
+        {
+          "journal": "Nature Health",
+          "count": 1
+        },
+        {
+          "journal": "Nature Human Behaviour",
+          "count": 4
+        },
+        {
+          "journal": "PNAS",
+          "count": 5
+        },
+        {
+          "journal": "Science",
+          "count": 1
+        }
+      ]
+    },
+    "confirmed": {
+      "scope_record_count": 86,
+      "selected_paper_count": 13,
+      "selected_journal_count": 8,
+      "paper_ids": [
+        "L01",
+        "L03",
+        "L04",
+        "L06",
+        "L11",
+        "L13",
+        "L18",
+        "L21",
+        "L24",
+        "P240AD96D",
+        "P8C0DBF46",
+        "P2D4FD926",
+        "P61DCC998"
+      ],
+      "groups": [
+        {
+          "group": "Nature系列（刊名含Nature）",
+          "paper_count": 9,
+          "journal_count": 6
+        },
+        {
+          "group": "PNAS",
+          "paper_count": 3,
+          "journal_count": 1
+        },
+        {
+          "group": "Science",
+          "paper_count": 1,
+          "journal_count": 1
+        }
+      ],
+      "venues": [
+        {
+          "journal": "Nature",
+          "count": 2
+        },
+        {
+          "journal": "Nature Cities",
+          "count": 1
+        },
+        {
+          "journal": "Nature Communications",
+          "count": 1
+        },
+        {
+          "journal": "Nature Computational Science",
+          "count": 1
+        },
+        {
+          "journal": "Nature Health",
+          "count": 1
+        },
+        {
+          "journal": "Nature Human Behaviour",
+          "count": 3
+        },
+        {
+          "journal": "PNAS",
+          "count": 3
+        },
+        {
+          "journal": "Science",
+          "count": 1
+        }
+      ]
+    },
+    "pioneer": {
+      "scope_record_count": 29,
+      "selected_paper_count": 1,
+      "selected_journal_count": 1,
+      "paper_ids": [
+        "L21"
+      ],
+      "groups": [
+        {
+          "group": "Nature系列（刊名含Nature）",
+          "paper_count": 1,
+          "journal_count": 1
+        },
+        {
+          "group": "PNAS",
+          "paper_count": 0,
+          "journal_count": 0
+        },
+        {
+          "group": "Science",
+          "paper_count": 0,
+          "journal_count": 0
+        }
+      ],
+      "venues": [
+        {
+          "journal": "Nature",
+          "count": 0
+        },
+        {
+          "journal": "Nature Cities",
+          "count": 0
+        },
+        {
+          "journal": "Nature Communications",
+          "count": 0
+        },
+        {
+          "journal": "Nature Computational Science",
+          "count": 0
+        },
+        {
+          "journal": "Nature Health",
+          "count": 1
+        },
+        {
+          "journal": "Nature Human Behaviour",
+          "count": 0
+        },
+        {
+          "journal": "PNAS",
+          "count": 0
+        },
+        {
+          "journal": "Science",
+          "count": 0
+        }
+      ]
+    },
+    "analog": {
+      "scope_record_count": 57,
+      "selected_paper_count": 12,
+      "selected_journal_count": 7,
+      "paper_ids": [
+        "L01",
+        "L03",
+        "L04",
+        "L06",
+        "L11",
+        "L13",
+        "L18",
+        "L24",
+        "P240AD96D",
+        "P8C0DBF46",
+        "P2D4FD926",
+        "P61DCC998"
+      ],
+      "groups": [
+        {
+          "group": "Nature系列（刊名含Nature）",
+          "paper_count": 8,
+          "journal_count": 5
+        },
+        {
+          "group": "PNAS",
+          "paper_count": 3,
+          "journal_count": 1
+        },
+        {
+          "group": "Science",
+          "paper_count": 1,
+          "journal_count": 1
+        }
+      ],
+      "venues": [
+        {
+          "journal": "Nature",
+          "count": 2
+        },
+        {
+          "journal": "Nature Cities",
+          "count": 1
+        },
+        {
+          "journal": "Nature Communications",
+          "count": 1
+        },
+        {
+          "journal": "Nature Computational Science",
+          "count": 1
+        },
+        {
+          "journal": "Nature Health",
+          "count": 0
+        },
+        {
+          "journal": "Nature Human Behaviour",
+          "count": 3
+        },
+        {
+          "journal": "PNAS",
+          "count": 3
+        },
+        {
+          "journal": "Science",
+          "count": 1
+        }
+      ]
+    },
+    "pending": {
+      "scope_record_count": 45,
+      "selected_paper_count": 4,
+      "selected_journal_count": 3,
+      "paper_ids": [
+        "P002C367F",
+        "P377CD02F",
+        "P214FEF72",
+        "P01D7334F"
+      ],
+      "groups": [
+        {
+          "group": "Nature系列（刊名含Nature）",
+          "paper_count": 2,
+          "journal_count": 2
+        },
+        {
+          "group": "PNAS",
+          "paper_count": 2,
+          "journal_count": 1
+        },
+        {
+          "group": "Science",
+          "paper_count": 0,
+          "journal_count": 0
+        }
+      ],
+      "venues": [
+        {
+          "journal": "Nature",
+          "count": 0
+        },
+        {
+          "journal": "Nature Cities",
+          "count": 1
+        },
+        {
+          "journal": "Nature Communications",
+          "count": 0
+        },
+        {
+          "journal": "Nature Computational Science",
+          "count": 0
+        },
+        {
+          "journal": "Nature Health",
+          "count": 0
+        },
+        {
+          "journal": "Nature Human Behaviour",
+          "count": 1
+        },
+        {
+          "journal": "PNAS",
+          "count": 2
+        },
+        {
+          "journal": "Science",
+          "count": 0
+        }
+      ]
+    }
+  },
+  "related_portfolio_journals_not_in_selection": [
+    {
+      "journal": "Scientific Data",
+      "paper_count": 4,
+      "paper_ids": [
+        "L02",
+        "L08",
+        "L14",
+        "P63686407"
+      ],
+      "selection_status": "excluded_from_selected_venue_chart",
+      "reason": "属于Nature Portfolio的其他刊物系列；刊名不含Nature，不归入本图显式定义的Nature系列。不是从完整知识库剔除。"
+    },
+    {
+      "journal": "Scientific Reports",
+      "paper_count": 6,
+      "paper_ids": [
+        "L12",
+        "L15",
+        "L20",
+        "P93995647",
+        "P99197F39",
+        "P1BFB6B6F"
+      ],
+      "selection_status": "excluded_from_selected_venue_chart",
+      "reason": "属于Nature Portfolio的其他刊物系列；刊名不含Nature，不归入本图显式定义的Nature系列。不是从完整知识库剔除。"
+    },
+    {
+      "journal": "Communications Physics",
+      "paper_count": 1,
+      "paper_ids": [
+        "L17"
+      ],
+      "selection_status": "excluded_from_selected_venue_chart",
+      "reason": "属于Nature Portfolio的其他刊物系列；刊名不含Nature，不归入本图显式定义的Nature系列。不是从完整知识库剔除。"
+    }
+  ],
+  "selected_papers": [
+    {
+      "id": "L01",
+      "title": "The effect of partisanship and political advertising on close family ties",
+      "journal": "Science",
+      "doi": "10.1126/science.aaq1433",
+      "year": 2018,
+      "canonical_journal": "Science",
+      "browse_category": "analog"
+    },
+    {
+      "id": "L03",
+      "title": "Mobility network models of COVID-19 explain inequities and inform reopening",
+      "journal": "Nature",
+      "doi": "10.1038/s41586-020-2923-3",
+      "year": 2021,
+      "canonical_journal": "Nature",
+      "browse_category": "analog"
+    },
+    {
+      "id": "L04",
+      "title": "Nursing home staff networks and COVID-19",
+      "journal": "Proceedings of the National Academy of Sciences (PNAS)",
+      "doi": "10.1073/pnas.2015455118",
+      "year": 2021,
+      "canonical_journal": "PNAS",
+      "browse_category": "analog"
+    },
+    {
+      "id": "L06",
+      "title": "Mobility patterns are associated with experienced income segregation in large US cities",
+      "journal": "Nature Communications",
+      "doi": "10.1038/s41467-021-24899-8",
+      "year": 2021,
+      "canonical_journal": "Nature Communications",
+      "browse_category": "analog"
+    },
+    {
+      "id": "L11",
+      "title": "Human mobility networks reveal increased segregation in large cities",
+      "journal": "Nature",
+      "doi": "10.1038/s41586-023-06757-3",
+      "year": 2023,
+      "canonical_journal": "Nature",
+      "browse_category": "analog"
+    },
+    {
+      "id": "L13",
+      "title": "The 15-minute city quantified using human mobility data",
+      "journal": "Nature Human Behaviour",
+      "doi": "10.1038/s41562-023-01770-y",
+      "year": 2024,
+      "canonical_journal": "Nature Human Behaviour",
+      "browse_category": "analog"
+    },
+    {
+      "id": "L18",
+      "title": "Mixing individual and collective behaviors to predict out-of-routine mobility",
+      "journal": "Proceedings of the National Academy of Sciences (PNAS)",
+      "doi": "10.1073/pnas.2414848122",
+      "year": 2025,
+      "canonical_journal": "PNAS",
+      "browse_category": "analog"
+    },
+    {
+      "id": "L21",
+      "title": "Mobile phone data show spatial and socioeconomic inequalities in hospital utilization",
+      "journal": "Nature Health",
+      "doi": "10.1038/s44360-026-00100-6",
+      "year": 2026,
+      "canonical_journal": "Nature Health",
+      "browse_category": "pioneer"
+    },
+    {
+      "id": "L24",
+      "title": "Big mobility data reveals hyperlocal air pollution exposure disparities in the Bronx, New York",
+      "journal": "Nature Cities",
+      "doi": "10.1038/s44284-024-00093-x",
+      "year": 2024,
+      "canonical_journal": "Nature Cities",
+      "browse_category": "analog"
+    },
+    {
+      "id": "P240AD96D",
+      "title": "Insights into population behavior during the COVID-19 pandemic from cell phone mobility data and manifold learning",
+      "journal": "Nature Computational Science",
+      "doi": "10.1038/s43588-021-00125-9",
+      "year": 2021,
+      "canonical_journal": "Nature Computational Science",
+      "browse_category": "analog"
+    },
+    {
+      "id": "P8C0DBF46",
+      "title": "Partisan differences in physical distancing are linked to health outcomes during the COVID-19 pandemic",
+      "journal": "Nature Human Behaviour",
+      "doi": "10.1038/s41562-020-00977-7",
+      "year": 2020,
+      "canonical_journal": "Nature Human Behaviour",
+      "browse_category": "analog"
+    },
+    {
+      "id": "P2D4FD926",
+      "title": "Policy and weather influences on mobility during the early US COVID-19 pandemic",
+      "journal": "Proceedings of the National Academy of Sciences (PNAS)",
+      "doi": "10.1073/pnas.2018185118",
+      "year": 2021,
+      "canonical_journal": "PNAS",
+      "browse_category": "analog"
+    },
+    {
+      "id": "P61DCC998",
+      "title": "Behaviour-based dependency networks between places shape urban economic resilience",
+      "journal": "Nature Human Behaviour",
+      "doi": "10.1038/s41562-024-02072-7",
+      "year": 2024,
+      "canonical_journal": "Nature Human Behaviour",
+      "browse_category": "analog"
+    },
+    {
+      "id": "P002C367F",
+      "title": "Activity-adjusted crime rates show that public safety worsened in 2020",
+      "journal": "Proceedings of the National Academy of Sciences",
+      "doi": "10.1073/pnas.2208598119",
+      "year": 2022,
+      "canonical_journal": "PNAS",
+      "browse_category": "pending"
+    },
+    {
+      "id": "P377CD02F",
+      "title": "Real-time pandemic surveillance using hospital admissions and mobility data",
+      "journal": "Proceedings of the National Academy of Sciences",
+      "doi": "10.1073/pnas.2111870119",
+      "year": 2022,
+      "canonical_journal": "PNAS",
+      "browse_category": "pending"
+    },
+    {
+      "id": "P214FEF72",
+      "title": "Human-centric characterization of life activity flood exposure shifts focus from places to people",
+      "journal": "Nature Cities",
+      "doi": "10.1038/s44284-024-00043-7",
+      "year": 2024,
+      "canonical_journal": "Nature Cities",
+      "browse_category": "pending"
+    },
+    {
+      "id": "P01D7334F",
+      "title": "Visitation patterns reveal service access disparities for ageing populations in the USA",
+      "journal": "Nature Human Behaviour",
+      "doi": "10.1038/s41562-025-02285-4",
+      "year": 2025,
+      "canonical_journal": "Nature Human Behaviour",
+      "browse_category": "pending"
+    }
+  ],
+  "out_of_scope_matching_papers": [
+    {
+      "id": "P06009F26",
+      "title": "Estimating experienced racial segregation in US cities using large-scale GPS data",
+      "journal": "PNAS",
+      "reason": "other_thematic_collection"
+    },
+    {
+      "id": "P8B0F32E0",
+      "title": "Unravelling the spatial directionality of urban mobility",
+      "journal": "Nature Communications",
+      "reason": "carrier_boundary"
+    }
+  ],
+  "scope_counts": {
+    "all": 17,
+    "confirmed": 13,
+    "pioneer": 1,
+    "analog": 12,
+    "pending": 4
+  }
+}

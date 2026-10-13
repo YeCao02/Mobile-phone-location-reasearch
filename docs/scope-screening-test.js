@@ -34,7 +34,7 @@ for(const id of ['P25D34630','P3239D548','PD4F8B912','PEEE72CD1','P3881BAD2'])as
 assert(use.some(a=>a.paper_id==='L80'&&a.role==='platform_aggregate'));
 assert(data.papers.find(p=>p.id==='L80').zotero_attachment_verified);
 assert(!data.papers.find(p=>p.id==='L81').pdf_downloaded);
-assert.equal(data.excluded_papers.length,9);for(const id of ['L51','L52','L65','L66'])assert(data.excluded_papers.some(p=>p.id===id));
+assert.equal(data.excluded_papers.length,10);for(const id of ['L47','L51','L52','L65','L66'])assert(data.excluded_papers.some(p=>p.id===id));
 console.log('PASS scope: exclusive paper categories, evidence-backed 04, auxiliary POI preserved in 06, known boundaries omitted, original archives intact.');
 
 for(const id of ['L27','L28','L34','L59']) { assert(sets[1].has(id)); assert(!sets[2].has(id)); assert.equal(data.papers.find(p=>p.id===id).user_review_status,'pioneer_confirmed'); assert(!data.papers.find(p=>p.id===id).source_confirmed); }

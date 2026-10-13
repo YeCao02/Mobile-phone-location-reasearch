@@ -10,7 +10,10 @@ const equal=(a,b)=>assert.deepEqual([...a].sort(),[...b].sort());
 equal(cardIds('#china-list'),data.browse.pioneer_ids);equal(cardIds('#analog-list'),data.browse.analog_ids);equal(cardIds('#pending-list'),data.browse.pending_ids);
 assert(!html.includes('04B'));assert(!html.includes('id="other-data"'));assert(html.includes('04 / CONFIRMED PIONEER FAMILY'));assert(html.includes('05 / TO BE CONFIRMED'));
 for(const id of ['L21','L25','L48','L64','L80','L27','L28','L34','L59','L44','L55','L57','L78','L79'])assert(cardIds('#china-list').has(id));
-assert(cardIds('#pending-list').has('L41'));for(const id of ['L51','L52','L65','L66']){assert(!cardIds('#pending-list').has(id));assert(!cardIds('#china-list').has(id));}
+for(const id of ['L41','L86','L84','L85']){assert(cardIds('#china-list').has(id));assert(!cardIds('#pending-list').has(id));}
+for(const id of ['L47','L51','L52','L65','L66']){assert(!cardIds('#pending-list').has(id));assert(!cardIds('#china-list').has(id));}
+assert(node('#china-list').innerHTML.includes('china-CN-S31'));assert(!node('#pending-evidence').innerHTML.includes('china-CN-S31'));
+for(const id of ['L41','L86','L44','L57','L59','L84','L85'])assert.equal(data.papers.find(p=>p.id===id).provider,'先锋数聚 / Pioneer Data');
 assert(node('#china-list').innerHTML.includes('HKU-YANG-P1'));assert(node('#china-list').innerHTML.includes('SHU-LI-P1'));assert(!node('#pending-list').innerHTML.includes('SHU-LI-P1'));
 for(const id of ['L87','L88'])assert(cardIds('#china-list').has(id));
 for(const id of ['R18-PROC-01','R18-PROC-02']) {
@@ -39,7 +42,8 @@ assert(node('#china-list').innerHTML.includes('study-caption'),'School/team rend
 assert(node('#china-list').innerHTML.includes('研究 2'),'Multiple studies must remain distinct');
 assert(html.includes('id="analytics-frame"'),'Overview must embed visible charts');
 const artifact=JSON.parse(fs.readFileSync(path.join(__dirname,'../data/literature-analytics-artifact.json'),'utf8'));
-assert.equal(artifact.surface,'dashboard');assert.equal(artifact.manifest.charts.length,2);
+assert.equal(artifact.surface,'dashboard');assert.equal(artifact.manifest.charts.length,3);
+assert.equal(artifact.snapshot.datasets.selected_journals.filter(r=>r.scope==='全部收录（含待核）').reduce((s,r)=>s+r.papers,0),17);
 for(const d of artifact.snapshot.datasets.denominators){
   assert.equal(artifact.snapshot.datasets.annual.filter(r=>r.scope===d.scope).reduce((s,r)=>s+r.papers,0),d.annual_papers);
   assert.equal(artifact.snapshot.datasets.domains.filter(r=>r.scope===d.scope).reduce((s,r)=>s+r.papers,0),d.journal_papers);
