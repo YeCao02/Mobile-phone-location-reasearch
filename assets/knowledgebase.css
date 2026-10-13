@@ -32,3 +32,6 @@ body{font-size:15px}.main{max-width:1660px}.brand small{font-size:10px}.rail-bot
 .alias-group b,.vocabulary-item b{font-size:14px}.alias-group p,.vocabulary-item p{font-size:13px;line-height:1.75;margin:7px 0}.vocabulary-keywords{color:#62523b;overflow-wrap:anywhere}.vocabulary-refs{font-size:12px;font-weight:650}.vocabulary-refs a{color:#805718}
 @media(max-width:760px){#pioneer-data{padding:15px}.paper-card .journal{font-size:14px}.alias-groups,.vocabulary-grid{grid-template-columns:1fr}}
 @media(max-width:430px){.pioneer-profile>.pipeline{grid-template-columns:1fr}.pioneer-profile>.pipeline>.pipeline-wide{grid-column:span 1}}
+
+/* Journal typography in the confirmed Pioneer collection. */
+#china-list .paper-card .journal{font-style:italic}
