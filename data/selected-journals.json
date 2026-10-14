@@ -672,9 +672,9 @@
   ],
   "scope_counts": {
     "all": 17,
-    "confirmed": 13,
+    "confirmed": 15,
     "pioneer": 1,
-    "analog": 12,
-    "pending": 4
+    "analog": 14,
+    "pending": 2
   }
 }

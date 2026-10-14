@@ -85,18 +85,6 @@
       "notes": "出版商全文预览逐项核题名DOI；旧期刊Cities错误。"
     },
     {
-      "id": "P837C3A60",
-      "title": "Assessing COVID-induced changes in spatiotemporal structure of mobility in the United States in 2020: a multi-source analytical framework",
-      "journal": "International Journal of Geographical Information Science",
-      "year": 2021,
-      "doi": "10.1080/13658816.2021.2005796",
-      "url": "https://www.tandfonline.com/doi/full/10.1080/13658816.2021.2005796",
-      "vpn_url": "https://www-tandfonline-com-443.webvpn.scut.edu.cn/doi/full/10.1080/13658816.2021.2005796",
-      "pdf_downloaded": false,
-      "search_only": false,
-      "notes": ""
-    },
-    {
       "id": "P8A8A7B36",
       "title": "Large-scale Urban Facility Location Selection with Knowledge-informed Reinforcement Learning",
       "journal": "Proceedings of the 32nd ACM International Conference on Advances in Geographic Information Systems",
@@ -143,18 +131,6 @@
       "pdf_downloaded": false,
       "search_only": false,
       "notes": "Crossref题名与作者TU Eindhoven原刊PDF一致；卷期出版年2024（DOI带2023）。"
-    },
-    {
-      "id": "PAF9C787A",
-      "title": "Strategies and inequities in balancing recreation and COVID exposure when visiting green spaces",
-      "journal": "Environment and Planning B: Urban Analytics and City Science",
-      "year": 2022,
-      "doi": "10.1177/23998083221114645",
-      "url": "https://journals.sagepub.com/doi/10.1177/23998083221114645",
-      "vpn_url": "",
-      "pdf_downloaded": false,
-      "search_only": false,
-      "notes": ""
     },
     {
       "id": "PB6FFBAD1",
@@ -205,30 +181,6 @@
       "notes": ""
     },
     {
-      "id": "PE7B72F15",
-      "title": "Using mobile phone data to evaluate access to essential services following natural hazards",
-      "journal": "Risk Analysis",
-      "year": 2023,
-      "doi": "10.1111/risa.14201",
-      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/risa.14201",
-      "vpn_url": "https://onlinelibrary-wiley-com.webvpn.scut.edu.cn:443/doi/full/10.1111/risa.14201",
-      "pdf_downloaded": false,
-      "search_only": false,
-      "notes": ""
-    },
-    {
-      "id": "PEF9587A5",
-      "title": "Harnessing Human Mobility Data for Applied Economic Research: Current Knowledge, Challenges, and Emerging Opportunities",
-      "journal": "Journal of Economic Surveys",
-      "year": 2026,
-      "doi": "10.1111/joes.70047",
-      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/joes.70047",
-      "vpn_url": "https://onlinelibrary-wiley-com.webvpn.scut.edu.cn:443/doi/full/10.1111/joes.70047",
-      "pdf_downloaded": false,
-      "search_only": false,
-      "notes": ""
-    },
-    {
       "id": "PF912AF74",
       "title": "Supporting COVID-19 policy response with large-scale mobility-based modeling",
       "journal": "Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery & Data Mining",
@@ -251,30 +203,6 @@
       "pdf_downloaded": true,
       "search_only": false,
       "notes": "2026-10-13 已通过Chrome DOI跳转或学校WebVPN打开对应出版商论文页面。"
-    },
-    {
-      "id": "P01D7334F",
-      "title": "Visitation patterns reveal service access disparities for ageing populations in the USA",
-      "journal": "Nature Human Behaviour",
-      "year": 2025,
-      "doi": "10.1038/s41562-025-02285-4",
-      "url": "https://www.nature.com/articles/s41562-025-02285-4",
-      "vpn_url": "https://www-nature-com-443.webvpn.scut.edu.cn/articles/s41562-025-02285-4",
-      "pdf_downloaded": true,
-      "search_only": false,
-      "notes": ""
-    },
-    {
-      "id": "P214FEF72",
-      "title": "Human-centric characterization of life activity flood exposure shifts focus from places to people",
-      "journal": "Nature Cities",
-      "year": 2024,
-      "doi": "10.1038/s44284-024-00043-7",
-      "url": "https://www.nature.com/articles/s44284-024-00043-7",
-      "vpn_url": "https://www-nature-com-443.webvpn.scut.edu.cn/articles/s44284-024-00043-7",
-      "pdf_downloaded": true,
-      "search_only": false,
-      "notes": ""
     }
   ]
 }

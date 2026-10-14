@@ -12,10 +12,10 @@
         "https://www.safegraph.com/"
       ],
       "counts": {
-        "confirmed_use": 43,
+        "confirmed_use": 49,
         "user_confirmed_use": 0,
         "mention_only": 2,
-        "unresolved_candidate": 15
+        "unresolved_candidate": 13
       },
       "paper_ids": {
         "confirmed_use": [
@@ -31,14 +31,17 @@
           "L16",
           "L17",
           "L20",
+          "P01D7334F",
           "P0663A19C",
           "P06F06671",
           "P1A918461",
           "P1DFAD697",
+          "P214FEF72",
           "P2290471E",
           "P240AD96D",
           "P25D34630",
           "P2BDAEE88",
+          "P2D2C630F",
           "P2F95F02D",
           "P3239D548",
           "P3881BAD2",
@@ -51,13 +54,16 @@
           "P5DE047C3",
           "P61DCC998",
           "P6AAE6DFC",
+          "P76B9708A",
           "P7A4F6797",
           "P7C63CA4F",
+          "P837C3A60",
           "P8A06ED95",
           "P913EE387",
           "P919700C8",
           "P99197F39",
           "PA225066F",
+          "PAF9C787A",
           "PC3073275",
           "PD4F8B912",
           "PE6FBF191",
@@ -74,11 +80,9 @@
           "P5B2E6933",
           "P681BDA6E",
           "P7E59C8D1",
-          "P837C3A60",
           "P8A8A7B36",
           "P9B76EC36",
           "PA597BCE5",
-          "PAF9C787A",
           "PB6FFBAD1",
           "PBC87DC0B",
           "PC2196B2E",
@@ -88,7 +92,7 @@
       },
       "role_counts": {
         "mobility": {
-          "confirmed_use": 39,
+          "confirmed_use": 41,
           "user_confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -100,7 +104,7 @@
           "unresolved_candidate": 0
         },
         "poi": {
-          "confirmed_use": 4,
+          "confirmed_use": 7,
           "user_confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -118,7 +122,7 @@
           "unresolved_candidate": 0
         },
         "platform_aggregate": {
-          "confirmed_use": 0,
+          "confirmed_use": 1,
           "user_confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -151,7 +155,7 @@
           "confirmed_use": 0,
           "user_confirmed_use": 0,
           "mention_only": 0,
-          "unresolved_candidate": 15
+          "unresolved_candidate": 13
         }
       },
       "role_paper_ids": {
@@ -168,6 +172,7 @@
             "L13",
             "L16",
             "L17",
+            "P01D7334F",
             "P0663A19C",
             "P06F06671",
             "P1A918461",
@@ -192,6 +197,7 @@
             "P913EE387",
             "P919700C8",
             "PA225066F",
+            "PAF9C787A",
             "PC3073275",
             "PD4F8B912",
             "PE6FBF191",
@@ -210,8 +216,11 @@
         "poi": {
           "confirmed_use": [
             "L20",
+            "P214FEF72",
+            "P2D2C630F",
             "P3B9C78DF",
             "P61DCC998",
+            "P76B9708A",
             "P99197F39"
           ],
           "user_confirmed_use": [],
@@ -231,7 +240,9 @@
           "unresolved_candidate": []
         },
         "platform_aggregate": {
-          "confirmed_use": [],
+          "confirmed_use": [
+            "P837C3A60"
+          ],
           "user_confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -273,11 +284,9 @@
             "P5B2E6933",
             "P681BDA6E",
             "P7E59C8D1",
-            "P837C3A60",
             "P8A8A7B36",
             "P9B76EC36",
             "PA597BCE5",
-            "PAF9C787A",
             "PB6FFBAD1",
             "PBC87DC0B",
             "PC2196B2E",
@@ -286,20 +295,10 @@
           ]
         }
       },
-      "confirmed_mobility_use": 39,
+      "confirmed_mobility_use": 41,
       "confirmed_mixed_mobility_use": 0,
       "zero_count_meaning": "0仅表示当前文献目录中没有符合该证据门槛的记录；不是全领域无人使用，也不是搜索穷尽。",
       "association_ids": [
-        "L01",
-        "L02",
-        "L03",
-        "L07",
-        "L08",
-        "L09",
-        "L11",
-        "L12",
-        "L17",
-        "L20",
         "L21",
         "L29",
         "P3239D548",
@@ -307,8 +306,6 @@
         "P3881BAD2",
         "P25D34630",
         "P240AD96D",
-        "P837C3A60",
-        "PAF9C787A",
         "PBC87DC0B",
         "P002C367F",
         "PB6FFBAD1",
@@ -349,12 +346,28 @@
         "P557B9764",
         "PFC132E92",
         "P1DFAD697",
-        "P61DCC998"
+        "P61DCC998",
+        "L12",
+        "L20",
+        "L03",
+        "L02",
+        "L17",
+        "L01",
+        "L11",
+        "L09",
+        "L07",
+        "P2D2C630F",
+        "P837C3A60",
+        "PAF9C787A",
+        "P76B9708A",
+        "P214FEF72",
+        "L08",
+        "P01D7334F"
       ],
       "entity_interpretation": "按现有品牌/实体标签分别计数",
       "evidence_role_counts": {
         "mobility": {
-          "confirmed_use": 39,
+          "confirmed_use": 41,
           "user_confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -366,7 +379,7 @@
           "unresolved_candidate": 0
         },
         "poi": {
-          "confirmed_use": 4,
+          "confirmed_use": 7,
           "user_confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -384,7 +397,7 @@
           "unresolved_candidate": 0
         },
         "platform_aggregate": {
-          "confirmed_use": 0,
+          "confirmed_use": 1,
           "user_confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -417,7 +430,7 @@
           "confirmed_use": 0,
           "user_confirmed_use": 0,
           "mention_only": 0,
-          "unresolved_candidate": 15
+          "unresolved_candidate": 13
         }
       }
     },
@@ -435,7 +448,7 @@
         "confirmed_use": 5,
         "user_confirmed_use": 0,
         "mention_only": 0,
-        "unresolved_candidate": 1
+        "unresolved_candidate": 0
       },
       "paper_ids": {
         "confirmed_use": [
@@ -447,9 +460,7 @@
         ],
         "user_confirmed_use": [],
         "mention_only": [],
-        "unresolved_candidate": [
-          "PEF9587A5"
-        ]
+        "unresolved_candidate": []
       },
       "role_counts": {
         "mobility": {
@@ -516,7 +527,7 @@
           "confirmed_use": 0,
           "user_confirmed_use": 0,
           "mention_only": 0,
-          "unresolved_candidate": 1
+          "unresolved_candidate": 0
         }
       },
       "role_paper_ids": {
@@ -591,21 +602,18 @@
           "confirmed_use": [],
           "user_confirmed_use": [],
           "mention_only": [],
-          "unresolved_candidate": [
-            "PEF9587A5"
-          ]
+          "unresolved_candidate": []
         }
       },
       "confirmed_mobility_use": 4,
       "confirmed_mixed_mobility_use": 0,
       "zero_count_meaning": "0仅表示当前文献目录中没有符合该证据门槛的记录；不是全领域无人使用，也不是搜索穷尽。",
       "association_ids": [
-        "L20",
-        "PEF9587A5",
         "P3B9C78DF",
-        "P2D2C630F",
         "P06F06671",
-        "P2BDAEE88"
+        "P2BDAEE88",
+        "L20",
+        "P2D2C630F"
       ],
       "entity_interpretation": "按现有品牌/实体标签分别计数",
       "evidence_role_counts": {
@@ -673,7 +681,7 @@
           "confirmed_use": 0,
           "user_confirmed_use": 0,
           "mention_only": 0,
-          "unresolved_candidate": 1
+          "unresolved_candidate": 0
         }
       }
     },
@@ -692,7 +700,7 @@
         "confirmed_use": 7,
         "user_confirmed_use": 0,
         "mention_only": 0,
-        "unresolved_candidate": 1
+        "unresolved_candidate": 0
       },
       "paper_ids": {
         "confirmed_use": [
@@ -706,9 +714,7 @@
         ],
         "user_confirmed_use": [],
         "mention_only": [],
-        "unresolved_candidate": [
-          "PE7B72F15"
-        ]
+        "unresolved_candidate": []
       },
       "role_counts": {
         "mobility": {
@@ -775,7 +781,7 @@
           "confirmed_use": 0,
           "user_confirmed_use": 0,
           "mention_only": 0,
-          "unresolved_candidate": 1
+          "unresolved_candidate": 0
         }
       },
       "role_paper_ids": {
@@ -851,23 +857,20 @@
           "confirmed_use": [],
           "user_confirmed_use": [],
           "mention_only": [],
-          "unresolved_candidate": [
-            "PE7B72F15"
-          ]
+          "unresolved_candidate": []
         }
       },
       "confirmed_mobility_use": 7,
       "confirmed_mixed_mobility_use": 0,
       "zero_count_meaning": "0仅表示当前文献目录中没有符合该证据门槛的记录；不是全领域无人使用，也不是搜索穷尽。",
       "association_ids": [
-        "L04",
-        "PE7B72F15",
         "P93995647",
         "P99197F39",
         "P5FE9D417",
         "PAADD397C",
         "P63686407",
-        "P104EBB42"
+        "P104EBB42",
+        "L04"
       ],
       "entity_interpretation": "按现有品牌/实体标签分别计数",
       "evidence_role_counts": {
@@ -935,7 +938,7 @@
           "confirmed_use": 0,
           "user_confirmed_use": 0,
           "mention_only": 0,
-          "unresolved_candidate": 1
+          "unresolved_candidate": 0
         }
       }
     },
@@ -953,10 +956,10 @@
         "https://cuebiq.com/privacy-policy/"
       ],
       "counts": {
-        "confirmed_use": 18,
-        "user_confirmed_use": 1,
+        "confirmed_use": 21,
+        "user_confirmed_use": 0,
         "mention_only": 0,
-        "unresolved_candidate": 4
+        "unresolved_candidate": 2
       },
       "paper_ids": {
         "confirmed_use": [
@@ -972,28 +975,27 @@
           "L24",
           "P1BFB6B6F",
           "P1F72D228",
+          "P214FEF72",
           "P2D4FD926",
           "P61DCC998",
           "P71C3218F",
+          "P76B9708A",
+          "P837C3A60",
           "PA98D85BB",
           "PAADD397C",
           "PEEE72CD1"
         ],
-        "user_confirmed_use": [
-          "P76B9708A"
-        ],
+        "user_confirmed_use": [],
         "mention_only": [],
         "unresolved_candidate": [
-          "P837C3A60",
           "P9123C07B",
-          "PBC87DC0B",
-          "PEF9587A5"
+          "PBC87DC0B"
         ]
       },
       "role_counts": {
         "mobility": {
-          "confirmed_use": 18,
-          "user_confirmed_use": 1,
+          "confirmed_use": 20,
+          "user_confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
         },
@@ -1022,7 +1024,7 @@
           "unresolved_candidate": 0
         },
         "platform_aggregate": {
-          "confirmed_use": 0,
+          "confirmed_use": 1,
           "user_confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -1055,7 +1057,7 @@
           "confirmed_use": 0,
           "user_confirmed_use": 0,
           "mention_only": 0,
-          "unresolved_candidate": 4
+          "unresolved_candidate": 2
         }
       },
       "role_paper_ids": {
@@ -1073,16 +1075,16 @@
             "L24",
             "P1BFB6B6F",
             "P1F72D228",
+            "P214FEF72",
             "P2D4FD926",
             "P61DCC998",
             "P71C3218F",
+            "P76B9708A",
             "PA98D85BB",
             "PAADD397C",
             "PEEE72CD1"
           ],
-          "user_confirmed_use": [
-            "P76B9708A"
-          ],
+          "user_confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
         },
@@ -1111,7 +1113,9 @@
           "unresolved_candidate": []
         },
         "platform_aggregate": {
-          "confirmed_use": [],
+          "confirmed_use": [
+            "P837C3A60"
+          ],
           "user_confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -1145,46 +1149,44 @@
           "user_confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": [
-            "P837C3A60",
             "P9123C07B",
-            "PBC87DC0B",
-            "PEF9587A5"
+            "PBC87DC0B"
           ]
         }
       },
-      "confirmed_mobility_use": 18,
+      "confirmed_mobility_use": 20,
       "confirmed_mixed_mobility_use": 0,
       "zero_count_meaning": "0仅表示当前文献目录中没有符合该证据门槛的记录；不是全领域无人使用，也不是搜索穷尽。",
       "association_ids": [
-        "L05",
-        "L06",
-        "L10",
-        "L15",
-        "L18",
-        "L23",
-        "L14",
-        "L17",
-        "L19",
-        "L24",
         "PEEE72CD1",
-        "P837C3A60",
-        "PEF9587A5",
         "PBC87DC0B",
         "P9123C07B",
-        "P76B9708A",
         "PA98D85BB",
         "P1F72D228",
         "P1BFB6B6F",
         "PAADD397C",
         "P2D4FD926",
         "P71C3218F",
-        "P61DCC998"
+        "P61DCC998",
+        "L19",
+        "L23",
+        "L24",
+        "L17",
+        "L18",
+        "P837C3A60",
+        "P76B9708A",
+        "L15",
+        "L14",
+        "L05",
+        "L06",
+        "P214FEF72",
+        "L10"
       ],
       "entity_interpretation": "展示组，不构成法律实体或独立采样面板合并认定",
       "evidence_role_counts": {
         "mobility": {
-          "confirmed_use": 18,
-          "user_confirmed_use": 1,
+          "confirmed_use": 20,
+          "user_confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
         },
@@ -1213,7 +1215,7 @@
           "unresolved_candidate": 0
         },
         "platform_aggregate": {
-          "confirmed_use": 0,
+          "confirmed_use": 1,
           "user_confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -1246,7 +1248,7 @@
           "confirmed_use": 0,
           "user_confirmed_use": 0,
           "mention_only": 0,
-          "unresolved_candidate": 4
+          "unresolved_candidate": 2
         }
       }
     },
@@ -1497,7 +1499,7 @@
         "confirmed_use": 1,
         "user_confirmed_use": 0,
         "mention_only": 0,
-        "unresolved_candidate": 1
+        "unresolved_candidate": 0
       },
       "paper_ids": {
         "confirmed_use": [
@@ -1505,9 +1507,7 @@
         ],
         "user_confirmed_use": [],
         "mention_only": [],
-        "unresolved_candidate": [
-          "PEF9587A5"
-        ]
+        "unresolved_candidate": []
       },
       "role_counts": {
         "mobility": {
@@ -1574,7 +1574,7 @@
           "confirmed_use": 0,
           "user_confirmed_use": 0,
           "mention_only": 0,
-          "unresolved_candidate": 1
+          "unresolved_candidate": 0
         }
       },
       "role_paper_ids": {
@@ -1644,17 +1644,14 @@
           "confirmed_use": [],
           "user_confirmed_use": [],
           "mention_only": [],
-          "unresolved_candidate": [
-            "PEF9587A5"
-          ]
+          "unresolved_candidate": []
         }
       },
       "confirmed_mobility_use": 0,
       "confirmed_mixed_mobility_use": 0,
       "zero_count_meaning": "0仅表示当前文献目录中没有符合该证据门槛的记录；不是全领域无人使用，也不是搜索穷尽。",
       "association_ids": [
-        "L06",
-        "PEF9587A5"
+        "L06"
       ],
       "entity_interpretation": "按现有品牌/实体标签分别计数",
       "evidence_role_counts": {
@@ -1722,7 +1719,7 @@
           "confirmed_use": 0,
           "user_confirmed_use": 0,
           "mention_only": 0,
-          "unresolved_candidate": 1
+          "unresolved_candidate": 0
         }
       }
     },
@@ -4078,18 +4075,18 @@
         "https://www.transit.dot.gov/sites/fta.dot.gov/files/2023-07/FTA-Report-No-0245-rev.pdf"
       ],
       "counts": {
-        "confirmed_use": 0,
+        "confirmed_use": 1,
         "user_confirmed_use": 0,
         "mention_only": 0,
-        "unresolved_candidate": 1
+        "unresolved_candidate": 0
       },
       "paper_ids": {
-        "confirmed_use": [],
+        "confirmed_use": [
+          "P837C3A60"
+        ],
         "user_confirmed_use": [],
         "mention_only": [],
-        "unresolved_candidate": [
-          "P837C3A60"
-        ]
+        "unresolved_candidate": []
       },
       "role_counts": {
         "mobility": {
@@ -4123,7 +4120,7 @@
           "unresolved_candidate": 0
         },
         "platform_aggregate": {
-          "confirmed_use": 0,
+          "confirmed_use": 1,
           "user_confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -4156,7 +4153,7 @@
           "confirmed_use": 0,
           "user_confirmed_use": 0,
           "mention_only": 0,
-          "unresolved_candidate": 1
+          "unresolved_candidate": 0
         }
       },
       "role_paper_ids": {
@@ -4191,7 +4188,9 @@
           "unresolved_candidate": []
         },
         "platform_aggregate": {
-          "confirmed_use": [],
+          "confirmed_use": [
+            "P837C3A60"
+          ],
           "user_confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -4224,9 +4223,7 @@
           "confirmed_use": [],
           "user_confirmed_use": [],
           "mention_only": [],
-          "unresolved_candidate": [
-            "P837C3A60"
-          ]
+          "unresolved_candidate": []
         }
       },
       "confirmed_mobility_use": 0,
@@ -4268,7 +4265,7 @@
           "unresolved_candidate": 0
         },
         "platform_aggregate": {
-          "confirmed_use": 0,
+          "confirmed_use": 1,
           "user_confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -4301,7 +4298,7 @@
           "confirmed_use": 0,
           "user_confirmed_use": 0,
           "mention_only": 0,
-          "unresolved_candidate": 1
+          "unresolved_candidate": 0
         }
       }
     },
@@ -6685,240 +6682,6 @@
       "profile_group": "additional_role_or_boundary",
       "supply_chain_role": "平台用户位置衍生移动流；与独立SDK数据商区分",
       "counts": {
-        "confirmed_use": 1,
-        "user_confirmed_use": 0,
-        "mention_only": 0,
-        "unresolved_candidate": 0
-      },
-      "paper_ids": {
-        "confirmed_use": [
-          "L17"
-        ],
-        "user_confirmed_use": [],
-        "mention_only": [],
-        "unresolved_candidate": []
-      },
-      "role_counts": {
-        "mobility": {
-          "confirmed_use": 0,
-          "user_confirmed_use": 0,
-          "mention_only": 0,
-          "unresolved_candidate": 0
-        },
-        "mixed_mobility": {
-          "confirmed_use": 0,
-          "user_confirmed_use": 0,
-          "mention_only": 0,
-          "unresolved_candidate": 0
-        },
-        "poi": {
-          "confirmed_use": 0,
-          "user_confirmed_use": 0,
-          "mention_only": 0,
-          "unresolved_candidate": 0
-        },
-        "distribution": {
-          "confirmed_use": 0,
-          "user_confirmed_use": 0,
-          "mention_only": 0,
-          "unresolved_candidate": 0
-        },
-        "access_contact": {
-          "confirmed_use": 0,
-          "user_confirmed_use": 0,
-          "mention_only": 0,
-          "unresolved_candidate": 0
-        },
-        "platform_aggregate": {
-          "confirmed_use": 1,
-          "user_confirmed_use": 0,
-          "mention_only": 0,
-          "unresolved_candidate": 0
-        },
-        "vehicle_gps": {
-          "confirmed_use": 0,
-          "user_confirmed_use": 0,
-          "mention_only": 0,
-          "unresolved_candidate": 0
-        },
-        "indoor_positioning": {
-          "confirmed_use": 0,
-          "user_confirmed_use": 0,
-          "mention_only": 0,
-          "unresolved_candidate": 0
-        },
-        "demographic_profile": {
-          "confirmed_use": 0,
-          "user_confirmed_use": 0,
-          "mention_only": 0,
-          "unresolved_candidate": 0
-        },
-        "comparison_reference": {
-          "confirmed_use": 0,
-          "user_confirmed_use": 0,
-          "mention_only": 0,
-          "unresolved_candidate": 0
-        },
-        "unknown": {
-          "confirmed_use": 0,
-          "user_confirmed_use": 0,
-          "mention_only": 0,
-          "unresolved_candidate": 0
-        }
-      },
-      "role_paper_ids": {
-        "mobility": {
-          "confirmed_use": [],
-          "user_confirmed_use": [],
-          "mention_only": [],
-          "unresolved_candidate": []
-        },
-        "mixed_mobility": {
-          "confirmed_use": [],
-          "user_confirmed_use": [],
-          "mention_only": [],
-          "unresolved_candidate": []
-        },
-        "poi": {
-          "confirmed_use": [],
-          "user_confirmed_use": [],
-          "mention_only": [],
-          "unresolved_candidate": []
-        },
-        "distribution": {
-          "confirmed_use": [],
-          "user_confirmed_use": [],
-          "mention_only": [],
-          "unresolved_candidate": []
-        },
-        "access_contact": {
-          "confirmed_use": [],
-          "user_confirmed_use": [],
-          "mention_only": [],
-          "unresolved_candidate": []
-        },
-        "platform_aggregate": {
-          "confirmed_use": [
-            "L17"
-          ],
-          "user_confirmed_use": [],
-          "mention_only": [],
-          "unresolved_candidate": []
-        },
-        "vehicle_gps": {
-          "confirmed_use": [],
-          "user_confirmed_use": [],
-          "mention_only": [],
-          "unresolved_candidate": []
-        },
-        "indoor_positioning": {
-          "confirmed_use": [],
-          "user_confirmed_use": [],
-          "mention_only": [],
-          "unresolved_candidate": []
-        },
-        "demographic_profile": {
-          "confirmed_use": [],
-          "user_confirmed_use": [],
-          "mention_only": [],
-          "unresolved_candidate": []
-        },
-        "comparison_reference": {
-          "confirmed_use": [],
-          "user_confirmed_use": [],
-          "mention_only": [],
-          "unresolved_candidate": []
-        },
-        "unknown": {
-          "confirmed_use": [],
-          "user_confirmed_use": [],
-          "mention_only": [],
-          "unresolved_candidate": []
-        }
-      },
-      "confirmed_mobility_use": 0,
-      "confirmed_mixed_mobility_use": 0,
-      "zero_count_meaning": "0仅表示当前文献目录中没有符合该证据门槛的记录；不是全领域无人使用，也不是搜索穷尽。",
-      "association_ids": [
-        "L17"
-      ],
-      "entity_interpretation": "按现有品牌/实体标签分别计数",
-      "evidence_role_counts": {
-        "mobility": {
-          "confirmed_use": 0,
-          "user_confirmed_use": 0,
-          "mention_only": 0,
-          "unresolved_candidate": 0
-        },
-        "mixed_mobility": {
-          "confirmed_use": 0,
-          "user_confirmed_use": 0,
-          "mention_only": 0,
-          "unresolved_candidate": 0
-        },
-        "poi": {
-          "confirmed_use": 0,
-          "user_confirmed_use": 0,
-          "mention_only": 0,
-          "unresolved_candidate": 0
-        },
-        "distribution": {
-          "confirmed_use": 0,
-          "user_confirmed_use": 0,
-          "mention_only": 0,
-          "unresolved_candidate": 0
-        },
-        "access_contact": {
-          "confirmed_use": 0,
-          "user_confirmed_use": 0,
-          "mention_only": 0,
-          "unresolved_candidate": 0
-        },
-        "platform_aggregate": {
-          "confirmed_use": 1,
-          "user_confirmed_use": 0,
-          "mention_only": 0,
-          "unresolved_candidate": 0
-        },
-        "vehicle_gps": {
-          "confirmed_use": 0,
-          "user_confirmed_use": 0,
-          "mention_only": 0,
-          "unresolved_candidate": 0
-        },
-        "indoor_positioning": {
-          "confirmed_use": 0,
-          "user_confirmed_use": 0,
-          "mention_only": 0,
-          "unresolved_candidate": 0
-        },
-        "demographic_profile": {
-          "confirmed_use": 0,
-          "user_confirmed_use": 0,
-          "mention_only": 0,
-          "unresolved_candidate": 0
-        },
-        "comparison_reference": {
-          "confirmed_use": 0,
-          "user_confirmed_use": 0,
-          "mention_only": 0,
-          "unresolved_candidate": 0
-        },
-        "unknown": {
-          "confirmed_use": 0,
-          "user_confirmed_use": 0,
-          "mention_only": 0,
-          "unresolved_candidate": 0
-        }
-      }
-    },
-    {
-      "id": "google",
-      "name": "Google",
-      "region": "overseas",
-      "profile_group": "additional_role_or_boundary",
-      "supply_chain_role": "平台定位衍生统计；所核论文仅使用公开论文中的位移统计",
-      "counts": {
         "confirmed_use": 2,
         "user_confirmed_use": 0,
         "mention_only": 0,
@@ -6927,7 +6690,7 @@
       "paper_ids": {
         "confirmed_use": [
           "L17",
-          "P2D4FD926"
+          "P837C3A60"
         ],
         "user_confirmed_use": [],
         "mention_only": [],
@@ -7035,7 +6798,7 @@
         "platform_aggregate": {
           "confirmed_use": [
             "L17",
-            "P2D4FD926"
+            "P837C3A60"
           ],
           "user_confirmed_use": [],
           "mention_only": [],
@@ -7077,7 +6840,7 @@
       "zero_count_meaning": "0仅表示当前文献目录中没有符合该证据门槛的记录；不是全领域无人使用，也不是搜索穷尽。",
       "association_ids": [
         "L17",
-        "P2D4FD926"
+        "P837C3A60"
       ],
       "entity_interpretation": "按现有品牌/实体标签分别计数",
       "evidence_role_counts": {
@@ -7150,21 +6913,259 @@
       }
     },
     {
-      "id": "octotelematics",
-      "name": "Octotelematics",
+      "id": "google",
+      "name": "Google",
       "region": "overseas",
       "profile_group": "additional_role_or_boundary",
-      "supply_chain_role": "车辆GPS；不属于手机SDK核心样本",
+      "supply_chain_role": "平台定位衍生统计；所核论文仅使用公开论文中的位移统计",
       "counts": {
-        "confirmed_use": 1,
+        "confirmed_use": 3,
         "user_confirmed_use": 0,
         "mention_only": 0,
         "unresolved_candidate": 0
       },
       "paper_ids": {
         "confirmed_use": [
-          "L17"
+          "L17",
+          "P2D4FD926",
+          "P837C3A60"
         ],
+        "user_confirmed_use": [],
+        "mention_only": [],
+        "unresolved_candidate": []
+      },
+      "role_counts": {
+        "mobility": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "mixed_mobility": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "poi": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "distribution": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "access_contact": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "platform_aggregate": {
+          "confirmed_use": 3,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "vehicle_gps": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "indoor_positioning": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "demographic_profile": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "comparison_reference": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "unknown": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        }
+      },
+      "role_paper_ids": {
+        "mobility": {
+          "confirmed_use": [],
+          "user_confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "mixed_mobility": {
+          "confirmed_use": [],
+          "user_confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "poi": {
+          "confirmed_use": [],
+          "user_confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "distribution": {
+          "confirmed_use": [],
+          "user_confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "access_contact": {
+          "confirmed_use": [],
+          "user_confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "platform_aggregate": {
+          "confirmed_use": [
+            "L17",
+            "P2D4FD926",
+            "P837C3A60"
+          ],
+          "user_confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "vehicle_gps": {
+          "confirmed_use": [],
+          "user_confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "indoor_positioning": {
+          "confirmed_use": [],
+          "user_confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "demographic_profile": {
+          "confirmed_use": [],
+          "user_confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "comparison_reference": {
+          "confirmed_use": [],
+          "user_confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "unknown": {
+          "confirmed_use": [],
+          "user_confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        }
+      },
+      "confirmed_mobility_use": 0,
+      "confirmed_mixed_mobility_use": 0,
+      "zero_count_meaning": "0仅表示当前文献目录中没有符合该证据门槛的记录；不是全领域无人使用，也不是搜索穷尽。",
+      "association_ids": [
+        "P2D4FD926",
+        "L17",
+        "P837C3A60"
+      ],
+      "entity_interpretation": "按现有品牌/实体标签分别计数",
+      "evidence_role_counts": {
+        "mobility": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "mixed_mobility": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "poi": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "distribution": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "access_contact": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "platform_aggregate": {
+          "confirmed_use": 3,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "vehicle_gps": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "indoor_positioning": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "demographic_profile": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "comparison_reference": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "unknown": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        }
+      }
+    },
+    {
+      "id": "octotelematics",
+      "name": "Octotelematics",
+      "region": "overseas",
+      "profile_group": "additional_role_or_boundary",
+      "supply_chain_role": "车辆GPS；不属于手机SDK核心样本",
+      "counts": {
+        "confirmed_use": 0,
+        "user_confirmed_use": 0,
+        "mention_only": 0,
+        "unresolved_candidate": 0
+      },
+      "paper_ids": {
+        "confirmed_use": [],
         "user_confirmed_use": [],
         "mention_only": [],
         "unresolved_candidate": []
@@ -7207,7 +7208,7 @@
           "unresolved_candidate": 0
         },
         "vehicle_gps": {
-          "confirmed_use": 1,
+          "confirmed_use": 0,
           "user_confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -7275,9 +7276,7 @@
           "unresolved_candidate": []
         },
         "vehicle_gps": {
-          "confirmed_use": [
-            "L17"
-          ],
+          "confirmed_use": [],
           "user_confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -7310,9 +7309,7 @@
       "confirmed_mobility_use": 0,
       "confirmed_mixed_mobility_use": 0,
       "zero_count_meaning": "0仅表示当前文献目录中没有符合该证据门槛的记录；不是全领域无人使用，也不是搜索穷尽。",
-      "association_ids": [
-        "L17"
-      ],
+      "association_ids": [],
       "entity_interpretation": "按现有品牌/实体标签分别计数",
       "evidence_role_counts": {
         "mobility": {
@@ -7352,7 +7349,7 @@
           "unresolved_candidate": 0
         },
         "vehicle_gps": {
-          "confirmed_use": 1,
+          "confirmed_use": 0,
           "user_confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -7390,13 +7387,14 @@
       "profile_group": "additional_role_or_boundary",
       "supply_chain_role": "手机位置衍生的地域聚合移动距离及归一化指标；当前已核正文为地域统计使用，不是研究者持有逐人原始轨迹",
       "counts": {
-        "confirmed_use": 2,
+        "confirmed_use": 3,
         "user_confirmed_use": 0,
         "mention_only": 0,
         "unresolved_candidate": 0
       },
       "paper_ids": {
         "confirmed_use": [
+          "P837C3A60",
           "PC3073275",
           "PFDDDACD2"
         ],
@@ -7436,7 +7434,7 @@
           "unresolved_candidate": 0
         },
         "platform_aggregate": {
-          "confirmed_use": 0,
+          "confirmed_use": 1,
           "user_confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -7507,7 +7505,9 @@
           "unresolved_candidate": []
         },
         "platform_aggregate": {
-          "confirmed_use": [],
+          "confirmed_use": [
+            "P837C3A60"
+          ],
           "user_confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -7548,7 +7548,8 @@
       "zero_count_meaning": "0仅表示当前文献目录中没有符合该证据门槛的记录；不是全领域无人使用，也不是搜索穷尽。",
       "association_ids": [
         "PFDDDACD2",
-        "PC3073275"
+        "PC3073275",
+        "P837C3A60"
       ],
       "entity_interpretation": "按现有品牌/实体标签分别计数",
       "evidence_role_counts": {
@@ -7583,7 +7584,7 @@
           "unresolved_candidate": 0
         },
         "platform_aggregate": {
-          "confirmed_use": 0,
+          "confirmed_use": 1,
           "user_confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -8118,7 +8119,243 @@
       },
       "role_counts": {
         "mobility": {
-          "confirmed_use": 1,
+          "confirmed_use": 2,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "mixed_mobility": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "poi": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "distribution": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "access_contact": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "platform_aggregate": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "vehicle_gps": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "indoor_positioning": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "demographic_profile": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "comparison_reference": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "unknown": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        }
+      },
+      "role_paper_ids": {
+        "mobility": {
+          "confirmed_use": [
+            "L81",
+            "L82"
+          ],
+          "user_confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "mixed_mobility": {
+          "confirmed_use": [],
+          "user_confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "poi": {
+          "confirmed_use": [],
+          "user_confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "distribution": {
+          "confirmed_use": [],
+          "user_confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "access_contact": {
+          "confirmed_use": [],
+          "user_confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "platform_aggregate": {
+          "confirmed_use": [],
+          "user_confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "vehicle_gps": {
+          "confirmed_use": [],
+          "user_confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "indoor_positioning": {
+          "confirmed_use": [],
+          "user_confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "demographic_profile": {
+          "confirmed_use": [],
+          "user_confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "comparison_reference": {
+          "confirmed_use": [],
+          "user_confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "unknown": {
+          "confirmed_use": [],
+          "user_confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        }
+      },
+      "confirmed_mobility_use": 2,
+      "confirmed_mixed_mobility_use": 0,
+      "zero_count_meaning": "0仅表示当前文献目录中没有符合该证据门槛的记录；不是全领域无人使用，也不是搜索穷尽。",
+      "association_ids": [
+        "L82",
+        "L81"
+      ],
+      "entity_interpretation": "按现有品牌/实体标签分别计数",
+      "evidence_role_counts": {
+        "mobility": {
+          "confirmed_use": 2,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "mixed_mobility": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "poi": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "distribution": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "access_contact": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "platform_aggregate": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "vehicle_gps": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "indoor_positioning": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "demographic_profile": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "comparison_reference": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "unknown": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        }
+      }
+    },
+    {
+      "id": "apple",
+      "name": "Apple Mobility Trends",
+      "region": "overseas",
+      "profile_group": "platform_aggregate",
+      "supply_chain_role": "地图路线请求聚合指标；非个体轨迹",
+      "counts": {
+        "confirmed_use": 1,
+        "user_confirmed_use": 0,
+        "mention_only": 0,
+        "unresolved_candidate": 0
+      },
+      "paper_ids": {
+        "confirmed_use": [
+          "P837C3A60"
+        ],
+        "user_confirmed_use": [],
+        "mention_only": [],
+        "unresolved_candidate": []
+      },
+      "role_counts": {
+        "mobility": {
+          "confirmed_use": 0,
           "user_confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -8186,9 +8423,7 @@
       },
       "role_paper_ids": {
         "mobility": {
-          "confirmed_use": [
-            "L82"
-          ],
+          "confirmed_use": [],
           "user_confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": []
@@ -8219,7 +8454,7 @@
         },
         "platform_aggregate": {
           "confirmed_use": [
-            "L81"
+            "P837C3A60"
           ],
           "user_confirmed_use": [],
           "mention_only": [],
@@ -8256,17 +8491,484 @@
           "unresolved_candidate": []
         }
       },
-      "confirmed_mobility_use": 1,
+      "confirmed_mobility_use": 0,
       "confirmed_mixed_mobility_use": 0,
       "zero_count_meaning": "0仅表示当前文献目录中没有符合该证据门槛的记录；不是全领域无人使用，也不是搜索穷尽。",
       "association_ids": [
-        "L81",
-        "L82"
+        "P837C3A60"
       ],
       "entity_interpretation": "按现有品牌/实体标签分别计数",
       "evidence_role_counts": {
         "mobility": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "mixed_mobility": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "poi": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "distribution": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "access_contact": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "platform_aggregate": {
           "confirmed_use": 1,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "vehicle_gps": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "indoor_positioning": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "demographic_profile": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "comparison_reference": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "unknown": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        }
+      }
+    },
+    {
+      "id": "placeiq",
+      "name": "PlaceIQ",
+      "region": "overseas",
+      "profile_group": "commercial_mobility",
+      "supply_chain_role": "商业位置数据派生移动指标",
+      "counts": {
+        "confirmed_use": 1,
+        "user_confirmed_use": 0,
+        "mention_only": 0,
+        "unresolved_candidate": 0
+      },
+      "paper_ids": {
+        "confirmed_use": [
+          "P837C3A60"
+        ],
+        "user_confirmed_use": [],
+        "mention_only": [],
+        "unresolved_candidate": []
+      },
+      "role_counts": {
+        "mobility": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "mixed_mobility": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "poi": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "distribution": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "access_contact": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "platform_aggregate": {
+          "confirmed_use": 1,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "vehicle_gps": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "indoor_positioning": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "demographic_profile": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "comparison_reference": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "unknown": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        }
+      },
+      "role_paper_ids": {
+        "mobility": {
+          "confirmed_use": [],
+          "user_confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "mixed_mobility": {
+          "confirmed_use": [],
+          "user_confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "poi": {
+          "confirmed_use": [],
+          "user_confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "distribution": {
+          "confirmed_use": [],
+          "user_confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "access_contact": {
+          "confirmed_use": [],
+          "user_confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "platform_aggregate": {
+          "confirmed_use": [
+            "P837C3A60"
+          ],
+          "user_confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "vehicle_gps": {
+          "confirmed_use": [],
+          "user_confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "indoor_positioning": {
+          "confirmed_use": [],
+          "user_confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "demographic_profile": {
+          "confirmed_use": [],
+          "user_confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "comparison_reference": {
+          "confirmed_use": [],
+          "user_confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "unknown": {
+          "confirmed_use": [],
+          "user_confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        }
+      },
+      "confirmed_mobility_use": 0,
+      "confirmed_mixed_mobility_use": 0,
+      "zero_count_meaning": "0仅表示当前文献目录中没有符合该证据门槛的记录；不是全领域无人使用，也不是搜索穷尽。",
+      "association_ids": [
+        "P837C3A60"
+      ],
+      "entity_interpretation": "按现有品牌/实体标签分别计数",
+      "evidence_role_counts": {
+        "mobility": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "mixed_mobility": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "poi": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "distribution": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "access_contact": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "platform_aggregate": {
+          "confirmed_use": 1,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "vehicle_gps": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "indoor_positioning": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "demographic_profile": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "comparison_reference": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "unknown": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        }
+      }
+    },
+    {
+      "id": "maryland_mobility",
+      "name": "University of Maryland mobility metrics",
+      "region": "overseas",
+      "profile_group": "derived_research_data",
+      "supply_chain_role": "研究机构派生移动指标；非独立商业采集商",
+      "counts": {
+        "confirmed_use": 1,
+        "user_confirmed_use": 0,
+        "mention_only": 0,
+        "unresolved_candidate": 0
+      },
+      "paper_ids": {
+        "confirmed_use": [
+          "P837C3A60"
+        ],
+        "user_confirmed_use": [],
+        "mention_only": [],
+        "unresolved_candidate": []
+      },
+      "role_counts": {
+        "mobility": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "mixed_mobility": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "poi": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "distribution": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "access_contact": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "platform_aggregate": {
+          "confirmed_use": 1,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "vehicle_gps": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "indoor_positioning": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "demographic_profile": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "comparison_reference": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        },
+        "unknown": {
+          "confirmed_use": 0,
+          "user_confirmed_use": 0,
+          "mention_only": 0,
+          "unresolved_candidate": 0
+        }
+      },
+      "role_paper_ids": {
+        "mobility": {
+          "confirmed_use": [],
+          "user_confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "mixed_mobility": {
+          "confirmed_use": [],
+          "user_confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "poi": {
+          "confirmed_use": [],
+          "user_confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "distribution": {
+          "confirmed_use": [],
+          "user_confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "access_contact": {
+          "confirmed_use": [],
+          "user_confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "platform_aggregate": {
+          "confirmed_use": [
+            "P837C3A60"
+          ],
+          "user_confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "vehicle_gps": {
+          "confirmed_use": [],
+          "user_confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "indoor_positioning": {
+          "confirmed_use": [],
+          "user_confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "demographic_profile": {
+          "confirmed_use": [],
+          "user_confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "comparison_reference": {
+          "confirmed_use": [],
+          "user_confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        },
+        "unknown": {
+          "confirmed_use": [],
+          "user_confirmed_use": [],
+          "mention_only": [],
+          "unresolved_candidate": []
+        }
+      },
+      "confirmed_mobility_use": 0,
+      "confirmed_mixed_mobility_use": 0,
+      "zero_count_meaning": "0仅表示当前文献目录中没有符合该证据门槛的记录；不是全领域无人使用，也不是搜索穷尽。",
+      "association_ids": [
+        "P837C3A60"
+      ],
+      "entity_interpretation": "按现有品牌/实体标签分别计数",
+      "evidence_role_counts": {
+        "mobility": {
+          "confirmed_use": 0,
           "user_confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -8718,710 +9420,6 @@
     }
   ],
   "associations": [
-    {
-      "paper_id": "L01",
-      "paper_title": "The effect of partisanship and political advertising on close family ties",
-      "doi": "10.1126/science.aaq1433",
-      "provider_id": "safegraph",
-      "provider_name": "SafeGraph",
-      "status": "confirmed_use",
-      "classification": "confirmed_use",
-      "role": "mobility",
-      "roles": [
-        "mobility"
-      ],
-      "declared_brands": [
-        "SafeGraph"
-      ],
-      "evidence_url": "https://www.anderson.ucla.edu/faculty_pages/keith.chen/papers/Final_Science18.pdf",
-      "evidence_section": "Main text location-data paragraph; acknowledgments and data availability；PDF页1,4",
-      "basis": "作者论文及复现说明确认SafeGraph；检索可见应用采集表述。",
-      "catalog_status": "reviewed",
-      "scope": "phone_location_or_derivative",
-      "data_access_relationship": "source_dataset_or_derived_product",
-      "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": true,
-      "zotero_attachment_verified": false
-    },
-    {
-      "paper_id": "L02",
-      "paper_title": "Multiscale dynamic human mobility flow dataset in the U.S. during the COVID-19 epidemic",
-      "doi": "10.1038/s41597-020-00734-5",
-      "provider_id": "safegraph",
-      "provider_name": "SafeGraph",
-      "status": "confirmed_use",
-      "classification": "confirmed_use",
-      "role": "mobility",
-      "roles": [
-        "mobility"
-      ],
-      "declared_brands": [
-        "SafeGraph"
-      ],
-      "evidence_url": "https://www.nature.com/articles/s41597-020-00734-5",
-      "evidence_section": "Methods/Track place visits；Compute visitor flows；Multiscale aggregation；PDF页2,3",
-      "basis": "正文明确SafeGraph从多个手机应用收集匿名GPS ping；作者将日CBG–CBG与周CBG–POI访客表聚合成多尺度OD。",
-      "catalog_status": "reviewed",
-      "scope": "phone_location_or_derivative",
-      "data_access_relationship": "source_dataset_or_derived_product",
-      "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": true,
-      "zotero_attachment_verified": false
-    },
-    {
-      "paper_id": "L03",
-      "paper_title": "Mobility network models of COVID-19 explain inequities and inform reopening",
-      "doi": "10.1038/s41586-020-2923-3",
-      "provider_id": "safegraph",
-      "provider_name": "SafeGraph",
-      "status": "confirmed_use",
-      "classification": "confirmed_use",
-      "role": "mobility",
-      "roles": [
-        "mobility"
-      ],
-      "declared_brands": [
-        "SafeGraph"
-      ],
-      "evidence_url": "https://www.nature.com/articles/s41586-020-2923-3",
-      "evidence_section": "Mobility network model；Methods/Datasets/SafeGraph；Data ethics；Overview of the network estimation；PDF页2,7,8",
-      "basis": "正文明确SafeGraph汇集自愿授权手机应用位置；作者使用Places Patterns、Weekly Patterns (v1)及Social Distancing Metrics，并以IPFP估计小时CBG–POI访问矩阵。",
-      "catalog_status": "reviewed",
-      "scope": "phone_location_or_derivative",
-      "data_access_relationship": "source_dataset_or_derived_product",
-      "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": true,
-      "zotero_attachment_verified": false
-    },
-    {
-      "paper_id": "L07",
-      "paper_title": "Face-to-face interactions and the returns to acquisitions: Evidence from smartphone geolocational data",
-      "doi": "10.1002/smj.3435",
-      "provider_id": "safegraph",
-      "provider_name": "SafeGraph",
-      "status": "confirmed_use",
-      "classification": "confirmed_use",
-      "role": "mobility",
-      "roles": [
-        "mobility"
-      ],
-      "declared_brands": [
-        "SafeGraph"
-      ],
-      "evidence_url": "https://doi.org/10.1002/smj.3435",
-      "evidence_section": "3.1.2 Smartphone data；3.2–3.3",
-      "basis": "3.1.2直接说明从多个iOS/Android应用汇集位置。",
-      "catalog_status": "reviewed",
-      "scope": "phone_location_or_derivative",
-      "data_access_relationship": "source_dataset_or_derived_product",
-      "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": false,
-      "zotero_attachment_verified": false
-    },
-    {
-      "paper_id": "L08",
-      "paper_title": "Spatial and Temporal Characterization of Activity in Public Space, 2019–2020",
-      "doi": "10.1038/s41597-022-01480-6",
-      "provider_id": "safegraph",
-      "provider_name": "SafeGraph",
-      "status": "confirmed_use",
-      "classification": "confirmed_use",
-      "role": "mobility",
-      "roles": [
-        "mobility"
-      ],
-      "declared_brands": [
-        "SafeGraph"
-      ],
-      "evidence_url": "https://www.nature.com/articles/s41597-022-01480-6",
-      "evidence_section": "Methods/Device-level information；Data Records；Technical Validation",
-      "basis": "方法明确数据由一组手机应用按各自调度与设置记录；面板随应用变化。",
-      "catalog_status": "reviewed",
-      "scope": "phone_location_or_derivative",
-      "data_access_relationship": "source_dataset_or_derived_product",
-      "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": false,
-      "zotero_attachment_verified": false
-    },
-    {
-      "paper_id": "L09",
-      "paper_title": "Deriving neighborhood-level diet and physical activity measurements from anonymized mobile phone location data for enhancing obesity estimation",
-      "doi": "10.1186/s12942-022-00321-4",
-      "provider_id": "safegraph",
-      "provider_name": "SafeGraph",
-      "status": "confirmed_use",
-      "classification": "confirmed_use",
-      "role": "mobility",
-      "roles": [
-        "mobility"
-      ],
-      "declared_brands": [
-        "SafeGraph"
-      ],
-      "evidence_url": "https://link.springer.com/article/10.1186/s12942-022-00321-4",
-      "evidence_section": "Data；mobile phone-derived measurements；Data availability",
-      "basis": "正文说明只取得POI访问与来源tract，无个体GPS轨迹。",
-      "catalog_status": "reviewed",
-      "scope": "phone_location_or_derivative",
-      "data_access_relationship": "source_dataset_or_derived_product",
-      "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": false,
-      "zotero_attachment_verified": false
-    },
-    {
-      "paper_id": "L11",
-      "paper_title": "Human mobility networks reveal increased segregation in large cities",
-      "doi": "10.1038/s41586-023-06757-3",
-      "provider_id": "safegraph",
-      "provider_name": "SafeGraph",
-      "status": "confirmed_use",
-      "classification": "confirmed_use",
-      "role": "mobility",
-      "roles": [
-        "mobility"
-      ],
-      "declared_brands": [
-        "SafeGraph"
-      ],
-      "evidence_url": "https://www.nature.com/articles/s41586-023-06757-3",
-      "evidence_section": "Methods/Datasets/SafeGraph；Constructing exposure network",
-      "basis": "出版社方法索引明确应用采集并提供去标识GPS。",
-      "catalog_status": "reviewed",
-      "scope": "phone_location_or_derivative",
-      "data_access_relationship": "source_dataset_or_derived_product",
-      "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": false,
-      "zotero_attachment_verified": false
-    },
-    {
-      "paper_id": "L12",
-      "paper_title": "Change of urban park usage as a response to the COVID-19 global pandemic",
-      "doi": "10.1038/s41598-023-46745-1",
-      "provider_id": "safegraph",
-      "provider_name": "SafeGraph",
-      "status": "confirmed_use",
-      "classification": "confirmed_use",
-      "role": "mobility",
-      "roles": [
-        "mobility"
-      ],
-      "declared_brands": [
-        "SafeGraph"
-      ],
-      "evidence_url": "https://www.nature.com/articles/s41598-023-46745-1",
-      "evidence_section": "Data and methods；PDF页9",
-      "basis": "原始方法索引明确SafeGraph聚合多个应用匿名位置。",
-      "catalog_status": "reviewed",
-      "scope": "phone_location_or_derivative",
-      "data_access_relationship": "source_dataset_or_derived_product",
-      "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": true,
-      "zotero_attachment_verified": false
-    },
-    {
-      "paper_id": "L05",
-      "paper_title": "Understanding vehicular routing behavior with location-based service data",
-      "doi": "10.1140/epjds/s13688-021-00267-w",
-      "provider_id": "cuebiq_spectus",
-      "provider_name": "Cuebiq / Spectus",
-      "status": "confirmed_use",
-      "classification": "confirmed_use",
-      "role": "mobility",
-      "roles": [
-        "mobility"
-      ],
-      "declared_brands": [
-        "Cuebiq"
-      ],
-      "evidence_url": "https://link.springer.com/article/10.1140/epjds/s13688-021-00267-w",
-      "evidence_section": "Introduction；2 Data description；3 Methodology",
-      "basis": "正文明确多应用前后台采集，定位为GPS或WPS。",
-      "catalog_status": "reviewed",
-      "scope": "phone_location_or_derivative",
-      "data_access_relationship": "source_dataset_or_derived_product",
-      "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": false,
-      "zotero_attachment_verified": false
-    },
-    {
-      "paper_id": "L06",
-      "paper_title": "Mobility patterns are associated with experienced income segregation in large US cities",
-      "doi": "10.1038/s41467-021-24899-8",
-      "provider_id": "cuebiq_spectus",
-      "provider_name": "Cuebiq / Spectus",
-      "status": "confirmed_use",
-      "classification": "confirmed_use",
-      "role": "mobility",
-      "roles": [
-        "mobility"
-      ],
-      "declared_brands": [
-        "Cuebiq"
-      ],
-      "evidence_url": "https://www.nature.com/articles/s41467-021-24899-8",
-      "evidence_section": "Methods/Mobility data；Home and visits extraction",
-      "basis": "方法明确来自自愿应用用户的GPS位置；Foursquare仅为POI来源。",
-      "catalog_status": "reviewed",
-      "scope": "phone_location_or_derivative",
-      "data_access_relationship": "source_dataset_or_derived_product",
-      "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": false,
-      "zotero_attachment_verified": false
-    },
-    {
-      "paper_id": "L10",
-      "paper_title": "On selection bias in comparison measures of smartphone-generated population mobility: an illustration of no-bias conditions with a commercial data source",
-      "doi": "10.1016/j.annepidem.2022.03.003",
-      "provider_id": "cuebiq_spectus",
-      "provider_name": "Cuebiq / Spectus",
-      "status": "confirmed_use",
-      "classification": "confirmed_use",
-      "role": "mobility",
-      "roles": [
-        "mobility"
-      ],
-      "declared_brands": [
-        "Cuebiq"
-      ],
-      "evidence_url": "https://pubmed.ncbi.nlm.nih.gov/35288279/",
-      "evidence_section": "Abstract",
-      "basis": "摘要直接说明Cuebiq数据用于比较指标的无偏条件示例。",
-      "catalog_status": "reviewed",
-      "scope": "phone_location_or_derivative",
-      "data_access_relationship": "source_dataset_or_derived_product",
-      "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": false,
-      "zotero_attachment_verified": false
-    },
-    {
-      "paper_id": "L15",
-      "paper_title": "Returners and explorers dichotomy in the face of natural hazards",
-      "doi": "10.1038/s41598-024-64087-4",
-      "provider_id": "cuebiq_spectus",
-      "provider_name": "Cuebiq / Spectus",
-      "status": "confirmed_use",
-      "classification": "confirmed_use",
-      "role": "mobility",
-      "roles": [
-        "mobility"
-      ],
-      "declared_brands": [
-        "Cuebiq"
-      ],
-      "evidence_url": "https://www.nature.com/articles/s41598-024-64087-4",
-      "evidence_section": "Methods/Date and preprocessing",
-      "basis": "方法明确多个应用自愿提供GPS，并含供应商停留表。",
-      "catalog_status": "reviewed",
-      "scope": "phone_location_or_derivative",
-      "data_access_relationship": "source_dataset_or_derived_product",
-      "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": false,
-      "zotero_attachment_verified": false
-    },
-    {
-      "paper_id": "L18",
-      "paper_title": "Mixing individual and collective behaviors to predict out-of-routine mobility",
-      "doi": "10.1073/pnas.2414848122",
-      "provider_id": "cuebiq_spectus",
-      "provider_name": "Cuebiq / Spectus",
-      "status": "confirmed_use",
-      "classification": "confirmed_use",
-      "role": "mobility",
-      "roles": [
-        "mobility"
-      ],
-      "declared_brands": [
-        "Cuebiq"
-      ],
-      "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12054799/",
-      "evidence_section": "Materials and Methods/Stop Location Detection；Data availability",
-      "basis": "方法索引说明隐私增强GPS与自愿同意，未在本轮段落单独说明SDK。",
-      "catalog_status": "reviewed",
-      "scope": "phone_location_or_derivative",
-      "data_access_relationship": "source_dataset_or_derived_product",
-      "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": false,
-      "zotero_attachment_verified": false
-    },
-    {
-      "paper_id": "L23",
-      "paper_title": "Characterizing collective physical distancing in the U.S. during the first nine months of the COVID-19 pandemic",
-      "doi": "10.1371/journal.pdig.0000430",
-      "provider_id": "cuebiq_spectus",
-      "provider_name": "Cuebiq / Spectus",
-      "status": "confirmed_use",
-      "classification": "confirmed_use",
-      "role": "mobility",
-      "roles": [
-        "mobility"
-      ],
-      "declared_brands": [
-        "Cuebiq"
-      ],
-      "evidence_url": "https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000430",
-      "evidence_section": "Materials and methods—Mobility data, commute and social mixing；PDF页3,4,5",
-      "basis": "Methods明确自有定位SDK嵌入合作应用，且用户授权向Cuebiq分享研究数据。",
-      "catalog_status": "reviewed",
-      "scope": "phone_location_or_derivative",
-      "data_access_relationship": "source_dataset_or_derived_product",
-      "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": true,
-      "zotero_attachment_verified": false
-    },
-    {
-      "paper_id": "L04",
-      "paper_title": "Nursing home staff networks and COVID-19",
-      "doi": "10.1073/pnas.2015455118",
-      "provider_id": "veraset",
-      "provider_name": "Veraset",
-      "status": "confirmed_use",
-      "classification": "confirmed_use",
-      "role": "mobility",
-      "roles": [
-        "mobility"
-      ],
-      "declared_brands": [
-        "Veraset"
-      ],
-      "evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7817179/",
-      "evidence_section": "Materials and Methods/Smartphone Location Data",
-      "basis": "方法明确Veraset整合Apple/Android多个应用的自愿数据。",
-      "catalog_status": "reviewed",
-      "scope": "phone_location_or_derivative",
-      "data_access_relationship": "source_dataset",
-      "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": false,
-      "zotero_attachment_verified": false
-    },
-    {
-      "paper_id": "L06",
-      "paper_title": "Mobility patterns are associated with experienced income segregation in large US cities",
-      "doi": "10.1038/s41467-021-24899-8",
-      "provider_id": "foursquare",
-      "provider_name": "Foursquare",
-      "status": "confirmed_use",
-      "classification": "confirmed_use",
-      "role": "poi",
-      "roles": [
-        "poi"
-      ],
-      "declared_brands": [
-        "Foursquare"
-      ],
-      "evidence_url": "https://www.nature.com/articles/s41467-021-24899-8",
-      "evidence_section": "Methods/Mobility data；Home and visits extraction",
-      "basis": "方法中Foursquare用于场所位置/属性匹配；移动轨迹供应商为Cuebiq。",
-      "catalog_status": "reviewed",
-      "scope": "poi_context_not_phone_trace",
-      "data_access_relationship": "poi_database",
-      "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": false,
-      "zotero_attachment_verified": false
-    },
-    {
-      "paper_id": "L14",
-      "paper_title": "An experienced racial-ethnic diversity dataset in the United States using human mobility data",
-      "doi": "10.1038/s41597-024-03490-y",
-      "provider_id": "cuebiq_spectus",
-      "provider_name": "Cuebiq / Spectus",
-      "status": "confirmed_use",
-      "classification": "confirmed_use",
-      "role": "mobility",
-      "roles": [
-        "mobility"
-      ],
-      "declared_brands": [
-        "Cuebiq",
-        "Spectus"
-      ],
-      "evidence_url": "https://www.nature.com/articles/s41597-024-03490-y",
-      "evidence_section": "Methods；Code availability",
-      "basis": "方法明确使用Spectus Clean Room Stay Location Dataset；来源链表述Cuebiq/Spectus，计作同一展示组内的一篇研究。",
-      "catalog_status": "reviewed",
-      "scope": "phone_location_or_derivative",
-      "data_access_relationship": "clean_room",
-      "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": false,
-      "zotero_attachment_verified": false
-    },
-    {
-      "paper_id": "L17",
-      "paper_title": "Distorted insights from human mobility data",
-      "doi": "10.1038/s42005-024-01909-x",
-      "provider_id": "cuebiq_spectus",
-      "provider_name": "Cuebiq / Spectus",
-      "status": "confirmed_use",
-      "classification": "confirmed_use",
-      "role": "mobility",
-      "roles": [
-        "mobility"
-      ],
-      "declared_brands": [
-        "Cuebiq"
-      ],
-      "evidence_url": "https://www.nature.com/articles/s42005-024-01909-x",
-      "evidence_section": "Methods/Datasets/Cuebiq；PDF页6–7",
-      "basis": "Methods/Cuebiq：意大利使用Pepe等处理后的Cuebiq-HDR周省级流，美国使用Cuebiq提供的周县级流。",
-      "catalog_status": "reviewed",
-      "scope": "phone_location_or_derivative",
-      "data_access_relationship": "derived_flow_reuse",
-      "data_reuse_note": "意大利派生流来自Pepe等；不是一套新独立面板",
-      "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": true,
-      "zotero_attachment_verified": false
-    },
-    {
-      "paper_id": "L17",
-      "paper_title": "Distorted insights from human mobility data",
-      "doi": "10.1038/s42005-024-01909-x",
-      "provider_id": "safegraph",
-      "provider_name": "SafeGraph",
-      "status": "confirmed_use",
-      "classification": "confirmed_use",
-      "role": "mobility",
-      "roles": [
-        "mobility"
-      ],
-      "declared_brands": [
-        "SafeGraph"
-      ],
-      "evidence_url": "https://www.nature.com/articles/s42005-024-01909-x",
-      "evidence_section": "Methods/Datasets/Safegraph；PDF页7",
-      "basis": "Methods/Safegraph明确使用Kang等公开的周县级聚合流；属于SafeGraph衍生数据复用。",
-      "catalog_status": "reviewed",
-      "scope": "phone_location_or_derivative",
-      "data_access_relationship": "secondary_derived_flow",
-      "data_reuse_note": "复用L02发布的派生流；论文计数不等于独立数据集计数",
-      "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": true,
-      "zotero_attachment_verified": false
-    },
-    {
-      "paper_id": "L17",
-      "paper_title": "Distorted insights from human mobility data",
-      "doi": "10.1038/s42005-024-01909-x",
-      "provider_id": "facebook",
-      "provider_name": "Facebook / Meta Data for Good",
-      "status": "confirmed_use",
-      "classification": "confirmed_use",
-      "role": "platform_aggregate",
-      "roles": [
-        "platform_aggregate"
-      ],
-      "declared_brands": [
-        "Facebook"
-      ],
-      "evidence_url": "https://www.nature.com/articles/s42005-024-01909-x",
-      "evidence_section": "Methods/Datasets/Facebook；PDF页6",
-      "basis": "Methods/Facebook明确采用行政区之间的长期移动流网络，将8小时流聚合为周流。",
-      "catalog_status": "reviewed",
-      "scope": "platform_location_derivative",
-      "data_access_relationship": "aggregated_network",
-      "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": true,
-      "zotero_attachment_verified": false
-    },
-    {
-      "paper_id": "L17",
-      "paper_title": "Distorted insights from human mobility data",
-      "doi": "10.1038/s42005-024-01909-x",
-      "provider_id": "google",
-      "provider_name": "Google",
-      "status": "confirmed_use",
-      "classification": "confirmed_use",
-      "role": "platform_aggregate",
-      "roles": [
-        "platform_aggregate"
-      ],
-      "declared_brands": [
-        "Google"
-      ],
-      "evidence_url": "https://www.nature.com/articles/s42005-024-01909-x",
-      "evidence_section": "Methods/Datasets/Google datasets；PDF页6",
-      "basis": "作者明确未取得Google原始数据，而采用被引研究已发布的位移统计进行比较；仅证实二次统计使用。",
-      "catalog_status": "reviewed",
-      "scope": "platform_statistics_secondary_use",
-      "data_access_relationship": "published_statistics_only",
-      "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": true,
-      "zotero_attachment_verified": false
-    },
-    {
-      "paper_id": "L17",
-      "paper_title": "Distorted insights from human mobility data",
-      "doi": "10.1038/s42005-024-01909-x",
-      "provider_id": "octotelematics",
-      "provider_name": "Octotelematics",
-      "status": "confirmed_use",
-      "classification": "confirmed_use",
-      "role": "vehicle_gps",
-      "roles": [
-        "vehicle_gps"
-      ],
-      "declared_brands": [
-        "Octotelematics"
-      ],
-      "evidence_url": "https://www.nature.com/articles/s42005-024-01909-x",
-      "evidence_section": "Methods/Datasets/GPS data；PDF页6",
-      "basis": "Methods/GPS data说明分析既有文献公布的意大利车辆位移统计；不是手机SDK轨迹。",
-      "catalog_status": "reviewed",
-      "scope": "vehicle_gps_outside_phone_sdk_core",
-      "data_access_relationship": "published_statistics_only",
-      "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": true,
-      "zotero_attachment_verified": false
-    },
-    {
-      "paper_id": "L19",
-      "paper_title": "Designing transit routes based on vehicle routing behavior determined through location-based services data",
-      "doi": "10.1140/epjds/s13688-025-00559-5",
-      "provider_id": "cuebiq_spectus",
-      "provider_name": "Cuebiq / Spectus",
-      "status": "confirmed_use",
-      "classification": "confirmed_use",
-      "role": "mobility",
-      "roles": [
-        "mobility"
-      ],
-      "declared_brands": [
-        "Cuebiq"
-      ],
-      "evidence_url": "https://link.springer.com/article/10.1140/epjds/s13688-025-00559-5",
-      "evidence_section": "3.2 LBS data in Dallas, Texas；PDF页8",
-      "basis": "3.2明确复用Xu等处理后的Cuebiq Dallas-Fort Worth LBS数据。",
-      "catalog_status": "reviewed",
-      "scope": "phone_location_or_derivative",
-      "data_access_relationship": "secondary_processed_data",
-      "data_reuse_note": "同L05原始数据；是另一篇研究而不是另一独立采样面板",
-      "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": true,
-      "zotero_attachment_verified": false
-    },
-    {
-      "paper_id": "L20",
-      "paper_title": "Integrating human mobility and animal movement data reveals complex space-use between humans and white-tailed deer in urban environments",
-      "doi": "10.1038/s41598-025-03577-5",
-      "provider_id": "advan",
-      "provider_name": "Advan Research",
-      "status": "confirmed_use",
-      "classification": "confirmed_use",
-      "role": "mobility",
-      "roles": [
-        "mobility"
-      ],
-      "declared_brands": [
-        "Advan"
-      ],
-      "evidence_url": "https://www.nature.com/articles/s41598-025-03577-5",
-      "evidence_section": "Methods/human foot traffic data；PDF页8",
-      "basis": "Methods分别列出Advan Monthly Patterns作为人类POI访问模式数据。",
-      "catalog_status": "reviewed",
-      "scope": "phone_location_or_derivative",
-      "data_access_relationship": "aggregated_visits",
-      "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": true,
-      "zotero_attachment_verified": false
-    },
-    {
-      "paper_id": "L20",
-      "paper_title": "Integrating human mobility and animal movement data reveals complex space-use between humans and white-tailed deer in urban environments",
-      "doi": "10.1038/s41598-025-03577-5",
-      "provider_id": "safegraph",
-      "provider_name": "SafeGraph",
-      "status": "confirmed_use",
-      "classification": "confirmed_use",
-      "role": "poi",
-      "roles": [
-        "poi"
-      ],
-      "declared_brands": [
-        "SafeGraph"
-      ],
-      "evidence_url": "https://www.nature.com/articles/s41598-025-03577-5",
-      "evidence_section": "Methods/human foot traffic data；PDF页8",
-      "basis": "SafeGraph在本研究中提供Places/POI数据库；访问产品由Advan提供，不能计作SafeGraph手机轨迹使用。",
-      "catalog_status": "reviewed",
-      "scope": "poi_context_not_phone_trace",
-      "data_access_relationship": "poi_database",
-      "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": true,
-      "zotero_attachment_verified": false
-    },
-    {
-      "paper_id": "L20",
-      "paper_title": "Integrating human mobility and animal movement data reveals complex space-use between humans and white-tailed deer in urban environments",
-      "doi": "10.1038/s41598-025-03577-5",
-      "provider_id": "dewey",
-      "provider_name": "Dewey",
-      "status": "confirmed_use",
-      "classification": "confirmed_use",
-      "role": "distribution",
-      "roles": [
-        "distribution"
-      ],
-      "declared_brands": [
-        "Dewey"
-      ],
-      "evidence_url": "https://www.nature.com/articles/s41598-025-03577-5",
-      "evidence_section": "Methods/human foot traffic data；PDF页8",
-      "basis": "Methods明确Dewey是Places与Advan Monthly Patterns的获取/分发渠道；不是独立手机采样面板。",
-      "catalog_status": "reviewed",
-      "scope": "distribution_not_collection",
-      "data_access_relationship": "academic_distribution",
-      "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": true,
-      "zotero_attachment_verified": false
-    },
-    {
-      "paper_id": "L24",
-      "paper_title": "Big mobility data reveals hyperlocal air pollution exposure disparities in the Bronx, New York",
-      "doi": "10.1038/s44284-024-00093-x",
-      "provider_id": "cuebiq_spectus",
-      "provider_name": "Cuebiq / Spectus",
-      "status": "confirmed_use",
-      "classification": "confirmed_use",
-      "role": "mobility",
-      "roles": [
-        "mobility"
-      ],
-      "declared_brands": [
-        "Cuebiq",
-        "Spectus"
-      ],
-      "evidence_url": "https://senseable.mit.edu/papers/pdf/20240627_Wang-etal_BigMobility_NatureCities.pdf",
-      "evidence_section": "Methods/Data availability/Reporting summary；PDF页7、9、13",
-      "basis": "Methods与Data availability写Cuebiq；Reporting summary写Spectus。两种名称在同一研究中只计一次，保留各自原文位置。",
-      "catalog_status": "reviewed",
-      "scope": "phone_location_or_derivative",
-      "data_access_relationship": "source_dataset",
-      "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": true,
-      "zotero_attachment_verified": false
-    },
     {
       "paper_id": "L21",
       "paper_title": "Mobile phone data show spatial and socioeconomic inequalities in hospital utilization",
@@ -9966,34 +9964,6 @@
       "primary_source_audit": "原文数据声明已核；第10轮"
     },
     {
-      "paper_id": "L81",
-      "paper_title": "Using Seismic Noise Levels to Monitor Social Isolation: An Example From Rio de Janeiro, Brazil",
-      "doi": "10.1029/2020gl088748",
-      "provider_id": "in_loco",
-      "provider_name": "In Loco",
-      "status": "confirmed_use",
-      "classification": "confirmed_use",
-      "role": "platform_aggregate",
-      "roles": [
-        "platform_aggregate"
-      ],
-      "declared_brands": [
-        "In Loco"
-      ],
-      "evidence_url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2020GL088748",
-      "evidence_section": "§3.1 The Smartphone Index；Acknowledgments；Figure 2",
-      "basis": "§3.1 明确 In Loco SDK，以 GPS、无线及手机传感器定位；研究实际使用城市级居家指数，无个体轨迹访问。用于校准地震噪声与活动联系。",
-      "catalog_status": "reviewed",
-      "scope": "sdk_derived_mobility_index",
-      "data_access_relationship": "city_level_index",
-      "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": false,
-      "zotero_catalog_imported": true,
-      "zotero_attachment_verified": false,
-      "primary_source_audit": "第12轮原文数据方法关键段核验"
-    },
-    {
       "paper_id": "L82",
       "paper_title": "Modeling future spread of infections via mobile geolocation data and population dynamics. An application to COVID-19 in Brazil",
       "doi": "10.1371/journal.pone.0235732",
@@ -10216,246 +10186,6 @@
       "zotero_catalog_imported": true,
       "zotero_attachment_verified": true,
       "primary_source_audit": "第13轮Nature官方PDF及补充核验"
-    },
-    {
-      "paper_id": "P837C3A60",
-      "paper_title": "Assessing COVID-induced changes in spatiotemporal structure of mobility in the United States in 2020: a multi-source analytical framework",
-      "doi": "10.1080/13658816.2021.2005796",
-      "provider_id": "safegraph",
-      "provider_name": "SafeGraph",
-      "status": "unresolved_candidate",
-      "classification": "unresolved_candidate",
-      "role": "unknown",
-      "roles": [
-        "unknown"
-      ],
-      "declared_brands": [
-        "SafeGraph"
-      ],
-      "evidence_url": "https://www.tandfonline.com/doi/full/10.1080/13658816.2021.2005796",
-      "evidence_section": "旧记录legacy_provider_claims；原文证据待核",
-      "basis": "仅来自继承供应商标签；尚未判定本文实际使用、仅讨论、仅引用或旧记录误归。",
-      "catalog_status": "pending",
-      "scope": "pending_source_screening",
-      "data_access_relationship": "unverified",
-      "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": false,
-      "zotero_attachment_verified": false,
-      "candidate_claims": [
-        "SafeGraph (plus Cuebiq/StreetLight/other sources)"
-      ],
-      "evidence_url_status": "paper_landing_link_only_not_attribution_proof"
-    },
-    {
-      "paper_id": "P837C3A60",
-      "paper_title": "Assessing COVID-induced changes in spatiotemporal structure of mobility in the United States in 2020: a multi-source analytical framework",
-      "doi": "10.1080/13658816.2021.2005796",
-      "provider_id": "cuebiq_spectus",
-      "provider_name": "Cuebiq / Spectus",
-      "status": "unresolved_candidate",
-      "classification": "unresolved_candidate",
-      "role": "unknown",
-      "roles": [
-        "unknown"
-      ],
-      "declared_brands": [
-        "Cuebiq / Spectus"
-      ],
-      "evidence_url": "https://www.tandfonline.com/doi/full/10.1080/13658816.2021.2005796",
-      "evidence_section": "旧记录legacy_provider_claims；原文证据待核",
-      "basis": "仅来自继承供应商标签；尚未判定本文实际使用、仅讨论、仅引用或旧记录误归。",
-      "catalog_status": "pending",
-      "scope": "pending_source_screening",
-      "data_access_relationship": "unverified",
-      "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": false,
-      "zotero_attachment_verified": false,
-      "candidate_claims": [
-        "SafeGraph (plus Cuebiq/StreetLight/other sources)"
-      ],
-      "evidence_url_status": "paper_landing_link_only_not_attribution_proof"
-    },
-    {
-      "paper_id": "P837C3A60",
-      "paper_title": "Assessing COVID-induced changes in spatiotemporal structure of mobility in the United States in 2020: a multi-source analytical framework",
-      "doi": "10.1080/13658816.2021.2005796",
-      "provider_id": "streetlight",
-      "provider_name": "StreetLight Data",
-      "status": "unresolved_candidate",
-      "classification": "unresolved_candidate",
-      "role": "unknown",
-      "roles": [
-        "unknown"
-      ],
-      "declared_brands": [
-        "StreetLight Data"
-      ],
-      "evidence_url": "https://www.tandfonline.com/doi/full/10.1080/13658816.2021.2005796",
-      "evidence_section": "旧记录legacy_provider_claims；原文证据待核",
-      "basis": "仅来自继承供应商标签；尚未判定本文实际使用、仅讨论、仅引用或旧记录误归。",
-      "catalog_status": "pending",
-      "scope": "pending_source_screening",
-      "data_access_relationship": "unverified",
-      "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": false,
-      "zotero_attachment_verified": false,
-      "candidate_claims": [
-        "SafeGraph (plus Cuebiq/StreetLight/other sources)"
-      ],
-      "evidence_url_status": "paper_landing_link_only_not_attribution_proof"
-    },
-    {
-      "paper_id": "PAF9C787A",
-      "paper_title": "Strategies and inequities in balancing recreation and COVID exposure when visiting green spaces",
-      "doi": "10.1177/23998083221114645",
-      "provider_id": "safegraph",
-      "provider_name": "SafeGraph",
-      "status": "unresolved_candidate",
-      "classification": "unresolved_candidate",
-      "role": "unknown",
-      "roles": [
-        "unknown"
-      ],
-      "declared_brands": [
-        "SafeGraph"
-      ],
-      "evidence_url": "https://journals.sagepub.com/doi/10.1177/23998083221114645",
-      "evidence_section": "旧记录legacy_provider_claims；原文证据待核",
-      "basis": "仅来自继承供应商标签；尚未判定本文实际使用、仅讨论、仅引用或旧记录误归。",
-      "catalog_status": "pending",
-      "scope": "pending_source_screening",
-      "data_access_relationship": "unverified",
-      "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": false,
-      "zotero_attachment_verified": false,
-      "candidate_claims": [
-        "SafeGraph"
-      ],
-      "evidence_url_status": "paper_landing_link_only_not_attribution_proof"
-    },
-    {
-      "paper_id": "PE7B72F15",
-      "paper_title": "Using mobile phone data to evaluate access to essential services following natural hazards",
-      "doi": "10.1111/risa.14201",
-      "provider_id": "veraset",
-      "provider_name": "Veraset",
-      "status": "unresolved_candidate",
-      "classification": "unresolved_candidate",
-      "role": "unknown",
-      "roles": [
-        "unknown"
-      ],
-      "declared_brands": [
-        "Veraset"
-      ],
-      "evidence_url": "https://onlinelibrary.wiley.com/doi/full/10.1111/risa.14201",
-      "evidence_section": "旧记录legacy_provider_claims；原文证据待核",
-      "basis": "仅来自继承供应商标签；尚未判定本文实际使用、仅讨论、仅引用或旧记录误归。",
-      "catalog_status": "pending",
-      "scope": "pending_source_screening",
-      "data_access_relationship": "unverified",
-      "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": false,
-      "zotero_attachment_verified": false,
-      "candidate_claims": [
-        "Veraset"
-      ],
-      "evidence_url_status": "paper_landing_link_only_not_attribution_proof"
-    },
-    {
-      "paper_id": "PEF9587A5",
-      "paper_title": "Harnessing Human Mobility Data for Applied Economic Research: Current Knowledge, Challenges, and Emerging Opportunities",
-      "doi": "10.1111/joes.70047",
-      "provider_id": "advan",
-      "provider_name": "Advan Research",
-      "status": "unresolved_candidate",
-      "classification": "unresolved_candidate",
-      "role": "unknown",
-      "roles": [
-        "unknown"
-      ],
-      "declared_brands": [
-        "Advan Research"
-      ],
-      "evidence_url": "https://onlinelibrary.wiley.com/doi/full/10.1111/joes.70047",
-      "evidence_section": "旧记录legacy_provider_claims；原文证据待核",
-      "basis": "仅来自继承供应商标签；尚未判定本文实际使用、仅讨论、仅引用或旧记录误归。",
-      "catalog_status": "pending",
-      "scope": "pending_source_screening",
-      "data_access_relationship": "unverified",
-      "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": false,
-      "zotero_attachment_verified": false,
-      "candidate_claims": [
-        "Spectus/Cuebiq; Foursquare; Advan; other vendors"
-      ],
-      "evidence_url_status": "paper_landing_link_only_not_attribution_proof"
-    },
-    {
-      "paper_id": "PEF9587A5",
-      "paper_title": "Harnessing Human Mobility Data for Applied Economic Research: Current Knowledge, Challenges, and Emerging Opportunities",
-      "doi": "10.1111/joes.70047",
-      "provider_id": "cuebiq_spectus",
-      "provider_name": "Cuebiq / Spectus",
-      "status": "unresolved_candidate",
-      "classification": "unresolved_candidate",
-      "role": "unknown",
-      "roles": [
-        "unknown"
-      ],
-      "declared_brands": [
-        "Cuebiq / Spectus"
-      ],
-      "evidence_url": "https://onlinelibrary.wiley.com/doi/full/10.1111/joes.70047",
-      "evidence_section": "旧记录legacy_provider_claims；原文证据待核",
-      "basis": "仅来自继承供应商标签；尚未判定本文实际使用、仅讨论、仅引用或旧记录误归。",
-      "catalog_status": "pending",
-      "scope": "pending_source_screening",
-      "data_access_relationship": "unverified",
-      "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": false,
-      "zotero_attachment_verified": false,
-      "candidate_claims": [
-        "Spectus/Cuebiq; Foursquare; Advan; other vendors"
-      ],
-      "evidence_url_status": "paper_landing_link_only_not_attribution_proof"
-    },
-    {
-      "paper_id": "PEF9587A5",
-      "paper_title": "Harnessing Human Mobility Data for Applied Economic Research: Current Knowledge, Challenges, and Emerging Opportunities",
-      "doi": "10.1111/joes.70047",
-      "provider_id": "foursquare",
-      "provider_name": "Foursquare",
-      "status": "unresolved_candidate",
-      "classification": "unresolved_candidate",
-      "role": "unknown",
-      "roles": [
-        "unknown"
-      ],
-      "declared_brands": [
-        "Foursquare"
-      ],
-      "evidence_url": "https://onlinelibrary.wiley.com/doi/full/10.1111/joes.70047",
-      "evidence_section": "旧记录legacy_provider_claims；原文证据待核",
-      "basis": "仅来自继承供应商标签；尚未判定本文实际使用、仅讨论、仅引用或旧记录误归。",
-      "catalog_status": "pending",
-      "scope": "pending_source_screening",
-      "data_access_relationship": "unverified",
-      "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": false,
-      "zotero_attachment_verified": false,
-      "candidate_claims": [
-        "Spectus/Cuebiq; Foursquare; Advan; other vendors"
-      ],
-      "evidence_url_status": "paper_landing_link_only_not_attribution_proof"
     },
     {
       "paper_id": "PBC87DC0B",
@@ -10908,32 +10638,6 @@
       "evidence_url_status": "paper_landing_link_only_not_attribution_proof"
     },
     {
-      "paper_id": "P76B9708A",
-      "paper_title": "Characterizing urban lifestyle signatures using motif properties in network of places",
-      "doi": "10.1177/23998083231206171",
-      "provider_id": "cuebiq_spectus",
-      "provider_name": "Cuebiq / Spectus",
-      "status": "user_confirmed_use",
-      "classification": "user_confirmed_use",
-      "role": "mobility",
-      "roles": [
-        "mobility"
-      ],
-      "declared_brands": [
-        "Spectus"
-      ],
-      "evidence_url": "https://journals.sagepub.com/doi/10.1177/23998083231206171",
-      "evidence_section": "用户分类与简记核对，2026-10-13",
-      "basis": "依据用户Zotero简记中的供应商标注同步；属于用户核验结果，不冒充本轮重新审读原文。",
-      "catalog_status": "pending",
-      "scope": "phone_location_or_derivative",
-      "data_access_relationship": "user_reviewed",
-      "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": true,
-      "zotero_attachment_verified": true
-    },
-    {
       "paper_id": "L72",
       "paper_title": "基于软件开发工具包(SDK)数据的人群空间活动分析",
       "doi": "10.13813/j.cn11-5141/u.2020.0403",
@@ -11088,60 +10792,6 @@
       "catalog_status": "reviewed",
       "scope": "poi_context_not_phone_trace",
       "data_access_relationship": "Advan提供普查区到POI的月到访频数估计；SafeGraph提供POI名称、坐标、NAICS等辅助信息。",
-      "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": true,
-      "zotero_attachment_verified": true,
-      "primary_source_audit": "2026-10-14 Zotero已下载PDF逐篇审读"
-    },
-    {
-      "paper_id": "P2D2C630F",
-      "paper_title": "Using Smartphone Location Data for Strategy Research",
-      "doi": "10.1287/stsc.2024.0317",
-      "provider_id": "advan",
-      "provider_name": "Advan Research",
-      "status": "confirmed_use",
-      "classification": "confirmed_use",
-      "role": "mobility",
-      "roles": [
-        "mobility"
-      ],
-      "declared_brands": [
-        "Advan"
-      ],
-      "evidence_url": "https://pubsonline.informs.org/doi/10.1287/stsc.2024.0317",
-      "evidence_section": "PDF第3页 Introduction",
-      "basis": "Advan门店到访次数和访客来源区域聚合；本文实际进行Popeyes新产品发布事件研究，并讨论原始定位点和聚合数据两类形态。 数据形态：Advan门店到访次数和访客来源区域聚合；本文实际进行Popeyes新产品发布事件研究，并讨论原始定位点和聚合数据两类形态。",
-      "catalog_status": "reviewed",
-      "scope": "phone_location_or_derivative",
-      "data_access_relationship": "Advan门店到访次数和访客来源区域聚合；本文实际进行Popeyes新产品发布事件研究，并讨论原始定位点和聚合数据两类形态。",
-      "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": true,
-      "zotero_attachment_verified": true,
-      "primary_source_audit": "2026-10-14 Zotero已下载PDF逐篇审读"
-    },
-    {
-      "paper_id": "P2D2C630F",
-      "paper_title": "Using Smartphone Location Data for Strategy Research",
-      "doi": "10.1287/stsc.2024.0317",
-      "provider_id": "dewey",
-      "provider_name": "Dewey",
-      "status": "confirmed_use",
-      "classification": "confirmed_use",
-      "role": "distribution",
-      "roles": [
-        "distribution"
-      ],
-      "declared_brands": [
-        "Dewey"
-      ],
-      "evidence_url": "https://pubsonline.informs.org/doi/10.1287/stsc.2024.0317",
-      "evidence_section": "PDF第3页 Introduction",
-      "basis": "Advan门店到访次数和访客来源区域聚合；本文实际进行Popeyes新产品发布事件研究，并讨论原始定位点和聚合数据两类形态。 数据形态：Advan门店到访次数和访客来源区域聚合；本文实际进行Popeyes新产品发布事件研究，并讨论原始定位点和聚合数据两类形态。",
-      "catalog_status": "reviewed",
-      "scope": "phone_location_or_derivative",
-      "data_access_relationship": "Advan门店到访次数和访客来源区域聚合；本文实际进行Popeyes新产品发布事件研究，并讨论原始定位点和聚合数据两类形态。",
       "data_reuse_note": "",
       "count_unit": "unique_study_not_independent_dataset",
       "pdf_downloaded": true,
@@ -12362,6 +12012,1222 @@
       "pdf_downloaded": true,
       "zotero_attachment_verified": true,
       "primary_source_audit": "2026-10-14 Zotero已下载PDF逐篇审读"
+    },
+    {
+      "paper_id": "L12",
+      "paper_title": "Change of urban park usage as a response to the COVID-19 global pandemic",
+      "doi": "10.1038/s41598-023-46745-1",
+      "provider_id": "safegraph",
+      "provider_name": "SafeGraph",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "safegraph"
+      ],
+      "evidence_url": "https://doi.org/10.1038/s41598-023-46745-1",
+      "evidence_section": "PDF第9页 Data and methods",
+      "basis": "Places + Monthly Patterns：手机应用匿名位置数据汇总为公园 POI 月访问量、访客数和访客居住 CBG；2018—2020 年纽约。",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "Places + Monthly Patterns：手机应用匿名位置数据汇总为公园 POI 月访问量、访客数和访客居住 CBG；2018—2020 年纽约。",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "2026-10-14 正文供应商声明审计"
+    },
+    {
+      "paper_id": "L19",
+      "paper_title": "Designing transit routes based on vehicle routing behavior determined through location-based services data",
+      "doi": "10.1140/epjds/s13688-025-00559-5",
+      "provider_id": "cuebiq_spectus",
+      "provider_name": "Cuebiq / Spectus",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "Cuebiq / Spectus"
+      ],
+      "evidence_url": "https://doi.org/10.1140/epjds/s13688-025-00559-5",
+      "evidence_section": "PDF第8页 3.2 LBS data in Dallas, Texas",
+      "basis": "复用 Xu 等处理后的 Dallas–Fort Worth LBS 轨迹，含用户ID、tripId、时间戳、经纬度、网格与几何；2016-11 至 2017-04。",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "复用 Xu 等处理后的 Dallas–Fort Worth LBS 轨迹，含用户ID、tripId、时间戳、经纬度、网格与几何；2016-11 至 2017-04。",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "2026-10-14 正文供应商声明审计"
+    },
+    {
+      "paper_id": "L20",
+      "paper_title": "Integrating human mobility and animal movement data reveals complex space-use between humans and white-tailed deer in urban environments",
+      "doi": "10.1038/s41598-025-03577-5",
+      "provider_id": "advan",
+      "provider_name": "Advan Research",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "advan"
+      ],
+      "evidence_url": "https://doi.org/10.1038/s41598-025-03577-5",
+      "evidence_section": "PDF第8页 Mobility and movement data",
+      "basis": "基于 GPS 轨迹聚合的 POI 月度客流，使用 raw_visit_count 和 popularity_by_hour；2018—2019 年 Maryland Howard County。",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "基于 GPS 轨迹聚合的 POI 月度客流，使用 raw_visit_count 和 popularity_by_hour；2018—2019 年 Maryland Howard County。",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "2026-10-14 正文供应商声明审计"
+    },
+    {
+      "paper_id": "L20",
+      "paper_title": "Integrating human mobility and animal movement data reveals complex space-use between humans and white-tailed deer in urban environments",
+      "doi": "10.1038/s41598-025-03577-5",
+      "provider_id": "safegraph",
+      "provider_name": "SafeGraph",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "poi",
+      "roles": [
+        "poi"
+      ],
+      "declared_brands": [
+        "safegraph"
+      ],
+      "evidence_url": "https://doi.org/10.1038/s41598-025-03577-5",
+      "evidence_section": "PDF第8页 Mobility and movement data",
+      "basis": "基于 GPS 轨迹聚合的 POI 月度客流，使用 raw_visit_count 和 popularity_by_hour；2018—2019 年 Maryland Howard County。",
+      "catalog_status": "reviewed",
+      "scope": "poi_context_not_phone_trace",
+      "data_access_relationship": "基于 GPS 轨迹聚合的 POI 月度客流，使用 raw_visit_count 和 popularity_by_hour；2018—2019 年 Maryland Howard County。",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "2026-10-14 正文供应商声明审计"
+    },
+    {
+      "paper_id": "L20",
+      "paper_title": "Integrating human mobility and animal movement data reveals complex space-use between humans and white-tailed deer in urban environments",
+      "doi": "10.1038/s41598-025-03577-5",
+      "provider_id": "dewey",
+      "provider_name": "Dewey",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "distribution",
+      "roles": [
+        "distribution"
+      ],
+      "declared_brands": [
+        "dewey"
+      ],
+      "evidence_url": "https://doi.org/10.1038/s41598-025-03577-5",
+      "evidence_section": "PDF第8页 Mobility and movement data",
+      "basis": "基于 GPS 轨迹聚合的 POI 月度客流，使用 raw_visit_count 和 popularity_by_hour；2018—2019 年 Maryland Howard County。",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "基于 GPS 轨迹聚合的 POI 月度客流，使用 raw_visit_count 和 popularity_by_hour；2018—2019 年 Maryland Howard County。",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "2026-10-14 正文供应商声明审计"
+    },
+    {
+      "paper_id": "L23",
+      "paper_title": "Characterizing collective physical distancing in the U.S. during the first nine months of the COVID-19 pandemic",
+      "doi": "10.1371/journal.pdig.0000430",
+      "provider_id": "cuebiq_spectus",
+      "provider_name": "Cuebiq / Spectus",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "Cuebiq / Spectus"
+      ],
+      "evidence_url": "https://doi.org/10.1371/journal.pdig.0000430",
+      "evidence_section": "PDF第3页 Materials and methods — Mobility data",
+      "basis": "合作应用内置定位 SDK 采集的匿名手机位置记录；居住/工作位置上卷至 CBG 中心、删除敏感场所访问。研究分析约550万用户的群体社交距离。",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "合作应用内置定位 SDK 采集的匿名手机位置记录；居住/工作位置上卷至 CBG 中心、删除敏感场所访问。研究分析约550万用户的群体社交距离。",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "2026-10-14 正文供应商声明审计"
+    },
+    {
+      "paper_id": "L24",
+      "paper_title": "Big mobility data reveals hyperlocal air pollution exposure disparities in the Bronx, New York",
+      "doi": "10.1038/s44284-024-00093-x",
+      "provider_id": "cuebiq_spectus",
+      "provider_name": "Cuebiq / Spectus",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "Cuebiq / Spectus"
+      ],
+      "evidence_url": "https://doi.org/10.1038/s44284-024-00093-x",
+      "evidence_section": "PDF第7页 Methods — Big mobility data sourcing and processing",
+      "basis": "经用户授权的匿名智能手机位置记录，用于纽约个体轨迹与空气污染暴露分析；原始数据不公开，须向供应商申请。",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "经用户授权的匿名智能手机位置记录，用于纽约个体轨迹与空气污染暴露分析；原始数据不公开，须向供应商申请。",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "2026-10-14 正文供应商声明审计"
+    },
+    {
+      "paper_id": "L03",
+      "paper_title": "Mobility network models of COVID-19 explain inequities and inform reopening",
+      "doi": "10.1038/s41586-020-2923-3",
+      "provider_id": "safegraph",
+      "provider_name": "SafeGraph",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "safegraph"
+      ],
+      "evidence_url": "https://doi.org/10.1038/s41586-020-2923-3",
+      "evidence_section": "PDF第7页 Methods — Datasets — SafeGraph",
+      "basis": "Places Patterns、Weekly Patterns (v1) 等聚合到访数据；构建居住 CBG—POI 小时级流动网络及传播模型，覆盖2020-03-01至05-02。",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "Places Patterns、Weekly Patterns (v1) 等聚合到访数据；构建居住 CBG—POI 小时级流动网络及传播模型，覆盖2020-03-01至05-02。",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "2026-10-14 正文供应商声明审计"
+    },
+    {
+      "paper_id": "L02",
+      "paper_title": "Multiscale dynamic human mobility flow dataset in the U.S. during the COVID-19 epidemic",
+      "doi": "10.1038/s41597-020-00734-5",
+      "provider_id": "safegraph",
+      "provider_name": "SafeGraph",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "safegraph"
+      ],
+      "evidence_url": "https://doi.org/10.1038/s41597-020-00734-5",
+      "evidence_section": "PDF第2页 Methods",
+      "basis": "手机应用 GPS 到访记录推导的日/周 O-D 流，结合 ACS 人口推算 census tract、county、state 三层级人口流；使用聚合数据而非公开个体轨迹。",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "手机应用 GPS 到访记录推导的日/周 O-D 流，结合 ACS 人口推算 census tract、county、state 三层级人口流；使用聚合数据而非公开个体轨迹。",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "2026-10-14 正文供应商声明审计"
+    },
+    {
+      "paper_id": "L17",
+      "paper_title": "Distorted insights from human mobility data",
+      "doi": "10.1038/s42005-024-01909-x",
+      "provider_id": "cuebiq_spectus",
+      "provider_name": "Cuebiq / Spectus",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "Cuebiq / Spectus"
+      ],
+      "evidence_url": "https://doi.org/10.1038/s42005-024-01909-x",
+      "evidence_section": "PDF第2页 Results — Overview of the data",
+      "basis": "比较 GPS/应用定位数据形成的聚合流网络与位移分布；同时纳入运营商 CDR、车辆 GPS 和人口普查通勤数据，不是单一 SDK 数据集。",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "比较 GPS/应用定位数据形成的聚合流网络与位移分布；同时纳入运营商 CDR、车辆 GPS 和人口普查通勤数据，不是单一 SDK 数据集。",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "2026-10-14 正文供应商声明审计"
+    },
+    {
+      "paper_id": "L17",
+      "paper_title": "Distorted insights from human mobility data",
+      "doi": "10.1038/s42005-024-01909-x",
+      "provider_id": "safegraph",
+      "provider_name": "SafeGraph",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "safegraph"
+      ],
+      "evidence_url": "https://doi.org/10.1038/s42005-024-01909-x",
+      "evidence_section": "PDF第2页 Results — Overview of the data",
+      "basis": "比较 GPS/应用定位数据形成的聚合流网络与位移分布；同时纳入运营商 CDR、车辆 GPS 和人口普查通勤数据，不是单一 SDK 数据集。",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "比较 GPS/应用定位数据形成的聚合流网络与位移分布；同时纳入运营商 CDR、车辆 GPS 和人口普查通勤数据，不是单一 SDK 数据集。",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "2026-10-14 正文供应商声明审计"
+    },
+    {
+      "paper_id": "L17",
+      "paper_title": "Distorted insights from human mobility data",
+      "doi": "10.1038/s42005-024-01909-x",
+      "provider_id": "google",
+      "provider_name": "Google",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "platform_aggregate",
+      "roles": [
+        "platform_aggregate"
+      ],
+      "declared_brands": [
+        "google"
+      ],
+      "evidence_url": "https://doi.org/10.1038/s42005-024-01909-x",
+      "evidence_section": "PDF第2页 Results — Overview of the data",
+      "basis": "比较 GPS/应用定位数据形成的聚合流网络与位移分布；同时纳入运营商 CDR、车辆 GPS 和人口普查通勤数据，不是单一 SDK 数据集。",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "比较 GPS/应用定位数据形成的聚合流网络与位移分布；同时纳入运营商 CDR、车辆 GPS 和人口普查通勤数据，不是单一 SDK 数据集。",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "2026-10-14 正文供应商声明审计"
+    },
+    {
+      "paper_id": "L17",
+      "paper_title": "Distorted insights from human mobility data",
+      "doi": "10.1038/s42005-024-01909-x",
+      "provider_id": "facebook",
+      "provider_name": "Facebook / Meta Data for Good",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "platform_aggregate",
+      "roles": [
+        "platform_aggregate"
+      ],
+      "declared_brands": [
+        "facebook"
+      ],
+      "evidence_url": "https://doi.org/10.1038/s42005-024-01909-x",
+      "evidence_section": "PDF第2页 Results — Overview of the data",
+      "basis": "比较 GPS/应用定位数据形成的聚合流网络与位移分布；同时纳入运营商 CDR、车辆 GPS 和人口普查通勤数据，不是单一 SDK 数据集。",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "比较 GPS/应用定位数据形成的聚合流网络与位移分布；同时纳入运营商 CDR、车辆 GPS 和人口普查通勤数据，不是单一 SDK 数据集。",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "2026-10-14 正文供应商声明审计"
+    },
+    {
+      "paper_id": "L01",
+      "paper_title": "The effect of partisanship and political advertising on close family ties",
+      "doi": "10.1126/science.aaq1433",
+      "provider_id": "safegraph",
+      "provider_name": "SafeGraph",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "safegraph"
+      ],
+      "evidence_url": "https://doi.org/10.1126/science.aaq1433",
+      "evidence_section": "PDF第1页 Main text — location data",
+      "basis": "来自多种智能手机应用的匿名时空 pings，每条记录含设备在某时刻的坐标；2015、2016年11月，推断居住地与感恩节到访/停留。",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "来自多种智能手机应用的匿名时空 pings，每条记录含设备在某时刻的坐标；2015、2016年11月，推断居住地与感恩节到访/停留。",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "2026-10-14 正文供应商声明审计"
+    },
+    {
+      "paper_id": "L11",
+      "paper_title": "Human mobility networks reveal increased segregation in large cities",
+      "doi": "10.1038/s41586-023-06757-3",
+      "provider_id": "safegraph",
+      "provider_name": "SafeGraph",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "safegraph"
+      ],
+      "evidence_url": "https://doi.org/10.1038/s41586-023-06757-3",
+      "evidence_section": "PDF第8页 Methods — Datasets — SafeGraph",
+      "basis": "手机应用采集的去标识 GPS pings，依据时空接近构建人际暴露网络；研究约960万用户、2017年3/7/11月。",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "手机应用采集的去标识 GPS pings，依据时空接近构建人际暴露网络；研究约960万用户、2017年3/7/11月。",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "2026-10-14 正文供应商声明审计"
+    },
+    {
+      "paper_id": "L81",
+      "paper_title": "Using Seismic Noise Levels to Monitor Social Isolation: An Example From Rio de Janeiro, Brazil",
+      "doi": "10.1029/2020gl088748",
+      "provider_id": "in_loco",
+      "provider_name": "In Loco",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "in_loco"
+      ],
+      "evidence_url": "https://doi.org/10.1029/2020GL088748",
+      "evidence_section": "PDF第5页 3.1 The Smartphone Index Ik",
+      "basis": "手机应用内SDK采集GPS、无线与其他传感器位置；研究使用已按城市汇总的社会隔离指数，不持有个体轨迹。供应商覆盖巴西3700多万手机。",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "手机应用内SDK采集GPS、无线与其他传感器位置；研究使用已按城市汇总的社会隔离指数，不持有个体轨迹。供应商覆盖巴西3700多万手机。",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_catalog_imported": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "2026-10-14 正文供应商声明审计"
+    },
+    {
+      "paper_id": "L09",
+      "paper_title": "Deriving neighborhood-level diet and physical activity measurements from anonymized mobile phone location data for enhancing obesity estimation",
+      "doi": "10.1186/s12942-022-00321-4",
+      "provider_id": "safegraph",
+      "provider_name": "SafeGraph",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "safegraph"
+      ],
+      "evidence_url": "https://doi.org/10.1186/s12942-022-00321-4",
+      "evidence_section": "PDF第3页 Methods / Anonymized mobile phone location data",
+      "basis": "由手机应用位置数据聚合而成的居住地人口普查区—POI到访次数，研究无个体GPS轨迹；以2018年纽约、洛杉矶、布法罗饮食/活动相关POI访问估计肥胖。",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "由手机应用位置数据聚合而成的居住地人口普查区—POI到访次数，研究无个体GPS轨迹；以2018年纽约、洛杉矶、布法罗饮食/活动相关POI访问估计肥胖。",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "2026-10-14 正文供应商声明审计"
+    },
+    {
+      "paper_id": "L18",
+      "paper_title": "Mixing individual and collective behaviors to predict out-of-routine mobility",
+      "doi": "10.1073/pnas.2414848122",
+      "provider_id": "cuebiq_spectus",
+      "provider_name": "Cuebiq / Spectus",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "Cuebiq / Spectus"
+      ],
+      "evidence_url": "https://doi.org/10.1073/pnas.2414848122",
+      "evidence_section": "PDF第7页 Materials and Methods / Stop Location Detection",
+      "basis": "Data for Good COVID-19 Collaborative匿名隐私增强GPS位置数据；约200万自愿参与用户，纽约、西雅图、波士顿、凤凰城、新奥尔良；识别至少停留5分钟且半径65m内的停留点。论文写January to August 2020同时称nine months，月份数量原文自身不一致。",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "Data for Good COVID-19 Collaborative匿名隐私增强GPS位置数据；约200万自愿参与用户，纽约、西雅图、波士顿、凤凰城、新奥尔良；识别至少停留5分钟且半径65m内的停留点。论文写January to August 2020同时称nine months，月份数量原文自身不一致。",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "2026-10-14 正文供应商声明审计"
+    },
+    {
+      "paper_id": "L04",
+      "paper_title": "Nursing home staff networks and COVID-19",
+      "doi": "10.1073/pnas.2015455118",
+      "provider_id": "veraset",
+      "provider_name": "Veraset",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "veraset"
+      ],
+      "evidence_url": "https://doi.org/10.1073/pnas.2015455118",
+      "evidence_section": "PDF第5页 Materials and Methods / Smartphone Location Data",
+      "basis": "跨Apple/Android应用汇集的匿名设备级位置数据，典型约10分钟上报；筛选养老院内至少3次定位且跨度至少1小时的访问，建立员工/承包商跨院联系。",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "跨Apple/Android应用汇集的匿名设备级位置数据，典型约10分钟上报；筛选养老院内至少3次定位且跨度至少1小时的访问，建立员工/承包商跨院联系。",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "2026-10-14 正文供应商声明审计"
+    },
+    {
+      "paper_id": "L07",
+      "paper_title": "Face-to-face interactions and the returns to acquisitions: Evidence from smartphone geolocational data",
+      "doi": "10.1002/smj.3435",
+      "provider_id": "safegraph",
+      "provider_name": "SafeGraph",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "safegraph"
+      ],
+      "evidence_url": "https://doi.org/10.1002/smj.3435",
+      "evidence_section": "PDF第8页 3.1.2 Smartphone Data",
+      "basis": "Apple/Android应用采集的匿名设备定位pings，含经纬度、时间、匿名设备ID；2015年11月至2017年11月，用于推断总部员工互访",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "Apple/Android应用采集的匿名设备定位pings，含经纬度、时间、匿名设备ID；2015年11月至2017年11月，用于推断总部员工互访",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "2026-10-14 正文供应商声明审计"
+    },
+    {
+      "paper_id": "P2D2C630F",
+      "paper_title": "Using Smartphone Location Data for Strategy Research",
+      "doi": "10.1287/stsc.2024.0317",
+      "provider_id": "advan",
+      "provider_name": "Advan Research",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "advan"
+      ],
+      "evidence_url": "https://doi.org/10.1287/stsc.2024.0317",
+      "evidence_section": "PDF第3页 Introduction",
+      "basis": "POI聚合的访问次数、独立访客数与客流指标；正文案例使用Advan产品，非把所有被综述供应商视为本研究数据",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "POI聚合的访问次数、独立访客数与客流指标；正文案例使用Advan产品，非把所有被综述供应商视为本研究数据",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "2026-10-14 正文供应商声明审计"
+    },
+    {
+      "paper_id": "P2D2C630F",
+      "paper_title": "Using Smartphone Location Data for Strategy Research",
+      "doi": "10.1287/stsc.2024.0317",
+      "provider_id": "safegraph",
+      "provider_name": "SafeGraph",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "poi",
+      "roles": [
+        "poi"
+      ],
+      "declared_brands": [
+        "safegraph"
+      ],
+      "evidence_url": "https://doi.org/10.1287/stsc.2024.0317",
+      "evidence_section": "PDF第3页 Introduction",
+      "basis": "POI聚合的访问次数、独立访客数与客流指标；正文案例使用Advan产品，非把所有被综述供应商视为本研究数据",
+      "catalog_status": "reviewed",
+      "scope": "poi_context_not_phone_trace",
+      "data_access_relationship": "POI聚合的访问次数、独立访客数与客流指标；正文案例使用Advan产品，非把所有被综述供应商视为本研究数据",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "2026-10-14 正文供应商声明审计"
+    },
+    {
+      "paper_id": "P2D2C630F",
+      "paper_title": "Using Smartphone Location Data for Strategy Research",
+      "doi": "10.1287/stsc.2024.0317",
+      "provider_id": "dewey",
+      "provider_name": "Dewey",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "distribution",
+      "roles": [
+        "distribution"
+      ],
+      "declared_brands": [
+        "dewey"
+      ],
+      "evidence_url": "https://doi.org/10.1287/stsc.2024.0317",
+      "evidence_section": "PDF第3页 Introduction",
+      "basis": "POI聚合的访问次数、独立访客数与客流指标；正文案例使用Advan产品，非把所有被综述供应商视为本研究数据",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "POI聚合的访问次数、独立访客数与客流指标；正文案例使用Advan产品，非把所有被综述供应商视为本研究数据",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "2026-10-14 正文供应商声明审计"
+    },
+    {
+      "paper_id": "P837C3A60",
+      "paper_title": "Assessing COVID-induced changes in spatiotemporal structure of mobility in the United States in 2020: a multi-source analytical framework",
+      "doi": "10.1080/13658816.2021.2005796",
+      "provider_id": "apple",
+      "provider_name": "Apple Mobility Trends",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "platform_aggregate",
+      "roles": [
+        "platform_aggregate"
+      ],
+      "declared_brands": [
+        "apple"
+      ],
+      "evidence_url": "https://doi.org/10.1080/13658816.2021.2005796",
+      "evidence_section": "PDF第3页 Data sources",
+      "basis": "9来源26种聚合移动指标，统一至县级/周级比较；覆盖出行距离、社交距离、接触暴露、行程次数；不是单一供应商原始轨迹",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "9来源26种聚合移动指标，统一至县级/周级比较；覆盖出行距离、社交距离、接触暴露、行程次数；不是单一供应商原始轨迹",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "2026-10-14 正文供应商声明审计"
+    },
+    {
+      "paper_id": "P837C3A60",
+      "paper_title": "Assessing COVID-induced changes in spatiotemporal structure of mobility in the United States in 2020: a multi-source analytical framework",
+      "doi": "10.1080/13658816.2021.2005796",
+      "provider_id": "cuebiq_spectus",
+      "provider_name": "Cuebiq / Spectus",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "platform_aggregate",
+      "roles": [
+        "platform_aggregate"
+      ],
+      "declared_brands": [
+        "Cuebiq / Spectus"
+      ],
+      "evidence_url": "https://doi.org/10.1080/13658816.2021.2005796",
+      "evidence_section": "PDF第3页 Data sources",
+      "basis": "9来源26种聚合移动指标，统一至县级/周级比较；覆盖出行距离、社交距离、接触暴露、行程次数；不是单一供应商原始轨迹",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "9来源26种聚合移动指标，统一至县级/周级比较；覆盖出行距离、社交距离、接触暴露、行程次数；不是单一供应商原始轨迹",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "2026-10-14 正文供应商声明审计"
+    },
+    {
+      "paper_id": "P837C3A60",
+      "paper_title": "Assessing COVID-induced changes in spatiotemporal structure of mobility in the United States in 2020: a multi-source analytical framework",
+      "doi": "10.1080/13658816.2021.2005796",
+      "provider_id": "descartes_labs",
+      "provider_name": "Descartes Labs",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "platform_aggregate",
+      "roles": [
+        "platform_aggregate"
+      ],
+      "declared_brands": [
+        "descartes_labs"
+      ],
+      "evidence_url": "https://doi.org/10.1080/13658816.2021.2005796",
+      "evidence_section": "PDF第3页 Data sources",
+      "basis": "9来源26种聚合移动指标，统一至县级/周级比较；覆盖出行距离、社交距离、接触暴露、行程次数；不是单一供应商原始轨迹",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "9来源26种聚合移动指标，统一至县级/周级比较；覆盖出行距离、社交距离、接触暴露、行程次数；不是单一供应商原始轨迹",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "2026-10-14 正文供应商声明审计"
+    },
+    {
+      "paper_id": "P837C3A60",
+      "paper_title": "Assessing COVID-induced changes in spatiotemporal structure of mobility in the United States in 2020: a multi-source analytical framework",
+      "doi": "10.1080/13658816.2021.2005796",
+      "provider_id": "facebook",
+      "provider_name": "Facebook / Meta Data for Good",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "platform_aggregate",
+      "roles": [
+        "platform_aggregate"
+      ],
+      "declared_brands": [
+        "facebook"
+      ],
+      "evidence_url": "https://doi.org/10.1080/13658816.2021.2005796",
+      "evidence_section": "PDF第3页 Data sources",
+      "basis": "9来源26种聚合移动指标，统一至县级/周级比较；覆盖出行距离、社交距离、接触暴露、行程次数；不是单一供应商原始轨迹",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "9来源26种聚合移动指标，统一至县级/周级比较；覆盖出行距离、社交距离、接触暴露、行程次数；不是单一供应商原始轨迹",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "2026-10-14 正文供应商声明审计"
+    },
+    {
+      "paper_id": "P837C3A60",
+      "paper_title": "Assessing COVID-induced changes in spatiotemporal structure of mobility in the United States in 2020: a multi-source analytical framework",
+      "doi": "10.1080/13658816.2021.2005796",
+      "provider_id": "google",
+      "provider_name": "Google",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "platform_aggregate",
+      "roles": [
+        "platform_aggregate"
+      ],
+      "declared_brands": [
+        "google"
+      ],
+      "evidence_url": "https://doi.org/10.1080/13658816.2021.2005796",
+      "evidence_section": "PDF第3页 Data sources",
+      "basis": "9来源26种聚合移动指标，统一至县级/周级比较；覆盖出行距离、社交距离、接触暴露、行程次数；不是单一供应商原始轨迹",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "9来源26种聚合移动指标，统一至县级/周级比较；覆盖出行距离、社交距离、接触暴露、行程次数；不是单一供应商原始轨迹",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "2026-10-14 正文供应商声明审计"
+    },
+    {
+      "paper_id": "P837C3A60",
+      "paper_title": "Assessing COVID-induced changes in spatiotemporal structure of mobility in the United States in 2020: a multi-source analytical framework",
+      "doi": "10.1080/13658816.2021.2005796",
+      "provider_id": "placeiq",
+      "provider_name": "PlaceIQ",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "platform_aggregate",
+      "roles": [
+        "platform_aggregate"
+      ],
+      "declared_brands": [
+        "placeiq"
+      ],
+      "evidence_url": "https://doi.org/10.1080/13658816.2021.2005796",
+      "evidence_section": "PDF第3页 Data sources",
+      "basis": "9来源26种聚合移动指标，统一至县级/周级比较；覆盖出行距离、社交距离、接触暴露、行程次数；不是单一供应商原始轨迹",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "9来源26种聚合移动指标，统一至县级/周级比较；覆盖出行距离、社交距离、接触暴露、行程次数；不是单一供应商原始轨迹",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "2026-10-14 正文供应商声明审计"
+    },
+    {
+      "paper_id": "P837C3A60",
+      "paper_title": "Assessing COVID-induced changes in spatiotemporal structure of mobility in the United States in 2020: a multi-source analytical framework",
+      "doi": "10.1080/13658816.2021.2005796",
+      "provider_id": "safegraph",
+      "provider_name": "SafeGraph",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "platform_aggregate",
+      "roles": [
+        "platform_aggregate"
+      ],
+      "declared_brands": [
+        "safegraph"
+      ],
+      "evidence_url": "https://doi.org/10.1080/13658816.2021.2005796",
+      "evidence_section": "PDF第3页 Data sources",
+      "basis": "9来源26种聚合移动指标，统一至县级/周级比较；覆盖出行距离、社交距离、接触暴露、行程次数；不是单一供应商原始轨迹",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "9来源26种聚合移动指标，统一至县级/周级比较；覆盖出行距离、社交距离、接触暴露、行程次数；不是单一供应商原始轨迹",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "2026-10-14 正文供应商声明审计"
+    },
+    {
+      "paper_id": "P837C3A60",
+      "paper_title": "Assessing COVID-induced changes in spatiotemporal structure of mobility in the United States in 2020: a multi-source analytical framework",
+      "doi": "10.1080/13658816.2021.2005796",
+      "provider_id": "streetlight",
+      "provider_name": "StreetLight Data",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "platform_aggregate",
+      "roles": [
+        "platform_aggregate"
+      ],
+      "declared_brands": [
+        "streetlight"
+      ],
+      "evidence_url": "https://doi.org/10.1080/13658816.2021.2005796",
+      "evidence_section": "PDF第3页 Data sources",
+      "basis": "9来源26种聚合移动指标，统一至县级/周级比较；覆盖出行距离、社交距离、接触暴露、行程次数；不是单一供应商原始轨迹",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "9来源26种聚合移动指标，统一至县级/周级比较；覆盖出行距离、社交距离、接触暴露、行程次数；不是单一供应商原始轨迹",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "2026-10-14 正文供应商声明审计"
+    },
+    {
+      "paper_id": "P837C3A60",
+      "paper_title": "Assessing COVID-induced changes in spatiotemporal structure of mobility in the United States in 2020: a multi-source analytical framework",
+      "doi": "10.1080/13658816.2021.2005796",
+      "provider_id": "maryland_mobility",
+      "provider_name": "University of Maryland mobility metrics",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "platform_aggregate",
+      "roles": [
+        "platform_aggregate"
+      ],
+      "declared_brands": [
+        "maryland_mobility"
+      ],
+      "evidence_url": "https://doi.org/10.1080/13658816.2021.2005796",
+      "evidence_section": "PDF第3页 Data sources",
+      "basis": "9来源26种聚合移动指标，统一至县级/周级比较；覆盖出行距离、社交距离、接触暴露、行程次数；不是单一供应商原始轨迹",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "9来源26种聚合移动指标，统一至县级/周级比较；覆盖出行距离、社交距离、接触暴露、行程次数；不是单一供应商原始轨迹",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "2026-10-14 正文供应商声明审计"
+    },
+    {
+      "paper_id": "PAF9C787A",
+      "paper_title": "Strategies and inequities in balancing recreation and COVID exposure when visiting green spaces",
+      "doi": "10.1177/23998083221114645",
+      "provider_id": "safegraph",
+      "provider_name": "SafeGraph",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "safegraph"
+      ],
+      "evidence_url": "https://doi.org/10.1177/23998083221114645",
+      "evidence_section": "PDF第6页 Cellphone-Generated Mobility Records",
+      "basis": "Monthly Patterns：匿名移动设备GPS点加工为居住CBG—公园POI月度到访矩阵；Boston公园访问",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "Monthly Patterns：匿名移动设备GPS点加工为居住CBG—公园POI月度到访矩阵；Boston公园访问",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "2026-10-14 正文供应商声明审计"
+    },
+    {
+      "paper_id": "P76B9708A",
+      "paper_title": "Characterizing urban lifestyle signatures using motif properties in network of places",
+      "doi": "10.1177/23998083231206171",
+      "provider_id": "cuebiq_spectus",
+      "provider_name": "Cuebiq / Spectus",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "Cuebiq / Spectus"
+      ],
+      "evidence_url": "https://doi.org/10.1177/23998083231206171",
+      "evidence_section": "PDF第5页 3.1 Data sources",
+      "basis": "隐私处理的设备停留/到访数据，通过审计沙箱导出聚合结果；设备ID、POI ID、经纬度、停留时长；美国4县2020年2月",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "隐私处理的设备停留/到访数据，通过审计沙箱导出聚合结果；设备ID、POI ID、经纬度、停留时长；美国4县2020年2月",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "2026-10-14 正文供应商声明审计"
+    },
+    {
+      "paper_id": "P76B9708A",
+      "paper_title": "Characterizing urban lifestyle signatures using motif properties in network of places",
+      "doi": "10.1177/23998083231206171",
+      "provider_id": "safegraph",
+      "provider_name": "SafeGraph",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "poi",
+      "roles": [
+        "poi"
+      ],
+      "declared_brands": [
+        "safegraph"
+      ],
+      "evidence_url": "https://doi.org/10.1177/23998083231206171",
+      "evidence_section": "PDF第5页 3.1 Data sources",
+      "basis": "隐私处理的设备停留/到访数据，通过审计沙箱导出聚合结果；设备ID、POI ID、经纬度、停留时长；美国4县2020年2月",
+      "catalog_status": "reviewed",
+      "scope": "poi_context_not_phone_trace",
+      "data_access_relationship": "隐私处理的设备停留/到访数据，通过审计沙箱导出聚合结果；设备ID、POI ID、经纬度、停留时长；美国4县2020年2月",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "2026-10-14 正文供应商声明审计"
+    },
+    {
+      "paper_id": "L15",
+      "paper_title": "Returners and explorers dichotomy in the face of natural hazards",
+      "doi": "10.1038/s41598-024-64087-4",
+      "provider_id": "cuebiq_spectus",
+      "provider_name": "Cuebiq / Spectus",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "Cuebiq / Spectus"
+      ],
+      "evidence_url": "https://doi.org/10.1038/s41598-024-64087-4",
+      "evidence_section": "PDF第9页 Methods — Date and preprocessing",
+      "basis": "手机应用采集的匿名GPS轨迹与停留表；字段含用户ID、经纬度、时间戳和定位精度。",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "手机应用采集的匿名GPS轨迹与停留表；字段含用户ID、经纬度、时间戳和定位精度。",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "2026-10-14 正文供应商声明审计"
+    },
+    {
+      "paper_id": "L14",
+      "paper_title": "An experienced racial-ethnic diversity dataset in the United States using human mobility data",
+      "doi": "10.1038/s41597-024-03490-y",
+      "provider_id": "cuebiq_spectus",
+      "provider_name": "Cuebiq / Spectus",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "Cuebiq / Spectus"
+      ],
+      "evidence_url": "https://doi.org/10.1038/s41597-024-03490-y",
+      "evidence_section": "PDF第2页 Methods — Mobile phone application data",
+      "basis": "同意共享的手机应用GPS定位及停留数据；2022年四季共8周、原文称约6600万人，停留平均精度21米。",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "同意共享的手机应用GPS定位及停留数据；2022年四季共8周、原文称约6600万人，停留平均精度21米。",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "2026-10-14 正文供应商声明审计"
+    },
+    {
+      "paper_id": "L05",
+      "paper_title": "Understanding vehicular routing behavior with location-based service data",
+      "doi": "10.1140/epjds/s13688-021-00267-w",
+      "provider_id": "cuebiq_spectus",
+      "provider_name": "Cuebiq / Spectus",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "Cuebiq / Spectus"
+      ],
+      "evidence_url": "https://doi.org/10.1140/epjds/s13688-021-00267-w",
+      "evidence_section": "PDF第3页 2 Data description",
+      "basis": "手机应用产生的GPS/Wi-Fi定位LBS轨迹；Dallas–Fort Worth，2016-11至2017-04，约650万用户。",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "手机应用产生的GPS/Wi-Fi定位LBS轨迹；Dallas–Fort Worth，2016-11至2017-04，约650万用户。",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "2026-10-14 正文供应商声明审计"
+    },
+    {
+      "paper_id": "L06",
+      "paper_title": "Mobility patterns are associated with experienced income segregation in large US cities",
+      "doi": "10.1038/s41467-021-24899-8",
+      "provider_id": "cuebiq_spectus",
+      "provider_name": "Cuebiq / Spectus",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "Cuebiq / Spectus"
+      ],
+      "evidence_url": "https://doi.org/10.1038/s41467-021-24899-8",
+      "evidence_section": "PDF第8页 Methods — Mobility data",
+      "basis": "匿名自愿加入的应用GPS pings；11座美国都会区、450万设备、6个月轨迹。",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "匿名自愿加入的应用GPS pings；11座美国都会区、450万设备、6个月轨迹。",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "2026-10-14 正文供应商声明审计"
+    },
+    {
+      "paper_id": "L06",
+      "paper_title": "Mobility patterns are associated with experienced income segregation in large US cities",
+      "doi": "10.1038/s41467-021-24899-8",
+      "provider_id": "foursquare",
+      "provider_name": "Foursquare",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "poi",
+      "roles": [
+        "poi"
+      ],
+      "declared_brands": [
+        "foursquare"
+      ],
+      "evidence_url": "https://doi.org/10.1038/s41467-021-24899-8",
+      "evidence_section": "PDF第8页 Methods — Mobility data",
+      "basis": "匿名自愿加入的应用GPS pings；11座美国都会区、450万设备、6个月轨迹。",
+      "catalog_status": "reviewed",
+      "scope": "poi_context_not_phone_trace",
+      "data_access_relationship": "匿名自愿加入的应用GPS pings；11座美国都会区、450万设备、6个月轨迹。",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "2026-10-14 正文供应商声明审计"
+    },
+    {
+      "paper_id": "P214FEF72",
+      "paper_title": "Human-centric characterization of life activity flood exposure shifts focus from places to people",
+      "doi": "10.1038/s44284-024-00043-7",
+      "provider_id": "cuebiq_spectus",
+      "provider_name": "Cuebiq / Spectus",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "Cuebiq / Spectus"
+      ],
+      "evidence_url": "https://doi.org/10.1038/s44284-024-00043-7",
+      "evidence_section": "PDF第5页 2.1 Extracting stop-point data",
+      "basis": "手机应用匿名精细定位生成停留点表，含用户ID、日期、时间、时长和地理范围，并配套居住CBG和HMI。",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "手机应用匿名精细定位生成停留点表，含用户ID、日期、时间、时长和地理范围，并配套居住CBG和HMI。",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "2026-10-14 正文供应商声明审计"
+    },
+    {
+      "paper_id": "P214FEF72",
+      "paper_title": "Human-centric characterization of life activity flood exposure shifts focus from places to people",
+      "doi": "10.1038/s44284-024-00043-7",
+      "provider_id": "safegraph",
+      "provider_name": "SafeGraph",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "poi",
+      "roles": [
+        "poi"
+      ],
+      "declared_brands": [
+        "safegraph"
+      ],
+      "evidence_url": "https://doi.org/10.1038/s44284-024-00043-7",
+      "evidence_section": "PDF第5页 2.1 Extracting stop-point data",
+      "basis": "手机应用匿名精细定位生成停留点表，含用户ID、日期、时间、时长和地理范围，并配套居住CBG和HMI。",
+      "catalog_status": "reviewed",
+      "scope": "poi_context_not_phone_trace",
+      "data_access_relationship": "手机应用匿名精细定位生成停留点表，含用户ID、日期、时间、时长和地理范围，并配套居住CBG和HMI。",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "2026-10-14 正文供应商声明审计"
+    },
+    {
+      "paper_id": "L08",
+      "paper_title": "Spatial and Temporal Characterization of Activity in Public Space, 2019–2020",
+      "doi": "10.1038/s41597-022-01480-6",
+      "provider_id": "safegraph",
+      "provider_name": "SafeGraph",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "safegraph"
+      ],
+      "evidence_url": "https://doi.org/10.1038/s41597-022-01480-6",
+      "evidence_section": "PDF第1页 Background & Summary",
+      "basis": "手机应用定位汇总的POI每周到访量及停留时长（Weekly Patterns），进一步汇总到CBG；2019–2020年美国公共场所。",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "手机应用定位汇总的POI每周到访量及停留时长（Weekly Patterns），进一步汇总到CBG；2019–2020年美国公共场所。",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "2026-10-14 正文供应商声明审计"
+    },
+    {
+      "paper_id": "L10",
+      "paper_title": "On selection bias in comparison measures of smartphone-generated population mobility: an illustration of no-bias conditions with a commercial data source",
+      "doi": "10.1016/j.annepidem.2022.03.003",
+      "provider_id": "cuebiq_spectus",
+      "provider_name": "Cuebiq / Spectus",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "Cuebiq / Spectus"
+      ],
+      "evidence_url": "https://doi.org/10.1016/j.annepidem.2022.03.003",
+      "evidence_section": "PDF第4页 Methods / Target population and data sources",
+      "basis": "约1500万匿名自愿加入用户的手机应用采集位置，研究取得按居住地census block group汇总的日mobility index中位数，非个体轨迹。",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "约1500万匿名自愿加入用户的手机应用采集位置，研究取得按居住地census block group汇总的日mobility index中位数，非个体轨迹。",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "2026-10-14 正文供应商声明审计"
+    },
+    {
+      "paper_id": "P01D7334F",
+      "paper_title": "Visitation patterns reveal service access disparities for ageing populations in the USA",
+      "doi": "10.1038/s41562-025-02285-4",
+      "provider_id": "safegraph",
+      "provider_name": "SafeGraph",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "safegraph"
+      ],
+      "evidence_url": "https://doi.org/10.1038/s41562-025-02285-4",
+      "evidence_section": "PDF第10页 Methods；PDF第10页 Methods",
+      "basis": "SafeGraph POIs Visitation Patterns 的 POI聚合访问与 Social Distancing 的 CBG移动指标；主分析2019年4月。美国人口普查局2019年CBG人口结构用于年龄分析，非个体年龄记录。",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "SafeGraph POIs Visitation Patterns 的 POI聚合访问与 Social Distancing 的 CBG移动指标；主分析2019年4月。美国人口普查局2019年CBG人口结构用于年龄分析，非个体年龄记录。",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "2026-10-14 正文供应商声明审计"
     },
     {
       "paper_id": "L21",
@@ -15761,22 +16627,22 @@
     "name_collision_rule": "同音或近似拼写不构成供方关联，以上名称均未映射为北京摸星。"
   },
   "counts": {
-    "catalog_studies": 153,
-    "provider_nodes": 35,
-    "associations": 167,
+    "catalog_studies": 152,
+    "provider_nodes": 38,
+    "associations": 173,
     "unique_studies_with_association": 137,
-    "unassigned_studies": 16,
+    "unassigned_studies": 15,
     "association_counts_by_status": {
-      "confirmed_use": 123,
-      "user_confirmed_use": 19,
+      "confirmed_use": 138,
+      "user_confirmed_use": 18,
       "mention_only": 2,
-      "unresolved_candidate": 23
+      "unresolved_candidate": 15
     },
     "unique_studies_by_status": {
-      "confirmed_use": 102,
-      "user_confirmed_use": 19,
+      "confirmed_use": 107,
+      "user_confirmed_use": 18,
       "mention_only": 2,
-      "unresolved_candidate": 18
+      "unresolved_candidate": 14
     }
   },
   "linked_ecosystems": [
@@ -15845,6 +16711,12 @@
       "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
     },
     {
+      "paper_id": "PEF9587A5",
+      "title": "Harnessing Human Mobility Data for Applied Economic Research: Current Knowledge, Challenges, and Emerging Opportunities",
+      "doi": "10.1111/joes.70047",
+      "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
+    },
+    {
       "paper_id": "P9729F216",
       "title": "The geography of connectivity: a review of mobile positioning data for economic geography",
       "doi": "10.1007/s10109-022-00388-4",
@@ -15872,18 +16744,6 @@
       "paper_id": "P8B0F32E0",
       "title": "Unravelling the spatial directionality of urban mobility",
       "doi": "10.1038/s41467-024-48909-7",
-      "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
-    },
-    {
-      "paper_id": "P214FEF72",
-      "title": "Human-centric characterization of life activity flood exposure shifts focus from places to people",
-      "doi": "10.1038/s44284-024-00043-7",
-      "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
-    },
-    {
-      "paper_id": "P01D7334F",
-      "title": "Visitation patterns reveal service access disparities for ageing populations in the USA",
-      "doi": "10.1038/s41562-025-02285-4",
       "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
     },
     {

@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-11",
+  "as_of": "2026-10-14",
   "records": [
     {
       "id": "L01",
@@ -17,7 +17,7 @@
         "https://www.anderson.ucla.edu/faculty_pages/keith.chen/papers/Final_Science18.pdf",
         "https://doi.org/10.1126/science.aaq1433"
       ],
-      "next_action": "当前关键段审读完成，按需补充附件细读"
+      "next_action": "正文已入Zotero，数据供应商及数据形态已核验；无需补下正文。"
     },
     {
       "id": "L02",
@@ -35,7 +35,7 @@
         "https://www.nature.com/articles/s41597-020-00734-5",
         "https://doi.org/10.1038/s41597-020-00734-5"
       ],
-      "next_action": "当前关键段审读完成，按需补充附件细读"
+      "next_action": "正文已入Zotero，数据供应商及数据形态已核验；无需补下正文。"
     },
     {
       "id": "L03",
@@ -53,7 +53,7 @@
         "https://www.nature.com/articles/s41586-020-2923-3",
         "https://doi.org/10.1038/s41586-020-2923-3"
       ],
-      "next_action": "当前关键段审读完成，按需补充附件细读"
+      "next_action": "正文已入Zotero，数据供应商及数据形态已核验；无需补下正文。"
     },
     {
       "id": "L04",
@@ -62,17 +62,16 @@
       "journal": "Proceedings of the National Academy of Sciences (PNAS)",
       "catalog_status": "reviewed",
       "status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "current_review_complete"
       ],
-      "needs_fulltext_review": true,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC7817179/",
         "https://doi.org/10.1073/pnas.2015455118"
       ],
-      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "正文已入Zotero，数据供应商及数据形态已核验；无需补下正文。"
     },
     {
       "id": "L05",
@@ -81,16 +80,16 @@
       "journal": "EPJ Data Science",
       "catalog_status": "reviewed",
       "status": [
-        "pdf_acquisition"
+        "current_review_complete"
       ],
       "needs_fulltext_review": false,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
         "https://link.springer.com/article/10.1140/epjds/s13688-021-00267-w",
         "https://doi.org/10.1140/epjds/s13688-021-00267-w"
       ],
-      "next_action": "经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "正文已入Zotero，数据供应商及数据形态已核验；无需补下正文。"
     },
     {
       "id": "L06",
@@ -99,16 +98,16 @@
       "journal": "Nature Communications",
       "catalog_status": "reviewed",
       "status": [
-        "pdf_acquisition"
+        "current_review_complete"
       ],
       "needs_fulltext_review": false,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
         "https://www.nature.com/articles/s41467-021-24899-8",
         "https://doi.org/10.1038/s41467-021-24899-8"
       ],
-      "next_action": "经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "正文已入Zotero，数据供应商及数据形态已核验；无需补下正文。"
     },
     {
       "id": "L07",
@@ -117,15 +116,15 @@
       "journal": "Strategic Management Journal",
       "catalog_status": "reviewed",
       "status": [
-        "pdf_acquisition"
+        "current_review_complete"
       ],
       "needs_fulltext_review": false,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
         "https://doi.org/10.1002/smj.3435"
       ],
-      "next_action": "经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "正文已入Zotero，数据供应商及数据形态已核验；无需补下正文。"
     },
     {
       "id": "L08",
@@ -134,16 +133,16 @@
       "journal": "Scientific Data",
       "catalog_status": "reviewed",
       "status": [
-        "pdf_acquisition"
+        "current_review_complete"
       ],
       "needs_fulltext_review": false,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
         "https://www.nature.com/articles/s41597-022-01480-6",
         "https://doi.org/10.1038/s41597-022-01480-6"
       ],
-      "next_action": "经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "正文已入Zotero，数据供应商及数据形态已核验；无需补下正文。"
     },
     {
       "id": "L09",
@@ -152,16 +151,16 @@
       "journal": "International Journal of Health Geographics",
       "catalog_status": "reviewed",
       "status": [
-        "pdf_acquisition"
+        "current_review_complete"
       ],
       "needs_fulltext_review": false,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
         "https://link.springer.com/article/10.1186/s12942-022-00321-4",
         "https://doi.org/10.1186/s12942-022-00321-4"
       ],
-      "next_action": "经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "正文已入Zotero，数据供应商及数据形态已核验；无需补下正文。"
     },
     {
       "id": "L10",
@@ -170,17 +169,16 @@
       "journal": "Annals of Epidemiology",
       "catalog_status": "reviewed",
       "status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "current_review_complete"
       ],
-      "needs_fulltext_review": true,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
         "https://pubmed.ncbi.nlm.nih.gov/35288279/",
         "https://doi.org/10.1016/j.annepidem.2022.03.003"
       ],
-      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "正文已入Zotero，数据供应商及数据形态已核验；无需补下正文。"
     },
     {
       "id": "L11",
@@ -189,17 +187,16 @@
       "journal": "Nature",
       "catalog_status": "reviewed",
       "status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "current_review_complete"
       ],
-      "needs_fulltext_review": true,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
         "https://www.nature.com/articles/s41586-023-06757-3",
         "https://doi.org/10.1038/s41586-023-06757-3"
       ],
-      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "正文已入Zotero，数据供应商及数据形态已核验；无需补下正文。"
     },
     {
       "id": "L12",
@@ -217,7 +214,7 @@
         "https://www.nature.com/articles/s41598-023-46745-1",
         "https://doi.org/10.1038/s41598-023-46745-1"
       ],
-      "next_action": "当前关键段审读完成，按需补充附件细读"
+      "next_action": "正文已入Zotero，数据供应商及数据形态已核验；无需补下正文。"
     },
     {
       "id": "L13",
@@ -245,16 +242,16 @@
       "journal": "Scientific Data",
       "catalog_status": "reviewed",
       "status": [
-        "pdf_acquisition"
+        "current_review_complete"
       ],
       "needs_fulltext_review": false,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
         "https://www.nature.com/articles/s41597-024-03490-y",
         "https://doi.org/10.1038/s41597-024-03490-y"
       ],
-      "next_action": "经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "正文已入Zotero，数据供应商及数据形态已核验；无需补下正文。"
     },
     {
       "id": "L15",
@@ -263,16 +260,16 @@
       "journal": "Scientific Reports",
       "catalog_status": "reviewed",
       "status": [
-        "pdf_acquisition"
+        "current_review_complete"
       ],
       "needs_fulltext_review": false,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
         "https://www.nature.com/articles/s41598-024-64087-4",
         "https://doi.org/10.1038/s41598-024-64087-4"
       ],
-      "next_action": "经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "正文已入Zotero，数据供应商及数据形态已核验；无需补下正文。"
     },
     {
       "id": "L16",
@@ -308,7 +305,7 @@
         "https://www.nature.com/articles/s42005-024-01909-x",
         "https://doi.org/10.1038/s42005-024-01909-x"
       ],
-      "next_action": "当前关键段审读完成，按需补充附件细读"
+      "next_action": "正文已入Zotero，数据供应商及数据形态已核验；无需补下正文。"
     },
     {
       "id": "L18",
@@ -317,17 +314,16 @@
       "journal": "Proceedings of the National Academy of Sciences (PNAS)",
       "catalog_status": "reviewed",
       "status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "current_review_complete"
       ],
-      "needs_fulltext_review": true,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC12054799/",
         "https://doi.org/10.1073/pnas.2414848122"
       ],
-      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "正文已入Zotero，数据供应商及数据形态已核验；无需补下正文。"
     },
     {
       "id": "L19",
@@ -345,7 +341,7 @@
         "https://link.springer.com/article/10.1140/epjds/s13688-025-00559-5",
         "https://doi.org/10.1140/epjds/s13688-025-00559-5"
       ],
-      "next_action": "当前关键段审读完成，按需补充附件细读"
+      "next_action": "正文已入Zotero，数据供应商及数据形态已核验；无需补下正文。"
     },
     {
       "id": "L20",
@@ -363,7 +359,7 @@
         "https://www.nature.com/articles/s41598-025-03577-5",
         "https://doi.org/10.1038/s41598-025-03577-5"
       ],
-      "next_action": "当前关键段审读完成，按需补充附件细读"
+      "next_action": "正文已入Zotero，数据供应商及数据形态已核验；无需补下正文。"
     },
     {
       "id": "L21",
@@ -418,7 +414,7 @@
         "https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000430",
         "https://doi.org/10.1371/journal.pdig.0000430"
       ],
-      "next_action": "当前关键段审读完成，按需补充附件细读"
+      "next_action": "正文已入Zotero，数据供应商及数据形态已核验；无需补下正文。"
     },
     {
       "id": "L24",
@@ -436,7 +432,7 @@
         "https://senseable.mit.edu/papers/pdf/20240627_Wang-etal_BigMobility_NatureCities.pdf",
         "https://doi.org/10.1038/s44284-024-00093-x"
       ],
-      "next_action": "当前关键段审读完成，按需补充附件细读"
+      "next_action": "正文已入Zotero，数据供应商及数据形态已核验；无需补下正文。"
     },
     {
       "id": "L25",
@@ -1252,16 +1248,16 @@
       "journal": "Geophysical Research Letters",
       "catalog_status": "reviewed",
       "status": [
-        "pdf_acquisition"
+        "current_review_complete"
       ],
       "needs_fulltext_review": false,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
         "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2020GL088748",
         "https://doi.org/10.1029/2020gl088748"
       ],
-      "next_action": "经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "正文已入Zotero，数据供应商及数据形态已核验；无需补下正文。"
     },
     {
       "id": "L82",
@@ -1555,38 +1551,36 @@
       "title": "Assessing COVID-induced changes in spatiotemporal structure of mobility in the United States in 2020: a multi-source analytical framework",
       "doi": "10.1080/13658816.2021.2005796",
       "journal": "International Journal of Geographical Information Science",
-      "catalog_status": "pending",
+      "catalog_status": "reviewed",
       "status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "current_review_complete"
       ],
-      "needs_fulltext_review": true,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
         "https://www.tandfonline.com/doi/full/10.1080/13658816.2021.2005796",
         "https://doi.org/10.1080/13658816.2021.2005796"
       ],
-      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "正文已入Zotero，数据供应商及数据形态已核验；无需补下正文。"
     },
     {
       "id": "PAF9C787A",
       "title": "Strategies and inequities in balancing recreation and COVID exposure when visiting green spaces",
       "doi": "10.1177/23998083221114645",
       "journal": "Environment and Planning B: Urban Analytics and City Science",
-      "catalog_status": "pending",
+      "catalog_status": "reviewed",
       "status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "current_review_complete"
       ],
-      "needs_fulltext_review": true,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
         "https://journals.sagepub.com/doi/10.1177/23998083221114645",
         "https://doi.org/10.1177/23998083221114645"
       ],
-      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "正文已入Zotero，数据供应商及数据形态已核验；无需补下正文。"
     },
     {
       "id": "P8A06ED95",
@@ -1682,38 +1676,18 @@
       "title": "Characterizing urban lifestyle signatures using motif properties in network of places",
       "doi": "10.1177/23998083231206171",
       "journal": "Environment and Planning B: Urban Analytics and City Science",
-      "catalog_status": "pending",
+      "catalog_status": "reviewed",
       "status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "current_review_complete"
       ],
-      "needs_fulltext_review": true,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
         "https://journals.sagepub.com/doi/10.1177/23998083231206171",
         "https://doi.org/10.1177/23998083231206171"
       ],
-      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
-    },
-    {
-      "id": "PE7B72F15",
-      "title": "Using mobile phone data to evaluate access to essential services following natural hazards",
-      "doi": "10.1111/risa.14201",
-      "journal": "Risk Analysis",
-      "catalog_status": "pending",
-      "status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
-      ],
-      "needs_fulltext_review": true,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
-      "source_urls": [
-        "https://onlinelibrary.wiley.com/doi/full/10.1111/risa.14201",
-        "https://doi.org/10.1111/risa.14201"
-      ],
-      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "正文已入Zotero，数据供应商及数据形态已核验；无需补下正文。"
     },
     {
       "id": "P5FE9D417",
@@ -1776,38 +1750,36 @@
       "title": "Using Smartphone Location Data for Strategy Research",
       "doi": "10.1287/stsc.2024.0317",
       "journal": "Strategy Science",
-      "catalog_status": "pending",
+      "catalog_status": "reviewed",
       "status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "current_review_complete"
       ],
-      "needs_fulltext_review": true,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
         "https://pubsonline.informs.org/doi/10.1287/stsc.2024.0317",
         "https://doi.org/10.1287/stsc.2024.0317"
       ],
-      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "正文已入Zotero，数据供应商及数据形态已核验；无需补下正文。"
     },
     {
       "id": "PEF9587A5",
       "title": "Harnessing Human Mobility Data for Applied Economic Research: Current Knowledge, Challenges, and Emerging Opportunities",
       "doi": "10.1111/joes.70047",
       "journal": "Journal of Economic Surveys",
-      "catalog_status": "pending",
+      "catalog_status": "reviewed",
       "status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "current_review_complete"
       ],
-      "needs_fulltext_review": true,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
         "https://onlinelibrary.wiley.com/doi/full/10.1111/joes.70047",
         "https://doi.org/10.1111/joes.70047"
       ],
-      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "正文已入Zotero，数据供应商及数据形态已核验；无需补下正文。"
     },
     {
       "id": "P8C0DBF46",
@@ -1861,7 +1833,7 @@
         "https://www.nature.com/articles/sdata2018286",
         "https://doi.org/10.1038/sdata.2018.286"
       ],
-      "next_action": "当前关键段审读完成，按需补充附件细读"
+      "next_action": "正文已入Zotero，数据供应商及数据形态已核验；无需补下正文。"
     },
     {
       "id": "PC3073275",
@@ -2134,36 +2106,34 @@
       "title": "Human-centric characterization of life activity flood exposure shifts focus from places to people",
       "doi": "10.1038/s44284-024-00043-7",
       "journal": "Nature Cities",
-      "catalog_status": "pending",
+      "catalog_status": "reviewed",
       "status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "current_review_complete"
       ],
-      "needs_fulltext_review": true,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
         "https://doi.org/10.1038/s44284-024-00043-7"
       ],
-      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "正文已入Zotero，数据供应商及数据形态已核验；无需补下正文。"
     },
     {
       "id": "P01D7334F",
       "title": "Visitation patterns reveal service access disparities for ageing populations in the USA",
       "doi": "10.1038/s41562-025-02285-4",
       "journal": "Nature Human Behaviour",
-      "catalog_status": "pending",
+      "catalog_status": "reviewed",
       "status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "current_review_complete"
       ],
-      "needs_fulltext_review": true,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
         "https://doi.org/10.1038/s41562-025-02285-4"
       ],
-      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "正文已入Zotero，数据供应商及数据形态已核验；无需补下正文。"
     },
     {
       "id": "P3881BAD2",
@@ -2770,6 +2740,6 @@
       "next_action": "核对书目信息和数据来源，审读方法段"
     }
   ],
-  "count": 153,
+  "count": 152,
   "definitions": "pdf_acquisition=true仅表示尚未核实本地PDF；不意味着文章不可访问。"
 }

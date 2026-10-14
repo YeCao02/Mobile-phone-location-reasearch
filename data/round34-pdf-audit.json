@@ -1,0 +1,305 @@
+{
+  "date": "2026-10-14",
+  "records": [
+    {
+      "id": "L12",
+      "title": "Change of urban park usage as a response to the COVID-19 global pandemic",
+      "doi": "10.1038/s41598-023-46745-1",
+      "provider": "SafeGraph",
+      "data_form": "Places + Monthly Patterns：手机应用匿名位置数据汇总为公园 POI 月访问量、访客数和访客居住 CBG；2018—2020 年纽约。",
+      "evidence_section": "PDF第9页 Data and methods",
+      "version": "已核正文PDF",
+      "decision": "confirmed_use"
+    },
+    {
+      "id": "L19",
+      "title": "Designing transit routes based on vehicle routing behavior determined through location-based services data",
+      "doi": "10.1140/epjds/s13688-025-00559-5",
+      "provider": "Cuebiq",
+      "data_form": "复用 Xu 等处理后的 Dallas–Fort Worth LBS 轨迹，含用户ID、tripId、时间戳、经纬度、网格与几何；2016-11 至 2017-04。",
+      "evidence_section": "PDF第8页 3.2 LBS data in Dallas, Texas",
+      "version": "已核正文PDF",
+      "decision": "confirmed_use"
+    },
+    {
+      "id": "L20",
+      "title": "Integrating human mobility and animal movement data reveals complex space-use between humans and white-tailed deer in urban environments",
+      "doi": "10.1038/s41598-025-03577-5",
+      "provider": "Advan（Monthly Patterns）",
+      "data_form": "基于 GPS 轨迹聚合的 POI 月度客流，使用 raw_visit_count 和 popularity_by_hour；2018—2019 年 Maryland Howard County。",
+      "evidence_section": "PDF第8页 Mobility and movement data",
+      "version": "已核正文PDF",
+      "decision": "confirmed_use"
+    },
+    {
+      "id": "L23",
+      "title": "Characterizing collective physical distancing in the U.S. during the first nine months of the COVID-19 pandemic",
+      "doi": "10.1371/journal.pdig.0000430",
+      "provider": "Cuebiq Inc.（Data for Good；原始数据申请渠道为 Spectus Social Impact）",
+      "data_form": "合作应用内置定位 SDK 采集的匿名手机位置记录；居住/工作位置上卷至 CBG 中心、删除敏感场所访问。研究分析约550万用户的群体社交距离。",
+      "evidence_section": "PDF第3页 Materials and methods — Mobility data",
+      "version": "已核正文PDF",
+      "decision": "confirmed_use"
+    },
+    {
+      "id": "L24",
+      "title": "Big mobility data reveals hyperlocal air pollution exposure disparities in the Bronx, New York",
+      "doi": "10.1038/s44284-024-00093-x",
+      "provider": "Cuebiq（正文）；Spectus Inc.（随文 Reporting Summary）",
+      "data_form": "经用户授权的匿名智能手机位置记录，用于纽约个体轨迹与空气污染暴露分析；原始数据不公开，须向供应商申请。",
+      "evidence_section": "PDF第7页 Methods — Big mobility data sourcing and processing",
+      "version": "author-institution copy",
+      "decision": "confirmed_use"
+    },
+    {
+      "id": "P55058E29",
+      "title": "On the privacy-conscientious use of mobile phone data",
+      "doi": "10.1038/sdata.2018.286",
+      "provider": "不适用（观点/框架文章，无单一实证数据供应商）",
+      "data_form": "主要讨论传统通话详单 CDR 与高频 xDR 的隐私保护使用框架；不能作为某 SDK 供应商的实证论文。",
+      "evidence_section": "PDF第1页 Comment / opening discussion",
+      "version": "已核正文PDF",
+      "decision": "review_not_empirical_use"
+    },
+    {
+      "id": "L03",
+      "title": "Mobility network models of COVID-19 explain inequities and inform reopening",
+      "doi": "10.1038/s41586-020-2923-3",
+      "provider": "SafeGraph",
+      "data_form": "Places Patterns、Weekly Patterns (v1) 等聚合到访数据；构建居住 CBG—POI 小时级流动网络及传播模型，覆盖2020-03-01至05-02。",
+      "evidence_section": "PDF第7页 Methods — Datasets — SafeGraph",
+      "version": "已核正文PDF",
+      "decision": "confirmed_use"
+    },
+    {
+      "id": "L02",
+      "title": "Multiscale dynamic human mobility flow dataset in the U.S. during the COVID-19 epidemic",
+      "doi": "10.1038/s41597-020-00734-5",
+      "provider": "SafeGraph",
+      "data_form": "手机应用 GPS 到访记录推导的日/周 O-D 流，结合 ACS 人口推算 census tract、county、state 三层级人口流；使用聚合数据而非公开个体轨迹。",
+      "evidence_section": "PDF第2页 Methods",
+      "version": "已核正文PDF",
+      "decision": "confirmed_use"
+    },
+    {
+      "id": "L17",
+      "title": "Distorted insights from human mobility data",
+      "doi": "10.1038/s42005-024-01909-x",
+      "provider": "Cuebiq、SafeGraph、Google、Facebook（多源比较研究）",
+      "data_form": "比较 GPS/应用定位数据形成的聚合流网络与位移分布；同时纳入运营商 CDR、车辆 GPS 和人口普查通勤数据，不是单一 SDK 数据集。",
+      "evidence_section": "PDF第2页 Results — Overview of the data",
+      "version": "已核正文PDF",
+      "decision": "confirmed_use"
+    },
+    {
+      "id": "L01",
+      "title": "The effect of partisanship and political advertising on close family ties",
+      "doi": "10.1126/science.aaq1433",
+      "provider": "SafeGraph",
+      "data_form": "来自多种智能手机应用的匿名时空 pings，每条记录含设备在某时刻的坐标；2015、2016年11月，推断居住地与感恩节到访/停留。",
+      "evidence_section": "PDF第1页 Main text — location data",
+      "version": "author-institution copy",
+      "decision": "confirmed_use"
+    },
+    {
+      "id": "L11",
+      "title": "Human mobility networks reveal increased segregation in large cities",
+      "doi": "10.1038/s41586-023-06757-3",
+      "provider": "SafeGraph",
+      "data_form": "手机应用采集的去标识 GPS pings，依据时空接近构建人际暴露网络；研究约960万用户、2017年3/7/11月。",
+      "evidence_section": "PDF第8页 Methods — Datasets — SafeGraph",
+      "version": "已核正文PDF",
+      "decision": "confirmed_use"
+    },
+    {
+      "id": "L81",
+      "title": "Using Seismic Noise Levels to Monitor Social Isolation: An Example From Rio de Janeiro, Brazil",
+      "doi": "10.1029/2020gl088748",
+      "provider": "In Loco",
+      "data_form": "手机应用内SDK采集GPS、无线与其他传感器位置；研究使用已按城市汇总的社会隔离指数，不持有个体轨迹。供应商覆盖巴西3700多万手机。",
+      "evidence_section": "PDF第5页 3.1 The Smartphone Index Ik",
+      "version": "正式发表版（作者大学主页）",
+      "decision": "confirmed_use"
+    },
+    {
+      "id": "L09",
+      "title": "Deriving neighborhood-level diet and physical activity measurements from anonymized mobile phone location data for enhancing obesity estimation",
+      "doi": "10.1186/s12942-022-00321-4",
+      "provider": "SafeGraph",
+      "data_form": "由手机应用位置数据聚合而成的居住地人口普查区—POI到访次数，研究无个体GPS轨迹；以2018年纽约、洛杉矶、布法罗饮食/活动相关POI访问估计肥胖。",
+      "evidence_section": "PDF第3页 Methods / Anonymized mobile phone location data",
+      "version": "正式发表版（Springer）",
+      "decision": "confirmed_use"
+    },
+    {
+      "id": "L18",
+      "title": "Mixing individual and collective behaviors to predict out-of-routine mobility",
+      "doi": "10.1073/pnas.2414848122",
+      "provider": "Cuebiq",
+      "data_form": "Data for Good COVID-19 Collaborative匿名隐私增强GPS位置数据；约200万自愿参与用户，纽约、西雅图、波士顿、凤凰城、新奥尔良；识别至少停留5分钟且半径65m内的停留点。论文写January to August 2020同时称nine months，月份数量原文自身不一致。",
+      "evidence_section": "PDF第7页 Materials and Methods / Stop Location Detection",
+      "version": "正式发表版（CNR机构仓储）",
+      "decision": "confirmed_use"
+    },
+    {
+      "id": "L04",
+      "title": "Nursing home staff networks and COVID-19",
+      "doi": "10.1073/pnas.2015455118",
+      "provider": "Veraset",
+      "data_form": "跨Apple/Android应用汇集的匿名设备级位置数据，典型约10分钟上报；筛选养老院内至少3次定位且跨度至少1小时的访问，建立员工/承包商跨院联系。",
+      "evidence_section": "PDF第5页 Materials and Methods / Smartphone Location Data",
+      "version": "正式发表正文7页+作者附加补充材料7页（UCLA作者主页）",
+      "decision": "confirmed_use"
+    },
+    {
+      "id": "L07",
+      "title": "Face-to-face interactions and the returns to acquisitions: Evidence from smartphone geolocational data",
+      "doi": "10.1002/smj.3435",
+      "provider": "SafeGraph",
+      "data_form": "Apple/Android应用采集的匿名设备定位pings，含经纬度、时间、匿名设备ID；2015年11月至2017年11月，用于推断总部员工互访",
+      "evidence_section": "PDF第8页 3.1.2 Smartphone Data",
+      "version": "作者公开工作稿；题名Do Pre-Announcement Face-to-Face Interactions Increase the Returns to Acquisitions?，33页，非出版社正式版本",
+      "decision": "confirmed_use"
+    },
+    {
+      "id": "P2D2C630F",
+      "title": "Using Smartphone Location Data for Strategy Research",
+      "doi": "10.1287/stsc.2024.0317",
+      "provider": "Advan；SafeGraph仅为辅助POI与Geometry数据；Dewey Data为分发渠道",
+      "data_form": "POI聚合的访问次数、独立访客数与客流指标；正文案例使用Advan产品，非把所有被综述供应商视为本研究数据",
+      "evidence_section": "PDF第3页 Introduction",
+      "version": "出版社正式版；20页",
+      "decision": "confirmed_use"
+    },
+    {
+      "id": "P837C3A60",
+      "title": "Assessing COVID-induced changes in spatiotemporal structure of mobility in the United States in 2020: a multi-source analytical framework",
+      "doi": "10.1080/13658816.2021.2005796",
+      "provider": "Apple、Cuebiq、Descartes Labs、Facebook、Google、PlaceIQ、SafeGraph、StreetLight、马里兰大学",
+      "data_form": "9来源26种聚合移动指标，统一至县级/周级比较；覆盖出行距离、社交距离、接触暴露、行程次数；不是单一供应商原始轨迹",
+      "evidence_section": "PDF第3页 Data sources",
+      "version": "NSF公共存档作者稿；32页",
+      "decision": "confirmed_use"
+    },
+    {
+      "id": "PAF9C787A",
+      "title": "Strategies and inequities in balancing recreation and COVID exposure when visiting green spaces",
+      "doi": "10.1177/23998083221114645",
+      "provider": "SafeGraph",
+      "data_form": "Monthly Patterns：匿名移动设备GPS点加工为居住CBG—公园POI月度到访矩阵；Boston公园访问",
+      "evidence_section": "PDF第6页 Cellphone-Generated Mobility Records",
+      "version": "UCL机构库作者正文修订稿；31页",
+      "decision": "confirmed_use"
+    },
+    {
+      "id": "P76B9708A",
+      "title": "Characterizing urban lifestyle signatures using motif properties in network of places",
+      "doi": "10.1177/23998083231206171",
+      "provider": "Spectus（主要手机定位数据）；SafeGraph（仅POI位置与类别辅助数据）",
+      "data_form": "隐私处理的设备停留/到访数据，通过审计沙箱导出聚合结果；设备ID、POI ID、经纬度、停留时长；美国4县2020年2月",
+      "evidence_section": "PDF第5页 3.1 Data sources",
+      "version": "arXiv作者稿；32页正文，非原有8页补充材料",
+      "decision": "confirmed_use"
+    },
+    {
+      "id": "L15",
+      "title": "Returners and explorers dichotomy in the face of natural hazards",
+      "doi": "10.1038/s41598-024-64087-4",
+      "provider": "Cuebiq",
+      "data_form": "手机应用采集的匿名GPS轨迹与停留表；字段含用户ID、经纬度、时间戳和定位精度。",
+      "evidence_section": "PDF第9页 Methods — Date and preprocessing",
+      "version": "期刊正式版",
+      "decision": "confirmed_use"
+    },
+    {
+      "id": "L14",
+      "title": "An experienced racial-ethnic diversity dataset in the United States using human mobility data",
+      "doi": "10.1038/s41597-024-03490-y",
+      "provider": "Cuebiq / Spectus（Spectus Data Clean Room交付）",
+      "data_form": "同意共享的手机应用GPS定位及停留数据；2022年四季共8周、原文称约6600万人，停留平均精度21米。",
+      "evidence_section": "PDF第2页 Methods — Mobile phone application data",
+      "version": "期刊正式版",
+      "decision": "confirmed_use"
+    },
+    {
+      "id": "L05",
+      "title": "Understanding vehicular routing behavior with location-based service data",
+      "doi": "10.1140/epjds/s13688-021-00267-w",
+      "provider": "Cuebiq",
+      "data_form": "手机应用产生的GPS/Wi-Fi定位LBS轨迹；Dallas–Fort Worth，2016-11至2017-04，约650万用户。",
+      "evidence_section": "PDF第3页 2 Data description",
+      "version": "期刊正式版",
+      "decision": "confirmed_use"
+    },
+    {
+      "id": "L06",
+      "title": "Mobility patterns are associated with experienced income segregation in large US cities",
+      "doi": "10.1038/s41467-021-24899-8",
+      "provider": "Cuebiq；Foursquare仅提供POI位置与类别",
+      "data_form": "匿名自愿加入的应用GPS pings；11座美国都会区、450万设备、6个月轨迹。",
+      "evidence_section": "PDF第8页 Methods — Mobility data",
+      "version": "期刊正式版",
+      "decision": "confirmed_use"
+    },
+    {
+      "id": "P214FEF72",
+      "title": "Human-centric characterization of life activity flood exposure shifts focus from places to people",
+      "doi": "10.1038/s44284-024-00043-7",
+      "provider": "Spectus；SafeGraph仅提供辅助POI",
+      "data_form": "手机应用匿名精细定位生成停留点表，含用户ID、日期、时间、时长和地理范围，并配套居住CBG和HMI。",
+      "evidence_section": "PDF第5页 2.1 Extracting stop-point data",
+      "version": "作者预印本（2023-09-21，doi10.21203/rs.3.rs-3338918/v1；非期刊正式版）",
+      "decision": "confirmed_use"
+    },
+    {
+      "id": "L08",
+      "title": "Spatial and Temporal Characterization of Activity in Public Space, 2019–2020",
+      "doi": "10.1038/s41597-022-01480-6",
+      "provider": "SafeGraph",
+      "data_form": "手机应用定位汇总的POI每周到访量及停留时长（Weekly Patterns），进一步汇总到CBG；2019–2020年美国公共场所。",
+      "evidence_section": "PDF第1页 Background & Summary",
+      "version": "期刊正式版",
+      "decision": "confirmed_use"
+    },
+    {
+      "id": "L10",
+      "title": "On selection bias in comparison measures of smartphone-generated population mobility: an illustration of no-bias conditions with a commercial data source",
+      "doi": "10.1016/j.annepidem.2022.03.003",
+      "provider": "Cuebiq",
+      "data_form": "约1500万匿名自愿加入用户的手机应用采集位置，研究取得按居住地census block group汇总的日mobility index中位数，非个体轨迹。",
+      "evidence_section": "PDF第4页 Methods / Target population and data sources",
+      "version": "PMC作者接受稿；正文PDF已核验",
+      "decision": "confirmed_use"
+    },
+    {
+      "id": "P01D7334F",
+      "title": "Visitation patterns reveal service access disparities for ageing populations in the USA",
+      "doi": "10.1038/s41562-025-02285-4",
+      "provider": "SafeGraph",
+      "data_form": "SafeGraph POIs Visitation Patterns 的 POI聚合访问与 Social Distancing 的 CBG移动指标；主分析2019年4月。美国人口普查局2019年CBG人口结构用于年龄分析，非个体年龄记录。",
+      "evidence_section": "PDF第10页 Methods；PDF第10页 Methods",
+      "version": "期刊正式版；15页",
+      "decision": "confirmed_use"
+    },
+    {
+      "id": "PEF9587A5",
+      "title": "Harnessing Human Mobility Data for Applied Economic Research: Current Knowledge, Challenges, and Emerging Opportunities",
+      "doi": "10.1111/joes.70047",
+      "provider": "多供应商综述（非单一实证数据供方）",
+      "data_form": "综述经济研究中的商业移动数据、GPS轨迹、POI访问与聚合流产品；讨论Spectus/Cuebiq、Foursquare、Advan、SafeGraph、StreetLight等。",
+      "evidence_section": "PDF第1页 Abstract",
+      "version": "期刊正式版；26页",
+      "decision": "review_not_empirical_use"
+    }
+  ],
+  "completed_main_texts": 29,
+  "user_excluded": [
+    {
+      "id": "PE7B72F15",
+      "title": "Using mobile phone data to evaluate access to essential services following natural hazards",
+      "doi": "10.1111/risa.14201",
+      "reason": "用户2026-10-14明确不再收录；停止正文补全。"
+    }
+  ],
+  "note": "27篇补挂并核验，另2篇用户补充正文后核验；综述不计供应商实证使用。作者稿与正式版区分。"
+}

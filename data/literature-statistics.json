@@ -1,7 +1,7 @@
 {
   "as_of": "2026-10-14",
   "method": "按出版物学术定位的编辑主领域归类，每刊一主类；非官方JCR/中科院分区，也非当前论文研究主题。会议论文与预印本不纳入期刊领域饼图。",
-  "annual_scope_note": "年度图默认当前收录期刊论文、会议论文和预印本共132篇；排除1条会议摘要。非全领域发文总量。2026为截至收录日。",
+  "annual_scope_note": "年度图默认当前收录期刊论文、会议论文和预印本共130篇；排除1条会议摘要。非全领域发文总量。2026为截至收录日。",
   "domain_order": [
     "综合科学",
     "地理与地理信息",
@@ -369,18 +369,6 @@
       "original_journal_article_count": 1
     },
     {
-      "journal": "Journal of Economic Surveys",
-      "canonical_journal": "Journal of Economic Surveys",
-      "domain": "社会经济与管理",
-      "rationale": "出版物以社会行为、政治、经济、管理或教育研究为主要方向。",
-      "paper_ids": [
-        "PEF9587A5"
-      ],
-      "record_count": 1,
-      "journal_article_count": 1,
-      "original_journal_article_count": 1
-    },
-    {
       "journal": "Journal of Transport Geography",
       "canonical_journal": "Journal of Transport Geography",
       "domain": "交通与出行",
@@ -635,18 +623,6 @@
       "record_count": 3,
       "journal_article_count": 3,
       "original_journal_article_count": 3
-    },
-    {
-      "journal": "Risk Analysis",
-      "canonical_journal": "Risk Analysis",
-      "domain": "环境生态与风险",
-      "rationale": "跨领域风险分析期刊，在此八类体系并入环境生态与风险；不表示该刊只研究环境风险。",
-      "paper_ids": [
-        "PE7B72F15"
-      ],
-      "record_count": 1,
-      "journal_article_count": 1,
-      "original_journal_article_count": 1
     },
     {
       "journal": "Science",
@@ -1076,7 +1052,7 @@
   ],
   "scopes": {
     "all": {
-      "record_count": 133,
+      "record_count": 131,
       "record_ids": [
         "L01",
         "L02",
@@ -1205,14 +1181,12 @@
         "PD4F8B912",
         "PD5396003",
         "PE6FBF191",
-        "PE7B72F15",
         "PEEE72CD1",
-        "PEF9587A5",
         "PF912AF74",
         "PFC132E92",
         "PFDDDACD2"
       ],
-      "annual_paper_count": 132,
+      "annual_paper_count": 130,
       "annual_paper_ids": [
         "L01",
         "L02",
@@ -1291,12 +1265,10 @@
         "P71C3218F",
         "PEEE72CD1",
         "P76B9708A",
-        "PE7B72F15",
         "P5FE9D417",
         "P1F72D228",
         "PA98D85BB",
         "P2D2C630F",
-        "PEF9587A5",
         "P8C0DBF46",
         "PC3073275",
         "PA225066F",
@@ -1347,7 +1319,7 @@
         "P5C05191D",
         "P919700C8"
       ],
-      "journal_article_count": 122,
+      "journal_article_count": 120,
       "journal_article_ids": [
         "L01",
         "L02",
@@ -1425,12 +1397,10 @@
         "P71C3218F",
         "PEEE72CD1",
         "P76B9708A",
-        "PE7B72F15",
         "P5FE9D417",
         "P1F72D228",
         "PA98D85BB",
         "P2D2C630F",
-        "PEF9587A5",
         "P8C0DBF46",
         "PA225066F",
         "PBC87DC0B",
@@ -1476,7 +1446,7 @@
         "L26"
       ],
       "publication_types": {
-        "journal_article": 122,
+        "journal_article": 120,
         "conference_abstract": 1,
         "conference_or_proceedings": 9,
         "preprint": 1
@@ -1509,8 +1479,8 @@
         },
         {
           "year": 2023,
-          "count": 13,
-          "all_record_count": 14
+          "count": 12,
+          "all_record_count": 13
         },
         {
           "year": 2024,
@@ -1524,8 +1494,8 @@
         },
         {
           "year": 2026,
-          "count": 23,
-          "all_record_count": 23
+          "count": 22,
+          "all_record_count": 22
         }
       ],
       "journal_domains": [
@@ -1543,7 +1513,7 @@
         },
         {
           "domain": "环境生态与风险",
-          "count": 9
+          "count": 8
         },
         {
           "domain": "交通与出行",
@@ -1559,12 +1529,12 @@
         },
         {
           "domain": "社会经济与管理",
-          "count": 10
+          "count": 9
         }
       ]
     },
     "confirmed": {
-      "record_count": 110,
+      "record_count": 114,
       "record_ids": [
         "L01",
         "L02",
@@ -1630,6 +1600,7 @@
         "L90",
         "L91",
         "L92",
+        "P01D7334F",
         "P0663A19C",
         "P06F06671",
         "P104EBB42",
@@ -1637,6 +1608,7 @@
         "P1BFB6B6F",
         "P1DFAD697",
         "P1F72D228",
+        "P214FEF72",
         "P2290471E",
         "P240AD96D",
         "P25D34630",
@@ -1661,6 +1633,7 @@
         "P76B9708A",
         "P7A4F6797",
         "P7C63CA4F",
+        "P837C3A60",
         "P8A06ED95",
         "P8C0DBF46",
         "P913EE387",
@@ -1670,6 +1643,7 @@
         "PA225066F",
         "PA98D85BB",
         "PAADD397C",
+        "PAF9C787A",
         "PC3073275",
         "PD4F8B912",
         "PE6FBF191",
@@ -1677,7 +1651,7 @@
         "PFC132E92",
         "PFDDDACD2"
       ],
-      "annual_paper_count": 109,
+      "annual_paper_count": 113,
       "annual_paper_ids": [
         "L01",
         "L02",
@@ -1747,6 +1721,8 @@
         "P3239D548",
         "PD4F8B912",
         "P557B9764",
+        "P837C3A60",
+        "PAF9C787A",
         "P8A06ED95",
         "P441C38CE",
         "P1A918461",
@@ -1768,6 +1744,8 @@
         "P63686407",
         "P99197F39",
         "P1BFB6B6F",
+        "P214FEF72",
+        "P01D7334F",
         "P3881BAD2",
         "PFDDDACD2",
         "P0663A19C",
@@ -1789,7 +1767,7 @@
         "P5C05191D",
         "P919700C8"
       ],
-      "journal_article_count": 104,
+      "journal_article_count": 108,
       "journal_article_ids": [
         "L01",
         "L02",
@@ -1859,6 +1837,8 @@
         "P3239D548",
         "PD4F8B912",
         "P557B9764",
+        "P837C3A60",
+        "PAF9C787A",
         "P441C38CE",
         "P1A918461",
         "P71C3218F",
@@ -1878,6 +1858,8 @@
         "P63686407",
         "P99197F39",
         "P1BFB6B6F",
+        "P214FEF72",
+        "P01D7334F",
         "P3881BAD2",
         "PFDDDACD2",
         "P0663A19C",
@@ -1900,7 +1882,7 @@
         "L26"
       ],
       "publication_types": {
-        "journal_article": 104,
+        "journal_article": 108,
         "conference_abstract": 1,
         "conference_or_proceedings": 4,
         "preprint": 1
@@ -1923,13 +1905,13 @@
         },
         {
           "year": 2021,
-          "count": 15,
-          "all_record_count": 15
+          "count": 16,
+          "all_record_count": 16
         },
         {
           "year": 2022,
-          "count": 11,
-          "all_record_count": 11
+          "count": 12,
+          "all_record_count": 12
         },
         {
           "year": 2023,
@@ -1938,13 +1920,13 @@
         },
         {
           "year": 2024,
-          "count": 23,
-          "all_record_count": 23
+          "count": 24,
+          "all_record_count": 24
         },
         {
           "year": 2025,
-          "count": 19,
-          "all_record_count": 19
+          "count": 20,
+          "all_record_count": 20
         },
         {
           "year": 2026,
@@ -1959,11 +1941,11 @@
         },
         {
           "domain": "地理与地理信息",
-          "count": 19
+          "count": 20
         },
         {
           "domain": "城市规划与建筑",
-          "count": 21
+          "count": 23
         },
         {
           "domain": "环境生态与风险",
@@ -1983,7 +1965,7 @@
         },
         {
           "domain": "社会经济与管理",
-          "count": 8
+          "count": 9
         }
       ]
     },
@@ -2187,7 +2169,7 @@
       ]
     },
     "analog": {
-      "record_count": 76,
+      "record_count": 80,
       "record_ids": [
         "L01",
         "L02",
@@ -2219,6 +2201,7 @@
         "L73",
         "L81",
         "L82",
+        "P01D7334F",
         "P0663A19C",
         "P06F06671",
         "P104EBB42",
@@ -2226,6 +2209,7 @@
         "P1BFB6B6F",
         "P1DFAD697",
         "P1F72D228",
+        "P214FEF72",
         "P2290471E",
         "P240AD96D",
         "P25D34630",
@@ -2250,6 +2234,7 @@
         "P76B9708A",
         "P7A4F6797",
         "P7C63CA4F",
+        "P837C3A60",
         "P8A06ED95",
         "P8C0DBF46",
         "P913EE387",
@@ -2259,6 +2244,7 @@
         "PA225066F",
         "PA98D85BB",
         "PAADD397C",
+        "PAF9C787A",
         "PC3073275",
         "PD4F8B912",
         "PE6FBF191",
@@ -2266,7 +2252,7 @@
         "PFC132E92",
         "PFDDDACD2"
       ],
-      "annual_paper_count": 76,
+      "annual_paper_count": 80,
       "annual_paper_ids": [
         "L01",
         "L02",
@@ -2303,6 +2289,8 @@
         "P3239D548",
         "PD4F8B912",
         "P557B9764",
+        "P837C3A60",
+        "PAF9C787A",
         "P8A06ED95",
         "P441C38CE",
         "P1A918461",
@@ -2324,6 +2312,8 @@
         "P63686407",
         "P99197F39",
         "P1BFB6B6F",
+        "P214FEF72",
+        "P01D7334F",
         "P3881BAD2",
         "PFDDDACD2",
         "P0663A19C",
@@ -2345,7 +2335,7 @@
         "P5C05191D",
         "P919700C8"
       ],
-      "journal_article_count": 71,
+      "journal_article_count": 75,
       "journal_article_ids": [
         "L01",
         "L02",
@@ -2382,6 +2372,8 @@
         "P3239D548",
         "PD4F8B912",
         "P557B9764",
+        "P837C3A60",
+        "PAF9C787A",
         "P441C38CE",
         "P1A918461",
         "P71C3218F",
@@ -2401,6 +2393,8 @@
         "P63686407",
         "P99197F39",
         "P1BFB6B6F",
+        "P214FEF72",
+        "P01D7334F",
         "P3881BAD2",
         "PFDDDACD2",
         "P0663A19C",
@@ -2421,7 +2415,7 @@
       ],
       "excluded_from_annual": [],
       "publication_types": {
-        "journal_article": 71,
+        "journal_article": 75,
         "conference_or_proceedings": 4,
         "preprint": 1
       },
@@ -2443,13 +2437,13 @@
         },
         {
           "year": 2021,
-          "count": 15,
-          "all_record_count": 15
+          "count": 16,
+          "all_record_count": 16
         },
         {
           "year": 2022,
-          "count": 11,
-          "all_record_count": 11
+          "count": 12,
+          "all_record_count": 12
         },
         {
           "year": 2023,
@@ -2458,13 +2452,13 @@
         },
         {
           "year": 2024,
-          "count": 17,
-          "all_record_count": 17
+          "count": 18,
+          "all_record_count": 18
         },
         {
           "year": 2025,
-          "count": 11,
-          "all_record_count": 11
+          "count": 12,
+          "all_record_count": 12
         },
         {
           "year": 2026,
@@ -2479,11 +2473,11 @@
         },
         {
           "domain": "地理与地理信息",
-          "count": 8
+          "count": 9
         },
         {
           "domain": "城市规划与建筑",
-          "count": 10
+          "count": 12
         },
         {
           "domain": "环境生态与风险",
@@ -2503,49 +2497,37 @@
         },
         {
           "domain": "社会经济与管理",
-          "count": 7
+          "count": 8
         }
       ]
     },
     "pending": {
-      "record_count": 23,
+      "record_count": 17,
       "record_ids": [
         "L22",
         "P002C367F",
-        "P01D7334F",
-        "P214FEF72",
         "P377CD02F",
         "P3EEC79FA",
         "P48A032E2",
         "P5B2E6933",
         "P681BDA6E",
         "P7E59C8D1",
-        "P837C3A60",
         "P8A8A7B36",
         "P9123C07B",
         "P9B76EC36",
         "PA597BCE5",
-        "PAF9C787A",
         "PB6FFBAD1",
         "PBC87DC0B",
         "PC2196B2E",
         "PD5396003",
-        "PE7B72F15",
-        "PEF9587A5",
         "PF912AF74"
       ],
-      "annual_paper_count": 23,
+      "annual_paper_count": 17,
       "annual_paper_ids": [
         "L22",
-        "P837C3A60",
-        "PAF9C787A",
-        "PE7B72F15",
-        "PEF9587A5",
         "PBC87DC0B",
         "P002C367F",
         "P377CD02F",
-        "P214FEF72",
-        "P01D7334F",
         "PB6FFBAD1",
         "P9123C07B",
         "PC2196B2E",
@@ -2560,18 +2542,12 @@
         "P8A8A7B36",
         "P681BDA6E"
       ],
-      "journal_article_count": 18,
+      "journal_article_count": 12,
       "journal_article_ids": [
         "L22",
-        "P837C3A60",
-        "PAF9C787A",
-        "PE7B72F15",
-        "PEF9587A5",
         "PBC87DC0B",
         "P002C367F",
         "P377CD02F",
-        "P214FEF72",
-        "P01D7334F",
         "PB6FFBAD1",
         "P9123C07B",
         "PC2196B2E",
@@ -2583,7 +2559,7 @@
       ],
       "excluded_from_annual": [],
       "publication_types": {
-        "journal_article": 18,
+        "journal_article": 12,
         "conference_or_proceedings": 5
       },
       "annual": [
@@ -2604,33 +2580,33 @@
         },
         {
           "year": 2021,
-          "count": 2,
-          "all_record_count": 2
-        },
-        {
-          "year": 2022,
-          "count": 5,
-          "all_record_count": 5
-        },
-        {
-          "year": 2023,
           "count": 1,
           "all_record_count": 1
         },
         {
+          "year": 2022,
+          "count": 4,
+          "all_record_count": 4
+        },
+        {
+          "year": 2023,
+          "count": 0,
+          "all_record_count": 0
+        },
+        {
           "year": 2024,
-          "count": 7,
-          "all_record_count": 7
+          "count": 6,
+          "all_record_count": 6
         },
         {
           "year": 2025,
-          "count": 5,
-          "all_record_count": 5
+          "count": 4,
+          "all_record_count": 4
         },
         {
           "year": 2026,
-          "count": 2,
-          "all_record_count": 2
+          "count": 1,
+          "all_record_count": 1
         }
       ],
       "journal_domains": [
@@ -2640,15 +2616,15 @@
         },
         {
           "domain": "地理与地理信息",
-          "count": 2
+          "count": 1
         },
         {
           "domain": "城市规划与建筑",
-          "count": 6
+          "count": 4
         },
         {
           "domain": "环境生态与风险",
-          "count": 3
+          "count": 2
         },
         {
           "domain": "交通与出行",
@@ -2664,14 +2640,14 @@
         },
         {
           "domain": "社会经济与管理",
-          "count": 2
+          "count": 0
         }
       ]
     }
   },
   "legacy_125_audit": {
-    "count": 127,
-    "warning": "原publication_type有5条会议论文需按出版物类型修正。此127仅用于审计原数据，不应标成真实期刊论文总量。",
+    "count": 125,
+    "warning": "原publication_type有5条会议论文需按出版物类型修正。此125仅用于审计原数据，不应标成真实期刊论文总量。",
     "domains": [
       {
         "domain": "综合科学",
@@ -2687,7 +2663,7 @@
       },
       {
         "domain": "环境生态与风险",
-        "count": 9
+        "count": 8
       },
       {
         "domain": "交通与出行",
@@ -2703,13 +2679,13 @@
       },
       {
         "domain": "社会经济与管理",
-        "count": 10
+        "count": 9
       }
     ]
   },
   "checks": {
-    "active_browse_unique_records": 133,
-    "unique_venue_strings": 80,
+    "active_browse_unique_records": 131,
+    "unique_venue_strings": 78,
     "duplicate_browse_ids": 0,
     "all_domains_mapped": true,
     "domain_counts_checked": true,
