@@ -1,0 +1,170 @@
+{
+  "date": "2026-10-14",
+  "wos_query": "OG=(\"Peking University\" OR \"Tsinghua University\" OR \"Tongji University\" OR \"Southeast University\" OR \"Nanjing University\" OR \"Tianjin University\" OR \"Beijing Jiaotong University\" OR \"Shanghai Jiao Tong University\" OR \"Sichuan University\" OR \"Chongqing University\") AND TS=(\"LBS data\" OR \"SDK data\" OR \"mobile phone data\" OR \"mobile phone location data\" OR \"smartphone location data\" OR \"location-based service data\") AND PY=(2020-2026)",
+  "wos_records": 126,
+  "wos_fulltext_verified_all": false,
+  "new_confirmed_suppliers": 0,
+  "new_data_statement_candidates": [
+    {
+      "id": "R31-C01",
+      "institution": "同济大学",
+      "team": "金云峰 / Yulin Huang",
+      "title": "Network-Based Association Rules of Tourist Flows: Decoding Inter- and Intra-Town Interactions and Drivers in the Yangtze River Delta, China",
+      "doi": "10.3390/systems14040420",
+      "journal": "Systems",
+      "year": 2026,
+      "url": "https://www.mdpi.com/2079-8954/14/4/420",
+      "status": "正文数据段已核；供应商未具名候选",
+      "statement": "This study utilized smartphone LBS data provided by a network technology company in China.",
+      "evidence": "§3.2：长三角示范区五镇，2024-11-18至11-24，记录活动起止时间和位置；剔除本地居民、景区员工及停留不足10分钟者。高德只被列为路网、POI、AOI等辅助数据来源。",
+      "limitation": "未说明具体公司、SDK嵌入方式或本研究数据的定位机制。文献综述中的GPS/Wi-Fi/基站概述不能代替本研究的数据声明。不能仅凭这些信息指定为先锋或及刻。",
+      "grant": "51978480",
+      "fulltext_read": true,
+      "fulltext_scope": "出版社HTML的作者单位、§3.2、基金与数据可用性声明",
+      "pdf_downloaded": false,
+      "pdf_status": "下载跳转至出版社PDF域名后，Chrome显示ERR_BLOCKED_BY_CLIENT；未保存成功。",
+      "next_action": "按金云峰、基金51978480及2024年11月五镇数据反查同组文章、采购合同；核对中文论文《静态空间与实际访问的城市公共绿地公平对比评估》。"
+    }
+  ],
+  "exclusions": [
+    {
+      "title": "Does location of entrance/exit matter? Reexamining built environment factors of commuter ridership using high-quality LBS data",
+      "doi": "10.1016/j.tranpol.2025.07.031",
+      "reason": "出版社引言明确通勤OD数据来自高德Amap；分流出泛先锋。",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0967070X25002847"
+    },
+    {
+      "title": "Dataset for visitations of public green spaces in Shanghai, China",
+      "doi": "10.1038/s41597-025-05581-w",
+      "reason": "Methods明确运营商基站定位，由上海大数据中心归档；2014年1—4月，不能作为SDK数据。",
+      "url": "https://www.nature.com/articles/s41597-025-05581-w"
+    },
+    {
+      "title": "Displacement in Activities Space? Identification of Activity-Space-Based Gentrification via Mobile Phone Data",
+      "doi": "10.1002/psp.70026",
+      "reason": "WoS摘要明确China Unicom，2017与2021年；按具名运营商排除。",
+      "url": "https://doi.org/10.1002/psp.70026"
+    }
+  ],
+  "fulltext_queue": [
+    {
+      "wos_position": 27,
+      "title": "Exploring neighborhood daily activity patterns from the perspective of mobility using location-based services data: A case study of Shanghai",
+      "doi": "10.1016/j.apgeog.2025.103733",
+      "journal": "APPLIED GEOGRAPHY",
+      "year": "2025",
+      "status": "学校ScienceDirect全文权限已显示，但正文加载失败；待恢复后核读",
+      "url": "https://doi.org/10.1016/j.apgeog.2025.103733"
+    },
+    {
+      "wos_position": 7,
+      "title": "Climate-induced mobility disruption: Demographic disparities to cumulative heat effect in urban China",
+      "doi": "10.1016/j.trd.2026.105360",
+      "journal": "TRANSPORTATION RESEARCH PART D-TRANSPORT AND ENVIRONMENT",
+      "year": "2026",
+      "status": "题录与摘要初筛；数据来源段待核",
+      "url": "https://doi.org/10.1016/j.trd.2026.105360"
+    },
+    {
+      "wos_position": 12,
+      "title": "Nonlinear-relationship between urban environment and commuting distance considering social and job disparities",
+      "doi": "10.1016/j.apgeog.2026.103967",
+      "journal": "APPLIED GEOGRAPHY",
+      "year": "2026",
+      "status": "题录与摘要初筛；数据来源段待核",
+      "url": "https://doi.org/10.1016/j.apgeog.2026.103967"
+    },
+    {
+      "wos_position": 16,
+      "title": "Causal effects of typhoons on mobility perturbations: environment and individual heterogeneity☆",
+      "doi": "10.1016/j.trd.2026.105234",
+      "journal": "TRANSPORTATION RESEARCH PART D-TRANSPORT AND ENVIRONMENT",
+      "year": "2026",
+      "status": "题录与摘要初筛；数据来源段待核",
+      "url": "https://doi.org/10.1016/j.trd.2026.105234"
+    },
+    {
+      "wos_position": 3,
+      "title": "Widening Gender Gaps in Daily Mobility? A Causal Analysis of Pandemic Impacts and Sociospatial Heterogeneity",
+      "doi": "10.1080/24694452.2026.2708873",
+      "journal": "ANNALS OF THE AMERICAN ASSOCIATION OF GEOGRAPHERS",
+      "year": "2026",
+      "status": "学校Taylor & Francis页面明确显示Content unavailable；正文待获取",
+      "url": "https://doi.org/10.1080/24694452.2026.2708873"
+    },
+    {
+      "wos_position": 10,
+      "title": "Characterizing firm-led urban innovation environments through the work-residence-leisure nexus of knowledge workers",
+      "doi": "10.1016/j.habitatint.2026.103862",
+      "journal": "HABITAT INTERNATIONAL",
+      "year": "2026",
+      "status": "题录与摘要初筛；数据来源段待核",
+      "url": "https://doi.org/10.1016/j.habitatint.2026.103862"
+    },
+    {
+      "wos_position": 14,
+      "title": "Public contact and neighborhood collective efficacy in Beijing, China: An ecological network approach combining mobile phone and questionnaire survey data",
+      "doi": "10.1016/j.cities.2026.107094",
+      "journal": "CITIES",
+      "year": "2026",
+      "status": "题录与摘要初筛；数据来源段待核",
+      "url": "https://doi.org/10.1016/j.cities.2026.107094"
+    },
+    {
+      "wos_position": 20,
+      "title": "Unraveling the spatiotemporal heterogeneity in mechanistic pathways from urban environment to mobility-associated PM2.5 exposure risk",
+      "doi": "10.1016/j.scs.2025.106978",
+      "journal": "SUSTAINABLE CITIES AND SOCIETY",
+      "year": "2025",
+      "status": "题录与摘要初筛；数据来源段待核",
+      "url": "https://doi.org/10.1016/j.scs.2025.106978"
+    },
+    {
+      "wos_position": 23,
+      "title": "Spatiotemporal heterogeneity of PM2.5 exposure risk: An assessment framework based on residents' travel behavior using mobile phone data",
+      "doi": "10.1016/j.landurbplan.2025.105501",
+      "journal": "LANDSCAPE AND URBAN PLANNING",
+      "year": "2025",
+      "status": "题录与摘要初筛；数据来源段待核",
+      "url": "https://doi.org/10.1016/j.landurbplan.2025.105501"
+    },
+    {
+      "wos_position": 26,
+      "title": "Disparities in dynamic green exposure across residents' mobility patterns: A case study in Chengdu",
+      "doi": "10.1016/j.ufug.2025.128978",
+      "journal": "URBAN FORESTRY & URBAN GREENING",
+      "year": "2025",
+      "status": "出版社关键词及引言称手机信令；低优先级边界，需数据段确定，未推为SDK候选",
+      "url": "https://doi.org/10.1016/j.ufug.2025.128978"
+    },
+    {
+      "wos_position": 2,
+      "title": "Exploring the relationships of eWOM with distance and traditional attractiveness: evidence from Shanghai",
+      "doi": "10.1016/j.tbs.2026.101394",
+      "journal": "TRAVEL BEHAVIOUR AND SOCIETY",
+      "year": "2027",
+      "status": "题录与摘要初筛；数据来源段待核",
+      "url": "https://doi.org/10.1016/j.tbs.2026.101394"
+    }
+  ],
+  "procurement_summary": "52条初查+20条基金负责人定向补查，共72条查询；未新增具名采购，附带发现两条中文文献入口。",
+  "counting_note": "126为WoS题录结果，并非126篇新增相关文献。1条正文声明候选及11条优先核读队列单独展示，尚未计入主库统计或Zotero核心分类。",
+  "citation_leads": [
+    {
+      "title": "静态空间与实际访问的城市公共绿地公平对比评估",
+      "team": "同济大学 王淳淳 / 金云峰",
+      "journal": "智能城市",
+      "year": 2024,
+      "status": "摘要与题录镜像线索；全文待核",
+      "url": "https://cnki.istiz.org.cn/kcms/detail/detail.aspx?dbcode=CJFQ&dbname=CJFD2024&filename=ZNCS202406001"
+    },
+    {
+      "title": "精准更新导向下的数字化城市设计实践探索——以上海市陆家嘴水环为例",
+      "team": "同济大学 叶宇 / 匡晓明等",
+      "journal": "建筑师",
+      "year": 2024,
+      "status": "期刊摘要称移动互联网LBS；全文待核",
+      "url": "https://jzss.cbpt.cnki.net/portal/journal/portal/client/paper/5ec5f659115014d31646ff8182070b66"
+    }
+  ]
+}
