@@ -1,18 +1,6 @@
 {
   "records": [
     {
-      "id": "L22",
-      "title": "Exploring biases in travel behavior patterns in big passively generated mobile data from 11 U.S. cities",
-      "journal": "Journal of Transport Geography",
-      "year": 2025,
-      "doi": "10.1016/j.jtrangeo.2024.104108",
-      "url": "https://www.sciencedirect.com/science/article/pii/S096669232400317X",
-      "vpn_url": "https://www-sciencedirect-com-443.webvpn.scut.edu.cn/science/article/pii/S096669232400317X",
-      "pdf_downloaded": false,
-      "search_only": false,
-      "notes": "2026-10-13 已通过Chrome DOI跳转或学校WebVPN打开对应出版商论文页面。"
-    },
-    {
       "id": "P002C367F",
       "title": "Activity-adjusted crime rates show that public safety worsened in 2020",
       "journal": "Proceedings of the National Academy of Sciences",
@@ -23,42 +11,6 @@
       "pdf_downloaded": false,
       "search_only": false,
       "notes": "旧标题为改写；Crossref出版商登记与PNAS检索页核对正式标题。"
-    },
-    {
-      "id": "P01D7334F",
-      "title": "Visitation patterns reveal service access disparities for ageing populations in the USA",
-      "journal": "Nature Human Behaviour",
-      "year": 2025,
-      "doi": "10.1038/s41562-025-02285-4",
-      "url": "https://www.nature.com/articles/s41562-025-02285-4",
-      "vpn_url": "https://www-nature-com-443.webvpn.scut.edu.cn/articles/s41562-025-02285-4",
-      "pdf_downloaded": false,
-      "search_only": false,
-      "notes": ""
-    },
-    {
-      "id": "P214FEF72",
-      "title": "Human-centric characterization of life activity flood exposure shifts focus from places to people",
-      "journal": "Nature Cities",
-      "year": 2024,
-      "doi": "10.1038/s44284-024-00043-7",
-      "url": "https://www.nature.com/articles/s44284-024-00043-7",
-      "vpn_url": "https://www-nature-com-443.webvpn.scut.edu.cn/articles/s44284-024-00043-7",
-      "pdf_downloaded": false,
-      "search_only": false,
-      "notes": ""
-    },
-    {
-      "id": "P2D2C630F",
-      "title": "Using Smartphone Location Data for Strategy Research",
-      "journal": "Strategy Science",
-      "year": 2025,
-      "doi": "10.1287/stsc.2024.0317",
-      "url": "https://pubsonline.informs.org/doi/10.1287/stsc.2024.0317",
-      "vpn_url": "",
-      "pdf_downloaded": false,
-      "search_only": false,
-      "notes": ""
     },
     {
       "id": "P377CD02F",
@@ -169,18 +121,6 @@
       "notes": "2026-10-13 已通过Chrome DOI跳转或学校WebVPN打开对应出版商论文页面。"
     },
     {
-      "id": "P913EE387",
-      "title": "Equity, travel, and park visitation in 10 US metro areas: A smartphone mobility study",
-      "journal": "Urban Forestry & Urban Greening",
-      "year": 2024,
-      "doi": "10.1016/j.ufug.2024.128557",
-      "url": "https://www.sciencedirect.com/science/article/pii/S1618866724003558",
-      "vpn_url": "https://www-sciencedirect-com-443.webvpn.scut.edu.cn/science/article/pii/S1618866724003558",
-      "pdf_downloaded": false,
-      "search_only": false,
-      "notes": "旧副标题错误；出版社检索结果和作者TU Delft机构书目一致。"
-    },
-    {
       "id": "P9B76EC36",
       "title": "Realized spatial accessibility vs. potential spatial accessibility in grocery deserts",
       "journal": "Computers, Environment and Urban Systems",
@@ -203,18 +143,6 @@
       "pdf_downloaded": false,
       "search_only": false,
       "notes": "Crossref题名与作者TU Eindhoven原刊PDF一致；卷期出版年2024（DOI带2023）。"
-    },
-    {
-      "id": "PA98D85BB",
-      "title": "Generating equitable urban human flows with a fairness-aware deep learning model",
-      "journal": "Cities",
-      "year": 2025,
-      "doi": "10.1016/j.cities.2025.106296",
-      "url": "https://www.sciencedirect.com/science/article/pii/S0264275125005979",
-      "vpn_url": "https://www-sciencedirect-com-443.webvpn.scut.edu.cn/science/article/pii/S0264275125005979",
-      "pdf_downloaded": false,
-      "search_only": false,
-      "notes": "2026-10-13 已通过Chrome DOI跳转或学校WebVPN打开对应出版商论文页面。"
     },
     {
       "id": "PAF9C787A",
@@ -313,196 +241,40 @@
       "notes": ""
     },
     {
-      "id": "P0663A19C",
-      "title": "Use of smartphone mobility data to analyze city park visits during the COVID-19 pandemic",
-      "journal": "Landscape and Urban Planning",
-      "year": 2022,
-      "doi": "10.1016/j.landurbplan.2022.104554",
-      "url": "https://www.sciencedirect.com/science/article/am/pii/S0169204622002031",
-      "vpn_url": "https://www-sciencedirect-com-443.webvpn.scut.edu.cn/science/article/am/pii/S0169204622002031",
-      "pdf_downloaded": true,
-      "search_only": false,
-      "notes": "出版社接受稿页与USDA作者机构原刊PDF一致。"
-    },
-    {
-      "id": "P1A918461",
-      "title": "Impact of federated data with local differential privacy for human mobility modeling",
-      "journal": "EPJ Data Science",
-      "year": 2026,
-      "doi": "10.1140/epjds/s13688-025-00611-4",
-      "url": "https://link.springer.com/article/10.1140/epjds/s13688-025-00611-4",
-      "vpn_url": "https://link-springer-com-443.webvpn.scut.edu.cn/article/10.1140/epjds/s13688-025-00611-4",
-      "pdf_downloaded": true,
-      "search_only": false,
-      "notes": ""
-    },
-    {
-      "id": "P1BFB6B6F",
-      "title": "Human mobility networks manifest dissimilar resilience characteristics at macroscopic, substructure, and microscopic scales",
-      "journal": "Scientific Reports",
-      "year": 2023,
-      "doi": "10.1038/s41598-023-44444-5",
-      "url": "https://www.nature.com/articles/s41598-023-44444-5",
-      "vpn_url": "https://www-nature-com-443.webvpn.scut.edu.cn/articles/s41598-023-44444-5",
-      "pdf_downloaded": true,
-      "search_only": false,
-      "notes": ""
-    },
-    {
-      "id": "P2290471E",
-      "title": "Using Big Data to Assess Park System Performance during the COVID-19 Pandemic",
-      "journal": "Sustainability",
-      "year": 2023,
-      "doi": "10.3390/su152216056",
-      "url": "https://doi.org/10.3390/su152216056",
-      "vpn_url": "",
-      "pdf_downloaded": true,
-      "search_only": false,
-      "notes": ""
-    },
-    {
-      "id": "P557B9764",
-      "title": "Percolation of temporal hierarchical mobility networks during COVID-19",
-      "journal": "Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences",
-      "year": 2021,
-      "doi": "10.1098/rsta.2021.0116",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8607142/",
-      "vpn_url": "",
-      "pdf_downloaded": true,
-      "search_only": false,
-      "notes": ""
-    },
-    {
-      "id": "P5FE9D417",
-      "title": "Socioeconomic disparities in mobility behavior during the COVID-19 pandemic in developing countries",
-      "journal": "EPJ Data Science",
+      "id": "L22",
+      "title": "Exploring biases in travel behavior patterns in big passively generated mobile data from 11 U.S. cities",
+      "journal": "Journal of Transport Geography",
       "year": 2025,
-      "doi": "10.1140/epjds/s13688-025-00532-2",
-      "url": "https://link.springer.com/article/10.1140/epjds/s13688-025-00532-2",
-      "vpn_url": "https://link-springer-com-443.webvpn.scut.edu.cn/article/10.1140/epjds/s13688-025-00532-2",
+      "doi": "10.1016/j.jtrangeo.2024.104108",
+      "url": "https://www.sciencedirect.com/science/article/pii/S096669232400317X",
+      "vpn_url": "https://www-sciencedirect-com-443.webvpn.scut.edu.cn/science/article/pii/S096669232400317X",
+      "pdf_downloaded": true,
+      "search_only": false,
+      "notes": "2026-10-13 已通过Chrome DOI跳转或学校WebVPN打开对应出版商论文页面。"
+    },
+    {
+      "id": "P01D7334F",
+      "title": "Visitation patterns reveal service access disparities for ageing populations in the USA",
+      "journal": "Nature Human Behaviour",
+      "year": 2025,
+      "doi": "10.1038/s41562-025-02285-4",
+      "url": "https://www.nature.com/articles/s41562-025-02285-4",
+      "vpn_url": "https://www-nature-com-443.webvpn.scut.edu.cn/articles/s41562-025-02285-4",
       "pdf_downloaded": true,
       "search_only": false,
       "notes": ""
     },
     {
-      "id": "P6AAE6DFC",
-      "title": "STORM-GAN: Spatio-Temporal Meta-GAN for Cross-City Estimation of Human Mobility Responses to COVID-19",
-      "journal": "2022 IEEE International Conference on Data Mining (ICDM)",
-      "year": 2022,
-      "doi": "10.1109/ICDM54844.2022.00010",
-      "url": "https://arxiv.org/abs/2301.08648",
-      "vpn_url": "",
-      "pdf_downloaded": true,
-      "search_only": false,
-      "notes": "Crossref正式会议DOI核对成功；arXiv为2023上传预印本，论文正式会议年2022。"
-    },
-    {
-      "id": "P71C3218F",
-      "title": "Inequality in Risk-Taking: Evidence From Location Tracking in Mexican Cities During COVID 19",
-      "journal": "Frontiers in Political Science",
-      "year": 2021,
-      "doi": "10.3389/fpos.2021.631826",
-      "url": "https://www.frontiersin.org/journals/political-science/articles/10.3389/fpos.2021.631826/full",
-      "vpn_url": "",
+      "id": "P214FEF72",
+      "title": "Human-centric characterization of life activity flood exposure shifts focus from places to people",
+      "journal": "Nature Cities",
+      "year": 2024,
+      "doi": "10.1038/s44284-024-00043-7",
+      "url": "https://www.nature.com/articles/s44284-024-00043-7",
+      "vpn_url": "https://www-nature-com-443.webvpn.scut.edu.cn/articles/s44284-024-00043-7",
       "pdf_downloaded": true,
       "search_only": false,
       "notes": ""
-    },
-    {
-      "id": "P7C63CA4F",
-      "title": "Data-Driven Real-Time Strategic Placement of Mobile Vaccine Distribution Sites",
-      "journal": "Proceedings of the AAAI Conference on Artificial Intelligence",
-      "year": 2022,
-      "doi": "10.1609/aaai.v36i11.21529",
-      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/21529",
-      "vpn_url": "",
-      "pdf_downloaded": true,
-      "search_only": false,
-      "notes": ""
-    },
-    {
-      "id": "P8A06ED95",
-      "title": "Use of SafeGraph visitation patterns for the identification of essential services during COVID-19",
-      "journal": "AGILE: GIScience Series",
-      "year": 2023,
-      "doi": "10.5194/agile-giss-4-36-2023",
-      "url": "https://agile-giss.copernicus.org/articles/4/36/2023/",
-      "vpn_url": "",
-      "pdf_downloaded": true,
-      "search_only": false,
-      "notes": ""
-    },
-    {
-      "id": "P9729F216",
-      "title": "The geography of connectivity: a review of mobile positioning data for economic geography",
-      "journal": "Journal of Geographical Systems",
-      "year": 2022,
-      "doi": "10.1007/s10109-022-00388-4",
-      "url": "https://link.springer.com/article/10.1007/s10109-022-00388-4",
-      "vpn_url": "https://link-springer-com-443.webvpn.scut.edu.cn/article/10.1007/s10109-022-00388-4",
-      "pdf_downloaded": true,
-      "search_only": false,
-      "notes": "原DOI有效，Springer出版商页面、Lund作者机构正式出版记录及德国国家图书馆原刊PDF首页均与原题名一致。问题在旧evidence_url链接的是另一题名2020工作论文，不应继续作此2022论文全文。本文为文献综述，摘要明确侧重CDR；不应视为某供应商原始实证研究。"
-    },
-    {
-      "id": "P99197F39",
-      "title": "Fine-grained data reveal segregated mobility networks and opportunities for local containment of COVID-19",
-      "journal": "Scientific Reports",
-      "year": 2021,
-      "doi": "10.1038/s41598-021-95894-8",
-      "url": "https://www.nature.com/articles/s41598-021-95894-8",
-      "vpn_url": "https://www-nature-com-443.webvpn.scut.edu.cn/articles/s41598-021-95894-8",
-      "pdf_downloaded": true,
-      "search_only": false,
-      "notes": ""
-    },
-    {
-      "id": "PA225066F",
-      "title": "Disentangling the rhythms of human activity in the built environment for airborne transmission risk: An analysis of large-scale mobility data",
-      "journal": "eLife",
-      "year": 2023,
-      "doi": "10.7554/elife.80466",
-      "url": "https://elifesciences.org/articles/80466",
-      "vpn_url": "",
-      "pdf_downloaded": true,
-      "search_only": false,
-      "notes": ""
-    },
-    {
-      "id": "PC3073275",
-      "title": "Mobile phone location data reveal the effect and geographic variation of social distancing on the spread of the COVID-19 epidemic",
-      "journal": "arXiv（预印本）",
-      "year": 2020,
-      "doi": "10.48550/arxiv.2004.11430",
-      "url": "https://arxiv.org/abs/2004.11430",
-      "vpn_url": "",
-      "pdf_downloaded": true,
-      "search_only": false,
-      "notes": ""
-    },
-    {
-      "id": "PE6FBF191",
-      "title": "Getting Back on Track: Understanding COVID-19 Impact on Urban Mobility and Segregation with Location Service Data",
-      "journal": "Proceedings of the International AAAI Conference on Web and Social Media",
-      "year": 2023,
-      "doi": "10.1609/icwsm.v17i1.22132",
-      "url": "https://doi.org/10.1609/icwsm.v17i1.22132",
-      "vpn_url": "",
-      "pdf_downloaded": true,
-      "search_only": false,
-      "notes": ""
-    },
-    {
-      "id": "PFDDDACD2",
-      "title": "Exploring the relationship between mobility and COVID− 19 infection rates for the second peak in the United States using phase-wise association",
-      "journal": "BMC Public Health",
-      "year": 2021,
-      "doi": "10.1186/s12889-021-11657-0",
-      "url": "https://link.springer.com/article/10.1186/s12889-021-11657-0",
-      "vpn_url": "https://link-springer-com-443.webvpn.scut.edu.cn/article/10.1186/s12889-021-11657-0",
-      "pdf_downloaded": true,
-      "search_only": false,
-      "notes": "Springer BMC正式开放全文；存在2021年10月26日更正。"
     }
   ]
 }

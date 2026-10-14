@@ -1,0 +1,1408 @@
+{
+  "date": "2026-10-14",
+  "audited_zotero_items": 46,
+  "catalog_studies": 45,
+  "records": [
+    {
+      "id": "PA98D85BB",
+      "title": "Generating equitable urban human flows with a fairness-aware deep learning model",
+      "doi": "10.1016/j.cities.2025.106296",
+      "journal": "Cities",
+      "year": "2025",
+      "providers": [
+        {
+          "name": "Spectus",
+          "role": "mobility",
+          "confirmed": true
+        }
+      ],
+      "product": "普查区间人流数据",
+      "data_form": "四个美国都市区域的 census-tract 间出行流；周/月聚合，用于公平人流生成。",
+      "data_declaration": "四个美国都市区域的 census-tract 间出行流；周/月聚合，用于公平人流生成。",
+      "fulltext_scope": "main",
+      "decision": "confirmed_use",
+      "notes": "Atlanta 2019-04-01—07；Harris、King、Suffolk 2020-02；分别82,198、507,994、137,019、36,208条行程。供商近7000万设备为平台覆盖量，不是本研究样本量。",
+      "quotes": [
+        {
+          "quote": "For experiments, we collected human mobility datasets from Spec- tus, which is a commercial location intelligence and measurement platform collecting mobility data of anonymized devices.",
+          "section": "2.1 Dataset collection and experiment settings",
+          "pdf_page": 3
+        }
+      ]
+    },
+    {
+      "id": "L13",
+      "title": "The 15-minute city quantified using human mobility data",
+      "doi": "10.1038/s41562-023-01770-y",
+      "journal": "Nature Human Behaviour",
+      "year": "2024",
+      "providers": [
+        {
+          "name": "SafeGraph",
+          "role": "mobility",
+          "confirmed": true
+        }
+      ],
+      "product": "POI到访与居住CBG聚合",
+      "data_form": "按居住 Census Block Group—POI 记录到访次数；结合步行等时圈推算15分钟使用率，非个体完整轨迹。",
+      "data_declaration": "按居住 Census Block Group—POI 记录到访次数；结合步行等时圈推算15分钟使用率，非个体完整轨迹。",
+      "fulltext_scope": "main",
+      "decision": "confirmed_use",
+      "notes": "2019年、420城市、约4000万设备；全国530万POI，研究城市390万POI，136亿到访。数据在邻里层面聚合，无法确定个体真实出行方式。",
+      "quotes": [
+        {
+          "quote": "The data used in this study were sourced by SafeGraph, a company that collects anonymous location data from around 10% of smartphones in the United States.",
+          "section": "Methods / Data source descriptions",
+          "pdf_page": 8
+        }
+      ]
+    },
+    {
+      "id": "P5DE047C3",
+      "title": "Informing inclusive park planning: Neighborhood park visitation modeling based on smartphone big data in Austin, Texas",
+      "doi": "10.1016/j.landusepol.2024.107234",
+      "journal": "Land Use Policy",
+      "year": "2024",
+      "providers": [
+        {
+          "name": "SafeGraph",
+          "role": "mobility",
+          "confirmed": true
+        }
+      ],
+      "product": "周级公园到访/居住BG面板",
+      "data_form": "POI每周访客设备数、访客居住BG及BG抽样设备总数；人口学属性由ACS区域数据关联。",
+      "data_declaration": "POI每周访客设备数、访客居住BG及BG抽样设备总数；人口学属性由ACS区域数据关联。",
+      "fulltext_scope": "main",
+      "decision": "confirmed_use",
+      "notes": "Austin 30个社区公园，1121个BG；2019-09—2020-08、53周，12,227到访观测。地区人口学信息不等于个体属性。",
+      "quotes": [
+        {
+          "quote": "Data were sourced mainly from the SafeGraph mobile data platform and other sources.",
+          "section": "2.2 Data collection and analysis",
+          "pdf_page": 2
+        }
+      ]
+    },
+    {
+      "id": "P3B9C78DF",
+      "title": "Do urban form characteristics perpetuate disparities of pandemic-induced mobility changes? Evidence from Fulton County, Georgia",
+      "doi": "10.1016/j.tbs.2024.100803",
+      "journal": "Travel Behaviour and Society",
+      "year": "2024",
+      "providers": [
+        {
+          "name": "Advan",
+          "role": "mobility",
+          "confirmed": true
+        },
+        {
+          "name": "SafeGraph",
+          "role": "辅助",
+          "confirmed": true
+        }
+      ],
+      "product": "Monthly Patterns + SafeGraph Global Places",
+      "data_form": "Advan提供普查区到POI的月到访频数估计；SafeGraph提供POI名称、坐标、NAICS等辅助信息。",
+      "data_declaration": "Advan提供普查区到POI的月到访频数估计；SafeGraph提供POI名称、坐标、NAICS等辅助信息。",
+      "fulltext_scope": "main",
+      "decision": "confirmed_use",
+      "notes": "Fulton County，Q2 2019—Q2 2020与Q2 2020—Q2 2021比较。摘要泛称SafeGraph，但精确供应商分工以方法段为准。",
+      "quotes": [
+        {
+          "quote": "Advan ’ s Monthly Patterns ( 2023 ), which provide estimates of monthly travel frequency from Census Tracts to POIs.",
+          "section": "Data and methods / data sources",
+          "pdf_page": 2
+        },
+        {
+          "quote": "Global Places dataset from SafeGraph (2023) , containing attributes of point of interest (POI) including name, geolocation, NAICS code, and more;",
+          "section": "Data sources",
+          "pdf_page": 2
+        }
+      ]
+    },
+    {
+      "id": "P2D2C630F",
+      "title": "Using Smartphone Location Data for Strategy Research",
+      "doi": "",
+      "journal": "Strategy Science",
+      "year": 2025,
+      "providers": [
+        {
+          "name": "Advan",
+          "role": "mobility",
+          "confirmed": true
+        },
+        {
+          "name": "SafeGraph",
+          "role": "review_only",
+          "confirmed": false
+        },
+        {
+          "name": "Veraset",
+          "role": "review_only",
+          "confirmed": false
+        },
+        {
+          "name": "Dewey",
+          "role": "辅助",
+          "confirmed": true
+        }
+      ],
+      "product": "门店客流聚合、方法示范",
+      "data_form": "Advan门店到访次数和访客来源区域聚合；本文实际进行Popeyes新产品发布事件研究，并讨论原始定位点和聚合数据两类形态。",
+      "data_declaration": "Advan门店到访次数和访客来源区域聚合；本文实际进行Popeyes新产品发布事件研究，并讨论原始定位点和聚合数据两类形态。",
+      "fulltext_scope": "main",
+      "decision": "confirmed_use",
+      "notes": "方法文章含独立实证，不能仅列供应商综述；SafeGraph/Veraset/Foursquare等大量提及并非本文全部实际使用。Dewey为分发渠道。附件正式版2025、10(4):281–299，Zotero旧2024年份需校正。",
+      "quotes": [
+        {
+          "quote": "in this article, we use Advan data to analyze the introduction of a new product and show how researchers can leverage mobility data to answer strategy-relevant questions.",
+          "section": "Introduction",
+          "pdf_page": 3
+        }
+      ]
+    },
+    {
+      "id": "P06F06671",
+      "title": "Analyzing and mapping the vulnerability and resilience of the hospitality industry: Insights from real consumer visitation behavior",
+      "doi": "10.1016/j.ijhm.2025.104362",
+      "journal": "International Journal of Hospitality Management",
+      "year": "2026",
+      "providers": [
+        {
+          "name": "SafeGraph",
+          "role": "mobility",
+          "confirmed": true
+        },
+        {
+          "name": "Advan Research",
+          "role": "辅助",
+          "confirmed": true,
+          "role_detail": "distribution",
+          "role_basis": "原文说明SafeGraph Patterns currently available via Advan Research，属后续提供/获取渠道，不是POI供方；不代表本研究额外使用另一套Advan数据。"
+        }
+      ],
+      "product": "Patterns 周级场所到访",
+      "data_form": "酒店与餐馆等场所的每周到访人数/次数聚合，结合县级疫情资料；非个体轨迹。",
+      "data_declaration": "酒店与餐馆等场所的每周到访人数/次数聚合，结合县级疫情资料；非个体轨迹。",
+      "fulltext_scope": "main",
+      "decision": "confirmed_use",
+      "notes": "2020-03-15当周—2021-07-11当周；美国50州84,425家住宿餐饮场所。原文称下载自SafeGraph Patterns，同时说明目前经Advan Research提供；不可双算独立数据集。 Advan在此为后续提供渠道（distribution），非POI辅助，也不另计一套移动数据。",
+      "quotes": [
+        {
+          "quote": "This study measured consumer visits at hospitality businesses using mobility data (also referred to as foot traffic) downloaded from Safe - Graph’s Patterns dataset ( SafeGraph, 2023a ), which is currently avail - able via Advan Research ( Barry, 2023 ).",
+          "section": "3.1 Data source",
+          "pdf_page": 4
+        }
+      ]
+    },
+    {
+      "id": "L22",
+      "title": "Exploring biases in travel behavior patterns in big passively generated mobile data from 11 U.S. cities",
+      "doi": "10.1016/j.jtrangeo.2024.104108",
+      "journal": "Journal of Transport Geography",
+      "year": "2025",
+      "providers": [
+        {
+          "name": "*未具名供应商",
+          "role": "mobility",
+          "confirmed": false
+        }
+      ],
+      "product": "匿名LBS/GPS记录",
+      "data_form": "11个美国MSA的匿名LBS设备记录，含经纬度、时间戳、定位精度半径；与NHTS旅行调查对比评估偏差。",
+      "data_declaration": "11个美国MSA的匿名LBS设备记录，含经纬度、时间戳、定位精度半径；与NHTS旅行调查对比评估偏差。",
+      "fulltext_scope": "main",
+      "decision": "unnamed",
+      "notes": "2020-01-01—03-04，共63天。全文未找到本文具名供商；SafeGraph、Google、Cambridge Systematics均出现在背景/被引研究，不能归为本研究供商。 交叉复核第3页数据段、第11页致谢/数据可用性及全文供应商关键词；数据可用性仅写无权分享数据。",
+      "quotes": [
+        {
+          "quote": "Each record in the dataset includes a user ’ s latitude, longitude, timestamp, and spatial precision, which is defined as the radius surrounding the captured GPS position with a 68 % probability ( Wang et al., 2022 ).",
+          "section": "3.1 Mobility and demographic datasets",
+          "pdf_page": 3
+        },
+        {
+          "quote": "The authors do not have permission to share data.",
+          "section": "Data availability",
+          "pdf_page": 11
+        }
+      ]
+    },
+    {
+      "id": "PFDDDACD2",
+      "title": "Exploring the relationship between mobility and COVID− 19 infection rates for the second peak in the United States using phase-wise association",
+      "doi": "10.1186/s12889-021-11657-0",
+      "journal": "BMC Public Health",
+      "year": "2021",
+      "providers": [
+        {
+          "name": "Descartes Labs",
+          "role": "mobility",
+          "confirmed": true
+        }
+      ],
+      "product": "Descartes mobility index",
+      "data_form": "州级归一化聚合移动性指数及相对疫情前基线的百分比变化，非用户级轨迹。",
+      "data_declaration": "州级归一化聚合移动性指数及相对疫情前基线的百分比变化，非用户级轨迹。",
+      "fulltext_scope": "main",
+      "decision": "confirmed_use",
+      "notes": "基线2020-02-17—03-07；研究美国第二波疫情分阶段关联。SafeGraph仅讨论段被提及，不能标为本文使用。",
+      "quotes": [
+        {
+          "quote": "State-level mobility datasets and metrics were pro- vided by Descartes Labs. Descartes index provides a normalized aggregated mobility measure obtained from anonymized mobile device locations.",
+          "section": "Methods / Mobility data",
+          "pdf_page": 2
+        }
+      ]
+    },
+    {
+      "id": "P01D7334F",
+      "title": "Visitation patterns reveal service access disparities for ageing populations in the USA",
+      "doi": "10.1038/s41562-025-02285-4",
+      "journal": "Nature Human Behaviour",
+      "year": "2025",
+      "providers": [
+        {
+          "name": "*当前附件未具名",
+          "role": "mobility",
+          "confirmed": false
+        }
+      ],
+      "product": "补充材料：服务访问与年龄公平分析",
+      "data_form": "补充材料展示CBG服务访问、周期性变化与公平性分析；没有足够信息核实商业数据供商及原始交付形态。",
+      "data_declaration": "补充材料展示CBG服务访问、周期性变化与公平性分析；没有足够信息核实商业数据供商及原始交付形态。",
+      "fulltext_scope": "supplement_only",
+      "decision": "unnamed",
+      "notes": "当前附件为Supplementary information，不是正文。覆盖220,333 CBG的论述及2019年周期性图不等于具名供商声明；应保留待核主文。",
+      "quotes": [
+        {
+          "quote": "First, we leverage nation- wide datasets that encompass 220,333 Census Block Groups (CBGs) in the United States.",
+          "section": "Supplementary information / S2",
+          "pdf_page": 3
+        }
+      ]
+    },
+    {
+      "id": "P2290471E",
+      "title": "Using Big Data to Assess Park System Performance during the COVID-19 Pandemic",
+      "doi": "10.3390/su152216056",
+      "journal": "Sustainability",
+      "year": "2023",
+      "providers": [
+        {
+          "name": "SafeGraph",
+          "role": "mobility",
+          "confirmed": true
+        }
+      ],
+      "product": "POI公园访问聚合",
+      "data_form": "2019与2020年公园每日/月访问统计；按公园POI聚合的匿名手机活动数据。",
+      "data_declaration": "2019与2020年公园每日/月访问统计；按公园POI聚合的匿名手机活动数据。",
+      "fulltext_scope": "main",
+      "decision": "confirmed_use",
+      "notes": "Tucson及边界2km内公园，最终139个公园；平台4500万设备为背景覆盖数字，不是139公园独立访客数量。",
+      "quotes": [
+        {
+          "quote": "Park visit data were retrieved from SafeGraph",
+          "section": "2.2 Data；2.3 Methods",
+          "pdf_page": 3
+        }
+      ]
+    },
+    {
+      "id": "PC3073275",
+      "title": "Mobile phone location data reveal the effect and geographic variation of social distancing on the spread of the COVID-19 epidemic",
+      "doi": "10.48550/arXiv.2004.11430",
+      "journal": "arXiv preprint / later peer-reviewed citations",
+      "year": "2020",
+      "providers": [
+        {
+          "name": "Descartes Labs",
+          "role": "mobility",
+          "confirmed": true
+        },
+        {
+          "name": "SafeGraph",
+          "role": "mobility",
+          "confirmed": true
+        }
+      ],
+      "product": "移动距离与居家停留聚合指标",
+      "data_form": "Descartes Labs提供移动距离指标；SafeGraph提供POI到访模式和居家停留时间，研究使用地域聚合指标而非直接个人接触。",
+      "data_declaration": "Descartes Labs提供移动距离指标；SafeGraph提供POI到访模式和居家停留时间，研究使用地域聚合指标而非直接个人接触。",
+      "fulltext_scope": "main",
+      "decision": "confirmed_use",
+      "notes": "当前附件为2020-04-23 arXiv v1主文预印本；核验范围为该版本，不冒充正式出版版。2020-03-11—04-10；GPS误差使该数据不能测量两米社交距离。",
+      "quotes": [
+        {
+          "quote": "The travel distance mobility data were provided by the Descartes Labs ( https://www.descarteslabs.com/mobility).",
+          "section": "Data and materials availability",
+          "pdf_page": 12
+        },
+        {
+          "quote": "The points of interest business data with visit patterns and the home dwell time data in the United States were provided by the SafeGraph Inc. (https://www.safegraph.com).",
+          "section": "Data and materials availability",
+          "pdf_page": 12
+        }
+      ]
+    },
+    {
+      "id": "PA225066F",
+      "title": "Disentangling the rhythms of human activity in the built environment for airborne transmission risk: an analysis of large-scale mobility data",
+      "doi": "10.7554/eLife.80466",
+      "journal": "eLife",
+      "year": "2023",
+      "providers": [
+        {
+          "name": "SafeGraph",
+          "role": "mobility",
+          "confirmed": true
+        }
+      ],
+      "product": "Weekly Patterns + Core Places",
+      "data_form": "GPS应用衍生POI周级客流；按NAICS将地点划为室内/室外并汇总到县级。",
+      "data_declaration": "GPS应用衍生POI周级客流；按NAICS将地点划为室内/室外并汇总到县级。",
+      "fulltext_scope": "main",
+      "decision": "confirmed_use",
+      "notes": "2018—2020年；460万共同POI、平台4500万设备。数据加噪且省略单设备记录；访问量非接触人数。",
+      "quotes": [
+        {
+          "quote": "We use the SafeGraph Weekly Patterns data, which provides foot traffic at public locations (‘points of interest’, hereafter referred to as POIs) across the United States based on the usage of mobile apps with GPS (Safegraph, 2021a).",
+          "section": "Methods / Data source",
+          "pdf_page": 3
+        }
+      ]
+    },
+    {
+      "id": "P1A918461",
+      "title": "Impact of federated data with local differential privacy for human mobility modeling",
+      "doi": "10.1140/epjds/s13688-025-00611-4",
+      "journal": "EPJ Data Science",
+      "year": "2025",
+      "providers": [
+        {
+          "name": "SafeGraph",
+          "role": "mobility",
+          "confirmed": true
+        }
+      ],
+      "product": "县际日OD聚合 + 仿真个体轨迹",
+      "data_form": "2019年SafeGraph位置历史衍生县际日流量用于校准d-EPR模型；研究中的个体轨迹为模拟，不是交付的真实个人轨迹。",
+      "data_declaration": "2019年SafeGraph位置历史衍生县际日流量用于校准d-EPR模型；研究中的个体轨迹为模拟，不是交付的真实个人轨迹。",
+      "fulltext_scope": "main",
+      "decision": "confirmed_use",
+      "notes": "主分析2019-04-08美国Middle Atlantic；各月首周、联邦假日及其他地区做敏感性分析。二次使用经验流网络，不应当作新原始轨迹采样。",
+      "quotes": [
+        {
+          "quote": "a 2019 dataset pro- duced by the US-based mobile phone mobility data aggregator SafeGraph (Fig.1a) [43].",
+          "section": "Methods / individual mobility simulation",
+          "pdf_page": 4
+        },
+        {
+          "quote": "This dataset is based on the location histories of individuals using a panel of mobile ap- plications, and is aggregated to describe the daily ﬂow of individuals between US coun- ties (Fig.1b, c).",
+          "section": "Methods / individual mobility simulation",
+          "pdf_page": 4
+        }
+      ]
+    },
+    {
+      "id": "P5C05191D",
+      "title": "Mobility and transit segregation in urban spaces",
+      "doi": "10.1177/23998083231219294",
+      "journal": "Environment and Planning B: Urban Analytics and City Science",
+      "year": "2024",
+      "providers": [
+        {
+          "name": "SafeGraph",
+          "role": "mobility",
+          "confirmed": true
+        }
+      ],
+      "product": "Weekly Patterns",
+      "data_form": "周级POI访问量及来源居住CBG分布；结合ACS收入分布与GTFS/OSM公交网络建模隔离。",
+      "data_declaration": "周级POI访问量及来源居住CBG分布；结合ACS收入分布与GTFS/OSM公交网络建模隔离。",
+      "fulltext_scope": "main",
+      "decision": "confirmed_use",
+      "notes": "2021年1月、16个美国城市；不是直接观测逐个乘客公交行程，公交隔离部分依赖模型。",
+      "quotes": [
+        {
+          "quote": "The SafeGraph Weekly Patterns data provide visitation counts, on a weekly level, to amenities across the US, along with the distribution of CBGs from which the visitors came.",
+          "section": "Methods / Mobility data",
+          "pdf_page": 5
+        }
+      ]
+    },
+    {
+      "id": "P93995647",
+      "title": "Utilizing large-scale human mobility data to identify determinants of physical activity",
+      "doi": "10.1038/s41598-025-87017-4",
+      "journal": "Scientific Reports",
+      "year": "2025",
+      "providers": [
+        {
+          "name": "Veraset",
+          "role": "mobility",
+          "confirmed": true
+        }
+      ],
+      "product": "Visits",
+      "data_form": "用户级匿名POI到访事件，含设备ID、到访开始时间、地点名称及类别、最短停留时长、所在州；App/SDK授权采集后加工成到访产品。",
+      "data_declaration": "用户级匿名POI到访事件，含设备ID、到访开始时间、地点名称及类别、最短停留时长、所在州；App/SDK授权采集后加工成到访产品。",
+      "fulltext_scope": "main",
+      "decision": "confirmed_use",
+      "notes": "全国超过2000万匿名设备、约400万POI为数据覆盖量；示例和验证涵盖2019-09—2020-02。明确SDK，不由此推断每条定位均GPS+WiFi；SafeGraph只在引用中。",
+      "quotes": [
+        {
+          "quote": "We leverage the “Visits” dataset by Veraset28, which was collected in the U.S.",
+          "section": "Dataset",
+          "pdf_page": 2
+        },
+        {
+          "quote": "The anonymized devices opted-in to provide access to their location through applications and Software Development Kits (SDKs) with Veraset.",
+          "section": "Dataset",
+          "pdf_page": 2
+        }
+      ]
+    },
+    {
+      "id": "P913EE387",
+      "title": "Equity, travel, and park visitation in 10 US metro areas: A smartphone mobility study",
+      "doi": "10.1016/j.ufug.2024.128557",
+      "journal": "Urban Forestry & Urban Greening",
+      "year": 2024,
+      "providers": [
+        {
+          "name": "SafeGraph",
+          "role": "mobility",
+          "confirmed": true
+        }
+      ],
+      "product": "Places Patterns、Core POI、Geometry",
+      "data_form": "按周、POI与访客居住CBG汇总的公园到访次数，结合POI几何边界；非个人原始轨迹",
+      "data_declaration": "正文明确由SafeGraph提供第三方App位置汇总数据，分析美国10个都市区公园到访。",
+      "fulltext_scope": "main",
+      "decision": "confirmed_use",
+      "notes": "研究使用2021-05-01至10-01数据；摘要/引言另用May–October概括。公司总体覆盖数字不可作本文有效样本。",
+      "quotes": [
+        {
+          "quote": "We obtained mobile data from SafeGraph, a private company that aggregates data from third-party phone applications whose users have agreed to provide their location information.",
+          "section": "2.1 Data collection",
+          "pdf_page": 2
+        },
+        {
+          "quote": "We collected POI visitation counts per CBG per week from the SafeGraph patterns dataset for 10 MSAs in the United States spanning from May 1 - Oct 1 2021",
+          "section": "2.1.2 Park visitation mobility variables",
+          "pdf_page": 3
+        }
+      ]
+    },
+    {
+      "id": "P1F72D228",
+      "title": "Disaster vulnerability in road networks: a data-driven approach through analyzing network topology and movement activity",
+      "doi": "10.1080/13658816.2024.2411001",
+      "journal": "International Journal of Geographical Information Science",
+      "year": 2025,
+      "providers": [
+        {
+          "name": "Cuebiq",
+          "role": "mobility",
+          "confirmed": true
+        }
+      ],
+      "product": "匿名LBS轨迹",
+      "data_form": "可进行地图匹配的个体GPS轨迹，经道路匹配后按日聚合道路活动；非仅提供POI汇总表",
+      "data_declaration": "实际案例为Cuebiq数据；方法通论中Spectus/Veraset只是举例。",
+      "fulltext_scope": "main",
+      "decision": "confirmed_use",
+      "notes": "Santa Barbara County，2019-11-01至11-30，1,184,318条轨迹，平均时间分辨率2分钟、精度10米。原有子简记“Provider: Spectus and Veraset”与案例原文冲突：保留历史记录，但应标记纠正为Cuebiq。",
+      "quotes": [
+        {
+          "quote": "Aggregated Location Based Service data is provided by Cuebiq (Cuebiq 2024 ), a location intelligence platform.",
+          "section": "4.1 Study area and data",
+          "pdf_page": 11
+        },
+        {
+          "quote": "This data set contains 1,184,318 trajectories, with an average temporal resolution of 2 min, and an average accuracy of 10 m.",
+          "section": "4.1 Study area and data",
+          "pdf_page": 11
+        }
+      ]
+    },
+    {
+      "id": "P5416DFC8",
+      "title": "The impact of the built environment on human mobility patterns during Covid-19: A study of New York City's Open Streets Program",
+      "doi": "10.1016/j.apgeog.2024.103429",
+      "journal": "Applied Geography",
+      "year": 2024,
+      "providers": [
+        {
+          "name": "SafeGraph",
+          "role": "mobility",
+          "confirmed": true
+        }
+      ],
+      "product": "Weekly Patterns",
+      "data_form": "POI周到访汇总，含居住/日间CBG、每日到访和中位停留时长，再汇总至CBG；非原始GPS轨迹",
+      "data_declaration": "方法3.2.1明确SafeGraph周到访数据用于纽约开放街道政策分析。",
+      "fulltext_scope": "main",
+      "decision": "confirmed_use",
+      "notes": "纽约市2020-05-02至2021-07-28；正文涉及App授权及地理围栏。脚注Advan/Dewey为后续产品供应变化，并非本案例另一个实际来源。",
+      "quotes": [
+        {
+          "quote": "This study uses data from SafeGraph to measure foot traffic mobility changes during COVID-19.",
+          "section": "3.2.1 Human mobility patterns",
+          "pdf_page": 4
+        },
+        {
+          "quote": "The weekly patterns data contains aggregated raw counts of foot traffic visits to public POIs from a panel of mobile devices.",
+          "section": "3.2.1 Human mobility patterns",
+          "pdf_page": 4
+        }
+      ]
+    },
+    {
+      "id": "P38C79679",
+      "title": "The role of alcohol outlet visits derived from mobile phone location data in enhancing domestic violence prediction at the neighborhood level",
+      "doi": "10.1016/j.healthplace.2021.102736",
+      "journal": "Health & Place",
+      "year": 2022,
+      "providers": [
+        {
+          "name": "SafeGraph",
+          "role": "mobility",
+          "confirmed": true
+        }
+      ],
+      "product": "POI/居住CBG到访数据",
+      "data_form": "GPS衍生的酒类销售场所到访计数与访客居住CBG；不提供个体精确坐标、住址或完整轨迹",
+      "data_declaration": "匿名设备GPS位置由SafeGraph聚合到POI与CBG，推导社区酒类场所访问量。",
+      "fulltext_scope": "main",
+      "decision": "confirmed_use",
+      "notes": "芝加哥，2018-12-31至2020-01-06（覆盖2019全年）；4500万设备/360万POI为源数据覆盖说明而非芝加哥分析样本。访问不等于购买或饮酒。",
+      "quotes": [
+        {
+          "quote": "The anonymized mobile phone location data are provided by the company SafeGraph, which offered their data for the research community for free.",
+          "section": "3.1 Study area and data",
+          "pdf_page": 6
+        },
+        {
+          "quote": "For privacy protection, the exact location coordinates of individuals are not available, and the data were aggregated to POIs and CBGs.",
+          "section": "3.1 Study area and data",
+          "pdf_page": 6
+        }
+      ]
+    },
+    {
+      "id": "P2BDAEE88",
+      "title": "Quantifying the recreational value of urban parks using smartphone mobility data",
+      "doi": "10.1007/s43762-026-00257-6",
+      "journal": "Computational Urban Science",
+      "year": 2026,
+      "providers": [
+        {
+          "name": "SafeGraph",
+          "role": "mobility",
+          "confirmed": true
+        },
+        {
+          "name": "Advan",
+          "role": "mobility",
+          "confirmed": true
+        }
+      ],
+      "product": "SafeGraph/Advan 公园到访数据",
+      "data_form": "居住Block Group至公园POI的聚合访问量及周访问统计，用于旅行成本法；非个体连续轨迹",
+      "data_declaration": "正文联合称SafeGraph/Advan，并说明Advan提供居住BG至POI人流。",
+      "fulltext_scope": "main",
+      "decision": "confirmed_use",
+      "notes": "Austin Dick Nichols District Park，2019全年；Austin样本覆盖率约5.67%，约55,880人。正文没有把SafeGraph与Advan样本分开，应按联合表述保留，不拆成两次独立研究。",
+      "quotes": [
+        {
+          "quote": "This study utilizes SafeGraph/Advan smartphone mobil - ity data, an affordable, high-precision dataset aggre - gated at the census block group level that captures high-frequency patterns of visitor movement.",
+          "section": "2.2 Data collection and data processing",
+          "pdf_page": 3
+        }
+      ]
+    },
+    {
+      "id": "L16",
+      "title": "Understanding the bias of mobile location data across spatial scales and over time: A comprehensive analysis of SafeGraph data in the United States",
+      "doi": "10.1371/journal.pone.0294430",
+      "journal": "PLOS ONE",
+      "year": 2024,
+      "providers": [
+        {
+          "name": "SafeGraph",
+          "role": "mobility",
+          "confirmed": true
+        }
+      ],
+      "product": "Patterns Panel Overview",
+      "data_form": "CBG每月居住设备数量number_devices_residing及跨尺度样本覆盖率；不是个体轨迹或POI访问次数",
+      "data_declaration": "实际使用SafeGraph2018–2022月度面板概览开展样本偏差审计。",
+      "fulltext_scope": "main",
+      "decision": "confirmed_use",
+      "notes": "美国2018–2022，结合ACS；居住CBG由夜间设备位置推断。审计覆盖全国、州、县、普查区及CBG。",
+      "quotes": [
+        {
+          "quote": "Our analysis utilized the SafeGraph Panel Overview data on monthly patterns from 2018 to 2022, spanning five years, sourced from [31].",
+          "section": "2.1 Data",
+          "pdf_page": 4
+        },
+        {
+          "quote": "We extracted the column of number_devices_residing for each block group from the panel data as a proxy for residents.",
+          "section": "2.1 Data",
+          "pdf_page": 4
+        }
+      ]
+    },
+    {
+      "id": "P0663A19C",
+      "title": "Use of smartphone mobility data to analyze city park visits during the COVID-19 pandemic",
+      "doi": "10.1016/j.landurbplan.2022.104554",
+      "journal": "Landscape and Urban Planning",
+      "year": 2022,
+      "providers": [
+        {
+          "name": "SafeGraph",
+          "role": "mobility",
+          "confirmed": true
+        }
+      ],
+      "product": "公园POI月访问数据",
+      "data_form": "公园月访问次数，匹配TPL公园边界并按城市月度设备样本数校正；非原始轨迹",
+      "data_declaration": "正文方法明确使用SafeGraph匿名手机样本和POI聚合产品。",
+      "fulltext_scope": "main",
+      "decision": "confirmed_use",
+      "notes": "2018-01至2020-11，最终11,890个公园；初选美国人口最多50城，Honolulu因温度数据覆盖排除。TPL提供辅助公园边界。",
+      "quotes": [
+        {
+          "quote": "The data are provided by SafeGraph, a company that aggregates data from users whose settings allow their location data to be collected anonymously by third parties.",
+          "section": "2 Methods",
+          "pdf_page": 2
+        }
+      ]
+    },
+    {
+      "id": "PE6FBF191",
+      "title": "Getting Back on Track: Understanding COVID-19 Impact on Urban Mobility and Segregation with Location Service Data",
+      "doi": "10.1609/icwsm.v17i1.22132",
+      "journal": "Proceedings of the International AAAI Conference on Web and Social Media",
+      "year": 2023,
+      "providers": [
+        {
+          "name": "SafeGraph",
+          "role": "mobility",
+          "confirmed": true
+        }
+      ],
+      "product": "Places 与 Monthly Patterns",
+      "data_form": "居住CBG至POI的月度访问次数，含周/小时人气汇总并联结ACS群体属性；非个体连续轨迹",
+      "data_declaration": "Data Description明确实际采用SafeGraph Places与Patterns。",
+      "fulltext_scope": "main",
+      "decision": "confirmed_use",
+      "notes": "比较美国城市2020、2021、2022各年1–2月；Places为POI底库，Patterns为行为访问。ICWSM会议论文，不应写成期刊。",
+      "quotes": [
+        {
+          "quote": "For mobility data, we leverage Safegraph’s Patterns dataset3, which is a large-scale dataset that records visits to POIs in the US from online applica- tions with location services.",
+          "section": "Data Description",
+          "pdf_page": 3
+        },
+        {
+          "quote": "It records the number of visits paid to each POI by residents of each CBG, aggregated on a monthly basis, along with supplementary statistics such as popularity by week and by hour.",
+          "section": "Data Description",
+          "pdf_page": 3
+        }
+      ]
+    },
+    {
+      "id": "P99197F39",
+      "title": "Fine-grained data reveal segregated mobility networks and opportunities for local containment of COVID-19",
+      "doi": "10.1038/s41598-021-95894-8",
+      "journal": "Scientific Reports",
+      "year": 2021,
+      "providers": [
+        {
+          "name": "Veraset",
+          "role": "mobility",
+          "confirmed": true
+        },
+        {
+          "name": "SafeGraph",
+          "role": "辅助",
+          "confirmed": true
+        }
+      ],
+      "product": "Veraset dwelling/stop points + SafeGraph POI位置",
+      "data_form": "匿名设备ID、时间戳及停留点精确坐标；停留≥5分钟，派生跨点旅行与CBG网络",
+      "data_declaration": "实际移动记录来自Veraset，SafeGraph仅提供POI位置。",
+      "fulltext_scope": "main",
+      "decision": "confirmed_use",
+      "notes": "美国21个疫情严重的都市县，2020-01-01至06-27。不得把SafeGraph辅助POI计为该文SafeGraph移动数据使用。",
+      "quotes": [
+        {
+          "quote": "This study utilized anonymized data provided by Veraset, Inc.",
+          "section": "Methods",
+          "pdf_page": 4
+        },
+        {
+          "quote": "The locations of POIs were provided by SafeGraph, Inc.",
+          "section": "Methods",
+          "pdf_page": 4
+        }
+      ]
+    },
+    {
+      "id": "P1BFB6B6F",
+      "title": "Human mobility networks manifest dissimilar resilience characteristics at macroscopic, substructure, and microscopic scales",
+      "doi": "10.1038/s41598-023-44444-5",
+      "journal": "Scientific Reports",
+      "year": 2023,
+      "providers": [
+        {
+          "name": "Spectus",
+          "role": "mobility",
+          "confirmed": true
+        }
+      ],
+      "product": "Spectus 设备级GPS数据",
+      "data_form": "匿名个体ID、坐标与秒级时间；按访问先后派生普查区OD日流量及多尺度网络",
+      "data_declaration": "正文明确Spectus通过合作App内置SDK与GPS硬件收集设备位置。",
+      "fulltext_scope": "main",
+      "decision": "confirmed_use",
+      "notes": "Louisiana八个parish的Hurricane Ida研究。主体分析为2021-08-19至09-30；第2页把08-19至08-26写作数据期，后文明确该段为基线，存在文字口径不一致，保留说明。未据GPS推断Wi-Fi。",
+      "quotes": [
+        {
+          "quote": "The global positioning system (GPS) location dataset used in this study was obtained by Spectus from smartphone devices.",
+          "section": "Spectus data",
+          "pdf_page": 3
+        },
+        {
+          "quote": "Spectus partners with more than 220 mobile apps that include the proprietary Spectus software development kits (SDK).",
+          "section": "Spectus data",
+          "pdf_page": 3
+        }
+      ]
+    },
+    {
+      "id": "P9729F216",
+      "title": "The geography of connectivity: a review of mobile positioning data for economic geography",
+      "doi": "10.1007/s10109-022-00388-4",
+      "journal": "Journal of Geographical Systems",
+      "year": 2022,
+      "providers": [],
+      "product": "文献综述（重点CDR）",
+      "data_form": "综述移动定位与通信记录的方法和用途；无本文实际采购/使用的商业GPS或SDK样本",
+      "data_declaration": "摘要明确为review，重点是call detail records；不应列为某海外供应商的实际使用案例。",
+      "fulltext_scope": "main",
+      "decision": "review_only",
+      "notes": "可保留为方法背景综述，不计入具名海外供应商使用数量。",
+      "quotes": [
+        {
+          "quote": "This paper reviews and discusses the state-of-the-art in the analysis of mobile phone and positioning data, with a focus on call detail records.",
+          "section": "Abstract",
+          "pdf_page": 1
+        }
+      ]
+    },
+    {
+      "id": "P5FE9D417",
+      "title": "Socioeconomic disparities in mobility behavior during the COVID-19 pandemic in developing countries",
+      "doi": "10.1140/epjds/s13688-025-00532-2",
+      "journal": "EPJ Data Science",
+      "year": 2025,
+      "providers": [
+        {
+          "name": "Veraset",
+          "role": "mobility",
+          "confirmed": true
+        }
+      ],
+      "product": "Veraset Movements",
+      "data_form": "带时间戳和精度字段的匿名GPS点串，作者聚类为≥5分钟/25米停留事件并识别居住/工作地",
+      "data_declaration": "实际使用Veraset跨国GPS位置数据，方法明确源于数千SDK。",
+      "fulltext_scope": "main",
+      "decision": "confirmed_use",
+      "notes": "巴西、哥伦比亚、印度尼西亚、墨西哥、菲律宾、南非；2020全年观测，疫情行为分析3–12月。281 million为原始覆盖用户规模；分析子样本经活跃天数和精度过滤。PDF提取有粘连，短摘保留文本原样。",
+      "quotes": [
+        {
+          "quote": "Mobile data are provided by the data companyVeraset.",
+          "section": "4.1.4 Veraset movements",
+          "pdf_page": 10
+        },
+        {
+          "quote": "It consists of the anonymized timestamped GPS coordinates of mobile devices, covering about 5% of the global pop- ulation.",
+          "section": "4.1.4 Veraset movements",
+          "pdf_page": 10
+        }
+      ]
+    },
+    {
+      "id": "PAADD397C",
+      "title": "Do human mobility network analyses produced from different location-based data sources yield similar results across scales?",
+      "doi": "10.1016/j.compenvurbsys.2023.102052",
+      "journal": "Computers, Environment and Urban Systems",
+      "year": 2024,
+      "providers": [
+        {
+          "name": "Spectus",
+          "role": "mobility",
+          "confirmed": true
+        },
+        {
+          "name": "X-Mode",
+          "role": "mobility",
+          "confirmed": true
+        },
+        {
+          "name": "Veraset",
+          "role": "mobility",
+          "confirmed": true
+        }
+      ],
+      "product": "三供应商设备级定位/停留数据比较",
+      "data_form": "匿名设备ID、位置、时间构成序列，派生普查区OD日流量；Spectus为GPS/SDK，X-Mode为XDK，Veraset含≥5分钟停留点",
+      "data_declaration": "三家均为本文实际使用的对比样本，并非仅综述提及。",
+      "fulltext_scope": "main",
+      "decision": "confirmed_use",
+      "notes": "美国11个都市县2020年2月，29个每日网络。原简记仅以Veraset开头易漏掉Spectus与X-Mode；三源均确认。",
+      "quotes": [
+        {
+          "quote": "We selected three location-based datasets from three major providers in the United States: Spectus, X-Mode and Veraset.",
+          "section": "2. Background",
+          "pdf_page": 2
+        },
+        {
+          "quote": "The original form of the data only recorded the anonymized device ID, coordinate and visit time.",
+          "section": "3.2 Human mobility network analysis",
+          "pdf_page": 3
+        }
+      ]
+    },
+    {
+      "id": "P919700C8",
+      "title": "Shifting temporal dynamics of human mobility in the United States",
+      "doi": "10.1016/j.jtrangeo.2022.103295",
+      "journal": "Journal of Transport Geography",
+      "year": 2022,
+      "providers": [
+        {
+          "name": "SafeGraph",
+          "role": "mobility",
+          "confirmed": true
+        }
+      ],
+      "product": "Weekly Patterns",
+      "data_form": "非居住POI每周168小时到访向量，再汇总县级/全国时序；不共享个体手机轨迹",
+      "data_declaration": "实际使用SafeGraph2019–2020非居住POI活动模式，GPS点聚类生成到访。",
+      "fulltext_scope": "main",
+      "decision": "confirmed_use",
+      "notes": "美国2019–2020，源产品约440万个POI。采集来自授权App；论文分析聚合产品。两个PDF附件提取文本一致。",
+      "quotes": [
+        {
+          "quote": "The data used in this work are weekly activity patterns for non- residential POIs from 2019 to 2020 in the United States, provided by SafeGraph (2020) and made openly available to academic and research institutions.",
+          "section": "2.1 Data",
+          "pdf_page": 2
+        },
+        {
+          "quote": "Indi - vidual mobile phone patterns are not shared for privacy concerns.",
+          "section": "2.1 Data",
+          "pdf_page": 2
+        }
+      ]
+    },
+    {
+      "id": "P63686407",
+      "title": "Mobility networks in Greater Mexico City",
+      "doi": "10.1038/s41597-023-02880-y",
+      "journal": "Scientific Data",
+      "year": 2024,
+      "providers": [
+        {
+          "name": "Veraset",
+          "role": "mobility",
+          "confirmed": true
+        }
+      ],
+      "product": "Veraset 匿名位置ping → 大墨西哥城每日网络",
+      "data_form": "原始设备级匿名用户、时间戳、经纬度表；公开交付为AGEB间有向加权每日OD网络，非公开完整原始轨迹",
+      "data_declaration": "Methods明确采购Veraset数据并描述ping结构，公共数据集是聚合衍生网络。",
+      "fulltext_scope": "main",
+      "decision": "confirmed_use",
+      "notes": "2020-01-01至2021-03-31，456个每日网络；大墨西哥城源记录约110亿条、3300万设备；保密协议只允许发布聚合结果或模型参数。GPS/Wi-Fi/SDK采集机制本文此段未具体说明，不补推断。",
+      "quotes": [
+        {
+          "quote": "For this research study, we procured data from Veraset, a data-as-a-service company that offers a range of data- sets, including cell phone location data",
+          "section": "Methods",
+          "pdf_page": 3
+        },
+        {
+          "quote": "Each data point (ping) allows us to ascertain an anonymous user’s geographical coordinates (latitude and longitude) at a specific timestamp.",
+          "section": "Methods",
+          "pdf_page": 3
+        }
+      ]
+    },
+    {
+      "id": "P76B9708A",
+      "title": "Characterizing urban lifestyle signatures using motif properties in network of places",
+      "doi": "10.1177/23998083231206171",
+      "journal": "Environment and Planning B: Urban Analytics and City Science",
+      "year": "2024",
+      "providers": [
+        {
+          "name": "Spectus",
+          "role": "mobility",
+          "confirmed": false
+        }
+      ],
+      "product": "场所网络补充图表",
+      "data_form": "POI到访与地点间转移网络（仅补充材料可见）",
+      "data_declaration": "补充图表展示Harris、Dallas、New York、Broward四县POI及转移网络；没有供应商声明。",
+      "fulltext_scope": "supplement_only",
+      "decision": "unnamed",
+      "notes": "既有人工简记Spectus保留；本次PDF实际为8页补充材料，不能据此标成正文已审。",
+      "quotes": [
+        {
+          "quote": "The nodes in the motifs are physical locations (i.e., POIs), and the edges are the transitions representing people’s movements among those locations.",
+          "section": "Fig S3",
+          "pdf_page": 2
+        }
+      ]
+    },
+    {
+      "id": "P7A4F6797",
+      "title": "Using human mobility data to detect evacuation patterns in hurricane Ian",
+      "doi": "10.1080/19475683.2024.2341703",
+      "journal": "Annals of GIS",
+      "year": "2024",
+      "providers": [
+        {
+          "name": "SafeGraph",
+          "role": "mobility",
+          "confirmed": true
+        }
+      ],
+      "product": "Weekly Patterns",
+      "data_form": "POI周到访聚合数据、居住CBG—到访POI流量，再聚合为CBG/县OD",
+      "data_declaration": "正文明确使用SafeGraph Weekly Pattern研究Ian飓风疏散。",
+      "fulltext_scope": "main",
+      "decision": "confirmed_use",
+      "notes": "2022-09-05至10-09；提取Florida居民出行；原始产品为聚合到访，并非逐设备原始GPS轨迹。",
+      "quotes": [
+        {
+          "quote": "The data used in this study is from three main sources: SafeGraph data, census data, and evacuation zones. As one of the most widely used human mobility datasets, the SafeGraph",
+          "section": "3.2 Datasets",
+          "pdf_page": 5
+        },
+        {
+          "quote": "By linking visited POIs with their originating CBGs, we can analyse the number and origin of unique visitors to each POI throughout a week. The SafeGraph data includes extensive POIs in both commercial",
+          "section": "3.2 Datasets",
+          "pdf_page": 6
+        }
+      ]
+    },
+    {
+      "id": "P2F95F02D",
+      "title": "Mapping large-scale brand networks: A consumers’ foot traffic-based approach",
+      "doi": "10.1016/j.apgeog.2025.103546",
+      "journal": "Applied Geography",
+      "year": "2025",
+      "providers": [
+        {
+          "name": "SafeGraph",
+          "role": "mobility",
+          "confirmed": true
+        }
+      ],
+      "product": "POI Patterns / 品牌共同到访",
+      "data_form": "POI周访客量与same-day / same-week brand visits百分比；品牌共访网络",
+      "data_declaration": "使用SafeGraph佛罗里达POI客流，依据同日、同周品牌共同到访构建网络。",
+      "fulltext_scope": "main",
+      "decision": "confirmed_use",
+      "notes": "2020-01-06至11-24，共44周；约27万POI、4976品牌；不是原始个人轨迹。",
+      "quotes": [
+        {
+          "quote": "To represent spatial mobility of consumers, we obtained foot traffic data from SafeGraph, which collects data to provide detailed and ac - curate information about points of interest (POIs), including geographic locations,",
+          "section": "3.1 Data collection",
+          "pdf_page": 3
+        }
+      ]
+    },
+    {
+      "id": "P2D4FD926",
+      "title": "Policy and weather influences on mobility during the early US COVID-19 pandemic",
+      "doi": "10.1073/pnas.2018185118",
+      "journal": "Proceedings of the National Academy of Sciences",
+      "year": 2021,
+      "providers": [
+        {
+          "name": "Unacast",
+          "role": "mobility",
+          "confirmed": true
+        },
+        {
+          "name": "Cuebiq",
+          "role": "mobility",
+          "confirmed": true
+        },
+        {
+          "name": "Google",
+          "role": "mobility",
+          "confirmed": true
+        }
+      ],
+      "product": "Unacast mobility metrics；Cuebiq Mobility Index；Google Community Mobility Report",
+      "data_form": "州/县尺度距离变化、潜在接触率、非必要到访率、分类到访变化与距离中位数指数",
+      "data_declaration": "以Unacast接触/移动指标为主，Google类别到访、Cuebiq Mobility Index做补充和一致性检验。",
+      "fulltext_scope": "main",
+      "decision": "confirmed_use",
+      "notes": "2020年美国疫情早期；均为移动定位衍生聚合指标，未直接获得原始轨迹。",
+      "quotes": [
+        {
+          "quote": "Unacast Mobility Data. With three measures based on data for 15 to 17 million identifiers each day in the United States, aggregated data from Unacast have provided important insights into understanding",
+          "section": "Methods: Unacast Mobility Data",
+          "pdf_page": 5
+        },
+        {
+          "quote": "Aggregated mobility data are provided by Cuebiq, a lo- cation intelligence and measurement platform. Through its Data for Good program, Cuebiq",
+          "section": "Methods: Cuebiq Mobility Data",
+          "pdf_page": 6
+        }
+      ]
+    },
+    {
+      "id": "P104EBB42",
+      "title": "Using mobile phone data for quantifying large-scale household-level disaster recovery",
+      "doi": "10.1016/j.compenvurbsys.2025.102395",
+      "journal": "Computers, Environment and Urban Systems",
+      "year": "2026",
+      "providers": [
+        {
+          "name": "Veraset",
+          "role": "mobility",
+          "confirmed": true
+        }
+      ],
+      "product": "LBS location pings",
+      "data_form": "逐设备定位点：匿名ID、UTC时间、经纬度、水平精度、Android/iOS设备类型",
+      "data_declaration": "Veraset LLC提供移动应用组合采集的LBS点位，作者识别居住和工作位置并测算灾后恢复。",
+      "fulltext_scope": "main",
+      "decision": "confirmed_use",
+      "notes": "2017-08-01至09-30；Florida、Alabama、Georgia、South Carolina约200亿点/250GB，最终Florida职住样本123445；不规则采样，75%点精度小于30m。原文说cellular network或Wi-fi交换，不能据此改写为运营商信令。",
+      "quotes": [
+        {
+          "quote": "The LBS data was provided by Veraset LLC, a private company that collects and aggregates LBS data from a portfolio of mobile phone ap - plications ( Veraset, 2023 ). A ping,",
+          "section": "2.1 Data",
+          "pdf_page": 4
+        },
+        {
+          "quote": "Each ping includes an anonymized user identifier, UTC timestamp, latitude, longitude, estimate of horizontal accuracy, and device type (Android versus iOS). The horizontal",
+          "section": "2.1 Data",
+          "pdf_page": 4
+        }
+      ]
+    },
+    {
+      "id": "P441C38CE",
+      "title": "Comparative analysis of human mobility patterns: utilizing taxi and mobile (SafeGraph) data to investigate neighbourhood-scale mobility in New York City",
+      "doi": "10.1080/19475683.2025.2487984",
+      "journal": "Annals of GIS",
+      "year": "2025",
+      "providers": [
+        {
+          "name": "SafeGraph",
+          "role": "mobility",
+          "confirmed": true
+        }
+      ],
+      "product": "Social Distancing Metrics",
+      "data_form": "每日居住CBG—目的CBG设备计数OD；再映射出租车分区，与NYC TLC出租车记录比较",
+      "data_declaration": "正文明确SafeGraph移动流来自Social Distancing Metrics。",
+      "fulltext_scope": "main",
+      "decision": "confirmed_use",
+      "notes": "纽约2019-01-01至2021-03-31；目的地统计停留超过1分钟的设备。勿将该产品误标为Weekly Patterns。",
+      "quotes": [
+        {
+          "quote": "The SafeGraph movement flows were organized from their Social Distancing Metrics dataset. In this dataset, each CBG is considered as an origin CBG and has an entry in the dataset. In the",
+          "section": "3.2.2 SafeGraph data",
+          "pdf_page": 7
+        }
+      ]
+    },
+    {
+      "id": "P6AAE6DFC",
+      "title": "STORM-GAN: Spatio-Temporal Meta-GAN for Cross-City Estimation of Human Mobility Responses to COVID-19",
+      "doi": "10.1109/ICDM54844.2022.00010",
+      "journal": "2022 IEEE International Conference on Data Mining (ICDM)",
+      "year": "2022",
+      "providers": [
+        {
+          "name": "SafeGraph",
+          "role": "mobility",
+          "confirmed": true
+        }
+      ],
+      "product": "POI visit counts",
+      "data_form": "POI到访计数汇总为1 km × 1 km网格的时空序列",
+      "data_declaration": "SafeGraph提供研究的mobility数据，作者将POI访问计数聚合到网格训练跨城市模型。",
+      "fulltext_scope": "main",
+      "decision": "confirmed_use",
+      "notes": "研究使用到访强度而非逐人连续轨迹；采集具体SDK/Wi-Fi机制在此数据章节没有说明。",
+      "quotes": [
+        {
+          "quote": "The original POI dataset from SafeGraph is obtained by collecting the location from cell phone records with latitude and longitude information. Then, the location information is used to determine the visits to POIs [15]. The POI visit",
+          "section": "IV.A Dataset Description",
+          "pdf_page": 5
+        }
+      ]
+    },
+    {
+      "id": "P214FEF72",
+      "title": "Human-centric characterization of life activity flood exposure shifts focus from places to people",
+      "doi": "10.1038/s44284-024-00043-7",
+      "journal": "Nature Cities",
+      "year": "2024",
+      "providers": [],
+      "product": "LAFE补充分析",
+      "data_form": "CBG层面的洪水活动暴露分布与相关性图表",
+      "data_declaration": "已下载PDF为Nature Cities附录，展示LAFE在洪水区内外CBG分布；不含数据商或采集声明。",
+      "fulltext_scope": "supplement_only",
+      "decision": "unnamed",
+      "notes": "保留待核；补充材料已审，但正文尚未在此附件中取得，不能删除这个重要范围限制。",
+      "quotes": [
+        {
+          "quote": "The figure juxtaposes box plots of LAFE for CBGs located inside (a) and outside (b) flood-hazard zones in counties exhibiting different levels of spatial flood-hazard extents. The gradient of spatial",
+          "section": "Appendix A",
+          "pdf_page": 2
+        }
+      ]
+    },
+    {
+      "id": "P7C63CA4F",
+      "title": "Data-Driven Real-Time Strategic Placement of Mobile Vaccine Distribution Sites",
+      "doi": "10.1609/aaai.v36i11.21529",
+      "journal": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "year": "2022",
+      "providers": [
+        {
+          "name": "SafeGraph",
+          "role": "mobility",
+          "confirmed": true
+        }
+      ],
+      "product": "Weekly Patterns",
+      "data_form": "CBG—非住宅POI每周访问量二部网络，结合ACS及疫苗接种数据",
+      "data_declaration": "方法3.1明确使用SafeGraph匿名聚合到访数据，为移动接种点选择提供每周建议。",
+      "fulltext_scope": "main",
+      "decision": "confirmed_use",
+      "notes": "Virginia；5293个CBG至74535个POI。设备数据不含人口属性，人口组由ACS结合推算，不能当作供应商逐设备画像。",
+      "quotes": [
+        {
+          "quote": "For our model, we use anonymized and aggre- gated data from SafeGraph (SafeGraph 2018). It provides detailed",
+          "section": "3.1 Datasets",
+          "pdf_page": 2
+        },
+        {
+          "quote": "SafeGraph’s Weekly Patterns dataset1, released on Wednesdays with the data for the pre- vious week (Monday through Sunday), includes weekly es- timates of visits from CBGs to these POIs. The dataset can be",
+          "section": "3.1 Datasets",
+          "pdf_page": 2
+        }
+      ]
+    },
+    {
+      "id": "P71C3218F",
+      "title": "Inequality in Risk-Taking: Evidence From Location Tracking in Mexican Cities During COVID-19",
+      "doi": "10.3389/fpos.2021.631826",
+      "journal": "Frontiers in Political Science",
+      "year": "2021",
+      "providers": [
+        {
+          "name": "Cuebiq",
+          "role": "mobility",
+          "confirmed": true
+        }
+      ],
+      "product": "Privacy-enhanced PED locational data",
+      "data_form": "匿名设备级定位点：ID、设备类型、噪声类型、经纬度、距前点距离、时间、精度",
+      "data_declaration": "Cuebiq Inc提供墨西哥个人设备定位数据，应用定位服务采用GNSS、基站三角定位、蓝牙或Wi-Fi三角定位等方式。",
+      "fulltext_scope": "main",
+      "decision": "confirmed_use",
+      "notes": "2020-01-01至06-03；五城清洗后约1.31亿点、350993个ID。居家等敏感位置加噪/模糊处理；该产品是应用采集的混合定位，非纯GPS，也非运营商CDR。",
+      "quotes": [
+        {
+          "quote": "The location analytics company Cuebiq Inc., provided us access to Mexico ’s pseudonymization and privacy-enhanced PED locational data between January 1 and June 3, 2020. All data",
+          "section": "4.1 Description of the Movement Data",
+          "pdf_page": 6
+        },
+        {
+          "quote": "The PED data used in this study contains eight different columns: ID, device type, noise type, latitude, longitude, distance from previous data point, timestamp, and accuracy. With",
+          "section": "4.1 Description of the Movement Data",
+          "pdf_page": 6
+        }
+      ]
+    },
+    {
+      "id": "P8A06ED95",
+      "title": "Use of SafeGraph visitation patterns for the identification of essential services during COVID-19",
+      "doi": "10.5194/agile-giss-4-36-2023",
+      "journal": "AGILE GIScience Series",
+      "year": "2023",
+      "providers": [
+        {
+          "name": "SafeGraph",
+          "role": "mobility",
+          "confirmed": true
+        }
+      ],
+      "product": "Weekly Patterns（经Dewey获取）",
+      "data_form": "POI类别的周到访量与居住地—POI距离聚合统计",
+      "data_declaration": "通过Dewey平台获得SafeGraph每周到访数据，用于识别疫情期间基本服务。",
+      "fulltext_scope": "main",
+      "decision": "confirmed_use",
+      "notes": "Florida和California，2019与2020年3—4月；Dewey为分发渠道，不应列为定位采集商。正文对41 million POI/220 countries的广泛产品描述不代表此mobility样本覆盖。",
+      "quotes": [
+        {
+          "quote": "SafeGraph weekly visitation patterns datasets were acquired through the Dewey data platform (Dewey, 2023) for March and April of 2019 and 2020 for Florida and California. To warrant a sufficiently large sample",
+          "section": "2.2 Data collection",
+          "pdf_page": 3
+        }
+      ]
+    },
+    {
+      "id": "P557B9764",
+      "title": "Percolation of temporal hierarchical mobility networks during COVID-19",
+      "doi": "10.1098/rsta.2021.0116",
+      "journal": "Philosophical Transactions of the Royal Society A",
+      "year": "2022",
+      "providers": [
+        {
+          "name": "SafeGraph",
+          "role": "mobility",
+          "confirmed": true
+        }
+      ],
+      "product": "Social Distancing Metrics",
+      "data_form": "每日居住CBG—目的CBG设备数，destination_cbgs字典构建层级OD网络",
+      "data_declaration": "正文第2节明确使用SafeGraph Social Distancing Metrics；虽然讲述GPS点源，实际分析输入为聚合CBG流。",
+      "fulltext_scope": "main",
+      "decision": "confirmed_use",
+      "notes": "2020全年，美国378个MSA；约175000个CBG；移动网络边权是设备数量。",
+      "quotes": [
+        {
+          "quote": "We use the Social Distancing Metrics dataset from SafeGraph to quantify the daily travel changes (see Data availability). The data track the",
+          "section": "2. Mobility data",
+          "pdf_page": 3
+        },
+        {
+          "quote": "The dataset has a ﬁelddestination_cbgs which is a dictionary that reports the destination census block groups and the number of devices that visited them from each home census block",
+          "section": "2. Mobility data",
+          "pdf_page": 3
+        }
+      ]
+    },
+    {
+      "id": "PFC132E92",
+      "title": "Unfolding community homophily in U.S. metropolitans via human mobility",
+      "doi": "10.1016/j.cities.2022.103929",
+      "journal": "Cities",
+      "year": "2022",
+      "providers": [
+        {
+          "name": "SafeGraph",
+          "role": "mobility",
+          "confirmed": true
+        }
+      ],
+      "product": "Social Distancing Metrics",
+      "data_form": "日更新CBG级移动OD，随后汇总为Census Tract社区网络",
+      "data_declaration": "SafeGraph匿名设备GPS数据衍生的Social Distancing Metrics用于美国20个最大都市区社区同质性研究。",
+      "fulltext_scope": "main",
+      "decision": "confirmed_use",
+      "notes": "源产品覆盖2019-01-01至2021-04-16；底层面板约4500万设备不等于每都市区研究样本。输入为聚合移动记录，不是逐设备原始轨迹。",
+      "quotes": [
+        {
+          "quote": "The mobility records used in this study were derived from the Social Distancing Metrics ( SafeGraph, 2020 ) provided by SafeGraph ( htt ps://www . safegraph.com /), a commercial company that provides in - sights on the visitation of physical places using",
+          "section": "3.2 Mobile phone location data",
+          "pdf_page": 4
+        }
+      ]
+    },
+    {
+      "id": "P1DFAD697",
+      "title": "Comparing connected vehicle and mobile phone data for urban mobility analysis: Examining mobility diversity and spatial interaction across income groups",
+      "doi": "10.1177/23998083261441740",
+      "journal": "Environment and Planning B: Urban Analytics and City Science",
+      "year": "2026",
+      "providers": [
+        {
+          "name": "SafeGraph",
+          "role": "mobility",
+          "confirmed": true
+        },
+        {
+          "name": "Wejo",
+          "role": "辅助",
+          "confirmed": true
+        }
+      ],
+      "product": "SafeGraph home—POI mobility；Wejo connected vehicle trajectories",
+      "data_form": "SafeGraph居住地—到访POI汇总CBG OD，与Wejo车载远程信息系统轨迹比较",
+      "data_declaration": "正文具名SafeGraph与Wejo；SafeGraph代表手机移动数据，Wejo是联网私人乘用车轨迹对照。",
+      "fulltext_scope": "main",
+      "decision": "confirmed_use",
+      "notes": "San Antonio，2021-11-01至2022-01-03；SafeGraph超600万记录，Wejo原始约1400万轨迹筛成约560万行程。Wejo不能作为手机SDK供应商计数。一个重复PDF附件路径失效，但另一个完整23页正文可读。",
+      "quotes": [
+        {
+          "quote": "We collected SG data in San Antonio from No- vember 1, 2021, to January 3, 2022, and over 6 million records are observed. Based on the raw SG records, we aggregate the phone users",
+          "section": "Mobility datasets",
+          "pdf_page": 6
+        },
+        {
+          "quote": "we use anonymized connected vehicle (CV) trajectory data collected by Wejo Group Ltd. The Wejo dataset",
+          "section": "Mobility datasets",
+          "pdf_page": 6
+        }
+      ]
+    },
+    {
+      "id": "P61DCC998",
+      "title": "Behaviour-based dependency networks between places shape urban economic resilience",
+      "doi": "10.1038/s41562-024-02072-7",
+      "journal": "Nature Human Behaviour",
+      "year": "2025",
+      "providers": [
+        {
+          "name": "Spectus",
+          "role": "mobility",
+          "confirmed": true
+        },
+        {
+          "name": "SafeGraph",
+          "role": "辅助",
+          "confirmed": true
+        }
+      ],
+      "product": "Spectus mobile location pings + SafeGraph POI locations",
+      "data_form": "匿名设备GPS定位点推断停留/同日共访网络；SafeGraph仅提供地点POI静态位置",
+      "data_declaration": "方法明确Spectus通过移动应用SDK采集位置；研究将停留匹配到SafeGraph地点以构建经济依赖网络。",
+      "fulltext_scope": "main",
+      "decision": "confirmed_use",
+      "notes": "纽约、波士顿、洛杉矶、西雅图、达拉斯五都市区；研究超100万设备和100万POI，停留10分钟至10小时、100m范围匹配。SafeGraph是辅助POI，不可误记为本文移动轨迹供应商。",
+      "quotes": [
+        {
+          "quote": "We utilize an anonymized location dataset of mobile phones and smart- phone devices provided by Spectus, a location data intelligence com- pany that collects anonymous, privacy-compliant",
+          "section": "Methods: Mobility and POI data",
+          "pdf_page": 9
+        },
+        {
+          "quote": "Data about the POI locations were provided by Safegraph, who can be contacted through",
+          "section": "Data availability",
+          "pdf_page": 10
+        }
+      ]
+    }
+  ],
+  "note": "依据已下载附件审计；供应商实际使用与POI辅助、引用讨论区分；工作论文版本不重复计研究。"
+}
