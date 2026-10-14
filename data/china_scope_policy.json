@@ -261,6 +261,51 @@
       "provider_confirmation_basis": "用户于2026-10-14指定归入每日互动 / 个推供应商研究；原刊摘要明确SDK，作者单位包含每日互动。",
       "scope_reason": "归入手机SDK相近数据研究的每日互动 / 个推条目。",
       "review_date": "2026-10-14"
+    },
+    "L90": {
+      "research_scope": "pioneer_user_confirmed",
+      "user_review_status": "pioneer_confirmed",
+      "provider": "及刻 Jike（高概率同源；原文未具名）",
+      "provider_display": "及刻 Jike（高概率同源）",
+      "source_confirmed": false,
+      "provider_evidence_status": "user_assessed_link",
+      "scope_reason": "用户认可的高概率关联，纳入04；原文未具名供应商。",
+      "provider_confirmation_basis": "福州2023年1—2月，与具名及刻的L64（Cities，2023-01-01至07）重叠，并被L76（福州2023全年、具名及刻、GPS/WiFi）的时段覆盖；同属吴升合作团队，原文称位置服务商提供GPS轨迹。 据用户2026-10-14判断纳入高概率同源关联，不将时间重叠等同于采购批次或原始数据完全相同。",
+      "review_date": "2026-10-14",
+      "zotero_catalog_present": true,
+      "zotero_pdf_present": true,
+      "zotero_attachment_verified": true,
+      "zotero_reconciled_at": "2026-10-14"
+    },
+    "L91": {
+      "research_scope": "pioneer_user_confirmed",
+      "user_review_status": "pioneer_confirmed",
+      "provider": "及刻 Jike（高概率同源；原文未具名）",
+      "provider_display": "及刻 Jike（高概率同源）",
+      "source_confirmed": false,
+      "provider_evidence_status": "user_assessed_link",
+      "scope_reason": "用户认可的高概率关联，纳入04；原文未具名供应商。",
+      "provider_confirmation_basis": "福州2023-03-01至28，被具名及刻的L76（福州2023全年）覆盖，并包含已关联L55（福州2023-03-06至12、GPS/WIFI/蓝牙）时段；与L46（厦门2023-03-01至28）共享研究团队、日期和500m/15分钟活动强度口径，但城市不同，作为补充关联证据。 据用户2026-10-14判断纳入高概率同源关联，不将时间重叠等同于采购批次或原始数据完全相同。",
+      "review_date": "2026-10-14",
+      "zotero_catalog_present": true,
+      "zotero_pdf_present": true,
+      "zotero_attachment_verified": true,
+      "zotero_reconciled_at": "2026-10-14"
+    },
+    "L92": {
+      "research_scope": "pioneer_user_confirmed",
+      "user_review_status": "pioneer_confirmed",
+      "provider": "及刻 Jike（高概率同源；原文未具名）",
+      "provider_display": "及刻 Jike（高概率同源）",
+      "source_confirmed": false,
+      "provider_evidence_status": "user_assessed_link",
+      "scope_reason": "用户认可的高概率关联，纳入04；原文未具名供应商。",
+      "provider_confirmation_basis": "福州、厦门2023-04-01至06-30。福州部分被具名及刻的L76（福州2023全年）覆盖；厦门部分与已关联L46的2023年3月研究时段相接，属于同团队连续时段研究。厦门部分证据弱于福州，未取得单独具名供方声明。 据用户2026-10-14判断纳入高概率同源关联，不将时间重叠等同于采购批次或原始数据完全相同。",
+      "review_date": "2026-10-14",
+      "zotero_catalog_present": true,
+      "zotero_pdf_present": true,
+      "zotero_attachment_verified": true,
+      "zotero_reconciled_at": "2026-10-14"
     }
   }
 }

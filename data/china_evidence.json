@@ -5873,11 +5873,12 @@
               "journal": "International Journal of Applied Earth Observation and Geoinformation",
               "doi": "10.1016/j.jag.2026.105175",
               "url": "https://giserwang.github.io/papers/JAG-2026-02-14.pdf",
-              "provider": "供应商未具名",
+              "provider": "及刻 Jike（高概率同源；原文未具名）",
               "data_statement": "This study employs mobile phone location data collected on weekdays in Fuzhou from January to February 2023, provided by a location service operator."
             }
           ],
-          "source_ids": []
+          "source_ids": [],
+          "summary": "福州2023年1—2月，与具名及刻的L64（Cities，2023-01-01至07）重叠，并被L76（福州2023全年、具名及刻、GPS/WiFi）的时段覆盖；同属吴升合作团队，原文称位置服务商提供GPS轨迹。 据用户2026-10-14判断纳入高概率同源关联，不将时间重叠等同于采购批次或原始数据完全相同。"
         },
         {
           "id": "FZU-WU-L91",
@@ -5891,11 +5892,12 @@
               "journal": "International Journal of Geographical Information Science",
               "doi": "10.1080/13658816.2025.2562250",
               "url": "https://giserwang.github.io/papers/IJGIS-2025-09.pdf",
-              "provider": "供应商未具名",
+              "provider": "及刻 Jike（高概率同源；原文未具名）",
               "data_statement": "Human activity intensity was derived from anonymized mobile location data and used for model training, validation and testing."
             }
           ],
-          "source_ids": []
+          "source_ids": [],
+          "summary": "福州2023-03-01至28，被具名及刻的L76（福州2023全年）覆盖，并包含已关联L55（福州2023-03-06至12、GPS/WIFI/蓝牙）时段；与L46（厦门2023-03-01至28）共享研究团队、日期和500m/15分钟活动强度口径，但城市不同，作为补充关联证据。 据用户2026-10-14判断纳入高概率同源关联，不将时间重叠等同于采购批次或原始数据完全相同。"
         },
         {
           "id": "FZU-WU-L92",
@@ -5909,11 +5911,12 @@
               "journal": "Sustainable Cities and Society",
               "doi": "10.1016/j.scs.2026.107720",
               "url": "https://giserwang.github.io/papers/SCSI-2026-07.pdf",
-              "provider": "供应商未具名",
+              "provider": "及刻 Jike（高概率同源；原文未具名）",
               "data_statement": "In this study, we employed OD flow data from both Xiamen and Fuzhou to validate the predictive accuracy of the GPECN model."
             }
           ],
-          "source_ids": []
+          "source_ids": [],
+          "summary": "福州、厦门2023-04-01至06-30。福州部分被具名及刻的L76（福州2023全年）覆盖；厦门部分与已关联L46的2023年3月研究时段相接，属于同团队连续时段研究。厦门部分证据弱于福州，未取得单独具名供方声明。 据用户2026-10-14判断纳入高概率同源关联，不将时间重叠等同于采购批次或原始数据完全相同。"
         }
       ],
       "procurements": [],

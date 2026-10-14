@@ -5,7 +5,7 @@
 - **L89｜基于人群活动恢复的开放空间灾害韧性度量研究——以杜苏芮台风为例**，灾害学，2026，41(1)：133–141。DOI：[10.3969/j.issn.1000-811X.2026.01.017](https://doi.org/10.3969/j.issn.1000-811X.2026.01.017)。从用户 Zotero 条目及 PDF 核对，正文 §1.2 明示 Jike／isjike.com、SDK 采集、授权用户匿名位置，福州 2023-07-03 至 08-13。原文同时提到网络定位和蜂窝塔信号，保留该描述，不改写为纯 GPS 数据。
 - L29 与 L89 同时显示在**中科院地理所杜云艳团队**、**福州大学吴升团队**下，标注合作与重复展示，统计各计一次。吴升团队归类依用户确认；两篇实际署名的福州合作者为赵志远，不将团队归类改写为吴升本人署名。
 
-## 新候选：正文已经下载，供应商尚未具名
+## 三篇后续关联研究：正文已下载，原文供应商未具名
 
 | 编号 | 论文与期刊 | 数据声明核查 | 正文 |
 |---|---|---|---|
@@ -13,7 +13,7 @@
 | L91 | Predicting human-activity intensity in urban areas with a prior-enhanced probabilistic-deterministic model；International Journal of Geographical Information Science，2026（2025 在线） | 福州 2023-03-01 至 03-28，885 个 500 m 网格、15 分钟计数；含匿名 ID、经纬度和时间。讨论 Wi-Fi 断连等采样问题，也讨论基站乒乓效应；未见供应商具名。不能仅凭 Wi-Fi 字样确认为泛先锋。 | [作者公开 PDF](https://giserwang.github.io/papers/IJGIS-2025-09.pdf) |
 | L92 | Predicting citywide human mobility with a graph-prior-enhanced euclidean convolutional network；Sustainable Cities and Society，2026 | 厦门与福州，2023-04-01 至 06-30，15 分钟 OD；厦门 712、福州 3,164 个村级单元。数据部分未具名供应商，继续待核。 | [作者公开 PDF](https://giserwang.github.io/papers/SCSI-2026-07.pdf) |
 
-三个候选均放入待核区，未混入已确认供应商计数。PDF 来源为[合作者公开论文页](https://giserwang.github.io/publicationsandpatents)，已保存本地并核读数据章节。
+更新：经用户认可并完成同团队、城市和时间交叉对照，三篇转入04，标注“及刻 Jike（高概率同源）”；供应商使用计数列为用户关联确认，与原文具名证据分开。PDF 来源为[合作者公开论文页](https://giserwang.github.io/publicationsandpatents)，已保存本地并核读数据章节。
 
 ## WoS 检索记录
 
@@ -34,3 +34,11 @@ WoS 的 ALL 和 TS 面向索引字段，不能当作出版商全文搜索。因�
 - **Detecting hidden ping-pong records in mobile phone location data by considering daily activity patterns**：正文公开信息指向西宁基站切换与乒乓记录，暂不据团队关系纳入泛先锋。
 - **Reducing CO2 emissions from short-distance vehicle trips: A pathway to sustainable urban transport**：数据为车牌识别，不纳入。
 - **An interpretable stratified weighted network for uncovering spatially heterogeneous correlations between the built environment and nighttime urban vitality**（WOS:001684701000001）与 **Population heterogeneity of the impact caused by temporal sampling intervals on typical human mobility indicators using mobile phone location data**（WOS:001814480100001）：本轮仅发现题录，尚未核读数据来源，保留在此检索日志，不计入确认论文。
+
+## 2026-10-14 同源交叉核验补充
+
+- **L90**：福州2023年1—2月，与具名及刻的L64（Cities，2023-01-01至07）重叠，并被L76（福州2023全年、具名及刻、GPS/WiFi）的时段覆盖；同属吴升合作团队，原文称位置服务商提供GPS轨迹。
+- **L91**：福州2023-03-01至28，被具名及刻的L76（福州2023全年）覆盖，并包含已关联L55（福州2023-03-06至12、GPS/WIFI/蓝牙）时段；与L46（厦门2023-03-01至28）共享研究团队、日期和500m/15分钟活动强度口径，但城市不同，作为补充关联证据。
+- **L92**：福州、厦门2023-04-01至06-30。福州部分被具名及刻的L76（福州2023全年）覆盖；厦门部分与已关联L46的2023年3月研究时段相接，属于同团队连续时段研究。厦门部分证据弱于福州，未取得单独具名供方声明。
+
+其中最强的时间证据是 L76 具名及刻的福州2023全年数据覆盖，而不只是三个新研究月份连续。三个研究原文仍未具名，不把关联判断写成论文声明，也不据此断言同一交付批次或完全相同样本。

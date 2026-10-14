@@ -1579,7 +1579,7 @@
       ]
     },
     "confirmed": {
-      "record_count": 89,
+      "record_count": 92,
       "record_ids": [
         "L01",
         "L02",
@@ -1642,6 +1642,9 @@
         "L87",
         "L88",
         "L89",
+        "L90",
+        "L91",
+        "L92",
         "P06F06671",
         "P104EBB42",
         "P1DFAD697",
@@ -1671,7 +1674,7 @@
         "PEEE72CD1",
         "PFC132E92"
       ],
-      "annual_paper_count": 88,
+      "annual_paper_count": 91,
       "annual_paper_ids": [
         "L01",
         "L02",
@@ -1733,6 +1736,9 @@
         "L87",
         "L88",
         "L89",
+        "L90",
+        "L91",
+        "L92",
         "P240AD96D",
         "P25D34630",
         "P3239D548",
@@ -1762,7 +1768,7 @@
         "P5C05191D",
         "P919700C8"
       ],
-      "journal_article_count": 88,
+      "journal_article_count": 91,
       "journal_article_ids": [
         "L01",
         "L02",
@@ -1824,6 +1830,9 @@
         "L87",
         "L88",
         "L89",
+        "L90",
+        "L91",
+        "L92",
         "P240AD96D",
         "P25D34630",
         "P3239D548",
@@ -1857,7 +1866,7 @@
         "L26"
       ],
       "publication_types": {
-        "journal_article": 88,
+        "journal_article": 91,
         "conference_abstract": 1
       },
       "annual": [
@@ -1903,8 +1912,8 @@
         },
         {
           "year": 2026,
-          "count": 17,
-          "all_record_count": 17
+          "count": 20,
+          "all_record_count": 20
         }
       ],
       "journal_domains": [
@@ -1914,11 +1923,11 @@
         },
         {
           "domain": "地理与地理信息",
-          "count": 17
+          "count": 19
         },
         {
           "domain": "城市规划与建筑",
-          "count": 18
+          "count": 19
         },
         {
           "domain": "环境生态与风险",
@@ -1943,7 +1952,7 @@
       ]
     },
     "pioneer": {
-      "record_count": 31,
+      "record_count": 34,
       "record_ids": [
         "L21",
         "L25",
@@ -1975,9 +1984,12 @@
         "L86",
         "L87",
         "L88",
-        "L89"
+        "L89",
+        "L90",
+        "L91",
+        "L92"
       ],
-      "annual_paper_count": 30,
+      "annual_paper_count": 33,
       "annual_paper_ids": [
         "L21",
         "L25",
@@ -2008,9 +2020,12 @@
         "L83",
         "L87",
         "L88",
-        "L89"
+        "L89",
+        "L90",
+        "L91",
+        "L92"
       ],
-      "journal_article_count": 30,
+      "journal_article_count": 33,
       "journal_article_ids": [
         "L21",
         "L25",
@@ -2041,13 +2056,16 @@
         "L83",
         "L87",
         "L88",
-        "L89"
+        "L89",
+        "L90",
+        "L91",
+        "L92"
       ],
       "excluded_from_annual": [
         "L26"
       ],
       "publication_types": {
-        "journal_article": 30,
+        "journal_article": 33,
         "conference_abstract": 1
       },
       "annual": [
@@ -2093,8 +2111,8 @@
         },
         {
           "year": 2026,
-          "count": 13,
-          "all_record_count": 13
+          "count": 16,
+          "all_record_count": 16
         }
       ],
       "journal_domains": [
@@ -2104,11 +2122,11 @@
         },
         {
           "domain": "地理与地理信息",
-          "count": 9
+          "count": 11
         },
         {
           "domain": "城市规划与建筑",
-          "count": 10
+          "count": 11
         },
         {
           "domain": "环境生态与风险",
@@ -2403,12 +2421,9 @@
       ]
     },
     "pending": {
-      "record_count": 45,
+      "record_count": 42,
       "record_ids": [
         "L22",
-        "L90",
-        "L91",
-        "L92",
         "P002C367F",
         "P01D7334F",
         "P0663A19C",
@@ -2451,12 +2466,9 @@
         "PF912AF74",
         "PFDDDACD2"
       ],
-      "annual_paper_count": 45,
+      "annual_paper_count": 42,
       "annual_paper_ids": [
         "L22",
-        "L90",
-        "L91",
-        "L92",
         "P557B9764",
         "P837C3A60",
         "PAF9C787A",
@@ -2499,12 +2511,9 @@
         "P8A8A7B36",
         "P681BDA6E"
       ],
-      "journal_article_count": 35,
+      "journal_article_count": 32,
       "journal_article_ids": [
         "L22",
-        "L90",
-        "L91",
-        "L92",
         "P557B9764",
         "P837C3A60",
         "PAF9C787A",
@@ -2539,7 +2548,7 @@
       ],
       "excluded_from_annual": [],
       "publication_types": {
-        "journal_article": 35,
+        "journal_article": 32,
         "conference_or_proceedings": 9,
         "preprint": 1
       },
@@ -2586,8 +2595,8 @@
         },
         {
           "year": 2026,
-          "count": 6,
-          "all_record_count": 6
+          "count": 3,
+          "all_record_count": 3
         }
       ],
       "journal_domains": [
@@ -2597,11 +2606,11 @@
         },
         {
           "domain": "地理与地理信息",
-          "count": 5
+          "count": 3
         },
         {
           "domain": "城市规划与建筑",
-          "count": 9
+          "count": 8
         },
         {
           "domain": "环境生态与风险",

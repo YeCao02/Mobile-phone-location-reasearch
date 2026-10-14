@@ -8366,7 +8366,7 @@
       ],
       "counts": {
         "confirmed_use": 17,
-        "user_confirmed_use": 14,
+        "user_confirmed_use": 17,
         "mention_only": 0,
         "unresolved_candidate": 0
       },
@@ -8404,7 +8404,10 @@
           "L79",
           "L84",
           "L85",
-          "L86"
+          "L86",
+          "L90",
+          "L91",
+          "L92"
         ],
         "mention_only": [],
         "unresolved_candidate": []
@@ -8412,7 +8415,7 @@
       "role_counts": {
         "mobility": {
           "confirmed_use": 14,
-          "user_confirmed_use": 14,
+          "user_confirmed_use": 17,
           "mention_only": 0,
           "unresolved_candidate": 0
         },
@@ -8509,7 +8512,10 @@
             "L79",
             "L84",
             "L85",
-            "L86"
+            "L86",
+            "L90",
+            "L91",
+            "L92"
           ],
           "mention_only": [],
           "unresolved_candidate": []
@@ -8614,13 +8620,16 @@
         "L86",
         "L87",
         "L88",
-        "L89"
+        "L89",
+        "L90",
+        "L91",
+        "L92"
       ],
       "entity_interpretation": "展示组，不构成法律实体或独立采样面板合并认定",
       "evidence_role_counts": {
         "mobility": {
           "confirmed_use": 14,
-          "user_confirmed_use": 14,
+          "user_confirmed_use": 17,
           "mention_only": 0,
           "unresolved_candidate": 0
         },
@@ -14352,6 +14361,210 @@
       "evidence_urls": [
         "https://www.ncpssd.cn/Literature/articleinfo?id=ZHX2026001018&type=journalArticle"
       ]
+    },
+    {
+      "paper_id": "L90",
+      "paper_title": "GAGNN: a geography-aware graph neural network for citywide commuting flows prediction",
+      "doi": "10.1016/j.jag.2026.105175",
+      "provider_id": "pioneer_moxing_jike",
+      "provider_name": "先锋数聚 / 摸星 / Jike（梦享）",
+      "status": "user_confirmed_use",
+      "classification": "user_confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "Jike（梦享） / 及刻"
+      ],
+      "evidence_url": "https://giserwang.github.io/papers/JAG-2026-02-14.pdf",
+      "evidence_section": "本篇数据段与L64、L76、L55、L46交叉对照；2026-10-14用户判断",
+      "basis": "按用户人工核验合并供应商展示组，同篇去重；不作工商关系认定。 [Jike（梦享） / 及刻；user_confirmed_use；mobility] 福州2023年1—2月，与具名及刻的L64（Cities，2023-01-01至07）重叠，并被L76（福州2023全年、具名及刻、GPS/WiFi）的时段覆盖；同属吴升合作团队，原文称位置服务商提供GPS轨迹。 用户认可高概率同源；原文未具名。 来源：https://giserwang.github.io/papers/JAG-2026-02-14.pdf",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "user_reviewed",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "evidence_basis": "user_confirmed_supplier_group",
+      "grouping_basis": "user_confirmed_supplier_group",
+      "member_provider_ids": [
+        "jike"
+      ],
+      "role_statuses": {
+        "mobility": "user_confirmed_use"
+      },
+      "evidence_roles": [
+        "mobility"
+      ],
+      "evidence": [
+        {
+          "paper_id": "L90",
+          "paper_title": "GAGNN: a geography-aware graph neural network for citywide commuting flows prediction",
+          "doi": "10.1016/j.jag.2026.105175",
+          "provider_id": "jike",
+          "provider_name": "Jike（梦享） / 及刻",
+          "status": "user_confirmed_use",
+          "classification": "user_confirmed_use",
+          "role": "mobility",
+          "roles": [
+            "mobility"
+          ],
+          "declared_brands": [
+            "Jike（梦享） / 及刻"
+          ],
+          "evidence_url": "https://giserwang.github.io/papers/JAG-2026-02-14.pdf",
+          "evidence_section": "本篇数据段与L64、L76、L55、L46交叉对照；2026-10-14用户判断",
+          "basis": "福州2023年1—2月，与具名及刻的L64（Cities，2023-01-01至07）重叠，并被L76（福州2023全年、具名及刻、GPS/WiFi）的时段覆盖；同属吴升合作团队，原文称位置服务商提供GPS轨迹。 用户认可高概率同源；原文未具名。",
+          "catalog_status": "reviewed",
+          "scope": "phone_location_or_derivative",
+          "data_access_relationship": "user_reviewed",
+          "data_reuse_note": "",
+          "count_unit": "unique_study_not_independent_dataset",
+          "pdf_downloaded": true,
+          "zotero_attachment_verified": true
+        }
+      ],
+      "evidence_urls": [
+        "https://giserwang.github.io/papers/JAG-2026-02-14.pdf"
+      ]
+    },
+    {
+      "paper_id": "L91",
+      "paper_title": "Predicting human-activity intensity in urban areas with a prior-enhanced probabilistic-deterministic model",
+      "doi": "10.1080/13658816.2025.2562250",
+      "provider_id": "pioneer_moxing_jike",
+      "provider_name": "先锋数聚 / 摸星 / Jike（梦享）",
+      "status": "user_confirmed_use",
+      "classification": "user_confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "Jike（梦享） / 及刻"
+      ],
+      "evidence_url": "https://giserwang.github.io/papers/IJGIS-2025-09.pdf",
+      "evidence_section": "本篇数据段与L64、L76、L55、L46交叉对照；2026-10-14用户判断",
+      "basis": "按用户人工核验合并供应商展示组，同篇去重；不作工商关系认定。 [Jike（梦享） / 及刻；user_confirmed_use；mobility] 福州2023-03-01至28，被具名及刻的L76（福州2023全年）覆盖，并包含已关联L55（福州2023-03-06至12、GPS/WIFI/蓝牙）时段；与L46（厦门2023-03-01至28）共享研究团队、日期和500m/15分钟活动强度口径，但城市不同，作为补充关联证据。 用户认可高概率同源；原文未具名。 来源：https://giserwang.github.io/papers/IJGIS-2025-09.pdf",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "user_reviewed",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "evidence_basis": "user_confirmed_supplier_group",
+      "grouping_basis": "user_confirmed_supplier_group",
+      "member_provider_ids": [
+        "jike"
+      ],
+      "role_statuses": {
+        "mobility": "user_confirmed_use"
+      },
+      "evidence_roles": [
+        "mobility"
+      ],
+      "evidence": [
+        {
+          "paper_id": "L91",
+          "paper_title": "Predicting human-activity intensity in urban areas with a prior-enhanced probabilistic-deterministic model",
+          "doi": "10.1080/13658816.2025.2562250",
+          "provider_id": "jike",
+          "provider_name": "Jike（梦享） / 及刻",
+          "status": "user_confirmed_use",
+          "classification": "user_confirmed_use",
+          "role": "mobility",
+          "roles": [
+            "mobility"
+          ],
+          "declared_brands": [
+            "Jike（梦享） / 及刻"
+          ],
+          "evidence_url": "https://giserwang.github.io/papers/IJGIS-2025-09.pdf",
+          "evidence_section": "本篇数据段与L64、L76、L55、L46交叉对照；2026-10-14用户判断",
+          "basis": "福州2023-03-01至28，被具名及刻的L76（福州2023全年）覆盖，并包含已关联L55（福州2023-03-06至12、GPS/WIFI/蓝牙）时段；与L46（厦门2023-03-01至28）共享研究团队、日期和500m/15分钟活动强度口径，但城市不同，作为补充关联证据。 用户认可高概率同源；原文未具名。",
+          "catalog_status": "reviewed",
+          "scope": "phone_location_or_derivative",
+          "data_access_relationship": "user_reviewed",
+          "data_reuse_note": "",
+          "count_unit": "unique_study_not_independent_dataset",
+          "pdf_downloaded": true,
+          "zotero_attachment_verified": true
+        }
+      ],
+      "evidence_urls": [
+        "https://giserwang.github.io/papers/IJGIS-2025-09.pdf"
+      ]
+    },
+    {
+      "paper_id": "L92",
+      "paper_title": "Predicting citywide human mobility with a graph-prior-enhanced euclidean convolutional network",
+      "doi": "10.1016/j.scs.2026.107720",
+      "provider_id": "pioneer_moxing_jike",
+      "provider_name": "先锋数聚 / 摸星 / Jike（梦享）",
+      "status": "user_confirmed_use",
+      "classification": "user_confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "Jike（梦享） / 及刻"
+      ],
+      "evidence_url": "https://giserwang.github.io/papers/SCSI-2026-07.pdf",
+      "evidence_section": "本篇数据段与L64、L76、L55、L46交叉对照；2026-10-14用户判断",
+      "basis": "按用户人工核验合并供应商展示组，同篇去重；不作工商关系认定。 [Jike（梦享） / 及刻；user_confirmed_use；mobility] 福州、厦门2023-04-01至06-30。福州部分被具名及刻的L76（福州2023全年）覆盖；厦门部分与已关联L46的2023年3月研究时段相接，属于同团队连续时段研究。厦门部分证据弱于福州，未取得单独具名供方声明。 用户认可高概率同源；原文未具名。 来源：https://giserwang.github.io/papers/SCSI-2026-07.pdf",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "user_reviewed",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "evidence_basis": "user_confirmed_supplier_group",
+      "grouping_basis": "user_confirmed_supplier_group",
+      "member_provider_ids": [
+        "jike"
+      ],
+      "role_statuses": {
+        "mobility": "user_confirmed_use"
+      },
+      "evidence_roles": [
+        "mobility"
+      ],
+      "evidence": [
+        {
+          "paper_id": "L92",
+          "paper_title": "Predicting citywide human mobility with a graph-prior-enhanced euclidean convolutional network",
+          "doi": "10.1016/j.scs.2026.107720",
+          "provider_id": "jike",
+          "provider_name": "Jike（梦享） / 及刻",
+          "status": "user_confirmed_use",
+          "classification": "user_confirmed_use",
+          "role": "mobility",
+          "roles": [
+            "mobility"
+          ],
+          "declared_brands": [
+            "Jike（梦享） / 及刻"
+          ],
+          "evidence_url": "https://giserwang.github.io/papers/SCSI-2026-07.pdf",
+          "evidence_section": "本篇数据段与L64、L76、L55、L46交叉对照；2026-10-14用户判断",
+          "basis": "福州、厦门2023-04-01至06-30。福州部分被具名及刻的L76（福州2023全年）覆盖；厦门部分与已关联L46的2023年3月研究时段相接，属于同团队连续时段研究。厦门部分证据弱于福州，未取得单独具名供方声明。 用户认可高概率同源；原文未具名。",
+          "catalog_status": "reviewed",
+          "scope": "phone_location_or_derivative",
+          "data_access_relationship": "user_reviewed",
+          "data_reuse_note": "",
+          "count_unit": "unique_study_not_independent_dataset",
+          "pdf_downloaded": true,
+          "zotero_attachment_verified": true
+        }
+      ],
+      "evidence_urls": [
+        "https://giserwang.github.io/papers/SCSI-2026-07.pdf"
+      ]
     }
   ],
   "member_associations": [
@@ -15219,6 +15432,84 @@
       "count_unit": "unique_study_not_independent_dataset",
       "pdf_downloaded": true,
       "zotero_attachment_verified": false
+    },
+    {
+      "paper_id": "L90",
+      "paper_title": "GAGNN: a geography-aware graph neural network for citywide commuting flows prediction",
+      "doi": "10.1016/j.jag.2026.105175",
+      "provider_id": "jike",
+      "provider_name": "Jike（梦享） / 及刻",
+      "status": "user_confirmed_use",
+      "classification": "user_confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "Jike（梦享） / 及刻"
+      ],
+      "evidence_url": "https://giserwang.github.io/papers/JAG-2026-02-14.pdf",
+      "evidence_section": "本篇数据段与L64、L76、L55、L46交叉对照；2026-10-14用户判断",
+      "basis": "福州2023年1—2月，与具名及刻的L64（Cities，2023-01-01至07）重叠，并被L76（福州2023全年、具名及刻、GPS/WiFi）的时段覆盖；同属吴升合作团队，原文称位置服务商提供GPS轨迹。 用户认可高概率同源；原文未具名。",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "user_reviewed",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true
+    },
+    {
+      "paper_id": "L91",
+      "paper_title": "Predicting human-activity intensity in urban areas with a prior-enhanced probabilistic-deterministic model",
+      "doi": "10.1080/13658816.2025.2562250",
+      "provider_id": "jike",
+      "provider_name": "Jike（梦享） / 及刻",
+      "status": "user_confirmed_use",
+      "classification": "user_confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "Jike（梦享） / 及刻"
+      ],
+      "evidence_url": "https://giserwang.github.io/papers/IJGIS-2025-09.pdf",
+      "evidence_section": "本篇数据段与L64、L76、L55、L46交叉对照；2026-10-14用户判断",
+      "basis": "福州2023-03-01至28，被具名及刻的L76（福州2023全年）覆盖，并包含已关联L55（福州2023-03-06至12、GPS/WIFI/蓝牙）时段；与L46（厦门2023-03-01至28）共享研究团队、日期和500m/15分钟活动强度口径，但城市不同，作为补充关联证据。 用户认可高概率同源；原文未具名。",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "user_reviewed",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true
+    },
+    {
+      "paper_id": "L92",
+      "paper_title": "Predicting citywide human mobility with a graph-prior-enhanced euclidean convolutional network",
+      "doi": "10.1016/j.scs.2026.107720",
+      "provider_id": "jike",
+      "provider_name": "Jike（梦享） / 及刻",
+      "status": "user_confirmed_use",
+      "classification": "user_confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "Jike（梦享） / 及刻"
+      ],
+      "evidence_url": "https://giserwang.github.io/papers/SCSI-2026-07.pdf",
+      "evidence_section": "本篇数据段与L64、L76、L55、L46交叉对照；2026-10-14用户判断",
+      "basis": "福州、厦门2023-04-01至06-30。福州部分被具名及刻的L76（福州2023全年）覆盖；厦门部分与已关联L46的2023年3月研究时段相接，属于同团队连续时段研究。厦门部分证据弱于福州，未取得单独具名供方声明。 用户认可高概率同源；原文未具名。",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "user_reviewed",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true
     }
   ],
   "methodology": {
@@ -15267,18 +15558,18 @@
   "counts": {
     "catalog_studies": 153,
     "provider_nodes": 35,
-    "associations": 156,
-    "unique_studies_with_association": 131,
-    "unassigned_studies": 22,
+    "associations": 159,
+    "unique_studies_with_association": 134,
+    "unassigned_studies": 19,
     "association_counts_by_status": {
       "confirmed_use": 73,
-      "user_confirmed_use": 39,
+      "user_confirmed_use": 42,
       "mention_only": 2,
       "unresolved_candidate": 42
     },
     "unique_studies_by_status": {
       "confirmed_use": 64,
-      "user_confirmed_use": 36,
+      "user_confirmed_use": 39,
       "mention_only": 2,
       "unresolved_candidate": 33
     }
@@ -15346,24 +15637,6 @@
       "paper_id": "L70",
       "title": "Assessing the Association Between Urban Amenities and Home Squatting Residents: Evidence from Location-Based Service Data in Weihai",
       "doi": "10.1007/s12061-026-09920-1",
-      "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
-    },
-    {
-      "paper_id": "L90",
-      "title": "GAGNN: a geography-aware graph neural network for citywide commuting flows prediction",
-      "doi": "10.1016/j.jag.2026.105175",
-      "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
-    },
-    {
-      "paper_id": "L91",
-      "title": "Predicting human-activity intensity in urban areas with a prior-enhanced probabilistic-deterministic model",
-      "doi": "10.1080/13658816.2025.2562250",
-      "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
-    },
-    {
-      "paper_id": "L92",
-      "title": "Predicting citywide human mobility with a graph-prior-enhanced euclidean convolutional network",
-      "doi": "10.1016/j.scs.2026.107720",
       "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
     },
     {
