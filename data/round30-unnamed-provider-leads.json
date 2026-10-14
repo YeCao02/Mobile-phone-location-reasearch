@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-14",
+  "purpose": "十所高校的未具名手机定位数据扩检",
+  "new_provider_confirmations": 0,
+  "records": [
+    {
+      "id": "R30-01",
+      "institution": "东南大学",
+      "team": "杨俊宴 / 史宜合作团队",
+      "title": "基于精细时空行为测度的街道空间人群数字画像构建与分异",
+      "journal": "风景园林",
+      "year": 2024,
+      "doi": "10.3724/j.fjyl.202402150092",
+      "url": "https://www.geores.com.cn/la/CN/abstract/article/1673-1530/74577",
+      "status": "数据段已读；供应商及采集机制待核",
+      "evidence": "南京中央路，2019-04-01至04-07；正文表1称通信运营商提供的匿名LBS数据，脚注称时间精度1秒、坐标换算精度约4米。未给出三大运营商或目标供应商名称。",
+      "caution": "坐标位数不能证明实际定位误差；1秒时间精度不能等同每秒采集。尚无SDK或Wi-Fi采集证据，不能给出99%同源判断。",
+      "next_action": "核对基金52378048的其他论文、张珣和金探花的学位论文，寻找采购或明确采集机制。",
+      "pdf_downloaded": false
+    },
+    {
+      "id": "R30-02",
+      "institution": "东南大学团队线索（逐作者单位待复核）",
+      "team": "SHAO Dian / YANG Junyan / SHI Yi / ZHANG Zhihan / DAI Xin",
+      "title": "基于人群数字画像的滨海空间活力解析与优化设计——以山东威海九龙湾为例",
+      "journal": "风景园林",
+      "year": 2025,
+      "doi": "10.3724/j.fjyl.LA20250501",
+      "url": "https://www.geores.com.cn/la/CN/abstract/article/1673-1530/74738",
+      "status": "数据段已读；供应商未见具名",
+      "evidence": "正文§2.2使用威海2022年8月至2023年6月LBS数据，报告取样率83%，构建人群画像并比较停留、出行轨迹。",
+      "caution": "83%的分母及扩样口径尚不明确；不能据此判断运营商市场份额或供应商。出版年按期刊卷期为2025，不采用二级平台上传时间2026。",
+      "next_action": "核对PDF脚注、致谢及配套技术资料，追查该团队威海数据的采购主体与采集机制。",
+      "pdf_downloaded": false
+    },
+    {
+      "id": "R30-03",
+      "institution": "东南大学 / 谢菲尔德大学",
+      "team": "张珣 / 杨俊宴 / Simon Marvin",
+      "title": "脆弱生态约束下基于LBS数据的城市动态结构研究探索——以黔西南州兴义市为例",
+      "journal": "上海城市规划",
+      "year": 2019,
+      "doi": "10.11982/j.supr.20190605",
+      "url": "https://www.shplanning.com.cn/archive/detail/id/795.html",
+      "status": "题录与研究对象已核；数据来源段待读",
+      "evidence": "期刊原始页面确认兴义市LBS人群聚散研究及东南大学作者单位；基金2018YFD1100302。",
+      "caution": "当前只核到摘要和书目信息；检索OCR把张珣误成张珂，采用期刊详情页姓名。不依据LBS一词推定SDK。",
+      "next_action": "下载期刊PDF并核读数据来源；与同团队其他城市的数据字段交叉比较。",
+      "pdf_downloaded": false
+    },
+    {
+      "id": "R30-04",
+      "institution": "南京大学合作线索（逐作者单位待核）",
+      "team": "Shicheng Wen / Tianyuan Shou / Haiwei Yin / Yang Ju等",
+      "title": "More neighborhood green space, fewer park visits? Evidence from mobile phone-based population movement data in a major Chinese city",
+      "journal": "Journal of Transport Geography",
+      "year": 2026,
+      "doi": "10.1016/j.jtrangeo.2026.104705",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0966692326001596",
+      "status": "作者公开履历核实题录；正文待获取",
+      "evidence": "作者公开履历列明论文、作者与DOI；摘要报告南京735960人、约140万次公园到访。",
+      "caution": "尚不能判断SDK、运营商信令或地图产品，更不能推定泛先锋。列为发现线索，不计入确认研究。",
+      "next_action": "通过学校出版商入口读取Data与Data availability，追查原始位置数据来源。",
+      "pdf_downloaded": false,
+      "metadata_url": "https://xizewang.github.io/CV_WXZ.pdf"
+    }
+  ],
+  "counting_note": "独立发现清单；未合并至正式论文统计，未写入Zotero确认分类。"
+}
