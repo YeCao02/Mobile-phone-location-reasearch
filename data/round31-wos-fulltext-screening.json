@@ -205,8 +205,13 @@
       "team": "同济大学 王淳淳 / 金云峰",
       "journal": "智能城市",
       "year": 2024,
-      "status": "摘要与题录镜像线索；全文待核",
-      "url": "https://cnki.istiz.org.cn/kcms/detail/detail.aspx?dbcode=CJFQ&dbname=CJFD2024&filename=ZNCS202406001"
+      "status": "HTML全文已核、PDF已下载；仅明确安卓智能手机LBS，供应商未具名，低优先级保留",
+      "url": "https://doi.org/10.19301/j.cnki.zncs.2024.06.001",
+      "doi": "10.19301/j.cnki.zncs.2024.06.001",
+      "statement": "基于安卓系统智能手机采集LBS数据，数据全部经过脱敏处理，不涉及任何个人隐私。",
+      "evidence": "上海中心城区97个街道；按两周活动范围筛选上海内活动。百度API仅获取绿地边界与坐标；原文未披露轨迹供应商和具体采集日期。",
+      "pdf_downloaded": true,
+      "fulltext_read": true
     },
     {
       "title": "精准更新导向下的数字化城市设计实践探索——以上海市陆家嘴水环为例",
@@ -248,7 +253,7 @@
       "中国联通/Smartsteps": 7,
       "百度": 2
     },
-    "cnki": "已读职住双重锚点全文；作者检索页仍显示拼图，另一篇静态空间比较论文未读全文。",
-    "pdf": "上述已具名非核心文献读取来源段即停止；新增未具名公园研究PDF下载被浏览器拦截。"
+    "cnki": "验证通过；两篇王淳淳/金云峰论文均读到HTML全文。职住双重锚点按用户要求排除；静态空间比较论文PDF已下载。",
+    "pdf": "静态空间比较论文PDF已保存本地。Sustainability公园研究PDF被浏览器拦截，已保存可见HTML文本。已明确非核心的九篇Elsevier论文不再下载。"
   }
 }

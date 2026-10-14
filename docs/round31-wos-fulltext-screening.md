@@ -30,11 +30,11 @@
 
 
 
-## 尚待获取全文
+## 其余核验线索
 
 - Widening Gender Gaps in Daily Mobility? A Causal Analysis of Pandemic Impacts and Sociospatial Heterogeneity：学校Taylor & Francis页面明确显示Content unavailable；正文待获取 [入口](https://doi.org/10.1080/24694452.2026.2708873)
 
-- 静态空间与实际访问的城市公共绿地公平对比评估：摘要与题录镜像线索；全文待核 [入口](https://cnki.istiz.org.cn/kcms/detail/detail.aspx?dbcode=CJFQ&dbname=CJFD2024&filename=ZNCS202406001)
+- 静态空间与实际访问的城市公共绿地公平对比评估：HTML全文已核、PDF已下载；仅明确安卓智能手机LBS，供应商未具名，低优先级保留。基于安卓系统智能手机采集LBS数据，数据全部经过脱敏处理，不涉及任何个人隐私。 上海中心城区97个街道；按两周活动范围筛选上海内活动。百度API仅获取绿地边界与坐标；原文未披露轨迹供应商和具体采集日期。 [入口](https://doi.org/10.19301/j.cnki.zncs.2024.06.001)
 
 - 精准更新导向下的数字化城市设计实践探索——以上海市陆家嘴水环为例：期刊摘要称移动互联网LBS；全文待核 [入口](https://jzss.cbpt.cnki.net/portal/journal/portal/client/paper/5ec5f659115014d31646ff8182070b66)
 
@@ -83,3 +83,5 @@ WoS检索式：`OG=("Peking University" OR "Tsinghua University" OR "Tongji Univ
 52条初查+20条基金负责人定向补查，共72条查询；未新增具名采购，附带发现两条中文文献入口。
 
 受版权限制的全文仅在本地保存；无新增核心确认文献，无Zotero核心新增。
+
+知网验证已通过。两篇王淳淳/金云峰论文均核读全文；《静态空间与实际访问…》PDF本地保存成功，未加入Zotero核心分类。
