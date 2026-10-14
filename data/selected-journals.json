@@ -3,7 +3,7 @@
   "recommended_title": "Nature系列、PNAS与Science：当前收录分布",
   "definition": "精选刊物范围固定为刊名为Nature或以Nature空格开头的期刊、PNAS、Science；按论文去重，不是对全部期刊作影响力排名或分区判定。",
   "scope": "仅当前浏览文献，不重新纳入已排除、边界省略及仅其他专题归档的条目。",
-  "note": "Scientific Data、Scientific Reports和Communications Physics属于Nature Portfolio，保留在总体期刊领域图中；本图仅采用上述明确刊名清单。",
+  "note": "Scientific Data和Scientific Reports属于Nature Portfolio的Scientific Series，Communications Physics属于Communications系列；不在本图刊名含Nature的选择规则内。不能将它们写作Nature子刊并混入统计，也不能说它们仅仅是同出版集团而与Nature Portfolio无关。",
   "sources": [
     {
       "title": "Nature Portfolio: About our journals",

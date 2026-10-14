@@ -294,18 +294,6 @@
       "original_journal_article_count": 1
     },
     {
-      "journal": "ISPRS International Journal of Geo-Information",
-      "canonical_journal": "ISPRS International Journal of Geo-Information",
-      "domain": "地理与地理信息",
-      "rationale": "出版物以地理过程、空间分析、地理信息科学或地球观测为主要方向。",
-      "paper_ids": [
-        "L36"
-      ],
-      "record_count": 1,
-      "journal_article_count": 1,
-      "original_journal_article_count": 1
-    },
-    {
       "journal": "International Journal of Applied Earth Observation and Geoinformation",
       "canonical_journal": "International Journal of Applied Earth Observation and Geoinformation",
       "domain": "地理与地理信息",
@@ -1074,7 +1062,7 @@
   ],
   "scopes": {
     "all": {
-      "record_count": 131,
+      "record_count": 130,
       "record_ids": [
         "L01",
         "L02",
@@ -1106,7 +1094,6 @@
         "L28",
         "L29",
         "L34",
-        "L36",
         "L41",
         "L43",
         "L44",
@@ -1208,7 +1195,7 @@
         "PFC132E92",
         "PFDDDACD2"
       ],
-      "annual_paper_count": 130,
+      "annual_paper_count": 129,
       "annual_paper_ids": [
         "L01",
         "L02",
@@ -1239,7 +1226,6 @@
         "L28",
         "L29",
         "L34",
-        "L36",
         "L41",
         "L43",
         "L44",
@@ -1341,7 +1327,7 @@
         "P5C05191D",
         "P919700C8"
       ],
-      "journal_article_count": 120,
+      "journal_article_count": 119,
       "journal_article_ids": [
         "L01",
         "L02",
@@ -1372,7 +1358,6 @@
         "L28",
         "L29",
         "L34",
-        "L36",
         "L41",
         "L43",
         "L44",
@@ -1468,7 +1453,7 @@
         "L26"
       ],
       "publication_types": {
-        "journal_article": 120,
+        "journal_article": 119,
         "conference_abstract": 1,
         "conference_or_proceedings": 9,
         "preprint": 1
@@ -1511,8 +1496,8 @@
         },
         {
           "year": 2025,
-          "count": 25,
-          "all_record_count": 25
+          "count": 24,
+          "all_record_count": 24
         },
         {
           "year": 2026,
@@ -1527,7 +1512,7 @@
         },
         {
           "domain": "地理与地理信息",
-          "count": 21
+          "count": 20
         },
         {
           "domain": "城市规划与建筑",
@@ -1556,7 +1541,7 @@
       ]
     },
     "confirmed": {
-      "record_count": 86,
+      "record_count": 88,
       "record_ids": [
         "L01",
         "L02",
@@ -1590,6 +1575,7 @@
         "L41",
         "L43",
         "L44",
+        "L46",
         "L48",
         "L55",
         "L57",
@@ -1600,6 +1586,7 @@
         "L68",
         "L69",
         "L71",
+        "L72",
         "L73",
         "L74",
         "L75",
@@ -1645,7 +1632,7 @@
         "PEEE72CD1",
         "PFC132E92"
       ],
-      "annual_paper_count": 85,
+      "annual_paper_count": 87,
       "annual_paper_ids": [
         "L01",
         "L02",
@@ -1678,6 +1665,7 @@
         "L41",
         "L43",
         "L44",
+        "L46",
         "L48",
         "L55",
         "L57",
@@ -1688,6 +1676,7 @@
         "L68",
         "L69",
         "L71",
+        "L72",
         "L73",
         "L74",
         "L75",
@@ -1733,7 +1722,7 @@
         "P5C05191D",
         "P919700C8"
       ],
-      "journal_article_count": 85,
+      "journal_article_count": 87,
       "journal_article_ids": [
         "L01",
         "L02",
@@ -1766,6 +1755,7 @@
         "L41",
         "L43",
         "L44",
+        "L46",
         "L48",
         "L55",
         "L57",
@@ -1776,6 +1766,7 @@
         "L68",
         "L69",
         "L71",
+        "L72",
         "L73",
         "L74",
         "L75",
@@ -1825,7 +1816,7 @@
         "L26"
       ],
       "publication_types": {
-        "journal_article": 85,
+        "journal_article": 87,
         "conference_abstract": 1
       },
       "annual": [
@@ -1841,8 +1832,8 @@
         },
         {
           "year": 2020,
-          "count": 5,
-          "all_record_count": 5
+          "count": 6,
+          "all_record_count": 6
         },
         {
           "year": 2021,
@@ -1866,8 +1857,8 @@
         },
         {
           "year": 2025,
-          "count": 15,
-          "all_record_count": 15
+          "count": 16,
+          "all_record_count": 16
         },
         {
           "year": 2026,
@@ -1882,7 +1873,7 @@
         },
         {
           "domain": "地理与地理信息",
-          "count": 16
+          "count": 17
         },
         {
           "domain": "城市规划与建筑",
@@ -1894,7 +1885,7 @@
         },
         {
           "domain": "交通与出行",
-          "count": 7
+          "count": 8
         },
         {
           "domain": "健康与生命科学",
@@ -1911,7 +1902,7 @@
       ]
     },
     "pioneer": {
-      "record_count": 29,
+      "record_count": 30,
       "record_ids": [
         "L21",
         "L25",
@@ -1922,6 +1913,7 @@
         "L34",
         "L41",
         "L44",
+        "L46",
         "L48",
         "L55",
         "L57",
@@ -1943,7 +1935,7 @@
         "L87",
         "L88"
       ],
-      "annual_paper_count": 28,
+      "annual_paper_count": 29,
       "annual_paper_ids": [
         "L21",
         "L25",
@@ -1953,6 +1945,7 @@
         "L34",
         "L41",
         "L44",
+        "L46",
         "L48",
         "L55",
         "L57",
@@ -1974,7 +1967,7 @@
         "L87",
         "L88"
       ],
-      "journal_article_count": 28,
+      "journal_article_count": 29,
       "journal_article_ids": [
         "L21",
         "L25",
@@ -1984,6 +1977,7 @@
         "L34",
         "L41",
         "L44",
+        "L46",
         "L48",
         "L55",
         "L57",
@@ -2009,7 +2003,7 @@
         "L26"
       ],
       "publication_types": {
-        "journal_article": 28,
+        "journal_article": 29,
         "conference_abstract": 1
       },
       "annual": [
@@ -2050,8 +2044,8 @@
         },
         {
           "year": 2025,
-          "count": 7,
-          "all_record_count": 7
+          "count": 8,
+          "all_record_count": 8
         },
         {
           "year": 2026,
@@ -2066,7 +2060,7 @@
         },
         {
           "domain": "地理与地理信息",
-          "count": 8
+          "count": 9
         },
         {
           "domain": "城市规划与建筑",
@@ -2095,7 +2089,7 @@
       ]
     },
     "analog": {
-      "record_count": 57,
+      "record_count": 58,
       "record_ids": [
         "L01",
         "L02",
@@ -2123,6 +2117,7 @@
         "L63",
         "L69",
         "L71",
+        "L72",
         "L73",
         "L81",
         "L82",
@@ -2155,7 +2150,7 @@
         "PEEE72CD1",
         "PFC132E92"
       ],
-      "annual_paper_count": 57,
+      "annual_paper_count": 58,
       "annual_paper_ids": [
         "L01",
         "L02",
@@ -2183,6 +2178,7 @@
         "L63",
         "L69",
         "L71",
+        "L72",
         "L73",
         "L81",
         "L82",
@@ -2215,7 +2211,7 @@
         "P5C05191D",
         "P919700C8"
       ],
-      "journal_article_count": 57,
+      "journal_article_count": 58,
       "journal_article_ids": [
         "L01",
         "L02",
@@ -2243,6 +2239,7 @@
         "L63",
         "L69",
         "L71",
+        "L72",
         "L73",
         "L81",
         "L82",
@@ -2277,7 +2274,7 @@
       ],
       "excluded_from_annual": [],
       "publication_types": {
-        "journal_article": 57
+        "journal_article": 58
       },
       "annual": [
         {
@@ -2292,8 +2289,8 @@
         },
         {
           "year": 2020,
-          "count": 5,
-          "all_record_count": 5
+          "count": 6,
+          "all_record_count": 6
         },
         {
           "year": 2021,
@@ -2345,7 +2342,7 @@
         },
         {
           "domain": "交通与出行",
-          "count": 3
+          "count": 4
         },
         {
           "domain": "健康与生命科学",
@@ -2362,12 +2359,9 @@
       ]
     },
     "pending": {
-      "record_count": 45,
+      "record_count": 42,
       "record_ids": [
         "L22",
-        "L36",
-        "L46",
-        "L72",
         "P002C367F",
         "P01D7334F",
         "P0663A19C",
@@ -2410,12 +2404,9 @@
         "PF912AF74",
         "PFDDDACD2"
       ],
-      "annual_paper_count": 45,
+      "annual_paper_count": 42,
       "annual_paper_ids": [
         "L22",
-        "L36",
-        "L46",
-        "L72",
         "P557B9764",
         "P837C3A60",
         "PAF9C787A",
@@ -2458,12 +2449,9 @@
         "P8A8A7B36",
         "P681BDA6E"
       ],
-      "journal_article_count": 35,
+      "journal_article_count": 32,
       "journal_article_ids": [
         "L22",
-        "L36",
-        "L46",
-        "L72",
         "P557B9764",
         "P837C3A60",
         "PAF9C787A",
@@ -2498,7 +2486,7 @@
       ],
       "excluded_from_annual": [],
       "publication_types": {
-        "journal_article": 35,
+        "journal_article": 32,
         "conference_or_proceedings": 9,
         "preprint": 1
       },
@@ -2515,8 +2503,8 @@
         },
         {
           "year": 2020,
-          "count": 3,
-          "all_record_count": 3
+          "count": 2,
+          "all_record_count": 2
         },
         {
           "year": 2021,
@@ -2540,8 +2528,8 @@
         },
         {
           "year": 2025,
-          "count": 10,
-          "all_record_count": 10
+          "count": 8,
+          "all_record_count": 8
         },
         {
           "year": 2026,
@@ -2556,7 +2544,7 @@
         },
         {
           "domain": "地理与地理信息",
-          "count": 5
+          "count": 3
         },
         {
           "domain": "城市规划与建筑",
@@ -2568,7 +2556,7 @@
         },
         {
           "domain": "交通与出行",
-          "count": 4
+          "count": 3
         },
         {
           "domain": "健康与生命科学",
@@ -2586,7 +2574,7 @@
     }
   },
   "legacy_125_audit": {
-    "count": 125,
+    "count": 124,
     "warning": "旧publication_type将5条会议论文误记为journal_article。此125仅用于审计原数据，不应标成真实期刊论文总量。",
     "domains": [
       {
@@ -2595,7 +2583,7 @@
       },
       {
         "domain": "地理与地理信息",
-        "count": 22
+        "count": 21
       },
       {
         "domain": "城市规划与建筑",
@@ -2624,8 +2612,8 @@
     ]
   },
   "checks": {
-    "active_browse_unique_records": 131,
-    "unique_venue_strings": 80,
+    "active_browse_unique_records": 130,
+    "unique_venue_strings": 79,
     "duplicate_browse_ids": 0,
     "all_domains_mapped": true,
     "domain_counts_checked": true,

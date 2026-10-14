@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-13",
+  "as_of": "2026-10-14",
   "records": [
     {
       "id": "L31",
@@ -75,6 +75,18 @@
       "research_scope": "excluded",
       "excluded_from_active": true,
       "scope_reason": "用户2026-10-13明确要求排除BAMTR，不再作为待核线索。"
+    },
+    {
+      "id": "L36",
+      "title": "Predicting the Next Location of Urban Individuals via a Representation-Enhanced Multi-View Learning Network",
+      "journal": "ISPRS International Journal of Geo-Information",
+      "year": 2025,
+      "doi": "10.3390/ijgi14080302",
+      "evidence_url": "https://www.mdpi.com/2220-9964/14/8/302",
+      "research_scope": "excluded",
+      "excluded_from_active": true,
+      "scope_reason": "用户于2026-10-14明确排除，不再列入活跃研究或待核清单。",
+      "scope_decision_basis": "user_instruction_2026-10-14"
     }
   ]
 }

@@ -13,18 +13,6 @@
       "notes": "2026-10-13 已通过Chrome DOI跳转或学校WebVPN打开对应出版商论文页面。"
     },
     {
-      "id": "L72",
-      "title": "基于软件开发工具包(SDK)数据的人群空间活动分析",
-      "journal": "城市交通",
-      "year": 2020,
-      "doi": "10.13813/j.cn11-5141/u.2020.0403",
-      "url": "https://www.chinautc.com/templates/H_magazine/articlecontent.aspx?contentid=97216&nodeid=4855&page=ContentPage",
-      "vpn_url": "",
-      "pdf_downloaded": false,
-      "search_only": false,
-      "notes": ""
-    },
-    {
       "id": "P002C367F",
       "title": "Activity-adjusted crime rates show that public safety worsened in 2020",
       "journal": "Proceedings of the National Academy of Sciences",
@@ -321,30 +309,6 @@
       "url": "https://doi.org/10.1145/3447548.3467182",
       "vpn_url": "",
       "pdf_downloaded": false,
-      "search_only": false,
-      "notes": ""
-    },
-    {
-      "id": "L36",
-      "title": "Predicting the Next Location of Urban Individuals via a Representation-Enhanced Multi-View Learning Network",
-      "journal": "ISPRS International Journal of Geo-Information",
-      "year": 2025,
-      "doi": "10.3390/ijgi14080302",
-      "url": "https://www.mdpi.com/2220-9964/14/8/302",
-      "vpn_url": "",
-      "pdf_downloaded": true,
-      "search_only": false,
-      "notes": ""
-    },
-    {
-      "id": "L46",
-      "title": "先验与数据双引导的城市居民活动强度预测模型",
-      "journal": "地球信息科学学报",
-      "year": 2025,
-      "doi": "10.12082/dqxxkx.2025.250198",
-      "url": "https://giserwang.github.io/papers/DQXXKX-2025-10.pdf",
-      "vpn_url": "",
-      "pdf_downloaded": true,
       "search_only": false,
       "notes": ""
     },

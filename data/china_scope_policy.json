@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-13",
+  "as_of": "2026-10-14",
   "label": "泛先锋／先锋类数据",
   "rules": [
     "先锋数聚/Pioneer Data、摸星/Moxing、即刻或及刻/Jike为具名优先检索词。",
@@ -122,8 +122,10 @@
       "curated_evidence": true
     },
     "L36": {
-      "research_scope": "pioneer_candidate",
-      "scope_reason": "保留检索候选；供方身份需独立核验。"
+      "research_scope": "excluded",
+      "excluded_from_active": true,
+      "scope_reason": "用户于2026-10-14明确排除，不再列入活跃研究或待核清单。",
+      "scope_decision_basis": "user_instruction_2026-10-14"
     },
     "L41": {
       "research_scope": "pioneer_user_confirmed",
@@ -229,6 +231,29 @@
       "user_review_status": "pioneer_confirmed",
       "provider_evidence_status": "user_confirmed",
       "provider_confirmation_basis": "用户结合既有闭源信息、团队各论文数据声明的一致性，明确确认中南大学王璞／庞腾达团队使用先锋数聚数据。供应商归属按用户确认记录；不将未具名的原文改写成公开具名声明。"
+    },
+    "L46": {
+      "research_scope": "pioneer_user_confirmed",
+      "user_review_status": "pioneer_confirmed",
+      "provider": "泛先锋关联（99%）",
+      "source_confirmed": false,
+      "provider_evidence_status": "user_confirmed",
+      "provider_confirmation_basis": "用户于2026-10-14确认按99%关联归入福州大学吴升团队；99%为用户判断，非统计估计，原文未具名供应商。",
+      "scope_reason": "用户于2026-10-14确认按99%关联归入福州大学吴升团队；99%为用户判断，非统计估计，原文未具名供应商。",
+      "team": "福州大学吴升团队；王培晓 / 陆锋合作",
+      "notes": "按用户判断纳入泛先锋关联研究；原文数据声明与用户供应商判断分别保留。",
+      "candidate_reason": "",
+      "sensor_mix": "原文未说明GPS/WiFi/SDK或基站构成。",
+      "review_date": "2026-10-14"
+    },
+    "L72": {
+      "research_scope": "other_commercial",
+      "user_review_status": "other_supplier_confirmed",
+      "provider": "每日互动 / 个推 (Getui)",
+      "provider_evidence_status": "user_confirmed",
+      "provider_confirmation_basis": "用户于2026-10-14指定归入每日互动 / 个推供应商研究；原刊摘要明确SDK，作者单位包含每日互动。",
+      "scope_reason": "归入手机SDK相近数据研究的每日互动 / 个推条目。",
+      "review_date": "2026-10-14"
     }
   }
 }

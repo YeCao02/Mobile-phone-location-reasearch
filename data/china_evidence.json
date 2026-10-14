@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-13",
+  "as_of": "2026-10-14",
   "scope": "泛先锋核心供应商、论文声明、采购与高校团队关联；第17轮新增许昌学院具名梦享SDK研究，沿用户Zotero简记扩检。非穷尽检索。",
   "classification_rules": [
     "采购、课题、论文分别建节点；只建立有直接证据的边。",
@@ -733,7 +733,10 @@
         "Hengcai Zhang",
         "Shifen Cheng",
         "Feng Lu"
-      ]
+      ],
+      "active": false,
+      "excluded": true,
+      "status": "excluded"
     },
     {
       "id": "CN-S43",
@@ -998,7 +1001,7 @@
       "type": "作者公开论文全文与原刊题录",
       "type_code": "author_public_pdf_and_publisher_metadata",
       "finding": "原文§3.2以厦门2023年3月1–28日手机定位记录为基础，字段为脱敏ID、经纬度、开始时间；清洗后按500米网格、15分钟时段统计不同ID。没有GPS/WiFi/SDK或具体企业声明。",
-      "limits": "同作者及同基金仅建立合作脉络；不能继承L36的GNSS采集描述或推断同一供方。",
+      "limits": "用户于2026-10-14确认按99%关联归入福州大学吴升团队；99%为用户判断，非统计估计，原文未具名供应商。",
       "confidence": "primary_methods_verified_supplier_unresolved",
       "review_date": "2026-10-11",
       "catalog_id": "L46",
@@ -1017,7 +1020,9 @@
         "程诗奋",
         "陆锋"
       ],
-      "research_scope": "pioneer_candidate"
+      "research_scope": "pioneer_user_confirmed",
+      "provider": "泛先锋关联（99%）",
+      "provider_attribution_status": "user_confirmed"
     },
     {
       "id": "CN-S53",
@@ -1457,7 +1462,7 @@
       "supplier": "Jike by iDream Network Technology（及刻）",
       "finding": "§2.5.2 明确 Jike 供高精度手机 LBS；SDK 扫描 WiFi、蓝牙及基站等环境信号，并结合 GPS 与场景识别点。本文的 Baidu 仅为辅助 POI 来源，不能作为定位供方。",
       "confidence": "source_confirmed",
-      "limits": "原文具名供应商，停止供应商追查。",
+      "limits": "",
       "doi": "10.3390/smartcities8030083",
       "group_id": "SZU-GUO-TU",
       "research_scope": "pioneer_named",
@@ -1549,7 +1554,7 @@
       "supplier": "极光 / Aurora Mobile",
       "finding": "§3.2.1极光SDK；鼓浪屿2019-10-1至7；原始76,119人737,373条，清洗后18,710人494,099条。国家自然科学基金51908229。",
       "confidence": "source_confirmed",
-      "limits": "原文具名供应商，停止供应商追查。",
+      "limits": "",
       "doi": "10.12082/dqxxkx.2024.220546",
       "group_id": "TONGJI-NIU-AURORA",
       "research_scope": "other_commercial",
@@ -1567,7 +1572,7 @@
       "supplier": "Jike Technology Ltd.",
       "finding": "本研究 Jike Technology Ltd. 供手机定位，2023-01-01 至 01-07，共约226万用户。 正文说明多定位技术融合，未在本段逐一列明 GPS、WiFi 或 SDK。原文画像经济水平是相对经济分层，并非实际收入。 吴升对本文的资源和数据整理贡献有原文直接证据；不能据此倒推其全部旧论文同一数据来源。",
       "confidence": "source_confirmed",
-      "limits": "原文具名供应商，停止供应商追查。",
+      "limits": "",
       "doi": "10.1016/j.cities.2026.106983",
       "group_id": "FZU-WU-SHENG",
       "research_scope": "pioneer_named",
@@ -1652,7 +1657,7 @@
       "supplier": "Jike / isjike.com（及刻）",
       "finding": "直接具名 Jike/isjike.com；成都 2020-10-15 至 11-15，1210252用户和约3.014亿记录。 SDK 与 POI 场景通过 WiFi、蓝牙、NFC 交互；另外连续亮屏每半小时定时上报。画像外部资料包含运营商，不等同于运营商定位。",
       "confidence": "source_confirmed",
-      "limits": "原文具名供应商，停止供应商追查。",
+      "limits": "",
       "doi": "10.1155/2023/8008667",
       "group_id": "SWJTU-WANG-QIU",
       "research_scope": "pioneer_named",
@@ -1671,7 +1676,7 @@
       "supplier": "Aurora Mobile / jiguang.cn（极光）",
       "finding": "§3.2.2 明确极光 Aurora Mobile 提供 SDK 数据，用于常住人口社会人口特征（青年比例、教育和收入等），结合网格人口密度解释 O2O 零售分布。本研究未明确 GPS/WiFi 技术或直接使用个体移动轨迹；不能按轨迹使用计数。大众点评供零售店铺数据，高德供建成环境，安居客供租金，各角色须区分。",
       "confidence": "source_confirmed",
-      "limits": "原文具名供应商，停止供应商追查。",
+      "limits": "",
       "doi": "10.1007/s11769-025-1493-6",
       "group_id": "SCUT-TANG-QIJING",
       "research_scope": "other_commercial",
@@ -1689,7 +1694,7 @@
       "supplier": "China Mobile",
       "finding": "Data Collection 明确由 China Mobile 提供 LBS，2017 年 10 月至 2018 年 4 月威海；因此列运营商供数边界，不归商业 SDK 主集合。该节未充分说明实际定位技术，不额外推定一定是基站定位。",
       "confidence": "source_confirmed",
-      "limits": "原文具名供应商，停止供应商追查。",
+      "limits": "",
       "doi": "10.1007/s12061-026-09920-1",
       "group_id": "SEU-YANG-CARRIER",
       "research_scope": "carrier_boundary",
@@ -1707,7 +1712,7 @@
       "supplier": "深圳市和讯华谷信息技术有限公司",
       "finding": "表1列明手机SDK产品及具名供方；§2.3.1说明GPS与APP交互触发采集，2020年第四季度广州数据按Geohash7网格统计。百度仅供POI。",
       "confidence": "source_confirmed",
-      "limits": "原文具名供应商，停止供应商追查。",
+      "limits": "",
       "doi": "10.11821/dlyj020241315",
       "group_id": "SCUT-LIU-YUTING",
       "research_scope": "other_commercial",
@@ -1732,7 +1737,8 @@
       "catalog_id": "L72",
       "round10_record": true,
       "pdf_downloaded": false,
-      "zotero_attachment_verified": false
+      "zotero_attachment_verified": false,
+      "provider": "每日互动 / 个推 (Getui)"
     },
     {
       "id": "CN-R10-L73",
@@ -1743,7 +1749,7 @@
       "supplier": "中国联通；浙江每日互动网络科技股份有限公司个推产品",
       "finding": "§1区分江山联通信令与青田、海盐、宁海个推SDK，不能把整篇当纯SDK，也不能将不同城市数据误称融合定位。",
       "confidence": "source_confirmed",
-      "limits": "原文具名供应商，停止供应商追查。",
+      "limits": "",
       "doi": "10.13813/j.cn11-5141/u.2020.0404",
       "group_id": "ZJUPI-LI-XINGYUE",
       "research_scope": "other_commercial",
@@ -1761,7 +1767,7 @@
       "supplier": "先锋数聚",
       "finding": "§2.1.1明确引入先锋大数据平台，采用ROM-SDK、运营商与应用程序行为多源数据；§2.1.2细分高时空精度轨迹、运营商群体画像标签和线上行为序列；§2.2明确先锋数聚。运营商画像参与分析不能直接解释为运营商基站融合定位，保留SDK研究并单列角色。案例为嘉善与眉山老城区更新潜力和边界划定。",
       "confidence": "source_confirmed",
-      "limits": "原文具名供应商，停止供应商追查。",
+      "limits": "",
       "doi": "",
       "group_id": "CN-R10-TEAM-C04",
       "research_scope": "pioneer_named",
@@ -1780,7 +1786,7 @@
       "supplier": "北京先锋数聚信息科技有限公司",
       "finding": "§二(三)明确北京先锋数聚供应江苏省手机SDK轨迹：2024-05-01至05-30，390余亿条位置记录、约5500余万人次；筛选连续14天且覆盖每校至少两校区的有效用户。结合AOI量化迁徙强度、路径连通、活动重叠与网络耦合，分析14所省部共建双一流高校。南京大学为作者单位，不是14校样本之一。",
       "confidence": "source_confirmed",
-      "limits": "原文具名供应商，停止供应商追查。",
+      "limits": "",
       "doi": "10.13236/j.cnki.jshe.2026.01.007",
       "group_id": "JIT-NJU-HAN-LENG",
       "research_scope": "pioneer_named",
@@ -1799,7 +1805,7 @@
       "supplier": "及刻 / Jike",
       "finding": "§3.1(2)明确匿名手机位置数据来自及刻网站，手机内置GPS、WiFi等定位；福州2023全年，日均235.67万用户、7305.78万条、人均31条，清洗后日均52.55万用户。前瞻提供产业园区清单，百度仅位置/AOI。样本50个园区，测就业活动活力、动态类型及GTWR影响因素。",
       "confidence": "source_confirmed",
-      "limits": "原文具名供应商，停止供应商追查。",
+      "limits": "",
       "doi": "10.20117/j.jsti.202603006",
       "group_id": "FZU-WU-SHENG",
       "research_scope": "pioneer_named",
@@ -1818,7 +1824,7 @@
       "supplier": "及刻—客流大数据平台（isjike.com）",
       "finding": "§1.1具名及刻平台与isjike.com，场景识别、手机厂商与应用合作提供场景流POI数据；§1.2南宁主城区2024-09-02与09-07约86万条，包括POI、经纬度、进离店时间和停留时间。这是手机到访行为产品而非静态POI库；正文未直接说明GPS/WiFi/SDK定位传感器，不能由其他论文倒推。",
       "confidence": "source_confirmed",
-      "limits": "原文具名供应商，停止供应商追查。",
+      "limits": "",
       "doi": "10.16601/j.cnki.issn2096-7330.2025.01.004",
       "group_id": "NNU-LU-YUAN",
       "research_scope": "pioneer_named",
@@ -1869,7 +1875,7 @@
       "supplier": "Jike Open Platform / data.isjike.com",
       "finding": "原文§2.1–2.2与图2具名Jike开放平台，使用上海田子坊2025-07-05至08-04游客人群分布热图。§Ethics明确只分析公开、匿名化汇总数据；未证明取得个体轨迹或SDK/GPS/WiFi采集机制。红书照片与游记、OSM及Google Maps是独立辅助来源。",
       "confidence": "source_confirmed",
-      "limits": "原文已具名供应商，停止供应商追查；实际数据产品单列。",
+      "limits": "实际数据产品单列。",
       "doi": "10.1080/13467581.2025.2608469",
       "group_id": "SHZQ-UTM-YU",
       "research_scope": "pioneer_named",
@@ -1885,7 +1891,7 @@
       "supplier": "In Loco",
       "finding": "§3.1 明确 In Loco SDK，以 GPS、无线及手机传感器定位；研究实际使用城市级居家指数，无个体轨迹访问。用于校准地震噪声与活动联系。",
       "confidence": "source_confirmed",
-      "limits": "原文已具名供应商，停止供应商追查；实际数据产品单列。",
+      "limits": "实际数据产品单列。",
       "doi": "10.1029/2020gl088748",
       "group_id": "BRAZIL-DIAS-PEIXOTO",
       "research_scope": "other_commercial",
@@ -1901,7 +1907,7 @@
       "supplier": "In Loco",
       "finding": "Methods/Dataset 具名 In Loco SDK，研究获得两次连续应用使用的位置对，经纬度精度0.01度，不能追踪超过两次使用的持续个体轨迹。城市间移动用于早期疫情传播模拟。",
       "confidence": "source_confirmed",
-      "limits": "原文已具名供应商，停止供应商追查；实际数据产品单列。",
+      "limits": "实际数据产品单列。",
       "doi": "10.1371/journal.pone.0235732",
       "group_id": "USP-PEIXOTO",
       "research_scope": "other_commercial",
@@ -3755,7 +3761,7 @@
       "sources": [
         "CN-S43"
       ],
-      "next": "杜云艳L29留泛先锋，L37腾讯单列；吴升合作L46供方仍待核。",
+      "next": "杜云艳L29留泛先锋，L37腾讯单列；吴升合作L46已按用户99%关联判断归入泛先锋。",
       "round_history": [
         {
           "round": 6,
@@ -5129,36 +5135,13 @@
       "outputs": [
         {
           "type": "期刊论文",
-          "title": "Predicting the Next Location of Urban Individuals via a Representation-Enhanced Multi-View Learning Network",
-          "year": 2025,
-          "journal": "ISPRS International Journal of Geo-Information",
-          "catalog_id": "L36",
-          "doi": "10.3390/ijgi14080302",
-          "url": "https://www.mdpi.com/2220-9964/14/8/302",
-          "provider": "未具名位置服务公司",
-          "data_statement": "匿名手机 GNSS 个体轨迹；福州 2023-03；用户ID、时间戳、经纬度；GNSS 明确；SDK 与 WiFi 未在该数据段明确；公司提供手机 GNSS 定位记录，筛选并构建个体轨迹。 基金 2023YFB3906804；公开代码和数据仓库 DOI 10.6084/m9.figshare.28806515（仓库内容本轮未打开验证）。",
-          "bibliographic_note": "本轮Figshare数据包与本地ZIP校验和一致：有模型训练数据，无原始Timing逐点表/UUID映射。ID可见格式兼容但不能据此定供应商。",
-          "authors": [
-            "Maoqi Lun",
-            "Peixiao Wang",
-            "Sheng Wu",
-            "Hengcai Zhang",
-            "Shifen Cheng",
-            "Feng Lu"
-          ],
-          "source_ids": [
-            "CN-S42"
-          ]
-        },
-        {
-          "type": "期刊论文",
           "title": "先验与数据双引导的城市居民活动强度预测模型",
           "year": 2025,
           "journal": "地球信息科学学报",
           "catalog_id": "L46",
           "doi": "10.12082/dqxxkx.2025.250198",
           "url": "https://giserwang.github.io/papers/DQXXKX-2025-10.pdf",
-          "provider": "未披露",
+          "provider": "泛先锋关联（99%）",
           "data_statement": "原文§3.2以厦门2023年3月1–28日手机定位记录为基础，字段为脱敏ID、经纬度、开始时间；清洗后按500米网格、15分钟时段统计不同ID。没有GPS/WiFi/SDK或具体企业声明。",
           "bibliographic_note": "27(10):2453–2465；同基金2023YFB3906804，但未披露供方或GPS/WiFi/SDK。",
           "authors": [
@@ -5172,7 +5155,8 @@
           "source_ids": [
             "CN-S52"
           ],
-          "research_scope": "pioneer_candidate"
+          "research_scope": "pioneer_user_confirmed",
+          "provider_attribution_status": "user_confirmed"
         },
         {
           "type": "预印本（正文待核）",
@@ -5367,65 +5351,9 @@
       ],
       "studies": [
         {
-          "id": "FZU-WU-R1",
-          "title": "手机GNSS轨迹与下一位置预测",
-          "summary": "未具名商业公司的手机GNSS轨迹；原文、公开处理数据及ID格式已核，仍保留泛先锋候选。",
-          "outputs": [
-            {
-              "type": "期刊论文",
-              "title": "Predicting the Next Location of Urban Individuals via a Representation-Enhanced Multi-View Learning Network",
-              "year": 2025,
-              "journal": "ISPRS International Journal of Geo-Information",
-              "catalog_id": "L36",
-              "doi": "10.3390/ijgi14080302",
-              "url": "https://www.mdpi.com/2220-9964/14/8/302",
-              "provider": "未具名位置服务公司",
-              "data_statement": "匿名手机 GNSS 个体轨迹；福州 2023-03；用户ID、时间戳、经纬度；GNSS 明确；SDK 与 WiFi 未在该数据段明确；公司提供手机 GNSS 定位记录，筛选并构建个体轨迹。 基金 2023YFB3906804；公开代码和数据仓库 DOI 10.6084/m9.figshare.28806515（仓库内容本轮未打开验证）。",
-              "bibliographic_note": "本轮Figshare数据包与本地ZIP校验和一致：有模型训练数据，无原始Timing逐点表/UUID映射。ID可见格式兼容但不能据此定供应商。",
-              "authors": [
-                "Maoqi Lun",
-                "Peixiao Wang",
-                "Sheng Wu",
-                "Hengcai Zhang",
-                "Shifen Cheng",
-                "Feng Lu"
-              ],
-              "source_ids": [
-                "CN-S42"
-              ]
-            }
-          ],
-          "source_ids": [
-            "CN-S42"
-          ],
-          "evidence_section": "5.1 Study Area and Data; PDF pp.13–14; Funding and Data Availability Statement; PDF p.25",
-          "provider_attribution_status": "company_type_confirmed_name_undisclosed",
-          "institution_author_map": [
-            {
-              "institution": "The Academy of Digital China (Fujian), Fuzhou University",
-              "authors": [
-                "Maoqi Lun",
-                "Sheng Wu"
-              ],
-              "evidence_section": "PDF p.1 affiliation 1; Sheng Wu corresponding author"
-            },
-            {
-              "institution": "Institute of Geographic Sciences and Natural Resources Research, CAS; University of Chinese Academy of Sciences",
-              "authors": [
-                "Peixiao Wang",
-                "Hengcai Zhang",
-                "Shifen Cheng",
-                "Feng Lu"
-              ],
-              "evidence_section": "PDF p.1 affiliations 2 and 3"
-            }
-          ],
-          "research_scope": "pioneer_candidate"
-        },
-        {
           "id": "FZU-WU-R2",
           "title": "匿名手机定位与城市居民活动强度预测",
-          "summary": "原文§3.2以厦门2023年3月1–28日手机定位记录为基础，字段为脱敏ID、经纬度、开始时间；清洗后按500米网格、15分钟时段统计不同ID。没有GPS/WiFi/SDK或具体企业声明。",
+          "summary": "用户于2026-10-14确认按99%关联归入福州大学吴升团队；99%为用户判断，非统计估计，原文未具名供应商。",
           "outputs": [
             {
               "type": "期刊论文",
@@ -5435,7 +5363,7 @@
               "catalog_id": "L46",
               "doi": "10.12082/dqxxkx.2025.250198",
               "url": "https://giserwang.github.io/papers/DQXXKX-2025-10.pdf",
-              "provider": "未披露",
+              "provider": "泛先锋关联（99%）",
               "data_statement": "原文§3.2以厦门2023年3月1–28日手机定位记录为基础，字段为脱敏ID、经纬度、开始时间；清洗后按500米网格、15分钟时段统计不同ID。没有GPS/WiFi/SDK或具体企业声明。",
               "bibliographic_note": "27(10):2453–2465；同基金2023YFB3906804，但未披露供方或GPS/WiFi/SDK。",
               "authors": [
@@ -5449,15 +5377,16 @@
               "source_ids": [
                 "CN-S52"
               ],
-              "research_scope": "pioneer_candidate"
+              "research_scope": "pioneer_user_confirmed",
+              "provider_attribution_status": "user_confirmed"
             }
           ],
           "source_ids": [
             "CN-S52"
           ],
           "evidence_section": "PDF第1页题录/基金；第8页§3.1–3.2及表2",
-          "provider_attribution_status": "undisclosed",
-          "research_scope": "pioneer_candidate",
+          "provider_attribution_status": "user_confirmed",
+          "research_scope": "pioneer_user_confirmed",
           "institution_author_map": [
             {
               "institution": "福州大学数字中国研究院（福建）",
@@ -7433,7 +7362,10 @@
       {
         "catalog_id": "L36",
         "source_id": "CN-S42",
-        "group_id": "FZU-WU-SHENG"
+        "group_id": "FZU-WU-SHENG",
+        "active": false,
+        "excluded": true,
+        "status": "excluded"
       },
       {
         "catalog_id": "L37",
@@ -9872,7 +9804,7 @@
               "journal": "城市交通",
               "doi": "10.13813/j.cn11-5141/u.2020.0403",
               "url": "https://www.chinautc.com/templates/H_magazine/articlecontent.aspx?contentid=97216&nodeid=4855&page=ContentPage",
-              "provider": "每日互动为作者单位；供数角色尚未从方法段独立核实",
+              "provider": "每日互动 / 个推 (Getui)",
               "data_statement": "原刊摘要明确SDK、舟山居民与游客空间活动比较；公司共同署名不能单独等同方法段供数声明。",
               "source_ids": [
                 "CN-R10-L72"
@@ -9929,7 +9861,7 @@
           "journal": "城市交通",
           "doi": "10.13813/j.cn11-5141/u.2020.0403",
           "url": "https://www.chinautc.com/templates/H_magazine/articlecontent.aspx?contentid=97216&nodeid=4855&page=ContentPage",
-          "provider": "每日互动为作者单位；供数角色尚未从方法段独立核实",
+          "provider": "每日互动 / 个推 (Getui)",
           "data_statement": "原刊摘要明确SDK、舟山居民与游客空间活动比较；公司共同署名不能单独等同方法段供数声明。",
           "source_ids": [
             "CN-R10-L72"

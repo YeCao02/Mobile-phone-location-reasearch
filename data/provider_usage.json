@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-13",
+  "as_of": "2026-10-14",
   "providers": [
     {
       "id": "safegraph",
@@ -6196,7 +6196,7 @@
       "supply_chain_role": "原文点名多App高精度位置报点与职住识别；传感器组成另核",
       "counts": {
         "confirmed_use": 2,
-        "user_confirmed_use": 0,
+        "user_confirmed_use": 1,
         "mention_only": 0,
         "unresolved_candidate": 0
       },
@@ -6205,14 +6205,16 @@
           "L43",
           "L73"
         ],
-        "user_confirmed_use": [],
+        "user_confirmed_use": [
+          "L72"
+        ],
         "mention_only": [],
         "unresolved_candidate": []
       },
       "role_counts": {
         "mobility": {
           "confirmed_use": 2,
-          "user_confirmed_use": 0,
+          "user_confirmed_use": 1,
           "mention_only": 0,
           "unresolved_candidate": 0
         },
@@ -6283,7 +6285,9 @@
             "L43",
             "L73"
           ],
-          "user_confirmed_use": [],
+          "user_confirmed_use": [
+            "L72"
+          ],
           "mention_only": [],
           "unresolved_candidate": []
         },
@@ -6353,13 +6357,14 @@
       "zero_count_meaning": "0仅表示当前文献目录中没有符合该证据门槛的记录；不是全领域无人使用，也不是搜索穷尽。",
       "association_ids": [
         "L43",
-        "L73"
+        "L73",
+        "L72"
       ],
       "entity_interpretation": "按现有品牌/实体标签分别计数",
       "evidence_role_counts": {
         "mobility": {
           "confirmed_use": 2,
-          "user_confirmed_use": 0,
+          "user_confirmed_use": 1,
           "mention_only": 0,
           "unresolved_candidate": 0
         },
@@ -8361,7 +8366,7 @@
       ],
       "counts": {
         "confirmed_use": 16,
-        "user_confirmed_use": 13,
+        "user_confirmed_use": 14,
         "mention_only": 0,
         "unresolved_candidate": 0
       },
@@ -8390,6 +8395,7 @@
           "L34",
           "L41",
           "L44",
+          "L46",
           "L55",
           "L57",
           "L59",
@@ -8405,7 +8411,7 @@
       "role_counts": {
         "mobility": {
           "confirmed_use": 13,
-          "user_confirmed_use": 13,
+          "user_confirmed_use": 14,
           "mention_only": 0,
           "unresolved_candidate": 0
         },
@@ -8493,6 +8499,7 @@
             "L34",
             "L41",
             "L44",
+            "L46",
             "L55",
             "L57",
             "L59",
@@ -8584,6 +8591,7 @@
         "L34",
         "L41",
         "L44",
+        "L46",
         "L48",
         "L55",
         "L57",
@@ -8609,7 +8617,7 @@
       "evidence_role_counts": {
         "mobility": {
           "confirmed_use": 13,
-          "user_confirmed_use": 13,
+          "user_confirmed_use": 14,
           "mention_only": 0,
           "unresolved_candidate": 0
         },
@@ -12113,6 +12121,32 @@
       "zotero_attachment_verified": true
     },
     {
+      "paper_id": "L72",
+      "paper_title": "基于软件开发工具包(SDK)数据的人群空间活动分析",
+      "doi": "10.13813/j.cn11-5141/u.2020.0403",
+      "provider_id": "getui",
+      "provider_name": "每日互动 / 个推 (Getui)",
+      "status": "user_confirmed_use",
+      "classification": "user_confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "每日互动 / 个推 (Getui)"
+      ],
+      "evidence_url": "https://www.chinautc.com/templates/H_magazine/articlecontent.aspx?contentid=97216&nodeid=4855&page=ContentPage",
+      "evidence_section": "用户分类确认，2026-10-14",
+      "basis": "用户于2026-10-14指定归入每日互动 / 个推供应商研究；原刊摘要明确SDK，作者单位包含每日互动。",
+      "catalog_status": "pending",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "user_reviewed",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": false,
+      "zotero_attachment_verified": false
+    },
+    {
       "paper_id": "L21",
       "paper_title": "Mobile phone data show spatial and socioeconomic inequalities in hospital utilization",
       "doi": "10.1038/s44360-026-00100-6",
@@ -12762,6 +12796,74 @@
       ],
       "evidence_urls": [
         "https://dlgt.cbpt.cnki.net/portal/journal/portal/client/paper/739b0b7e60043a8747dfa5c027f530ee"
+      ]
+    },
+    {
+      "paper_id": "L46",
+      "paper_title": "先验与数据双引导的城市居民活动强度预测模型",
+      "doi": "10.12082/dqxxkx.2025.250198",
+      "provider_id": "pioneer_moxing_jike",
+      "provider_name": "先锋数聚 / 摸星 / Jike（梦享）",
+      "status": "user_confirmed_use",
+      "classification": "user_confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "泛先锋关联（99%）"
+      ],
+      "evidence_url": "https://giserwang.github.io/papers/DQXXKX-2025-10.pdf",
+      "evidence_section": "用户分类确认，2026-10-14",
+      "basis": "按用户人工核验合并供应商展示组，同篇去重；不作工商关系认定。 [先锋数聚 / Pioneer Data；user_confirmed_use；mobility] 用户于2026-10-14确认按99%关联归入福州大学吴升团队；99%为用户判断，非统计估计，原文未具名供应商。 来源：https://giserwang.github.io/papers/DQXXKX-2025-10.pdf",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "user_reviewed",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false,
+      "evidence_basis": "user_confirmed_supplier_group",
+      "grouping_basis": "user_confirmed_supplier_group",
+      "member_provider_ids": [
+        "pioneer"
+      ],
+      "role_statuses": {
+        "mobility": "user_confirmed_use"
+      },
+      "evidence_roles": [
+        "mobility"
+      ],
+      "evidence": [
+        {
+          "paper_id": "L46",
+          "paper_title": "先验与数据双引导的城市居民活动强度预测模型",
+          "doi": "10.12082/dqxxkx.2025.250198",
+          "provider_id": "pioneer",
+          "provider_name": "先锋数聚 / Pioneer Data",
+          "status": "user_confirmed_use",
+          "classification": "user_confirmed_use",
+          "role": "mobility",
+          "roles": [
+            "mobility"
+          ],
+          "declared_brands": [
+            "泛先锋关联（99%）"
+          ],
+          "evidence_url": "https://giserwang.github.io/papers/DQXXKX-2025-10.pdf",
+          "evidence_section": "用户分类确认，2026-10-14",
+          "basis": "用户于2026-10-14确认按99%关联归入福州大学吴升团队；99%为用户判断，非统计估计，原文未具名供应商。",
+          "catalog_status": "reviewed",
+          "scope": "phone_location_or_derivative",
+          "data_access_relationship": "user_reviewed",
+          "data_reuse_note": "",
+          "count_unit": "unique_study_not_independent_dataset",
+          "pdf_downloaded": true,
+          "zotero_attachment_verified": false
+        }
+      ],
+      "evidence_urls": [
+        "https://giserwang.github.io/papers/DQXXKX-2025-10.pdf"
       ]
     },
     {
@@ -14988,6 +15090,32 @@
       "count_unit": "unique_study_not_independent_dataset",
       "pdf_downloaded": true,
       "zotero_attachment_verified": true
+    },
+    {
+      "paper_id": "L46",
+      "paper_title": "先验与数据双引导的城市居民活动强度预测模型",
+      "doi": "10.12082/dqxxkx.2025.250198",
+      "provider_id": "pioneer",
+      "provider_name": "先锋数聚 / Pioneer Data",
+      "status": "user_confirmed_use",
+      "classification": "user_confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "泛先锋关联（99%）"
+      ],
+      "evidence_url": "https://giserwang.github.io/papers/DQXXKX-2025-10.pdf",
+      "evidence_section": "用户分类确认，2026-10-14",
+      "basis": "用户于2026-10-14确认按99%关联归入福州大学吴升团队；99%为用户判断，非统计估计，原文未具名供应商。",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "user_reviewed",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": false
     }
   ],
   "methodology": {
@@ -15034,20 +15162,20 @@
     "name_collision_rule": "同音或近似拼写不构成供方关联，以上名称均未映射为北京摸星。"
   },
   "counts": {
-    "catalog_studies": 150,
+    "catalog_studies": 149,
     "provider_nodes": 35,
-    "associations": 153,
-    "unique_studies_with_association": 128,
-    "unassigned_studies": 22,
+    "associations": 155,
+    "unique_studies_with_association": 130,
+    "unassigned_studies": 19,
     "association_counts_by_status": {
       "confirmed_use": 72,
-      "user_confirmed_use": 37,
+      "user_confirmed_use": 39,
       "mention_only": 2,
       "unresolved_candidate": 42
     },
     "unique_studies_by_status": {
       "confirmed_use": 63,
-      "user_confirmed_use": 34,
+      "user_confirmed_use": 36,
       "mention_only": 2,
       "unresolved_candidate": 33
     }
@@ -15073,18 +15201,6 @@
       "paper_id": "L22",
       "title": "Exploring biases in travel behavior patterns in big passively generated mobile data from 11 U.S. cities",
       "doi": "10.1016/j.jtrangeo.2024.104108",
-      "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
-    },
-    {
-      "paper_id": "L36",
-      "title": "Predicting the Next Location of Urban Individuals via a Representation-Enhanced Multi-View Learning Network",
-      "doi": "10.3390/ijgi14080302",
-      "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
-    },
-    {
-      "paper_id": "L46",
-      "title": "先验与数据双引导的城市居民活动强度预测模型",
-      "doi": "10.12082/dqxxkx.2025.250198",
       "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
     },
     {
@@ -15127,12 +15243,6 @@
       "paper_id": "L70",
       "title": "Assessing the Association Between Urban Amenities and Home Squatting Residents: Evidence from Location-Based Service Data in Weihai",
       "doi": "10.1007/s12061-026-09920-1",
-      "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
-    },
-    {
-      "paper_id": "L72",
-      "title": "基于软件开发工具包(SDK)数据的人群空间活动分析",
-      "doi": "10.13813/j.cn11-5141/u.2020.0403",
       "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
     },
     {

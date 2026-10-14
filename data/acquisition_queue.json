@@ -599,24 +599,6 @@
       "next_action": "当前关键段审读完成，按需补充附件细读"
     },
     {
-      "id": "L36",
-      "title": "Predicting the Next Location of Urban Individuals via a Representation-Enhanced Multi-View Learning Network",
-      "doi": "10.3390/ijgi14080302",
-      "journal": "ISPRS International Journal of Geo-Information",
-      "catalog_status": "reviewed",
-      "status": [
-        "current_review_complete"
-      ],
-      "needs_fulltext_review": false,
-      "pdf_acquisition": false,
-      "pdf_verified": true,
-      "source_urls": [
-        "https://www.mdpi.com/2220-9964/14/8/302",
-        "https://doi.org/10.3390/ijgi14080302"
-      ],
-      "next_action": "当前关键段审读完成，按需补充附件细读"
-    },
-    {
       "id": "L37",
       "title": "Anomalies of dwellers’ collective geotagged behaviors in response to rainstorms: a case study of eight cities in China using smartphone location data",
       "doi": "10.5194/nhess-19-2169-2019",
@@ -2716,6 +2698,6 @@
       "next_action": "核对书目信息和数据来源，审读方法段"
     }
   ],
-  "count": 150,
+  "count": 149,
   "definitions": "pdf_acquisition=true仅表示尚未核实本地PDF；不意味着文章不可访问。"
 }
