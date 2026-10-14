@@ -12,10 +12,10 @@
         "https://www.safegraph.com/"
       ],
       "counts": {
-        "confirmed_use": 49,
+        "confirmed_use": 50,
         "user_confirmed_use": 0,
         "mention_only": 2,
-        "unresolved_candidate": 13
+        "unresolved_candidate": 12
       },
       "paper_ids": {
         "confirmed_use": [
@@ -59,6 +59,7 @@
           "P7C63CA4F",
           "P837C3A60",
           "P8A06ED95",
+          "P8A8A7B36",
           "P913EE387",
           "P919700C8",
           "P99197F39",
@@ -80,7 +81,6 @@
           "P5B2E6933",
           "P681BDA6E",
           "P7E59C8D1",
-          "P8A8A7B36",
           "P9B76EC36",
           "PA597BCE5",
           "PB6FFBAD1",
@@ -92,7 +92,7 @@
       },
       "role_counts": {
         "mobility": {
-          "confirmed_use": 41,
+          "confirmed_use": 42,
           "user_confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -155,7 +155,7 @@
           "confirmed_use": 0,
           "user_confirmed_use": 0,
           "mention_only": 0,
-          "unresolved_candidate": 13
+          "unresolved_candidate": 12
         }
       },
       "role_paper_ids": {
@@ -194,6 +194,7 @@
             "P7A4F6797",
             "P7C63CA4F",
             "P8A06ED95",
+            "P8A8A7B36",
             "P913EE387",
             "P919700C8",
             "PA225066F",
@@ -284,7 +285,6 @@
             "P5B2E6933",
             "P681BDA6E",
             "P7E59C8D1",
-            "P8A8A7B36",
             "P9B76EC36",
             "PA597BCE5",
             "PB6FFBAD1",
@@ -295,7 +295,7 @@
           ]
         }
       },
-      "confirmed_mobility_use": 41,
+      "confirmed_mobility_use": 42,
       "confirmed_mixed_mobility_use": 0,
       "zero_count_meaning": "0仅表示当前文献目录中没有符合该证据门槛的记录；不是全领域无人使用，也不是搜索穷尽。",
       "association_ids": [
@@ -317,7 +317,6 @@
         "P5B2E6933",
         "PF912AF74",
         "P48A032E2",
-        "P8A8A7B36",
         "P681BDA6E",
         "L13",
         "P5DE047C3",
@@ -362,12 +361,13 @@
         "P76B9708A",
         "P214FEF72",
         "L08",
-        "P01D7334F"
+        "P01D7334F",
+        "P8A8A7B36"
       ],
       "entity_interpretation": "按现有品牌/实体标签分别计数",
       "evidence_role_counts": {
         "mobility": {
-          "confirmed_use": 41,
+          "confirmed_use": 42,
           "user_confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -430,7 +430,7 @@
           "confirmed_use": 0,
           "user_confirmed_use": 0,
           "mention_only": 0,
-          "unresolved_candidate": 13
+          "unresolved_candidate": 12
         }
       }
     },
@@ -956,10 +956,10 @@
         "https://cuebiq.com/privacy-policy/"
       ],
       "counts": {
-        "confirmed_use": 21,
+        "confirmed_use": 22,
         "user_confirmed_use": 0,
         "mention_only": 0,
-        "unresolved_candidate": 2
+        "unresolved_candidate": 1
       },
       "paper_ids": {
         "confirmed_use": [
@@ -981,6 +981,7 @@
           "P71C3218F",
           "P76B9708A",
           "P837C3A60",
+          "P9123C07B",
           "PA98D85BB",
           "PAADD397C",
           "PEEE72CD1"
@@ -988,13 +989,12 @@
         "user_confirmed_use": [],
         "mention_only": [],
         "unresolved_candidate": [
-          "P9123C07B",
           "PBC87DC0B"
         ]
       },
       "role_counts": {
         "mobility": {
-          "confirmed_use": 20,
+          "confirmed_use": 21,
           "user_confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -1057,7 +1057,7 @@
           "confirmed_use": 0,
           "user_confirmed_use": 0,
           "mention_only": 0,
-          "unresolved_candidate": 2
+          "unresolved_candidate": 1
         }
       },
       "role_paper_ids": {
@@ -1080,6 +1080,7 @@
             "P61DCC998",
             "P71C3218F",
             "P76B9708A",
+            "P9123C07B",
             "PA98D85BB",
             "PAADD397C",
             "PEEE72CD1"
@@ -1149,18 +1150,16 @@
           "user_confirmed_use": [],
           "mention_only": [],
           "unresolved_candidate": [
-            "P9123C07B",
             "PBC87DC0B"
           ]
         }
       },
-      "confirmed_mobility_use": 20,
+      "confirmed_mobility_use": 21,
       "confirmed_mixed_mobility_use": 0,
       "zero_count_meaning": "0仅表示当前文献目录中没有符合该证据门槛的记录；不是全领域无人使用，也不是搜索穷尽。",
       "association_ids": [
         "PEEE72CD1",
         "PBC87DC0B",
-        "P9123C07B",
         "PA98D85BB",
         "P1F72D228",
         "P1BFB6B6F",
@@ -1180,12 +1179,13 @@
         "L05",
         "L06",
         "P214FEF72",
-        "L10"
+        "L10",
+        "P9123C07B"
       ],
       "entity_interpretation": "展示组，不构成法律实体或独立采样面板合并认定",
       "evidence_role_counts": {
         "mobility": {
-          "confirmed_use": 20,
+          "confirmed_use": 21,
           "user_confirmed_use": 0,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -1248,7 +1248,7 @@
           "confirmed_use": 0,
           "user_confirmed_use": 0,
           "mention_only": 0,
-          "unresolved_candidate": 2
+          "unresolved_candidate": 1
         }
       }
     },
@@ -10308,36 +10308,6 @@
       "evidence_url_status": "paper_landing_link_only_not_attribution_proof"
     },
     {
-      "paper_id": "P9123C07B",
-      "paper_title": "The great equalizer? Mixed effects of social infrastructure on diverse encounters in cities",
-      "doi": "10.1016/j.compenvurbsys.2024.102173",
-      "provider_id": "cuebiq_spectus",
-      "provider_name": "Cuebiq / Spectus",
-      "status": "unresolved_candidate",
-      "classification": "unresolved_candidate",
-      "role": "unknown",
-      "roles": [
-        "unknown"
-      ],
-      "declared_brands": [
-        "Cuebiq / Spectus"
-      ],
-      "evidence_url": "https://www.sciencedirect.com/science/article/pii/S0198971524001029",
-      "evidence_section": "旧记录legacy_provider_claims；原文证据待核",
-      "basis": "仅来自继承供应商标签；尚未判定本文实际使用、仅讨论、仅引用或旧记录误归。",
-      "catalog_status": "pending",
-      "scope": "pending_source_screening",
-      "data_access_relationship": "unverified",
-      "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": false,
-      "zotero_attachment_verified": false,
-      "candidate_claims": [
-        "Spectus"
-      ],
-      "evidence_url_status": "paper_landing_link_only_not_attribution_proof"
-    },
-    {
       "paper_id": "PC2196B2E",
       "paper_title": "Impact of apparent temperatures on park visitation behavior: A comprehensive analysis using large-scale mobility data",
       "doi": "10.1016/j.scitotenv.2024.173388",
@@ -10563,36 +10533,6 @@
         "SafeGraph"
       ],
       "evidence_url": "https://ieeexplore.ieee.org/document/10020695",
-      "evidence_section": "旧记录legacy_provider_claims；原文证据待核",
-      "basis": "仅来自继承供应商标签；尚未判定本文实际使用、仅讨论、仅引用或旧记录误归。",
-      "catalog_status": "pending",
-      "scope": "pending_source_screening",
-      "data_access_relationship": "unverified",
-      "data_reuse_note": "",
-      "count_unit": "unique_study_not_independent_dataset",
-      "pdf_downloaded": false,
-      "zotero_attachment_verified": false,
-      "candidate_claims": [
-        "SafeGraph"
-      ],
-      "evidence_url_status": "paper_landing_link_only_not_attribution_proof"
-    },
-    {
-      "paper_id": "P8A8A7B36",
-      "paper_title": "Large-scale Urban Facility Location Selection with Knowledge-informed Reinforcement Learning",
-      "doi": "10.1145/3678717.3691254",
-      "provider_id": "safegraph",
-      "provider_name": "SafeGraph",
-      "status": "unresolved_candidate",
-      "classification": "unresolved_candidate",
-      "role": "unknown",
-      "roles": [
-        "unknown"
-      ],
-      "declared_brands": [
-        "SafeGraph"
-      ],
-      "evidence_url": "https://doi.org/10.1145/3678717.3691254",
       "evidence_section": "旧记录legacy_provider_claims；原文证据待核",
       "basis": "仅来自继承供应商标签；尚未判定本文实际使用、仅讨论、仅引用或旧记录误归。",
       "catalog_status": "pending",
@@ -13228,6 +13168,60 @@
       "pdf_downloaded": true,
       "zotero_attachment_verified": true,
       "primary_source_audit": "2026-10-14 正文供应商声明审计"
+    },
+    {
+      "paper_id": "P8A8A7B36",
+      "paper_title": "Large-scale Urban Facility Location Selection with Knowledge-informed Reinforcement Learning",
+      "doi": "10.1145/3678717.3691254",
+      "provider_id": "safegraph",
+      "provider_name": "SafeGraph",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "SafeGraph"
+      ],
+      "evidence_url": "https://doi.org/10.1145/3678717.3691254",
+      "evidence_section": "PDF第3页，4 EXPERIMENTS",
+      "basis": "We conduct extensive experiments based on the real world urban geospatial data and human mobility data from SafeGraph.",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "SafeGraph城市地理空间数据和人类移动数据，用于设施选址实验；正文未明确产品名称及逐点字段。",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "2026-10-14 已存正文补漏审计"
+    },
+    {
+      "paper_id": "P9123C07B",
+      "paper_title": "The great equalizer? Mixed effects of social infrastructure on diverse encounters in cities",
+      "doi": "10.1016/j.compenvurbsys.2024.102173",
+      "provider_id": "cuebiq_spectus",
+      "provider_name": "Cuebiq / Spectus",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "Spectus"
+      ],
+      "evidence_url": "https://doi.org/10.1016/j.compenvurbsys.2024.102173",
+      "evidence_section": "PDF第2页2.1.2；第3页位置数据与人口代理说明",
+      "basis": "Spectus Inc. provided anonymized, high-resolution location pings for over 120 K opted-in devices within our 13 contiguous Boston neighborhoods, over two months.",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "13个Boston社区、超过12万opt-in设备的匿名高精度位置点；2020年2月以前两个月。由夜间停留推断居住CBG，以ACS人口结构推断收入与种族代理属性，构建POI到访。",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "2026-10-14 已存正文补漏审计"
     },
     {
       "paper_id": "L21",
@@ -16633,16 +16627,16 @@
     "unique_studies_with_association": 137,
     "unassigned_studies": 15,
     "association_counts_by_status": {
-      "confirmed_use": 138,
+      "confirmed_use": 140,
       "user_confirmed_use": 18,
       "mention_only": 2,
-      "unresolved_candidate": 15
+      "unresolved_candidate": 13
     },
     "unique_studies_by_status": {
-      "confirmed_use": 107,
+      "confirmed_use": 109,
       "user_confirmed_use": 18,
       "mention_only": 2,
-      "unresolved_candidate": 14
+      "unresolved_candidate": 12
     }
   },
   "linked_ecosystems": [

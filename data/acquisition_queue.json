@@ -386,17 +386,16 @@
       "journal": "Journal of Transport Geography",
       "catalog_status": "reviewed",
       "status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "supplier_unnamed_after_fulltext_review"
       ],
-      "needs_fulltext_review": true,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
         "https://www.sciencedirect.com/science/article/pii/S096669232400317X",
         "https://doi.org/10.1016/j.jtrangeo.2024.104108"
       ],
-      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "正文已核且未具名供应商；保留来源候选，无需再次下载。"
     },
     {
       "id": "L23",
@@ -2287,19 +2286,18 @@
       "title": "The great equalizer? Mixed effects of social infrastructure on diverse encounters in cities",
       "doi": "10.1016/j.compenvurbsys.2024.102173",
       "journal": "Computers, Environment and Urban Systems",
-      "catalog_status": "pending",
+      "catalog_status": "reviewed",
       "status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "current_review_complete"
       ],
-      "needs_fulltext_review": true,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
         "https://www.sciencedirect.com/science/article/pii/S0198971524001029",
         "https://doi.org/10.1016/j.compenvurbsys.2024.102173"
       ],
-      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "正文已有Zotero附件；Spectus数据来源已核验。"
     },
     {
       "id": "PC2196B2E",
@@ -2655,18 +2653,17 @@
       "title": "Large-scale Urban Facility Location Selection with Knowledge-informed Reinforcement Learning",
       "doi": "10.1145/3678717.3691254",
       "journal": "Proceedings of the 32nd ACM International Conference on Advances in Geographic Information Systems",
-      "catalog_status": "pending",
+      "catalog_status": "reviewed",
       "status": [
-        "needs_fulltext_review",
-        "pdf_acquisition"
+        "current_review_complete"
       ],
-      "needs_fulltext_review": true,
-      "pdf_acquisition": true,
-      "pdf_verified": false,
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
       "source_urls": [
         "https://doi.org/10.1145/3678717.3691254"
       ],
-      "next_action": "核对书目信息和数据来源，审读方法段；经出版商/作者机构/学校授权渠道获取PDF并核对身份"
+      "next_action": "已核正文第3页，SafeGraph来源确认，无需下载正文。"
     },
     {
       "id": "P681BDA6E",

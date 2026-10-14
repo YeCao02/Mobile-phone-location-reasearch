@@ -1534,7 +1534,7 @@
       ]
     },
     "confirmed": {
-      "record_count": 114,
+      "record_count": 116,
       "record_ids": [
         "L01",
         "L02",
@@ -1635,7 +1635,9 @@
         "P7C63CA4F",
         "P837C3A60",
         "P8A06ED95",
+        "P8A8A7B36",
         "P8C0DBF46",
+        "P9123C07B",
         "P913EE387",
         "P919700C8",
         "P93995647",
@@ -1651,7 +1653,7 @@
         "PFC132E92",
         "PFDDDACD2"
       ],
-      "annual_paper_count": 113,
+      "annual_paper_count": 115,
       "annual_paper_ids": [
         "L01",
         "L02",
@@ -1753,6 +1755,7 @@
         "P2290471E",
         "P5416DFC8",
         "P5DE047C3",
+        "P9123C07B",
         "P913EE387",
         "P3B9C78DF",
         "P7A4F6797",
@@ -1763,11 +1766,12 @@
         "P7C63CA4F",
         "P6AAE6DFC",
         "PE6FBF191",
+        "P8A8A7B36",
         "PFC132E92",
         "P5C05191D",
         "P919700C8"
       ],
-      "journal_article_count": 108,
+      "journal_article_count": 109,
       "journal_article_ids": [
         "L01",
         "L02",
@@ -1867,6 +1871,7 @@
         "P2290471E",
         "P5416DFC8",
         "P5DE047C3",
+        "P9123C07B",
         "P913EE387",
         "P3B9C78DF",
         "P7A4F6797",
@@ -1882,9 +1887,9 @@
         "L26"
       ],
       "publication_types": {
-        "journal_article": 108,
+        "journal_article": 109,
         "conference_abstract": 1,
-        "conference_or_proceedings": 4,
+        "conference_or_proceedings": 5,
         "preprint": 1
       },
       "annual": [
@@ -1920,8 +1925,8 @@
         },
         {
           "year": 2024,
-          "count": 24,
-          "all_record_count": 24
+          "count": 26,
+          "all_record_count": 26
         },
         {
           "year": 2025,
@@ -1945,7 +1950,7 @@
         },
         {
           "domain": "城市规划与建筑",
-          "count": 23
+          "count": 24
         },
         {
           "domain": "环境生态与风险",
@@ -2169,7 +2174,7 @@
       ]
     },
     "analog": {
-      "record_count": 80,
+      "record_count": 82,
       "record_ids": [
         "L01",
         "L02",
@@ -2236,7 +2241,9 @@
         "P7C63CA4F",
         "P837C3A60",
         "P8A06ED95",
+        "P8A8A7B36",
         "P8C0DBF46",
+        "P9123C07B",
         "P913EE387",
         "P919700C8",
         "P93995647",
@@ -2252,7 +2259,7 @@
         "PFC132E92",
         "PFDDDACD2"
       ],
-      "annual_paper_count": 80,
+      "annual_paper_count": 82,
       "annual_paper_ids": [
         "L01",
         "L02",
@@ -2321,6 +2328,7 @@
         "P2290471E",
         "P5416DFC8",
         "P5DE047C3",
+        "P9123C07B",
         "P913EE387",
         "P3B9C78DF",
         "P7A4F6797",
@@ -2331,11 +2339,12 @@
         "P7C63CA4F",
         "P6AAE6DFC",
         "PE6FBF191",
+        "P8A8A7B36",
         "PFC132E92",
         "P5C05191D",
         "P919700C8"
       ],
-      "journal_article_count": 75,
+      "journal_article_count": 76,
       "journal_article_ids": [
         "L01",
         "L02",
@@ -2402,6 +2411,7 @@
         "P2290471E",
         "P5416DFC8",
         "P5DE047C3",
+        "P9123C07B",
         "P913EE387",
         "P3B9C78DF",
         "P7A4F6797",
@@ -2415,8 +2425,8 @@
       ],
       "excluded_from_annual": [],
       "publication_types": {
-        "journal_article": 75,
-        "conference_or_proceedings": 4,
+        "journal_article": 76,
+        "conference_or_proceedings": 5,
         "preprint": 1
       },
       "annual": [
@@ -2452,8 +2462,8 @@
         },
         {
           "year": 2024,
-          "count": 18,
-          "all_record_count": 18
+          "count": 20,
+          "all_record_count": 20
         },
         {
           "year": 2025,
@@ -2477,7 +2487,7 @@
         },
         {
           "domain": "城市规划与建筑",
-          "count": 12
+          "count": 13
         },
         {
           "domain": "环境生态与风险",
@@ -2502,7 +2512,7 @@
       ]
     },
     "pending": {
-      "record_count": 17,
+      "record_count": 15,
       "record_ids": [
         "L22",
         "P002C367F",
@@ -2512,8 +2522,6 @@
         "P5B2E6933",
         "P681BDA6E",
         "P7E59C8D1",
-        "P8A8A7B36",
-        "P9123C07B",
         "P9B76EC36",
         "PA597BCE5",
         "PB6FFBAD1",
@@ -2522,14 +2530,13 @@
         "PD5396003",
         "PF912AF74"
       ],
-      "annual_paper_count": 17,
+      "annual_paper_count": 15,
       "annual_paper_ids": [
         "L22",
         "PBC87DC0B",
         "P002C367F",
         "P377CD02F",
         "PB6FFBAD1",
-        "P9123C07B",
         "PC2196B2E",
         "PA597BCE5",
         "P9B76EC36",
@@ -2539,17 +2546,15 @@
         "PF912AF74",
         "P48A032E2",
         "P3EEC79FA",
-        "P8A8A7B36",
         "P681BDA6E"
       ],
-      "journal_article_count": 12,
+      "journal_article_count": 11,
       "journal_article_ids": [
         "L22",
         "PBC87DC0B",
         "P002C367F",
         "P377CD02F",
         "PB6FFBAD1",
-        "P9123C07B",
         "PC2196B2E",
         "PA597BCE5",
         "P9B76EC36",
@@ -2559,8 +2564,8 @@
       ],
       "excluded_from_annual": [],
       "publication_types": {
-        "journal_article": 12,
-        "conference_or_proceedings": 5
+        "journal_article": 11,
+        "conference_or_proceedings": 4
       },
       "annual": [
         {
@@ -2595,8 +2600,8 @@
         },
         {
           "year": 2024,
-          "count": 6,
-          "all_record_count": 6
+          "count": 4,
+          "all_record_count": 4
         },
         {
           "year": 2025,
@@ -2620,7 +2625,7 @@
         },
         {
           "domain": "城市规划与建筑",
-          "count": 4
+          "count": 3
         },
         {
           "domain": "环境生态与风险",

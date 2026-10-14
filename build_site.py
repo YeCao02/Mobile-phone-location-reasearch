@@ -112,7 +112,11 @@ def main():
     template = (ROOT / 'assets' / 'template.html').read_text(encoding='utf-8')
     payload = json.dumps(data, ensure_ascii=False).replace('<', '\\u003c').replace('>', '\\u003e').replace('&', '\\u0026')
     assert template.count('__EVIDENCE_DATA__') == 1
-    html = template.replace('__EVIDENCE_DATA__', payload)
+    shown_ids = set(data['browse']['analog_ids'] + data['browse']['pioneer_ids'] + data['browse']['pending_ids'])
+    abstracts = sum(r.get('publication_type') == 'conference_abstract' for r in data['papers'] if r['id'] in shown_ids)
+    library_scope = (f"<strong>当前展示 {len(shown_ids)} 条研究文献</strong>，含 {abstracts} 条会议摘要；年度图统计其余 {len(shown_ids)-abstracts} 篇论文与预印本。"
+                     f"历史台账保留 {len(data['papers'])+len(data['excluded_papers'])} 条：{len(data['papers'])} 条未排除记录中，{len(data['browse']['omitted_ids'])} 条边界来源或综述背景省略展示；另有 {len(data['excluded_papers'])} 条已明确排除。采购、基金及配套数据集不计入论文数。")
+    html = template.replace('__EVIDENCE_DATA__', payload).replace('__LIBRARY_SCOPE__', library_scope)
     (ROOT / 'index.html').write_text(html, encoding='utf-8')
     assert all(len(data[k]) for k in ('providers', 'papers', 'china', 'coverage'))
     assert len({r['id'] for r in data['papers']}) == len(data['papers'])

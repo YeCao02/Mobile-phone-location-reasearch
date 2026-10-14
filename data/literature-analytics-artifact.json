@@ -411,126 +411,126 @@
           "scope": "已确认关联研究",
           "year": "2018年",
           "papers": 1,
-          "denominator": 113,
+          "denominator": 115,
           "note": ""
         },
         {
           "scope": "已确认关联研究",
           "year": "2019年",
           "papers": 0,
-          "denominator": 113,
+          "denominator": 115,
           "note": ""
         },
         {
           "scope": "已确认关联研究",
           "year": "2020年",
           "papers": 7,
-          "denominator": 113,
+          "denominator": 115,
           "note": ""
         },
         {
           "scope": "已确认关联研究",
           "year": "2021年",
           "papers": 16,
-          "denominator": 113,
+          "denominator": 115,
           "note": ""
         },
         {
           "scope": "已确认关联研究",
           "year": "2022年",
           "papers": 12,
-          "denominator": 113,
+          "denominator": 115,
           "note": ""
         },
         {
           "scope": "已确认关联研究",
           "year": "2023年",
           "papers": 12,
-          "denominator": 113,
+          "denominator": 115,
           "note": ""
         },
         {
           "scope": "已确认关联研究",
           "year": "2024年",
-          "papers": 24,
-          "denominator": 113,
+          "papers": 26,
+          "denominator": 115,
           "note": ""
         },
         {
           "scope": "已确认关联研究",
           "year": "2025年",
           "papers": 20,
-          "denominator": 113,
+          "denominator": 115,
           "note": ""
         },
         {
           "scope": "已确认关联研究",
           "year": "2026年",
           "papers": 21,
-          "denominator": 113,
+          "denominator": 115,
           "note": "截至2026年10月14日收录"
         },
         {
           "scope": "待核研究",
           "year": "2018年",
           "papers": 0,
-          "denominator": 17,
+          "denominator": 15,
           "note": ""
         },
         {
           "scope": "待核研究",
           "year": "2019年",
           "papers": 0,
-          "denominator": 17,
+          "denominator": 15,
           "note": ""
         },
         {
           "scope": "待核研究",
           "year": "2020年",
           "papers": 1,
-          "denominator": 17,
+          "denominator": 15,
           "note": ""
         },
         {
           "scope": "待核研究",
           "year": "2021年",
           "papers": 1,
-          "denominator": 17,
+          "denominator": 15,
           "note": ""
         },
         {
           "scope": "待核研究",
           "year": "2022年",
           "papers": 4,
-          "denominator": 17,
+          "denominator": 15,
           "note": ""
         },
         {
           "scope": "待核研究",
           "year": "2023年",
           "papers": 0,
-          "denominator": 17,
+          "denominator": 15,
           "note": ""
         },
         {
           "scope": "待核研究",
           "year": "2024年",
-          "papers": 6,
-          "denominator": 17,
+          "papers": 4,
+          "denominator": 15,
           "note": ""
         },
         {
           "scope": "待核研究",
           "year": "2025年",
           "papers": 4,
-          "denominator": 17,
+          "denominator": 15,
           "note": ""
         },
         {
           "scope": "待核研究",
           "year": "2026年",
           "papers": 1,
-          "denominator": 17,
+          "denominator": 15,
           "note": "截至2026年10月14日收录"
         },
         {
@@ -600,63 +600,63 @@
           "scope": "类似供应商研究",
           "year": "2018年",
           "papers": 1,
-          "denominator": 80,
+          "denominator": 82,
           "note": ""
         },
         {
           "scope": "类似供应商研究",
           "year": "2019年",
           "papers": 0,
-          "denominator": 80,
+          "denominator": 82,
           "note": ""
         },
         {
           "scope": "类似供应商研究",
           "year": "2020年",
           "papers": 7,
-          "denominator": 80,
+          "denominator": 82,
           "note": ""
         },
         {
           "scope": "类似供应商研究",
           "year": "2021年",
           "papers": 16,
-          "denominator": 80,
+          "denominator": 82,
           "note": ""
         },
         {
           "scope": "类似供应商研究",
           "year": "2022年",
           "papers": 12,
-          "denominator": 80,
+          "denominator": 82,
           "note": ""
         },
         {
           "scope": "类似供应商研究",
           "year": "2023年",
           "papers": 9,
-          "denominator": 80,
+          "denominator": 82,
           "note": ""
         },
         {
           "scope": "类似供应商研究",
           "year": "2024年",
-          "papers": 18,
-          "denominator": 80,
+          "papers": 20,
+          "denominator": 82,
           "note": ""
         },
         {
           "scope": "类似供应商研究",
           "year": "2025年",
           "papers": 12,
-          "denominator": 80,
+          "denominator": 82,
           "note": ""
         },
         {
           "scope": "类似供应商研究",
           "year": "2026年",
           "papers": 5,
-          "denominator": 80,
+          "denominator": 82,
           "note": "截至2026年10月14日收录"
         }
       ],
@@ -721,113 +721,113 @@
           "scope": "已确认关联研究",
           "domain": "综合科学",
           "papers": 28,
-          "share": 0.25925925925925924,
-          "denominator": 108
+          "share": 0.25688073394495414,
+          "denominator": 109
         },
         {
           "scope": "已确认关联研究",
           "domain": "地理与地理信息",
           "papers": 20,
-          "share": 0.18518518518518517,
-          "denominator": 108
+          "share": 0.1834862385321101,
+          "denominator": 109
         },
         {
           "scope": "已确认关联研究",
           "domain": "城市规划与建筑",
-          "papers": 23,
-          "share": 0.21296296296296297,
-          "denominator": 108
+          "papers": 24,
+          "share": 0.22018348623853212,
+          "denominator": 109
         },
         {
           "scope": "已确认关联研究",
           "domain": "环境生态与风险",
           "papers": 6,
-          "share": 0.05555555555555555,
-          "denominator": 108
+          "share": 0.05504587155963303,
+          "denominator": 109
         },
         {
           "scope": "已确认关联研究",
           "domain": "交通与出行",
           "papers": 8,
-          "share": 0.07407407407407407,
-          "denominator": 108
+          "share": 0.07339449541284404,
+          "denominator": 109
         },
         {
           "scope": "已确认关联研究",
           "domain": "健康与生命科学",
           "papers": 7,
-          "share": 0.06481481481481481,
-          "denominator": 108
+          "share": 0.06422018348623854,
+          "denominator": 109
         },
         {
           "scope": "已确认关联研究",
           "domain": "计算与数理科学",
           "papers": 7,
-          "share": 0.06481481481481481,
-          "denominator": 108
+          "share": 0.06422018348623854,
+          "denominator": 109
         },
         {
           "scope": "已确认关联研究",
           "domain": "社会经济与管理",
           "papers": 9,
-          "share": 0.08333333333333333,
-          "denominator": 108
+          "share": 0.08256880733944955,
+          "denominator": 109
         },
         {
           "scope": "待核研究",
           "domain": "综合科学",
           "papers": 2,
-          "share": 0.16666666666666666,
-          "denominator": 12
+          "share": 0.18181818181818182,
+          "denominator": 11
         },
         {
           "scope": "待核研究",
           "domain": "地理与地理信息",
           "papers": 1,
-          "share": 0.08333333333333333,
-          "denominator": 12
+          "share": 0.09090909090909091,
+          "denominator": 11
         },
         {
           "scope": "待核研究",
           "domain": "城市规划与建筑",
-          "papers": 4,
-          "share": 0.3333333333333333,
-          "denominator": 12
+          "papers": 3,
+          "share": 0.2727272727272727,
+          "denominator": 11
         },
         {
           "scope": "待核研究",
           "domain": "环境生态与风险",
           "papers": 2,
-          "share": 0.16666666666666666,
-          "denominator": 12
+          "share": 0.18181818181818182,
+          "denominator": 11
         },
         {
           "scope": "待核研究",
           "domain": "交通与出行",
           "papers": 3,
-          "share": 0.25,
-          "denominator": 12
+          "share": 0.2727272727272727,
+          "denominator": 11
         },
         {
           "scope": "待核研究",
           "domain": "健康与生命科学",
           "papers": 0,
           "share": 0.0,
-          "denominator": 12
+          "denominator": 11
         },
         {
           "scope": "待核研究",
           "domain": "计算与数理科学",
           "papers": 0,
           "share": 0.0,
-          "denominator": 12
+          "denominator": 11
         },
         {
           "scope": "待核研究",
           "domain": "社会经济与管理",
           "papers": 0,
           "share": 0.0,
-          "denominator": 12
+          "denominator": 11
         },
         {
           "scope": "泛先锋关联研究",
@@ -889,57 +889,57 @@
           "scope": "类似供应商研究",
           "domain": "综合科学",
           "papers": 25,
-          "share": 0.3333333333333333,
-          "denominator": 75
+          "share": 0.32894736842105265,
+          "denominator": 76
         },
         {
           "scope": "类似供应商研究",
           "domain": "地理与地理信息",
           "papers": 9,
-          "share": 0.12,
-          "denominator": 75
+          "share": 0.11842105263157894,
+          "denominator": 76
         },
         {
           "scope": "类似供应商研究",
           "domain": "城市规划与建筑",
-          "papers": 12,
-          "share": 0.16,
-          "denominator": 75
+          "papers": 13,
+          "share": 0.17105263157894737,
+          "denominator": 76
         },
         {
           "scope": "类似供应商研究",
           "domain": "环境生态与风险",
           "papers": 4,
-          "share": 0.05333333333333334,
-          "denominator": 75
+          "share": 0.05263157894736842,
+          "denominator": 76
         },
         {
           "scope": "类似供应商研究",
           "domain": "交通与出行",
           "papers": 4,
-          "share": 0.05333333333333334,
-          "denominator": 75
+          "share": 0.05263157894736842,
+          "denominator": 76
         },
         {
           "scope": "类似供应商研究",
           "domain": "健康与生命科学",
           "papers": 6,
-          "share": 0.08,
-          "denominator": 75
+          "share": 0.07894736842105263,
+          "denominator": 76
         },
         {
           "scope": "类似供应商研究",
           "domain": "计算与数理科学",
           "papers": 7,
-          "share": 0.09333333333333334,
-          "denominator": 75
+          "share": 0.09210526315789473,
+          "denominator": 76
         },
         {
           "scope": "类似供应商研究",
           "domain": "社会经济与管理",
           "papers": 8,
-          "share": 0.10666666666666667,
-          "denominator": 75
+          "share": 0.10526315789473684,
+          "denominator": 76
         }
       ],
       "denominators": [
@@ -951,9 +951,9 @@
         },
         {
           "scope": "已确认关联研究",
-          "records": 114,
-          "annual_papers": 113,
-          "journal_papers": 108
+          "records": 116,
+          "annual_papers": 115,
+          "journal_papers": 109
         },
         {
           "scope": "泛先锋关联研究",
@@ -963,15 +963,15 @@
         },
         {
           "scope": "类似供应商研究",
-          "records": 80,
-          "annual_papers": 80,
-          "journal_papers": 75
+          "records": 82,
+          "annual_papers": 82,
+          "journal_papers": 76
         },
         {
           "scope": "待核研究",
-          "records": 17,
-          "annual_papers": 17,
-          "journal_papers": 12
+          "records": 15,
+          "annual_papers": 15,
+          "journal_papers": 11
         }
       ],
       "selected_journals": [

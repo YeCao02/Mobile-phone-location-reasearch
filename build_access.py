@@ -36,13 +36,13 @@ def build():
             elif doi.startswith('10.1111/'): url='https://onlinelibrary.wiley.com/doi/full/'+doi
         parsed = urlparse(url)
         vpn = 'https://'+PROXIES[parsed.hostname]+parsed.path+('?' + parsed.query if parsed.query else '') if parsed.hostname in PROXIES else ''
-        rows.append({'id':rid,'title':title,'journal':extra.get('journal') or r.get('journal',''),'year':r.get('year',''),'doi':doi,'url':url,'vpn_url':vpn,'pdf_downloaded':bool(r.get('pdf_downloaded')),'search_only':search_only,'notes':extra.get('notes','')})
+        rows.append({'id':rid,'title':title,'journal':extra.get('journal') or r.get('journal',''),'year':r.get('year',''),'doi':doi,'url':url,'vpn_url':vpn,'pdf_downloaded':bool(r.get('pdf_downloaded') or r.get('zotero_pdf_present')), 'review_state':('reviewed_unnamed' if r.get('fulltext_read') and not r.get('source_confirmed') else 'pdf_unreviewed' if r.get('pdf_downloaded') or r.get('zotero_pdf_present') else 'missing_fulltext'), 'review_label':('正文已核 · 供应商未具名' if r.get('fulltext_read') and not r.get('source_confirmed') else '已有正文 · 声明待核' if r.get('pdf_downloaded') or r.get('zotero_pdf_present') else '缺正文 · 尚未核验'),'search_only':search_only,'notes':('正文已核验，未披露具体供应商；无需再次下载。' if r.get('fulltext_read') and not r.get('source_confirmed') else extra.get('notes',''))})
     rows.sort(key=lambda r:(r['pdf_downloaded'], not r['id'].startswith('L'), r['id']))
     (ROOT/'data/pending-access.json').write_text(json.dumps({'records':rows},ensure_ascii=False,indent=2),encoding='utf-8')
     with (ROOT/'data/pending-access.csv').open('w',encoding='utf-8-sig',newline='') as f:
         writer=csv.DictWriter(f,fieldnames=list(rows[0]));writer.writeheader();writer.writerows(rows)
     bookmarks='<!DOCTYPE NETSCAPE-Bookmark-file-1>\n<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">\n<TITLE>待核论文全文入口</TITLE><H1>待核论文全文入口</H1><DL><p>\n'
-    for label,has_pdf in [('仍需下载 PDF',False),('已有 PDF · 来源仍待核',True)]:
+    for label,has_pdf in [('缺正文 · 尚未核验',False),('已有正文 · 核验情况见知识库',True)]:
         bookmarks+='<DT><H3>'+label+'</H3><DL><p>\n'
         for r in rows:
             if r['pdf_downloaded']==has_pdf: bookmarks+='<DT><A HREF="'+html.escape(r['url'],quote=True)+'">'+html.escape(r['id']+' · '+r['title'])+'</A>\n'
