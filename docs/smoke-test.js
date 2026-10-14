@@ -50,3 +50,14 @@ for(const d of artifact.snapshot.datasets.denominators){
 }
 assert(artifact.snapshot.datasets.annual.every(r=>/^20\d{2}年$/.test(r.year)),'Years must remain readable in fallback tables');
 console.log(`PASS browsing: 03 ${data.browse.analog_ids.length}; 04 ${data.browse.pioneer_ids.length}; 05 ${data.browse.pending_ids.length}; search, filters, procurement, unique anchors.`);
+
+// Collaboration cards can appear under two teams; analytical totals remain unique.
+for(const id of ['L29','L89']) {
+ assert.equal([...node('#china-list').innerHTML.matchAll(new RegExp('data-paper-id="'+id+'"','g'))].length,2);
+ assert.equal(data.browse.pioneer_ids.filter(x=>x===id).length,1);
+}
+for(const id of ['L90','L91','L92']) {assert(data.browse.pending_ids.includes(id));assert(!data.browse.pioneer_ids.includes(id));}
+const total=artifact.snapshot.datasets.denominators.find(r=>r.scope==='全部收录（含待核）');
+assert.equal(total.records,new Set([...data.browse.analog_ids,...data.browse.pioneer_ids,...data.browse.pending_ids]).size);
+assert(node('#china-list').innerHTML.includes('中科院地理所'));
+console.log('PASS collaboration: two team displays, unique paper counts, three fulltext candidates.');

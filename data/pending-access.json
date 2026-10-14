@@ -313,6 +313,42 @@
       "notes": ""
     },
     {
+      "id": "L90",
+      "title": "GAGNN: a geography-aware graph neural network for citywide commuting flows prediction",
+      "journal": "International Journal of Applied Earth Observation and Geoinformation",
+      "year": 2026,
+      "doi": "10.1016/j.jag.2026.105175",
+      "url": "https://giserwang.github.io/papers/JAG-2026-02-14.pdf",
+      "vpn_url": "",
+      "pdf_downloaded": true,
+      "search_only": false,
+      "notes": ""
+    },
+    {
+      "id": "L91",
+      "title": "Predicting human-activity intensity in urban areas with a prior-enhanced probabilistic-deterministic model",
+      "journal": "International Journal of Geographical Information Science",
+      "year": 2026,
+      "doi": "10.1080/13658816.2025.2562250",
+      "url": "https://giserwang.github.io/papers/IJGIS-2025-09.pdf",
+      "vpn_url": "",
+      "pdf_downloaded": true,
+      "search_only": false,
+      "notes": ""
+    },
+    {
+      "id": "L92",
+      "title": "Predicting citywide human mobility with a graph-prior-enhanced euclidean convolutional network",
+      "journal": "Sustainable Cities and Society",
+      "year": 2026,
+      "doi": "10.1016/j.scs.2026.107720",
+      "url": "https://giserwang.github.io/papers/SCSI-2026-07.pdf",
+      "vpn_url": "",
+      "pdf_downloaded": true,
+      "search_only": false,
+      "notes": ""
+    },
+    {
       "id": "P0663A19C",
       "title": "Use of smartphone mobility data to analyze city park visits during the COVID-19 pandemic",
       "journal": "Landscape and Urban Planning",

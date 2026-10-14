@@ -99,7 +99,14 @@
     },
     "L29": {
       "research_scope": "pioneer_named",
-      "scope_reason": "原文列Moxing/Jike等名称，按用户确认关联展示；各篇采集技术证据单独保存。"
+      "scope_reason": "原文列Moxing/Jike等名称，按用户确认关联展示；各篇采集技术证据单独保存。",
+      "zotero_catalog_present": true,
+      "zotero_pdf_present": true,
+      "zotero_reconciled_at": "2026-10-13",
+      "institution": "中科院地理所",
+      "cooperation_label": "合作研究 · 中科院地理所 × 福州大学吴升团队；双重归类，统计计1篇",
+      "team": "中科院地理所杜云艳团队；福州大学吴升团队合作（署名赵志远）",
+      "notes": "与福州大学吴升团队双重归类，计数一次；吴升团队关系依据用户确认，原文福州大学合作作者为赵志远。 原文明示SDK、网络与基站信号，不等于纯GPS/WiFi；SafeGraph仅为方法参考，Gaode为POI供方。抽样率13%与局限段约15%存在表述差异。"
     },
     "L27": {
       "research_scope": "pioneer_candidate",

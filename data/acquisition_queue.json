@@ -1390,6 +1390,78 @@
       "next_action": "当前关键段审读完成，按需补充附件细读"
     },
     {
+      "id": "L89",
+      "title": "基于人群活动恢复的开放空间灾害韧性度量研究——以杜苏芮台风为例",
+      "doi": "10.3969/j.issn.1000-811X.2026.01.017",
+      "journal": "灾害学",
+      "catalog_status": "reviewed",
+      "status": [
+        "current_review_complete"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://www.ncpssd.cn/Literature/articleinfo?id=ZHX2026001018&type=journalArticle",
+        "https://doi.org/10.3969/j.issn.1000-811X.2026.01.017"
+      ],
+      "next_action": "当前关键段审读完成，按需补充附件细读"
+    },
+    {
+      "id": "L90",
+      "title": "GAGNN: a geography-aware graph neural network for citywide commuting flows prediction",
+      "doi": "10.1016/j.jag.2026.105175",
+      "journal": "International Journal of Applied Earth Observation and Geoinformation",
+      "catalog_status": "reviewed",
+      "status": [
+        "current_review_complete"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://giserwang.github.io/papers/JAG-2026-02-14.pdf",
+        "https://doi.org/10.1016/j.jag.2026.105175"
+      ],
+      "next_action": "当前关键段审读完成，按需补充附件细读"
+    },
+    {
+      "id": "L91",
+      "title": "Predicting human-activity intensity in urban areas with a prior-enhanced probabilistic-deterministic model",
+      "doi": "10.1080/13658816.2025.2562250",
+      "journal": "International Journal of Geographical Information Science",
+      "catalog_status": "reviewed",
+      "status": [
+        "current_review_complete"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://giserwang.github.io/papers/IJGIS-2025-09.pdf",
+        "https://doi.org/10.1080/13658816.2025.2562250"
+      ],
+      "next_action": "当前关键段审读完成，按需补充附件细读"
+    },
+    {
+      "id": "L92",
+      "title": "Predicting citywide human mobility with a graph-prior-enhanced euclidean convolutional network",
+      "doi": "10.1016/j.scs.2026.107720",
+      "journal": "Sustainable Cities and Society",
+      "catalog_status": "reviewed",
+      "status": [
+        "current_review_complete"
+      ],
+      "needs_fulltext_review": false,
+      "pdf_acquisition": false,
+      "pdf_verified": true,
+      "source_urls": [
+        "https://giserwang.github.io/papers/SCSI-2026-07.pdf",
+        "https://doi.org/10.1016/j.scs.2026.107720"
+      ],
+      "next_action": "当前关键段审读完成，按需补充附件细读"
+    },
+    {
       "id": "P240AD96D",
       "title": "Insights into population behavior during the COVID-19 pandemic from cell phone mobility data and manifold learning",
       "doi": "10.1038/s43588-021-00125-9",
@@ -2698,6 +2770,6 @@
       "next_action": "核对书目信息和数据来源，审读方法段"
     }
   ],
-  "count": 149,
+  "count": 153,
   "definitions": "pdf_acquisition=true仅表示尚未核实本地PDF；不意味着文章不可访问。"
 }

@@ -8365,7 +8365,7 @@
         "https://place.isjike.com/agreement/service.html"
       ],
       "counts": {
-        "confirmed_use": 16,
+        "confirmed_use": 17,
         "user_confirmed_use": 14,
         "mention_only": 0,
         "unresolved_candidate": 0
@@ -8387,7 +8387,8 @@
           "L80",
           "L83",
           "L87",
-          "L88"
+          "L88",
+          "L89"
         ],
         "user_confirmed_use": [
           "L27",
@@ -8410,7 +8411,7 @@
       },
       "role_counts": {
         "mobility": {
-          "confirmed_use": 13,
+          "confirmed_use": 14,
           "user_confirmed_use": 14,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -8491,7 +8492,8 @@
             "L77",
             "L83",
             "L87",
-            "L88"
+            "L88",
+            "L89"
           ],
           "user_confirmed_use": [
             "L27",
@@ -8578,7 +8580,7 @@
           "unresolved_candidate": []
         }
       },
-      "confirmed_mobility_use": 13,
+      "confirmed_mobility_use": 14,
       "confirmed_mixed_mobility_use": 2,
       "zero_count_meaning": "0仅表示当前文献目录中没有符合该证据门槛的记录；不是全领域无人使用，也不是搜索穷尽。",
       "association_ids": [
@@ -8611,12 +8613,13 @@
         "L85",
         "L86",
         "L87",
-        "L88"
+        "L88",
+        "L89"
       ],
       "entity_interpretation": "展示组，不构成法律实体或独立采样面板合并认定",
       "evidence_role_counts": {
         "mobility": {
-          "confirmed_use": 13,
+          "confirmed_use": 14,
           "user_confirmed_use": 14,
           "mention_only": 0,
           "unresolved_candidate": 0
@@ -14277,6 +14280,78 @@
       "evidence_urls": [
         "https://www.sciencedirect.com/science/article/pii/S1470160X24008604"
       ]
+    },
+    {
+      "paper_id": "L89",
+      "paper_title": "基于人群活动恢复的开放空间灾害韧性度量研究——以杜苏芮台风为例",
+      "doi": "10.3969/j.issn.1000-811X.2026.01.017",
+      "provider_id": "pioneer_moxing_jike",
+      "provider_name": "先锋数聚 / 摸星 / Jike（梦享）",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "Jike",
+        "isjike.com"
+      ],
+      "evidence_url": "https://www.ncpssd.cn/Literature/articleinfo?id=ZHX2026001018&type=journalArticle",
+      "evidence_section": "PDF第1页作者机构与基金；第2页§1.2数据来源",
+      "basis": "按用户人工核验合并供应商展示组，同篇去重；不作工商关系认定。 [Jike（梦享） / 及刻；confirmed_use；mobility] 原文§1.2明确Jike平台与SDK采集，声明包含智能手机网络定位及蜂窝塔信号。 来源：https://www.ncpssd.cn/Literature/articleinfo?id=ZHX2026001018&type=journalArticle",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "source_dataset",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "用户Zotero简记与9页PDF索引全文交叉核验；第2页数据来源。",
+      "evidence_basis": "user_confirmed_supplier_group",
+      "grouping_basis": "user_confirmed_supplier_group",
+      "member_provider_ids": [
+        "jike"
+      ],
+      "role_statuses": {
+        "mobility": "confirmed_use"
+      },
+      "evidence_roles": [
+        "mobility"
+      ],
+      "evidence": [
+        {
+          "paper_id": "L89",
+          "paper_title": "基于人群活动恢复的开放空间灾害韧性度量研究——以杜苏芮台风为例",
+          "doi": "10.3969/j.issn.1000-811X.2026.01.017",
+          "provider_id": "jike",
+          "provider_name": "Jike（梦享） / 及刻",
+          "status": "confirmed_use",
+          "classification": "confirmed_use",
+          "role": "mobility",
+          "roles": [
+            "mobility"
+          ],
+          "declared_brands": [
+            "Jike",
+            "isjike.com"
+          ],
+          "evidence_url": "https://www.ncpssd.cn/Literature/articleinfo?id=ZHX2026001018&type=journalArticle",
+          "evidence_section": "PDF第1页作者机构与基金；第2页§1.2数据来源",
+          "basis": "原文§1.2明确Jike平台与SDK采集，声明包含智能手机网络定位及蜂窝塔信号。",
+          "catalog_status": "reviewed",
+          "scope": "phone_location_or_derivative",
+          "data_access_relationship": "source_dataset",
+          "data_reuse_note": "",
+          "count_unit": "unique_study_not_independent_dataset",
+          "pdf_downloaded": true,
+          "zotero_attachment_verified": true,
+          "primary_source_audit": "用户Zotero简记与9页PDF索引全文交叉核验；第2页数据来源。"
+        }
+      ],
+      "evidence_urls": [
+        "https://www.ncpssd.cn/Literature/articleinfo?id=ZHX2026001018&type=journalArticle"
+      ]
     }
   ],
   "member_associations": [
@@ -14753,6 +14828,34 @@
       "primary_source_audit": "出版社全文具名、SDK采集机制及及刻官方法人对应"
     },
     {
+      "paper_id": "L89",
+      "paper_title": "基于人群活动恢复的开放空间灾害韧性度量研究——以杜苏芮台风为例",
+      "doi": "10.3969/j.issn.1000-811X.2026.01.017",
+      "provider_id": "jike",
+      "provider_name": "Jike（梦享） / 及刻",
+      "status": "confirmed_use",
+      "classification": "confirmed_use",
+      "role": "mobility",
+      "roles": [
+        "mobility"
+      ],
+      "declared_brands": [
+        "Jike",
+        "isjike.com"
+      ],
+      "evidence_url": "https://www.ncpssd.cn/Literature/articleinfo?id=ZHX2026001018&type=journalArticle",
+      "evidence_section": "PDF第1页作者机构与基金；第2页§1.2数据来源",
+      "basis": "原文§1.2明确Jike平台与SDK采集，声明包含智能手机网络定位及蜂窝塔信号。",
+      "catalog_status": "reviewed",
+      "scope": "phone_location_or_derivative",
+      "data_access_relationship": "source_dataset",
+      "data_reuse_note": "",
+      "count_unit": "unique_study_not_independent_dataset",
+      "pdf_downloaded": true,
+      "zotero_attachment_verified": true,
+      "primary_source_audit": "用户Zotero简记与9页PDF索引全文交叉核验；第2页数据来源。"
+    },
+    {
       "paper_id": "L27",
       "paper_title": "Capturing socio-spatial inequality in planetary urbanisation: A multi-dimensional methodological framework",
       "doi": "10.1016/j.cities.2022.104076",
@@ -15162,19 +15265,19 @@
     "name_collision_rule": "同音或近似拼写不构成供方关联，以上名称均未映射为北京摸星。"
   },
   "counts": {
-    "catalog_studies": 149,
+    "catalog_studies": 153,
     "provider_nodes": 35,
-    "associations": 155,
-    "unique_studies_with_association": 130,
-    "unassigned_studies": 19,
+    "associations": 156,
+    "unique_studies_with_association": 131,
+    "unassigned_studies": 22,
     "association_counts_by_status": {
-      "confirmed_use": 72,
+      "confirmed_use": 73,
       "user_confirmed_use": 39,
       "mention_only": 2,
       "unresolved_candidate": 42
     },
     "unique_studies_by_status": {
-      "confirmed_use": 63,
+      "confirmed_use": 64,
       "user_confirmed_use": 36,
       "mention_only": 2,
       "unresolved_candidate": 33
@@ -15243,6 +15346,24 @@
       "paper_id": "L70",
       "title": "Assessing the Association Between Urban Amenities and Home Squatting Residents: Evidence from Location-Based Service Data in Weihai",
       "doi": "10.1007/s12061-026-09920-1",
+      "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
+    },
+    {
+      "paper_id": "L90",
+      "title": "GAGNN: a geography-aware graph neural network for citywide commuting flows prediction",
+      "doi": "10.1016/j.jag.2026.105175",
+      "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
+    },
+    {
+      "paper_id": "L91",
+      "title": "Predicting human-activity intensity in urban areas with a prior-enhanced probabilistic-deterministic model",
+      "doi": "10.1080/13658816.2025.2562250",
+      "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
+    },
+    {
+      "paper_id": "L92",
+      "title": "Predicting citywide human mobility with a graph-prior-enhanced euclidean convolutional network",
+      "doi": "10.1016/j.scs.2026.107720",
       "reason": "无可辨认的已登记供应商证据；不按标题或行业常识猜测供方"
     },
     {

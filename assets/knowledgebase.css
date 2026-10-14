@@ -65,3 +65,5 @@ details.stream-card>.profile-items{padding:0 17px 17px;margin:0}
 #next .paper-card>summary{position:relative}
 #next .paper-card:not([open])>summary:after{content:'＋';position:absolute;right:16px;top:14px;color:var(--section-accent)}
 #next .paper-card[open]>.card-body{display:block}
+
+.cooperation-note{font-size:12px;line-height:1.6;color:#52677a;margin:8px 0;font-weight:600}

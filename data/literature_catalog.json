@@ -1806,7 +1806,7 @@
         14
       ],
       "zotero_attachment_verified": true,
-      "notes": "SDK不等于纯GPS/WiFi。本研究明示网络与基站信号，应保留在混合来源边界库。福州大学与清华仅以论文作者单位确认参与，不能等同于独立采购。SafeGraph在p5仅为方法参考；Gaode在p4为POI供方。Fig2抽样率13%与局限段约15%存在表述差异；城市街道层面人口相关性不等于消除了脆弱人群偏差。",
+      "notes": "与福州大学吴升团队双重归类，计数一次；吴升团队关系依据用户确认，原文福州大学合作作者为赵志远。 原文明示SDK、网络与基站信号，不等于纯GPS/WiFi；SafeGraph仅为方法参考，Gaode为POI供方。抽样率13%与局限段约15%存在表述差异。",
       "origins": [
         "2026-10-10审读台账"
       ],
@@ -1821,6 +1821,9 @@
       "zotero_catalog_present": true,
       "zotero_pdf_present": true,
       "zotero_reconciled_at": "2026-10-13",
+      "institution": "中科院地理所",
+      "cooperation_label": "合作研究 · 中科院地理所 × 福州大学吴升团队；双重归类，统计计1篇",
+      "team": "中科院地理所杜云艳团队；福州大学吴升团队合作（署名赵志远）",
       "download_queue_status": [
         "current_review_complete"
       ]
@@ -7164,6 +7167,259 @@
       ]
     },
     {
+      "publication_type": "journal_article",
+      "catalog_status": "reviewed",
+      "curated_evidence": true,
+      "fulltext_read": true,
+      "pdf_downloaded": true,
+      "review_date": "2026-10-14",
+      "metadata_source": "出版方原文与PDF核验；DOI状态单独标示",
+      "fulltext_scope": "作者机构、数据来源与方法关键段已核验",
+      "id": "L89",
+      "title": "基于人群活动恢复的开放空间灾害韧性度量研究——以杜苏芮台风为例",
+      "doi": "10.3969/j.issn.1000-811X.2026.01.017",
+      "year": 2026,
+      "journal": "灾害学",
+      "volume": "41",
+      "issue": "1",
+      "pages": "133–141",
+      "authors": [
+        "王会蒙",
+        "程圆圆",
+        "黄胜",
+        "易嘉伟",
+        "杜云艳",
+        "赵志远",
+        "冯险峰",
+        "刘耀辉"
+      ],
+      "institution": "中科院地理所",
+      "team": "杜云艳 / 黄胜 / 易嘉伟团队；山东建筑大学王会蒙 / 程圆圆 / 刘耀辉；福州大学赵志远（吴升团队合作归类）",
+      "institutions": [
+        "山东建筑大学",
+        "中国科学院地理科学与资源研究所",
+        "中国科学院大学",
+        "福州大学"
+      ],
+      "provider": "及刻 Jike（梦享）",
+      "source_confirmed": true,
+      "sdk_explicit": true,
+      "app_collection_confirmed": true,
+      "research_scope": "pioneer_named",
+      "provider_evidence_status": "primary_named",
+      "data_declaration": "本研究使用的人群移动轨迹数据来源于 Jike 平台（https://www.isjike.com），该平台通过软件开发工具包（Software Development Kit, SDK）采集授权用户的匿名位置数据（包括智能手机网络定位和蜂窝塔信号）。",
+      "data_form": "2023-07-03至08-13福州每日约5000万条位置到访记录；筛选约60万持续观测居民，评估829处开放空间。",
+      "sensor_mix": "原文明确SDK、智能手机网络定位及蜂窝塔信号；不改写为纯GPS/WiFi。",
+      "application": "台风后广场、公园和风景名胜的人群到访恢复与灾害韧性",
+      "use_method": "居民稳定性筛选、到访变化与恢复特征测度、影响因素分析",
+      "evidence_url": "https://www.ncpssd.cn/Literature/articleinfo?id=ZHX2026001018&type=journalArticle",
+      "evidence_section": "PDF第1页作者机构与基金；第2页§1.2数据来源",
+      "zotero_catalog_present": true,
+      "zotero_pdf_present": true,
+      "zotero_attachment_verified": true,
+      "funding": [
+        "42176205"
+      ],
+      "cooperation_label": "合作研究 · 中科院地理所 × 福州大学吴升团队；双重归类，统计计1篇",
+      "notes": "吴升团队合作归类依据用户确认；原文福州大学署名作者为赵志远，吴升本人不在作者列表。第一作者与另两名作者来自山东建筑大学。",
+      "publisher_metadata_verified": true,
+      "origins": [
+        "2026-10-10审读台账"
+      ],
+      "versions": [],
+      "legacy_provider_claims": [],
+      "bibliographic_status": "publisher_metadata_verified",
+      "publication_title_as_recorded": "灾害学",
+      "journal_family": "",
+      "field": "环境与生态",
+      "field_tags": [
+        "环境与生态",
+        "灾害与韧性"
+      ],
+      "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
+      "scope_tag": "reviewed_application_candidate",
+      "download_queue_status": [
+        "current_review_complete"
+      ]
+    },
+    {
+      "publication_type": "journal_article",
+      "catalog_status": "reviewed",
+      "curated_evidence": true,
+      "fulltext_read": true,
+      "pdf_downloaded": true,
+      "review_date": "2026-10-14",
+      "metadata_source": "出版方原文与PDF核验；DOI状态单独标示",
+      "fulltext_scope": "作者机构、数据来源与方法关键段已核验",
+      "id": "L90",
+      "title": "GAGNN: a geography-aware graph neural network for citywide commuting flows prediction",
+      "doi": "10.1016/j.jag.2026.105175",
+      "year": 2026,
+      "journal": "International Journal of Applied Earth Observation and Geoinformation",
+      "authors": [
+        "Youjun Tu",
+        "Peixiao Wang",
+        "Julie N. Y. Zhu",
+        "Zhiyuan Zhao",
+        "Junli Li",
+        "Sheng Wu"
+      ],
+      "institution": "福州大学",
+      "team": "吴升 / 赵志远 / 王培晓合作团队",
+      "provider": "供应商未具名",
+      "source_confirmed": false,
+      "provider_evidence_status": "undisclosed",
+      "research_scope": "pioneer_candidate",
+      "data_form": "福州2023年1–2月工作日定位记录；识别1374963条职住OD流。",
+      "data_declaration": "This study employs mobile phone location data collected on weekdays in Fuzhou from January to February 2023, provided by a location service operator.",
+      "application": "地理与语义邻接图支持的城市通勤流预测",
+      "use_method": "地理与语义邻接图支持的城市通勤流预测",
+      "evidence_url": "https://giserwang.github.io/papers/JAG-2026-02-14.pdf",
+      "evidence_section": "PDF第8页数据来源、表3与图6；第1页作者机构",
+      "pdf_source_url": "https://giserwang.github.io/papers/JAG-2026-02-14.pdf",
+      "pdf_sha256": "0f7e5e545076e100abfc2ba988048027707308c3364b9fe8a5e6f4cce12c1e2a",
+      "scope_reason": "已知合作团队的新研究，原文与数据时间口径已核；供应商未具名，保留待核。",
+      "zotero_attachment_verified": false,
+      "notes": "正文称GPS轨迹和位置服务商；未点名Jike/Moxing/Pioneer。",
+      "publisher_metadata_verified": true,
+      "origins": [
+        "2026-10-10审读台账"
+      ],
+      "versions": [],
+      "legacy_provider_claims": [],
+      "bibliographic_status": "publisher_metadata_verified",
+      "publication_title_as_recorded": "International Journal of Applied Earth Observation and Geoinformation",
+      "journal_family": "",
+      "field": "交通与出行行为",
+      "field_tags": [
+        "交通与出行行为",
+        "计算方法与数据基础设施"
+      ],
+      "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
+      "scope_tag": "reviewed_application_candidate",
+      "download_queue_status": [
+        "current_review_complete"
+      ]
+    },
+    {
+      "publication_type": "journal_article",
+      "catalog_status": "reviewed",
+      "curated_evidence": true,
+      "fulltext_read": true,
+      "pdf_downloaded": true,
+      "review_date": "2026-10-14",
+      "metadata_source": "出版方原文与PDF核验；DOI状态单独标示",
+      "fulltext_scope": "作者机构、数据来源与方法关键段已核验",
+      "id": "L91",
+      "title": "Predicting human-activity intensity in urban areas with a prior-enhanced probabilistic-deterministic model",
+      "doi": "10.1080/13658816.2025.2562250",
+      "year": 2026,
+      "journal": "International Journal of Geographical Information Science",
+      "authors": [
+        "Cheng Zhong",
+        "Sheng Wu",
+        "Peixiao Wang",
+        "Hengcai Zhang",
+        "Shifen Cheng",
+        "Feng Lu"
+      ],
+      "institution": "福州大学",
+      "team": "吴升 / 王培晓合作团队",
+      "provider": "供应商未具名",
+      "source_confirmed": false,
+      "provider_evidence_status": "undisclosed",
+      "research_scope": "pioneer_candidate",
+      "data_form": "福州鼓楼、台江、仓山885个500m网格，2023-03-01至28，15分钟人群活动强度。",
+      "data_declaration": "Human activity intensity was derived from anonymized mobile location data and used for model training, validation and testing.",
+      "application": "先验增强的概率—确定性人群活动强度预测",
+      "use_method": "先验增强的概率—确定性人群活动强度预测",
+      "evidence_url": "https://giserwang.github.io/papers/IJGIS-2025-09.pdf",
+      "evidence_section": "原文§4.1数据预处理与实验设置；结论Wi-Fi采样局限；首页DOI",
+      "pdf_source_url": "https://giserwang.github.io/papers/IJGIS-2025-09.pdf",
+      "pdf_sha256": "0671b6a253e839efdc93b61aeb7531b211ef5ae4a57b7f76f21b9f4c10f94531",
+      "scope_reason": "已知合作团队的新研究，原文与数据时间口径已核；供应商未具名，保留待核。",
+      "zotero_attachment_verified": false,
+      "notes": "结论明确关机或断开Wi-Fi会造成欠采样；正文亦讨论基站乒乓效应，不能仅据采样描述确定供应商。2025在线，2026正式卷期；与中文L46为独立论文，不能仅凭相近标题合并。",
+      "publisher_metadata_verified": true,
+      "origins": [
+        "2026-10-10审读台账"
+      ],
+      "versions": [],
+      "legacy_provider_claims": [],
+      "bibliographic_status": "publisher_metadata_verified",
+      "publication_title_as_recorded": "International Journal of Geographical Information Science",
+      "journal_family": "",
+      "field": "计算方法与数据基础设施",
+      "field_tags": [
+        "计算方法与数据基础设施"
+      ],
+      "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
+      "scope_tag": "reviewed_application_candidate",
+      "download_queue_status": [
+        "current_review_complete"
+      ]
+    },
+    {
+      "publication_type": "journal_article",
+      "catalog_status": "reviewed",
+      "curated_evidence": true,
+      "fulltext_read": true,
+      "pdf_downloaded": true,
+      "review_date": "2026-10-14",
+      "metadata_source": "出版方原文与PDF核验；DOI状态单独标示",
+      "fulltext_scope": "作者机构、数据来源与方法关键段已核验",
+      "id": "L92",
+      "title": "Predicting citywide human mobility with a graph-prior-enhanced euclidean convolutional network",
+      "doi": "10.1016/j.scs.2026.107720",
+      "year": 2026,
+      "journal": "Sustainable Cities and Society",
+      "authors": [
+        "Sheng Wu",
+        "Linbaizhi Wang",
+        "Peixiao Wang",
+        "Hengcai Zhang",
+        "Shifen Cheng",
+        "Xin Fu",
+        "Junhao Guo",
+        "Feng Lu"
+      ],
+      "institution": "福州大学",
+      "team": "吴升 / 王培晓合作团队",
+      "provider": "供应商未具名",
+      "source_confirmed": false,
+      "provider_evidence_status": "undisclosed",
+      "research_scope": "pioneer_candidate",
+      "data_form": "厦门712个、福州3164个村级单元；2023-04-01至06-30，共91天，15分钟OD流。",
+      "data_declaration": "In this study, we employed OD flow data from both Xiamen and Fuzhou to validate the predictive accuracy of the GPECN model.",
+      "application": "城市尺度细粒度OD流预测",
+      "use_method": "城市尺度细粒度OD流预测",
+      "evidence_url": "https://giserwang.github.io/papers/SCSI-2026-07.pdf",
+      "evidence_section": "PDF第8页§4.1 Data sources and data preprocessing；第1页作者机构",
+      "pdf_source_url": "https://giserwang.github.io/papers/SCSI-2026-07.pdf",
+      "pdf_sha256": "2800c8274735b637fb4b60c8c22f7a747479255c6d37ad3700b5e3b42fafae65",
+      "scope_reason": "已知合作团队的新研究，原文与数据时间口径已核；供应商未具名，保留待核。",
+      "zotero_attachment_verified": false,
+      "notes": "使用厦门与福州OD流，尚未在已审读数据段发现供应商或具体采集技术声明。",
+      "publisher_metadata_verified": true,
+      "origins": [
+        "2026-10-10审读台账"
+      ],
+      "versions": [],
+      "legacy_provider_claims": [],
+      "bibliographic_status": "publisher_metadata_verified",
+      "publication_title_as_recorded": "Sustainable Cities and Society",
+      "journal_family": "",
+      "field": "计算方法与数据基础设施",
+      "field_tags": [
+        "计算方法与数据基础设施"
+      ],
+      "classification_basis": "编者按标题及已核方法进行主题归类；不是原文声明，也不构成数据源证明",
+      "scope_tag": "reviewed_application_candidate",
+      "download_queue_status": [
+        "current_review_complete"
+      ]
+    },
+    {
       "id": "P240AD96D",
       "title": "Insights into population behavior during the COVID-19 pandemic from cell phone mobility data and manifold learning",
       "doi": "10.1038/s43588-021-00125-9",
@@ -11610,10 +11866,10 @@
     "source_counts": [
       {
         "source": "2026-10-10审读台账",
-        "input_rows": 88,
-        "mapped_rows": 88,
-        "unique_catalog_records": 88,
-        "new_records_at_merge_step": 88,
+        "input_rows": 92,
+        "mapped_rows": 92,
+        "unique_catalog_records": 92,
+        "new_records_at_merge_step": 92,
         "merged_rows": 0
       },
       {
@@ -11683,7 +11939,7 @@
     ],
     "source_overlap_matrix": {
       "2026-10-10审读台账": {
-        "2026-10-10审读台账": 88,
+        "2026-10-10审读台账": 92,
         "旧39篇候选清单": 16,
         "literature_commercial_mobile_location_data_2015_2026.csv": 10,
         "literature_commercial_mobile_location_data_addendum_2026.csv": 6,
@@ -12397,6 +12653,34 @@
         "row": 88,
         "source_row": null,
         "catalog_id": "L88",
+        "dedup_reason": "new_record"
+      },
+      {
+        "source": "2026-10-10审读台账",
+        "row": 89,
+        "source_row": null,
+        "catalog_id": "L89",
+        "dedup_reason": "new_record"
+      },
+      {
+        "source": "2026-10-10审读台账",
+        "row": 90,
+        "source_row": null,
+        "catalog_id": "L90",
+        "dedup_reason": "new_record"
+      },
+      {
+        "source": "2026-10-10审读台账",
+        "row": 91,
+        "source_row": null,
+        "catalog_id": "L91",
+        "dedup_reason": "new_record"
+      },
+      {
+        "source": "2026-10-10审读台账",
+        "row": 92,
+        "source_row": null,
+        "catalog_id": "L92",
         "dedup_reason": "new_record"
       },
       {
@@ -14498,16 +14782,16 @@
     "classification": "field/application为编辑归类；pending旧供应商标签均未视为原文确认。"
   },
   "counts": {
-    "total": 160,
-    "reviewed": 85,
+    "total": 164,
+    "reviewed": 89,
     "pending": 75,
-    "fulltext_read": 80,
-    "with_doi": 155,
-    "pdf_verified": 90,
+    "fulltext_read": 84,
+    "with_doi": 159,
+    "pdf_verified": 94,
     "supporting_resources": 7,
     "linked_versions": 1,
     "metadata_conflicts_need_review": 1,
-    "active": 149,
+    "active": 153,
     "excluded": 11
   }
 }

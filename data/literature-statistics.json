@@ -1,7 +1,7 @@
 {
-  "as_of": "2026-10-13",
+  "as_of": "2026-10-14",
   "method": "按出版物学术定位的编辑主领域归类，每刊一主类；非官方JCR/中科院分区，也非当前论文研究主题。会议论文与预印本不纳入期刊领域饼图。",
-  "annual_scope_note": "年度图默认当前收录期刊论文、会议论文和预印本共130篇；排除1条会议摘要。非全领域发文总量。2026为截至收录日。",
+  "annual_scope_note": "年度图默认当前收录期刊论文、会议论文和预印本共133篇；排除1条会议摘要。非全领域发文总量。2026为截至收录日。",
   "domain_order": [
     "综合科学",
     "地理与地理信息",
@@ -299,11 +299,12 @@
       "domain": "地理与地理信息",
       "rationale": "出版物以地理过程、空间分析、地理信息科学或地球观测为主要方向。",
       "paper_ids": [
-        "L29"
+        "L29",
+        "L90"
       ],
-      "record_count": 1,
-      "journal_article_count": 1,
-      "original_journal_article_count": 1
+      "record_count": 2,
+      "journal_article_count": 2,
+      "original_journal_article_count": 2
     },
     {
       "journal": "International Journal of Geographical Information Science",
@@ -311,12 +312,13 @@
       "domain": "地理与地理信息",
       "rationale": "出版物以地理过程、空间分析、地理信息科学或地球观测为主要方向。",
       "paper_ids": [
+        "L91",
         "P837C3A60",
         "P1F72D228"
       ],
-      "record_count": 2,
-      "journal_article_count": 2,
-      "original_journal_article_count": 2
+      "record_count": 3,
+      "journal_article_count": 3,
+      "original_journal_article_count": 3
     },
     {
       "journal": "International Journal of Health Geographics",
@@ -763,6 +765,18 @@
       "original_journal_article_count": 1
     },
     {
+      "journal": "Sustainable Cities and Society",
+      "canonical_journal": "Sustainable Cities and Society",
+      "domain": "城市规划与建筑",
+      "rationale": "出版物以城市研究、空间规划、城市分析或建筑与建成环境为主要方向。",
+      "paper_ids": [
+        "L92"
+      ],
+      "record_count": 1,
+      "journal_article_count": 1,
+      "original_journal_article_count": 1
+    },
+    {
       "journal": "Transportation Research Part D: Transport and Environment",
       "canonical_journal": "Transportation Research Part D: Transport and Environment",
       "domain": "交通与出行",
@@ -1001,6 +1015,18 @@
       "original_journal_article_count": 1
     },
     {
+      "journal": "灾害学",
+      "canonical_journal": "灾害学",
+      "domain": "环境生态与风险",
+      "rationale": "出版物以环境生态、土地及自然系统、可持续性或风险分析为主要方向。",
+      "paper_ids": [
+        "L89"
+      ],
+      "record_count": 1,
+      "journal_article_count": 1,
+      "original_journal_article_count": 1
+    },
+    {
       "journal": "热带地理",
       "canonical_journal": "热带地理",
       "domain": "地理与地理信息",
@@ -1062,7 +1088,7 @@
   ],
   "scopes": {
     "all": {
-      "record_count": 130,
+      "record_count": 134,
       "record_ids": [
         "L01",
         "L02",
@@ -1125,6 +1151,10 @@
         "L86",
         "L87",
         "L88",
+        "L89",
+        "L90",
+        "L91",
+        "L92",
         "P002C367F",
         "P01D7334F",
         "P0663A19C",
@@ -1195,7 +1225,7 @@
         "PFC132E92",
         "PFDDDACD2"
       ],
-      "annual_paper_count": 129,
+      "annual_paper_count": 133,
       "annual_paper_ids": [
         "L01",
         "L02",
@@ -1257,6 +1287,10 @@
         "L83",
         "L87",
         "L88",
+        "L89",
+        "L90",
+        "L91",
+        "L92",
         "P240AD96D",
         "P25D34630",
         "P3239D548",
@@ -1327,7 +1361,7 @@
         "P5C05191D",
         "P919700C8"
       ],
-      "journal_article_count": 119,
+      "journal_article_count": 123,
       "journal_article_ids": [
         "L01",
         "L02",
@@ -1389,6 +1423,10 @@
         "L83",
         "L87",
         "L88",
+        "L89",
+        "L90",
+        "L91",
+        "L92",
         "P240AD96D",
         "P25D34630",
         "P3239D548",
@@ -1453,7 +1491,7 @@
         "L26"
       ],
       "publication_types": {
-        "journal_article": 119,
+        "journal_article": 123,
         "conference_abstract": 1,
         "conference_or_proceedings": 9,
         "preprint": 1
@@ -1501,8 +1539,8 @@
         },
         {
           "year": 2026,
-          "count": 19,
-          "all_record_count": 19
+          "count": 23,
+          "all_record_count": 23
         }
       ],
       "journal_domains": [
@@ -1512,15 +1550,15 @@
         },
         {
           "domain": "地理与地理信息",
-          "count": 20
+          "count": 22
         },
         {
           "domain": "城市规划与建筑",
-          "count": 26
+          "count": 27
         },
         {
           "domain": "环境生态与风险",
-          "count": 8
+          "count": 9
         },
         {
           "domain": "交通与出行",
@@ -1541,7 +1579,7 @@
       ]
     },
     "confirmed": {
-      "record_count": 88,
+      "record_count": 89,
       "record_ids": [
         "L01",
         "L02",
@@ -1603,6 +1641,7 @@
         "L86",
         "L87",
         "L88",
+        "L89",
         "P06F06671",
         "P104EBB42",
         "P1DFAD697",
@@ -1632,7 +1671,7 @@
         "PEEE72CD1",
         "PFC132E92"
       ],
-      "annual_paper_count": 87,
+      "annual_paper_count": 88,
       "annual_paper_ids": [
         "L01",
         "L02",
@@ -1693,6 +1732,7 @@
         "L83",
         "L87",
         "L88",
+        "L89",
         "P240AD96D",
         "P25D34630",
         "P3239D548",
@@ -1722,7 +1762,7 @@
         "P5C05191D",
         "P919700C8"
       ],
-      "journal_article_count": 87,
+      "journal_article_count": 88,
       "journal_article_ids": [
         "L01",
         "L02",
@@ -1783,6 +1823,7 @@
         "L83",
         "L87",
         "L88",
+        "L89",
         "P240AD96D",
         "P25D34630",
         "P3239D548",
@@ -1816,7 +1857,7 @@
         "L26"
       ],
       "publication_types": {
-        "journal_article": 87,
+        "journal_article": 88,
         "conference_abstract": 1
       },
       "annual": [
@@ -1862,8 +1903,8 @@
         },
         {
           "year": 2026,
-          "count": 16,
-          "all_record_count": 16
+          "count": 17,
+          "all_record_count": 17
         }
       ],
       "journal_domains": [
@@ -1881,7 +1922,7 @@
         },
         {
           "domain": "环境生态与风险",
-          "count": 3
+          "count": 4
         },
         {
           "domain": "交通与出行",
@@ -1902,7 +1943,7 @@
       ]
     },
     "pioneer": {
-      "record_count": 30,
+      "record_count": 31,
       "record_ids": [
         "L21",
         "L25",
@@ -1933,9 +1974,10 @@
         "L85",
         "L86",
         "L87",
-        "L88"
+        "L88",
+        "L89"
       ],
-      "annual_paper_count": 29,
+      "annual_paper_count": 30,
       "annual_paper_ids": [
         "L21",
         "L25",
@@ -1965,9 +2007,10 @@
         "L86",
         "L83",
         "L87",
-        "L88"
+        "L88",
+        "L89"
       ],
-      "journal_article_count": 29,
+      "journal_article_count": 30,
       "journal_article_ids": [
         "L21",
         "L25",
@@ -1997,13 +2040,14 @@
         "L86",
         "L83",
         "L87",
-        "L88"
+        "L88",
+        "L89"
       ],
       "excluded_from_annual": [
         "L26"
       ],
       "publication_types": {
-        "journal_article": 29,
+        "journal_article": 30,
         "conference_abstract": 1
       },
       "annual": [
@@ -2049,8 +2093,8 @@
         },
         {
           "year": 2026,
-          "count": 12,
-          "all_record_count": 12
+          "count": 13,
+          "all_record_count": 13
         }
       ],
       "journal_domains": [
@@ -2068,7 +2112,7 @@
         },
         {
           "domain": "环境生态与风险",
-          "count": 1
+          "count": 2
         },
         {
           "domain": "交通与出行",
@@ -2359,9 +2403,12 @@
       ]
     },
     "pending": {
-      "record_count": 42,
+      "record_count": 45,
       "record_ids": [
         "L22",
+        "L90",
+        "L91",
+        "L92",
         "P002C367F",
         "P01D7334F",
         "P0663A19C",
@@ -2404,9 +2451,12 @@
         "PF912AF74",
         "PFDDDACD2"
       ],
-      "annual_paper_count": 42,
+      "annual_paper_count": 45,
       "annual_paper_ids": [
         "L22",
+        "L90",
+        "L91",
+        "L92",
         "P557B9764",
         "P837C3A60",
         "PAF9C787A",
@@ -2449,9 +2499,12 @@
         "P8A8A7B36",
         "P681BDA6E"
       ],
-      "journal_article_count": 32,
+      "journal_article_count": 35,
       "journal_article_ids": [
         "L22",
+        "L90",
+        "L91",
+        "L92",
         "P557B9764",
         "P837C3A60",
         "PAF9C787A",
@@ -2486,7 +2539,7 @@
       ],
       "excluded_from_annual": [],
       "publication_types": {
-        "journal_article": 32,
+        "journal_article": 35,
         "conference_or_proceedings": 9,
         "preprint": 1
       },
@@ -2533,8 +2586,8 @@
         },
         {
           "year": 2026,
-          "count": 3,
-          "all_record_count": 3
+          "count": 6,
+          "all_record_count": 6
         }
       ],
       "journal_domains": [
@@ -2544,11 +2597,11 @@
         },
         {
           "domain": "地理与地理信息",
-          "count": 3
+          "count": 5
         },
         {
           "domain": "城市规划与建筑",
-          "count": 8
+          "count": 9
         },
         {
           "domain": "环境生态与风险",
@@ -2574,7 +2627,7 @@
     }
   },
   "legacy_125_audit": {
-    "count": 124,
+    "count": 128,
     "warning": "旧publication_type将5条会议论文误记为journal_article。此125仅用于审计原数据，不应标成真实期刊论文总量。",
     "domains": [
       {
@@ -2583,15 +2636,15 @@
       },
       {
         "domain": "地理与地理信息",
-        "count": 21
+        "count": 23
       },
       {
         "domain": "城市规划与建筑",
-        "count": 26
+        "count": 27
       },
       {
         "domain": "环境生态与风险",
-        "count": 8
+        "count": 9
       },
       {
         "domain": "交通与出行",
@@ -2612,8 +2665,8 @@
     ]
   },
   "checks": {
-    "active_browse_unique_records": 130,
-    "unique_venue_strings": 79,
+    "active_browse_unique_records": 134,
+    "unique_venue_strings": 81,
     "duplicate_browse_ids": 0,
     "all_domains_mapped": true,
     "domain_counts_checked": true,

@@ -2105,6 +2105,21 @@
       "research_scope": "pioneer_named_procurement",
       "evidence_quote": "4.拟成交供应商：广州市梦享网络技术有限公司；5.拟成交价格：98,000.00 元",
       "source_group_id": "SZU-ARCH-JIKE-PROC"
+    },
+    {
+      "id": "CN-R27-OPENSPACE",
+      "title": "基于人群活动恢复的开放空间灾害韧性度量研究——以杜苏芮台风为例",
+      "url": "https://www.ncpssd.cn/Literature/articleinfo?id=ZHX2026001018&type=journalArticle",
+      "type": "journal_article",
+      "published": "2026-01",
+      "institution": "中科院地理所 / 山东建筑大学 / 福州大学",
+      "supplier": "及刻 Jike（梦享）",
+      "finding": "2023-07-03至08-13福州每日约5000万条位置到访记录；筛选约60万持续观测居民，评估829处开放空间。",
+      "verbatim_statement": "本研究使用的人群移动轨迹数据来源于 Jike 平台（https://www.isjike.com），该平台通过软件开发工具包（Software Development Kit, SDK）采集授权用户的匿名位置数据（包括智能手机网络定位和蜂窝塔信号）。",
+      "confidence": "原文明确",
+      "limits": "吴升团队合作归类依据用户确认；原文福州大学署名作者为赵志远，吴升本人不在作者列表。第一作者与另两名作者来自山东建筑大学。",
+      "research_scope": "pioneer_named",
+      "catalog_id": "L89"
     }
   ],
   "verified_edges": [
@@ -5024,12 +5039,13 @@
     {
       "id": "DOKSURI-DU-MOBILITY",
       "title": "杜云艳团队",
-      "institution": "中国科学院地理科学与资源研究所 / 中国科学院大学",
+      "institution": "中科院地理所",
       "team": "杜云艳团队",
-      "summary": "福建杜苏芮台风社区响应与韧性：原文Jike数据。腾讯位置请求研究移至独立平台分类。",
+      "summary": "杜苏芮台风社区响应与开放空间恢复；与福州大学吴升团队合作，论文双重归类、统计去重。",
       "source_ids": [
         "CN-S36",
-        "CN-S37"
+        "CN-S37",
+        "CN-R27-OPENSPACE"
       ],
       "supplier_names": [
         "及刻 / Jike（isjike.com；混合来源）",
@@ -5047,6 +5063,17 @@
           "provider": "及刻 / Jike（isjike.com；SDK + 网络/基站混合定位）",
           "data_statement": "正文2.2明确Jike Platform、用户同意的SDK采集，以及smartphone network positioning与cell tower signals，宣称约50米定位精度；不能归为纯GPS/WiFi核心样本。",
           "journal": "International Journal of Applied Earth Observation and Geoinformation"
+        },
+        {
+          "type": "期刊论文",
+          "catalog_id": "L89",
+          "title": "基于人群活动恢复的开放空间灾害韧性度量研究——以杜苏芮台风为例",
+          "year": 2026,
+          "journal": "灾害学",
+          "doi": "10.3969/j.issn.1000-811X.2026.01.017",
+          "url": "https://www.ncpssd.cn/Literature/articleinfo?id=ZHX2026001018&type=journalArticle",
+          "provider": "及刻 Jike（梦享）",
+          "data_statement": "本研究使用的人群移动轨迹数据来源于 Jike 平台（https://www.isjike.com），该平台通过软件开发工具包（Software Development Kit, SDK）采集授权用户的匿名位置数据（包括智能手机网络定位和蜂窝塔信号）。"
         }
       ],
       "relationships": [
@@ -5063,7 +5090,7 @@
       ],
       "supplier_relationship_group_id": "USER-CONFIRMED-PIONEER-MOXING-JIKE",
       "institution_id": "cas-igsnrr",
-      "collaborators": "福州大学 Academy of Digital China：Zhiyuan Zhao；清华大学公共管理学院：Jiale Qian（按本文作者单位）",
+      "collaborators": "福州大学吴升团队（用户确认合作关系；两篇论文福州大学署名作者为赵志远）；山东建筑大学等。",
       "studies": [
         {
           "id": "CAS-DU-R1",
@@ -5087,6 +5114,27 @@
           ],
           "summary": "L29直接披露及刻域名和SDK，但混合网络/基站定位；纳入灾害应用边界，作者单位不转写成采购。",
           "research_scope": "pioneer_named"
+        },
+        {
+          "id": "CAS-DU-R3",
+          "title": "开放空间灾害韧性与人群活动恢复",
+          "summary": "中科院地理所、山东建筑大学与福州大学合作；Jike数据原文具名。",
+          "outputs": [
+            {
+              "type": "期刊论文",
+              "catalog_id": "L89",
+              "title": "基于人群活动恢复的开放空间灾害韧性度量研究——以杜苏芮台风为例",
+              "year": 2026,
+              "journal": "灾害学",
+              "doi": "10.3969/j.issn.1000-811X.2026.01.017",
+              "url": "https://www.ncpssd.cn/Literature/articleinfo?id=ZHX2026001018&type=journalArticle",
+              "provider": "及刻 Jike（梦享）",
+              "data_statement": "本研究使用的人群移动轨迹数据来源于 Jike 平台（https://www.isjike.com），该平台通过软件开发工具包（Software Development Kit, SDK）采集授权用户的匿名位置数据（包括智能手机网络定位和蜂窝塔信号）。"
+            }
+          ],
+          "source_ids": [
+            "CN-R27-OPENSPACE"
+          ]
         }
       ],
       "procurements": [],
@@ -5347,6 +5395,61 @@
           ],
           "research_scope": "pioneer_candidate",
           "round12_record": true
+        },
+        {
+          "type": "期刊论文",
+          "title": "Rapid community response and resilience to typhoon Doksuri in coastal Fujian: insights from large-scale human mobility data",
+          "year": 2025,
+          "url": "https://recovery.preventionweb.net/media/115864/download?startDownload=20261010",
+          "catalog_id": "L29",
+          "doi": "10.1016/j.jag.2025.104910",
+          "provider": "及刻 / Jike（isjike.com；SDK + 网络/基站混合定位）",
+          "data_statement": "正文2.2明确Jike Platform、用户同意的SDK采集，以及smartphone network positioning与cell tower signals，宣称约50米定位精度；不能归为纯GPS/WiFi核心样本。",
+          "journal": "International Journal of Applied Earth Observation and Geoinformation"
+        },
+        {
+          "type": "期刊论文",
+          "catalog_id": "L89",
+          "title": "基于人群活动恢复的开放空间灾害韧性度量研究——以杜苏芮台风为例",
+          "year": 2026,
+          "journal": "灾害学",
+          "doi": "10.3969/j.issn.1000-811X.2026.01.017",
+          "url": "https://www.ncpssd.cn/Literature/articleinfo?id=ZHX2026001018&type=journalArticle",
+          "provider": "及刻 Jike（梦享）",
+          "data_statement": "本研究使用的人群移动轨迹数据来源于 Jike 平台（https://www.isjike.com），该平台通过软件开发工具包（Software Development Kit, SDK）采集授权用户的匿名位置数据（包括智能手机网络定位和蜂窝塔信号）。"
+        },
+        {
+          "type": "期刊论文",
+          "catalog_id": "L90",
+          "title": "GAGNN: a geography-aware graph neural network for citywide commuting flows prediction",
+          "year": 2026,
+          "journal": "International Journal of Applied Earth Observation and Geoinformation",
+          "doi": "10.1016/j.jag.2026.105175",
+          "url": "https://giserwang.github.io/papers/JAG-2026-02-14.pdf",
+          "provider": "供应商未具名",
+          "data_statement": "This study employs mobile phone location data collected on weekdays in Fuzhou from January to February 2023, provided by a location service operator."
+        },
+        {
+          "type": "期刊论文",
+          "catalog_id": "L91",
+          "title": "Predicting human-activity intensity in urban areas with a prior-enhanced probabilistic-deterministic model",
+          "year": 2026,
+          "journal": "International Journal of Geographical Information Science",
+          "doi": "10.1080/13658816.2025.2562250",
+          "url": "https://giserwang.github.io/papers/IJGIS-2025-09.pdf",
+          "provider": "供应商未具名",
+          "data_statement": "Human activity intensity was derived from anonymized mobile location data and used for model training, validation and testing."
+        },
+        {
+          "type": "期刊论文",
+          "catalog_id": "L92",
+          "title": "Predicting citywide human mobility with a graph-prior-enhanced euclidean convolutional network",
+          "year": 2026,
+          "journal": "Sustainable Cities and Society",
+          "doi": "10.1016/j.scs.2026.107720",
+          "url": "https://giserwang.github.io/papers/SCSI-2026-07.pdf",
+          "provider": "供应商未具名",
+          "data_statement": "In this study, we employed OD flow data from both Xiamen and Fuzhou to validate the predictive accuracy of the GPECN model."
         }
       ],
       "studies": [
@@ -5713,6 +5816,104 @@
           ],
           "research_scope": "pioneer_candidate",
           "round12_record": true
+        },
+        {
+          "id": "FZU-COLLAB-CAS-DU-R1",
+          "title": "合作 · 福建杜苏芮台风社区响应与韧性",
+          "outputs": [
+            {
+              "type": "期刊论文",
+              "title": "Rapid community response and resilience to typhoon Doksuri in coastal Fujian: insights from large-scale human mobility data",
+              "year": 2025,
+              "url": "https://recovery.preventionweb.net/media/115864/download?startDownload=20261010",
+              "catalog_id": "L29",
+              "doi": "10.1016/j.jag.2025.104910",
+              "provider": "及刻 / Jike（isjike.com；SDK + 网络/基站混合定位）",
+              "data_statement": "正文2.2明确Jike Platform、用户同意的SDK采集，以及smartphone network positioning与cell tower signals，宣称约50米定位精度；不能归为纯GPS/WiFi核心样本。",
+              "journal": "International Journal of Applied Earth Observation and Geoinformation"
+            }
+          ],
+          "source_ids": [
+            "CN-S36",
+            "CN-S37"
+          ],
+          "summary": "L29直接披露及刻域名和SDK，但混合网络/基站定位；纳入灾害应用边界，作者单位不转写成采购。",
+          "research_scope": "pioneer_named"
+        },
+        {
+          "id": "FZU-COLLAB-CAS-DU-R3",
+          "title": "合作 · 开放空间灾害韧性与人群活动恢复",
+          "summary": "中科院地理所、山东建筑大学与福州大学合作；Jike数据原文具名。",
+          "outputs": [
+            {
+              "type": "期刊论文",
+              "catalog_id": "L89",
+              "title": "基于人群活动恢复的开放空间灾害韧性度量研究——以杜苏芮台风为例",
+              "year": 2026,
+              "journal": "灾害学",
+              "doi": "10.3969/j.issn.1000-811X.2026.01.017",
+              "url": "https://www.ncpssd.cn/Literature/articleinfo?id=ZHX2026001018&type=journalArticle",
+              "provider": "及刻 Jike（梦享）",
+              "data_statement": "本研究使用的人群移动轨迹数据来源于 Jike 平台（https://www.isjike.com），该平台通过软件开发工具包（Software Development Kit, SDK）采集授权用户的匿名位置数据（包括智能手机网络定位和蜂窝塔信号）。"
+            }
+          ],
+          "source_ids": [
+            "CN-R27-OPENSPACE"
+          ]
+        },
+        {
+          "id": "FZU-WU-L90",
+          "title": "地理与语义邻接图支持的城市通勤流预测",
+          "outputs": [
+            {
+              "type": "期刊论文",
+              "catalog_id": "L90",
+              "title": "GAGNN: a geography-aware graph neural network for citywide commuting flows prediction",
+              "year": 2026,
+              "journal": "International Journal of Applied Earth Observation and Geoinformation",
+              "doi": "10.1016/j.jag.2026.105175",
+              "url": "https://giserwang.github.io/papers/JAG-2026-02-14.pdf",
+              "provider": "供应商未具名",
+              "data_statement": "This study employs mobile phone location data collected on weekdays in Fuzhou from January to February 2023, provided by a location service operator."
+            }
+          ],
+          "source_ids": []
+        },
+        {
+          "id": "FZU-WU-L91",
+          "title": "先验增强的概率—确定性人群活动强度预测",
+          "outputs": [
+            {
+              "type": "期刊论文",
+              "catalog_id": "L91",
+              "title": "Predicting human-activity intensity in urban areas with a prior-enhanced probabilistic-deterministic model",
+              "year": 2026,
+              "journal": "International Journal of Geographical Information Science",
+              "doi": "10.1080/13658816.2025.2562250",
+              "url": "https://giserwang.github.io/papers/IJGIS-2025-09.pdf",
+              "provider": "供应商未具名",
+              "data_statement": "Human activity intensity was derived from anonymized mobile location data and used for model training, validation and testing."
+            }
+          ],
+          "source_ids": []
+        },
+        {
+          "id": "FZU-WU-L92",
+          "title": "城市尺度细粒度OD流预测",
+          "outputs": [
+            {
+              "type": "期刊论文",
+              "catalog_id": "L92",
+              "title": "Predicting citywide human mobility with a graph-prior-enhanced euclidean convolutional network",
+              "year": 2026,
+              "journal": "Sustainable Cities and Society",
+              "doi": "10.1016/j.scs.2026.107720",
+              "url": "https://giserwang.github.io/papers/SCSI-2026-07.pdf",
+              "provider": "供应商未具名",
+              "data_statement": "In this study, we employed OD flow data from both Xiamen and Fuzhou to validate the predictive accuracy of the GPECN model."
+            }
+          ],
+          "source_ids": []
         }
       ],
       "procurements": [],
@@ -8373,7 +8574,7 @@
     {
       "id": "DOKSURI-DU-MOBILITY-map_platform",
       "title": "杜云艳团队",
-      "institution": "中国科学院地理科学与资源研究所 / 中国科学院大学",
+      "institution": "中科院地理所",
       "team": "杜云艳团队",
       "summary": "已明确的数据来源单列；不归泛先锋/先锋类，机构采购不能替代论文供方声明。",
       "source_ids": [
