@@ -14,7 +14,7 @@ for(const id of ['L41','L86','L84','L85']){assert(cardIds('#china-list').has(id)
 for(const id of ['L47','L51','L52','L65','L66']){assert(!cardIds('#pending-list').has(id));assert(!cardIds('#china-list').has(id));}
 assert(node('#china-list').innerHTML.includes('china-CN-S31'));assert(!node('#pending-evidence').innerHTML.includes('china-CN-S31'));
 for(const id of ['L41','L86','L44','L57','L59','L84','L85'])assert.equal(data.papers.find(p=>p.id===id).provider,'先锋数聚 / Pioneer Data');
-assert(node('#china-list').innerHTML.includes('HKU-YANG-P1'));assert(node('#china-list').innerHTML.includes('SHU-LI-P1'));assert(!node('#pending-list').innerHTML.includes('SHU-LI-P1'));
+assert(!node('#china-list').innerHTML.includes('HKU-YANG-P1'));assert(node('#institution-register-list').innerHTML.includes('香港大学'));assert.equal(data.institution_leads.records.length,12);assert(node('#china-list').innerHTML.includes('SHU-LI-P1'));assert(!node('#pending-list').innerHTML.includes('SHU-LI-P1'));
 for(const id of ['L87','L88'])assert(cardIds('#china-list').has(id));
 for(const id of ['R18-PROC-01','R18-PROC-02']) {
   assert(node('#china-list').innerHTML.includes(id),'Official named procurement belongs to 04');
@@ -25,7 +25,9 @@ node('#search').value='梦享';node('#search').listeners.input();
 for(const id of ['L29','L48','L68','L80','L83','L87','L88'])assert(cardIds('#china-list').has(id),'Company alias should also find papers stating only Jike');
 assert(!cardIds('#china-list').has('L21'),'The Jike alias must not relabel Moxing-only studies');
 node('#clear').listeners.click();
-for(const id of ['CN-R17-PKU-COOP','CN-R17-SYSU-COOP','CN-R17-TONGJI-CHEN','CN-R17-XCU-THESIS'])assert(node('#pending-evidence').innerHTML.includes(id));
+for(const id of ['CN-R17-TONGJI-CHEN','CN-R17-XCU-THESIS'])assert(node('#pending-evidence').innerHTML.includes(id));
+for(const id of ['CN-R17-PKU-COOP','CN-R17-SYSU-COOP']){assert(!node('#pending-evidence').innerHTML.includes(id));assert(data.institution_leads.records.some(r=>r.source_id===id));}
+assert(node('#institution-register-list').innerHTML.includes('人工智能研究院'));assert(node('#institution-register-list').innerHTML.includes('中山大学'));
 node('#search').value='田子坊';node('#search').listeners.input();assert(cardIds('#china-list').has('L80'));assert(!cardIds('#china-list').has('L21'));
 node('#clear').listeners.click();node('#pending-filter').value='pioneer';node('#pending-filter').listeners.change();
 equal(cardIds('#pending-list'),data.papers.filter(r=>data.browse.pending_ids.includes(r.id)&&r.research_scope==='pioneer_candidate').map(r=>r.id));
@@ -33,7 +35,7 @@ node('#pending-material').value='pdf';node('#pending-material').listeners.change
 assert([...cardIds('#pending-list')].every(id=>data.papers.find(r=>r.id===id).pdf_downloaded===true));
 node('#clear').listeners.click();node('#search').value='never-match-831124';node('#search').listeners.input();assert.equal(cardIds('#china-list').size,0);assert.equal(cardIds('#analog-list').size,0);assert.equal(cardIds('#pending-list').size,0);
 node('#clear').listeners.click();
-const rendered=['#china-list','#analog-list','#pending-list','#pending-evidence'].map(id=>node(id).innerHTML).join('');
+const rendered=['#china-list','#analog-list','#pending-list','#pending-evidence','#institution-register-list'].map(id=>node(id).innerHTML).join('');
 const ids=[...rendered.matchAll(/\sid="([^"]+)"/g)].map(m=>m[1]);
 const duplicates=ids.filter((id,i)=>ids.indexOf(id)!==i);assert.equal(duplicates.length,0,'Duplicate DOM IDs: '+duplicates.join(', '));
 const sections=[...html.matchAll(/<section id="([^"]+)"/g)].map(m=>m[1]);

@@ -1,0 +1,127 @@
+{
+  "as_of": "2026-10-14",
+  "status": "阶段性归档；暂停主动扩检",
+  "scope": "机构层面的采购、客户或合作关系，不等同于某篇论文采用相应数据；不计入已确认论文数。",
+  "records": [
+    {
+      "id": "hku-yang",
+      "institution": "香港大学",
+      "team": "杨天人 Tianren Yang 团队",
+      "supplier": "及刻 Jike（梦享）",
+      "basis": "闭源采购确认",
+      "category": "specific",
+      "summary": "用户通过闭源信息确认团队购买了 Jike 数据；尚未对应到明确采用该批数据的发表论文。",
+      "note": "此前核出的百度慧眼论文与微信小程序调查已分流，不用采购关系反推其数据来源。",
+      "source_id": "CN-S38",
+      "procurement_id": "HKU-YANG-P1"
+    },
+    {
+      "id": "pku-ai",
+      "institution": "北京大学",
+      "team": "人工智能研究院；具体团队未明",
+      "supplier": "摸星科技 Moxing（先锋关联）",
+      "basis": "公众号合作报道 · 用户提供",
+      "category": "specific",
+      "summary": "据用户提供的“摸云团”2025年12月报道，摸星科技与北京大学人工智能研究院完成产学研项目合作。",
+      "note": "合作关系已有报道线索；具体采购、数据产品与论文尚未对应。此前客户名单中的北大其他团队也未明确。",
+      "source_id": "CN-R17-PKU-COOP",
+      "source_url": "https://mp.weixin.qq.com/s/dIXu1UwoPDSMtV2qyC5F1A"
+    },
+    {
+      "id": "sysu-coop",
+      "institution": "中山大学",
+      "team": "具体团队未明",
+      "supplier": "摸星科技 Moxing（先锋关联）",
+      "basis": "公众号合作报道 · 用户提供",
+      "category": "specific",
+      "summary": "据用户提供的“摸云团”2024年6月报道，摸星科技联合中山大学开展城市动态分析，涉及人口、经济和交通等数据。",
+      "note": "报道涉及重庆、成都、西安、武汉及新疆、吐鲁番等地域；具体交付产品与论文尚未对应。",
+      "source_id": "CN-R17-SYSU-COOP",
+      "source_url": "https://mp.weixin.qq.com/s/6MoXxhf8-F69XSIEh6eMvw"
+    },
+    {
+      "id": "tsinghua",
+      "institution": "清华大学",
+      "team": "团队未明确",
+      "supplier": "先锋数聚关联 · 具体交付主体未明",
+      "basis": "供应商客户信息 · 用户提供",
+      "category": "institution_only",
+      "summary": "用户此前提供的供应商服务院校名单包含清华大学；尚未把采购关系对应到具体团队、批次和论文。"
+    },
+    {
+      "id": "tongji",
+      "institution": "同济大学",
+      "team": "采购团队未明确",
+      "supplier": "先锋数聚关联 · 具体交付主体未明",
+      "basis": "供应商客户信息 · 用户提供",
+      "category": "institution_only",
+      "summary": "用户此前提供的供应商服务院校名单包含同济大学；院校层面的采购线索尚未对应到明确成果。",
+      "note": "04.2已有的跨校合作成果保留；此处记录尚未定位的采购团队，不重复计为论文。"
+    },
+    {
+      "id": "seu",
+      "institution": "东南大学",
+      "team": "团队未明确",
+      "supplier": "先锋数聚关联 · 具体交付主体未明",
+      "basis": "供应商客户信息 · 用户提供",
+      "category": "institution_only",
+      "summary": "用户提供过利用行动轨迹变化研究社区防灾减灾能力的线索；具体采购团队与发表成果尚未明确。",
+      "note": "杨俊彦相关论文按用户要求搁置，不据此确认供应商。"
+    },
+    {
+      "id": "nju",
+      "institution": "南京大学",
+      "team": "团队未明确",
+      "supplier": "先锋数聚关联 · 具体交付主体未明",
+      "basis": "供应商客户信息 · 用户提供",
+      "category": "institution_only",
+      "summary": "用户此前提供的供应商服务院校名单包含南京大学；尚未对应到明确采用该来源数据的论文。"
+    },
+    {
+      "id": "tju",
+      "institution": "天津大学",
+      "team": "团队未明确",
+      "supplier": "先锋数聚关联 · 具体交付主体未明",
+      "basis": "供应商客户信息 · 用户提供",
+      "category": "institution_only",
+      "summary": "用户此前提供的供应商服务院校名单包含天津大学；采购团队、批次和论文尚未对应。"
+    },
+    {
+      "id": "bjtu",
+      "institution": "北京交通大学",
+      "team": "团队未明确",
+      "supplier": "先锋数聚关联 · 具体交付主体未明",
+      "basis": "供应商客户信息 · 用户提供",
+      "category": "institution_only",
+      "summary": "用户此前提供的供应商服务院校名单包含北京交通大学；采购团队、批次和论文尚未对应。"
+    },
+    {
+      "id": "sjtu",
+      "institution": "上海交通大学",
+      "team": "团队未明确",
+      "supplier": "先锋数聚关联 · 具体交付主体未明",
+      "basis": "供应商客户信息 · 用户提供",
+      "category": "institution_only",
+      "summary": "用户此前提供的供应商服务院校名单包含上海交通大学；尚未对应到明确采用该来源数据的论文。"
+    },
+    {
+      "id": "scu",
+      "institution": "四川大学",
+      "team": "团队未明确",
+      "supplier": "先锋数聚关联 · 具体交付主体未明",
+      "basis": "供应商客户信息 · 用户提供",
+      "category": "institution_only",
+      "summary": "用户此前提供的供应商服务院校名单包含四川大学；采购团队、批次和论文尚未对应。"
+    },
+    {
+      "id": "cqu",
+      "institution": "重庆大学",
+      "team": "团队未明确",
+      "supplier": "先锋数聚关联 · 具体交付主体未明",
+      "basis": "供应商客户信息 · 用户提供",
+      "category": "institution_only",
+      "summary": "用户此前提供的供应商服务院校名单包含重庆大学；尚未对应到明确采用该来源数据的论文。",
+      "note": "已核实为联通或运动应用数据的论文仍排除，不因院校采购线索重新纳入。"
+    }
+  ]
+}

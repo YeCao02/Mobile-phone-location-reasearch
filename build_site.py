@@ -81,6 +81,8 @@ def public_data(source):
     assert len({(r['provider_id'], r['paper_id']) for r in usage['associations']}) == len(usage['associations']), 'Duplicate supplier-paper association'
     secondary_scopes = {'map_platform', 'other_commercial', 'carrier_boundary', 'indoor_wifi_boundary', 'method_boundary_candidate'}
     result = {'as_of': china.get('as_of', '2026-10-11'), 'providers': providers, 'provider_usage': usage, 'papers': papers, 'china': [r for r in sources if r.get('research_scope') not in secondary_scopes], 'china_groups': [g for g in research_groups if g.get('research_scope') not in secondary_scopes], 'china_source_aliases': source_aliases, 'coverage': coverage, 'edges': edges, 'secondary_sources': [r for r in sources if r.get('research_scope') in secondary_scopes], 'secondary_groups': [g for g in research_groups if g.get('research_scope') in secondary_scopes], 'excluded_papers': excluded_papers, 'scope_policy': china.get('scope_policy', {}).get('rules', [])}
+    institution_path = source / 'institution_leads.json'
+    result['institution_leads'] = json.loads(institution_path.read_text(encoding='utf-8')) if institution_path.exists() else {'records': []}
     # Browsing categories are paper-level decisions, independent of reading/PDF progress.
     analog_ids = {p['id'] for p in usage['providers'] if p.get('profile_group') == 'original_21'} | {'getui', 'aurora', 'in_loco', 'descartes_labs', 'talkingdata'}
     use_roles = {'mobility', 'mixed_mobility', 'platform_aggregate', 'demographic_profile'}
